@@ -1,0 +1,835 @@
+{
+    "corpus_sha256":  "7b88f23ceef19829e576326d804a87b31f9eec2ddf32962cb8774ba1cc64dd8b",
+    "native_vcl_verified":  false,
+    "cases":  [
+                  {
+                      "width":  53,
+                      "height":  58,
+                      "id":  "current-vessel-0",
+                      "operations":  [
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  53,
+                                             "bottom":  58,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  31,
+                                             "right":  53,
+                                             "bottom":  58,
+                                             "pen_color":  14193802,
+                                             "brush_color":  16559521,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  53,
+                                             "bottom":  31,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  31,
+                                             "right":  53,
+                                             "bottom":  58,
+                                             "pen_color":  14193802,
+                                             "brush_color":  16777215,
+                                             "brush_style":  1
+                                         }
+                                     ],
+                      "stretch_mode":  1,
+                      "returned_pixel_format":  32,
+                      "pixel_sha256":  "805f68913c8acad08ea34cfd6c5816fe97c71ed61161f9934c139f02be5f6c7b",
+                      "native_index":  0,
+                      "bitmap_format":  32,
+                      "bgra":  "////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hANiUigDYlIoA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA2JSKANiUigD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQD8raEA/K2hAPytoQDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigDYlIoA2JSKANiUigA=",
+                      "stages":  [
+                                     {
+                                         "stage":  "clear_white",
+                                         "native_function":  "0040A4B8",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  53,
+                                                                "bottom":  58,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "liquid",
+                                         "native_function":  "00471650",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  31,
+                                                                "right":  53,
+                                                                "bottom":  58,
+                                                                "pen_color":  14193802,
+                                                                "brush_color":  16559521,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "gas",
+                                         "native_function":  "0047692C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  53,
+                                                                "bottom":  31,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "suspended_particles",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "not_replayed",
+                                         "reason":  "Retained particle layers not captured; pool gas delta+3CC0=0 is an explicit unobserved hypothesis, not a captured field"
+                                     },
+                                     {
+                                         "stage":  "surface_outline",
+                                         "native_function":  "00473E6C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  31,
+                                                                "right":  53,
+                                                                "bottom":  58,
+                                                                "pen_color":  14193802,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  1
+                                                            }
+                                                        ],
+                                         "enabled":  true
+                                     },
+                                     {
+                                         "stage":  "settled_solid",
+                                         "native_function":  "004744DC",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "native_zero_no_operations"
+                                     }
+                                 ],
+                      "observed_pointer":  "0x0d960000"
+                  },
+                  {
+                      "width":  30,
+                      "height":  52,
+                      "id":  "current-vessel-1",
+                      "operations":  [
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  30,
+                                             "bottom":  52,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  31,
+                                             "right":  30,
+                                             "bottom":  52,
+                                             "pen_color":  14341056,
+                                             "brush_color":  16775137,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  30,
+                                             "bottom":  31,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  31,
+                                             "right":  30,
+                                             "bottom":  52,
+                                             "pen_color":  14341056,
+                                             "brush_color":  16777215,
+                                             "brush_style":  1
+                                         }
+                                     ],
+                      "stretch_mode":  1,
+                      "returned_pixel_format":  32,
+                      "pixel_sha256":  "46d246c9e52fa2ac9a59b5b909f9ebd949b60758ce434bb4fc5eb5cb5851f506",
+                      "native_index":  1,
+                      "bitmap_format":  32,
+                      "bgra":  "////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA",
+                      "stages":  [
+                                     {
+                                         "stage":  "clear_white",
+                                         "native_function":  "0040A4B8",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  30,
+                                                                "bottom":  52,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "liquid",
+                                         "native_function":  "00471650",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  31,
+                                                                "right":  30,
+                                                                "bottom":  52,
+                                                                "pen_color":  14341056,
+                                                                "brush_color":  16775137,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "gas",
+                                         "native_function":  "0047692C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  30,
+                                                                "bottom":  31,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "suspended_particles",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "not_replayed",
+                                         "reason":  "Retained particle layers not captured; pool gas delta+3CC0=0 is an explicit unobserved hypothesis, not a captured field"
+                                     },
+                                     {
+                                         "stage":  "surface_outline",
+                                         "native_function":  "00473E6C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  31,
+                                                                "right":  30,
+                                                                "bottom":  52,
+                                                                "pen_color":  14341056,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  1
+                                                            }
+                                                        ],
+                                         "enabled":  true
+                                     },
+                                     {
+                                         "stage":  "settled_solid",
+                                         "native_function":  "004744DC",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "native_zero_no_operations"
+                                     }
+                                 ],
+                      "observed_pointer":  "0x0d964380"
+                  },
+                  {
+                      "width":  15,
+                      "height":  76,
+                      "id":  "current-vessel-2",
+                      "operations":  [
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  15,
+                                             "bottom":  76,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  37,
+                                             "right":  15,
+                                             "bottom":  76,
+                                             "pen_color":  14341056,
+                                             "brush_color":  16775137,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  15,
+                                             "bottom":  37,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  37,
+                                             "right":  15,
+                                             "bottom":  76,
+                                             "pen_color":  14341056,
+                                             "brush_color":  16777215,
+                                             "brush_style":  1
+                                         }
+                                     ],
+                      "stretch_mode":  1,
+                      "returned_pixel_format":  32,
+                      "pixel_sha256":  "1cb7a907080c9a8d82495f0cfa96d533cf4b8f9b0ed1d99a2274738e7feea4c6",
+                      "native_index":  2,
+                      "bitmap_format":  32,
+                      "bgra":  "////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA",
+                      "stages":  [
+                                     {
+                                         "stage":  "clear_white",
+                                         "native_function":  "0040A4B8",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  15,
+                                                                "bottom":  76,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "liquid",
+                                         "native_function":  "00471650",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  37,
+                                                                "right":  15,
+                                                                "bottom":  76,
+                                                                "pen_color":  14341056,
+                                                                "brush_color":  16775137,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "gas",
+                                         "native_function":  "0047692C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  15,
+                                                                "bottom":  37,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "suspended_particles",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "not_replayed",
+                                         "reason":  "Retained particle layers not captured; pool gas delta+3CC0=0 is an explicit unobserved hypothesis, not a captured field"
+                                     },
+                                     {
+                                         "stage":  "surface_outline",
+                                         "native_function":  "00473E6C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  37,
+                                                                "right":  15,
+                                                                "bottom":  76,
+                                                                "pen_color":  14341056,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  1
+                                                            }
+                                                        ],
+                                         "enabled":  true
+                                     },
+                                     {
+                                         "stage":  "settled_solid",
+                                         "native_function":  "004744DC",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "native_zero_no_operations"
+                                     }
+                                 ],
+                      "observed_pointer":  "0x0d968700"
+                  },
+                  {
+                      "width":  53,
+                      "height":  58,
+                      "id":  "current-vessel-3",
+                      "operations":  [
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  53,
+                                             "bottom":  58,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  31,
+                                             "right":  53,
+                                             "bottom":  58,
+                                             "pen_color":  7843533,
+                                             "brush_color":  9161968,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  53,
+                                             "bottom":  31,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  31,
+                                             "right":  53,
+                                             "bottom":  58,
+                                             "pen_color":  7843533,
+                                             "brush_color":  16777215,
+                                             "brush_style":  1
+                                         }
+                                     ],
+                      "stretch_mode":  1,
+                      "returned_pixel_format":  32,
+                      "pixel_sha256":  "4a14fb0ff98b4c8a707d5b01c3fa1d42408b5d6468977fe052203890655aca60",
+                      "native_index":  3,
+                      "bitmap_format":  32,
+                      "bgra":  "////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAHeuzQB3rs0Ai8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAd67NAHeuzQCLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8ACLzPAAi8zwAIvM8AB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQB3rs0Ad67NAHeuzQA=",
+                      "stages":  [
+                                     {
+                                         "stage":  "clear_white",
+                                         "native_function":  "0040A4B8",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  53,
+                                                                "bottom":  58,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "liquid",
+                                         "native_function":  "00471650",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  31,
+                                                                "right":  53,
+                                                                "bottom":  58,
+                                                                "pen_color":  7843533,
+                                                                "brush_color":  9161968,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "gas",
+                                         "native_function":  "0047692C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  53,
+                                                                "bottom":  31,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "suspended_particles",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "not_replayed",
+                                         "reason":  "Retained particle layers not captured; pool gas delta+3CC0=0 is an explicit unobserved hypothesis, not a captured field"
+                                     },
+                                     {
+                                         "stage":  "surface_outline",
+                                         "native_function":  "00473E6C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  31,
+                                                                "right":  53,
+                                                                "bottom":  58,
+                                                                "pen_color":  7843533,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  1
+                                                            }
+                                                        ],
+                                         "enabled":  true
+                                     },
+                                     {
+                                         "stage":  "settled_solid",
+                                         "native_function":  "004744DC",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "native_zero_no_operations"
+                                     }
+                                 ],
+                      "observed_pointer":  "0x0d96ca80"
+                  },
+                  {
+                      "width":  30,
+                      "height":  52,
+                      "id":  "current-vessel-4",
+                      "operations":  [
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  30,
+                                             "bottom":  52,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  30,
+                                             "right":  30,
+                                             "bottom":  52,
+                                             "pen_color":  14341056,
+                                             "brush_color":  16775137,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  30,
+                                             "bottom":  30,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  30,
+                                             "right":  30,
+                                             "bottom":  52,
+                                             "pen_color":  14341056,
+                                             "brush_color":  16777215,
+                                             "brush_style":  1
+                                         }
+                                     ],
+                      "stretch_mode":  1,
+                      "returned_pixel_format":  32,
+                      "pixel_sha256":  "04814f8e98cfa04844aee308fc469b9dc6bd0cb0adb971b7bd53251b6b02b638",
+                      "native_index":  4,
+                      "bitmap_format":  32,
+                      "bgra":  "////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QD/9+EA//fhAP/34QDa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA2tPAANrTwADa08AA",
+                      "stages":  [
+                                     {
+                                         "stage":  "clear_white",
+                                         "native_function":  "0040A4B8",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  30,
+                                                                "bottom":  52,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "liquid",
+                                         "native_function":  "00471650",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  30,
+                                                                "right":  30,
+                                                                "bottom":  52,
+                                                                "pen_color":  14341056,
+                                                                "brush_color":  16775137,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "gas",
+                                         "native_function":  "0047692C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  30,
+                                                                "bottom":  30,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "suspended_particles",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "not_replayed",
+                                         "reason":  "Retained particle layers not captured; pool gas delta+3CC0=0 is an explicit unobserved hypothesis, not a captured field"
+                                     },
+                                     {
+                                         "stage":  "surface_outline",
+                                         "native_function":  "00473E6C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  30,
+                                                                "right":  30,
+                                                                "bottom":  52,
+                                                                "pen_color":  14341056,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  1
+                                                            }
+                                                        ],
+                                         "enabled":  true
+                                     },
+                                     {
+                                         "stage":  "settled_solid",
+                                         "native_function":  "004744DC",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "native_zero_no_operations"
+                                     }
+                                 ],
+                      "observed_pointer":  "0x0d970e00"
+                  },
+                  {
+                      "width":  15,
+                      "height":  76,
+                      "id":  "current-vessel-5",
+                      "operations":  [
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  15,
+                                             "bottom":  76,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         },
+                                         {
+                                             "op":  "rectangle",
+                                             "left":  0,
+                                             "top":  0,
+                                             "right":  15,
+                                             "bottom":  76,
+                                             "pen_color":  16777215,
+                                             "brush_color":  16777215,
+                                             "brush_style":  0
+                                         }
+                                     ],
+                      "stretch_mode":  1,
+                      "returned_pixel_format":  32,
+                      "pixel_sha256":  "482025f28717ccaa054b0cbf4aceced72bad40cffc519638f3ad51429189ddde",
+                      "native_index":  5,
+                      "bitmap_format":  32,
+                      "bgra":  "////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A",
+                      "stages":  [
+                                     {
+                                         "stage":  "clear_white",
+                                         "native_function":  "0040A4B8",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  15,
+                                                                "bottom":  76,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "liquid",
+                                         "native_function":  "00471650",
+                                         "operations":  [
+
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "gas",
+                                         "native_function":  "0047692C",
+                                         "operations":  [
+                                                            {
+                                                                "op":  "rectangle",
+                                                                "left":  0,
+                                                                "top":  0,
+                                                                "right":  15,
+                                                                "bottom":  76,
+                                                                "pen_color":  16777215,
+                                                                "brush_color":  16777215,
+                                                                "brush_style":  0
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "stage":  "suspended_particles",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "not_replayed",
+                                         "reason":  "Retained particle layers not captured; pool gas delta+3CC0=0 is an explicit unobserved hypothesis, not a captured field"
+                                     },
+                                     {
+                                         "stage":  "surface_outline",
+                                         "native_function":  "00473E6C",
+                                         "operations":  [
+
+                                                        ],
+                                         "enabled":  false
+                                     },
+                                     {
+                                         "stage":  "settled_solid",
+                                         "native_function":  "004744DC",
+                                         "operations":  [
+
+                                                        ],
+                                         "status":  "native_zero_no_operations"
+                                     }
+                                 ],
+                      "observed_pointer":  "0x0d97c000"
+                  }
+              ],
+    "input_capture":  {
+                          "path":  "evidence/windows-runtime/precision-and-graphics-2026-10-14/full80-naoh.json",
+                          "sha256":  "9f6793c5f8729e0dc99ae35de1446230c07f45c7c6c7e1b35c154c3b99b99887",
+                          "process_id":  9348,
+                          "snapshot_label":  "snapshot"
+                      },
+    "source_plan":  "0040A4B8: clear,471650 liquid,47692C gas,particles(unresolved),473E6C surface,4744DC settled(empty),overlays/FC+F8+F4 composition(excluded)",
+    "format":  "chemlab-current-material-gdi-result-v1",
+    "created_utc":  "2026-10-14T09:43:17.5818717Z",
+    "scope":  "Uncomposed native32 material rectangle references only. No retained particles, overlays, apparatus SRCPAINT, fill blend or original VCL profile attestation.",
+    "gdi_source_sha256":  "621b369d85290f10ee0b0333709f10c8e651593dd7a04194232886dedefde466",
+    "runtime":  {
+                    "powershell":  "5.1.26100.9168",
+                    "process_64bit":  true,
+                    "os_version":  "Microsoft Windows NT 10.0.26100.0",
+                    "system_dlls":  [
+                                        {
+                                            "path":  "C:\\WINDOWS\\system32\\gdi32.dll",
+                                            "sha256":  "a18827ff97b4a26da59f73284b8865082f900e11051a7ceb74a0490d3b0ae2e5",
+                                            "name":  "gdi32.dll",
+                                            "version":  "10.0.26100.8737 (WinBuild.160101.0800)"
+                                        },
+                                        {
+                                            "path":  "C:\\WINDOWS\\system32\\gdi32full.dll",
+                                            "sha256":  "c8310714dba5fdc5944cf4966ddcbda6973563d50758bc93a239c18c8897f5ca",
+                                            "name":  "gdi32full.dll",
+                                            "version":  "10.0.26100.9168 (WinBuild.160101.0800)"
+                                        },
+                                        {
+                                            "path":  "C:\\WINDOWS\\system32\\win32u.dll",
+                                            "sha256":  "fc3fc1eb23b54223f7f1babb24d6c61fe47a4aa264ca95d302aed303a94fee63",
+                                            "name":  "win32u.dll",
+                                            "version":  "10.0.26100.9168 (WinBuild.160101.0800)"
+                                        },
+                                        {
+                                            "path":  "C:\\WINDOWS\\system32\\user32.dll",
+                                            "sha256":  "63bee3cc6e25d7f7032f44362732432189ec87967fbe3971276e7625acc47016",
+                                            "name":  "user32.dll",
+                                            "version":  "10.0.26100.8875 (WinBuild.160101.0800)"
+                                        }
+                                    ],
+                    "desktop_bits":  32
+                },
+    "original_binary_sha256":  "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+    "runner_sha256":  "d7afa325184eddf07a6b3d9eccf0f2b67de7250fcf29ac9dba1c93d6ddb1548a"
+}

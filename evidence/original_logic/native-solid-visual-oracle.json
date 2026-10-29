@@ -1,0 +1,7641 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x004744DC",
+  "contract": "Original solid volume/color/shape arithmetic executes; VCL primitive, texture draw, pixel tint and white-key composition are recorded presentation boundaries; no random particle algorithm or GDI pixel claim.",
+  "reagent_fields": {
+    "H2O(液体)": {
+      "molar_mass_bits": "6abc749318043240",
+      "density_bits": "000000000000f03f",
+      "color_integer": 16775137
+    },
+    "Zn(固体)": {
+      "molar_mass_bits": "295c8fc2f5585040",
+      "density_bits": "0000000000000040",
+      "color_integer": 15658734
+    },
+    "Cu(OH)2(固体)": {
+      "molar_mass_bits": "4e62105839645840",
+      "density_bits": "0000000000000040",
+      "color_integer": 11468800
+    }
+  },
+  "cases": [
+    {
+      "name": "type101-sub0-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 109,
+          "end_x": 0,
+          "end_y": 109,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub0-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 105,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "start_x": 41,
+          "start_y": 104,
+          "end_x": 0,
+          "end_y": 104,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub0-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 90,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "start_x": 41,
+          "start_y": 89,
+          "end_x": 0,
+          "end_y": 89,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub0-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub45-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 45,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": -7,
+          "top": 95,
+          "right": 8,
+          "bottom": 108,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": -7,
+          "top": 95,
+          "right": 8,
+          "bottom": 108,
+          "start_x": 41,
+          "start_y": 102,
+          "end_x": 0,
+          "end_y": 102,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub45-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 45,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": -2,
+          "top": 90,
+          "right": 13,
+          "bottom": 103,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 95,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": -2,
+          "top": 90,
+          "right": 13,
+          "bottom": 103,
+          "start_x": 41,
+          "start_y": 97,
+          "end_x": 0,
+          "end_y": 97,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub45-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 45,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 12,
+          "top": 75,
+          "right": 28,
+          "bottom": 88,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 80,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 12,
+          "top": 75,
+          "right": 28,
+          "bottom": 88,
+          "start_x": 41,
+          "start_y": 82,
+          "end_x": 0,
+          "end_y": 82,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub45-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 45,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 93,
+          "top": -5,
+          "right": 109,
+          "bottom": 8,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 93,
+          "top": -5,
+          "right": 109,
+          "bottom": 8,
+          "start_x": 41,
+          "start_y": 1,
+          "end_x": 0,
+          "end_y": 1,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub97-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 97,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 4,
+          "top": 10,
+          "right": 5,
+          "bottom": 124,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 4,
+          "top": 10,
+          "right": 5,
+          "bottom": 124,
+          "start_x": 41,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub97-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 97,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 4,
+          "top": 10,
+          "right": 9,
+          "bottom": 124,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 4,
+          "top": 10,
+          "right": 9,
+          "bottom": 124,
+          "start_x": 41,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub97-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 97,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 4,
+          "top": 9,
+          "right": 21,
+          "bottom": 121,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 4,
+          "top": 9,
+          "right": 21,
+          "bottom": 121,
+          "start_x": 41,
+          "start_y": 65,
+          "end_x": 0,
+          "end_y": 65,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type101-sub97-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 101,
+      "subtype": 97,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 2,
+          "right": 87,
+          "bottom": 108,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 2,
+          "right": 87,
+          "bottom": 108,
+          "start_x": 41,
+          "start_y": 55,
+          "end_x": 0,
+          "end_y": 55,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type102-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type102-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 105,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "start_x": 41,
+          "start_y": 105,
+          "end_x": 0,
+          "end_y": 105,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type102-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 90,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "start_x": 41,
+          "start_y": 90,
+          "end_x": 0,
+          "end_y": 90,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type102-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type103-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 103,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type103-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 103,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 97,
+          "right": 41,
+          "bottom": 119,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 109,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 97,
+          "right": 41,
+          "bottom": 119,
+          "start_x": 41,
+          "start_y": 108,
+          "end_x": 0,
+          "end_y": 108,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type103-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 103,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 91,
+          "right": 41,
+          "bottom": 113,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 103,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 91,
+          "right": 41,
+          "bottom": 113,
+          "start_x": 41,
+          "start_y": 103,
+          "end_x": 0,
+          "end_y": 103,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type103-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 103,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type104-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 104,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type104-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 104,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 97,
+          "right": 41,
+          "bottom": 119,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 109,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 97,
+          "right": 41,
+          "bottom": 119,
+          "start_x": 41,
+          "start_y": 108,
+          "end_x": 0,
+          "end_y": 108,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type104-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 104,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 91,
+          "right": 41,
+          "bottom": 113,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 103,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 91,
+          "right": 41,
+          "bottom": 113,
+          "start_x": 41,
+          "start_y": 103,
+          "end_x": 0,
+          "end_y": 103,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type104-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 104,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type105-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 105,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type105-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 105,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 97,
+          "right": 41,
+          "bottom": 119,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 109,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 97,
+          "right": 41,
+          "bottom": 119,
+          "start_x": 41,
+          "start_y": 108,
+          "end_x": 0,
+          "end_y": 108,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type105-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 105,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 91,
+          "right": 41,
+          "bottom": 113,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 103,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 91,
+          "right": 41,
+          "bottom": 113,
+          "start_x": 41,
+          "start_y": 103,
+          "end_x": 0,
+          "end_y": 103,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type105-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 105,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type106-sub0-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 106,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 19,
+          "top": 96,
+          "right": 20,
+          "bottom": 98,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 19,
+          "top": 96,
+          "right": 20,
+          "bottom": 98,
+          "start_x": 41,
+          "start_y": 97,
+          "end_x": 0,
+          "end_y": 97,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type106-sub0-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 106,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 17,
+          "top": 95,
+          "right": 22,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 17,
+          "top": 95,
+          "right": 22,
+          "bottom": 101,
+          "start_x": 41,
+          "start_y": 98,
+          "end_x": 0,
+          "end_y": 98,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type106-sub0-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 106,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 11,
+          "top": 92,
+          "right": 28,
+          "bottom": 110,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 11,
+          "top": 92,
+          "right": 28,
+          "bottom": 110,
+          "start_x": 41,
+          "start_y": 101,
+          "end_x": 0,
+          "end_y": 101,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type106-sub0-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 106,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": -21,
+          "top": 76,
+          "right": 61,
+          "bottom": 159,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": -21,
+          "top": 76,
+          "right": 61,
+          "bottom": 159,
+          "start_x": 41,
+          "start_y": 118,
+          "end_x": 0,
+          "end_y": 118,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type107-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 107,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type107-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 107,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 105,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "start_x": 41,
+          "start_y": 105,
+          "end_x": 0,
+          "end_y": 105,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type107-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 107,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 90,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "start_x": 41,
+          "start_y": 90,
+          "end_x": 0,
+          "end_y": 90,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type107-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 107,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type108-sub0-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 108,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 3,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type108-sub0-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 108,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 3,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type108-sub0-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 108,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 3,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type108-sub0-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 108,
+      "subtype": 0,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 3,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type121-sub50-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 121,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type121-sub50-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 121,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 105,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "start_x": 41,
+          "start_y": 105,
+          "end_x": 0,
+          "end_y": 105,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type121-sub50-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 121,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 90,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "start_x": 41,
+          "start_y": 90,
+          "end_x": 0,
+          "end_y": 90,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type121-sub50-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 121,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type201-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 201,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type201-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 201,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 105,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "start_x": 41,
+          "start_y": 105,
+          "end_x": 0,
+          "end_y": 105,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type201-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 201,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 90,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "start_x": 41,
+          "start_y": 90,
+          "end_x": 0,
+          "end_y": 90,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type201-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 201,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type202-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 202,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 110,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 98,
+          "right": 41,
+          "bottom": 120,
+          "start_x": 41,
+          "start_y": 110,
+          "end_x": 0,
+          "end_y": 110,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type202-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 202,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 105,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 93,
+          "right": 41,
+          "bottom": 115,
+          "start_x": 41,
+          "start_y": 105,
+          "end_x": 0,
+          "end_y": 105,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type202-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 202,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 90,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 78,
+          "right": 41,
+          "bottom": 100,
+          "start_x": 41,
+          "start_y": 90,
+          "end_x": 0,
+          "end_y": 90,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type202-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 202,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 10,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -2,
+          "right": 41,
+          "bottom": 20,
+          "start_x": 41,
+          "start_y": 9,
+          "end_x": 0,
+          "end_y": 9,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type209-sub50-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 209,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 48,
+          "right": 41,
+          "bottom": 70,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 60,
+          "right": 41,
+          "bottom": 51,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 48,
+          "right": 41,
+          "bottom": 70,
+          "start_x": 41,
+          "start_y": 85,
+          "end_x": 0,
+          "end_y": 85,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type209-sub50-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 209,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 47,
+          "right": 41,
+          "bottom": 69,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 59,
+          "right": 41,
+          "bottom": 51,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 47,
+          "right": 41,
+          "bottom": 69,
+          "start_x": 41,
+          "start_y": 83,
+          "end_x": 0,
+          "end_y": 83,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type209-sub50-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 209,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 41,
+          "right": 41,
+          "bottom": 63,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 53,
+          "right": 41,
+          "bottom": 51,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 41,
+          "right": 41,
+          "bottom": 63,
+          "start_x": 41,
+          "start_y": 78,
+          "end_x": 0,
+          "end_y": 78,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type209-sub50-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 209,
+      "subtype": 50,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": -52,
+          "right": 41,
+          "bottom": -30,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": -40,
+          "right": 41,
+          "bottom": 51,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": -52,
+          "right": 41,
+          "bottom": -30,
+          "start_x": 41,
+          "start_y": -15,
+          "end_x": 0,
+          "end_y": -15,
+          "pen_color": 11711154
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type210-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 210,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type210-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 210,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type210-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 210,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type210-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 210,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type211-sub100-vol0.01",
+      "contents_bits": {
+        "Zn(固体)": "7dde07856e0b343f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "7b14ae47e17a843f"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 211,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type211-sub100-vol5.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993c33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000001440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 211,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type211-sub100-vol20.0",
+      "contents_bits": {
+        "Zn(固体)": "46afe9ed2993e33f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000003440"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 211,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "type211-sub100-vol120.0",
+      "contents_bits": {
+        "Zn(固体)": "e986dee4be5c0d40"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0000000000005e40"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000"
+      },
+      "type": 211,
+      "subtype": 100,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 15658734,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e44a8",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid0.0-precip0.0",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 68,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 14661559,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "start_x": 53,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 10979721
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid0.0-precip0.025",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "9a9999999999993f",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 68,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 11635081,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "start_x": 53,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 8676966
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid0.0-precip0.1",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 68,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 2621440,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "start_x": 53,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 1966080
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid1.0-precip0.0",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "000000000000f03f",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 68,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 14661559,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "start_x": 53,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 10979721
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid1.0-precip0.025",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "9a9999999999993f",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "000000000000f03f",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 54,
+          "right": 53,
+          "bottom": 82,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 69,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 14461610,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 54,
+          "right": 53,
+          "bottom": 82,
+          "start_x": 53,
+          "start_y": 68,
+          "end_x": 0,
+          "end_y": 68,
+          "pen_color": 10846079
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid1.0-precip0.1",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "000000000000f03f",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 68,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 2621440,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "start_x": 53,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 1966080
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid20.0-precip0.0",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "0000000000000000",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000003440",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 68,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 14661559,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 53,
+          "right": 53,
+          "bottom": 81,
+          "start_x": 53,
+          "start_y": 67,
+          "end_x": 0,
+          "end_y": 67,
+          "pen_color": 10979721
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid20.0-precip0.025",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "9a9999999999993f",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000003440",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 54,
+          "right": 53,
+          "bottom": 82,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 69,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 14461610,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 54,
+          "right": 53,
+          "bottom": 82,
+          "start_x": 53,
+          "start_y": 68,
+          "end_x": 0,
+          "end_y": 68,
+          "pen_color": 10846079
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    },
+    {
+      "name": "mixed-liquid20.0-precip0.1",
+      "contents_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "7b14ae47e17a943f",
+        "H2O(液体)": "000000000000f03f"
+      },
+      "volumes_bits": {
+        "Zn(固体)": "0f2db29def270a40",
+        "Cu(OH)2(固体)": "d57d00529b38ef3f",
+        "H2O(液体)": "6abc749318043240"
+      },
+      "precipitated_bits": {
+        "Zn(固体)": "9a9999999999b93f",
+        "Cu(OH)2(固体)": "0000000000000000",
+        "H2O(液体)": "0000000000000000"
+      },
+      "type": 102,
+      "subtype": 200,
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000003440",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "transparent",
+          "value": 1
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        },
+        {
+          "op": "ellipse",
+          "left": 0,
+          "top": 55,
+          "right": 53,
+          "bottom": 83,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 70,
+          "right": 53,
+          "bottom": 58,
+          "pen_color": 0,
+          "brush_color": 0,
+          "brush_style": 0
+        },
+        {
+          "op": "texture",
+          "source": "guti.bmp",
+          "left": 0,
+          "top": 0,
+          "copy_mode": 15597702
+        },
+        {
+          "op": "tint_nonwhite",
+          "color_integer": 11468800,
+          "weight_bits": "333333333333c33f"
+        },
+        {
+          "op": "arc",
+          "left": 0,
+          "top": 55,
+          "right": 53,
+          "bottom": 83,
+          "start_x": 53,
+          "start_y": 69,
+          "end_x": 0,
+          "end_y": 69,
+          "pen_color": 8585216
+        },
+        {
+          "op": "composite_white_key",
+          "left": 0,
+          "top": 0,
+          "weight_bits": "333333333333c33f"
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x492560",
+        "0x4928a0",
+        "0x4e3e50",
+        "0x4e4150",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e43c8",
+        "0x4e44a8",
+        "0x4e4588",
+        "0x4e4744",
+        "0x4e8edc",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110",
+        "0x8000120",
+        "0x8000130",
+        "0x8000160",
+        "0x8000170"
+      ]
+    }
+  ],
+  "presentation_label_correction": "Virtual TBitmap +3C is transparency boolean (real VMT004E2AF4 ->004E6420), not PixelFormat. Original captured call arguments unchanged; operation label corrected. Actual pixel-format setter004EA36C."
+}

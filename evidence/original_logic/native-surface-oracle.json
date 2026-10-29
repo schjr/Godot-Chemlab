@@ -1,0 +1,2755 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x00473E6C",
+  "contract": "Original numeric instructions execute; GDI pen/brush changes and Rectangle operands captured, no raster-edge claim. Helper is directly called including values caller normally suppresses.",
+  "cases": [
+    {
+      "type": 100,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 100,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 100,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 100,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 100,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 100,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 101,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 101,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 101,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 101,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 101,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 101,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 102,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 102,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 102,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 102,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 102,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 102,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 103,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 103,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 103,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 103,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 103,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 103,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 104,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 104,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 104,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 104,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 104,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 104,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 105,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 105,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 105,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 105,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 105,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 105,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 106,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 106,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 106,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 106,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 106,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 106,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 107,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 107,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 107,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 107,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 107,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 107,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 108,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 108,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 108,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 108,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 108,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 108,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 109,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 109,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 109,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 109,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 109,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 109,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 120,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 120,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 120,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 120,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 120,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 120,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 121,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 121,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 121,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 121,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 121,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 121,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 201,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 201,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 201,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 201,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 201,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 201,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 202,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 202,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 202,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 202,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 202,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 202,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 203,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 203,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 203,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 203,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 203,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 203,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 204,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 204,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 204,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 204,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 204,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 204,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 205,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 205,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 205,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 205,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 205,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 205,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 206,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 206,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 206,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 206,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 206,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 206,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 207,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 207,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 207,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 207,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 207,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 207,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 208,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 208,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 208,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 208,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 208,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 208,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 209,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 209,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 209,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 209,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 209,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 209,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 210,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 210,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 210,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 210,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 210,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 210,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 211,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 211,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 211,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 211,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 211,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 211,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 212,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 101,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 0,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 212,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 100,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14342874,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 212,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 99,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 994377,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 212,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 79,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 14269599,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 212,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 7171437,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 212,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 104,
+          "right": 43,
+          "bottom": 101,
+          "pen_color": 924971,
+          "brush_color": 5596791,
+          "brush_style": 1
+        }
+      ]
+    },
+    {
+      "type": 213,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 213,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 213,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 213,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 213,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 213,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 300,
+      "color": 0,
+      "height_bits": "0000000000000000",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 0,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 300,
+      "color": 16777215,
+      "height_bits": "2b8716d9cef7ef3f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14342874,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 300,
+      "color": 1193046,
+      "height_bits": "6abc74931804f03f",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 994377,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 300,
+      "color": 16702650,
+      "height_bits": "3333333333b33540",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 14269599,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 300,
+      "color": 8421504,
+      "height_bits": "3333333333535940",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 7171437,
+      "native_brush_style": 1,
+      "native_operations": []
+    },
+    {
+      "type": 300,
+      "color": 1122867,
+      "height_bits": "0000000000000cc0",
+      "width": 43,
+      "height": 101,
+      "native_pen_color": 924971,
+      "native_brush_style": 1,
+      "native_operations": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "zip_sha256": "6ac6116a47f4f297c701ee51d06ed0fbfb7d04b2ff7de4f0ce0eb1a0ae5bc8bd",
+  "pck_sha256": "233e911060f650f02c1136c8c8d583785a9112951b745450b78f43df29c27a56",
+  "x87_host_source_sha256": "181bb72bb86aeded049c18682482c2c6ce83b17c00e83ab91140041b33c8efc7",
+  "shipped_pck_probe": {
+    "standalone_feature": false,
+    "globalized_resource_root": "",
+    "two_simultaneous_helpers": true,
+    "unique_extraction_paths": true,
+    "native_sin_sqrt_tan_calls": true,
+    "one_stop_does_not_disrupt_other": true,
+    "both_extracted_helpers_removed": true
+  },
+  "source_reference_checks": {
+    "fsin_fcos_cases": 1014,
+    "fsin_fcos_differences": 0,
+    "persistent_particle_frames": 128,
+    "persistent_particle_failures": 0
+  },
+  "production_default_audit": "No fixture file paths or automatic RuntimeProfile attachment in active main/model/runtime modules. Diagnostic profile/stack overrides remain explicit-call inputs.",
+  "scope": "Native-helper export/extraction/cleanup and source-reference regression boundary; full shipped UI acceptance is a separate root-agent run."
+}

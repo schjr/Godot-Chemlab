@@ -1,0 +1,3196 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/例子/实验室制取氯气.cem",
+    "byte_count": 3195,
+    "sha256": "42ce74c7511190d7fa97a500c222087a935659b58911fd7bb0df2a85e35a9da3",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/实验室制取氯气.cem",
+    "utf8_export": "utf8/例子/实验室制取氯气.cem"
+  },
+  "format": "cem",
+  "header_lines": [
+    "仿真化学实验室 金华科 V3.0",
+    "6",
+    "10"
+  ],
+  "line_count": 794,
+  "lines": [
+    {
+      "number": 1,
+      "text": "仿真化学实验室 金华科 V3.0"
+    },
+    {
+      "number": 2,
+      "text": "6"
+    },
+    {
+      "number": 3,
+      "text": "10"
+    },
+    {
+      "number": 4,
+      "text": "5"
+    },
+    {
+      "number": 5,
+      "text": "7"
+    },
+    {
+      "number": 6,
+      "text": "1"
+    },
+    {
+      "number": 7,
+      "text": "容器0"
+    },
+    {
+      "number": 8,
+      "text": "105"
+    },
+    {
+      "number": 9,
+      "text": "100"
+    },
+    {
+      "number": 10,
+      "text": "162"
+    },
+    {
+      "number": 11,
+      "text": "222"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "100"
+    },
+    {
+      "number": 15,
+      "text": "0"
+    },
+    {
+      "number": 16,
+      "text": "1"
+    },
+    {
+      "number": 17,
+      "text": "-6"
+    },
+    {
+      "number": 18,
+      "text": "-43"
+    },
+    {
+      "number": 19,
+      "text": "8"
+    },
+    {
+      "number": 20,
+      "text": "-33"
+    },
+    {
+      "number": 21,
+      "text": "7237230"
+    },
+    {
+      "number": 22,
+      "text": "1"
+    },
+    {
+      "number": 23,
+      "text": "0"
+    },
+    {
+      "number": 24,
+      "text": "0"
+    },
+    {
+      "number": 25,
+      "text": "0"
+    },
+    {
+      "number": 26,
+      "text": "0"
+    },
+    {
+      "number": 27,
+      "text": "6579300"
+    },
+    {
+      "number": 28,
+      "text": "0"
+    },
+    {
+      "number": 29,
+      "text": "0"
+    },
+    {
+      "number": 30,
+      "text": "0"
+    },
+    {
+      "number": 31,
+      "text": "0"
+    },
+    {
+      "number": 32,
+      "text": "0"
+    },
+    {
+      "number": 33,
+      "text": "0"
+    },
+    {
+      "number": 34,
+      "text": "容器1"
+    },
+    {
+      "number": 35,
+      "text": "3011"
+    },
+    {
+      "number": 36,
+      "text": "20"
+    },
+    {
+      "number": 37,
+      "text": ""
+    },
+    {
+      "number": 38,
+      "text": ""
+    },
+    {
+      "number": 39,
+      "text": ""
+    },
+    {
+      "number": 40,
+      "text": "0"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "0"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0"
+    },
+    {
+      "number": 45,
+      "text": "0"
+    },
+    {
+      "number": 46,
+      "text": "3"
+    },
+    {
+      "number": 47,
+      "text": "MnO2(固体)"
+    },
+    {
+      "number": 48,
+      "text": "80"
+    },
+    {
+      "number": 49,
+      "text": "0.920174833218312"
+    },
+    {
+      "number": 50,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 51,
+      "text": "0"
+    },
+    {
+      "number": 52,
+      "text": "0"
+    },
+    {
+      "number": 53,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 54,
+      "text": "0"
+    },
+    {
+      "number": 55,
+      "text": "0"
+    },
+    {
+      "number": 56,
+      "text": "1"
+    },
+    {
+      "number": 57,
+      "text": "19637340"
+    },
+    {
+      "number": 58,
+      "text": "方程式43"
+    },
+    {
+      "number": 59,
+      "text": "2"
+    },
+    {
+      "number": 60,
+      "text": "3"
+    },
+    {
+      "number": 61,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 62,
+      "text": "4"
+    },
+    {
+      "number": 63,
+      "text": "MnO2(固体)"
+    },
+    {
+      "number": 64,
+      "text": "1"
+    },
+    {
+      "number": 65,
+      "text": "MnCl2(溶解)"
+    },
+    {
+      "number": 66,
+      "text": "1"
+    },
+    {
+      "number": 67,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 68,
+      "text": "2"
+    },
+    {
+      "number": 69,
+      "text": "Cl2(气体)"
+    },
+    {
+      "number": 70,
+      "text": "1"
+    },
+    {
+      "number": 71,
+      "text": "0"
+    },
+    {
+      "number": 72,
+      "text": "加热"
+    },
+    {
+      "number": 73,
+      "text": "0.0002"
+    },
+    {
+      "number": 74,
+      "text": "100"
+    },
+    {
+      "number": 75,
+      "text": "单向"
+    },
+    {
+      "number": 76,
+      "text": "0"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "10"
+    },
+    {
+      "number": 79,
+      "text": "0"
+    },
+    {
+      "number": 80,
+      "text": "0"
+    },
+    {
+      "number": 81,
+      "text": "0"
+    },
+    {
+      "number": 82,
+      "text": "0"
+    },
+    {
+      "number": 83,
+      "text": "0"
+    },
+    {
+      "number": 84,
+      "text": "0"
+    },
+    {
+      "number": 85,
+      "text": "0"
+    },
+    {
+      "number": 86,
+      "text": "0"
+    },
+    {
+      "number": 87,
+      "text": "0"
+    },
+    {
+      "number": 88,
+      "text": "0"
+    },
+    {
+      "number": 89,
+      "text": "0"
+    },
+    {
+      "number": 90,
+      "text": "0"
+    },
+    {
+      "number": 91,
+      "text": "0"
+    },
+    {
+      "number": 92,
+      "text": "0"
+    },
+    {
+      "number": 93,
+      "text": "0"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": "0"
+    },
+    {
+      "number": 96,
+      "text": "1"
+    },
+    {
+      "number": 97,
+      "text": "容器1"
+    },
+    {
+      "number": 98,
+      "text": "301"
+    },
+    {
+      "number": 99,
+      "text": "0"
+    },
+    {
+      "number": 100,
+      "text": "155"
+    },
+    {
+      "number": 101,
+      "text": "227"
+    },
+    {
+      "number": 102,
+      "text": "0"
+    },
+    {
+      "number": 103,
+      "text": "0"
+    },
+    {
+      "number": 104,
+      "text": "0"
+    },
+    {
+      "number": 105,
+      "text": "0"
+    },
+    {
+      "number": 106,
+      "text": "0"
+    },
+    {
+      "number": 107,
+      "text": "0"
+    },
+    {
+      "number": 108,
+      "text": "0"
+    },
+    {
+      "number": 109,
+      "text": "0"
+    },
+    {
+      "number": 110,
+      "text": "0"
+    },
+    {
+      "number": 111,
+      "text": "6579300"
+    },
+    {
+      "number": 112,
+      "text": "0"
+    },
+    {
+      "number": 113,
+      "text": "0"
+    },
+    {
+      "number": 114,
+      "text": "0"
+    },
+    {
+      "number": 115,
+      "text": "0"
+    },
+    {
+      "number": 116,
+      "text": "0"
+    },
+    {
+      "number": 117,
+      "text": "6579300"
+    },
+    {
+      "number": 118,
+      "text": "1"
+    },
+    {
+      "number": 119,
+      "text": "2"
+    },
+    {
+      "number": 120,
+      "text": "0"
+    },
+    {
+      "number": 121,
+      "text": "139"
+    },
+    {
+      "number": 122,
+      "text": "0"
+    },
+    {
+      "number": 123,
+      "text": "73"
+    },
+    {
+      "number": 124,
+      "text": ""
+    },
+    {
+      "number": 125,
+      "text": "0"
+    },
+    {
+      "number": 126,
+      "text": "20"
+    },
+    {
+      "number": 127,
+      "text": ""
+    },
+    {
+      "number": 128,
+      "text": ""
+    },
+    {
+      "number": 129,
+      "text": ""
+    },
+    {
+      "number": 130,
+      "text": "0"
+    },
+    {
+      "number": 131,
+      "text": "0"
+    },
+    {
+      "number": 132,
+      "text": "0"
+    },
+    {
+      "number": 133,
+      "text": "0"
+    },
+    {
+      "number": 134,
+      "text": "0"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": "0"
+    },
+    {
+      "number": 137,
+      "text": "0"
+    },
+    {
+      "number": 138,
+      "text": "0"
+    },
+    {
+      "number": 139,
+      "text": "0"
+    },
+    {
+      "number": 140,
+      "text": "10"
+    },
+    {
+      "number": 141,
+      "text": "0"
+    },
+    {
+      "number": 142,
+      "text": "0"
+    },
+    {
+      "number": 143,
+      "text": "0"
+    },
+    {
+      "number": 144,
+      "text": "0"
+    },
+    {
+      "number": 145,
+      "text": "0"
+    },
+    {
+      "number": 146,
+      "text": "0"
+    },
+    {
+      "number": 147,
+      "text": "0"
+    },
+    {
+      "number": 148,
+      "text": "0"
+    },
+    {
+      "number": 149,
+      "text": "0"
+    },
+    {
+      "number": 150,
+      "text": "0"
+    },
+    {
+      "number": 151,
+      "text": "0"
+    },
+    {
+      "number": 152,
+      "text": "0"
+    },
+    {
+      "number": 153,
+      "text": "0"
+    },
+    {
+      "number": 154,
+      "text": "0"
+    },
+    {
+      "number": 155,
+      "text": "0"
+    },
+    {
+      "number": 156,
+      "text": "0"
+    },
+    {
+      "number": 157,
+      "text": "0"
+    },
+    {
+      "number": 158,
+      "text": "1"
+    },
+    {
+      "number": 159,
+      "text": "容器2"
+    },
+    {
+      "number": 160,
+      "text": "302"
+    },
+    {
+      "number": 161,
+      "text": "0"
+    },
+    {
+      "number": 162,
+      "text": "160"
+    },
+    {
+      "number": 163,
+      "text": "299"
+    },
+    {
+      "number": 164,
+      "text": "0"
+    },
+    {
+      "number": 165,
+      "text": "0"
+    },
+    {
+      "number": 166,
+      "text": "0"
+    },
+    {
+      "number": 167,
+      "text": "0"
+    },
+    {
+      "number": 168,
+      "text": "1"
+    },
+    {
+      "number": 169,
+      "text": "0"
+    },
+    {
+      "number": 170,
+      "text": "0"
+    },
+    {
+      "number": 171,
+      "text": "0"
+    },
+    {
+      "number": 172,
+      "text": "0"
+    },
+    {
+      "number": 173,
+      "text": "6579300"
+    },
+    {
+      "number": 174,
+      "text": "0"
+    },
+    {
+      "number": 175,
+      "text": "0"
+    },
+    {
+      "number": 176,
+      "text": "0"
+    },
+    {
+      "number": 177,
+      "text": "36"
+    },
+    {
+      "number": 178,
+      "text": "36"
+    },
+    {
+      "number": 179,
+      "text": "6579300"
+    },
+    {
+      "number": 180,
+      "text": "0"
+    },
+    {
+      "number": 181,
+      "text": "0"
+    },
+    {
+      "number": 182,
+      "text": "0"
+    },
+    {
+      "number": 183,
+      "text": "0"
+    },
+    {
+      "number": 184,
+      "text": "0"
+    },
+    {
+      "number": 185,
+      "text": "0"
+    },
+    {
+      "number": 186,
+      "text": "容器1"
+    },
+    {
+      "number": 187,
+      "text": "301"
+    },
+    {
+      "number": 188,
+      "text": "20"
+    },
+    {
+      "number": 189,
+      "text": ""
+    },
+    {
+      "number": 190,
+      "text": ""
+    },
+    {
+      "number": 191,
+      "text": ""
+    },
+    {
+      "number": 192,
+      "text": "0"
+    },
+    {
+      "number": 193,
+      "text": "0"
+    },
+    {
+      "number": 194,
+      "text": "0"
+    },
+    {
+      "number": 195,
+      "text": "0"
+    },
+    {
+      "number": 196,
+      "text": "0"
+    },
+    {
+      "number": 197,
+      "text": "0"
+    },
+    {
+      "number": 198,
+      "text": "0"
+    },
+    {
+      "number": 199,
+      "text": "0"
+    },
+    {
+      "number": 200,
+      "text": "0"
+    },
+    {
+      "number": 201,
+      "text": "0"
+    },
+    {
+      "number": 202,
+      "text": "10"
+    },
+    {
+      "number": 203,
+      "text": "0"
+    },
+    {
+      "number": 204,
+      "text": "0"
+    },
+    {
+      "number": 205,
+      "text": "0"
+    },
+    {
+      "number": 206,
+      "text": "0"
+    },
+    {
+      "number": 207,
+      "text": "0"
+    },
+    {
+      "number": 208,
+      "text": "0"
+    },
+    {
+      "number": 209,
+      "text": "0"
+    },
+    {
+      "number": 210,
+      "text": "0"
+    },
+    {
+      "number": 211,
+      "text": "0"
+    },
+    {
+      "number": 212,
+      "text": "0"
+    },
+    {
+      "number": 213,
+      "text": "0"
+    },
+    {
+      "number": 214,
+      "text": "0"
+    },
+    {
+      "number": 215,
+      "text": "0"
+    },
+    {
+      "number": 216,
+      "text": "0"
+    },
+    {
+      "number": 217,
+      "text": "0"
+    },
+    {
+      "number": 218,
+      "text": "0"
+    },
+    {
+      "number": 219,
+      "text": "0"
+    },
+    {
+      "number": 220,
+      "text": "1"
+    },
+    {
+      "number": 221,
+      "text": "容器3"
+    },
+    {
+      "number": 222,
+      "text": "107"
+    },
+    {
+      "number": 223,
+      "text": "100"
+    },
+    {
+      "number": 224,
+      "text": "298"
+    },
+    {
+      "number": 225,
+      "text": "306"
+    },
+    {
+      "number": 226,
+      "text": "0"
+    },
+    {
+      "number": 227,
+      "text": "0"
+    },
+    {
+      "number": 228,
+      "text": "100"
+    },
+    {
+      "number": 229,
+      "text": "0"
+    },
+    {
+      "number": 230,
+      "text": "1"
+    },
+    {
+      "number": 231,
+      "text": "-9"
+    },
+    {
+      "number": 232,
+      "text": "-31"
+    },
+    {
+      "number": 233,
+      "text": "9"
+    },
+    {
+      "number": 234,
+      "text": "-21"
+    },
+    {
+      "number": 235,
+      "text": "7237230"
+    },
+    {
+      "number": 236,
+      "text": "1"
+    },
+    {
+      "number": 237,
+      "text": "0"
+    },
+    {
+      "number": 238,
+      "text": "0"
+    },
+    {
+      "number": 239,
+      "text": "0"
+    },
+    {
+      "number": 240,
+      "text": "0"
+    },
+    {
+      "number": 241,
+      "text": "6579300"
+    },
+    {
+      "number": 242,
+      "text": "0"
+    },
+    {
+      "number": 243,
+      "text": "0"
+    },
+    {
+      "number": 244,
+      "text": "0"
+    },
+    {
+      "number": 245,
+      "text": "0"
+    },
+    {
+      "number": 246,
+      "text": "0"
+    },
+    {
+      "number": 247,
+      "text": "0"
+    },
+    {
+      "number": 248,
+      "text": ""
+    },
+    {
+      "number": 249,
+      "text": "0"
+    },
+    {
+      "number": 250,
+      "text": "20"
+    },
+    {
+      "number": 251,
+      "text": ""
+    },
+    {
+      "number": 252,
+      "text": ""
+    },
+    {
+      "number": 253,
+      "text": ""
+    },
+    {
+      "number": 254,
+      "text": "0"
+    },
+    {
+      "number": 255,
+      "text": "0"
+    },
+    {
+      "number": 256,
+      "text": "0"
+    },
+    {
+      "number": 257,
+      "text": "0"
+    },
+    {
+      "number": 258,
+      "text": "0"
+    },
+    {
+      "number": 259,
+      "text": "0"
+    },
+    {
+      "number": 260,
+      "text": "0"
+    },
+    {
+      "number": 261,
+      "text": "0"
+    },
+    {
+      "number": 262,
+      "text": "0"
+    },
+    {
+      "number": 263,
+      "text": "0"
+    },
+    {
+      "number": 264,
+      "text": "10"
+    },
+    {
+      "number": 265,
+      "text": "0"
+    },
+    {
+      "number": 266,
+      "text": "0"
+    },
+    {
+      "number": 267,
+      "text": "0"
+    },
+    {
+      "number": 268,
+      "text": "0"
+    },
+    {
+      "number": 269,
+      "text": "0"
+    },
+    {
+      "number": 270,
+      "text": "0"
+    },
+    {
+      "number": 271,
+      "text": "0"
+    },
+    {
+      "number": 272,
+      "text": "0"
+    },
+    {
+      "number": 273,
+      "text": "0"
+    },
+    {
+      "number": 274,
+      "text": "0"
+    },
+    {
+      "number": 275,
+      "text": "0"
+    },
+    {
+      "number": 276,
+      "text": "0"
+    },
+    {
+      "number": 277,
+      "text": "0"
+    },
+    {
+      "number": 278,
+      "text": "0"
+    },
+    {
+      "number": 279,
+      "text": "0"
+    },
+    {
+      "number": 280,
+      "text": "0"
+    },
+    {
+      "number": 281,
+      "text": "0"
+    },
+    {
+      "number": 282,
+      "text": "1"
+    },
+    {
+      "number": 283,
+      "text": "容器5"
+    },
+    {
+      "number": 284,
+      "text": "211"
+    },
+    {
+      "number": 285,
+      "text": "50"
+    },
+    {
+      "number": 286,
+      "text": "160"
+    },
+    {
+      "number": 287,
+      "text": "180"
+    },
+    {
+      "number": 288,
+      "text": "0"
+    },
+    {
+      "number": 289,
+      "text": "0"
+    },
+    {
+      "number": 290,
+      "text": "50"
+    },
+    {
+      "number": 291,
+      "text": "97"
+    },
+    {
+      "number": 292,
+      "text": "0"
+    },
+    {
+      "number": 293,
+      "text": "0"
+    },
+    {
+      "number": 294,
+      "text": "0"
+    },
+    {
+      "number": 295,
+      "text": "0"
+    },
+    {
+      "number": 296,
+      "text": "0"
+    },
+    {
+      "number": 297,
+      "text": "6579300"
+    },
+    {
+      "number": 298,
+      "text": "0"
+    },
+    {
+      "number": 299,
+      "text": "0"
+    },
+    {
+      "number": 300,
+      "text": "0"
+    },
+    {
+      "number": 301,
+      "text": "0"
+    },
+    {
+      "number": 302,
+      "text": "0"
+    },
+    {
+      "number": 303,
+      "text": "6579300"
+    },
+    {
+      "number": 304,
+      "text": "1"
+    },
+    {
+      "number": 305,
+      "text": "0"
+    },
+    {
+      "number": 306,
+      "text": "0"
+    },
+    {
+      "number": 307,
+      "text": "0"
+    },
+    {
+      "number": 308,
+      "text": "0"
+    },
+    {
+      "number": 309,
+      "text": "0"
+    },
+    {
+      "number": 310,
+      "text": "容器0"
+    },
+    {
+      "number": 311,
+      "text": "105"
+    },
+    {
+      "number": 312,
+      "text": "20"
+    },
+    {
+      "number": 313,
+      "text": ""
+    },
+    {
+      "number": 314,
+      "text": ""
+    },
+    {
+      "number": 315,
+      "text": ""
+    },
+    {
+      "number": 316,
+      "text": "0"
+    },
+    {
+      "number": 317,
+      "text": "0"
+    },
+    {
+      "number": 318,
+      "text": "0"
+    },
+    {
+      "number": 319,
+      "text": "0"
+    },
+    {
+      "number": 320,
+      "text": "0"
+    },
+    {
+      "number": 321,
+      "text": "0"
+    },
+    {
+      "number": 322,
+      "text": "2"
+    },
+    {
+      "number": 323,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 324,
+      "text": "40"
+    },
+    {
+      "number": 325,
+      "text": "2.2202486678508"
+    },
+    {
+      "number": 326,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 327,
+      "text": "17.49984"
+    },
+    {
+      "number": 328,
+      "text": "0.48"
+    },
+    {
+      "number": 329,
+      "text": "0"
+    },
+    {
+      "number": 330,
+      "text": "0"
+    },
+    {
+      "number": 331,
+      "text": "0"
+    },
+    {
+      "number": 332,
+      "text": "10"
+    },
+    {
+      "number": 333,
+      "text": "0"
+    },
+    {
+      "number": 334,
+      "text": "0"
+    },
+    {
+      "number": 335,
+      "text": "0"
+    },
+    {
+      "number": 336,
+      "text": "0"
+    },
+    {
+      "number": 337,
+      "text": "0"
+    },
+    {
+      "number": 338,
+      "text": "0"
+    },
+    {
+      "number": 339,
+      "text": "0"
+    },
+    {
+      "number": 340,
+      "text": "0"
+    },
+    {
+      "number": 341,
+      "text": "0"
+    },
+    {
+      "number": 342,
+      "text": "0"
+    },
+    {
+      "number": 343,
+      "text": "0"
+    },
+    {
+      "number": 344,
+      "text": "0"
+    },
+    {
+      "number": 345,
+      "text": "0"
+    },
+    {
+      "number": 346,
+      "text": "0"
+    },
+    {
+      "number": 347,
+      "text": "0"
+    },
+    {
+      "number": 348,
+      "text": "0"
+    },
+    {
+      "number": 349,
+      "text": "0"
+    },
+    {
+      "number": 350,
+      "text": "1"
+    },
+    {
+      "number": 351,
+      "text": "容器9"
+    },
+    {
+      "number": 352,
+      "text": "102"
+    },
+    {
+      "number": 353,
+      "text": "200"
+    },
+    {
+      "number": 354,
+      "text": "381"
+    },
+    {
+      "number": 355,
+      "text": "305"
+    },
+    {
+      "number": 356,
+      "text": "0"
+    },
+    {
+      "number": 357,
+      "text": "0"
+    },
+    {
+      "number": 358,
+      "text": "200"
+    },
+    {
+      "number": 359,
+      "text": "23.7"
+    },
+    {
+      "number": 360,
+      "text": "0"
+    },
+    {
+      "number": 361,
+      "text": "0"
+    },
+    {
+      "number": 362,
+      "text": "0"
+    },
+    {
+      "number": 363,
+      "text": "0"
+    },
+    {
+      "number": 364,
+      "text": "0"
+    },
+    {
+      "number": 365,
+      "text": "6579300"
+    },
+    {
+      "number": 366,
+      "text": "0"
+    },
+    {
+      "number": 367,
+      "text": "0"
+    },
+    {
+      "number": 368,
+      "text": "0"
+    },
+    {
+      "number": 369,
+      "text": "0"
+    },
+    {
+      "number": 370,
+      "text": "0"
+    },
+    {
+      "number": 371,
+      "text": "6579300"
+    },
+    {
+      "number": 372,
+      "text": "0"
+    },
+    {
+      "number": 373,
+      "text": "0"
+    },
+    {
+      "number": 374,
+      "text": "0"
+    },
+    {
+      "number": 375,
+      "text": "0"
+    },
+    {
+      "number": 376,
+      "text": "0"
+    },
+    {
+      "number": 377,
+      "text": "0"
+    },
+    {
+      "number": 378,
+      "text": ""
+    },
+    {
+      "number": 379,
+      "text": "0"
+    },
+    {
+      "number": 380,
+      "text": "20"
+    },
+    {
+      "number": 381,
+      "text": ""
+    },
+    {
+      "number": 382,
+      "text": ""
+    },
+    {
+      "number": 383,
+      "text": ""
+    },
+    {
+      "number": 384,
+      "text": "0"
+    },
+    {
+      "number": 385,
+      "text": "0"
+    },
+    {
+      "number": 386,
+      "text": "0"
+    },
+    {
+      "number": 387,
+      "text": "0"
+    },
+    {
+      "number": 388,
+      "text": "0"
+    },
+    {
+      "number": 389,
+      "text": "0"
+    },
+    {
+      "number": 390,
+      "text": "3"
+    },
+    {
+      "number": 391,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 392,
+      "text": "80"
+    },
+    {
+      "number": 393,
+      "text": "4.4404973357016"
+    },
+    {
+      "number": 394,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 395,
+      "text": "3.9998"
+    },
+    {
+      "number": 396,
+      "text": "0.1"
+    },
+    {
+      "number": 397,
+      "text": "Cl2(气体)"
+    },
+    {
+      "number": 398,
+      "text": "0"
+    },
+    {
+      "number": 399,
+      "text": "0"
+    },
+    {
+      "number": 400,
+      "text": "1"
+    },
+    {
+      "number": 401,
+      "text": "14364512"
+    },
+    {
+      "number": 402,
+      "text": "方程式39"
+    },
+    {
+      "number": 403,
+      "text": "2"
+    },
+    {
+      "number": 404,
+      "text": "3"
+    },
+    {
+      "number": 405,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 406,
+      "text": "2"
+    },
+    {
+      "number": 407,
+      "text": "Cl2(气体)"
+    },
+    {
+      "number": 408,
+      "text": "1"
+    },
+    {
+      "number": 409,
+      "text": "NaCl(溶解)"
+    },
+    {
+      "number": 410,
+      "text": "1"
+    },
+    {
+      "number": 411,
+      "text": "NaClO(溶解)"
+    },
+    {
+      "number": 412,
+      "text": "1"
+    },
+    {
+      "number": 413,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 414,
+      "text": "1"
+    },
+    {
+      "number": 415,
+      "text": "0"
+    },
+    {
+      "number": 416,
+      "text": "0"
+    },
+    {
+      "number": 417,
+      "text": "0.001"
+    },
+    {
+      "number": 418,
+      "text": "100"
+    },
+    {
+      "number": 419,
+      "text": "单向"
+    },
+    {
+      "number": 420,
+      "text": "0"
+    },
+    {
+      "number": 421,
+      "text": "0"
+    },
+    {
+      "number": 422,
+      "text": "10"
+    },
+    {
+      "number": 423,
+      "text": "0"
+    },
+    {
+      "number": 424,
+      "text": "0"
+    },
+    {
+      "number": 425,
+      "text": "0"
+    },
+    {
+      "number": 426,
+      "text": "0"
+    },
+    {
+      "number": 427,
+      "text": "0"
+    },
+    {
+      "number": 428,
+      "text": "0"
+    },
+    {
+      "number": 429,
+      "text": "0"
+    },
+    {
+      "number": 430,
+      "text": "0"
+    },
+    {
+      "number": 431,
+      "text": "0"
+    },
+    {
+      "number": 432,
+      "text": "0"
+    },
+    {
+      "number": 433,
+      "text": "0"
+    },
+    {
+      "number": 434,
+      "text": "0"
+    },
+    {
+      "number": 435,
+      "text": "0"
+    },
+    {
+      "number": 436,
+      "text": "0"
+    },
+    {
+      "number": 437,
+      "text": "0"
+    },
+    {
+      "number": 438,
+      "text": "0"
+    },
+    {
+      "number": 439,
+      "text": "0"
+    },
+    {
+      "number": 440,
+      "text": "1"
+    },
+    {
+      "number": 441,
+      "text": "导管0"
+    },
+    {
+      "number": 442,
+      "text": "165"
+    },
+    {
+      "number": 443,
+      "text": "212"
+    },
+    {
+      "number": 444,
+      "text": "233"
+    },
+    {
+      "number": 445,
+      "text": "172"
+    },
+    {
+      "number": 446,
+      "text": "112"
+    },
+    {
+      "number": 447,
+      "text": "983041"
+    },
+    {
+      "number": 448,
+      "text": "4"
+    },
+    {
+      "number": 449,
+      "text": "2"
+    },
+    {
+      "number": 450,
+      "text": "1"
+    },
+    {
+      "number": 451,
+      "text": "容器0"
+    },
+    {
+      "number": 452,
+      "text": "105"
+    },
+    {
+      "number": 453,
+      "text": "0"
+    },
+    {
+      "number": 454,
+      "text": "导管1"
+    },
+    {
+      "number": 455,
+      "text": "1001"
+    },
+    {
+      "number": 456,
+      "text": "1"
+    },
+    {
+      "number": 457,
+      "text": "1"
+    },
+    {
+      "number": 458,
+      "text": "0"
+    },
+    {
+      "number": 459,
+      "text": "0"
+    },
+    {
+      "number": 460,
+      "text": "0"
+    },
+    {
+      "number": 461,
+      "text": "0"
+    },
+    {
+      "number": 462,
+      "text": "0"
+    },
+    {
+      "number": 463,
+      "text": "0"
+    },
+    {
+      "number": 464,
+      "text": "0"
+    },
+    {
+      "number": 465,
+      "text": "1"
+    },
+    {
+      "number": 466,
+      "text": "导管1"
+    },
+    {
+      "number": 467,
+      "text": "233"
+    },
+    {
+      "number": 468,
+      "text": "172"
+    },
+    {
+      "number": 469,
+      "text": "296"
+    },
+    {
+      "number": 470,
+      "text": "172"
+    },
+    {
+      "number": 471,
+      "text": "0"
+    },
+    {
+      "number": 472,
+      "text": "0"
+    },
+    {
+      "number": 473,
+      "text": "13369376"
+    },
+    {
+      "number": 474,
+      "text": "0"
+    },
+    {
+      "number": 475,
+      "text": "3"
+    },
+    {
+      "number": 476,
+      "text": "导管0"
+    },
+    {
+      "number": 477,
+      "text": "1002"
+    },
+    {
+      "number": 478,
+      "text": "1"
+    },
+    {
+      "number": 479,
+      "text": "导管2"
+    },
+    {
+      "number": 480,
+      "text": "1001"
+    },
+    {
+      "number": 481,
+      "text": "1"
+    },
+    {
+      "number": 482,
+      "text": "1"
+    },
+    {
+      "number": 483,
+      "text": "0"
+    },
+    {
+      "number": 484,
+      "text": "0"
+    },
+    {
+      "number": 485,
+      "text": "0"
+    },
+    {
+      "number": 486,
+      "text": "0"
+    },
+    {
+      "number": 487,
+      "text": "0"
+    },
+    {
+      "number": 488,
+      "text": "0"
+    },
+    {
+      "number": 489,
+      "text": "0"
+    },
+    {
+      "number": 490,
+      "text": "1"
+    },
+    {
+      "number": 491,
+      "text": "导管2"
+    },
+    {
+      "number": 492,
+      "text": "296"
+    },
+    {
+      "number": 493,
+      "text": "172"
+    },
+    {
+      "number": 494,
+      "text": "296"
+    },
+    {
+      "number": 495,
+      "text": "327"
+    },
+    {
+      "number": 496,
+      "text": "0"
+    },
+    {
+      "number": 497,
+      "text": "0"
+    },
+    {
+      "number": 498,
+      "text": "13369376"
+    },
+    {
+      "number": 499,
+      "text": "0"
+    },
+    {
+      "number": 500,
+      "text": "4"
+    },
+    {
+      "number": 501,
+      "text": "导管1"
+    },
+    {
+      "number": 502,
+      "text": "1002"
+    },
+    {
+      "number": 503,
+      "text": "1"
+    },
+    {
+      "number": 504,
+      "text": "容器3"
+    },
+    {
+      "number": 505,
+      "text": "107"
+    },
+    {
+      "number": 506,
+      "text": "0"
+    },
+    {
+      "number": 507,
+      "text": "1"
+    },
+    {
+      "number": 508,
+      "text": "0"
+    },
+    {
+      "number": 509,
+      "text": "0"
+    },
+    {
+      "number": 510,
+      "text": "0"
+    },
+    {
+      "number": 511,
+      "text": "0"
+    },
+    {
+      "number": 512,
+      "text": "0"
+    },
+    {
+      "number": 513,
+      "text": "0"
+    },
+    {
+      "number": 514,
+      "text": "0"
+    },
+    {
+      "number": 515,
+      "text": "1"
+    },
+    {
+      "number": 516,
+      "text": "导管5"
+    },
+    {
+      "number": 517,
+      "text": "301"
+    },
+    {
+      "number": 518,
+      "text": "288"
+    },
+    {
+      "number": 519,
+      "text": "347"
+    },
+    {
+      "number": 520,
+      "text": "239"
+    },
+    {
+      "number": 521,
+      "text": "13816"
+    },
+    {
+      "number": 522,
+      "text": "13930908"
+    },
+    {
+      "number": 523,
+      "text": "13808"
+    },
+    {
+      "number": 524,
+      "text": "5307404"
+    },
+    {
+      "number": 525,
+      "text": "1"
+    },
+    {
+      "number": 526,
+      "text": "容器3"
+    },
+    {
+      "number": 527,
+      "text": "107"
+    },
+    {
+      "number": 528,
+      "text": "0"
+    },
+    {
+      "number": 529,
+      "text": "导管6"
+    },
+    {
+      "number": 530,
+      "text": "1001"
+    },
+    {
+      "number": 531,
+      "text": "1"
+    },
+    {
+      "number": 532,
+      "text": "1"
+    },
+    {
+      "number": 533,
+      "text": "0"
+    },
+    {
+      "number": 534,
+      "text": "0"
+    },
+    {
+      "number": 535,
+      "text": "0"
+    },
+    {
+      "number": 536,
+      "text": "0"
+    },
+    {
+      "number": 537,
+      "text": "0"
+    },
+    {
+      "number": 538,
+      "text": "0"
+    },
+    {
+      "number": 539,
+      "text": "0"
+    },
+    {
+      "number": 540,
+      "text": "1"
+    },
+    {
+      "number": 541,
+      "text": "导管6"
+    },
+    {
+      "number": 542,
+      "text": "347"
+    },
+    {
+      "number": 543,
+      "text": "239"
+    },
+    {
+      "number": 544,
+      "text": "384"
+    },
+    {
+      "number": 545,
+      "text": "325"
+    },
+    {
+      "number": 546,
+      "text": "7628"
+    },
+    {
+      "number": 547,
+      "text": "13930908"
+    },
+    {
+      "number": 548,
+      "text": "13968692"
+    },
+    {
+      "number": 549,
+      "text": "5307404"
+    },
+    {
+      "number": 550,
+      "text": "2"
+    },
+    {
+      "number": 551,
+      "text": "导管5"
+    },
+    {
+      "number": 552,
+      "text": "1002"
+    },
+    {
+      "number": 553,
+      "text": "1"
+    },
+    {
+      "number": 554,
+      "text": "容器9"
+    },
+    {
+      "number": 555,
+      "text": "102"
+    },
+    {
+      "number": 556,
+      "text": "0"
+    },
+    {
+      "number": 557,
+      "text": "1"
+    },
+    {
+      "number": 558,
+      "text": "0"
+    },
+    {
+      "number": 559,
+      "text": "0"
+    },
+    {
+      "number": 560,
+      "text": "0"
+    },
+    {
+      "number": 561,
+      "text": "0"
+    },
+    {
+      "number": 562,
+      "text": "0"
+    },
+    {
+      "number": 563,
+      "text": "0"
+    },
+    {
+      "number": 564,
+      "text": "0"
+    },
+    {
+      "number": 565,
+      "text": ""
+    },
+    {
+      "number": 566,
+      "text": ""
+    },
+    {
+      "number": 567,
+      "text": ""
+    },
+    {
+      "number": 568,
+      "text": ""
+    },
+    {
+      "number": 569,
+      "text": ""
+    },
+    {
+      "number": 570,
+      "text": ""
+    },
+    {
+      "number": 571,
+      "text": ""
+    },
+    {
+      "number": 572,
+      "text": ""
+    },
+    {
+      "number": 573,
+      "text": ""
+    },
+    {
+      "number": 574,
+      "text": ""
+    },
+    {
+      "number": 575,
+      "text": ""
+    },
+    {
+      "number": 576,
+      "text": ""
+    },
+    {
+      "number": 577,
+      "text": ""
+    },
+    {
+      "number": 578,
+      "text": ""
+    },
+    {
+      "number": 579,
+      "text": ""
+    },
+    {
+      "number": 580,
+      "text": ""
+    },
+    {
+      "number": 581,
+      "text": "1"
+    },
+    {
+      "number": 582,
+      "text": "0"
+    },
+    {
+      "number": 583,
+      "text": "0"
+    },
+    {
+      "number": 584,
+      "text": "0"
+    },
+    {
+      "number": 585,
+      "text": "t"
+    },
+    {
+      "number": 586,
+      "text": "时间变量"
+    },
+    {
+      "number": 587,
+      "text": "0"
+    },
+    {
+      "number": 588,
+      "text": "0"
+    },
+    {
+      "number": 589,
+      "text": "0"
+    },
+    {
+      "number": 590,
+      "text": "6"
+    },
+    {
+      "number": 591,
+      "text": "1"
+    },
+    {
+      "number": 592,
+      "text": "236"
+    },
+    {
+      "number": 593,
+      "text": "21"
+    },
+    {
+      "number": 594,
+      "text": "175"
+    },
+    {
+      "number": 595,
+      "text": "29"
+    },
+    {
+      "number": 596,
+      "text": "0"
+    },
+    {
+      "number": 597,
+      "text": "8388608"
+    },
+    {
+      "number": 598,
+      "text": "-27"
+    },
+    {
+      "number": 599,
+      "text": "0"
+    },
+    {
+      "number": 600,
+      "text": "20"
+    },
+    {
+      "number": 601,
+      "text": "0"
+    },
+    {
+      "number": 602,
+      "text": "0"
+    },
+    {
+      "number": 603,
+      "text": "0"
+    },
+    {
+      "number": 604,
+      "text": "0"
+    },
+    {
+      "number": 605,
+      "text": "Arial"
+    },
+    {
+      "number": 606,
+      "text": "1"
+    },
+    {
+      "number": 607,
+      "text": "实验室制取Cl2"
+    },
+    {
+      "number": 608,
+      "text": "1"
+    },
+    {
+      "number": 609,
+      "text": "101"
+    },
+    {
+      "number": 610,
+      "text": "349"
+    },
+    {
+      "number": 611,
+      "text": "433"
+    },
+    {
+      "number": 612,
+      "text": "26"
+    },
+    {
+      "number": 613,
+      "text": "0"
+    },
+    {
+      "number": 614,
+      "text": "0"
+    },
+    {
+      "number": 615,
+      "text": "-24"
+    },
+    {
+      "number": 616,
+      "text": "0"
+    },
+    {
+      "number": 617,
+      "text": "18"
+    },
+    {
+      "number": 618,
+      "text": "0"
+    },
+    {
+      "number": 619,
+      "text": "0"
+    },
+    {
+      "number": 620,
+      "text": "0"
+    },
+    {
+      "number": 621,
+      "text": "0"
+    },
+    {
+      "number": 622,
+      "text": "Arial"
+    },
+    {
+      "number": 623,
+      "text": "1"
+    },
+    {
+      "number": 624,
+      "text": "4HCl + MnO2 ═△ MnCl2 + 2H2O + 2Cl2↑"
+    },
+    {
+      "number": 625,
+      "text": "1"
+    },
+    {
+      "number": 626,
+      "text": "141"
+    },
+    {
+      "number": 627,
+      "text": "102"
+    },
+    {
+      "number": 628,
+      "text": "39"
+    },
+    {
+      "number": 629,
+      "text": "14"
+    },
+    {
+      "number": 630,
+      "text": "134"
+    },
+    {
+      "number": 631,
+      "text": "0"
+    },
+    {
+      "number": 632,
+      "text": "-13"
+    },
+    {
+      "number": 633,
+      "text": "0"
+    },
+    {
+      "number": 634,
+      "text": "10"
+    },
+    {
+      "number": 635,
+      "text": "0"
+    },
+    {
+      "number": 636,
+      "text": "0"
+    },
+    {
+      "number": 637,
+      "text": "0"
+    },
+    {
+      "number": 638,
+      "text": "0"
+    },
+    {
+      "number": 639,
+      "text": "宋体"
+    },
+    {
+      "number": 640,
+      "text": "1"
+    },
+    {
+      "number": 641,
+      "text": "浓盐酸"
+    },
+    {
+      "number": 642,
+      "text": "1"
+    },
+    {
+      "number": 643,
+      "text": "198"
+    },
+    {
+      "number": 644,
+      "text": "245"
+    },
+    {
+      "number": 645,
+      "text": "29"
+    },
+    {
+      "number": 646,
+      "text": "16"
+    },
+    {
+      "number": 647,
+      "text": "134"
+    },
+    {
+      "number": 648,
+      "text": "0"
+    },
+    {
+      "number": 649,
+      "text": "-15"
+    },
+    {
+      "number": 650,
+      "text": "0"
+    },
+    {
+      "number": 651,
+      "text": "11"
+    },
+    {
+      "number": 652,
+      "text": "0"
+    },
+    {
+      "number": 653,
+      "text": "0"
+    },
+    {
+      "number": 654,
+      "text": "0"
+    },
+    {
+      "number": 655,
+      "text": "0"
+    },
+    {
+      "number": 656,
+      "text": "宋体"
+    },
+    {
+      "number": 657,
+      "text": "1"
+    },
+    {
+      "number": 658,
+      "text": "MnO2"
+    },
+    {
+      "number": 659,
+      "text": "1"
+    },
+    {
+      "number": 660,
+      "text": "416"
+    },
+    {
+      "number": 661,
+      "text": "318"
+    },
+    {
+      "number": 662,
+      "text": "119"
+    },
+    {
+      "number": 663,
+      "text": "14"
+    },
+    {
+      "number": 664,
+      "text": "134"
+    },
+    {
+      "number": 665,
+      "text": "0"
+    },
+    {
+      "number": 666,
+      "text": "-13"
+    },
+    {
+      "number": 667,
+      "text": "0"
+    },
+    {
+      "number": 668,
+      "text": "10"
+    },
+    {
+      "number": 669,
+      "text": "0"
+    },
+    {
+      "number": 670,
+      "text": "0"
+    },
+    {
+      "number": 671,
+      "text": "0"
+    },
+    {
+      "number": 672,
+      "text": "0"
+    },
+    {
+      "number": 673,
+      "text": "宋体"
+    },
+    {
+      "number": 674,
+      "text": "1"
+    },
+    {
+      "number": 675,
+      "text": "用NaOH溶液吸收尾气"
+    },
+    {
+      "number": 676,
+      "text": "1"
+    },
+    {
+      "number": 677,
+      "text": "202"
+    },
+    {
+      "number": 678,
+      "text": "444"
+    },
+    {
+      "number": 679,
+      "text": "0"
+    },
+    {
+      "number": 680,
+      "text": "16"
+    },
+    {
+      "number": 681,
+      "text": "134"
+    },
+    {
+      "number": 682,
+      "text": "8388608"
+    },
+    {
+      "number": 683,
+      "text": "-14"
+    },
+    {
+      "number": 684,
+      "text": "0"
+    },
+    {
+      "number": 685,
+      "text": "11"
+    },
+    {
+      "number": 686,
+      "text": "0"
+    },
+    {
+      "number": 687,
+      "text": "0"
+    },
+    {
+      "number": 688,
+      "text": "0"
+    },
+    {
+      "number": 689,
+      "text": "0"
+    },
+    {
+      "number": 690,
+      "text": "宋体"
+    },
+    {
+      "number": 691,
+      "text": "0"
+    },
+    {
+      "number": 692,
+      "text": "1"
+    },
+    {
+      "number": 693,
+      "text": "0"
+    },
+    {
+      "number": 694,
+      "text": "3"
+    },
+    {
+      "number": 695,
+      "text": "0"
+    },
+    {
+      "number": 696,
+      "text": "0"
+    },
+    {
+      "number": 697,
+      "text": "1"
+    },
+    {
+      "number": 698,
+      "text": "0"
+    },
+    {
+      "number": 699,
+      "text": "0"
+    },
+    {
+      "number": 700,
+      "text": "0"
+    },
+    {
+      "number": 701,
+      "text": "0"
+    },
+    {
+      "number": 702,
+      "text": "0"
+    },
+    {
+      "number": 703,
+      "text": "0"
+    },
+    {
+      "number": 704,
+      "text": "0"
+    },
+    {
+      "number": 705,
+      "text": "0"
+    },
+    {
+      "number": 706,
+      "text": "0"
+    },
+    {
+      "number": 707,
+      "text": "0"
+    },
+    {
+      "number": 708,
+      "text": "0"
+    },
+    {
+      "number": 709,
+      "text": "0"
+    },
+    {
+      "number": 710,
+      "text": "0"
+    },
+    {
+      "number": 711,
+      "text": "0"
+    },
+    {
+      "number": 712,
+      "text": "0"
+    },
+    {
+      "number": 713,
+      "text": ""
+    },
+    {
+      "number": 714,
+      "text": "0"
+    },
+    {
+      "number": 715,
+      "text": "0"
+    },
+    {
+      "number": 716,
+      "text": "0"
+    },
+    {
+      "number": 717,
+      "text": "0"
+    },
+    {
+      "number": 718,
+      "text": "0"
+    },
+    {
+      "number": 719,
+      "text": "0"
+    },
+    {
+      "number": 720,
+      "text": "0"
+    },
+    {
+      "number": 721,
+      "text": "0"
+    },
+    {
+      "number": 722,
+      "text": "0"
+    },
+    {
+      "number": 723,
+      "text": "0"
+    },
+    {
+      "number": 724,
+      "text": "0"
+    },
+    {
+      "number": 725,
+      "text": "0"
+    },
+    {
+      "number": 726,
+      "text": "0"
+    },
+    {
+      "number": 727,
+      "text": "0"
+    },
+    {
+      "number": 728,
+      "text": "0"
+    },
+    {
+      "number": 729,
+      "text": ""
+    },
+    {
+      "number": 730,
+      "text": "0"
+    },
+    {
+      "number": 731,
+      "text": "0"
+    },
+    {
+      "number": 732,
+      "text": "0"
+    },
+    {
+      "number": 733,
+      "text": "0"
+    },
+    {
+      "number": 734,
+      "text": "0"
+    },
+    {
+      "number": 735,
+      "text": "0"
+    },
+    {
+      "number": 736,
+      "text": "0"
+    },
+    {
+      "number": 737,
+      "text": "0"
+    },
+    {
+      "number": 738,
+      "text": "0"
+    },
+    {
+      "number": 739,
+      "text": "0"
+    },
+    {
+      "number": 740,
+      "text": "0"
+    },
+    {
+      "number": 741,
+      "text": "0"
+    },
+    {
+      "number": 742,
+      "text": "0"
+    },
+    {
+      "number": 743,
+      "text": "0"
+    },
+    {
+      "number": 744,
+      "text": "0"
+    },
+    {
+      "number": 745,
+      "text": ""
+    },
+    {
+      "number": 746,
+      "text": "0"
+    },
+    {
+      "number": 747,
+      "text": "0"
+    },
+    {
+      "number": 748,
+      "text": "0"
+    },
+    {
+      "number": 749,
+      "text": "0"
+    },
+    {
+      "number": 750,
+      "text": "0"
+    },
+    {
+      "number": 751,
+      "text": "0"
+    },
+    {
+      "number": 752,
+      "text": "0"
+    },
+    {
+      "number": 753,
+      "text": "0"
+    },
+    {
+      "number": 754,
+      "text": "0"
+    },
+    {
+      "number": 755,
+      "text": "0"
+    },
+    {
+      "number": 756,
+      "text": "0"
+    },
+    {
+      "number": 757,
+      "text": "0"
+    },
+    {
+      "number": 758,
+      "text": "0"
+    },
+    {
+      "number": 759,
+      "text": "0"
+    },
+    {
+      "number": 760,
+      "text": "0"
+    },
+    {
+      "number": 761,
+      "text": ""
+    },
+    {
+      "number": 762,
+      "text": "0"
+    },
+    {
+      "number": 763,
+      "text": "0"
+    },
+    {
+      "number": 764,
+      "text": "0"
+    },
+    {
+      "number": 765,
+      "text": "0"
+    },
+    {
+      "number": 766,
+      "text": "0"
+    },
+    {
+      "number": 767,
+      "text": "0"
+    },
+    {
+      "number": 768,
+      "text": "0"
+    },
+    {
+      "number": 769,
+      "text": "0"
+    },
+    {
+      "number": 770,
+      "text": "0"
+    },
+    {
+      "number": 771,
+      "text": "0"
+    },
+    {
+      "number": 772,
+      "text": "0"
+    },
+    {
+      "number": 773,
+      "text": "0"
+    },
+    {
+      "number": 774,
+      "text": "0"
+    },
+    {
+      "number": 775,
+      "text": "0"
+    },
+    {
+      "number": 776,
+      "text": "0"
+    },
+    {
+      "number": 777,
+      "text": ""
+    },
+    {
+      "number": 778,
+      "text": "0"
+    },
+    {
+      "number": 779,
+      "text": "0"
+    },
+    {
+      "number": 780,
+      "text": "0"
+    },
+    {
+      "number": 781,
+      "text": "0"
+    },
+    {
+      "number": 782,
+      "text": "0"
+    },
+    {
+      "number": 783,
+      "text": "0"
+    },
+    {
+      "number": 784,
+      "text": "0"
+    },
+    {
+      "number": 785,
+      "text": "0"
+    },
+    {
+      "number": 786,
+      "text": "0"
+    },
+    {
+      "number": 787,
+      "text": "0"
+    },
+    {
+      "number": 788,
+      "text": "0"
+    },
+    {
+      "number": 789,
+      "text": "0"
+    },
+    {
+      "number": 790,
+      "text": "0"
+    },
+    {
+      "number": 791,
+      "text": "0"
+    },
+    {
+      "number": 792,
+      "text": "0"
+    },
+    {
+      "number": 793,
+      "text": ""
+    },
+    {
+      "number": 794,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

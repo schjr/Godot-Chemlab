@@ -1,0 +1,227 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TFRAME1",
+      0
+    ],
+    "file_offset": 1453812,
+    "resource_size": 511,
+    "sha256": "fa4794546ffae047590080cd0184e4e2b11d6824c4aab348e1ff6b2ee7f9a90d",
+    "binary": "recovered/forms/_ency/TFRAME1.dfm.bin",
+    "parsed_size": 511,
+    "trailing_bytes": 0,
+    "root_class": "TFrame1",
+    "root_name": "Frame1",
+    "component_count": 3,
+    "event_handlers": [
+      {
+        "component": "CppWebBrowser1",
+        "class": "TCppWebBrowser",
+        "event": "OnBeforeNavigate2",
+        "handler": "CppWebBrowser1BeforeNavigate2"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "CppWebBrowser1BeforeNavigate2",
+        "entry_file_offset": 1143313,
+        "entry_size": 36,
+        "code_va": "0x0041A440",
+        "code_file_offset": 105024,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/TFrame1.hpp"
+  },
+  "form": {
+    "class": "TFrame1",
+    "name": "Frame1",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 24
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 30
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 443,
+          "offset": 38
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 277,
+          "offset": 48
+        }
+      },
+      {
+        "name": "Align",
+        "value": {
+          "type": 7,
+          "value": "alClient",
+          "offset": 57
+        }
+      },
+      {
+        "name": "TabOrder",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 76
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TCppWebBrowser",
+        "name": "CppWebBrowser1",
+        "flags": 0,
+        "offset": 79,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 114
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 120
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 443,
+              "offset": 128
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 277,
+              "offset": 138
+            }
+          },
+          {
+            "name": "TabStop",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 149
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alClient",
+              "offset": 156
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 175
+            }
+          },
+          {
+            "name": "OnBeforeNavigate2",
+            "value": {
+              "type": 7,
+              "value": "CppWebBrowser1BeforeNavigate2",
+              "offset": 195
+            }
+          },
+          {
+            "name": "ControlData",
+            "value": {
+              "type": 10,
+              "value": "4C000000C92D0000A11C00000000000000000000000000000000000000000000000000004C000000000000000000000001000000E0D057007335CF11AE6908002B2E126208000000000000004C0000000114020000000000C000000000000046800000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000",
+              "size": 156,
+              "sha256": "4d0854da5927a3e0a061d3f5cbb6a1f16eb9eb12b73fa56adc6a676bb083aff8",
+              "offset": 238
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery1",
+        "flags": 0,
+        "offset": 401,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 432
+            }
+          },
+          {
+            "name": "LockType",
+            "value": {
+              "type": 7,
+              "value": "ltReadOnly",
+              "offset": 469
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 492
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 232,
+              "offset": 499
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 506
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

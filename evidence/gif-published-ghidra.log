@@ -1,0 +1,167 @@
+openjdk version "21.0.12.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode)
+INFO  Using log config file: jar:file:/Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /private/tmp/chemlab-ghidra-config/schjr-ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /private/tmp/chemlab-ghidra-config/schjr-ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (508 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1019 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /Users/schjr/Programs/ChemLab_REA/tools/ghidra
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /private/tmp/chemlab-ghidra-project/gif-published/recovery (HeadlessAnalyzer)  
+INFO  Creating project: /private/tmp/chemlab-ghidra-project/gif-published/recovery (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /private/tmp/chemlab-ghidra-project/gif-published/recovery (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/gif.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:borlanddelphi (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, /Users/schjr/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  TLS callbacks at 463010 (TLSDirectory)  
+INFO  Removing 1 unused filesystems from cache (FileSystemInstanceManager)  
+INFO  Additional info:
+Loading file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/gif.exe?MD5=e3df52c7e3132ed489a20d89a67c9f0d...
+------------------------------------------------
+
+Searching 3 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library AVIFIL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library COMCTL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library COMDLG32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library OLE32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library OLEAUT32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library WINMM.DLL...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'gif.exe' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [OLEAUT32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+  [WINMM.DLL] -> not found in project
+  [COMDLG32.DLL] -> not found in project
+  [AVIFIL32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: SeedPublished.java '/Users/schjr/Programs/ChemLab_REA/recovered/project/method_maps/gif.tsv'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/schjr/Programs/ChemLab_REA/tools/ghidra/SeedPublished.java (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/gif.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 00407f83: Unable to read bytes at ram:40e8c031 (DecompileCallback)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+INFO  Packed database cache: /private/tmp/chemlab-ghidra-cache/schjr-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+WARN  Decompiling 00407f83: Unable to read bytes at ram:40e8c031 (DecompileCallback)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.131 secs
+    Apply Data Archives                        0.255 secs
+    Call Convention ID                         0.008 secs
+    Call-Fixup Installer                       0.027 secs
+    Create Address Tables                      0.033 secs
+    Create Address Tables - One Time           0.206 secs
+    Create Function                            0.221 secs
+    Data Reference                             0.232 secs
+    Decompiler Parameter ID                    4.013 secs
+    Decompiler Switch Analysis                 2.707 secs
+    Decompiler Switch Analysis - One Time      1.735 secs
+    Demangler GNU                              0.014 secs
+    Demangler Microsoft                        0.006 secs
+    Disassemble                                0.422 secs
+    Disassemble Entry Points                   0.020 secs
+    Embedded Media                             0.009 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.312 secs
+    Function Start Search                      0.025 secs
+    Function Start Search After Code           0.016 secs
+    Non-Returning Functions - Discovered       0.107 secs
+    Non-Returning Functions - Known            0.002 secs
+    PDB Universal                              0.000 secs
+    Reference                                  0.301 secs
+    Scalar Operand References                  0.244 secs
+    Shared Return Calls                        0.106 secs
+    Stack                                      0.858 secs
+    Subroutine References                      0.328 secs
+    Subroutine References - One Time           0.000 secs
+    WindowsResourceReference                   0.422 secs
+    X86 Function Callee Purge                  0.033 secs
+    x86 Constant Reference Analyzer            1.090 secs
+-----------------------------------------------------
+     Total Time   13 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/gif.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: RecoverPublished.java '/Users/schjr/Programs/ChemLab_REA/recovered/project/method_maps/gif.tsv' '/Users/schjr/Programs/ChemLab_REA/recovered/native/gif'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/schjr/Programs/ChemLab_REA/tools/ghidra/RecoverPublished.java (HeadlessAnalyzer)  
+INFO  RecoverPublished.java> PUBLISHED gif.exe 0/4 (GhidraScript)  
+INFO  RecoverPublished.java> PUBLISHED COMPLETE gif.exe 4/4 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/gif.exe (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/gif.exe (HeadlessAnalyzer)  
+INFO  /gif.exe: file created (schjr) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /gif.exe (recovery:/gif.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

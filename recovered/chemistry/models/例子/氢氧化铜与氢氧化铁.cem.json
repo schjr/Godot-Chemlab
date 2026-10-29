@@ -1,0 +1,3072 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/例子/氢氧化铜与氢氧化铁.cem",
+    "byte_count": 3308,
+    "sha256": "69153d74d17dea9f06e899c8bfe9de23b511702e479dce6115b084ed8419fce2",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/氢氧化铜与氢氧化铁.cem",
+    "utf8_export": "utf8/例子/氢氧化铜与氢氧化铁.cem"
+  },
+  "format": "cem",
+  "header_lines": [
+    "仿真化学实验室 金华科 V3.0",
+    "6",
+    "9"
+  ],
+  "line_count": 763,
+  "lines": [
+    {
+      "number": 1,
+      "text": "仿真化学实验室 金华科 V3.0"
+    },
+    {
+      "number": 2,
+      "text": "6"
+    },
+    {
+      "number": 3,
+      "text": "9"
+    },
+    {
+      "number": 4,
+      "text": "0"
+    },
+    {
+      "number": 5,
+      "text": "0"
+    },
+    {
+      "number": 6,
+      "text": "1"
+    },
+    {
+      "number": 7,
+      "text": "容器3"
+    },
+    {
+      "number": 8,
+      "text": "102"
+    },
+    {
+      "number": 9,
+      "text": "200"
+    },
+    {
+      "number": 10,
+      "text": "179"
+    },
+    {
+      "number": 11,
+      "text": "222"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "200"
+    },
+    {
+      "number": 15,
+      "text": "26.6"
+    },
+    {
+      "number": 16,
+      "text": "0"
+    },
+    {
+      "number": 17,
+      "text": "0"
+    },
+    {
+      "number": 18,
+      "text": "0"
+    },
+    {
+      "number": 19,
+      "text": "0"
+    },
+    {
+      "number": 20,
+      "text": "0"
+    },
+    {
+      "number": 21,
+      "text": "6579300"
+    },
+    {
+      "number": 22,
+      "text": "0"
+    },
+    {
+      "number": 23,
+      "text": "0"
+    },
+    {
+      "number": 24,
+      "text": "0"
+    },
+    {
+      "number": 25,
+      "text": "0"
+    },
+    {
+      "number": 26,
+      "text": "0"
+    },
+    {
+      "number": 27,
+      "text": "6579300"
+    },
+    {
+      "number": 28,
+      "text": "0"
+    },
+    {
+      "number": 29,
+      "text": "0"
+    },
+    {
+      "number": 30,
+      "text": "0"
+    },
+    {
+      "number": 31,
+      "text": "0"
+    },
+    {
+      "number": 32,
+      "text": "0"
+    },
+    {
+      "number": 33,
+      "text": "0"
+    },
+    {
+      "number": 34,
+      "text": ""
+    },
+    {
+      "number": 35,
+      "text": "0"
+    },
+    {
+      "number": 36,
+      "text": "20"
+    },
+    {
+      "number": 37,
+      "text": ""
+    },
+    {
+      "number": 38,
+      "text": ""
+    },
+    {
+      "number": 39,
+      "text": ""
+    },
+    {
+      "number": 40,
+      "text": "0"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "1"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0"
+    },
+    {
+      "number": 45,
+      "text": "0"
+    },
+    {
+      "number": 46,
+      "text": "3"
+    },
+    {
+      "number": 47,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 48,
+      "text": "90"
+    },
+    {
+      "number": 49,
+      "text": "4.9955595026643"
+    },
+    {
+      "number": 50,
+      "text": "CuSO4(溶解)"
+    },
+    {
+      "number": 51,
+      "text": "2.5628"
+    },
+    {
+      "number": 52,
+      "text": "0.02"
+    },
+    {
+      "number": 53,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 54,
+      "text": "0"
+    },
+    {
+      "number": 55,
+      "text": "0"
+    },
+    {
+      "number": 56,
+      "text": "4"
+    },
+    {
+      "number": 57,
+      "text": "0"
+    },
+    {
+      "number": 58,
+      "text": "方程式19"
+    },
+    {
+      "number": 59,
+      "text": "2"
+    },
+    {
+      "number": 60,
+      "text": "2"
+    },
+    {
+      "number": 61,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 62,
+      "text": "2"
+    },
+    {
+      "number": 63,
+      "text": "CuSO4(溶解)"
+    },
+    {
+      "number": 64,
+      "text": "1"
+    },
+    {
+      "number": 65,
+      "text": "Na2SO4(溶解)"
+    },
+    {
+      "number": 66,
+      "text": "1"
+    },
+    {
+      "number": 67,
+      "text": "Cu(OH)2(固体)"
+    },
+    {
+      "number": 68,
+      "text": "1"
+    },
+    {
+      "number": 69,
+      "text": "1"
+    },
+    {
+      "number": 70,
+      "text": "水溶液"
+    },
+    {
+      "number": 71,
+      "text": "0.001"
+    },
+    {
+      "number": 72,
+      "text": "100"
+    },
+    {
+      "number": 73,
+      "text": "单向"
+    },
+    {
+      "number": 74,
+      "text": "20369988"
+    },
+    {
+      "number": 75,
+      "text": "方程式40"
+    },
+    {
+      "number": 76,
+      "text": "2"
+    },
+    {
+      "number": 77,
+      "text": "2"
+    },
+    {
+      "number": 78,
+      "text": "Cu(OH)2(固体)"
+    },
+    {
+      "number": 79,
+      "text": "1"
+    },
+    {
+      "number": 80,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 81,
+      "text": "2"
+    },
+    {
+      "number": 82,
+      "text": "CuCl2(溶解)"
+    },
+    {
+      "number": 83,
+      "text": "1"
+    },
+    {
+      "number": 84,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 85,
+      "text": "1"
+    },
+    {
+      "number": 86,
+      "text": "0"
+    },
+    {
+      "number": 87,
+      "text": "水溶液"
+    },
+    {
+      "number": 88,
+      "text": "0.001"
+    },
+    {
+      "number": 89,
+      "text": "100"
+    },
+    {
+      "number": 90,
+      "text": "单向"
+    },
+    {
+      "number": 91,
+      "text": "20369988"
+    },
+    {
+      "number": 92,
+      "text": "方程式47"
+    },
+    {
+      "number": 93,
+      "text": "2"
+    },
+    {
+      "number": 94,
+      "text": "2"
+    },
+    {
+      "number": 95,
+      "text": "CuCl2(溶解)"
+    },
+    {
+      "number": 96,
+      "text": "1"
+    },
+    {
+      "number": 97,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 98,
+      "text": "2"
+    },
+    {
+      "number": 99,
+      "text": "Cu(OH)2(固体)"
+    },
+    {
+      "number": 100,
+      "text": "1"
+    },
+    {
+      "number": 101,
+      "text": "NaCl(溶解)"
+    },
+    {
+      "number": 102,
+      "text": "2"
+    },
+    {
+      "number": 103,
+      "text": "0"
+    },
+    {
+      "number": 104,
+      "text": "无"
+    },
+    {
+      "number": 105,
+      "text": "0.001"
+    },
+    {
+      "number": 106,
+      "text": "100"
+    },
+    {
+      "number": 107,
+      "text": "单向"
+    },
+    {
+      "number": 108,
+      "text": "20098152"
+    },
+    {
+      "number": 109,
+      "text": "方程式171"
+    },
+    {
+      "number": 110,
+      "text": "2"
+    },
+    {
+      "number": 111,
+      "text": "2"
+    },
+    {
+      "number": 112,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 113,
+      "text": "1"
+    },
+    {
+      "number": 114,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 115,
+      "text": "1"
+    },
+    {
+      "number": 116,
+      "text": "NaCl(溶解)"
+    },
+    {
+      "number": 117,
+      "text": "1"
+    },
+    {
+      "number": 118,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 119,
+      "text": "1"
+    },
+    {
+      "number": 120,
+      "text": "0"
+    },
+    {
+      "number": 121,
+      "text": "0"
+    },
+    {
+      "number": 122,
+      "text": "0.001"
+    },
+    {
+      "number": 123,
+      "text": "100"
+    },
+    {
+      "number": 124,
+      "text": "单向"
+    },
+    {
+      "number": 125,
+      "text": "0"
+    },
+    {
+      "number": 126,
+      "text": "0"
+    },
+    {
+      "number": 127,
+      "text": "10"
+    },
+    {
+      "number": 128,
+      "text": "0"
+    },
+    {
+      "number": 129,
+      "text": "0"
+    },
+    {
+      "number": 130,
+      "text": "0"
+    },
+    {
+      "number": 131,
+      "text": "0"
+    },
+    {
+      "number": 132,
+      "text": "0"
+    },
+    {
+      "number": 133,
+      "text": "0"
+    },
+    {
+      "number": 134,
+      "text": "0"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": "0"
+    },
+    {
+      "number": 137,
+      "text": "0"
+    },
+    {
+      "number": 138,
+      "text": "0"
+    },
+    {
+      "number": 139,
+      "text": "0"
+    },
+    {
+      "number": 140,
+      "text": "0"
+    },
+    {
+      "number": 141,
+      "text": "0"
+    },
+    {
+      "number": 142,
+      "text": "0"
+    },
+    {
+      "number": 143,
+      "text": "0"
+    },
+    {
+      "number": 144,
+      "text": "0"
+    },
+    {
+      "number": 145,
+      "text": "1"
+    },
+    {
+      "number": 146,
+      "text": "容器4"
+    },
+    {
+      "number": 147,
+      "text": "202"
+    },
+    {
+      "number": 148,
+      "text": "100"
+    },
+    {
+      "number": 149,
+      "text": "429"
+    },
+    {
+      "number": 150,
+      "text": "224"
+    },
+    {
+      "number": 151,
+      "text": "0"
+    },
+    {
+      "number": 152,
+      "text": "0"
+    },
+    {
+      "number": 153,
+      "text": "100"
+    },
+    {
+      "number": 154,
+      "text": "21.3"
+    },
+    {
+      "number": 155,
+      "text": "0"
+    },
+    {
+      "number": 156,
+      "text": "-6"
+    },
+    {
+      "number": 157,
+      "text": "-29"
+    },
+    {
+      "number": 158,
+      "text": "6"
+    },
+    {
+      "number": 159,
+      "text": "-18"
+    },
+    {
+      "number": 160,
+      "text": "9868950"
+    },
+    {
+      "number": 161,
+      "text": "0"
+    },
+    {
+      "number": 162,
+      "text": "0"
+    },
+    {
+      "number": 163,
+      "text": "0"
+    },
+    {
+      "number": 164,
+      "text": "0"
+    },
+    {
+      "number": 165,
+      "text": "0"
+    },
+    {
+      "number": 166,
+      "text": "6579300"
+    },
+    {
+      "number": 167,
+      "text": "1"
+    },
+    {
+      "number": 168,
+      "text": "0"
+    },
+    {
+      "number": 169,
+      "text": "0"
+    },
+    {
+      "number": 170,
+      "text": "0"
+    },
+    {
+      "number": 171,
+      "text": "0"
+    },
+    {
+      "number": 172,
+      "text": "0"
+    },
+    {
+      "number": 173,
+      "text": ""
+    },
+    {
+      "number": 174,
+      "text": "0"
+    },
+    {
+      "number": 175,
+      "text": "20"
+    },
+    {
+      "number": 176,
+      "text": ""
+    },
+    {
+      "number": 177,
+      "text": ""
+    },
+    {
+      "number": 178,
+      "text": ""
+    },
+    {
+      "number": 179,
+      "text": "0"
+    },
+    {
+      "number": 180,
+      "text": "0"
+    },
+    {
+      "number": 181,
+      "text": "0"
+    },
+    {
+      "number": 182,
+      "text": "0"
+    },
+    {
+      "number": 183,
+      "text": "0"
+    },
+    {
+      "number": 184,
+      "text": "0"
+    },
+    {
+      "number": 185,
+      "text": "2"
+    },
+    {
+      "number": 186,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 187,
+      "text": "40"
+    },
+    {
+      "number": 188,
+      "text": "2.2202486678508"
+    },
+    {
+      "number": 189,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 190,
+      "text": "3.9998"
+    },
+    {
+      "number": 191,
+      "text": "0.1"
+    },
+    {
+      "number": 192,
+      "text": "0"
+    },
+    {
+      "number": 193,
+      "text": "0"
+    },
+    {
+      "number": 194,
+      "text": "0"
+    },
+    {
+      "number": 195,
+      "text": "10"
+    },
+    {
+      "number": 196,
+      "text": "0"
+    },
+    {
+      "number": 197,
+      "text": "0"
+    },
+    {
+      "number": 198,
+      "text": "0"
+    },
+    {
+      "number": 199,
+      "text": "0"
+    },
+    {
+      "number": 200,
+      "text": "0"
+    },
+    {
+      "number": 201,
+      "text": "0"
+    },
+    {
+      "number": 202,
+      "text": "0"
+    },
+    {
+      "number": 203,
+      "text": "0"
+    },
+    {
+      "number": 204,
+      "text": "0"
+    },
+    {
+      "number": 205,
+      "text": "0"
+    },
+    {
+      "number": 206,
+      "text": "0"
+    },
+    {
+      "number": 207,
+      "text": "0"
+    },
+    {
+      "number": 208,
+      "text": "0"
+    },
+    {
+      "number": 209,
+      "text": "0"
+    },
+    {
+      "number": 210,
+      "text": "0"
+    },
+    {
+      "number": 211,
+      "text": "0"
+    },
+    {
+      "number": 212,
+      "text": "0"
+    },
+    {
+      "number": 213,
+      "text": "1"
+    },
+    {
+      "number": 214,
+      "text": "容器5"
+    },
+    {
+      "number": 215,
+      "text": "204"
+    },
+    {
+      "number": 216,
+      "text": "4"
+    },
+    {
+      "number": 217,
+      "text": "429"
+    },
+    {
+      "number": 218,
+      "text": "206"
+    },
+    {
+      "number": 219,
+      "text": "0"
+    },
+    {
+      "number": 220,
+      "text": "0"
+    },
+    {
+      "number": 221,
+      "text": "4"
+    },
+    {
+      "number": 222,
+      "text": "0"
+    },
+    {
+      "number": 223,
+      "text": "0"
+    },
+    {
+      "number": 224,
+      "text": "0"
+    },
+    {
+      "number": 225,
+      "text": "0"
+    },
+    {
+      "number": 226,
+      "text": "0"
+    },
+    {
+      "number": 227,
+      "text": "0"
+    },
+    {
+      "number": 228,
+      "text": "6579300"
+    },
+    {
+      "number": 229,
+      "text": "0"
+    },
+    {
+      "number": 230,
+      "text": "0"
+    },
+    {
+      "number": 231,
+      "text": "0"
+    },
+    {
+      "number": 232,
+      "text": "0"
+    },
+    {
+      "number": 233,
+      "text": "0"
+    },
+    {
+      "number": 234,
+      "text": "6579300"
+    },
+    {
+      "number": 235,
+      "text": "1"
+    },
+    {
+      "number": 236,
+      "text": "0"
+    },
+    {
+      "number": 237,
+      "text": "0"
+    },
+    {
+      "number": 238,
+      "text": "0"
+    },
+    {
+      "number": 239,
+      "text": "0"
+    },
+    {
+      "number": 240,
+      "text": "0"
+    },
+    {
+      "number": 241,
+      "text": ""
+    },
+    {
+      "number": 242,
+      "text": "0"
+    },
+    {
+      "number": 243,
+      "text": "20"
+    },
+    {
+      "number": 244,
+      "text": ""
+    },
+    {
+      "number": 245,
+      "text": ""
+    },
+    {
+      "number": 246,
+      "text": ""
+    },
+    {
+      "number": 247,
+      "text": "0"
+    },
+    {
+      "number": 248,
+      "text": "0"
+    },
+    {
+      "number": 249,
+      "text": "0"
+    },
+    {
+      "number": 250,
+      "text": "0"
+    },
+    {
+      "number": 251,
+      "text": "0"
+    },
+    {
+      "number": 252,
+      "text": "0"
+    },
+    {
+      "number": 253,
+      "text": "0"
+    },
+    {
+      "number": 254,
+      "text": "0"
+    },
+    {
+      "number": 255,
+      "text": "0"
+    },
+    {
+      "number": 256,
+      "text": "0"
+    },
+    {
+      "number": 257,
+      "text": "10"
+    },
+    {
+      "number": 258,
+      "text": "0"
+    },
+    {
+      "number": 259,
+      "text": "0"
+    },
+    {
+      "number": 260,
+      "text": "0"
+    },
+    {
+      "number": 261,
+      "text": "0"
+    },
+    {
+      "number": 262,
+      "text": "0"
+    },
+    {
+      "number": 263,
+      "text": "0"
+    },
+    {
+      "number": 264,
+      "text": "0"
+    },
+    {
+      "number": 265,
+      "text": "0"
+    },
+    {
+      "number": 266,
+      "text": "0"
+    },
+    {
+      "number": 267,
+      "text": "0"
+    },
+    {
+      "number": 268,
+      "text": "0"
+    },
+    {
+      "number": 269,
+      "text": "0"
+    },
+    {
+      "number": 270,
+      "text": "0"
+    },
+    {
+      "number": 271,
+      "text": "0"
+    },
+    {
+      "number": 272,
+      "text": "0"
+    },
+    {
+      "number": 273,
+      "text": "0"
+    },
+    {
+      "number": 274,
+      "text": "0"
+    },
+    {
+      "number": 275,
+      "text": "1"
+    },
+    {
+      "number": 276,
+      "text": "容器6"
+    },
+    {
+      "number": 277,
+      "text": "102"
+    },
+    {
+      "number": 278,
+      "text": "200"
+    },
+    {
+      "number": 279,
+      "text": "306"
+    },
+    {
+      "number": 280,
+      "text": "222"
+    },
+    {
+      "number": 281,
+      "text": "0"
+    },
+    {
+      "number": 282,
+      "text": "0"
+    },
+    {
+      "number": 283,
+      "text": "200"
+    },
+    {
+      "number": 284,
+      "text": "26.6"
+    },
+    {
+      "number": 285,
+      "text": "0"
+    },
+    {
+      "number": 286,
+      "text": "0"
+    },
+    {
+      "number": 287,
+      "text": "0"
+    },
+    {
+      "number": 288,
+      "text": "0"
+    },
+    {
+      "number": 289,
+      "text": "0"
+    },
+    {
+      "number": 290,
+      "text": "6579300"
+    },
+    {
+      "number": 291,
+      "text": "0"
+    },
+    {
+      "number": 292,
+      "text": "0"
+    },
+    {
+      "number": 293,
+      "text": "0"
+    },
+    {
+      "number": 294,
+      "text": "0"
+    },
+    {
+      "number": 295,
+      "text": "0"
+    },
+    {
+      "number": 296,
+      "text": "6579300"
+    },
+    {
+      "number": 297,
+      "text": "0"
+    },
+    {
+      "number": 298,
+      "text": "0"
+    },
+    {
+      "number": 299,
+      "text": "0"
+    },
+    {
+      "number": 300,
+      "text": "0"
+    },
+    {
+      "number": 301,
+      "text": "0"
+    },
+    {
+      "number": 302,
+      "text": "0"
+    },
+    {
+      "number": 303,
+      "text": ""
+    },
+    {
+      "number": 304,
+      "text": "0"
+    },
+    {
+      "number": 305,
+      "text": "20"
+    },
+    {
+      "number": 306,
+      "text": ""
+    },
+    {
+      "number": 307,
+      "text": ""
+    },
+    {
+      "number": 308,
+      "text": ""
+    },
+    {
+      "number": 309,
+      "text": "0"
+    },
+    {
+      "number": 310,
+      "text": "0"
+    },
+    {
+      "number": 311,
+      "text": "1"
+    },
+    {
+      "number": 312,
+      "text": "0"
+    },
+    {
+      "number": 313,
+      "text": "0"
+    },
+    {
+      "number": 314,
+      "text": "0"
+    },
+    {
+      "number": 315,
+      "text": "3"
+    },
+    {
+      "number": 316,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 317,
+      "text": "90"
+    },
+    {
+      "number": 318,
+      "text": "4.9955595026643"
+    },
+    {
+      "number": 319,
+      "text": "FeCl3(溶解)"
+    },
+    {
+      "number": 320,
+      "text": "4.866"
+    },
+    {
+      "number": 321,
+      "text": "0.03"
+    },
+    {
+      "number": 322,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 323,
+      "text": "0"
+    },
+    {
+      "number": 324,
+      "text": "0"
+    },
+    {
+      "number": 325,
+      "text": "3"
+    },
+    {
+      "number": 326,
+      "text": "19233476"
+    },
+    {
+      "number": 327,
+      "text": "方程式217"
+    },
+    {
+      "number": 328,
+      "text": "2"
+    },
+    {
+      "number": 329,
+      "text": "2"
+    },
+    {
+      "number": 330,
+      "text": "FeCl3(溶解)"
+    },
+    {
+      "number": 331,
+      "text": "2"
+    },
+    {
+      "number": 332,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 333,
+      "text": "6"
+    },
+    {
+      "number": 334,
+      "text": "Fe(OH)3(固体)"
+    },
+    {
+      "number": 335,
+      "text": "2"
+    },
+    {
+      "number": 336,
+      "text": "NaCl(溶解)"
+    },
+    {
+      "number": 337,
+      "text": "6"
+    },
+    {
+      "number": 338,
+      "text": "0"
+    },
+    {
+      "number": 339,
+      "text": "水溶液"
+    },
+    {
+      "number": 340,
+      "text": "0.001"
+    },
+    {
+      "number": 341,
+      "text": "100"
+    },
+    {
+      "number": 342,
+      "text": "单向"
+    },
+    {
+      "number": 343,
+      "text": "20098152"
+    },
+    {
+      "number": 344,
+      "text": "方程式171"
+    },
+    {
+      "number": 345,
+      "text": "2"
+    },
+    {
+      "number": 346,
+      "text": "2"
+    },
+    {
+      "number": 347,
+      "text": "NaOH(溶解)"
+    },
+    {
+      "number": 348,
+      "text": "1"
+    },
+    {
+      "number": 349,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 350,
+      "text": "1"
+    },
+    {
+      "number": 351,
+      "text": "NaCl(溶解)"
+    },
+    {
+      "number": 352,
+      "text": "1"
+    },
+    {
+      "number": 353,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 354,
+      "text": "1"
+    },
+    {
+      "number": 355,
+      "text": "0"
+    },
+    {
+      "number": 356,
+      "text": "0"
+    },
+    {
+      "number": 357,
+      "text": "0.001"
+    },
+    {
+      "number": 358,
+      "text": "100"
+    },
+    {
+      "number": 359,
+      "text": "单向"
+    },
+    {
+      "number": 360,
+      "text": "20067992"
+    },
+    {
+      "number": 361,
+      "text": "方程式211"
+    },
+    {
+      "number": 362,
+      "text": "2"
+    },
+    {
+      "number": 363,
+      "text": "2"
+    },
+    {
+      "number": 364,
+      "text": "Fe(OH)3(固体)"
+    },
+    {
+      "number": 365,
+      "text": "1"
+    },
+    {
+      "number": 366,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 367,
+      "text": "3"
+    },
+    {
+      "number": 368,
+      "text": "FeCl3(溶解)"
+    },
+    {
+      "number": 369,
+      "text": "1"
+    },
+    {
+      "number": 370,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 371,
+      "text": "3"
+    },
+    {
+      "number": 372,
+      "text": "0"
+    },
+    {
+      "number": 373,
+      "text": ""
+    },
+    {
+      "number": 374,
+      "text": "0.01"
+    },
+    {
+      "number": 375,
+      "text": "100"
+    },
+    {
+      "number": 376,
+      "text": "单向"
+    },
+    {
+      "number": 377,
+      "text": "0"
+    },
+    {
+      "number": 378,
+      "text": "0"
+    },
+    {
+      "number": 379,
+      "text": "10"
+    },
+    {
+      "number": 380,
+      "text": "0"
+    },
+    {
+      "number": 381,
+      "text": "0"
+    },
+    {
+      "number": 382,
+      "text": "0"
+    },
+    {
+      "number": 383,
+      "text": "0"
+    },
+    {
+      "number": 384,
+      "text": "0"
+    },
+    {
+      "number": 385,
+      "text": "0"
+    },
+    {
+      "number": 386,
+      "text": "0"
+    },
+    {
+      "number": 387,
+      "text": "0"
+    },
+    {
+      "number": 388,
+      "text": "0"
+    },
+    {
+      "number": 389,
+      "text": "0"
+    },
+    {
+      "number": 390,
+      "text": "0"
+    },
+    {
+      "number": 391,
+      "text": "0"
+    },
+    {
+      "number": 392,
+      "text": "0"
+    },
+    {
+      "number": 393,
+      "text": "0"
+    },
+    {
+      "number": 394,
+      "text": "0"
+    },
+    {
+      "number": 395,
+      "text": "0"
+    },
+    {
+      "number": 396,
+      "text": "0"
+    },
+    {
+      "number": 397,
+      "text": "1"
+    },
+    {
+      "number": 398,
+      "text": "容器7"
+    },
+    {
+      "number": 399,
+      "text": "202"
+    },
+    {
+      "number": 400,
+      "text": "100"
+    },
+    {
+      "number": 401,
+      "text": "510"
+    },
+    {
+      "number": 402,
+      "text": "224"
+    },
+    {
+      "number": 403,
+      "text": "0"
+    },
+    {
+      "number": 404,
+      "text": "0"
+    },
+    {
+      "number": 405,
+      "text": "100"
+    },
+    {
+      "number": 406,
+      "text": "21.3"
+    },
+    {
+      "number": 407,
+      "text": "0"
+    },
+    {
+      "number": 408,
+      "text": "-6"
+    },
+    {
+      "number": 409,
+      "text": "-29"
+    },
+    {
+      "number": 410,
+      "text": "6"
+    },
+    {
+      "number": 411,
+      "text": "-18"
+    },
+    {
+      "number": 412,
+      "text": "9868950"
+    },
+    {
+      "number": 413,
+      "text": "0"
+    },
+    {
+      "number": 414,
+      "text": "0"
+    },
+    {
+      "number": 415,
+      "text": "0"
+    },
+    {
+      "number": 416,
+      "text": "0"
+    },
+    {
+      "number": 417,
+      "text": "0"
+    },
+    {
+      "number": 418,
+      "text": "6579300"
+    },
+    {
+      "number": 419,
+      "text": "1"
+    },
+    {
+      "number": 420,
+      "text": "0"
+    },
+    {
+      "number": 421,
+      "text": "0"
+    },
+    {
+      "number": 422,
+      "text": "0"
+    },
+    {
+      "number": 423,
+      "text": "0"
+    },
+    {
+      "number": 424,
+      "text": "0"
+    },
+    {
+      "number": 425,
+      "text": ""
+    },
+    {
+      "number": 426,
+      "text": "0"
+    },
+    {
+      "number": 427,
+      "text": "20"
+    },
+    {
+      "number": 428,
+      "text": ""
+    },
+    {
+      "number": 429,
+      "text": ""
+    },
+    {
+      "number": 430,
+      "text": ""
+    },
+    {
+      "number": 431,
+      "text": "0"
+    },
+    {
+      "number": 432,
+      "text": "0"
+    },
+    {
+      "number": 433,
+      "text": "0"
+    },
+    {
+      "number": 434,
+      "text": "0"
+    },
+    {
+      "number": 435,
+      "text": "0"
+    },
+    {
+      "number": 436,
+      "text": "0"
+    },
+    {
+      "number": 437,
+      "text": "2"
+    },
+    {
+      "number": 438,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 439,
+      "text": "40"
+    },
+    {
+      "number": 440,
+      "text": "2.2202486678508"
+    },
+    {
+      "number": 441,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 442,
+      "text": "3.6458"
+    },
+    {
+      "number": 443,
+      "text": "0.1"
+    },
+    {
+      "number": 444,
+      "text": "0"
+    },
+    {
+      "number": 445,
+      "text": "0"
+    },
+    {
+      "number": 446,
+      "text": "0"
+    },
+    {
+      "number": 447,
+      "text": "10"
+    },
+    {
+      "number": 448,
+      "text": "0"
+    },
+    {
+      "number": 449,
+      "text": "0"
+    },
+    {
+      "number": 450,
+      "text": "0"
+    },
+    {
+      "number": 451,
+      "text": "0"
+    },
+    {
+      "number": 452,
+      "text": "0"
+    },
+    {
+      "number": 453,
+      "text": "0"
+    },
+    {
+      "number": 454,
+      "text": "0"
+    },
+    {
+      "number": 455,
+      "text": "0"
+    },
+    {
+      "number": 456,
+      "text": "0"
+    },
+    {
+      "number": 457,
+      "text": "0"
+    },
+    {
+      "number": 458,
+      "text": "0"
+    },
+    {
+      "number": 459,
+      "text": "0"
+    },
+    {
+      "number": 460,
+      "text": "0"
+    },
+    {
+      "number": 461,
+      "text": "0"
+    },
+    {
+      "number": 462,
+      "text": "0"
+    },
+    {
+      "number": 463,
+      "text": "0"
+    },
+    {
+      "number": 464,
+      "text": "0"
+    },
+    {
+      "number": 465,
+      "text": "1"
+    },
+    {
+      "number": 466,
+      "text": "容器8"
+    },
+    {
+      "number": 467,
+      "text": "204"
+    },
+    {
+      "number": 468,
+      "text": "4"
+    },
+    {
+      "number": 469,
+      "text": "510"
+    },
+    {
+      "number": 470,
+      "text": "206"
+    },
+    {
+      "number": 471,
+      "text": "0"
+    },
+    {
+      "number": 472,
+      "text": "0"
+    },
+    {
+      "number": 473,
+      "text": "4"
+    },
+    {
+      "number": 474,
+      "text": "0"
+    },
+    {
+      "number": 475,
+      "text": "0"
+    },
+    {
+      "number": 476,
+      "text": "0"
+    },
+    {
+      "number": 477,
+      "text": "0"
+    },
+    {
+      "number": 478,
+      "text": "0"
+    },
+    {
+      "number": 479,
+      "text": "0"
+    },
+    {
+      "number": 480,
+      "text": "6579300"
+    },
+    {
+      "number": 481,
+      "text": "0"
+    },
+    {
+      "number": 482,
+      "text": "0"
+    },
+    {
+      "number": 483,
+      "text": "0"
+    },
+    {
+      "number": 484,
+      "text": "0"
+    },
+    {
+      "number": 485,
+      "text": "0"
+    },
+    {
+      "number": 486,
+      "text": "6579300"
+    },
+    {
+      "number": 487,
+      "text": "1"
+    },
+    {
+      "number": 488,
+      "text": "0"
+    },
+    {
+      "number": 489,
+      "text": "0"
+    },
+    {
+      "number": 490,
+      "text": "0"
+    },
+    {
+      "number": 491,
+      "text": "0"
+    },
+    {
+      "number": 492,
+      "text": "0"
+    },
+    {
+      "number": 493,
+      "text": ""
+    },
+    {
+      "number": 494,
+      "text": "0"
+    },
+    {
+      "number": 495,
+      "text": "20"
+    },
+    {
+      "number": 496,
+      "text": ""
+    },
+    {
+      "number": 497,
+      "text": ""
+    },
+    {
+      "number": 498,
+      "text": ""
+    },
+    {
+      "number": 499,
+      "text": "0"
+    },
+    {
+      "number": 500,
+      "text": "0"
+    },
+    {
+      "number": 501,
+      "text": "1"
+    },
+    {
+      "number": 502,
+      "text": "0"
+    },
+    {
+      "number": 503,
+      "text": "0"
+    },
+    {
+      "number": 504,
+      "text": "0"
+    },
+    {
+      "number": 505,
+      "text": "0"
+    },
+    {
+      "number": 506,
+      "text": "0"
+    },
+    {
+      "number": 507,
+      "text": "0"
+    },
+    {
+      "number": 508,
+      "text": "0"
+    },
+    {
+      "number": 509,
+      "text": "10"
+    },
+    {
+      "number": 510,
+      "text": "0"
+    },
+    {
+      "number": 511,
+      "text": "0"
+    },
+    {
+      "number": 512,
+      "text": "0"
+    },
+    {
+      "number": 513,
+      "text": "0"
+    },
+    {
+      "number": 514,
+      "text": "0"
+    },
+    {
+      "number": 515,
+      "text": "0"
+    },
+    {
+      "number": 516,
+      "text": "0"
+    },
+    {
+      "number": 517,
+      "text": "0"
+    },
+    {
+      "number": 518,
+      "text": "0"
+    },
+    {
+      "number": 519,
+      "text": "0"
+    },
+    {
+      "number": 520,
+      "text": "0"
+    },
+    {
+      "number": 521,
+      "text": "0"
+    },
+    {
+      "number": 522,
+      "text": "0"
+    },
+    {
+      "number": 523,
+      "text": "0"
+    },
+    {
+      "number": 524,
+      "text": "0"
+    },
+    {
+      "number": 525,
+      "text": "0"
+    },
+    {
+      "number": 526,
+      "text": "0"
+    },
+    {
+      "number": 527,
+      "text": ""
+    },
+    {
+      "number": 528,
+      "text": ""
+    },
+    {
+      "number": 529,
+      "text": ""
+    },
+    {
+      "number": 530,
+      "text": ""
+    },
+    {
+      "number": 531,
+      "text": ""
+    },
+    {
+      "number": 532,
+      "text": ""
+    },
+    {
+      "number": 533,
+      "text": ""
+    },
+    {
+      "number": 534,
+      "text": ""
+    },
+    {
+      "number": 535,
+      "text": ""
+    },
+    {
+      "number": 536,
+      "text": ""
+    },
+    {
+      "number": 537,
+      "text": ""
+    },
+    {
+      "number": 538,
+      "text": ""
+    },
+    {
+      "number": 539,
+      "text": ""
+    },
+    {
+      "number": 540,
+      "text": ""
+    },
+    {
+      "number": 541,
+      "text": ""
+    },
+    {
+      "number": 542,
+      "text": ""
+    },
+    {
+      "number": 543,
+      "text": ""
+    },
+    {
+      "number": 544,
+      "text": ""
+    },
+    {
+      "number": 545,
+      "text": ""
+    },
+    {
+      "number": 546,
+      "text": ""
+    },
+    {
+      "number": 547,
+      "text": "1"
+    },
+    {
+      "number": 548,
+      "text": "0"
+    },
+    {
+      "number": 549,
+      "text": "0"
+    },
+    {
+      "number": 550,
+      "text": "0"
+    },
+    {
+      "number": 551,
+      "text": "t"
+    },
+    {
+      "number": 552,
+      "text": "时间变量"
+    },
+    {
+      "number": 553,
+      "text": "0"
+    },
+    {
+      "number": 554,
+      "text": "0"
+    },
+    {
+      "number": 555,
+      "text": "0"
+    },
+    {
+      "number": 556,
+      "text": "6"
+    },
+    {
+      "number": 557,
+      "text": "1"
+    },
+    {
+      "number": 558,
+      "text": "402"
+    },
+    {
+      "number": 559,
+      "text": "258"
+    },
+    {
+      "number": 560,
+      "text": "62"
+    },
+    {
+      "number": 561,
+      "text": "16"
+    },
+    {
+      "number": 562,
+      "text": "134"
+    },
+    {
+      "number": 563,
+      "text": "128"
+    },
+    {
+      "number": 564,
+      "text": "-15"
+    },
+    {
+      "number": 565,
+      "text": "0"
+    },
+    {
+      "number": 566,
+      "text": "11"
+    },
+    {
+      "number": 567,
+      "text": "0"
+    },
+    {
+      "number": 568,
+      "text": "0"
+    },
+    {
+      "number": 569,
+      "text": "0"
+    },
+    {
+      "number": 570,
+      "text": "0"
+    },
+    {
+      "number": 571,
+      "text": "宋体"
+    },
+    {
+      "number": 572,
+      "text": "1"
+    },
+    {
+      "number": 573,
+      "text": "NaOH溶液"
+    },
+    {
+      "number": 574,
+      "text": "1"
+    },
+    {
+      "number": 575,
+      "text": "146"
+    },
+    {
+      "number": 576,
+      "text": "257"
+    },
+    {
+      "number": 577,
+      "text": "67"
+    },
+    {
+      "number": 578,
+      "text": "16"
+    },
+    {
+      "number": 579,
+      "text": "134"
+    },
+    {
+      "number": 580,
+      "text": "128"
+    },
+    {
+      "number": 581,
+      "text": "-15"
+    },
+    {
+      "number": 582,
+      "text": "0"
+    },
+    {
+      "number": 583,
+      "text": "11"
+    },
+    {
+      "number": 584,
+      "text": "0"
+    },
+    {
+      "number": 585,
+      "text": "0"
+    },
+    {
+      "number": 586,
+      "text": "0"
+    },
+    {
+      "number": 587,
+      "text": "0"
+    },
+    {
+      "number": 588,
+      "text": "宋体"
+    },
+    {
+      "number": 589,
+      "text": "1"
+    },
+    {
+      "number": 590,
+      "text": "CuSO4溶液"
+    },
+    {
+      "number": 591,
+      "text": "1"
+    },
+    {
+      "number": 592,
+      "text": "274"
+    },
+    {
+      "number": 593,
+      "text": "257"
+    },
+    {
+      "number": 594,
+      "text": "75"
+    },
+    {
+      "number": 595,
+      "text": "16"
+    },
+    {
+      "number": 596,
+      "text": "134"
+    },
+    {
+      "number": 597,
+      "text": "128"
+    },
+    {
+      "number": 598,
+      "text": "-15"
+    },
+    {
+      "number": 599,
+      "text": "0"
+    },
+    {
+      "number": 600,
+      "text": "11"
+    },
+    {
+      "number": 601,
+      "text": "0"
+    },
+    {
+      "number": 602,
+      "text": "0"
+    },
+    {
+      "number": 603,
+      "text": "0"
+    },
+    {
+      "number": 604,
+      "text": "0"
+    },
+    {
+      "number": 605,
+      "text": "宋体"
+    },
+    {
+      "number": 606,
+      "text": "1"
+    },
+    {
+      "number": 607,
+      "text": "FeCl3 溶液"
+    },
+    {
+      "number": 608,
+      "text": "1"
+    },
+    {
+      "number": 609,
+      "text": "144"
+    },
+    {
+      "number": 610,
+      "text": "299"
+    },
+    {
+      "number": 611,
+      "text": "484"
+    },
+    {
+      "number": 612,
+      "text": "46"
+    },
+    {
+      "number": 613,
+      "text": "0"
+    },
+    {
+      "number": 614,
+      "text": "8388608"
+    },
+    {
+      "number": 615,
+      "text": "-21"
+    },
+    {
+      "number": 616,
+      "text": "0"
+    },
+    {
+      "number": 617,
+      "text": "16"
+    },
+    {
+      "number": 618,
+      "text": "0"
+    },
+    {
+      "number": 619,
+      "text": "0"
+    },
+    {
+      "number": 620,
+      "text": "0"
+    },
+    {
+      "number": 621,
+      "text": "0"
+    },
+    {
+      "number": 622,
+      "text": "Arial"
+    },
+    {
+      "number": 623,
+      "text": "2"
+    },
+    {
+      "number": 624,
+      "text": "请分别在CuSO4溶液和FeCl3溶液中滴加NaOH溶液,"
+    },
+    {
+      "number": 625,
+      "text": "观察沉淀的生成.再滴加盐酸观察沉淀的消失。"
+    },
+    {
+      "number": 626,
+      "text": "1"
+    },
+    {
+      "number": 627,
+      "text": "47"
+    },
+    {
+      "number": 628,
+      "text": "3"
+    },
+    {
+      "number": 629,
+      "text": "240"
+    },
+    {
+      "number": 630,
+      "text": "52"
+    },
+    {
+      "number": 631,
+      "text": "134"
+    },
+    {
+      "number": 632,
+      "text": "8388608"
+    },
+    {
+      "number": 633,
+      "text": "-24"
+    },
+    {
+      "number": 634,
+      "text": "0"
+    },
+    {
+      "number": 635,
+      "text": "18"
+    },
+    {
+      "number": 636,
+      "text": "0"
+    },
+    {
+      "number": 637,
+      "text": "0"
+    },
+    {
+      "number": 638,
+      "text": "0"
+    },
+    {
+      "number": 639,
+      "text": "0"
+    },
+    {
+      "number": 640,
+      "text": "楷体_GB2312"
+    },
+    {
+      "number": 641,
+      "text": "2"
+    },
+    {
+      "number": 642,
+      "text": "↑"
+    },
+    {
+      "number": 643,
+      "text": "请点击此按钮运行实验"
+    },
+    {
+      "number": 644,
+      "text": "1"
+    },
+    {
+      "number": 645,
+      "text": "490"
+    },
+    {
+      "number": 646,
+      "text": "257"
+    },
+    {
+      "number": 647,
+      "text": "54"
+    },
+    {
+      "number": 648,
+      "text": "16"
+    },
+    {
+      "number": 649,
+      "text": "134"
+    },
+    {
+      "number": 650,
+      "text": "128"
+    },
+    {
+      "number": 651,
+      "text": "-15"
+    },
+    {
+      "number": 652,
+      "text": "0"
+    },
+    {
+      "number": 653,
+      "text": "11"
+    },
+    {
+      "number": 654,
+      "text": "0"
+    },
+    {
+      "number": 655,
+      "text": "0"
+    },
+    {
+      "number": 656,
+      "text": "0"
+    },
+    {
+      "number": 657,
+      "text": "0"
+    },
+    {
+      "number": 658,
+      "text": "宋体"
+    },
+    {
+      "number": 659,
+      "text": "1"
+    },
+    {
+      "number": 660,
+      "text": "HCl溶液"
+    },
+    {
+      "number": 661,
+      "text": "1"
+    },
+    {
+      "number": 662,
+      "text": "0"
+    },
+    {
+      "number": 663,
+      "text": "3"
+    },
+    {
+      "number": 664,
+      "text": "0"
+    },
+    {
+      "number": 665,
+      "text": "0"
+    },
+    {
+      "number": 666,
+      "text": "1"
+    },
+    {
+      "number": 667,
+      "text": "0"
+    },
+    {
+      "number": 668,
+      "text": "0"
+    },
+    {
+      "number": 669,
+      "text": "0"
+    },
+    {
+      "number": 670,
+      "text": "0"
+    },
+    {
+      "number": 671,
+      "text": "0"
+    },
+    {
+      "number": 672,
+      "text": "0"
+    },
+    {
+      "number": 673,
+      "text": "0"
+    },
+    {
+      "number": 674,
+      "text": "0"
+    },
+    {
+      "number": 675,
+      "text": "0"
+    },
+    {
+      "number": 676,
+      "text": "0"
+    },
+    {
+      "number": 677,
+      "text": "0"
+    },
+    {
+      "number": 678,
+      "text": "0"
+    },
+    {
+      "number": 679,
+      "text": "0"
+    },
+    {
+      "number": 680,
+      "text": "0"
+    },
+    {
+      "number": 681,
+      "text": "0"
+    },
+    {
+      "number": 682,
+      "text": ""
+    },
+    {
+      "number": 683,
+      "text": "0"
+    },
+    {
+      "number": 684,
+      "text": "0"
+    },
+    {
+      "number": 685,
+      "text": "0"
+    },
+    {
+      "number": 686,
+      "text": "0"
+    },
+    {
+      "number": 687,
+      "text": "0"
+    },
+    {
+      "number": 688,
+      "text": "0"
+    },
+    {
+      "number": 689,
+      "text": "0"
+    },
+    {
+      "number": 690,
+      "text": "0"
+    },
+    {
+      "number": 691,
+      "text": "0"
+    },
+    {
+      "number": 692,
+      "text": "0"
+    },
+    {
+      "number": 693,
+      "text": "0"
+    },
+    {
+      "number": 694,
+      "text": "0"
+    },
+    {
+      "number": 695,
+      "text": "0"
+    },
+    {
+      "number": 696,
+      "text": "0"
+    },
+    {
+      "number": 697,
+      "text": "0"
+    },
+    {
+      "number": 698,
+      "text": ""
+    },
+    {
+      "number": 699,
+      "text": "0"
+    },
+    {
+      "number": 700,
+      "text": "0"
+    },
+    {
+      "number": 701,
+      "text": "0"
+    },
+    {
+      "number": 702,
+      "text": "0"
+    },
+    {
+      "number": 703,
+      "text": "0"
+    },
+    {
+      "number": 704,
+      "text": "0"
+    },
+    {
+      "number": 705,
+      "text": "0"
+    },
+    {
+      "number": 706,
+      "text": "0"
+    },
+    {
+      "number": 707,
+      "text": "0"
+    },
+    {
+      "number": 708,
+      "text": "0"
+    },
+    {
+      "number": 709,
+      "text": "0"
+    },
+    {
+      "number": 710,
+      "text": "0"
+    },
+    {
+      "number": 711,
+      "text": "0"
+    },
+    {
+      "number": 712,
+      "text": "0"
+    },
+    {
+      "number": 713,
+      "text": "0"
+    },
+    {
+      "number": 714,
+      "text": ""
+    },
+    {
+      "number": 715,
+      "text": "0"
+    },
+    {
+      "number": 716,
+      "text": "0"
+    },
+    {
+      "number": 717,
+      "text": "0"
+    },
+    {
+      "number": 718,
+      "text": "0"
+    },
+    {
+      "number": 719,
+      "text": "0"
+    },
+    {
+      "number": 720,
+      "text": "0"
+    },
+    {
+      "number": 721,
+      "text": "0"
+    },
+    {
+      "number": 722,
+      "text": "0"
+    },
+    {
+      "number": 723,
+      "text": "0"
+    },
+    {
+      "number": 724,
+      "text": "0"
+    },
+    {
+      "number": 725,
+      "text": "0"
+    },
+    {
+      "number": 726,
+      "text": "0"
+    },
+    {
+      "number": 727,
+      "text": "0"
+    },
+    {
+      "number": 728,
+      "text": "0"
+    },
+    {
+      "number": 729,
+      "text": "0"
+    },
+    {
+      "number": 730,
+      "text": ""
+    },
+    {
+      "number": 731,
+      "text": "0"
+    },
+    {
+      "number": 732,
+      "text": "0"
+    },
+    {
+      "number": 733,
+      "text": "0"
+    },
+    {
+      "number": 734,
+      "text": "0"
+    },
+    {
+      "number": 735,
+      "text": "0"
+    },
+    {
+      "number": 736,
+      "text": "0"
+    },
+    {
+      "number": 737,
+      "text": "0"
+    },
+    {
+      "number": 738,
+      "text": "0"
+    },
+    {
+      "number": 739,
+      "text": "0"
+    },
+    {
+      "number": 740,
+      "text": "0"
+    },
+    {
+      "number": 741,
+      "text": "0"
+    },
+    {
+      "number": 742,
+      "text": "0"
+    },
+    {
+      "number": 743,
+      "text": "0"
+    },
+    {
+      "number": 744,
+      "text": "0"
+    },
+    {
+      "number": 745,
+      "text": "0"
+    },
+    {
+      "number": 746,
+      "text": ""
+    },
+    {
+      "number": 747,
+      "text": "0"
+    },
+    {
+      "number": 748,
+      "text": "0"
+    },
+    {
+      "number": 749,
+      "text": "0"
+    },
+    {
+      "number": 750,
+      "text": "0"
+    },
+    {
+      "number": 751,
+      "text": "0"
+    },
+    {
+      "number": 752,
+      "text": "0"
+    },
+    {
+      "number": 753,
+      "text": "0"
+    },
+    {
+      "number": 754,
+      "text": "0"
+    },
+    {
+      "number": 755,
+      "text": "0"
+    },
+    {
+      "number": 756,
+      "text": "0"
+    },
+    {
+      "number": 757,
+      "text": "0"
+    },
+    {
+      "number": 758,
+      "text": "0"
+    },
+    {
+      "number": 759,
+      "text": "0"
+    },
+    {
+      "number": 760,
+      "text": "0"
+    },
+    {
+      "number": 761,
+      "text": "0"
+    },
+    {
+      "number": 762,
+      "text": ""
+    },
+    {
+      "number": 763,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

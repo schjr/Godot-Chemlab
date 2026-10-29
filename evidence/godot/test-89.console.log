@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original startup RNG: 1375 native time/TLS profiles and 4125 subsequent particle RNG calls PASS; explicit Windows clock/CRT globals, no current-time or fixed-seed substitution.

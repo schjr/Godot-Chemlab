@@ -1,0 +1,2421 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TCHEMICMODIFRAME",
+      0
+    ],
+    "file_offset": 1396732,
+    "resource_size": 11358,
+    "sha256": "3178ad820aec1b899dd5caf4b6072351a37ebb6ba29716bea506b2b4c7b64dcd",
+    "binary": "recovered/forms/_ency/TCHEMICMODIFRAME.dfm.bin",
+    "parsed_size": 11358,
+    "trailing_bytes": 0,
+    "root_class": "TchemicModiFrame",
+    "root_name": "chemicModiFrame",
+    "component_count": 22,
+    "event_handlers": [
+      {
+        "component": "Edit1",
+        "class": "TEdit",
+        "event": "OnChange",
+        "handler": "Edit1Change"
+      },
+      {
+        "component": "ListBox1",
+        "class": "TListBox",
+        "event": "OnClick",
+        "handler": "ListBox1Click"
+      },
+      {
+        "component": "ListBox2",
+        "class": "TListBox",
+        "event": "OnClick",
+        "handler": "ListBox2Click"
+      },
+      {
+        "component": "SpeedButton1",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton1Click"
+      },
+      {
+        "component": "SpeedButton2",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton2Click"
+      },
+      {
+        "component": "SpeedButton3",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton3Click"
+      },
+      {
+        "component": "SpeedButton4",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton4Click"
+      },
+      {
+        "component": "SpeedButton5",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton5Click"
+      },
+      {
+        "component": "SpeedButton6",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton6Click"
+      },
+      {
+        "component": "SpeedButton7",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton7Click"
+      },
+      {
+        "component": "SpeedButton8",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton8Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1178714,
+        "entry_size": 18,
+        "code_va": "0x0042CD14",
+        "code_file_offset": 181012,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1195733,
+        "entry_size": 18,
+        "code_va": "0x004364F8",
+        "code_file_offset": 219896,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1199350,
+        "entry_size": 18,
+        "code_va": "0x00438A64",
+        "code_file_offset": 229476,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1202902,
+        "entry_size": 18,
+        "code_va": "0x0043ACFC",
+        "code_file_offset": 238332,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1207617,
+        "entry_size": 18,
+        "code_va": "0x0043DBAC",
+        "code_file_offset": 250284,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1214245,
+        "entry_size": 18,
+        "code_va": "0x004415D0",
+        "code_file_offset": 265168,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1165131,
+        "entry_size": 20,
+        "code_va": "0x004271CC",
+        "code_file_offset": 157644,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1178732,
+        "entry_size": 20,
+        "code_va": "0x0042CD84",
+        "code_file_offset": 181124,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1187717,
+        "entry_size": 20,
+        "code_va": "0x00431ABC",
+        "code_file_offset": 200892,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1195751,
+        "entry_size": 20,
+        "code_va": "0x00436994",
+        "code_file_offset": 221076,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1199368,
+        "entry_size": 20,
+        "code_va": "0x00438AD4",
+        "code_file_offset": 229588,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1202920,
+        "entry_size": 20,
+        "code_va": "0x0043AD6C",
+        "code_file_offset": 238444,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1207827,
+        "entry_size": 20,
+        "code_va": "0x0043E4A8",
+        "code_file_offset": 252584,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1214225,
+        "entry_size": 20,
+        "code_va": "0x00441510",
+        "code_file_offset": 264976,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox2Click",
+        "entry_file_offset": 1195771,
+        "entry_size": 20,
+        "code_va": "0x00436A54",
+        "code_file_offset": 221268,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox2Click",
+        "entry_file_offset": 1214205,
+        "entry_size": 20,
+        "code_va": "0x004414F8",
+        "code_file_offset": 264952,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1124047,
+        "entry_size": 24,
+        "code_va": "0x004049D8",
+        "code_file_offset": 16344,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1174669,
+        "entry_size": 24,
+        "code_va": "0x00428B1C",
+        "code_file_offset": 164124,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1187645,
+        "entry_size": 24,
+        "code_va": "0x004317D4",
+        "code_file_offset": 200148,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1195613,
+        "entry_size": 24,
+        "code_va": "0x0043609C",
+        "code_file_offset": 218780,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1207635,
+        "entry_size": 24,
+        "code_va": "0x0043DC18",
+        "code_file_offset": 250392,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1214013,
+        "entry_size": 24,
+        "code_va": "0x00440B34",
+        "code_file_offset": 262452,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1223659,
+        "entry_size": 24,
+        "code_va": "0x004472DC",
+        "code_file_offset": 288988,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1124071,
+        "entry_size": 24,
+        "code_va": "0x00404A2C",
+        "code_file_offset": 16428,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1174693,
+        "entry_size": 24,
+        "code_va": "0x0042A440",
+        "code_file_offset": 170560,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1187669,
+        "entry_size": 24,
+        "code_va": "0x004318CC",
+        "code_file_offset": 200396,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1195637,
+        "entry_size": 24,
+        "code_va": "0x004360F0",
+        "code_file_offset": 218864,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1207659,
+        "entry_size": 24,
+        "code_va": "0x0043DC74",
+        "code_file_offset": 250484,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1214037,
+        "entry_size": 24,
+        "code_va": "0x00440B90",
+        "code_file_offset": 262544,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1124325,
+        "entry_size": 24,
+        "code_va": "0x00406DFC",
+        "code_file_offset": 25596,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1174763,
+        "entry_size": 24,
+        "code_va": "0x0042BDE0",
+        "code_file_offset": 177120,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1187693,
+        "entry_size": 24,
+        "code_va": "0x004319C4",
+        "code_file_offset": 200644,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1195661,
+        "entry_size": 24,
+        "code_va": "0x00436144",
+        "code_file_offset": 218948,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1207683,
+        "entry_size": 24,
+        "code_va": "0x0043DCD0",
+        "code_file_offset": 250576,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1214061,
+        "entry_size": 24,
+        "code_va": "0x00440BEC",
+        "code_file_offset": 262636,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton4Click",
+        "entry_file_offset": 1124301,
+        "entry_size": 24,
+        "code_va": "0x00406DB8",
+        "code_file_offset": 25528,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton4Click",
+        "entry_file_offset": 1187737,
+        "entry_size": 24,
+        "code_va": "0x00431AD4",
+        "code_file_offset": 200916,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton4Click",
+        "entry_file_offset": 1195791,
+        "entry_size": 24,
+        "code_va": "0x00436A6C",
+        "code_file_offset": 221292,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton4Click",
+        "entry_file_offset": 1207803,
+        "entry_size": 24,
+        "code_va": "0x0043DE9C",
+        "code_file_offset": 251036,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton4Click",
+        "entry_file_offset": 1214181,
+        "entry_size": 24,
+        "code_va": "0x00440DB8",
+        "code_file_offset": 263096,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton5Click",
+        "entry_file_offset": 1124148,
+        "entry_size": 24,
+        "code_va": "0x00406624",
+        "code_file_offset": 23588,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton5Click",
+        "entry_file_offset": 1187788,
+        "entry_size": 24,
+        "code_va": "0x00432498",
+        "code_file_offset": 203416,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton5Click",
+        "entry_file_offset": 1195685,
+        "entry_size": 24,
+        "code_va": "0x00436198",
+        "code_file_offset": 219032,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton5Click",
+        "entry_file_offset": 1207707,
+        "entry_size": 24,
+        "code_va": "0x0043DD2C",
+        "code_file_offset": 250668,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton5Click",
+        "entry_file_offset": 1214085,
+        "entry_size": 24,
+        "code_va": "0x00440C48",
+        "code_file_offset": 262728,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton6Click",
+        "entry_file_offset": 1124172,
+        "entry_size": 24,
+        "code_va": "0x004066D0",
+        "code_file_offset": 23760,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton6Click",
+        "entry_file_offset": 1187812,
+        "entry_size": 24,
+        "code_va": "0x00432590",
+        "code_file_offset": 203664,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton6Click",
+        "entry_file_offset": 1195709,
+        "entry_size": 24,
+        "code_va": "0x004361EC",
+        "code_file_offset": 219116,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton6Click",
+        "entry_file_offset": 1207731,
+        "entry_size": 24,
+        "code_va": "0x0043DD88",
+        "code_file_offset": 250760,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton6Click",
+        "entry_file_offset": 1214109,
+        "entry_size": 24,
+        "code_va": "0x00440CA4",
+        "code_file_offset": 262820,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton7Click",
+        "entry_file_offset": 1124223,
+        "entry_size": 24,
+        "code_va": "0x004068D4",
+        "code_file_offset": 24276,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton7Click",
+        "entry_file_offset": 1187836,
+        "entry_size": 24,
+        "code_va": "0x00432688",
+        "code_file_offset": 203912,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton7Click",
+        "entry_file_offset": 1195815,
+        "entry_size": 24,
+        "code_va": "0x004371A0",
+        "code_file_offset": 223136,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton7Click",
+        "entry_file_offset": 1207755,
+        "entry_size": 24,
+        "code_va": "0x0043DDE4",
+        "code_file_offset": 250852,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton7Click",
+        "entry_file_offset": 1214133,
+        "entry_size": 24,
+        "code_va": "0x00440D00",
+        "code_file_offset": 262912,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton8Click",
+        "entry_file_offset": 1187860,
+        "entry_size": 24,
+        "code_va": "0x004326E4",
+        "code_file_offset": 204004,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton8Click",
+        "entry_file_offset": 1195839,
+        "entry_size": 24,
+        "code_va": "0x004371F4",
+        "code_file_offset": 223220,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton8Click",
+        "entry_file_offset": 1207779,
+        "entry_size": 24,
+        "code_va": "0x0043DE40",
+        "code_file_offset": 250944,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton8Click",
+        "entry_file_offset": 1214157,
+        "entry_size": 24,
+        "code_va": "0x00440D5C",
+        "code_file_offset": 263004,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/TchemicModiFrame.hpp"
+  },
+  "form": {
+    "class": "TchemicModiFrame",
+    "name": "chemicModiFrame",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 42
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 48
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 592,
+          "offset": 56
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 447,
+          "offset": 66
+        }
+      },
+      {
+        "name": "TabOrder",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 78
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TPanel",
+        "name": "Panel1",
+        "flags": 0,
+        "offset": 81,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 100
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 106
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 185,
+              "offset": 114
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 447,
+              "offset": 124
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alLeft",
+              "offset": 133
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 150
+            }
+          }
+        ],
+        "children": [
+          {
+            "class": "TLabel",
+            "name": "Label1",
+            "flags": 0,
+            "offset": 153,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 16,
+                  "offset": 172
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 16,
+                  "offset": 178
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 60,
+                  "offset": 186
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 195
+                }
+              },
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "化学家姓名",
+                  "offset": 205
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 230
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 255
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 281
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 293
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 310
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 323
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TLabel",
+            "name": "Label2",
+            "flags": 0,
+            "offset": 326,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 16,
+                  "offset": 345
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 35,
+                  "offset": 351
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 60,
+                  "offset": 359
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 368
+                }
+              },
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "可选化学家",
+                  "offset": 378
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 403
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 428
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 454
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 466
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 483
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 496
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TLabel",
+            "name": "Label3",
+            "flags": 0,
+            "offset": 499,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 17,
+                  "offset": 518
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 3,
+                  "value": 272,
+                  "offset": 524
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 72,
+                  "offset": 533
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 542
+                }
+              },
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "可选内容条目",
+                  "offset": 552
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 579
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 604
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 630
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 642
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 659
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 672
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TEdit",
+            "name": "Edit1",
+            "flags": 0,
+            "offset": 675,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 80,
+                  "offset": 692
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 698
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 89,
+                  "offset": 706
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 20,
+                  "offset": 715
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 730
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 755
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 781
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 793
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 810
+                }
+              },
+              {
+                "name": "MaxLength",
+                "value": {
+                  "type": 2,
+                  "value": 80,
+                  "offset": 822
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 835
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 0,
+                  "offset": 845
+                }
+              },
+              {
+                "name": "OnChange",
+                "value": {
+                  "type": 7,
+                  "value": "Edit1Change",
+                  "offset": 856
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TListBox",
+            "name": "ListBox1",
+            "flags": 0,
+            "offset": 871,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 15,
+                  "offset": 894
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 50,
+                  "offset": 900
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 3,
+                  "value": 154,
+                  "offset": 908
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 3,
+                  "value": 215,
+                  "offset": 918
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 934
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 959
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 985
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 997
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 1014
+                }
+              },
+              {
+                "name": "ItemHeight",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 1027
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 1040
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 1050
+                }
+              },
+              {
+                "name": "OnClick",
+                "value": {
+                  "type": 7,
+                  "value": "ListBox1Click",
+                  "offset": 1060
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TListBox",
+            "name": "ListBox2",
+            "flags": 0,
+            "offset": 1077,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 15,
+                  "offset": 1100
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 3,
+                  "value": 288,
+                  "offset": 1106
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 3,
+                  "value": 154,
+                  "offset": 1115
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 113,
+                  "offset": 1125
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 1140
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 1165
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 1191
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 1203
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 1220
+                }
+              },
+              {
+                "name": "ItemHeight",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 1233
+                }
+              },
+              {
+                "name": "Items.Strings",
+                "value": {
+                  "type": 1,
+                  "value": [
+                    {
+                      "type": 6,
+                      "value": "化学家外文名",
+                      "offset": 1250
+                    },
+                    {
+                      "type": 6,
+                      "value": "化学家国籍/朝代",
+                      "offset": 1264
+                    },
+                    {
+                      "type": 6,
+                      "value": "化学家生平",
+                      "offset": 1281
+                    }
+                  ],
+                  "offset": 1249
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 1305
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 2,
+                  "offset": 1315
+                }
+              },
+              {
+                "name": "OnClick",
+                "value": {
+                  "type": 7,
+                  "value": "ListBox2Click",
+                  "offset": 1325
+                }
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "class": "TPanel",
+        "name": "Panel2",
+        "flags": 0,
+        "offset": 1343,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 185,
+              "offset": 1362
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1369
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 407,
+              "offset": 1377
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 447,
+              "offset": 1387
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alClient",
+              "offset": 1396
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "Panel2",
+              "offset": 1414
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 1431
+            }
+          }
+        ],
+        "children": [
+          {
+            "class": "TPanel",
+            "name": "Panel5",
+            "flags": 0,
+            "offset": 1434,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 1453
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 1459
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 3,
+                  "value": 405,
+                  "offset": 1467
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 26,
+                  "offset": 1477
+                }
+              },
+              {
+                "name": "Align",
+                "value": {
+                  "type": 7,
+                  "value": "alTop",
+                  "offset": 1485
+                }
+              },
+              {
+                "name": "BevelOuter",
+                "value": {
+                  "type": 7,
+                  "value": "bvNone",
+                  "offset": 1503
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 0,
+                  "offset": 1520
+                }
+              }
+            ],
+            "children": [
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton1",
+                "flags": 0,
+                "offset": 1523,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 2,
+                      "value": 3,
+                      "offset": 1554
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 1560
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 1568
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 1577
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "粗体",
+                      "offset": 1584
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 1595
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "C6050000424DC6050000000000003604000028000000130000001400000001000800000000009001000000000000000000000001000000010000000000007B000000FF0000009431000094630000CE630000FFCE0000FFFF000008080800101010001818180021212100292929002931290063312900CE312900CE632900FF6329006B8C31009CB53900393942004A4A5200525252005A5A5A0094946300FFFF6300636B6B006B7373007373730000007B00007B7B007B7B7B00848484007B848C00848C8C006394940094949400CECE9400949CA5009CA5AD00A5ADB500BDBDBD00ADBDC6006394CE00B5C6CE00CECECE00C6CED600FFFFFF00D6E7E700E7EFE700EFEFEF000000FF00426BFF0094CEFF0094D6FF0000FFFF0094FFFF00CEFFFF00EFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F00000000000000000000002F2F2F002F2F2F2F2F00002F2F00002F2F00002F2F2F2F002F2F2F000000002F2F00002F2F00002F2F2F2F002F2F2F000000002F2F00002F2F00002F2F2F2F002F2F2F2F00000000000000000000002F2F2F2F002F2F2F2F000000002F00002F2F00002F2F2F2F002F2F2F2F2F00002F2F00002F2F00002F2F2F2F002F2F2F0000000000000000000000002F2F2F2F002F2F2F2F2F0000002F00002F2F00002F2F2F2F002F2F2F2F000000000000002F2F00002F2F2F2F002F2F2F000000000000000000000000002F2F2F002F2F2F2F2F00002F2F00002F2F00002F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F00",
+                      "size": 1482,
+                      "sha256": "31e5bfe84fc654ec95747fad0a037c16de65ce020a1e683671dd51ab9a4bb8dc",
+                      "offset": 1607
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 3109
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 3119
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton1Click",
+                      "offset": 3128
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton2",
+                "flags": 0,
+                "offset": 3149,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 2,
+                      "value": 26,
+                      "offset": 3180
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 3186
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 3194
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 3203
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "斜体",
+                      "offset": 3210
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 3221
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "C6050000424DC6050000000000003604000028000000130000001400000001000800000000009001000000000000000000000001000000010000000000007B000000FF0000009431000094630000CE630000FFCE0000FFFF000008080800101010001818180021212100292929002931290063312900CE312900CE632900FF6329006B8C31009CB53900393942004A4A5200525252005A5A5A0094946300FFFF6300636B6B006B7373007373730000007B00007B7B007B7B7B00848484007B848C00848C8C006394940094949400CECE9400949CA5009CA5AD00A5ADB500BDBDBD00ADBDC6006394CE00B5C6CE00CECECE00C6CED600FFFFFF00D6E7E700E7EFE700EFEFEF000000FF00426BFF0094CEFF0094D6FF0000FFFF0094FFFF00CEFFFF00EFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F00002F2F2F2F2F2F00002F2F2F2F2F2F002F2F002F2F002F2F2F2F2F2F002F2F2F2F2F2F002F2F2F002F002F2F002F2F2F002F2F2F2F2F2F002F2F2F2F00002F002F000000002F2F2F2F2F2F002F2F2F2F002F00002F2F2F2F2F00002F2F2F2F002F2F2F2F0000000000002F2F2F002F2F2F2F2F002F2F2F2F2F2F002F002F2F002F002F2F2F2F2F002F2F2F2F002F00000000002F2F2F002F2F2F2F002F2F2F2F2F00002F2F2F002F2F2F002F2F2F2F002F2F2F2F2F2F2F002F002F2F002F002F2F2F2F002F2F2F2F2F2F2F2F00002F2F2F2F2F002F2F2F002F2F2F2F2F2F0000002F2F2F2F2F2F002F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F00",
+                      "size": 1482,
+                      "sha256": "f0e614e2bf50722ebb6b02b0e8afce701ec011f5306a85f9d34b1d1145371251",
+                      "offset": 3233
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 4735
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 4745
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton2Click",
+                      "offset": 4754
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton3",
+                "flags": 0,
+                "offset": 4775,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 2,
+                      "value": 49,
+                      "offset": 4806
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 4812
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 4820
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 4829
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "下划线",
+                      "offset": 4836
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 4849
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "9E050000424D9E050000000000003604000028000000130000001200000001000800000000006801000000000000000000000001000000010000000000007B000000FF0000009431000094630000CE630000FFCE0000FFFF000008080800101010001818180021212100292929002931290063312900CE312900CE632900FF6329006B8C31009CB53900393942004A4A5200525252005A5A5A0094946300FFFF6300636B6B006B7373007373730000007B00007B7B007B7B7B00848484007B848C00848C8C006394940094949400CECE9400949CA5009CA5AD00A5ADB500BDBDBD00ADBDC6006394CE00B5C6CE00CECECE00C6CED600FFFFFF00D6E7E700E7EFE700EFEFEF000000FF00426BFF0094CEFF0094D6FF0000FFFF0094FFFF00CEFFFF00EFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F33333333333333333333333333332F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F002F00000000000000002F002F2F2F2F002F2F2F2F002F2F2F2F2F2F2F2F00002F2F2F2F002F2F2F2F002F000000002F2F002F002F2F2F2F002F2F2F2F002F2F002F2F2F002F2F002F2F2F2F002F2F2F2F002F2F002F2F2F002F2F2F2F2F2F2F002F2F2F2F002F2F00000000000000002F2F2F2F002F2F2F2F002F2F002F2F002F2F002F2F2F2F2F002F2F2F2F002F2F000000002F2F2F2F2F2F2F2F002F2F2F2F002F2F2F2F2F2F0000002F2F2F2F2F002F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F00000000000000000000002F2F2F2F002F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F002F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F00",
+                      "size": 1442,
+                      "sha256": "a0d749eff97695c2fdc10ed0afe546872bc933cc6ac8ef0e7aece3998dfc217d",
+                      "offset": 4861
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 6323
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 6333
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton3Click",
+                      "offset": 6342
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton4",
+                "flags": 0,
+                "offset": 6363,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 3,
+                      "value": 188,
+                      "offset": 6394
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 6401
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 6409
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 6418
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "保存修改",
+                      "offset": 6425
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 6440
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "76010000424D76010000000000007600000028000000200000001000000001000400000000000001000000000000000000001000000010000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333333333FFFFFFFFFFFFF33000077777770033377777777777773F00000788888800037F3337F3FF37F37F00000780088800037F3337F77F37F37F00000780088800037F3337F77FF7F37F00000788888800037F3337777777337F00000000000000037F3FFFFFFFFFFF7F00000000000000037F77777777777F7F000FFFFFFFFF00037F7F333333337F7F000FFFFFFFFF00037F7F333333337F7F000FFFFFFFFF00037F7F333333337F7F000FFFFFFFFF00037F7F333333337F7F000FFFFFFFFF00037F7F333333337F7F000FFFFFFFFF07037F7F33333333777F000FFFFFFFFF0003737FFFFFFFFF7F7330099999999900333777777777777733",
+                      "size": 378,
+                      "sha256": "341466c10f0f57c36db3c0745338e635fd23f1093eef93101e47e0b74cbc2f08",
+                      "offset": 6452
+                    }
+                  },
+                  {
+                    "name": "NumGlyphs",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 6845
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 6862
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 6872
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton4Click",
+                      "offset": 6881
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton5",
+                "flags": 0,
+                "offset": 6902,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 2,
+                      "value": 77,
+                      "offset": 6933
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 6939
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 6947
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 6956
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "上标",
+                      "offset": 6963
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 6974
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "E6040000424DE604000000000000360000002800000013000000140000000100180000000000B0040000C40E0000C40E00000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000000000000000BFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000000000BFBFBF000000000000000000000000000000000000000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBF000000000000000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000FF0000FF0000FF0000FF0000000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000000000000000000000000000000000000000BFBFBFBFBFBFBFBFBFFF0000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000FF0000BFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000",
+                      "size": 1258,
+                      "sha256": "ee845f296734c8c95285fdb81e3b44e1f9b8062288b0d390c4be7851e69103a5",
+                      "offset": 6986
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 8264
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 8274
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton5Click",
+                      "offset": 8283
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton6",
+                "flags": 0,
+                "offset": 8304,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 2,
+                      "value": 100,
+                      "offset": 8335
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 8341
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 8349
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 8358
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "下标",
+                      "offset": 8365
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 8376
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "E6040000424DE604000000000000360000002800000013000000140000000100180000000000B0040000C40E0000C40E00000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000FF0000BFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFFF0000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFFF0000FF0000FF0000FF0000FF0000000000BFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000000000000000BFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000000000BFBFBF000000000000000000000000000000000000000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBF000000000000000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBF000000000000000000000000000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF000000",
+                      "size": 1258,
+                      "sha256": "31db3021bfe67e4c1418283106eae1baa9bae80d5106583da6ece3a5d2c3e492",
+                      "offset": 8388
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 9666
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 9676
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton6Click",
+                      "offset": 9685
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton7",
+                "flags": 0,
+                "offset": 9706,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 3,
+                      "value": 128,
+                      "offset": 9737
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 9744
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 9752
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 9761
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "复制",
+                      "offset": 9768
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 9779
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "76010000424D760100000000000076000000280000002000000010000000010004000000000000010000130B0000130B00001000000000000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF003333330B7FFFFFB0333333777F3333773333330B7FFFFFB0333333777F3333773333330B7FFFFFB0333333777F3333773333330B7FFFFFB03FFFFF777FFFFF77000000000077007077777777777777770FFFFFFFF00077B07F33333337FFFF770FFFFFFFF0007BB07F3FF3FFF77FF7770F00F000F00090077F77377737777F770FFFFFFFF03999337F3FFFF3F7F777FF0F0000F0F09999937F7777373777777F0FFFFFFFF99999997F3FF3FFF77777770F00F000003999337F773777773777F30FFFF0FF033999337F3FF7F3733777F30F08F0F0337999337F7737F73F7777330FFFF003999993337FFFF7737777733300000033333333337777773333333333",
+                      "size": 378,
+                      "sha256": "c6ca38d8bfa66a1a358275dd81968de9373312ec79c9ec420ad3bd179870d8d7",
+                      "offset": 9791
+                    }
+                  },
+                  {
+                    "name": "NumGlyphs",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 10184
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 10201
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 10211
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton7Click",
+                      "offset": 10220
+                    }
+                  }
+                ],
+                "children": []
+              },
+              {
+                "class": "TSpeedButton",
+                "name": "SpeedButton8",
+                "flags": 0,
+                "offset": 10241,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 3,
+                      "value": 151,
+                      "offset": 10272
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 10279
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 2,
+                      "value": 23,
+                      "offset": 10287
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 2,
+                      "value": 22,
+                      "offset": 10296
+                    }
+                  },
+                  {
+                    "name": "Hint",
+                    "value": {
+                      "type": 6,
+                      "value": "粘贴",
+                      "offset": 10303
+                    }
+                  },
+                  {
+                    "name": "Flat",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 10314
+                    }
+                  },
+                  {
+                    "name": "Glyph.Data",
+                    "value": {
+                      "type": 10,
+                      "value": "76010000424D760100000000000076000000280000002000000010000000010004000000000000010000130B0000130B00001000000000000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF003333330FFFFFFFF03333337F3FFFF3F73333330F0000F0F03333337F777737373333330FFFFFFFF033FFFF7FFF33FFF77000000007F00000377777777FF777770BBBBBBBB0F0FF037777777777F7F3730B77777BB0F0F0337777777777F7F7330B7FFFFFB0F00333777F333377F77F330B7FFFFFB0009333777F333377777FF30B7FFFFFB0399933777F333377F777FF0B7FFFFFB0999993777F33337777777F0B7FFFFFB9999999777F3333777777770B7FFFFFB0399933777FFFFF77F777F307007700703999337777777777F777F30B770077B039993377FFFFFF77F777330BB7007BB99993337777FF777777733370000000073333333777777773333333",
+                      "size": 378,
+                      "sha256": "c010f28a08caa156162b5764a253d9bb0d8a0690557f4731d19b600889088bcc",
+                      "offset": 10326
+                    }
+                  },
+                  {
+                    "name": "NumGlyphs",
+                    "value": {
+                      "type": 2,
+                      "value": 2,
+                      "offset": 10719
+                    }
+                  },
+                  {
+                    "name": "ParentShowHint",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 10736
+                    }
+                  },
+                  {
+                    "name": "ShowHint",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 10746
+                    }
+                  },
+                  {
+                    "name": "OnClick",
+                    "value": {
+                      "type": 7,
+                      "value": "SpeedButton8Click",
+                      "offset": 10755
+                    }
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "class": "TCppWebBrowser",
+            "name": "CppWebBrowser1",
+            "flags": 0,
+            "offset": 10777,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 10812
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 27,
+                  "offset": 10818
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 3,
+                  "value": 405,
+                  "offset": 10826
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 3,
+                  "value": 419,
+                  "offset": 10836
+                }
+              },
+              {
+                "name": "TabStop",
+                "value": {
+                  "type": 9,
+                  "value": true,
+                  "offset": 10847
+                }
+              },
+              {
+                "name": "Align",
+                "value": {
+                  "type": 7,
+                  "value": "alClient",
+                  "offset": 10854
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 10873
+                }
+              },
+              {
+                "name": "ControlData",
+                "value": {
+                  "type": 10,
+                  "value": "4C000000DC2900004E2B00000000000000000000000000000000000000000000000000004C000000000000000000000001000000E0D057007335CF11AE6908002B2E126208000000000000004C0000000114020000000000C000000000000046800000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000",
+                  "size": 156,
+                  "sha256": "19577e09d9adc14d92170ebf2d4131cf2aa0f2219605be008b98660c9d6654e6",
+                  "offset": 10887
+                }
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery1",
+        "flags": 0,
+        "offset": 11051,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 11082
+            }
+          },
+          {
+            "name": "LockType",
+            "value": {
+              "type": 7,
+              "value": "ltReadOnly",
+              "offset": 11119
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 11142
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 442,
+              "offset": 11149
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 11156
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery2",
+        "flags": 0,
+        "offset": 11160,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 11191
+            }
+          },
+          {
+            "name": "LockType",
+            "value": {
+              "type": 7,
+              "value": "ltReadOnly",
+              "offset": 11228
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 11251
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 474,
+              "offset": 11258
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 11265
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery3",
+        "flags": 0,
+        "offset": 11269,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 11300
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 11339
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 506,
+              "offset": 11346
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 11353
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

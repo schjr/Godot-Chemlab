@@ -1,0 +1,131 @@
+extends SceneTree
+
+const MainScene = preload("res://scenes/main.tscn")
+const Adapter = preload("res://scripts/experiment_adapter.gd")
+var failures: int = 0
+var app
+
+func check(value: bool, message: String) -> void:
+	if not value:
+		failures += 1
+		push_error(message)
+
+func near(a: float, b: float) -> bool:
+	return absf(a - b) < 1e-8
+
+func same_state(a, b, path: String = "") -> bool:
+	if (a is float or a is int) and (b is float or b is int): return near(float(a), float(b))
+	if (a is Array or a is PackedStringArray) and (b is Array or b is PackedStringArray):
+		if a.size() != b.size(): print("Different array size: ", path, " ", a.size(), " / ", b.size()); return false
+		for i in a.size():
+			if not same_state(a[i], b[i], path + "/" + str(i)): return false
+		return true
+	if a is Dictionary and b is Dictionary:
+		if a.size() != b.size(): print("Different dictionary size: ", path); return false
+		for key in a:
+			if not b.has(key) or not same_state(a[key], b[key], path + "/" + str(key)): return false
+		return true
+	if a != b: print("Different state: ", path, " ", a, " / ", b)
+	return a == b
+
+func _initialize() -> void:
+	create_timer(15.0).timeout.connect(func(): push_error("Workflow test did not complete within 15 seconds"); quit(1))
+	_run.call_deferred()
+
+func _run() -> void:
+	app = MainScene.instantiate()
+	root.add_child(app)
+	app.set_process(false)
+	app.canvas.set_process(false)
+	check(app.examples.size() == 28, "All 28 original experiments must be available")
+	var program_examples: int = 0
+	var titration_index: int = -1
+	for i in app.examples.size():
+		var doc: Dictionary = app.examples[i]
+		check(app.load_example(i), "Original experiment must import: " + str(doc.name))
+		var expected: Dictionary = Adapter.to_state(doc)
+		check(app.model.vessels.size() == expected.vessels.size(), "Apparatus and chart counts must survive import: " + str(doc.name))
+		check(app.program.bindings.size() == expected.bindings.size(), "Chemical variable bindings must survive import: " + str(doc.name))
+		for binding in expected.bindings:
+			var found: bool = false
+			for actual in app.program.bindings:
+				if actual == binding: found = true
+			check(found, "Binding identity must be retained: %s / %s" % [doc.name, binding.name])
+		check(app.program.code == str(expected.program), "Recorded program text must survive import: " + str(doc.name))
+		check(app.canvas.annotations == expected.annotations, "Annotations must survive import: " + str(doc.name))
+		app.model.running = true
+		app.model.step(0.5)
+		var errors: Array = app.program.evaluate_frame()
+		if not app.program.code.strip_edges().is_empty():
+			program_examples += 1
+			check(errors.is_empty(), "Original program must execute after chemistry: %s / %s" % [doc.name, str(errors)])
+		for binding in app.program.bindings:
+			var v: Dictionary = app.model.get_vessel(int(binding.vessel_id))
+			var value: float = float(v.contents.get(str(binding.species), 0.0))
+			if binding.metric == "mass": value *= float(app.model._species.get(str(binding.species), {}).get("molar_mass", 0.0))
+			check(near(float(app.program.variables.get(str(binding.name), INF)), value), "Bound variable must reflect actual chemistry: %s / %s" % [doc.name, binding.name])
+		if doc.name == "酸碱中和滴定": titration_index = i
+	check(program_examples > 0, "Recovered programs must actually be exercised")
+	check(titration_index >= 0, "Original titration must be present")
+	if titration_index >= 0:
+		app.load_example(titration_index)
+		app.model.running = true
+		# Dose original acid into the indicator vessel and verify program-bound ion quantities.
+		var receiver: Dictionary = app.model.vessels[0]
+		var acid: Dictionary = app.model.vessels[1]
+		check(app.model.transfer(acid.id, receiver.id, 0.5), "Titration dosing must transfer acid")
+		app.model.step(0.5)
+		check(app.program.evaluate_frame().is_empty(), "Titration variable program must execute after dosing")
+		check(near(float(app.program.variables.get("b2", -1.0)), float(receiver.contents.get("H+(离子)", 0.0))), "Titration b2 must reference receiver hydrogen ions")
+		check(app.model.ph(receiver) < 7.0, "Original acid dosing must make indicator vessel acidic")
+		# Save the entire workspace, then load after clearing all live state.
+		app.program.set_variable("workflow_value", 17.25)
+		app.dialogs.variable_defined.emit("workflow_ph", receiver.id, "", "ph")
+		var ph_binding: bool = false
+		for binding in app.program.bindings:
+			if binding.name == "workflow_ph" and binding.metric == "pH": ph_binding = true
+		check(ph_binding, "Dialog pH definitions must map to the program's pH metric")
+		app.program.code = "workflow_twice=workflow_value*2"
+		app.canvas.annotations.append({"text": "浓度 {workflow_value}", "position": [8.0, 12.0]})
+		var saved_program: Dictionary = app.program.to_state().duplicate(true)
+		var saved_annotations: Array = app.canvas.annotations.duplicate(true)
+		var saved_vessels: Array = app.model.vessels.duplicate(true)
+		check(app._save_path("user://workflow_test.chemlab.json"), "Complete workspace JSON save must succeed")
+		app.new_experiment()
+		app._load_path("user://workflow_test.chemlab.json")
+		check(same_state(app.model.vessels, saved_vessels), "Workspace JSON must retain every apparatus and chart property")
+		check(same_state(app.program.to_state(), saved_program), "Workspace JSON must retain variables, bindings and code")
+		check(same_state(app.canvas.annotations, saved_annotations), "Workspace JSON must retain annotations")
+		check(not app.model.running, "Workspace JSON must reload paused")
+		check(app.program.evaluate_frame().is_empty(), "Restored arithmetic program must execute")
+		check(near(float(app.program.variables.get("workflow_twice", 0.0)), 34.5), "Restored program must use saved variables")
+		# Chart sampling must read named program values rather than container contents.
+		var chart: Dictionary = app.model.add_apparatus("chart")
+		chart.chart_series = [{"x_variable": "workflow_value", "y_variable": "workflow_twice", "color_integer": 128}]
+		app.model.running = true
+		app.canvas._sample_time = 0.0
+		app.canvas._process(0.21)
+		var history: Array = app.canvas.graph_history.get(str(chart.id), [])
+		check(history.size() == 1, "Live chart must record a sample")
+		if not history.is_empty():
+			check(near(float(history[0][0][0]), 17.25) and near(float(history[0][0][1]), 34.5), "Live chart sample must use its configured x/y program variables")
+	DirAccess.remove_absolute("user://workflow_test.chemlab.json")
+	# Duplicate apparatus content dictionaries must be independent and IDs unique.
+	app.new_experiment()
+	app._add_apparatus("sb100", Vector2(30, 60))
+	var source: Dictionary = app.model.vessels[0]
+	app.model.add_reagent(source.id, "H2O(液体)", 1.0)
+	app._action("Menu_copyClick")
+	app._action("Menu_pasteClick")
+	check(app.model.vessels.size() == 2, "Paste must create an apparatus")
+	var copy: Dictionary = app.model.vessels[1]
+	check(source.id != copy.id, "Pasted apparatus must have a unique ID")
+	copy.contents["H2O(液体)"] = 2.0
+	check(near(source.contents["H2O(液体)"], 1.0), "Pasted content dictionaries must be independent")
+	check(app.model.transfer(copy.id, source.id, 0.25), "Pasted apparatus must support pouring")
+	check(near(float(source.contents["H2O(液体)"]) + float(copy.contents["H2O(液体)"]), 3.0), "Pouring pasted apparatus must conserve material")
+	app.model.running = false
+	app.queue_free()
+	await process_frame
+	print("Workflow integration checks: ", "PASS" if failures == 0 else "FAIL (%s)" % failures, "; programs exercised: ", program_examples)
+	quit(0 if failures == 0 else 1)

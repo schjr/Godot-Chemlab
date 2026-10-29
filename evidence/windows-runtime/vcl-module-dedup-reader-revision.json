@@ -1,0 +1,18 @@
+{
+  "format": "chemlab-reviewed-reader-revision-v1",
+  "original_transferred_package_sha256": "b6e0167f7ff66c41720e47f2a03ac9e898513e5bd1aed46116f4e08b7f6a492f",
+  "path": "read_original_dib_pixels.ps1",
+  "before_sha256": "94d631ea77fb134009bdbdeffb8b5b22352bcf8fc019da2d05a228e23aa2bff4",
+  "before_bytes": 8351,
+  "after_sha256": "4a4d476366c523d8efe96d85c7d864e5dba1f923b8eafe7f53e281a86a00e138",
+  "after_bytes": 8405,
+  "exact_literal_replacement": {
+    "before": "$image})",
+    "after": "$image}|Sort-Object modBaseAddr,modBaseSize,szExePath -Unique)"
+  },
+  "scope": "Collapse only identical path/base/size module entries, matching the earlier reviewed scalar reader. Conflicting mappings still fail the unique-module check. No target calls/writes, privileges or execution policy changes.",
+  "windows_patch_status": "Saved in Windows and SHA256 verified against the reviewed amended source; revised manifest retained alongside its original. All three captures completed. Original wrapper finalization tail packaged existing captures without rerunning them. Returned archive and all members validated; all18 DIBs readable. Bounded final-word overlap comparison matches all11548 observed words; complete VCL/frame parity remains unverified.",
+  "windows_result_archive": "C:\\Users\\schjr\\desktop\\vcl-pixel-results.zip",
+  "windows_result_archive_sha256": "9355cf55a460ea3543c52b503bb4b123fc6f3cbc8b72b2110c9f5a5978d71198",
+  "material_probe_invocation": "Explicit -Corpus ./current-material-gdi-cases.json supplied to avoid Windows PowerShell default-parameter PSScriptRoot resolution failure; material source and pinned corpus/GDI source hashes unchanged."
+}

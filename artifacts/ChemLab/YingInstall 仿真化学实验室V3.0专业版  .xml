@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="GB2312"?>
+<InstallProject>
+<Version>YingInstall5.0</Version>
+<Task ID="2401" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetAllVar">
+<ProjectName>仿真化学实验室V3.0专业版</ProjectName>
+<InstallPath>[Program Files]\仿真化学实验室V3.0专业版</InstallPath>
+<CompanyDesc>南京金华科软件有限公司</CompanyDesc>
+<ProductVersion> </ProductVersion>
+<DiskSize>671088640</DiskSize>
+<AdPicture>F:\软件发布\图\仿真化学实验室.bmp</AdPicture>
+<TopFramePicture>F:\软件发布\图\TopFramePicture.bmp</TopFramePicture>
+<OutPutPath>F:\软件发布\化学\化学专业版</OutPutPath>
+<ProvideForInstall></ProvideForInstall>
+<AppFileIcon></AppFileIcon>
+<Language>英语,简体中文,繁体中文</Language>
+<SoftwareSize>64063768</SoftwareSize>
+<FileQty>562</FileQty>
+<InvalidField></InvalidField>
+<InvalidField>CHINAPOWER-YINGSOFT</InvalidField>
+</SubTask>
+</Task>
+<Task ID="2002" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowBitmap">
+<PosX>0</PosX>
+<PosY>0</PosY>
+<File>F:\软件发布\图\WndPicture化学.bmp</File>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|WelcomeWndDesc1||ProjectName||WelcomeWndDesc2|</Description>
+<Description>|WelcomeWndDesc3|</Description>
+<Description>|WelcomeWndDesc4|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2003" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ReadSoftDocSubject|</Subject>
+<Description>|ReadSoftDocDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="ShowSoftDoc">
+<FileType>S</FileType>
+<File>F:\软件发布\化学\化学安装\化学专业版安装准备\授权书1.htm</File>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2004" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowReadmeSubject|</Subject>
+<Description>|ShowReadmeDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="ShowReadme">
+<FileType>S</FileType>
+<File>F:\软件发布\化学\化学安装\化学专业版安装准备\软件说明.htm</File>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2005" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|RegisterInfoSubject|</Subject>
+<Description>|RegisterInfoDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="EditBox">
+<Description>|RegisterInfoCompanyDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10003" Type="EditBox">
+<Description>|RegisterInfoUserDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10004" Type="EditBox">
+<Description>|RegisterInfoSNDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10005" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2006" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ProgramFolderSubject|</Subject>
+<Description>|ProgramFolderDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ProgramFolderDesc2|</Description>
+<Description>|ProgramFolderDesc3|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2007" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ChangePathSubject|</Subject>
+<Description>|ChangePathDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ChangePathDesc2|</Description>
+<Description>|ChangePathFreeSpaceDesc1|</Description>
+<Description>|ChangePathFreeSpaceDesc2|</Description>
+<Description>|ChangePathSoftSizeDesc1|</Description>
+<Description>|ChangePathSoftSizeDesc2|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2008" Type="ShowDialogBox" IsExec="1">
+</Task>
+<Task ID="2009" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowFinishOneSubject|</Subject>
+<Description>|ShowFinishOneDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ShowFinishOneDesc2|</Description>
+<Description>|ShowFinishOneDesc3|</Description>
+<Description>|ShowFinishOneDesc4|</Description>
+<Description>|ShowFinishOneDesc5|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2010" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowFinishTwoSubject|</Subject>
+<Description>|ShowFinishTwoDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<PosX>50</PosX>
+<PosY>100</PosY>
+<Description>|ShowFinishTwoDesc2|</Description>
+</SubTask>
+<SubTask ID="10003" Type="RunApp">
+<Description>立即运行仿真化学实验室V3.0   </Description>
+<File>chemlab.exe</File>
+<Folder>[InstallDir]</Folder>
+<AppParameter></AppParameter>
+</SubTask>
+<SubTask ID="10004" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2402" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetAllVar">
+<PathDesc>[InstallDir]</PathDesc>
+<PathValue>F:\软件发布\化学\化学安装\化学专业版安装准备</PathValue>
+<PathDesc>[Windows Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Windows Directory]\Fonts</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[System Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Desktop Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Program Files]</PathDesc>
+<PathValue></PathValue>
+</SubTask>
+</Task>
+<Task ID="2403" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<ComList>XXX-XXX-XXX</ComList>
+</SubTask>
+</Task>
+<Task ID="2404" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<Description>仿真化学实验室V3.0专业版</Description>
+</SubTask>
+<SubTask ID="10002" Type="CreateShortcutMenu">
+<Description>仿真化学实验室</Description>
+<File>chemlab.exe</File>
+<Folder>[InstallDir]</Folder>
+<Parameter></Parameter>
+<IconFile>[InstallDir]\chemlab.ico</IconFile>
+<IsToFileLinkGroup>1</IsToFileLinkGroup>
+<IsToDesktop>1</IsToDesktop>
+<IsToStartup>0</IsToStartup>
+<IsToQuickLaunch>0</IsToQuickLaunch>
+</SubTask>
+<SubTask ID="10003" Type="CreateShortcutMenu">
+<Description>三维分子</Description>
+<File>CM3D.exe</File>
+<Folder>[InstallDir]</Folder>
+<Parameter></Parameter>
+<IconFile>[InstallDir]\CM3D1.ico</IconFile>
+<IsToFileLinkGroup>1</IsToFileLinkGroup>
+<IsToDesktop>1</IsToDesktop>
+<IsToStartup>0</IsToStartup>
+<IsToQuickLaunch>0</IsToQuickLaunch>
+</SubTask>
+<SubTask ID="10004" Type="CreateShortcutMenu">
+<Description>中学化学小百科</Description>
+<File>chemlib.exe</File>
+<Folder>[InstallDir]</Folder>
+<Parameter></Parameter>
+<IconFile>[InstallDir]\chemlib.ico</IconFile>
+<IsToFileLinkGroup>1</IsToFileLinkGroup>
+<IsToDesktop>1</IsToDesktop>
+<IsToStartup>0</IsToStartup>
+<IsToQuickLaunch>0</IsToQuickLaunch>
+</SubTask>
+<SubTask ID="10005" Type="CreateShortcutMenu">
+<Description>升级说明</Description>
+<File>升级说明.txt</File>
+<Folder>[InstallDir]</Folder>
+<Parameter></Parameter>
+<IconFile></IconFile>
+<IsToFileLinkGroup>1</IsToFileLinkGroup>
+<IsToDesktop>0</IsToDesktop>
+<IsToStartup>0</IsToStartup>
+<IsToQuickLaunch>0</IsToQuickLaunch>
+</SubTask>
+</Task>
+<Task ID="2405" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2406" Type="DataSetting" IsExec="0">
+<SubTask ID="999999" Type="Registry">
+<RegRootKey>HKEY_CLASSES_ROOT</RegRootKey>
+<RegSubKey>\cl3_auto_file\shell\open\command</RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue>[InstallDir]\CM3D.exe</RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="999999" Type="Registry">
+<RegRootKey>HKEY_CLASSES_ROOT</RegRootKey>
+<RegSubKey>\.cl3</RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue>cl3_auto_file</RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="999999" Type="Registry">
+<RegRootKey>HKEY_CLASSES_ROOT</RegRootKey>
+<RegSubKey>\cem_auto_file\shell\open\command</RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue>[InstallDir]\chemlab.exe</RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="999999" Type="Registry">
+<RegRootKey>HKEY_CLASSES_ROOT</RegRootKey>
+<RegSubKey>\.cem</RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue>cem_auto_file</RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="999999" Type="Registry">
+<RegRootKey>HKEY_CLASSES_ROOT</RegRootKey>
+<RegSubKey>\icofile</RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue>icofile</RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="999999" Type="Registry">
+<RegRootKey>HKEY_CLASSES_ROOT</RegRootKey>
+<RegSubKey>\icofile_Aha\shell\open</RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue>[InstallDir]</RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+</Task>
+<Task ID="2407" Type="DataSetting" IsExec="0">
+</Task>
+<Task ID="2408" Type="DataSetting" IsExec="0">
+</Task>
+<Task ID="2409" Type="DataSetting" IsExec="0">
+</Task>
+<Task ID="2410" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<CreateUnInstall1>1</CreateUnInstall1>
+<CreateUnInstall2>1</CreateUnInstall2>
+<UnInstallEx></UnInstallEx>
+</SubTask>
+</Task>
+<Task ID="2411" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<File>[InstallDir]\chemlab.ico</File>
+<File>[InstallDir]\CM3D.ico</File>
+<File>[InstallDir]\chemlib.ico</File>
+<File>[InstallDir]\CM3D1.ico</File>
+</SubTask>
+</Task>
+<Task ID="2412" Type="ExtractFiles" IsExec="0">
+<SubTask ID="10001" Type="FolderList">
+<Folder>[InstallDir]\DIY\分子模型</Folder>
+<Folder>[InstallDir]\DIY\化学实验</Folder>
+<Folder>[InstallDir]\DIY</Folder>
+<Folder>[InstallDir]\res\white</Folder>
+<Folder>[InstallDir]\res</Folder>
+<Folder>[InstallDir]\help</Folder>
+<Folder>[InstallDir]\模型</Folder>
+<Folder>[InstallDir]\帮助\image</Folder>
+<Folder>[InstallDir]\帮助</Folder>
+<Folder>[InstallDir]\myres</Folder>
+<Folder>[InstallDir]\三维例子</Folder>
+<Folder>[InstallDir]\使用说明</Folder>
+<Folder>[InstallDir]\例子</Folder>
+<Folder>[InstallDir]\picture</Folder>
+<Folder>[InstallDir]</Folder>
+</SubTask>
+<SubTask ID="10002" Type="FileList">
+<File>[TempFileDir]\~YingInstall-Language.ini,430080,4000,K,2001-11-11 19:11:12</File>
+<File>[TempFileDir]\~YingInstall-AdPicture.bmp,434080,338802,K,2004-4-12 17:31:40</File>
+<File>[TempFileDir]\~YingInstall-TopFramePicture.bmp,772882,37870,K,2004-4-2 15:52:28</File>
+<File>[TempFileDir]\~YingInstall-WelcomeWndPicture.bmp,810752,72516,K,2004-4-12 18:13:52</File>
+<File>[TempFileDir]\~YingInstall-SoftDoc.HTM,883268,681,K,2004-4-1 14:6:30</File>
+<File>[TempFileDir]\~YingInstall-SoftReadme.HTM,883949,1776,K,2004-4-13 13:54:4</File>
+<File>[Windows Directory]\Ying-UnInstall.exe,885725,187471,U,2003-11-17 22:13:18</File>
+<File>[InstallDir]\chemlab.exe,1073196,950293,A,2004-10-26 11:10:32</File>
+<File>[InstallDir]\avi.exe,2023489,276875,A,2003-5-15 10:5:34</File>
+<File>[InstallDir]\CHEMS.CSB,2300364,1725246,A,2003-9-19 15:26:50</File>
+<File>[InstallDir]\DEFAULT.ETS,4025610,63406,A,2003-4-17 16:30:18</File>
+<File>[InstallDir]\background.BMP,4089016,16218,A,2002-11-5 15:27:2</File>
+<File>[InstallDir]\chemlib.exe,4105234,826025,A,2003-9-19 15:35:4</File>
+<File>[InstallDir]\软件说明.txt,4931259,1595,A,2003-2-28 16:2:10</File>
+<File>[InstallDir]\gif.exe,4932854,277550,A,2003-5-15 10:6:0</File>
+<File>[InstallDir]\升级说明.txt,5210404,1282,A,2003-9-19 15:58:40</File>
+<File>[InstallDir]\CM3D.exe,5211686,1285802,A,2003-9-24 11:22:40</File>
+<File>[InstallDir]\软件说明.htm,6497488,1776,A,2004-4-13 13:54:4</File>
+<File>[InstallDir]\chemlib.ico,6499264,343,A,2004-4-13 10:59:32</File>
+<File>[InstallDir]\授权书1.htm,6499607,681,A,2004-4-1 14:6:30</File>
+<File>[InstallDir]\chemlab.ico,6500288,253,A,2004-4-13 10:57:50</File>
+<File>[InstallDir]\CM3D1.ico,6500541,8203,A,2004-4-13 11:34:10</File>
+<File>[InstallDir]\例子\醋酸钠的水解.cem,6508744,865,A,2004-10-26 11:17:12</File>
+<File>[InstallDir]\例子\二氧化碳通入石灰水中.cem,6509609,1257,A,2004-10-26 11:17:16</File>
+<File>[InstallDir]\例子\加热碱式碳酸铜.cem,6510866,834,A,2004-10-26 11:17:18</File>
+<File>[InstallDir]\例子\加热碳酸氢钠.cem,6511700,919,A,2004-10-26 11:17:22</File>
+<File>[InstallDir]\例子\金属活动性顺序.cem,6512619,878,A,2004-10-26 11:17:26</File>
+<File>[InstallDir]\例子\氯气漂白品红.cem,6513497,1390,A,2004-10-26 11:17:32</File>
+<File>[InstallDir]\例子\强酸与弱酸的电离.cem,6514887,1329,A,2004-10-26 11:17:34</File>
+<File>[InstallDir]\例子\氢气还原氧化铁.cem,6516216,1501,A,2004-10-26 11:17:38</File>
+<File>[InstallDir]\例子\氢气还原氧化铜.cem,6517717,1036,A,2004-10-26 11:17:44</File>
+<File>[InstallDir]\例子\氢氧化铜与氢氧化铁.cem,6518753,1003,A,2004-10-26 11:17:52</File>
+<File>[InstallDir]\例子\实验室制取甲烷.cem,6519756,847,A,2004-10-26 11:17:56</File>
+<File>[InstallDir]\例子\实验室制取氯气.cem,6520603,1090,A,2004-10-26 11:18:0</File>
+<File>[InstallDir]\例子\实验室制取乙炔.cem,6521693,864,A,2004-10-26 11:18:4</File>
+<File>[InstallDir]\例子\实验室制氧气.cem,6522557,1197,A,2004-10-26 11:18:8</File>
+<File>[InstallDir]\例子\水的电离.cem,6523754,618,A,2004-10-26 11:18:12</File>
+<File>[InstallDir]\例子\水的加热与沸腾.cem,6524372,836,A,2004-10-26 11:18:14</File>
+<File>[InstallDir]\例子\酸碱盐.cem,6525208,1689,A,2004-10-26 11:18:22</File>
+<File>[InstallDir]\例子\酸碱指示剂.cem,6526897,1811,A,2004-10-26 11:18:28</File>
+<File>[InstallDir]\例子\酸碱中和滴定.cem,6528708,1548,A,2004-10-26 11:18:38</File>
+<File>[InstallDir]\例子\碳还原氧化铜.cem,6530256,842,A,2004-10-26 11:18:42</File>
+<File>[InstallDir]\例子\题目1.cem,6531098,1163,A,2004-10-26 11:18:46</File>
+<File>[InstallDir]\例子\题目2.cem,6532261,840,A,2004-10-26 11:18:50</File>
+<File>[InstallDir]\例子\题目3.cem,6533101,922,A,2004-10-26 11:18:56</File>
+<File>[InstallDir]\例子\铁和盐酸的反应.cem,6534023,859,A,2004-10-26 11:19:6</File>
+<File>[InstallDir]\例子\一氧化碳还原氧化铁.cem,6534882,1438,A,2004-10-26 11:19:10</File>
+<File>[InstallDir]\例子\一氧化碳还原氧化铜.cem,6536320,1519,A,2004-10-26 11:19:16</File>
+<File>[InstallDir]\例子\硬水的软化.cem,6537839,1389,A,2004-10-26 11:19:20</File>
+<File>[InstallDir]\例子\制取与收集氢气.cem,6539228,854,A,2004-10-26 11:19:26</File>
+<File>[InstallDir]\使用说明\DIY00.bmp,6540082,171762,A,2003-7-8 8:46:34</File>
+<File>[InstallDir]\使用说明\DIY01.bmp,6711844,170538,A,2003-7-8 8:46:54</File>
+<File>[InstallDir]\使用说明\DIY02.bmp,6882382,174468,A,2003-7-8 8:46:22</File>
+<File>[InstallDir]\使用说明\DIY03.bmp,7056850,167784,A,2003-7-8 8:45:54</File>
+<File>[InstallDir]\使用说明\index.htm,7224634,4349,A,2003-9-19 14:57:2</File>
+<File>[InstallDir]\使用说明\图二.BMP,7228983,65247,A,2003-7-8 8:54:6</File>
+<File>[InstallDir]\使用说明\图六.BMP,7294230,103595,A,2003-7-8 8:58:16</File>
+<File>[InstallDir]\使用说明\图七.BMP,7397825,48898,A,2003-2-28 19:3:56</File>
+<File>[InstallDir]\使用说明\图三.BMP,7446723,36080,A,2003-2-28 18:47:14</File>
+<File>[InstallDir]\使用说明\图四.BMP,7482803,177868,A,2003-7-8 8:57:36</File>
+<File>[InstallDir]\使用说明\图五.BMP,7660671,126837,A,2003-7-8 8:57:54</File>
+<File>[InstallDir]\使用说明\宣传.BMP,7787508,116117,A,2003-7-8 9:0:46</File>
+<File>[InstallDir]\使用说明\主界面.BMP,7903625,176896,A,2003-7-8 8:53:26</File>
+<File>[InstallDir]\三维例子\乙醇.cl3,8080521,970,A,2003-1-12 14:15:18</File>
+<File>[InstallDir]\三维例子\苯酚.cl3,8081491,936,A,2003-3-4 13:31:4</File>
+<File>[InstallDir]\三维例子\四氯化碳.cl3,8082427,933,A,2003-1-12 14:20:46</File>
+<File>[InstallDir]\三维例子\正丁烷.cl3,8083360,1003,A,2003-1-12 14:21:34</File>
+<File>[InstallDir]\三维例子\异丁烷.cl3,8084363,1035,A,2003-1-12 14:22:4</File>
+<File>[InstallDir]\三维例子\氯乙烯.cl3,8085398,787,A,2003-1-12 14:23:4</File>
+<File>[InstallDir]\三维例子\溴苯.cl3,8086185,1118,A,2003-1-12 14:23:46</File>
+<File>[InstallDir]\三维例子\硝基苯.cl3,8087303,1161,A,2003-1-12 14:24:12</File>
+<File>[InstallDir]\三维例子\苯磺酸.cl3,8088464,1660,A,2003-4-24 13:54:12</File>
+<File>[InstallDir]\三维例子\间二甲苯.cl3,8090124,1299,A,2003-1-12 14:25:44</File>
+<File>[InstallDir]\三维例子\异辛烷.cl3,8091423,1588,A,2003-1-12 14:27:0</File>
+<File>[InstallDir]\三维例子\丙酮.cl3,8093011,1244,A,2003-1-12 14:31:8</File>
+<File>[InstallDir]\三维例子\乙醚.cl3,8094255,1483,A,2003-1-12 14:29:14</File>
+<File>[InstallDir]\三维例子\乙醛.cl3,8095738,927,A,2003-1-12 14:27:48</File>
+<File>[InstallDir]\三维例子\DNA1.cl3,8096665,6873,A,2002-11-20 16:41:44</File>
+<File>[InstallDir]\三维例子\乙酸.cl3,8103538,1146,A,2003-1-12 14:31:48</File>
+<File>[InstallDir]\三维例子\NaCl.cl3,8104684,5963,A,2002-11-20 16:42:10</File>
+<File>[InstallDir]\三维例子\胞嘧啶.cl3,8110647,6371,A,2002-11-20 16:42:38</File>
+<File>[InstallDir]\三维例子\金刚石.cl3,8117018,6007,A,2002-11-20 16:43:0</File>
+<File>[InstallDir]\三维例子\乙酸乙酯.cl3,8123025,1658,A,2003-1-12 14:43:32</File>
+<File>[InstallDir]\三维例子\甲酸.cl3,8124683,1014,A,2003-1-12 14:45:18</File>
+<File>[InstallDir]\三维例子\乙二酸.cl3,8125697,1400,A,2003-1-12 14:46:40</File>
+<File>[InstallDir]\三维例子\分子筛.cl3,8127097,104693,A,2002-11-20 16:42:54</File>
+<File>[InstallDir]\三维例子\鸟嘌呤.cl3,8231790,7027,A,2002-11-20 16:43:8</File>
+<File>[InstallDir]\三维例子\石墨.cl3,8238817,14194,A,2002-11-20 17:47:48</File>
+<File>[InstallDir]\三维例子\胸腺嘧啶.cl3,8253011,6659,A,2002-11-20 16:43:22</File>
+<File>[InstallDir]\三维例子\戊烷同分异构体.cl3,8259670,2469,A,2002-12-4 13:40:32</File>
+<File>[InstallDir]\三维例子\腺嘌呤.cl3,8262139,6840,A,2002-11-20 16:43:14</File>
+<File>[InstallDir]\三维例子\甲苯.cl3,8268979,1846,A,2003-1-2 9:32:24</File>
+<File>[InstallDir]\三维例子\硫酸.cl3,8270825,1248,A,2003-1-11 17:22:54</File>
+<File>[InstallDir]\三维例子\氯化氢.cl3,8272073,644,A,2003-1-12 10:59:34</File>
+<File>[InstallDir]\三维例子\氟化氢.cl3,8272717,663,A,2003-1-12 10:59:14</File>
+<File>[InstallDir]\三维例子\溴化氢.cl3,8273380,645,A,2003-1-12 11:0:10</File>
+<File>[InstallDir]\三维例子\碘化氢.cl3,8274025,628,A,2003-1-12 11:0:34</File>
+<File>[InstallDir]\三维例子\甘油.cl3,8274653,1432,A,2003-1-12 14:47:44</File>
+<File>[InstallDir]\三维例子\苯胺.cl3,8276085,1100,A,2003-3-3 10:33:20</File>
+<File>[InstallDir]\三维例子\甲胺.cl3,8277185,928,A,2003-1-12 14:49:0</File>
+<File>[InstallDir]\三维例子\乙二胺.cl3,8278113,1254,A,2003-1-12 14:49:50</File>
+<File>[InstallDir]\三维例子\甲酰胺.cl3,8279367,1094,A,2003-1-12 14:52:24</File>
+<File>[InstallDir]\三维例子\尿素.cl3,8280461,1397,A,2003-1-12 14:51:54</File>
+<File>[InstallDir]\三维例子\苯甲酰胺.cl3,8281858,1475,A,2003-4-8 14:3:2</File>
+<File>[InstallDir]\三维例子\葡萄糖.cl3,8283333,2099,A,2003-1-12 14:54:46</File>
+<File>[InstallDir]\三维例子\甘氨酸.cl3,8285432,1349,A,2003-1-12 14:58:14</File>
+<File>[InstallDir]\三维例子\丙氨酸.cl3,8286781,1525,A,2003-1-12 14:59:0</File>
+<File>[InstallDir]\三维例子\三硝基甲苯.cl3,8288306,2127,A,2003-3-4 13:35:58</File>
+<File>[InstallDir]\三维例子\双氧水.cl3,8290433,982,A,2003-4-29 14:51:52</File>
+<File>[InstallDir]\myres\data.obj,8291415,626671,A,2003-9-23 10:7:54</File>
+<File>[InstallDir]\myres\chem.bmp,8918086,8261,A,2002-11-8 11:5:26</File>
+<File>[InstallDir]\帮助\菜单视图.bmp,8926347,3403,A,2003-4-29 14:28:6</File>
+<File>[InstallDir]\帮助\氨基.bmp,8929750,1136,A,2002-12-3 17:14:58</File>
+<File>[InstallDir]\帮助\氨基酸.bmp,8930886,105593,A,2003-4-14 9:15:58</File>
+<File>[InstallDir]\帮助\帮助.bmp,9036479,409,A,2002-12-3 13:52:52</File>
+<File>[InstallDir]\帮助\苯环.bmp,9036888,1108,A,2002-12-3 17:9:42</File>
+<File>[InstallDir]\帮助\编辑.bmp,9037996,451,A,2002-12-3 13:51:14</File>
+<File>[InstallDir]\帮助\菜单.bmp,9038447,2287,A,2002-12-3 10:29:4</File>
+<File>[InstallDir]\帮助\菜单编辑.bmp,9040734,21144,A,2003-4-14 10:40:54</File>
+<File>[InstallDir]\帮助\菜单模型.bmp,9061878,3183,A,2002-12-3 14:7:50</File>
+<File>[InstallDir]\帮助\菜单-编辑-加成.bmp,9065061,5323,A,2003-4-14 10:59:50</File>
+<File>[InstallDir]\帮助\菜单-编辑-消去.bmp,9070384,1453,A,2003-4-14 11:8:38</File>
+<File>[InstallDir]\帮助\NaCl.bmp,9071837,44994,A,2002-12-4 16:40:28</File>
+<File>[InstallDir]\帮助\菜单文件.bmp,9116831,16058,A,2003-4-29 14:11:42</File>
+<File>[InstallDir]\帮助\对号.bmp,9132889,146,A,2002-12-3 14:0:56</File>
+<File>[InstallDir]\帮助\分子模型库.bmp,9133035,2244,A,2002-12-4 16:9:50</File>
+<File>[InstallDir]\帮助\工具栏.bmp,9135279,58879,A,2003-4-14 10:4:10</File>
+<File>[InstallDir]\帮助\环境设置.bmp,9194158,127545,A,2002-12-3 10:55:8</File>
+<File>[InstallDir]\帮助\磺酸基.bmp,9321703,1075,A,2002-12-3 17:14:0</File>
+<File>[InstallDir]\帮助\甲基.bmp,9322778,1060,A,2002-12-3 17:10:18</File>
+<File>[InstallDir]\帮助\甲烷.bmp,9323838,1161,A,2002-12-3 17:9:8</File>
+<File>[InstallDir]\帮助\快捷菜单.bmp,9324999,14728,A,2002-12-4 13:37:14</File>
+<File>[InstallDir]\帮助\例子-10-1.bmp,9339727,50443,A,2003-4-14 14:49:6</File>
+<File>[InstallDir]\帮助\例子-10-2.bmp,9390170,44664,A,2003-4-14 14:49:32</File>
+<File>[InstallDir]\帮助\例子-1-1.bmp,9434834,67719,A,2002-12-3 18:10:26</File>
+<File>[InstallDir]\帮助\例子-1-10.bmp,9502553,31230,A,2002-12-4 10:0:54</File>
+<File>[InstallDir]\帮助\例子-1-11.bmp,9533783,26920,A,2002-12-4 10:3:32</File>
+<File>[InstallDir]\帮助\例子-11-1.bmp,9560703,48890,A,2003-4-14 15:12:52</File>
+<File>[InstallDir]\帮助\例子-11-2.bmp,9609593,47997,A,2003-4-14 15:13:28</File>
+<File>[InstallDir]\帮助\例子-11-3.bmp,9657590,27563,A,2003-4-14 15:14:4</File>
+<File>[InstallDir]\帮助\例子-11-4.bmp,9685153,39291,A,2003-4-14 15:16:50</File>
+<File>[InstallDir]\帮助\例子-11-5.bmp,9724444,38850,A,2003-4-14 15:17:22</File>
+<File>[InstallDir]\帮助\例子-11-6.bmp,9763294,31679,A,2003-4-14 15:17:50</File>
+<File>[InstallDir]\帮助\例子-11-7.bmp,9794973,1453,A,2003-4-14 15:22:46</File>
+<File>[InstallDir]\帮助\例子-1-2.bmp,9796426,57480,A,2002-12-4 9:25:2</File>
+<File>[InstallDir]\帮助\例子-12-1.bmp,9853906,31128,A,2003-4-14 15:49:50</File>
+<File>[InstallDir]\帮助\例子-12-2.bmp,9885034,126583,A,2003-4-14 15:55:14</File>
+<File>[InstallDir]\帮助\例子-12-3.bmp,10011617,65351,A,2003-4-14 15:55:46</File>
+<File>[InstallDir]\帮助\例子-1-3.bmp,10076968,70269,A,2002-12-4 9:29:0</File>
+<File>[InstallDir]\帮助\例子-1-4.bmp,10147237,1709,A,2002-12-4 9:31:50</File>
+<File>[InstallDir]\帮助\例子-1-5.bmp,10148946,1142,A,2002-12-4 9:51:12</File>
+<File>[InstallDir]\帮助\例子-1-6.bmp,10150088,201,A,2002-12-4 9:52:16</File>
+<File>[InstallDir]\帮助\例子-1-7.bmp,10150289,3183,A,2002-12-4 9:54:34</File>
+<File>[InstallDir]\帮助\例子-1-8.bmp,10153472,40840,A,2002-12-4 9:57:8</File>
+<File>[InstallDir]\帮助\例子-1-9.bmp,10194312,26186,A,2002-12-4 9:59:8</File>
+<File>[InstallDir]\帮助\例子-2-1.bmp,10220498,314,A,2002-12-4 11:7:4</File>
+<File>[InstallDir]\帮助\例子-2-10.bmp,10220812,30883,A,2002-12-4 14:2:30</File>
+<File>[InstallDir]\帮助\例子-2-2.bmp,10251695,86909,A,2002-12-4 11:10:34</File>
+<File>[InstallDir]\帮助\例子-2-3.bmp,10338604,81059,A,2002-12-4 11:16:38</File>
+<File>[InstallDir]\帮助\例子-2-4.bmp,10419663,79104,A,2002-12-4 11:21:32</File>
+<File>[InstallDir]\帮助\例子-2-5.bmp,10498767,116109,A,2002-12-4 13:18:12</File>
+<File>[InstallDir]\帮助\例子-2-6.bmp,10614876,111904,A,2002-12-4 13:25:36</File>
+<File>[InstallDir]\帮助\例子-2-7.bmp,10726780,143158,A,2002-12-4 13:29:50</File>
+<File>[InstallDir]\帮助\例子-2-8.bmp,10869938,106745,A,2002-12-4 13:58:34</File>
+<File>[InstallDir]\帮助\例子-2-9.bmp,10976683,78013,A,2002-12-4 13:55:12</File>
+<File>[InstallDir]\帮助\例子-3-1.bmp,11054696,19482,A,2002-12-4 14:15:6</File>
+<File>[InstallDir]\帮助\例子-3-2.bmp,11074178,19751,A,2002-12-4 14:20:42</File>
+<File>[InstallDir]\帮助\例子-3-3.bmp,11093929,24551,A,2002-12-4 14:24:6</File>
+<File>[InstallDir]\帮助\例子-4-1.bmp,11118480,7652,A,2002-12-4 14:30:22</File>
+<File>[InstallDir]\帮助\例子-4-2.bmp,11126132,9440,A,2002-12-4 14:36:56</File>
+<File>[InstallDir]\帮助\例子-4-3.bmp,11135572,6738,A,2002-12-4 14:38:26</File>
+<File>[InstallDir]\帮助\例子-4-4.bmp,11142310,7816,A,2002-12-4 14:48:4</File>
+<File>[InstallDir]\帮助\例子-4-5.bmp,11150126,13983,A,2002-12-4 14:50:2</File>
+<File>[InstallDir]\帮助\例子-5-1.bmp,11164109,17143,A,2002-12-4 15:15:4</File>
+<File>[InstallDir]\帮助\例子-5-2.bmp,11181252,16059,A,2002-12-4 15:16:26</File>
+<File>[InstallDir]\帮助\例子-5-3.bmp,11197311,10390,A,2002-12-4 15:41:44</File>
+<File>[InstallDir]\帮助\例子-5-4.bmp,11207701,11342,A,2002-12-4 15:44:6</File>
+<File>[InstallDir]\帮助\例子-6-1.bmp,11219043,1121,A,2003-4-14 11:30:26</File>
+<File>[InstallDir]\帮助\例子-6-2.bmp,11220164,189360,A,2003-4-14 13:34:22</File>
+<File>[InstallDir]\帮助\例子-7-1.bmp,11409524,31478,A,2003-4-14 13:56:8</File>
+<File>[InstallDir]\帮助\例子-7-2.bmp,11441002,31691,A,2003-4-14 13:56:34</File>
+<File>[InstallDir]\帮助\例子-7-3.bmp,11472693,12077,A,2003-4-14 13:57:4</File>
+<File>[InstallDir]\帮助\例子-7-4.bmp,11484770,11368,A,2003-4-14 13:57:32</File>
+<File>[InstallDir]\帮助\例子-7-5.bmp,11496138,23770,A,2003-4-14 13:58:2</File>
+<File>[InstallDir]\帮助\例子-7-6.bmp,11519908,16047,A,2003-4-14 13:58:32</File>
+<File>[InstallDir]\帮助\例子-7-7.bmp,11535955,23701,A,2003-4-14 13:59:2</File>
+<File>[InstallDir]\帮助\例子-8-1.bmp,11559656,94336,A,2003-4-14 14:19:46</File>
+<File>[InstallDir]\帮助\例子-8-2.bmp,11653992,94571,A,2003-4-14 14:20:18</File>
+<File>[InstallDir]\帮助\例子-8-3.bmp,11748563,69925,A,2003-4-14 14:20:50</File>
+<File>[InstallDir]\帮助\例子-9-1.bmp,11818488,22367,A,2003-4-14 14:31:10</File>
+<File>[InstallDir]\帮助\例子-9-2.bmp,11840855,21482,A,2003-4-14 14:31:38</File>
+<File>[InstallDir]\帮助\例子-9-3.bmp,11862337,52093,A,2003-4-14 14:32:12</File>
+<File>[InstallDir]\帮助\例子-9-4.bmp,11914430,1177,A,2003-4-14 14:33:40</File>
+<File>[InstallDir]\帮助\例子-9-5.bmp,11915607,5382,A,2003-4-14 14:34:4</File>
+<File>[InstallDir]\帮助\卤代基.bmp,11920989,552,A,2002-12-3 17:13:34</File>
+<File>[InstallDir]\帮助\卤素.bmp,11921541,4230,A,2002-12-3 17:43:38</File>
+<File>[InstallDir]\帮助\录制动画.bmp,11925771,299,A,2003-4-14 15:42:40</File>
+<File>[InstallDir]\帮助\模板栏.bmp,11926070,12953,A,2002-12-3 17:7:10</File>
+<File>[InstallDir]\帮助\模型.bmp,11939023,444,A,2002-12-3 13:52:16</File>
+<File>[InstallDir]\帮助\模型库.bmp,11939467,28638,A,2002-12-4 16:11:44</File>
+<File>[InstallDir]\帮助\模型库-1.bmp,11968105,28425,A,2002-12-4 16:16:50</File>
+<File>[InstallDir]\帮助\羟基.bmp,11996530,1145,A,2002-12-3 17:12:22</File>
+<File>[InstallDir]\帮助\氰基.bmp,11997675,931,A,2002-12-3 17:14:30</File>
+<File>[InstallDir]\帮助\醛基.bmp,11998606,1119,A,2002-12-3 17:12:48</File>
+<File>[InstallDir]\帮助\炔基.bmp,11999725,919,A,2002-12-3 17:11:30</File>
+<File>[InstallDir]\帮助\删除.bmp,12000644,330,A,2002-12-4 15:18:24</File>
+<File>[InstallDir]\帮助\视图.bmp,12000974,435,A,2002-12-3 13:51:46</File>
+<File>[InstallDir]\帮助\碳的同素异形体.bmp,12001409,47426,A,2003-4-14 9:12:10</File>
+<File>[InstallDir]\帮助\停止录制.bmp,12048835,236,A,2003-4-14 15:52:6</File>
+<File>[InstallDir]\帮助\文件.bmp,12049071,446,A,2002-12-3 13:50:42</File>
+<File>[InstallDir]\帮助\烯基.bmp,12049517,1075,A,2002-12-3 17:10:52</File>
+<File>[InstallDir]\帮助\线宽.bmp,12050592,835,A,2002-12-3 14:19:10</File>
+<File>[InstallDir]\帮助\线宽1.bmp,12051427,2867,A,2002-12-3 14:21:6</File>
+<File>[InstallDir]\帮助\硝基.bmp,12054294,1130,A,2002-12-3 17:11:56</File>
+<File>[InstallDir]\帮助\新建.bmp,12055424,343,A,2002-12-3 18:4:56</File>
+<File>[InstallDir]\帮助\选取.bmp,12055767,321,A,2002-12-3 18:11:16</File>
+<File>[InstallDir]\帮助\主界面.bmp,12056088,115333,A,2003-4-14 11:19:40</File>
+<File>[InstallDir]\帮助\字符模型.bmp,12171421,1662,A,2002-12-3 14:15:2</File>
+<File>[InstallDir]\帮助\足球烯-比例.bmp,12173083,59366,A,2002-12-4 16:22:36</File>
+<File>[InstallDir]\帮助\足球烯-框架.bmp,12232449,18031,A,2002-12-4 16:24:18</File>
+<File>[InstallDir]\帮助\足球烯-球棍.bmp,12250480,38712,A,2002-12-4 16:20:24</File>
+<File>[InstallDir]\帮助\1.gif,12289192,122826,A,2003-4-14 15:48:8</File>
+<File>[InstallDir]\帮助\菜单及功能介绍.htm,12412018,3669,A,2003-7-4 14:30:20</File>
+<File>[InstallDir]\帮助\分子模型库.htm,12415687,1977,A,2003-7-4 14:31:38</File>
+<File>[InstallDir]\帮助\工具栏.htm,12417664,1810,A,2003-5-12 14:52:20</File>
+<File>[InstallDir]\帮助\界面介绍.htm,12419474,592,A,2003-5-12 14:51:6</File>
+<File>[InstallDir]\帮助\模板栏.htm,12420066,1365,A,2003-5-12 14:52:32</File>
+<File>[InstallDir]\帮助\index.htm,12421431,1602,A,2003-5-12 14:48:58</File>
+<File>[InstallDir]\帮助\有机分子的搭建.htm,12423033,7975,A,2003-5-12 14:46:58</File>
+<File>[InstallDir]\帮助\菜单帮助.bmp,12431008,1659,A,2002-12-3 14:25:24</File>
+<File>[InstallDir]\帮助\菜单-h.bmp,12432667,1659,A,2002-12-3 14:25:24</File>
+<File>[InstallDir]\帮助\菜单-e.bmp,12434326,21144,A,2003-4-14 10:40:54</File>
+<File>[InstallDir]\帮助\菜单-e-a.bmp,12455470,5323,A,2003-4-14 10:59:50</File>
+<File>[InstallDir]\帮助\菜单-v.bmp,12460793,3403,A,2003-5-1 14:28:6</File>
+<File>[InstallDir]\帮助\菜单-f.bmp,12464196,16058,A,2003-5-1 14:11:42</File>
+<File>[InstallDir]\帮助\足球烯-a.bmp,12480254,59366,A,2002-12-4 16:22:36</File>
+<File>[InstallDir]\帮助\MFM1992,12539620,42221,A,2003-4-14 14:42:12</File>
+<File>[InstallDir]\帮助\足球烯-b.bmp,12581841,18031,A,2002-12-4 16:24:18</File>
+<File>[InstallDir]\帮助\足球烯-c.bmp,12599872,38712,A,2002-12-4 16:20:24</File>
+<File>[InstallDir]\帮助\菜单-e-b.bmp,12638584,1453,A,2003-4-14 11:8:38</File>
+<File>[InstallDir]\帮助\菜单-m.bmp,12640037,3183,A,2002-12-3 14:7:50</File>
+<File>[InstallDir]\模型\tretamine(抗癌药),12643220,1366,A,2002-11-29 19:6:14</File>
+<File>[InstallDir]\模型\靛白（染料）,12644586,1605,A,2002-11-29 17:28:4</File>
+<File>[InstallDir]\模型\环己烷-船型,12646191,926,A,2002-11-29 11:21:20</File>
+<File>[InstallDir]\模型\尿嘧啶,12647117,1627,A,2002-11-29 11:22:52</File>
+<File>[InstallDir]\模型\偶氮异丁腈,12648744,1321,A,2002-11-29 11:26:50</File>
+<File>[InstallDir]\模型\胸腺嘧啶,12650065,1739,A,2002-11-29 11:23:36</File>
+<File>[InstallDir]\模型\NaCl,12651804,1902,A,2002-11-29 11:18:36</File>
+<File>[InstallDir]\模型\环烃,12653706,744,A,2002-11-29 11:21:50</File>
+<File>[InstallDir]\模型\Cylindrical,12654450,7562,A,2002-11-29 11:16:18</File>
+<File>[InstallDir]\模型\Dynemicin,12662012,3670,A,2002-11-29 11:16:36</File>
+<File>[InstallDir]\模型\Glucanose,12665682,23456,A,2002-11-29 11:23:56</File>
+<File>[InstallDir]\模型\18轮烯,12689138,1322,A,2002-11-29 10:47:18</File>
+<File>[InstallDir]\模型\冠醚,12690460,2065,A,2002-11-29 17:4:14</File>
+<File>[InstallDir]\模型\Taxol,12692525,4856,A,2002-11-29 11:18:52</File>
+<File>[InstallDir]\模型\乙烯酮,12697381,394,A,2002-11-29 17:5:28</File>
+<File>[InstallDir]\模型\氨基酸1,12697775,862,A,2002-11-29 11:25:38</File>
+<File>[InstallDir]\模型\吡喃糖,12698637,1208,A,2002-11-29 11:19:24</File>
+<File>[InstallDir]\模型\维生素B2,12699845,2165,A,2002-11-29 11:27:28</File>
+<File>[InstallDir]\模型\C82@Si3,12702010,3137,A,2002-11-29 11:29:0</File>
+<File>[InstallDir]\模型\环戊烷,12705147,807,A,2002-11-29 11:22:6</File>
+<File>[InstallDir]\模型\环状糊精,12705954,6480,A,2002-11-29 11:16:2</File>
+<File>[InstallDir]\模型\酚酞,12712434,1907,A,2002-11-29 17:3:36</File>
+<File>[InstallDir]\模型\环己烷-椅型,12714341,905,A,2002-11-29 11:21:36</File>
+<File>[InstallDir]\模型\蔻,12715246,1759,A,2002-11-29 11:26:22</File>
+<File>[InstallDir]\模型\分子筛,12717005,27204,A,2002-11-29 11:20:26</File>
+<File>[InstallDir]\模型\C60（足球烯）,12744209,3145,A,2002-11-29 11:28:46</File>
+<File>[InstallDir]\模型\芳香环-4,12747354,1297,A,2002-11-29 11:19:56</File>
+<File>[InstallDir]\模型\胞嘧啶,12748651,1592,A,2002-11-29 11:19:8</File>
+<File>[InstallDir]\模型\氨基酸4,12750243,1051,A,2002-11-29 11:25:10</File>
+<File>[InstallDir]\模型\氨基酸5,12751294,889,A,2002-11-29 11:25:26</File>
+<File>[InstallDir]\模型\氨基酸6,12752183,1362,A,2002-11-29 11:24:28</File>
+<File>[InstallDir]\模型\Crambin,12753545,17009,A,2002-11-29 11:29:16</File>
+<File>[InstallDir]\模型\氨基酸2,12770554,1289,A,2002-11-29 11:24:40</File>
+<File>[InstallDir]\模型\氨基酸3,12771843,809,A,2002-11-29 11:24:56</File>
+<File>[InstallDir]\模型\立方烷,12772652,867,A,2002-11-29 17:4:48</File>
+<File>[InstallDir]\模型\棱晶烷,12773519,719,A,2002-11-29 11:25:54</File>
+<File>[InstallDir]\模型\靛蓝（染料）,12774238,1594,A,2002-11-29 17:33:46</File>
+<File>[InstallDir]\模型\23苯并芘(致癌物质),12775832,1545,A,2002-11-29 11:26:8</File>
+<File>[InstallDir]\模型\青霉素VK,12777377,2308,A,2002-11-29 11:27:4</File>
+<File>[InstallDir]\模型\石墨,12779685,3671,A,2002-11-29 11:23:6</File>
+<File>[InstallDir]\模型\维生素B6,12783356,1198,A,2002-11-29 18:46:48</File>
+<File>[InstallDir]\模型\鸟嘌呤,12784554,1809,A,2002-11-29 11:22:34</File>
+<File>[InstallDir]\模型\对位红（后生染料）,12786363,1660,A,2002-11-29 17:42:4</File>
+<File>[InstallDir]\模型\1256二苯并蒽(致癌物质),12788023,1746,A,2002-11-29 11:26:34</File>
+<File>[InstallDir]\模型\环丙烷,12789769,562,A,2002-11-29 11:21:6</File>
+<File>[InstallDir]\模型\二乙烯酮,12790331,614,A,2002-11-29 17:6:2</File>
+<File>[InstallDir]\模型\18_6_k（冠醚）,12790945,2114,A,2002-11-29 11:27:42</File>
+<File>[InstallDir]\模型\尼古丁,12793059,1283,A,2002-11-29 18:53:26</File>
+<File>[InstallDir]\模型\罂粟碱,12794342,2390,A,2002-11-29 19:17:40</File>
+<File>[InstallDir]\模型\芳香环-3,12796732,1647,A,2002-11-29 11:19:42</File>
+<File>[InstallDir]\模型\金刚石,12798379,1349,A,2002-11-29 11:22:20</File>
+<File>[InstallDir]\模型\腺嘌呤,12799728,1739,A,2002-11-29 11:23:20</File>
+<File>[InstallDir]\模型\罂粟酮,12801467,2359,A,2002-11-29 19:18:2</File>
+<File>[InstallDir]\模型\重氮甲烷,12803826,429,A,2002-11-29 17:6:38</File>
+<File>[InstallDir]\模型\18环,12804255,2573,A,2002-11-29 11:27:56</File>
+<File>[InstallDir]\模型\氯化铯,12806828,663,A,2003-1-12 16:38:56</File>
+<File>[InstallDir]\模型\测试,12807491,12747,A,2003-1-13 10:51:30</File>
+<File>[InstallDir]\模型\1,3-二苯基胍,12820238,1441,A,2003-2-20 16:48:30</File>
+<File>[InstallDir]\模型\一种荧光素,12821679,1943,A,2003-2-20 16:57:32</File>
+<File>[InstallDir]\help\index.htm,12823622,1329,A,2003-9-3 9:53:6</File>
+<File>[InstallDir]\help\jianjie.htm,12824951,2475,A,2003-8-28 11:19:4</File>
+<File>[InstallDir]\help\index.bmp,12827426,50778,A,2003-8-28 10:45:14</File>
+<File>[InstallDir]\help\jiemian.htm,12878204,3778,A,2003-9-9 9:6:10</File>
+<File>[InstallDir]\help\jiemian1.bmp,12881982,128047,A,2003-9-9 9:5:30</File>
+<File>[InstallDir]\help\MFM1992,13010029,23226,A,2003-4-15 16:28:0</File>
+<File>[InstallDir]\help\gongjl.BMP,13033255,21161,A,2003-9-9 9:11:56</File>
+<File>[InstallDir]\help\dajian.htm,13054416,2582,A,2003-9-9 17:18:36</File>
+<File>[InstallDir]\help\dajian1.BMP,13056998,32599,A,2003-2-16 15:24:10</File>
+<File>[InstallDir]\help\dajian2.bmp,13089597,7179,A,2003-9-9 17:18:8</File>
+<File>[InstallDir]\help\dajian3.BMP,13096776,5038,A,2003-2-16 15:34:42</File>
+<File>[InstallDir]\help\dajian4.BMP,13101814,266,A,2003-2-16 15:38:2</File>
+<File>[InstallDir]\help\dajian5.BMP,13102080,384,A,2003-2-16 15:38:36</File>
+<File>[InstallDir]\help\dajian6.BMP,13102464,42589,A,2003-2-17 9:53:20</File>
+<File>[InstallDir]\help\dajian7.BMP,13145053,1615,A,2003-2-17 11:10:30</File>
+<File>[InstallDir]\help\tianjyp.htm,13146668,1975,A,2003-9-9 17:33:4</File>
+<File>[InstallDir]\help\tianjyp1.BMP,13148643,72090,A,2003-2-17 13:46:50</File>
+<File>[InstallDir]\help\tianjyp2.BMP,13220733,74949,A,2003-9-9 17:32:56</File>
+<File>[InstallDir]\help\fanying.htm,13295682,3365,A,2003-9-10 9:32:54</File>
+<File>[InstallDir]\help\fany1.BMP,13299047,75168,A,2003-9-10 9:30:28</File>
+<File>[InstallDir]\help\fany2.BMP,13374215,77294,A,2003-4-14 10:26:44</File>
+<File>[InstallDir]\help\fany3.BMP,13451509,30144,A,2003-4-11 13:43:26</File>
+<File>[InstallDir]\help\yongysl.htm,13481653,8225,A,2003-5-12 15:1:54</File>
+<File>[InstallDir]\help\yingy1.BMP,13489878,24841,A,2003-2-17 15:12:2</File>
+<File>[InstallDir]\help\yingy2.BMP,13514719,48771,A,2003-4-14 15:20:8</File>
+<File>[InstallDir]\help\yingy3.BMP,13563490,4719,A,2003-2-17 18:25:0</File>
+<File>[InstallDir]\help\yingy4.BMP,13568209,10052,A,2003-4-14 16:12:28</File>
+<File>[InstallDir]\help\yingy5.BMP,13578261,75234,A,2003-4-14 16:48:2</File>
+<File>[InstallDir]\help\yingy6.BMP,13653495,295,A,2003-2-17 19:7:18</File>
+<File>[InstallDir]\help\yingy7.BMP,13653790,43075,A,2003-4-14 17:38:28</File>
+<File>[InstallDir]\help\yingy8.BMP,13696865,310,A,2003-2-17 19:25:10</File>
+<File>[InstallDir]\help\yingy10.BMP,13697175,124875,A,2003-4-14 17:47:34</File>
+<File>[InstallDir]\help\yingy9.BMP,13822050,60352,A,2003-4-14 17:39:28</File>
+<File>[InstallDir]\help\yingy11.BMP,13882402,75097,A,2003-2-17 19:57:26</File>
+<File>[InstallDir]\help\yingy12.BMP,13957499,9000,A,2003-2-17 20:4:38</File>
+<File>[InstallDir]\help\fabu.htm,13966499,2734,A,2003-5-12 15:2:30</File>
+<File>[InstallDir]\help\fabu1.BMP,13969233,15853,A,2003-2-24 14:11:44</File>
+<File>[InstallDir]\help\fabu2.BMP,13985086,932,A,2003-2-24 14:42:42</File>
+<File>[InstallDir]\help\fabu3.BMP,13986018,55467,A,2003-2-24 14:49:34</File>
+<File>[InstallDir]\help\fabu4.BMP,14041485,108831,A,2003-2-24 15:9:10</File>
+<File>[InstallDir]\help\aboutnew.htm,14150316,1502,A,2003-5-12 15:2:36</File>
+<File>[InstallDir]\help\fany4.BMP,14151818,17828,A,2003-4-14 10:49:28</File>
+<File>[InstallDir]\help\tingzhi.BMP,14169646,261,A,2003-4-14 16:50:42</File>
+<File>[InstallDir]\help\yunxing.BMP,14169907,274,A,2003-2-17 14:49:6</File>
+<File>[InstallDir]\help\yingy13.BMP,14170181,39056,A,2003-4-14 19:33:38</File>
+<File>[InstallDir]\help\yingy14.BMP,14209237,48494,A,2003-4-15 8:41:0</File>
+<File>[InstallDir]\help\yingy15.BMP,14257731,17717,A,2003-4-15 9:7:26</File>
+<File>[InstallDir]\help\yingy16.BMP,14275448,76650,A,2003-4-15 9:11:0</File>
+<File>[InstallDir]\help\yingy17.BMP,14352098,40747,A,2003-4-15 9:28:54</File>
+<File>[InstallDir]\help\yingy18.BMP,14392845,12889,A,2003-4-15 9:48:22</File>
+<File>[InstallDir]\help\yingy19.BMP,14405734,60390,A,2003-4-15 9:59:30</File>
+<File>[InstallDir]\help\yingy20.BMP,14466124,96809,A,2003-4-15 10:5:28</File>
+<File>[InstallDir]\help\yingy21.BMP,14562933,42956,A,2003-4-15 10:8:18</File>
+<File>[InstallDir]\help\yingy22.BMP,14605889,59538,A,2003-4-15 10:27:30</File>
+<File>[InstallDir]\help\yp_edit.htm,14665427,2566,A,2003-5-12 15:2:10</File>
+<File>[InstallDir]\help\fcs_edit.htm,14667993,2694,A,2003-5-12 15:2:20</File>
+<File>[InstallDir]\help\ypedit1.BMP,14670687,87292,A,2003-4-15 13:50:16</File>
+<File>[InstallDir]\help\ypedit2.BMP,14757979,72706,A,2003-4-15 15:16:42</File>
+<File>[InstallDir]\help\fcsedit1.BMP,14830685,108228,A,2003-4-15 16:17:42</File>
+<File>[InstallDir]\help\new30.htm,14938913,2136,A,2003-9-3 10:0:48</File>
+<File>[InstallDir]\help\jiemian1.jpg,14941049,46249,A,2003-9-9 9:5:18</File>
+<File>[InstallDir]\res\tiejt1.BMP,14987298,1646,A,2002-9-9 14:2:26</File>
+<File>[InstallDir]\res\_blg.BMP,14988944,679,A,2003-7-10 13:40:0</File>
+<File>[InstallDir]\res\_cjld.BMP,14989623,1013,A,2003-7-10 17:27:16</File>
+<File>[InstallDir]\res\_d_jqp.BMP,14990636,725,A,2003-7-10 10:26:38</File>
+<File>[InstallDir]\res\_dblg.BMP,14991361,696,A,2003-7-14 8:48:2</File>
+<File>[InstallDir]\res\_dgkp.BMP,14992057,571,A,2003-7-10 15:11:20</File>
+<File>[InstallDir]\res\_djqp.BMP,14992628,725,A,2003-7-10 10:18:24</File>
+<File>[InstallDir]\res\_dpdsp100.BMP,14993353,2374,A,2003-7-10 9:57:34</File>
+<File>[InstallDir]\res\_dsb100.bmp,14995727,740,A,2003-7-8 15:14:16</File>
+<File>[InstallDir]\res\_dsb200.bmp,14996467,1147,A,2003-7-8 15:17:6</File>
+<File>[InstallDir]\res\_dsb500.bmp,14997614,2253,A,2003-7-8 15:16:16</File>
+<File>[InstallDir]\res\_dsg.BMP,14999867,604,A,2003-7-10 13:47:6</File>
+<File>[InstallDir]\res\_dxkp.BMP,15000471,600,A,2003-7-10 15:41:18</File>
+<File>[InstallDir]\res\_dydsp100.BMP,15001071,2147,A,2003-7-10 9:29:48</File>
+<File>[InstallDir]\res\_dzfm_50.BMP,15003218,313,A,2003-8-4 10:34:34</File>
+<File>[InstallDir]\res\_dzxp100.BMP,15003531,1446,A,2003-7-8 18:41:26</File>
+<File>[InstallDir]\res\_dzxp250.BMP,15004977,2395,A,2003-7-10 8:48:48</File>
+<File>[InstallDir]\res\_fyld.BMP,15007372,1184,A,2003-7-10 17:17:32</File>
+<File>[InstallDir]\res\_gkp.BMP,15008556,588,A,2003-7-10 15:10:28</File>
+<File>[InstallDir]\res\_jqp.BMP,15009144,727,A,2003-7-8 21:7:44</File>
+<File>[InstallDir]\res\_jsddg.BMP,15009871,1198,A,2003-7-10 17:58:46</File>
+<File>[InstallDir]\res\_jtdg_1.BMP,15011069,408,A,2002-11-25 18:37:56</File>
+<File>[InstallDir]\res\_jtdg_2.BMP,15011477,600,A,2003-7-8 16:24:22</File>
+<File>[InstallDir]\res\_ld.BMP,15012077,804,A,2003-8-4 16:1:44</File>
+<File>[InstallDir]\res\_pdsp100.BMP,15012881,1327,A,2003-7-10 9:42:50</File>
+<File>[InstallDir]\res\_qg.BMP,15014208,861,A,2002-1-8 15:31:46</File>
+<File>[InstallDir]\res\_sb100.bmp,15015069,740,A,2003-7-8 15:15:58</File>
+<File>[InstallDir]\res\_sb200.bmp,15015809,1150,A,2003-7-8 15:15:32</File>
+<File>[InstallDir]\res\_sb500.bmp,15016959,2254,A,2003-7-8 15:17:48</File>
+<File>[InstallDir]\res\_sg0.bmp,15019213,624,A,2003-7-10 10:32:44</File>
+<File>[InstallDir]\res\_sg45.bmp,15019837,1898,A,2003-7-10 13:27:6</File>
+<File>[InstallDir]\res\_sg97.bmp,15021735,785,A,2003-7-10 13:33:38</File>
+<File>[InstallDir]\res\_shuic.BMP,15022520,1395,A,2003-7-10 16:43:48</File>
+<File>[InstallDir]\res\_ssddg.BMP,15023915,1787,A,2003-7-10 17:56:36</File>
+<File>[InstallDir]\res\_uxg.BMP,15025702,1385,A,2003-7-10 16:59:52</File>
+<File>[InstallDir]\res\_uxg2.BMP,15027087,3511,A,2003-2-12 20:40:4</File>
+<File>[InstallDir]\res\_xkp.BMP,15030598,620,A,2003-7-10 15:39:56</File>
+<File>[InstallDir]\res\_ydsp100.BMP,15031218,1319,A,2003-7-10 9:18:38</File>
+<File>[InstallDir]\res\_zfm_50.BMP,15032537,305,A,2003-8-4 10:16:10</File>
+<File>[InstallDir]\res\_zxp100.BMP,15032842,869,A,2003-7-8 16:20:10</File>
+<File>[InstallDir]\res\_zxp250.BMP,15033711,1427,A,2003-7-8 19:23:34</File>
+<File>[InstallDir]\res\allfcs.txt,15035138,13382,A,2003-9-4 11:0:44</File>
+<File>[InstallDir]\res\allyp.txt,15048520,10094,A,2003-9-1 10:50:8</File>
+<File>[InstallDir]\res\blg.BMP,15058614,734,A,2003-7-10 13:39:58</File>
+<File>[InstallDir]\res\bolb.bmp,15059348,444,A,2003-7-30 15:31:46</File>
+<File>[InstallDir]\res\bolb_x.bmp,15059792,2680,A,2003-7-30 14:54:34</File>
+<File>[InstallDir]\res\cjld.BMP,15062472,1704,A,2003-7-10 17:29:40</File>
+<File>[InstallDir]\res\d_jqp.BMP,15064176,1013,A,2003-7-10 10:26:30</File>
+<File>[InstallDir]\res\data.obj,15065189,563514,A,2004-10-26 11:24:14</File>
+<File>[InstallDir]\res\dblg.BMP,15628703,738,A,2003-7-14 8:48:12</File>
+<File>[InstallDir]\res\dgkp.BMP,15629441,1194,A,2003-7-10 14:25:38</File>
+<File>[InstallDir]\res\dgkp_z.BMP,15630635,1220,A,2003-7-10 15:50:32</File>
+<File>[InstallDir]\res\djqp.BMP,15631855,1013,A,2003-7-10 10:18:12</File>
+<File>[InstallDir]\res\dpdsp100.BMP,15632868,4209,A,2003-7-10 9:54:0</File>
+<File>[InstallDir]\res\dsb100.bmp,15637077,974,A,2003-7-8 14:21:6</File>
+<File>[InstallDir]\res\dsb200.bmp,15638051,1411,A,2003-7-8 13:30:30</File>
+<File>[InstallDir]\res\dsb500.bmp,15639462,2612,A,2003-7-8 15:0:18</File>
+<File>[InstallDir]\res\dsg.BMP,15642074,739,A,2003-7-10 13:47:8</File>
+<File>[InstallDir]\res\dxkp.BMP,15642813,1262,A,2003-7-10 16:18:54</File>
+<File>[InstallDir]\res\dxkp_z.BMP,15644075,1331,A,2003-7-10 15:50:38</File>
+<File>[InstallDir]\res\dydsp100.BMP,15645406,4569,A,2003-7-10 9:24:12</File>
+<File>[InstallDir]\res\dzfm_50.BMP,15649975,940,A,2003-8-4 10:34:14</File>
+<File>[InstallDir]\res\dzxp100.BMP,15650915,3126,A,2003-7-8 20:16:30</File>
+<File>[InstallDir]\res\dzxp250.BMP,15654041,4835,A,2003-7-8 20:6:10</File>
+<File>[InstallDir]\res\fyld.BMP,15658876,2064,A,2003-7-10 17:9:56</File>
+<File>[InstallDir]\res\gkp.BMP,15660940,1081,A,2003-7-10 15:5:14</File>
+<File>[InstallDir]\res\gkp_z.BMP,15662021,1076,A,2003-7-10 15:50:34</File>
+<File>[InstallDir]\res\guti.bmp,15663097,7076,A,2003-8-28 9:39:6</File>
+<File>[InstallDir]\res\jjd.BMP,15670173,2593,A,2003-7-10 13:55:44</File>
+<File>[InstallDir]\res\jjd_g.BMP,15672766,282,A,2003-7-10 13:59:50</File>
+<File>[InstallDir]\res\jqp.BMP,15673048,1023,A,2003-7-8 20:57:18</File>
+<File>[InstallDir]\res\jqp_old.BMP,15674071,866,A,2002-12-26 16:46:52</File>
+<File>[InstallDir]\res\jsddg.BMP,15674937,1255,A,2003-7-10 17:40:38</File>
+<File>[InstallDir]\res\jtdg_1.BMP,15676192,411,A,2003-2-28 10:2:28</File>
+<File>[InstallDir]\res\jtdg_2.BMP,15676603,681,A,2003-7-11 10:36:8</File>
+<File>[InstallDir]\res\ld.BMP,15677284,1692,A,2003-7-10 16:39:36</File>
+<File>[InstallDir]\res\ld_lz.BMP,15678976,1773,A,2003-8-4 17:0:54</File>
+<File>[InstallDir]\res\muwen.jpg,15680749,54397,A,2003-9-4 9:16:26</File>
+<File>[InstallDir]\res\pdsp100.BMP,15735146,2600,A,2003-7-10 9:40:8</File>
+<File>[InstallDir]\res\pic.obj,15737746,256121,A,2003-9-4 9:28:6</File>
+<File>[InstallDir]\res\qg.BMP,15993867,1036,A,2003-2-28 9:38:50</File>
+<File>[InstallDir]\res\sb100.bmp,15994903,965,A,2003-7-8 14:20:4</File>
+<File>[InstallDir]\res\sb200.bmp,15995868,1397,A,2003-7-8 13:29:56</File>
+<File>[InstallDir]\res\sb500.bmp,15997265,2582,A,2003-7-8 15:0:34</File>
+<File>[InstallDir]\res\sg0.bmp,15999847,782,A,2003-2-28 10:17:16</File>
+<File>[InstallDir]\res\sg45.bmp,16000629,2200,A,2003-2-28 10:40:22</File>
+<File>[InstallDir]\res\sg97.bmp,16002829,2002,A,2003-2-28 10:34:18</File>
+<File>[InstallDir]\res\shimm.BMP,16004831,123,A,2002-10-17 14:43:24</File>
+<File>[InstallDir]\res\shimm1.BMP,16004954,109,A,2002-10-21 8:55:34</File>
+<File>[InstallDir]\res\shuic.BMP,16005063,1435,A,2003-2-28 10:48:14</File>
+<File>[InstallDir]\res\ssddg.BMP,16006498,1853,A,2003-7-10 17:40:36</File>
+<File>[InstallDir]\res\tiej_1.BMP,16008351,217,A,2003-2-20 11:32:44</File>
+<File>[InstallDir]\res\tiej0.BMP,16008568,528,A,2002-10-10 14:9:40</File>
+<File>[InstallDir]\res\tiej1.BMP,16009096,168,A,2002-10-23 15:36:46</File>
+<File>[InstallDir]\res\tiej1_0.BMP,16009264,165,A,2002-10-21 13:42:18</File>
+<File>[InstallDir]\res\tiej1_45.BMP,16009429,424,A,2002-10-21 13:45:36</File>
+<File>[InstallDir]\res\tiej1_90.BMP,16009853,168,A,2002-10-21 13:42:38</File>
+<File>[InstallDir]\res\tiej1_97.BMP,16010021,616,A,2002-10-21 13:45:56</File>
+<File>[InstallDir]\res\tiejt0.BMP,16010637,2520,A,2002-9-9 14:2:10</File>
+<File>[InstallDir]\res\tieq0.BMP,16013157,526,A,2002-10-10 14:9:16</File>
+<File>[InstallDir]\res\tieq1.BMP,16013683,208,A,2002-10-21 10:33:16</File>
+<File>[InstallDir]\res\uxg.BMP,16013891,3165,A,2003-7-10 17:0:32</File>
+<File>[InstallDir]\res\wendj.BMP,16017056,662,A,2003-1-7 13:46:40</File>
+<File>[InstallDir]\res\xkp.BMP,16017718,1196,A,2003-7-10 16:17:44</File>
+<File>[InstallDir]\res\xkp_z.BMP,16018914,1187,A,2003-7-10 15:50:36</File>
+<File>[InstallDir]\res\ydsp100.BMP,16020101,3107,A,2003-7-10 9:11:34</File>
+<File>[InstallDir]\res\zfm_50.BMP,16023208,1041,A,2003-8-4 10:4:24</File>
+<File>[InstallDir]\res\zxp100.BMP,16024249,1936,A,2003-7-8 16:20:8</File>
+<File>[InstallDir]\res\zxp250.BMP,16026185,2640,A,2003-7-8 19:10:54</File>
+<File>[InstallDir]\res\_asb100.bmp,16028825,754,A,2003-9-16 10:55:6</File>
+<File>[InstallDir]\res\_asb200.bmp,16029579,1163,A,2003-9-16 10:55:50</File>
+<File>[InstallDir]\res\_asb500.bmp,16030742,2293,A,2003-9-16 10:56:30</File>
+<File>[InstallDir]\res\white\jjd_g.BMP,16033035,255,A,2002-9-4 16:23:0</File>
+<File>[InstallDir]\res\white\shimm.BMP,16033290,123,A,2002-10-17 14:43:24</File>
+<File>[InstallDir]\res\white\shimm1.BMP,16033413,109,A,2002-10-21 8:55:34</File>
+<File>[InstallDir]\res\white\tiej1_0.BMP,16033522,165,A,2002-10-21 13:42:18</File>
+<File>[InstallDir]\res\white\tiej1.BMP,16033687,168,A,2002-10-23 15:36:46</File>
+<File>[InstallDir]\res\white\tiej1_90.BMP,16033855,168,A,2002-10-21 13:42:38</File>
+<File>[InstallDir]\res\white\tiej1_97.BMP,16034023,616,A,2002-10-21 13:45:56</File>
+<File>[InstallDir]\res\white\tieq1.BMP,16034639,208,A,2002-10-21 10:33:16</File>
+<File>[InstallDir]\res\white\tiej_1.BMP,16034847,217,A,2003-2-20 11:32:44</File>
+<File>[InstallDir]\res\white\_jtdg_1.BMP,16035064,408,A,2002-11-25 18:37:56</File>
+<File>[InstallDir]\res\white\jtdg_1.BMP,16035472,408,A,2002-11-25 16:48:44</File>
+<File>[InstallDir]\res\white\tiej0.BMP,16035880,528,A,2002-10-10 14:9:40</File>
+<File>[InstallDir]\res\white\tiej1_45.BMP,16036408,424,A,2002-10-21 13:45:36</File>
+<File>[InstallDir]\res\white\tieq0.BMP,16036832,526,A,2002-10-10 14:9:16</File>
+<File>[InstallDir]\res\white\_jtdg_2.BMP,16037358,600,A,2003-7-8 16:24:22</File>
+<File>[InstallDir]\res\white\jtdg_2.BMP,16037958,704,A,2002-11-27 19:49:8</File>
+<File>[InstallDir]\res\white\_dgkp.BMP,16038662,571,A,2003-7-10 15:11:20</File>
+<File>[InstallDir]\res\white\dgkp.BMP,16039233,1088,A,2003-1-9 9:6:26</File>
+<File>[InstallDir]\res\white\dgkp_z.BMP,16040321,1098,A,2003-1-9 9:7:36</File>
+<File>[InstallDir]\res\white\_gkp.BMP,16041419,588,A,2003-7-10 15:10:28</File>
+<File>[InstallDir]\res\white\gkp.BMP,16042007,981,A,2002-12-23 15:32:14</File>
+<File>[InstallDir]\res\white\gkp_z.BMP,16042988,989,A,2002-12-23 15:32:34</File>
+<File>[InstallDir]\res\white\_dxkp.BMP,16043977,600,A,2003-7-10 15:41:18</File>
+<File>[InstallDir]\res\white\dxkp.BMP,16044577,1154,A,2003-1-9 9:17:54</File>
+<File>[InstallDir]\res\white\dxkp_z.BMP,16045731,1173,A,2003-1-9 9:18:56</File>
+<File>[InstallDir]\res\white\_dsg.BMP,16046904,604,A,2003-7-10 13:47:6</File>
+<File>[InstallDir]\res\white\dsg.BMP,16047508,737,A,2003-1-8 20:51:52</File>
+<File>[InstallDir]\res\white\_xkp.BMP,16048245,620,A,2003-7-10 15:39:56</File>
+<File>[InstallDir]\res\white\xkp.BMP,16048865,1093,A,2002-12-23 15:33:12</File>
+<File>[InstallDir]\res\white\xkp_z.BMP,16049958,1103,A,2002-12-23 15:33:0</File>
+<File>[InstallDir]\res\white\wendj.BMP,16051061,662,A,2003-1-7 13:46:40</File>
+<File>[InstallDir]\res\white\_sg0.bmp,16051723,624,A,2003-7-10 10:32:44</File>
+<File>[InstallDir]\res\white\sg0.bmp,16052347,762,A,2002-10-18 15:49:26</File>
+<File>[InstallDir]\res\white\_blg.BMP,16053109,679,A,2003-7-10 13:40:0</File>
+<File>[InstallDir]\res\white\blg.BMP,16053788,679,A,2002-9-6 9:29:46</File>
+<File>[InstallDir]\res\white\_d_jqp.BMP,16054467,725,A,2003-7-10 10:26:38</File>
+<File>[InstallDir]\res\white\_jqp.BMP,16055192,727,A,2003-7-8 21:7:44</File>
+<File>[InstallDir]\res\white\_qg.BMP,16055919,861,A,2002-1-8 15:31:46</File>
+<File>[InstallDir]\res\white\d_jqp.BMP,16056780,855,A,2002-12-24 16:10:36</File>
+<File>[InstallDir]\res\white\jqp.BMP,16057635,866,A,2002-12-26 16:46:52</File>
+<File>[InstallDir]\res\white\qg.BMP,16058501,1071,A,2002-10-30 14:4:48</File>
+<File>[InstallDir]\res\white\_dsb100.bmp,16059572,740,A,2003-7-8 15:14:16</File>
+<File>[InstallDir]\res\white\dsb100.bmp,16060312,862,A,2003-1-8 15:35:20</File>
+<File>[InstallDir]\res\white\_sb100.bmp,16061174,740,A,2003-7-8 15:15:58</File>
+<File>[InstallDir]\res\white\sb100.bmp,16061914,854,A,2002-4-16 15:8:46</File>
+<File>[InstallDir]\res\white\_sg97.bmp,16062768,785,A,2003-7-10 13:33:38</File>
+<File>[InstallDir]\res\white\sg97.bmp,16063553,1835,A,2002-10-18 15:52:28</File>
+<File>[InstallDir]\res\white\jjd.BMP,16065388,1838,A,2002-10-16 16:27:12</File>
+<File>[InstallDir]\res\white\_ld.BMP,16067226,809,A,2003-7-10 16:34:56</File>
+<File>[InstallDir]\res\white\ld.BMP,16068035,1382,A,2002-9-3 9:4:8</File>
+<File>[InstallDir]\res\white\_zxp100.BMP,16069417,869,A,2003-7-8 16:20:10</File>
+<File>[InstallDir]\res\white\zxp100.BMP,16070286,1175,A,2002-5-9 11:38:26</File>
+<File>[InstallDir]\res\white\_cjld.BMP,16071461,1013,A,2003-7-10 17:27:16</File>
+<File>[InstallDir]\res\white\cjld.BMP,16072474,1342,A,2002-8-29 16:55:42</File>
+<File>[InstallDir]\res\white\_sb200.bmp,16073816,1150,A,2003-7-8 15:15:32</File>
+<File>[InstallDir]\res\white\sb200.bmp,16074966,1255,A,2002-12-23 14:55:30</File>
+<File>[InstallDir]\res\white\_dblg.BMP,16076221,696,A,2003-7-14 8:48:2</File>
+<File>[InstallDir]\res\white\_dsb200.bmp,16076917,1147,A,2003-7-8 15:17:6</File>
+<File>[InstallDir]\res\white\dsb200.bmp,16078064,1265,A,2003-1-7 19:20:54</File>
+<File>[InstallDir]\res\white\_fyld.BMP,16079329,1184,A,2003-7-10 17:17:32</File>
+<File>[InstallDir]\res\white\fyld.BMP,16080513,1579,A,2002-8-29 17:14:28</File>
+<File>[InstallDir]\res\white\_jsddg.BMP,16082092,1198,A,2003-7-10 17:58:46</File>
+<File>[InstallDir]\res\white\jsddg.BMP,16083290,1224,A,2002-12-10 14:30:40</File>
+<File>[InstallDir]\res\white\_pdsp100.BMP,16084514,1327,A,2003-7-10 9:42:50</File>
+<File>[InstallDir]\res\white\pdsp100.BMP,16085841,1900,A,2002-1-9 10:20:50</File>
+<File>[InstallDir]\res\white\_ydsp100.BMP,16087741,1319,A,2003-7-10 9:18:38</File>
+<File>[InstallDir]\res\white\ydsp100.BMP,16089060,2477,A,2002-10-10 11:4:12</File>
+<File>[InstallDir]\res\white\_uxg.BMP,16091537,1385,A,2003-7-10 16:59:52</File>
+<File>[InstallDir]\res\white\_uxg2.BMP,16092922,3511,A,2003-2-12 20:40:4</File>
+<File>[InstallDir]\res\white\uxg.BMP,16096433,3114,A,2003-6-26 13:45:36</File>
+<File>[InstallDir]\res\white\uxg1.BMP,16099547,1801,A,2002-1-8 15:20:56</File>
+<File>[InstallDir]\res\white\_zxp250.BMP,16101348,1427,A,2003-7-8 19:23:34</File>
+<File>[InstallDir]\res\white\zxp250.BMP,16102775,1786,A,2002-5-9 11:38:40</File>
+<File>[InstallDir]\res\white\tiejt1.BMP,16104561,1646,A,2002-9-9 14:2:26</File>
+<File>[InstallDir]\res\white\_dzxp100.BMP,16106207,1446,A,2003-7-8 18:41:26</File>
+<File>[InstallDir]\res\white\dzxp100.BMP,16107653,2632,A,2003-7-8 18:22:54</File>
+<File>[InstallDir]\res\white\_shuic.BMP,16110285,1395,A,2003-7-10 16:43:48</File>
+<File>[InstallDir]\res\white\shuic.BMP,16111680,1435,A,2003-2-28 10:48:14</File>
+<File>[InstallDir]\res\white\_ssddg.BMP,16113115,1787,A,2003-7-10 17:56:36</File>
+<File>[InstallDir]\res\white\ssddg.BMP,16114902,1882,A,2002-12-10 14:27:58</File>
+<File>[InstallDir]\res\white\_sg45.bmp,16116784,1898,A,2003-7-10 13:27:6</File>
+<File>[InstallDir]\res\white\sg45.bmp,16118682,2162,A,2002-10-18 15:51:12</File>
+<File>[InstallDir]\res\white\_dpdsp100.BMP,16120844,2374,A,2003-7-10 9:57:34</File>
+<File>[InstallDir]\res\white\dpdsp100.BMP,16123218,3108,A,2003-1-8 20:35:4</File>
+<File>[InstallDir]\res\white\_dydsp100.BMP,16126326,2147,A,2003-7-10 9:29:48</File>
+<File>[InstallDir]\res\white\dydsp100.BMP,16128473,3500,A,2003-1-8 20:9:36</File>
+<File>[InstallDir]\res\white\_dsb500.bmp,16131973,2253,A,2003-7-8 15:16:16</File>
+<File>[InstallDir]\res\white\dsb500.bmp,16134226,2355,A,2003-1-8 15:36:50</File>
+<File>[InstallDir]\res\white\_sb500.bmp,16136581,2254,A,2003-7-8 15:17:48</File>
+<File>[InstallDir]\res\white\sb500.bmp,16138835,2364,A,2002-4-16 15:10:18</File>
+<File>[InstallDir]\res\white\tiejt0.BMP,16141199,2520,A,2002-9-9 14:2:10</File>
+<File>[InstallDir]\res\white\_dzxp250.BMP,16143719,2395,A,2003-7-10 8:48:48</File>
+<File>[InstallDir]\res\white\dzxp250.BMP,16146114,4130,A,2003-1-8 18:48:2</File>
+<File>[InstallDir]\res\white\_djqp.BMP,16150244,725,A,2003-7-10 10:18:24</File>
+<File>[InstallDir]\res\white\pic.obj,16150969,193476,A,2003-9-4 9:34:46</File>
+</SubTask>
+</Task>
+</InstallProject>

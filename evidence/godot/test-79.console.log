@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":134,"failures":[],"native_cases":6,"native_stack_accesses":10}
+PASS source gas physical-stack ABI reads/stores, stale values, lazy access and exact native transfer results

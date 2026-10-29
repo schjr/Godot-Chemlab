@@ -1,0 +1,46 @@
+{
+  "reactions": 599,
+  "reagents": 499,
+  "cem_files": 28,
+  "cl3_files": 46,
+  "reaction_types": {
+    "普通": 461,
+    "离子": 136,
+    "扩展": 2
+  },
+  "equilibrium_modes": {
+    "单向": 575,
+    "可逆": 24
+  },
+  "reagent_categories_inferred": {
+    "固体": 241,
+    "溶解": 155,
+    "离子": 44,
+    "气体": 39,
+    "液体": 17,
+    "指示剂 ": 1,
+    "指示剂": 2
+  },
+  "help_html_files": 20,
+  "ets": {
+    "source": "artifacts/ChemLab/DEFAULT.ETS",
+    "byte_count": 500294,
+    "sha256": "709087bc4b436c5ad2c263fd6aa76c4b40a88fa002464ee560240c879d77c686",
+    "encoding": null,
+    "prefix_dwords_little_endian": [
+      28,
+      34,
+      41,
+      15,
+      16,
+      10,
+      10
+    ],
+    "prefix_field_meanings": "Unresolved",
+    "bmp_offset": 28,
+    "bmp_length": 500266,
+    "bmp_width": 610,
+    "bmp_height": 410,
+    "bmp_bits_per_pixel": 16
+  }
+}

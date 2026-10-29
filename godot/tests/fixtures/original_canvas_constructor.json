@@ -1,0 +1,3969 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "Actual normal constructor, InitInstance and TThreadList registration/list growth; allocation and lock backing explicitly hosted; no complete application graphics/runtime claim",
+  "cases": [
+    {
+      "name": "poisoned allocation normal TCanvas",
+      "poison": 165,
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit PE font descriptor input, diagnostic poisoned allocator and declared lock outcomes; constructor instructions execute; not live VCL allocation state",
+        "globals": {
+          "0x59a99c": 286326818
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 5720872,
+            "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "operation": "registries",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas_lists",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100000000000000000000000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33620240,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100600201020100000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000100000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000001000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000100000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "10010102a5a5a5a5a5a5a5a5a5a5a5a5"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        }
+      ]
+    },
+    {
+      "name": "zero allocation normal TCanvas",
+      "poison": 0,
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit PE font descriptor input, diagnostic poisoned allocator and declared lock outcomes; constructor instructions execute; not live VCL allocation state",
+        "globals": {
+          "0x59a99c": 286326818
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 5720872,
+            "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "operation": "registries",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas_lists",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100000000000000000000000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33620240,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100600201020100000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000100000000000000be9d000000000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000001000000000000000800000000000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000100000000000000639c000000000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "10010102000000000000000000000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        }
+      ]
+    },
+    {
+      "name": "caller instance no allocation or payload zeroing",
+      "poison": 165,
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit PE font descriptor input, diagnostic poisoned allocator and declared lock outcomes; constructor instructions execute; not live VCL allocation state",
+        "globals": {
+          "0x59a99c": 286326818
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 5720872,
+            "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+          },
+          {
+            "address": 33574912,
+            "hex": "e4254e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "operation": "registries",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33574912,
+                "hex": "e4254e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas_lists",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33574912,
+                "hex": "e4254e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100000000000000000000000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 33574912,
+          "allocation_flag": 0,
+          "canvas": 33574912,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33574912,
+                "hex": "e4254e00a5a5a5a500a5a5a51001010280010102c0010102a5a5a5a5a5a5a5a52000cc00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3a5a5a5a5a5a5a5a5"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0040010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e00e0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100000201020100000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "a4224e0000000000cc4d4e00005000024001010238500002080000802200111100000000"
+              },
+              {
+                "address": 33620288,
+                "hex": "000000000100000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620352,
+                "hex": "20244e0000000000ec4d4e0000500002a00101023850000204000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "0000000001000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620416,
+                "hex": "20254e00000000000c4e4e0000500002e001010238500002"
+              },
+              {
+                "address": 33620448,
+                "hex": "000000000100000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "00500002a5a5a5a5a5a5a5a5a5a5a5a5"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33574968
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        }
+      ]
+    },
+    {
+      "name": "six Canvases shared records and native list growth",
+      "poison": 165,
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit PE font descriptor input, diagnostic poisoned allocator and declared lock outcomes; constructor instructions execute; not live VCL allocation state",
+        "globals": {
+          "0x59a99c": 286326818
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 5720872,
+            "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "operation": "registries",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas_lists",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100000000000000000000000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33620240,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100600201020100000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000100000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000001000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000100000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "10010102a5a5a5a5a5a5a5a5a5a5a5a5"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33620592,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100600201020200000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000200000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000002000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000200000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "1001010270020102a5a5a5a5a5a5a5a5"
+              },
+              {
+                "address": 33620592,
+                "hex": "e4254e000000000000000000d0020102000301022003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620688,
+                "hex": "a4224e0000000000cc4d4e0070020102a0010102a8020102080000802200111100000000"
+              },
+              {
+                "address": 33620736,
+                "hex": "20244e0000000000ec4d4e007002010200020102a802010204000000"
+              },
+              {
+                "address": 33620768,
+                "hex": "20254e00000000000c4e4e007002010240020102a8020102"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620648
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33620800,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100600201020300000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000300000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000003000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000300000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "100101027002010240030102a5a5a5a5"
+              },
+              {
+                "address": 33620592,
+                "hex": "e4254e000000000000000000d0020102000301022003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620688,
+                "hex": "a4224e0000000000cc4d4e0070020102a0010102a8020102080000802200111100000000"
+              },
+              {
+                "address": 33620736,
+                "hex": "20244e0000000000ec4d4e007002010200020102a802010204000000"
+              },
+              {
+                "address": 33620768,
+                "hex": "20254e00000000000c4e4e007002010240020102a8020102"
+              },
+              {
+                "address": 33620800,
+                "hex": "e4254e000000000000000000a0030102d0030102f003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620896,
+                "hex": "a4224e0000000000cc4d4e0040030102a001010278030102080000802200111100000000"
+              },
+              {
+                "address": 33620944,
+                "hex": "20244e0000000000ec4d4e0040030102000201027803010204000000"
+              },
+              {
+                "address": 33620976,
+                "hex": "20254e00000000000c4e4e00400301024002010278030102"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620648
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620856
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33621008,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100600201020400000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000400000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000004000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000400000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "10010102700201024003010210040102"
+              },
+              {
+                "address": 33620592,
+                "hex": "e4254e000000000000000000d0020102000301022003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620688,
+                "hex": "a4224e0000000000cc4d4e0070020102a0010102a8020102080000802200111100000000"
+              },
+              {
+                "address": 33620736,
+                "hex": "20244e0000000000ec4d4e007002010200020102a802010204000000"
+              },
+              {
+                "address": 33620768,
+                "hex": "20254e00000000000c4e4e007002010240020102a8020102"
+              },
+              {
+                "address": 33620800,
+                "hex": "e4254e000000000000000000a0030102d0030102f003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620896,
+                "hex": "a4224e0000000000cc4d4e0040030102a001010278030102080000802200111100000000"
+              },
+              {
+                "address": 33620944,
+                "hex": "20244e0000000000ec4d4e0040030102000201027803010204000000"
+              },
+              {
+                "address": 33620976,
+                "hex": "20254e00000000000c4e4e00400301024002010278030102"
+              },
+              {
+                "address": 33621008,
+                "hex": "e4254e00000000000000000070040102a0040102c004010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33621104,
+                "hex": "a4224e0000000000cc4d4e0010040102a001010248040102080000802200111100000000"
+              },
+              {
+                "address": 33621152,
+                "hex": "20244e0000000000ec4d4e0010040102000201024804010204000000"
+              },
+              {
+                "address": 33621184,
+                "hex": "20254e00000000000c4e4e00100401024002010248040102"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620648
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620856
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33621064
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33621216,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100b00501020500000008000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000500000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000005000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000500000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "10010102700201024003010210040102"
+              },
+              {
+                "address": 33620592,
+                "hex": "e4254e000000000000000000d0020102000301022003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620688,
+                "hex": "a4224e0000000000cc4d4e0070020102a0010102a8020102080000802200111100000000"
+              },
+              {
+                "address": 33620736,
+                "hex": "20244e0000000000ec4d4e007002010200020102a802010204000000"
+              },
+              {
+                "address": 33620768,
+                "hex": "20254e00000000000c4e4e007002010240020102a8020102"
+              },
+              {
+                "address": 33620800,
+                "hex": "e4254e000000000000000000a0030102d0030102f003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620896,
+                "hex": "a4224e0000000000cc4d4e0040030102a001010278030102080000802200111100000000"
+              },
+              {
+                "address": 33620944,
+                "hex": "20244e0000000000ec4d4e0040030102000201027803010204000000"
+              },
+              {
+                "address": 33620976,
+                "hex": "20254e00000000000c4e4e00400301024002010278030102"
+              },
+              {
+                "address": 33621008,
+                "hex": "e4254e00000000000000000070040102a0040102c004010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33621104,
+                "hex": "a4224e0000000000cc4d4e0010040102a001010248040102080000802200111100000000"
+              },
+              {
+                "address": 33621152,
+                "hex": "20244e0000000000ec4d4e0010040102000201024804010204000000"
+              },
+              {
+                "address": 33621184,
+                "hex": "20254e00000000000c4e4e00100401024002010248040102"
+              },
+              {
+                "address": 33621216,
+                "hex": "e4254e00000000000000000040050102700501029005010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33621312,
+                "hex": "a4224e0000000000cc4d4e00e0040102a001010218050102080000802200111100000000"
+              },
+              {
+                "address": 33621360,
+                "hex": "20244e0000000000ec4d4e00e0040102000201021805010204000000"
+              },
+              {
+                "address": 33621392,
+                "hex": "20254e00000000000c4e4e00e00401024002010218050102"
+              },
+              {
+                "address": 33621424,
+                "hex": "10010102700201024003010210040102e0040102a5a5a5a5a5a5a5a5a5a5a5a5"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620648
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620856
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33621064
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33621272
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 33620576,
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5121508,
+          "allocation_flag": 1,
+          "canvas": 33621456,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00a0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0040020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100b00501020600000008000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "e4254e00000000000000000070010102e00101022002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620336,
+                "hex": "a4224e0000000000cc4d4e0010010102a001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620384,
+                "hex": "000000000600000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620448,
+                "hex": "20244e0000000000ec4d4e0010010102000201024801010204000000"
+              },
+              {
+                "address": 33620480,
+                "hex": "0000000006000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620512,
+                "hex": "20254e00000000000c4e4e00100101024002010248010102"
+              },
+              {
+                "address": 33620544,
+                "hex": "000000000600000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620576,
+                "hex": "10010102700201024003010210040102"
+              },
+              {
+                "address": 33620592,
+                "hex": "e4254e000000000000000000d0020102000301022003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620688,
+                "hex": "a4224e0000000000cc4d4e0070020102a0010102a8020102080000802200111100000000"
+              },
+              {
+                "address": 33620736,
+                "hex": "20244e0000000000ec4d4e007002010200020102a802010204000000"
+              },
+              {
+                "address": 33620768,
+                "hex": "20254e00000000000c4e4e007002010240020102a8020102"
+              },
+              {
+                "address": 33620800,
+                "hex": "e4254e000000000000000000a0030102d0030102f003010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33620896,
+                "hex": "a4224e0000000000cc4d4e0040030102a001010278030102080000802200111100000000"
+              },
+              {
+                "address": 33620944,
+                "hex": "20244e0000000000ec4d4e0040030102000201027803010204000000"
+              },
+              {
+                "address": 33620976,
+                "hex": "20254e00000000000c4e4e00400301024002010278030102"
+              },
+              {
+                "address": 33621008,
+                "hex": "e4254e00000000000000000070040102a0040102c004010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33621104,
+                "hex": "a4224e0000000000cc4d4e0010040102a001010248040102080000802200111100000000"
+              },
+              {
+                "address": 33621152,
+                "hex": "20244e0000000000ec4d4e0010040102000201024804010204000000"
+              },
+              {
+                "address": 33621184,
+                "hex": "20254e00000000000c4e4e00100401024002010248040102"
+              },
+              {
+                "address": 33621216,
+                "hex": "e4254e00000000000000000040050102700501029005010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33621312,
+                "hex": "a4224e0000000000cc4d4e00e0040102a001010218050102080000802200111100000000"
+              },
+              {
+                "address": 33621360,
+                "hex": "20244e0000000000ec4d4e00e0040102000201021805010204000000"
+              },
+              {
+                "address": 33621392,
+                "hex": "20254e00000000000c4e4e00e00401024002010218050102"
+              },
+              {
+                "address": 33621424,
+                "hex": "10010102700201024003010210040102e0040102d0050102a5a5a5a5a5a5a5a5"
+              },
+              {
+                "address": 33621456,
+                "hex": "e4254e00000000000000000030060102600601028006010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000"
+              },
+              {
+                "address": 33621552,
+                "hex": "a4224e0000000000cc4d4e00d0050102a001010208060102080000802200111100000000"
+              },
+              {
+                "address": 33621600,
+                "hex": "20244e0000000000ec4d4e00d0050102000201020806010204000000"
+              },
+              {
+                "address": 33621632,
+                "hex": "20254e00000000000c4e4e00d00501024002010208060102"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620648
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620856
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33621064
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33621272
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 33620576,
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 88
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33621512
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        }
+      ]
+    },
+    {
+      "name": "derived bitmap Canvas allocated at original64 size",
+      "poison": 165,
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit PE font descriptor input, diagnostic poisoned allocator and declared lock outcomes; constructor instructions execute; not live VCL allocation state",
+        "globals": {
+          "0x59a99c": 286326818
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 5720872,
+            "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "operation": "registries",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas_lists",
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "efbeadde000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100000000000000000000000000"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        },
+        {
+          "operation": "canvas",
+          "input": 5144784,
+          "allocation_flag": 1,
+          "canvas": 33620240,
+          "state": {
+            "segments": [
+              {
+                "address": 5720872,
+                "hex": "00000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "1c2d4e00b0010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c32c000000"
+              },
+              {
+                "address": 33620016,
+                "hex": "1c2d4e0010020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620064,
+                "hex": "1c2d4e0050020102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c310000000"
+              },
+              {
+                "address": 33620112,
+                "hex": "e4e25100c0000102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620160,
+                "hex": "80e25100000000000000000000000000"
+              },
+              {
+                "address": 33620176,
+                "hex": "e4e2510000010102c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c300000000"
+              },
+              {
+                "address": 33620224,
+                "hex": "80e25100700201020100000004000000"
+              },
+              {
+                "address": 33620240,
+                "hex": "d0804e00000000000000000080010102f00101023002010200000000000000002000cc000000000000000000000000000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c30000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620352,
+                "hex": "a4224e0000000000cc4d4e0010010102b001010248010102080000802200111100000000"
+              },
+              {
+                "address": 33620400,
+                "hex": "000000000100000000000000be9da5a500000000000000000000010d4d532053616e7320536572696600000000000000000000000000000000000000"
+              },
+              {
+                "address": 33620464,
+                "hex": "20244e0000000000ec4d4e0010010102100201024801010204000000"
+              },
+              {
+                "address": 33620496,
+                "hex": "0000000001000000000000000800a5a500000000000000000100000000000000"
+              },
+              {
+                "address": 33620528,
+                "hex": "20254e00000000000c4e4e00100101025002010248010102"
+              },
+              {
+                "address": 33620560,
+                "hex": "000000000100000000000000639ca5a500000000ffffff000000000000000000"
+              },
+              {
+                "address": 33620592,
+                "hex": "10010102a5a5a5a5a5a5a5a5a5a5a5a5"
+              }
+            ],
+            "globals": {
+              "0x59a9e0": 33619968,
+              "0x59a9e4": 33620016,
+              "0x59a9e8": 33620064,
+              "0x59a9ec": 33620176,
+              "0x574d90": 33620112
+            },
+            "events": [
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620120
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "GetMem",
+                "size": 16
+              },
+              {
+                "api": "GetMem",
+                "size": 100
+              },
+              {
+                "api": "InitializeCriticalSection",
+                "address": 33620296
+              },
+              {
+                "api": "GetMem",
+                "size": 36
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 60
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33619976
+              },
+              {
+                "api": "GetMem",
+                "size": 28
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620024
+              },
+              {
+                "api": "GetMem",
+                "size": 24
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620072
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33620184
+              },
+              {
+                "api": "ReallocMem",
+                "pointer_address": 33620228,
+                "old_address": 0,
+                "size": 16
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33620184
+              }
+            ],
+            "fs_head": 4294967295
+          }
+        }
+      ]
+    }
+  ]
+}

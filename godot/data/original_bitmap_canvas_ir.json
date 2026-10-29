@@ -1,0 +1,9053 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "mapped_image_sha256": "994573dd16d21c164151efeb41380e8ddcead329bcd614a9c4b185c07158088c",
+  "image_file": "res://data/original_heap_image.bin",
+  "image_size": 2125824,
+  "image_base": 4194304,
+  "instructions": [
+    {
+      "address": 5149768,
+      "next": 5149769,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5149769,
+      "next": 5149770,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5149770,
+      "next": 5149772,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5149772,
+      "next": 5149776,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 36,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [ebx + 0x24], 0",
+      "bytes": "837b2400"
+    },
+    {
+      "address": 5149776,
+      "next": 5149778,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149825
+        }
+      ],
+      "text": "0x4e9481",
+      "bytes": "752f"
+    },
+    {
+      "address": 5149778,
+      "next": 5149780,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5149780,
+      "next": 5149785,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150444
+        }
+      ],
+      "text": "0x4e96ec",
+      "bytes": "e893020000"
+    },
+    {
+      "address": 5149785,
+      "next": 5149787,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ecx, ebx",
+      "bytes": "8bcb"
+    },
+    {
+      "address": 5149787,
+      "next": 5149789,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "dl, 1",
+      "bytes": "b201"
+    },
+    {
+      "address": 5149789,
+      "next": 5149794,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5144708,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [0x4e8084]",
+      "bytes": "a184804e00"
+    },
+    {
+      "address": 5149794,
+      "next": 5149799,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145160
+        }
+      ],
+      "text": "0x4e8248",
+      "bytes": "e8e1edffff"
+    },
+    {
+      "address": 5149799,
+      "next": 5149801,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5149801,
+      "next": 5149804,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 36,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "dword ptr [ebx + 0x24], esi",
+      "bytes": "897324"
+    },
+    {
+      "address": 5149804,
+      "next": 5149807,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 44,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "dword ptr [esi + 0x2c], ebx",
+      "bytes": "895e2c"
+    },
+    {
+      "address": 5149807,
+      "next": 5149809,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx]",
+      "bytes": "8b03"
+    },
+    {
+      "address": 5149809,
+      "next": 5149812,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x10]",
+      "bytes": "8b4010"
+    },
+    {
+      "address": 5149812,
+      "next": 5149815,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 40,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [esi + 0x28], eax",
+      "bytes": "894628"
+    },
+    {
+      "address": 5149815,
+      "next": 5149818,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 52,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "dword ptr [esi + 0x34], ebx",
+      "bytes": "895e34"
+    },
+    {
+      "address": 5149818,
+      "next": 5149825,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 48,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5148976
+        }
+      ],
+      "text": "dword ptr [esi + 0x30], 0x4e9130",
+      "bytes": "c7463030914e00"
+    },
+    {
+      "address": 5149825,
+      "next": 5149828,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 36,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x24]",
+      "bytes": "8b4324"
+    },
+    {
+      "address": 5149828,
+      "next": 5149829,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5149829,
+      "next": 5149830,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5149830,
+      "next": 5149831,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149831,
+      "next": 5149832,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149832,
+      "next": 5149833,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5149833,
+      "next": 5149835,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5149835,
+      "next": 5149837,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5149837,
+      "next": 5149842,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150428
+        }
+      ],
+      "text": "0x4e96dc",
+      "bytes": "e84a020000"
+    },
+    {
+      "address": 5149842,
+      "next": 5149844,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5149844,
+      "next": 5149849,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150444
+        }
+      ],
+      "text": "0x4e96ec",
+      "bytes": "e853020000"
+    },
+    {
+      "address": 5149849,
+      "next": 5149851,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "edx, ebx",
+      "bytes": "8bd3"
+    },
+    {
+      "address": 5149851,
+      "next": 5149853,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5149853,
+      "next": 5149858,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5148976
+        }
+      ],
+      "text": "0x4e9130",
+      "bytes": "e88efcffff"
+    },
+    {
+      "address": 5149858,
+      "next": 5149861,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x20]",
+      "bytes": "8b4320"
+    },
+    {
+      "address": 5149861,
+      "next": 5149864,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 8]",
+      "bytes": "8b4008"
+    },
+    {
+      "address": 5149864,
+      "next": 5149865,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5149865,
+      "next": 5149866,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149866,
+      "next": 5149867,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149867,
+      "next": 5149868,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5150444,
+      "next": 5150447,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x20]",
+      "bytes": "8b4020"
+    },
+    {
+      "address": 5150447,
+      "next": 5150451,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [eax + 8], 0",
+      "bytes": "83780800"
+    },
+    {
+      "address": 5150451,
+      "next": 5150453,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150459
+        }
+      ],
+      "text": "0x4e96fb",
+      "bytes": "7506"
+    },
+    {
+      "address": 5150453,
+      "next": 5150456,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [eax + 0x14]",
+      "bytes": "8b5014"
+    },
+    {
+      "address": 5150456,
+      "next": 5150459,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr [eax + 8], edx",
+      "bytes": "895008"
+    },
+    {
+      "address": 5150459,
+      "next": 5150460,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5145160,
+      "next": 5145161,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145161,
+      "next": 5145162,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5145162,
+      "next": 5145163,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "edi",
+      "bytes": "57"
+    },
+    {
+      "address": 5145163,
+      "next": 5145165,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        }
+      ],
+      "text": "dl, dl",
+      "bytes": "84d2"
+    },
+    {
+      "address": 5145165,
+      "next": 5145167,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145175
+        }
+      ],
+      "text": "0x4e8257",
+      "bytes": "7408"
+    },
+    {
+      "address": 5145167,
+      "next": 5145170,
+      "mnemonic": "add",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": -16
+        }
+      ],
+      "text": "esp, -0x10",
+      "bytes": "83c4f0"
+    },
+    {
+      "address": 5145170,
+      "next": 5145175,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5445384
+        }
+      ],
+      "text": "0x531708",
+      "bytes": "e8b1940400"
+    },
+    {
+      "address": 5145175,
+      "next": 5145177,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "esi, ecx",
+      "bytes": "8bf1"
+    },
+    {
+      "address": 5145177,
+      "next": 5145179,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "ebx, edx",
+      "bytes": "8bda"
+    },
+    {
+      "address": 5145179,
+      "next": 5145181,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "edi, eax",
+      "bytes": "8bf8"
+    },
+    {
+      "address": 5145181,
+      "next": 5145183,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "33d2"
+    },
+    {
+      "address": 5145183,
+      "next": 5145185,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "eax, edi",
+      "bytes": "8bc7"
+    },
+    {
+      "address": 5145185,
+      "next": 5145190,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5128872
+        }
+      ],
+      "text": "0x4e42a8",
+      "bytes": "e842c0ffff"
+    },
+    {
+      "address": 5145190,
+      "next": 5145193,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edi",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "dword ptr [edi + 0x58], esi",
+      "bytes": "897758"
+    },
+    {
+      "address": 5145193,
+      "next": 5145195,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "eax, edi",
+      "bytes": "8bc7"
+    },
+    {
+      "address": 5145195,
+      "next": 5145197,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        }
+      ],
+      "text": "bl, bl",
+      "bytes": "84db"
+    },
+    {
+      "address": 5145197,
+      "next": 5145199,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145214
+        }
+      ],
+      "text": "0x4e827e",
+      "bytes": "740f"
+    },
+    {
+      "address": 5145199,
+      "next": 5145204,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5445472
+        }
+      ],
+      "text": "0x531760",
+      "bytes": "e8ec940400"
+    },
+    {
+      "address": 5145204,
+      "next": 5145211,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        }
+      ],
+      "text": "dword ptr fs:[0]",
+      "bytes": "648f0500000000"
+    },
+    {
+      "address": 5145211,
+      "next": 5145214,
+      "mnemonic": "add",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 12
+        }
+      ],
+      "text": "esp, 0xc",
+      "bytes": "83c40c"
+    },
+    {
+      "address": 5145214,
+      "next": 5145216,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "eax, edi",
+      "bytes": "8bc7"
+    },
+    {
+      "address": 5145216,
+      "next": 5145217,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "edi",
+      "bytes": "5f"
+    },
+    {
+      "address": 5145217,
+      "next": 5145218,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5145218,
+      "next": 5145219,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5145219,
+      "next": 5145220,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5145220,
+      "next": 5145221,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145221,
+      "next": 5145222,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5145222,
+      "next": 5145227,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5445480
+        }
+      ],
+      "text": "0x531768",
+      "bytes": "e8dd940400"
+    },
+    {
+      "address": 5145227,
+      "next": 5145229,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "ebx, edx",
+      "bytes": "8bda"
+    },
+    {
+      "address": 5145229,
+      "next": 5145231,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5145231,
+      "next": 5145233,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5145233,
+      "next": 5145238,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145264
+        }
+      ],
+      "text": "0x4e82b0",
+      "bytes": "e81a000000"
+    },
+    {
+      "address": 5145238,
+      "next": 5145240,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "edx, ebx",
+      "bytes": "8bd3"
+    },
+    {
+      "address": 5145240,
+      "next": 5145243,
+      "mnemonic": "and",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 252
+        }
+      ],
+      "text": "dl, 0xfc",
+      "bytes": "80e2fc"
+    },
+    {
+      "address": 5145243,
+      "next": 5145245,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5145245,
+      "next": 5145250,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5129068
+        }
+      ],
+      "text": "0x4e436c",
+      "bytes": "e8cac0ffff"
+    },
+    {
+      "address": 5145250,
+      "next": 5145252,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        }
+      ],
+      "text": "bl, bl",
+      "bytes": "84db"
+    },
+    {
+      "address": 5145252,
+      "next": 5145254,
+      "mnemonic": "jle",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145261
+        }
+      ],
+      "text": "0x4e82ad",
+      "bytes": "7e07"
+    },
+    {
+      "address": 5145254,
+      "next": 5145256,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5145256,
+      "next": 5145261,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5445464
+        }
+      ],
+      "text": "0x531758",
+      "bytes": "e8ab940400"
+    },
+    {
+      "address": 5145261,
+      "next": 5145262,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5145262,
+      "next": 5145263,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5145263,
+      "next": 5145264,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5131140,
+      "next": 5131141,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5131141,
+      "next": 5131143,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5131143,
+      "next": 5131145,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5131145,
+      "next": 5131147,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [eax]",
+      "bytes": "8b10"
+    },
+    {
+      "address": 5131147,
+      "next": 5131150,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edx",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        }
+      ],
+      "text": "dword ptr [edx + 0x10]",
+      "bytes": "ff5210"
+    },
+    {
+      "address": 5131150,
+      "next": 5131156,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        },
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5131168,
+          "segment": ""
+        }
+      ],
+      "text": "dl, byte ptr [0x4e4ba0]",
+      "bytes": "8a15a04b4e00"
+    },
+    {
+      "address": 5131156,
+      "next": 5131158,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5131158,
+      "next": 5131163,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131352
+        }
+      ],
+      "text": "0x4e4c58",
+      "bytes": "e8bd000000"
+    },
+    {
+      "address": 5131163,
+      "next": 5131166,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 4]",
+      "bytes": "8b4304"
+    },
+    {
+      "address": 5131166,
+      "next": 5131167,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5131167,
+      "next": 5131168,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5131468,
+      "next": 5131469,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5131469,
+      "next": 5131474,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 2,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 50,
+          "segment": ""
+        },
+        {
+          "size": 2,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "word ptr [eax + 0x32], 0",
+      "bytes": "6683783200"
+    },
+    {
+      "address": 5131474,
+      "next": 5131476,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131486
+        }
+      ],
+      "text": "0x4e4cde",
+      "bytes": "740a"
+    },
+    {
+      "address": 5131476,
+      "next": 5131478,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5131478,
+      "next": 5131480,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "edx, eax",
+      "bytes": "8bd0"
+    },
+    {
+      "address": 5131480,
+      "next": 5131483,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 52,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x34]",
+      "bytes": "8b4334"
+    },
+    {
+      "address": 5131483,
+      "next": 5131486,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 48,
+          "segment": ""
+        }
+      ],
+      "text": "dword ptr [ebx + 0x30]",
+      "bytes": "ff5330"
+    },
+    {
+      "address": 5131486,
+      "next": 5131487,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5131487,
+      "next": 5131488,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5131488,
+      "next": 5131489,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5131489,
+      "next": 5131494,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 2,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 42,
+          "segment": ""
+        },
+        {
+          "size": 2,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "word ptr [eax + 0x2a], 0",
+      "bytes": "6683782a00"
+    },
+    {
+      "address": 5131494,
+      "next": 5131496,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131506
+        }
+      ],
+      "text": "0x4e4cf2",
+      "bytes": "740a"
+    },
+    {
+      "address": 5131496,
+      "next": 5131498,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5131498,
+      "next": 5131500,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "edx, eax",
+      "bytes": "8bd0"
+    },
+    {
+      "address": 5131500,
+      "next": 5131503,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 44,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x2c]",
+      "bytes": "8b432c"
+    },
+    {
+      "address": 5131503,
+      "next": 5131506,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 40,
+          "segment": ""
+        }
+      ],
+      "text": "dword ptr [ebx + 0x28]",
+      "bytes": "ff5328"
+    },
+    {
+      "address": 5131506,
+      "next": 5131507,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5131507,
+      "next": 5131508,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5131352,
+      "next": 5131353,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5131353,
+      "next": 5131354,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5131354,
+      "next": 5131355,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "51"
+    },
+    {
+      "address": 5131355,
+      "next": 5131358,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "esp",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        }
+      ],
+      "text": "byte ptr [esp], dl",
+      "bytes": "881424"
+    },
+    {
+      "address": 5131358,
+      "next": 5131360,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5131360,
+      "next": 5131363,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "bl, byte ptr [esi + 8]",
+      "bytes": "8a5e08"
+    },
+    {
+      "address": 5131363,
+      "next": 5131365,
+      "mnemonic": "not",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "f7d3"
+    },
+    {
+      "address": 5131365,
+      "next": 5131368,
+      "mnemonic": "and",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "esp",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "bl, byte ptr [esp]",
+      "bytes": "221c24"
+    },
+    {
+      "address": 5131368,
+      "next": 5131373,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "al"
+        },
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5131464,
+          "segment": ""
+        }
+      ],
+      "text": "al, byte ptr [0x4e4cc8]",
+      "bytes": "a0c84c4e00"
+    },
+    {
+      "address": 5131373,
+      "next": 5131375,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "al"
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        }
+      ],
+      "text": "al, bl",
+      "bytes": "3ac3"
+    },
+    {
+      "address": 5131375,
+      "next": 5131377,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131460
+        }
+      ],
+      "text": "0x4e4cc4",
+      "bytes": "7453"
+    },
+    {
+      "address": 5131377,
+      "next": 5131380,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "bl, 1",
+      "bytes": "f6c301"
+    },
+    {
+      "address": 5131380,
+      "next": 5131382,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131418
+        }
+      ],
+      "text": "0x4e4c9a",
+      "bytes": "7424"
+    },
+    {
+      "address": 5131382,
+      "next": 5131384,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5131384,
+      "next": 5131386,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [eax]",
+      "bytes": "8b10"
+    },
+    {
+      "address": 5131386,
+      "next": 5131389,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edx",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        }
+      ],
+      "text": "dword ptr [edx + 0x14]",
+      "bytes": "ff5214"
+    },
+    {
+      "address": 5131389,
+      "next": 5131393,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 4,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [esi + 4], 0",
+      "bytes": "837e0400"
+    },
+    {
+      "address": 5131393,
+      "next": 5131395,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131418
+        }
+      ],
+      "text": "0x4e4c9a",
+      "bytes": "7517"
+    },
+    {
+      "address": 5131395,
+      "next": 5131401,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5741132,
+          "segment": ""
+        }
+      ],
+      "text": "ecx, dword ptr [0x579a4c]",
+      "bytes": "8b0d4c9a5700"
+    },
+    {
+      "address": 5131401,
+      "next": 5131403,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "dl, 1",
+      "bytes": "b201"
+    },
+    {
+      "address": 5131403,
+      "next": 5131408,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5366228,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [0x51e1d4]",
+      "bytes": "a1d4e15100"
+    },
+    {
+      "address": 5131408,
+      "next": 5131413,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5427256
+        }
+      ],
+      "text": "0x52d038",
+      "bytes": "e8a3830400"
+    },
+    {
+      "address": 5131413,
+      "next": 5131418,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5446464
+        }
+      ],
+      "text": "0x531b40",
+      "bytes": "e8a6ce0400"
+    },
+    {
+      "address": 5131418,
+      "next": 5131421,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 2
+        }
+      ],
+      "text": "bl, 2",
+      "bytes": "f6c302"
+    },
+    {
+      "address": 5131421,
+      "next": 5131423,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131430
+        }
+      ],
+      "text": "0x4e4ca6",
+      "bytes": "7407"
+    },
+    {
+      "address": 5131423,
+      "next": 5131425,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5131425,
+      "next": 5131430,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131508
+        }
+      ],
+      "text": "0x4e4cf4",
+      "bytes": "e84e000000"
+    },
+    {
+      "address": 5131430,
+      "next": 5131433,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 4
+        }
+      ],
+      "text": "bl, 4",
+      "bytes": "f6c304"
+    },
+    {
+      "address": 5131433,
+      "next": 5131435,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131442
+        }
+      ],
+      "text": "0x4e4cb2",
+      "bytes": "7407"
+    },
+    {
+      "address": 5131435,
+      "next": 5131437,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5131437,
+      "next": 5131442,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131552
+        }
+      ],
+      "text": "0x4e4d20",
+      "bytes": "e86e000000"
+    },
+    {
+      "address": 5131442,
+      "next": 5131445,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 8
+        }
+      ],
+      "text": "bl, 8",
+      "bytes": "f6c308"
+    },
+    {
+      "address": 5131445,
+      "next": 5131447,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131454
+        }
+      ],
+      "text": "0x4e4cbe",
+      "bytes": "7407"
+    },
+    {
+      "address": 5131447,
+      "next": 5131449,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5131449,
+      "next": 5131454,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131600
+        }
+      ],
+      "text": "0x4e4d50",
+      "bytes": "e892000000"
+    },
+    {
+      "address": 5131454,
+      "next": 5131457,
+      "mnemonic": "or",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "bl, byte ptr [esi + 8]",
+      "bytes": "0a5e08"
+    },
+    {
+      "address": 5131457,
+      "next": 5131460,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        }
+      ],
+      "text": "byte ptr [esi + 8], bl",
+      "bytes": "885e08"
+    },
+    {
+      "address": 5131460,
+      "next": 5131461,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx",
+      "bytes": "5a"
+    },
+    {
+      "address": 5131461,
+      "next": 5131462,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5131462,
+      "next": 5131463,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5131463,
+      "next": 5131464,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5131464,
+      "next": 5131466,
+      "mnemonic": "add",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "al"
+        }
+      ],
+      "text": "byte ptr [eax], al",
+      "bytes": "0000"
+    },
+    {
+      "address": 5131466,
+      "next": 5131468,
+      "mnemonic": "add",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "al"
+        }
+      ],
+      "text": "byte ptr [eax], al",
+      "bytes": "0000"
+    },
+    {
+      "address": 5148976,
+      "next": 5148977,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5148977,
+      "next": 5148979,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5148979,
+      "next": 5148981,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "eax, ebx",
+      "bytes": "8bc3"
+    },
+    {
+      "address": 5148981,
+      "next": 5148986,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149644
+        }
+      ],
+      "text": "0x4e93cc",
+      "bytes": "e892020000"
+    },
+    {
+      "address": 5148986,
+      "next": 5148989,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x20]",
+      "bytes": "8b4320"
+    },
+    {
+      "address": 5148989,
+      "next": 5148991,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "33d2"
+    },
+    {
+      "address": 5148991,
+      "next": 5148994,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 80,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr [eax + 0x50], edx",
+      "bytes": "895050"
+    },
+    {
+      "address": 5148994,
+      "next": 5148996,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "33d2"
+    },
+    {
+      "address": 5148996,
+      "next": 5148999,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 84,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr [eax + 0x54], edx",
+      "bytes": "895054"
+    },
+    {
+      "address": 5148999,
+      "next": 5149002,
+      "mnemonic": "add",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 108
+        }
+      ],
+      "text": "eax, 0x6c",
+      "bytes": "83c06c"
+    },
+    {
+      "address": 5149002,
+      "next": 5149007,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5431740
+        }
+      ],
+      "text": "0x52e1bc",
+      "bytes": "e86d500400"
+    },
+    {
+      "address": 5149007,
+      "next": 5149008,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5149008,
+      "next": 5149009,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149009,
+      "next": 5149010,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149010,
+      "next": 5149011,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149011,
+      "next": 5149012,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149012,
+      "next": 5149016,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 41,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "byte ptr [eax + 0x29], 0",
+      "bytes": "c6402900"
+    },
+    {
+      "address": 5149016,
+      "next": 5149021,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5136692
+        }
+      ],
+      "text": "0x4e6134",
+      "bytes": "e8d7cfffff"
+    },
+    {
+      "address": 5149021,
+      "next": 5149022,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149022,
+      "next": 5149023,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149023,
+      "next": 5149024,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149644,
+      "next": 5149645,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5149645,
+      "next": 5149646,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5149646,
+      "next": 5149648,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5149648,
+      "next": 5149651,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "ebx, dword ptr [esi + 0x20]",
+      "bytes": "8b5e20"
+    },
+    {
+      "address": 5149651,
+      "next": 5149655,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 4,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "dword ptr [ebx + 4], 1",
+      "bytes": "837b0401"
+    },
+    {
+      "address": 5149655,
+      "next": 5149657,
+      "mnemonic": "jle",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149696
+        }
+      ],
+      "text": "0x4e9400",
+      "bytes": "7e27"
+    },
+    {
+      "address": 5149657,
+      "next": 5149659,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5149659,
+      "next": 5149664,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150444
+        }
+      ],
+      "text": "0x4e96ec",
+      "bytes": "e80c030000"
+    },
+    {
+      "address": 5149664,
+      "next": 5149668,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 113,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "byte ptr [ebx + 0x71], 0",
+      "bytes": "807b7100"
+    },
+    {
+      "address": 5149668,
+      "next": 5149670,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149674
+        }
+      ],
+      "text": "0x4e93ea",
+      "bytes": "7404"
+    },
+    {
+      "address": 5149670,
+      "next": 5149672,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5149672,
+      "next": 5149674,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149677
+        }
+      ],
+      "text": "0x4e93ed",
+      "bytes": "eb03"
+    },
+    {
+      "address": 5149674,
+      "next": 5149677,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x10]",
+      "bytes": "8b4310"
+    },
+    {
+      "address": 5149677,
+      "next": 5149680,
+      "mnemonic": "lea",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 24,
+          "segment": ""
+        }
+      ],
+      "text": "edx, [ebx + 0x18]",
+      "bytes": "8d5318"
+    },
+    {
+      "address": 5149680,
+      "next": 5149681,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx",
+      "bytes": "52"
+    },
+    {
+      "address": 5149681,
+      "next": 5149683,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ecx, eax",
+      "bytes": "8bc8"
+    },
+    {
+      "address": 5149683,
+      "next": 5149686,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [ebx + 8]",
+      "bytes": "8b5308"
+    },
+    {
+      "address": 5149686,
+      "next": 5149688,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5149688,
+      "next": 5149693,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5148784
+        }
+      ],
+      "text": "0x4e9070",
+      "bytes": "e873fcffff"
+    },
+    {
+      "address": 5149693,
+      "next": 5149694,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5149694,
+      "next": 5149695,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5149695,
+      "next": 5149696,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149696,
+      "next": 5149699,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 8]",
+      "bytes": "8b4308"
+    },
+    {
+      "address": 5149699,
+      "next": 5149701,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "85c0"
+    },
+    {
+      "address": 5149701,
+      "next": 5149703,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149740
+        }
+      ],
+      "text": "0x4e942c",
+      "bytes": "7425"
+    },
+    {
+      "address": 5149703,
+      "next": 5149706,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 0x14]",
+      "bytes": "3b4314"
+    },
+    {
+      "address": 5149706,
+      "next": 5149708,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149740
+        }
+      ],
+      "text": "0x4e942c",
+      "bytes": "7420"
+    },
+    {
+      "address": 5149708,
+      "next": 5149711,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        }
+      ],
+      "text": "esi, dword ptr [ebx + 0x14]",
+      "bytes": "8b7314"
+    },
+    {
+      "address": 5149711,
+      "next": 5149713,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi, esi",
+      "bytes": "85f6"
+    },
+    {
+      "address": 5149713,
+      "next": 5149715,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149730
+        }
+      ],
+      "text": "0x4e9422",
+      "bytes": "740f"
+    },
+    {
+      "address": 5149715,
+      "next": 5149716,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5149716,
+      "next": 5149721,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591768
+        }
+      ],
+      "text": "0x5552d8",
+      "bytes": "e8bfbe0600"
+    },
+    {
+      "address": 5149721,
+      "next": 5149723,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "85c0"
+    },
+    {
+      "address": 5149723,
+      "next": 5149725,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149730
+        }
+      ],
+      "text": "0x4e9422",
+      "bytes": "7505"
+    },
+    {
+      "address": 5149725,
+      "next": 5149730,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131988
+        }
+      ],
+      "text": "0x4e4ed4",
+      "bytes": "e8b2baffff"
+    },
+    {
+      "address": 5149730,
+      "next": 5149732,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5149732,
+      "next": 5149735,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [ebx + 0x14], eax",
+      "bytes": "894314"
+    },
+    {
+      "address": 5149735,
+      "next": 5149737,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5149737,
+      "next": 5149740,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 44,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [ebx + 0x2c], eax",
+      "bytes": "89432c"
+    },
+    {
+      "address": 5149740,
+      "next": 5149741,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5149741,
+      "next": 5149742,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5149742,
+      "next": 5149743,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149743,
+      "next": 5149744,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149744,
+      "next": 5149747,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x20]",
+      "bytes": "8b4020"
+    },
+    {
+      "address": 5149747,
+      "next": 5149751,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [eax + 8], 0",
+      "bytes": "83780800"
+    },
+    {
+      "address": 5149751,
+      "next": 5149753,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149759
+        }
+      ],
+      "text": "0x4e943f",
+      "bytes": "7506"
+    },
+    {
+      "address": 5149753,
+      "next": 5149757,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [eax + 0x14], 0",
+      "bytes": "83781400"
+    },
+    {
+      "address": 5149757,
+      "next": 5149759,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5149762
+        }
+      ],
+      "text": "0x4e9442",
+      "bytes": "7403"
+    },
+    {
+      "address": 5149759,
+      "next": 5149761,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5149761,
+      "next": 5149762,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149762,
+      "next": 5149764,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "al"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "al, 1",
+      "bytes": "b001"
+    },
+    {
+      "address": 5149764,
+      "next": 5149765,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5149765,
+      "next": 5149766,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149766,
+      "next": 5149767,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5149767,
+      "next": 5149768,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5431740,
+      "next": 5431742,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [eax]",
+      "bytes": "8b10"
+    },
+    {
+      "address": 5431742,
+      "next": 5431744,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx, ecx",
+      "bytes": "33c9"
+    },
+    {
+      "address": 5431744,
+      "next": 5431746,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "dword ptr [eax], ecx",
+      "bytes": "8908"
+    },
+    {
+      "address": 5431746,
+      "next": 5431748,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "eax, edx",
+      "bytes": "8bc2"
+    },
+    {
+      "address": 5431748,
+      "next": 5431753,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5444616
+        }
+      ],
+      "text": "0x531408",
+      "bytes": "e83f320000"
+    },
+    {
+      "address": 5431753,
+      "next": 5431754,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5431754,
+      "next": 5431755,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5431755,
+      "next": 5431756,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5444616,
+      "next": 5444618,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "85c0"
+    },
+    {
+      "address": 5444618,
+      "next": 5444620,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5444627
+        }
+      ],
+      "text": "0x531413",
+      "bytes": "7407"
+    },
+    {
+      "address": 5444620,
+      "next": 5444622,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "ecx, dword ptr [eax]",
+      "bytes": "8b08"
+    },
+    {
+      "address": 5444622,
+      "next": 5444624,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "dl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "dl, 1",
+      "bytes": "b201"
+    },
+    {
+      "address": 5444624,
+      "next": 5444627,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ecx",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "dword ptr [ecx - 4]",
+      "bytes": "ff51fc"
+    },
+    {
+      "address": 5444627,
+      "next": 5444628,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5145424,
+      "next": 5145425,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5145425,
+      "next": 5145427,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        }
+      ],
+      "text": "ebp, esp",
+      "bytes": "8bec"
+    },
+    {
+      "address": 5145427,
+      "next": 5145428,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "51"
+    },
+    {
+      "address": 5145428,
+      "next": 5145429,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145429,
+      "next": 5145430,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5145430,
+      "next": 5145433,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [ebp - 4], eax",
+      "bytes": "8945fc"
+    },
+    {
+      "address": 5145433,
+      "next": 5145436,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145436,
+      "next": 5145440,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [eax + 0x58], 0",
+      "bytes": "83785800"
+    },
+    {
+      "address": 5145440,
+      "next": 5145446,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145654
+        }
+      ],
+      "text": "0x4e8436",
+      "bytes": "0f84d0000000"
+    },
+    {
+      "address": 5145446,
+      "next": 5145449,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145449,
+      "next": 5145454,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5129856
+        }
+      ],
+      "text": "0x4e4680",
+      "bytes": "e812c3ffff"
+    },
+    {
+      "address": 5145454,
+      "next": 5145456,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5145456,
+      "next": 5145457,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5145457,
+      "next": 5145462,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145647
+        }
+      ],
+      "text": "0x4e842f",
+      "bytes": "682f844e00"
+    },
+    {
+      "address": 5145462,
+      "next": 5145465,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        }
+      ],
+      "text": "dword ptr fs:[eax]",
+      "bytes": "64ff30"
+    },
+    {
+      "address": 5145465,
+      "next": 5145468,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        }
+      ],
+      "text": "dword ptr fs:[eax], esp",
+      "bytes": "648920"
+    },
+    {
+      "address": 5145468,
+      "next": 5145471,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145471,
+      "next": 5145474,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x58]",
+      "bytes": "8b4058"
+    },
+    {
+      "address": 5145474,
+      "next": 5145479,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150444
+        }
+      ],
+      "text": "0x4e96ec",
+      "bytes": "e865130000"
+    },
+    {
+      "address": 5145479,
+      "next": 5145482,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145482,
+      "next": 5145485,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x58]",
+      "bytes": "8b4058"
+    },
+    {
+      "address": 5145485,
+      "next": 5145488,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x20]",
+      "bytes": "8b4020"
+    },
+    {
+      "address": 5145488,
+      "next": 5145491,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 8]",
+      "bytes": "8b4008"
+    },
+    {
+      "address": 5145491,
+      "next": 5145496,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145036
+        }
+      ],
+      "text": "0x4e81cc",
+      "bytes": "e834feffff"
+    },
+    {
+      "address": 5145496,
+      "next": 5145499,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145499,
+      "next": 5145502,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x58]",
+      "bytes": "8b4058"
+    },
+    {
+      "address": 5145502,
+      "next": 5145507,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150556
+        }
+      ],
+      "text": "0x4e975c",
+      "bytes": "e8b9130000"
+    },
+    {
+      "address": 5145507,
+      "next": 5145509,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "0",
+      "bytes": "6a00"
+    },
+    {
+      "address": 5145509,
+      "next": 5145514,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591678
+        }
+      ],
+      "text": "0x55527e",
+      "bytes": "e8d4ce0600"
+    },
+    {
+      "address": 5145514,
+      "next": 5145516,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5145516,
+      "next": 5145519,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145519,
+      "next": 5145522,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x58]",
+      "bytes": "8b4058"
+    },
+    {
+      "address": 5145522,
+      "next": 5145525,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x20]",
+      "bytes": "8b4020"
+    },
+    {
+      "address": 5145525,
+      "next": 5145528,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "esi, dword ptr [eax + 8]",
+      "bytes": "8b7008"
+    },
+    {
+      "address": 5145528,
+      "next": 5145530,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi, esi",
+      "bytes": "85f6"
+    },
+    {
+      "address": 5145530,
+      "next": 5145532,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145547
+        }
+      ],
+      "text": "0x4e83cb",
+      "bytes": "740f"
+    },
+    {
+      "address": 5145532,
+      "next": 5145533,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5145533,
+      "next": 5145534,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145534,
+      "next": 5145539,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5592056
+        }
+      ],
+      "text": "0x5553f8",
+      "bytes": "e835d00600"
+    },
+    {
+      "address": 5145539,
+      "next": 5145542,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [ebp - 4]",
+      "bytes": "8b55fc"
+    },
+    {
+      "address": 5145542,
+      "next": 5145545,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edx",
+          "index": "",
+          "scale": 1,
+          "disp": 92,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [edx + 0x5c], eax",
+      "bytes": "89425c"
+    },
+    {
+      "address": 5145545,
+      "next": 5145547,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145555
+        }
+      ],
+      "text": "0x4e83d3",
+      "bytes": "eb08"
+    },
+    {
+      "address": 5145547,
+      "next": 5145550,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145550,
+      "next": 5145552,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "33d2"
+    },
+    {
+      "address": 5145552,
+      "next": 5145555,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 92,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr [eax + 0x5c], edx",
+      "bytes": "89505c"
+    },
+    {
+      "address": 5145555,
+      "next": 5145558,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145558,
+      "next": 5145561,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x58]",
+      "bytes": "8b4058"
+    },
+    {
+      "address": 5145561,
+      "next": 5145564,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 0x20]",
+      "bytes": "8b4020"
+    },
+    {
+      "address": 5145564,
+      "next": 5145567,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        }
+      ],
+      "text": "esi, dword ptr [eax + 0x10]",
+      "bytes": "8b7010"
+    },
+    {
+      "address": 5145567,
+      "next": 5145569,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi, esi",
+      "bytes": "85f6"
+    },
+    {
+      "address": 5145569,
+      "next": 5145571,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145594
+        }
+      ],
+      "text": "0x4e83fa",
+      "bytes": "7417"
+    },
+    {
+      "address": 5145571,
+      "next": 5145573,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": -1
+        }
+      ],
+      "text": "-1",
+      "bytes": "6aff"
+    },
+    {
+      "address": 5145573,
+      "next": 5145574,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5145574,
+      "next": 5145575,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145575,
+      "next": 5145580,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5592062
+        }
+      ],
+      "text": "0x5553fe",
+      "bytes": "e812d00600"
+    },
+    {
+      "address": 5145580,
+      "next": 5145583,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [ebp - 4]",
+      "bytes": "8b55fc"
+    },
+    {
+      "address": 5145583,
+      "next": 5145586,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edx",
+          "index": "",
+          "scale": 1,
+          "disp": 96,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [edx + 0x60], eax",
+      "bytes": "894260"
+    },
+    {
+      "address": 5145586,
+      "next": 5145587,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145587,
+      "next": 5145592,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5592020
+        }
+      ],
+      "text": "0x5553d4",
+      "bytes": "e8dccf0600"
+    },
+    {
+      "address": 5145592,
+      "next": 5145594,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145602
+        }
+      ],
+      "text": "0x4e8402",
+      "bytes": "eb08"
+    },
+    {
+      "address": 5145594,
+      "next": 5145597,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145597,
+      "next": 5145599,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "33d2"
+    },
+    {
+      "address": 5145599,
+      "next": 5145602,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 96,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr [eax + 0x60], edx",
+      "bytes": "895060"
+    },
+    {
+      "address": 5145602,
+      "next": 5145604,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "edx, ebx",
+      "bytes": "8bd3"
+    },
+    {
+      "address": 5145604,
+      "next": 5145607,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145607,
+      "next": 5145612,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5131268
+        }
+      ],
+      "text": "0x4e4c04",
+      "bytes": "e8f8c7ffff"
+    },
+    {
+      "address": 5145612,
+      "next": 5145615,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [ebp - 4]",
+      "bytes": "8b55fc"
+    },
+    {
+      "address": 5145615,
+      "next": 5145620,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5721488,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [0x574d90]",
+      "bytes": "a1904d5700"
+    },
+    {
+      "address": 5145620,
+      "next": 5145625,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373232
+        }
+      ],
+      "text": "0x51fd30",
+      "bytes": "e817790300"
+    },
+    {
+      "address": 5145625,
+      "next": 5145627,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5145627,
+      "next": 5145628,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx",
+      "bytes": "5a"
+    },
+    {
+      "address": 5145628,
+      "next": 5145629,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5145629,
+      "next": 5145630,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5145630,
+      "next": 5145633,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr fs:[eax], edx",
+      "bytes": "648910"
+    },
+    {
+      "address": 5145633,
+      "next": 5145638,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145654
+        }
+      ],
+      "text": "0x4e8436",
+      "bytes": "6836844e00"
+    },
+    {
+      "address": 5145638,
+      "next": 5145641,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5145641,
+      "next": 5145646,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5130840
+        }
+      ],
+      "text": "0x4e4a58",
+      "bytes": "e82ac6ffff"
+    },
+    {
+      "address": 5145646,
+      "next": 5145647,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5145647,
+      "next": 5145652,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5446408
+        }
+      ],
+      "text": "0x531b08",
+      "bytes": "e9d4960400"
+    },
+    {
+      "address": 5145652,
+      "next": 5145654,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145638
+        }
+      ],
+      "text": "0x4e8426",
+      "bytes": "ebf0"
+    },
+    {
+      "address": 5145654,
+      "next": 5145655,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5145655,
+      "next": 5145656,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5145656,
+      "next": 5145657,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5145657,
+      "next": 5145658,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "5d"
+    },
+    {
+      "address": 5145658,
+      "next": 5145659,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5145659,
+      "next": 5145660,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5129856,
+      "next": 5129857,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5129857,
+      "next": 5129859,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5129859,
+      "next": 5129864,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5876168
+        }
+      ],
+      "text": "0x59a9c8",
+      "bytes": "68c8a95900"
+    },
+    {
+      "address": 5129864,
+      "next": 5129869,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5590724
+        }
+      ],
+      "text": "0x554ec4",
+      "bytes": "e837080700"
+    },
+    {
+      "address": 5129869,
+      "next": 5129872,
+      "mnemonic": "inc",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 80,
+          "segment": ""
+        }
+      ],
+      "text": "dword ptr [ebx + 0x50]",
+      "bytes": "ff4350"
+    },
+    {
+      "address": 5129872,
+      "next": 5129877,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5876168
+        }
+      ],
+      "text": "0x59a9c8",
+      "bytes": "68c8a95900"
+    },
+    {
+      "address": 5129877,
+      "next": 5129882,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591072
+        }
+      ],
+      "text": "0x555020",
+      "bytes": "e886090700"
+    },
+    {
+      "address": 5129882,
+      "next": 5129885,
+      "mnemonic": "lea",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 56,
+          "segment": ""
+        }
+      ],
+      "text": "eax, [ebx + 0x38]",
+      "bytes": "8d4338"
+    },
+    {
+      "address": 5129885,
+      "next": 5129886,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax",
+      "bytes": "50"
+    },
+    {
+      "address": 5129886,
+      "next": 5129891,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5590724
+        }
+      ],
+      "text": "0x554ec4",
+      "bytes": "e821080700"
+    },
+    {
+      "address": 5129891,
+      "next": 5129892,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5129892,
+      "next": 5129893,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5129893,
+      "next": 5129894,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5129894,
+      "next": 5129895,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5129895,
+      "next": 5129896,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5145036,
+      "next": 5145037,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5145037,
+      "next": 5145039,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        }
+      ],
+      "text": "ebp, esp",
+      "bytes": "8bec"
+    },
+    {
+      "address": 5145039,
+      "next": 5145040,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "51"
+    },
+    {
+      "address": 5145040,
+      "next": 5145041,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5145041,
+      "next": 5145042,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5145042,
+      "next": 5145045,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [ebp - 4], eax",
+      "bytes": "8945fc"
+    },
+    {
+      "address": 5145045,
+      "next": 5145049,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [ebp - 4], 0",
+      "bytes": "837dfc00"
+    },
+    {
+      "address": 5145049,
+      "next": 5145051,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145155
+        }
+      ],
+      "text": "0x4e8243",
+      "bytes": "7468"
+    },
+    {
+      "address": 5145051,
+      "next": 5145056,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5721488,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [0x574d90]",
+      "bytes": "a1904d5700"
+    },
+    {
+      "address": 5145056,
+      "next": 5145061,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373368
+        }
+      ],
+      "text": "0x51fdb8",
+      "bytes": "e8d37b0300"
+    },
+    {
+      "address": 5145061,
+      "next": 5145063,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5145063,
+      "next": 5145065,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx, ecx",
+      "bytes": "33c9"
+    },
+    {
+      "address": 5145065,
+      "next": 5145066,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5145066,
+      "next": 5145071,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145148
+        }
+      ],
+      "text": "0x4e823c",
+      "bytes": "683c824e00"
+    },
+    {
+      "address": 5145071,
+      "next": 5145074,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ecx",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        }
+      ],
+      "text": "dword ptr fs:[ecx]",
+      "bytes": "64ff31"
+    },
+    {
+      "address": 5145074,
+      "next": 5145077,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ecx",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        }
+      ],
+      "text": "dword ptr fs:[ecx], esp",
+      "bytes": "648921"
+    },
+    {
+      "address": 5145077,
+      "next": 5145080,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "esi",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "ebx, dword ptr [esi + 8]",
+      "bytes": "8b5e08"
+    },
+    {
+      "address": 5145080,
+      "next": 5145081,
+      "mnemonic": "dec",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "4b"
+    },
+    {
+      "address": 5145081,
+      "next": 5145084,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "ebx, 0",
+      "bytes": "83fb00"
+    },
+    {
+      "address": 5145084,
+      "next": 5145086,
+      "mnemonic": "jl",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145124
+        }
+      ],
+      "text": "0x4e8224",
+      "bytes": "7c26"
+    },
+    {
+      "address": 5145086,
+      "next": 5145088,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "edx, ebx",
+      "bytes": "8bd3"
+    },
+    {
+      "address": 5145088,
+      "next": 5145090,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "eax, esi",
+      "bytes": "8bc6"
+    },
+    {
+      "address": 5145090,
+      "next": 5145095,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5372408
+        }
+      ],
+      "text": "0x51f9f8",
+      "bytes": "e8f1770300"
+    },
+    {
+      "address": 5145095,
+      "next": 5145098,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 88,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [eax + 0x58]",
+      "bytes": "8b5058"
+    },
+    {
+      "address": 5145098,
+      "next": 5145100,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "85d2"
+    },
+    {
+      "address": 5145100,
+      "next": 5145102,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145118
+        }
+      ],
+      "text": "0x4e821e",
+      "bytes": "7410"
+    },
+    {
+      "address": 5145102,
+      "next": 5145105,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edx",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [edx + 0x20]",
+      "bytes": "8b5220"
+    },
+    {
+      "address": 5145105,
+      "next": 5145108,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edx",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [edx + 8]",
+      "bytes": "8b5208"
+    },
+    {
+      "address": 5145108,
+      "next": 5145111,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [ebp - 4]",
+      "bytes": "3b55fc"
+    },
+    {
+      "address": 5145111,
+      "next": 5145113,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145118
+        }
+      ],
+      "text": "0x4e821e",
+      "bytes": "7505"
+    },
+    {
+      "address": 5145113,
+      "next": 5145118,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145264
+        }
+      ],
+      "text": "0x4e82b0",
+      "bytes": "e892000000"
+    },
+    {
+      "address": 5145118,
+      "next": 5145119,
+      "mnemonic": "dec",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "4b"
+    },
+    {
+      "address": 5145119,
+      "next": 5145122,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": -1
+        }
+      ],
+      "text": "ebx, -1",
+      "bytes": "83fbff"
+    },
+    {
+      "address": 5145122,
+      "next": 5145124,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145086
+        }
+      ],
+      "text": "0x4e81fe",
+      "bytes": "75da"
+    },
+    {
+      "address": 5145124,
+      "next": 5145126,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5145126,
+      "next": 5145127,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx",
+      "bytes": "5a"
+    },
+    {
+      "address": 5145127,
+      "next": 5145128,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5145128,
+      "next": 5145129,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5145129,
+      "next": 5145132,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr fs:[eax], edx",
+      "bytes": "648910"
+    },
+    {
+      "address": 5145132,
+      "next": 5145137,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145155
+        }
+      ],
+      "text": "0x4e8243",
+      "bytes": "6843824e00"
+    },
+    {
+      "address": 5145137,
+      "next": 5145142,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5721488,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [0x574d90]",
+      "bytes": "a1904d5700"
+    },
+    {
+      "address": 5145142,
+      "next": 5145147,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373468
+        }
+      ],
+      "text": "0x51fe1c",
+      "bytes": "e8e17b0300"
+    },
+    {
+      "address": 5145147,
+      "next": 5145148,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5145148,
+      "next": 5145153,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5446408
+        }
+      ],
+      "text": "0x531b08",
+      "bytes": "e9c7980400"
+    },
+    {
+      "address": 5145153,
+      "next": 5145155,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145137
+        }
+      ],
+      "text": "0x4e8231",
+      "bytes": "ebee"
+    },
+    {
+      "address": 5145155,
+      "next": 5145156,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5145156,
+      "next": 5145157,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5145157,
+      "next": 5145158,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5145158,
+      "next": 5145159,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "5d"
+    },
+    {
+      "address": 5145159,
+      "next": 5145160,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5150556,
+      "next": 5150557,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5150557,
+      "next": 5150558,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5150558,
+      "next": 5150559,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "edi",
+      "bytes": "57"
+    },
+    {
+      "address": 5150559,
+      "next": 5150560,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5150560,
+      "next": 5150562,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "edi, eax",
+      "bytes": "8bf8"
+    },
+    {
+      "address": 5150562,
+      "next": 5150565,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "edi",
+          "index": "",
+          "scale": 1,
+          "disp": 32,
+          "segment": ""
+        }
+      ],
+      "text": "ebp, dword ptr [edi + 0x20]",
+      "bytes": "8b6f20"
+    },
+    {
+      "address": 5150565,
+      "next": 5150569,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "edi",
+          "index": "",
+          "scale": 1,
+          "disp": 40,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "byte ptr [edi + 0x28], 0",
+      "bytes": "807f2800"
+    },
+    {
+      "address": 5150569,
+      "next": 5150575,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150735
+        }
+      ],
+      "text": "0x4e980f",
+      "bytes": "0f85a0000000"
+    },
+    {
+      "address": 5150575,
+      "next": 5150579,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [ebp + 0x10], 0",
+      "bytes": "837d1000"
+    },
+    {
+      "address": 5150579,
+      "next": 5150585,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150735
+        }
+      ],
+      "text": "0x4e980f",
+      "bytes": "0f8596000000"
+    },
+    {
+      "address": 5150585,
+      "next": 5150589,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [ebp + 0x14], 0",
+      "bytes": "837d1400"
+    },
+    {
+      "address": 5150589,
+      "next": 5150595,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150735
+        }
+      ],
+      "text": "0x4e980f",
+      "bytes": "0f848c000000"
+    },
+    {
+      "address": 5150595,
+      "next": 5150598,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp + 0x14]",
+      "bytes": "8b4514"
+    },
+    {
+      "address": 5150598,
+      "next": 5150601,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp + 8]",
+      "bytes": "3b4508"
+    },
+    {
+      "address": 5150601,
+      "next": 5150603,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150608
+        }
+      ],
+      "text": "0x4e9790",
+      "bytes": "7505"
+    },
+    {
+      "address": 5150603,
+      "next": 5150608,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5145036
+        }
+      ],
+      "text": "0x4e81cc",
+      "bytes": "e83ceaffff"
+    },
+    {
+      "address": 5150608,
+      "next": 5150612,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 2,
+          "kind": "reg",
+          "reg": "cx"
+        },
+        {
+          "size": 2,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 62,
+          "segment": ""
+        }
+      ],
+      "text": "cx, word ptr [ebp + 0x3e]",
+      "bytes": "668b4d3e"
+    },
+    {
+      "address": 5150612,
+      "next": 5150617,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "eax, 1",
+      "bytes": "b801000000"
+    },
+    {
+      "address": 5150617,
+      "next": 5150619,
+      "mnemonic": "shl",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "cl"
+        }
+      ],
+      "text": "eax, cl",
+      "bytes": "d3e0"
+    },
+    {
+      "address": 5150619,
+      "next": 5150621,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ecx, eax",
+      "bytes": "8bc8"
+    },
+    {
+      "address": 5150621,
+      "next": 5150623,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx, edx",
+      "bytes": "33d2"
+    },
+    {
+      "address": 5150623,
+      "next": 5150626,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 20,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp + 0x14]",
+      "bytes": "8b4514"
+    },
+    {
+      "address": 5150626,
+      "next": 5150631,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5133932
+        }
+      ],
+      "text": "0x4e566c",
+      "bytes": "e8c5beffff"
+    },
+    {
+      "address": 5150631,
+      "next": 5150633,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5150633,
+      "next": 5150636,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "dword ptr [ebp + 0x10], esi",
+      "bytes": "897510"
+    },
+    {
+      "address": 5150636,
+      "next": 5150638,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi, esi",
+      "bytes": "85f6"
+    },
+    {
+      "address": 5150638,
+      "next": 5150640,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150735
+        }
+      ],
+      "text": "0x4e980f",
+      "bytes": "755f"
+    },
+    {
+      "address": 5150640,
+      "next": 5150642,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "0",
+      "bytes": "6a00"
+    },
+    {
+      "address": 5150642,
+      "next": 5150647,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5592528
+        }
+      ],
+      "text": "0x5555d0",
+      "bytes": "e819be0600"
+    },
+    {
+      "address": 5150647,
+      "next": 5150652,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5132156
+        }
+      ],
+      "text": "0x4e4f7c",
+      "bytes": "e8c0b7ffff"
+    },
+    {
+      "address": 5150652,
+      "next": 5150654,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "esi, eax",
+      "bytes": "8bf0"
+    },
+    {
+      "address": 5150654,
+      "next": 5150658,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 113,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "byte ptr [ebp + 0x71], 0",
+      "bytes": "807d7100"
+    },
+    {
+      "address": 5150658,
+      "next": 5150660,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150699
+        }
+      ],
+      "text": "0x4e97eb",
+      "bytes": "7527"
+    },
+    {
+      "address": 5150660,
+      "next": 5150662,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 12
+        }
+      ],
+      "text": "0xc",
+      "bytes": "6a0c"
+    },
+    {
+      "address": 5150662,
+      "next": 5150663,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5150663,
+      "next": 5150668,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591870
+        }
+      ],
+      "text": "0x55533e",
+      "bytes": "e872bb0600"
+    },
+    {
+      "address": 5150668,
+      "next": 5150670,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5150670,
+      "next": 5150672,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 14
+        }
+      ],
+      "text": "0xe",
+      "bytes": "6a0e"
+    },
+    {
+      "address": 5150672,
+      "next": 5150673,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5150673,
+      "next": 5150678,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591870
+        }
+      ],
+      "text": "0x55533e",
+      "bytes": "e868bb0600"
+    },
+    {
+      "address": 5150678,
+      "next": 5150681,
+      "mnemonic": "imul",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "0fafd8"
+    },
+    {
+      "address": 5150681,
+      "next": 5150685,
+      "mnemonic": "movzx",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 2,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 42,
+          "segment": ""
+        }
+      ],
+      "text": "eax, word ptr [ebp + 0x2a]",
+      "bytes": "0fb7452a"
+    },
+    {
+      "address": 5150685,
+      "next": 5150689,
+      "mnemonic": "movzx",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 2,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 40,
+          "segment": ""
+        }
+      ],
+      "text": "edx, word ptr [ebp + 0x28]",
+      "bytes": "0fb75528"
+    },
+    {
+      "address": 5150689,
+      "next": 5150691,
+      "mnemonic": "imul",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx",
+      "bytes": "f7ea"
+    },
+    {
+      "address": 5150691,
+      "next": 5150693,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "3bd8"
+    },
+    {
+      "address": 5150693,
+      "next": 5150695,
+      "mnemonic": "jl",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150699
+        }
+      ],
+      "text": "0x4e97eb",
+      "bytes": "7c04"
+    },
+    {
+      "address": 5150695,
+      "next": 5150697,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx, ebx",
+      "bytes": "33db"
+    },
+    {
+      "address": 5150697,
+      "next": 5150699,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150701
+        }
+      ],
+      "text": "0x4e97ed",
+      "bytes": "eb02"
+    },
+    {
+      "address": 5150699,
+      "next": 5150701,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "bl, 1",
+      "bytes": "b301"
+    },
+    {
+      "address": 5150701,
+      "next": 5150704,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 113,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        }
+      ],
+      "text": "byte ptr [ebp + 0x71], bl",
+      "bytes": "885d71"
+    },
+    {
+      "address": 5150704,
+      "next": 5150706,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        },
+        {
+          "size": 1,
+          "kind": "reg",
+          "reg": "bl"
+        }
+      ],
+      "text": "bl, bl",
+      "bytes": "84db"
+    },
+    {
+      "address": 5150706,
+      "next": 5150708,
+      "mnemonic": "je",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150717
+        }
+      ],
+      "text": "0x4e97fd",
+      "bytes": "7409"
+    },
+    {
+      "address": 5150708,
+      "next": 5150709,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5150709,
+      "next": 5150714,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591714
+        }
+      ],
+      "text": "0x5552a2",
+      "bytes": "e8a8ba0600"
+    },
+    {
+      "address": 5150714,
+      "next": 5150717,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [ebp + 0x10], eax",
+      "bytes": "894510"
+    },
+    {
+      "address": 5150717,
+      "next": 5150718,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5150718,
+      "next": 5150720,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "0",
+      "bytes": "6a00"
+    },
+    {
+      "address": 5150720,
+      "next": 5150725,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5592978
+        }
+      ],
+      "text": "0x555792",
+      "bytes": "e88dbf0600"
+    },
+    {
+      "address": 5150725,
+      "next": 5150729,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": 16,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 0
+        }
+      ],
+      "text": "dword ptr [ebp + 0x10], 0",
+      "bytes": "837d1000"
+    },
+    {
+      "address": 5150729,
+      "next": 5150731,
+      "mnemonic": "jne",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5150735
+        }
+      ],
+      "text": "0x4e980f",
+      "bytes": "7504"
+    },
+    {
+      "address": 5150731,
+      "next": 5150735,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 1,
+          "kind": "mem",
+          "base": "edi",
+          "index": "",
+          "scale": 1,
+          "disp": 40,
+          "segment": ""
+        },
+        {
+          "size": 1,
+          "kind": "imm",
+          "value": 1
+        }
+      ],
+      "text": "byte ptr [edi + 0x28], 1",
+      "bytes": "c6472801"
+    },
+    {
+      "address": 5150735,
+      "next": 5150736,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "5d"
+    },
+    {
+      "address": 5150736,
+      "next": 5150737,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edi"
+        }
+      ],
+      "text": "edi",
+      "bytes": "5f"
+    },
+    {
+      "address": 5150737,
+      "next": 5150738,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5150738,
+      "next": 5150739,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5150739,
+      "next": 5150740,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5373368,
+      "next": 5373369,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5373369,
+      "next": 5373371,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5373371,
+      "next": 5373374,
+      "mnemonic": "lea",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "eax, [ebx + 8]",
+      "bytes": "8d4308"
+    },
+    {
+      "address": 5373374,
+      "next": 5373375,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax",
+      "bytes": "50"
+    },
+    {
+      "address": 5373375,
+      "next": 5373380,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5590724
+        }
+      ],
+      "text": "0x554ec4",
+      "bytes": "e800510300"
+    },
+    {
+      "address": 5373380,
+      "next": 5373383,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 4]",
+      "bytes": "8b4304"
+    },
+    {
+      "address": 5373383,
+      "next": 5373384,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5373384,
+      "next": 5373385,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5373385,
+      "next": 5373386,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5373386,
+      "next": 5373387,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5373387,
+      "next": 5373388,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5373388,
+      "next": 5373389,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5373389,
+      "next": 5373391,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        }
+      ],
+      "text": "ebp, esp",
+      "bytes": "8bec"
+    },
+    {
+      "address": 5373391,
+      "next": 5373392,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "51"
+    },
+    {
+      "address": 5373392,
+      "next": 5373393,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5373393,
+      "next": 5373395,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "ebx, edx",
+      "bytes": "8bda"
+    },
+    {
+      "address": 5373395,
+      "next": 5373398,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "dword ptr [ebp - 4], eax",
+      "bytes": "8945fc"
+    },
+    {
+      "address": 5373398,
+      "next": 5373401,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5373401,
+      "next": 5373406,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373368
+        }
+      ],
+      "text": "0x51fdb8",
+      "bytes": "e8daffffff"
+    },
+    {
+      "address": 5373406,
+      "next": 5373408,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5373408,
+      "next": 5373409,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "55"
+    },
+    {
+      "address": 5373409,
+      "next": 5373414,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373455
+        }
+      ],
+      "text": "0x51fe0f",
+      "bytes": "680ffe5100"
+    },
+    {
+      "address": 5373414,
+      "next": 5373417,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        }
+      ],
+      "text": "dword ptr fs:[eax]",
+      "bytes": "64ff30"
+    },
+    {
+      "address": 5373417,
+      "next": 5373420,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esp"
+        }
+      ],
+      "text": "dword ptr fs:[eax], esp",
+      "bytes": "648920"
+    },
+    {
+      "address": 5373420,
+      "next": 5373423,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5373423,
+      "next": 5373426,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + 4]",
+      "bytes": "8b4004"
+    },
+    {
+      "address": 5373426,
+      "next": 5373428,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "edx, ebx",
+      "bytes": "8bd3"
+    },
+    {
+      "address": 5373428,
+      "next": 5373433,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5372816
+        }
+      ],
+      "text": "0x51fb90",
+      "bytes": "e897fdffff"
+    },
+    {
+      "address": 5373433,
+      "next": 5373435,
+      "mnemonic": "xor",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax, eax",
+      "bytes": "33c0"
+    },
+    {
+      "address": 5373435,
+      "next": 5373436,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "edx",
+      "bytes": "5a"
+    },
+    {
+      "address": 5373436,
+      "next": 5373437,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5373437,
+      "next": 5373438,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5373438,
+      "next": 5373441,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": "fs"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "dword ptr fs:[eax], edx",
+      "bytes": "648910"
+    },
+    {
+      "address": 5373441,
+      "next": 5373446,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373462
+        }
+      ],
+      "text": "0x51fe16",
+      "bytes": "6816fe5100"
+    },
+    {
+      "address": 5373446,
+      "next": 5373449,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebp",
+          "index": "",
+          "scale": 1,
+          "disp": -4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebp - 4]",
+      "bytes": "8b45fc"
+    },
+    {
+      "address": 5373449,
+      "next": 5373454,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373468
+        }
+      ],
+      "text": "0x51fe1c",
+      "bytes": "e80e000000"
+    },
+    {
+      "address": 5373454,
+      "next": 5373455,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5373455,
+      "next": 5373460,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5446408
+        }
+      ],
+      "text": "0x531b08",
+      "bytes": "e9f41c0100"
+    },
+    {
+      "address": 5373460,
+      "next": 5373462,
+      "mnemonic": "jmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5373446
+        }
+      ],
+      "text": "0x51fe06",
+      "bytes": "ebf0"
+    },
+    {
+      "address": 5373462,
+      "next": 5373463,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5373463,
+      "next": 5373464,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        }
+      ],
+      "text": "ecx",
+      "bytes": "59"
+    },
+    {
+      "address": 5373464,
+      "next": 5373465,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebp"
+        }
+      ],
+      "text": "ebp",
+      "bytes": "5d"
+    },
+    {
+      "address": 5373465,
+      "next": 5373466,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5373466,
+      "next": 5373467,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5373467,
+      "next": 5373468,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5373468,
+      "next": 5373471,
+      "mnemonic": "add",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 8
+        }
+      ],
+      "text": "eax, 8",
+      "bytes": "83c008"
+    },
+    {
+      "address": 5373471,
+      "next": 5373472,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "eax",
+      "bytes": "50"
+    },
+    {
+      "address": 5373472,
+      "next": 5373477,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5591072
+        }
+      ],
+      "text": "0x555020",
+      "bytes": "e8fb510300"
+    },
+    {
+      "address": 5373477,
+      "next": 5373478,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5373478,
+      "next": 5373479,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5373479,
+      "next": 5373480,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    },
+    {
+      "address": 5372408,
+      "next": 5372409,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "53"
+    },
+    {
+      "address": 5372409,
+      "next": 5372410,
+      "mnemonic": "push",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "56"
+    },
+    {
+      "address": 5372410,
+      "next": 5372412,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        }
+      ],
+      "text": "esi, edx",
+      "bytes": "8bf2"
+    },
+    {
+      "address": 5372412,
+      "next": 5372414,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        }
+      ],
+      "text": "ebx, eax",
+      "bytes": "8bd8"
+    },
+    {
+      "address": 5372414,
+      "next": 5372416,
+      "mnemonic": "test",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi, esi",
+      "bytes": "85f6"
+    },
+    {
+      "address": 5372416,
+      "next": 5372418,
+      "mnemonic": "jl",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5372423
+        }
+      ],
+      "text": "0x51fa07",
+      "bytes": "7c05"
+    },
+    {
+      "address": 5372418,
+      "next": 5372421,
+      "mnemonic": "cmp",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 8,
+          "segment": ""
+        }
+      ],
+      "text": "esi, dword ptr [ebx + 8]",
+      "bytes": "3b7308"
+    },
+    {
+      "address": 5372421,
+      "next": 5372423,
+      "mnemonic": "jl",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5372438
+        }
+      ],
+      "text": "0x51fa16",
+      "bytes": "7c0f"
+    },
+    {
+      "address": 5372423,
+      "next": 5372429,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "edx"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "",
+          "index": "",
+          "scale": 1,
+          "disp": 5741092,
+          "segment": ""
+        }
+      ],
+      "text": "edx, dword ptr [0x579a24]",
+      "bytes": "8b15249a5700"
+    },
+    {
+      "address": 5372429,
+      "next": 5372431,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ecx"
+        },
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "ecx, esi",
+      "bytes": "8bce"
+    },
+    {
+      "address": 5372431,
+      "next": 5372433,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx]",
+      "bytes": "8b03"
+    },
+    {
+      "address": 5372433,
+      "next": 5372438,
+      "mnemonic": "call",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "imm",
+          "value": 5372292
+        }
+      ],
+      "text": "0x51f984",
+      "bytes": "e86effffff"
+    },
+    {
+      "address": 5372438,
+      "next": 5372441,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "ebx",
+          "index": "",
+          "scale": 1,
+          "disp": 4,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [ebx + 4]",
+      "bytes": "8b4304"
+    },
+    {
+      "address": 5372441,
+      "next": 5372444,
+      "mnemonic": "mov",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "eax"
+        },
+        {
+          "size": 4,
+          "kind": "mem",
+          "base": "eax",
+          "index": "esi",
+          "scale": 4,
+          "disp": 0,
+          "segment": ""
+        }
+      ],
+      "text": "eax, dword ptr [eax + esi*4]",
+      "bytes": "8b04b0"
+    },
+    {
+      "address": 5372444,
+      "next": 5372445,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "esi"
+        }
+      ],
+      "text": "esi",
+      "bytes": "5e"
+    },
+    {
+      "address": 5372445,
+      "next": 5372446,
+      "mnemonic": "pop",
+      "operands": [
+        {
+          "size": 4,
+          "kind": "reg",
+          "reg": "ebx"
+        }
+      ],
+      "text": "ebx",
+      "bytes": "5b"
+    },
+    {
+      "address": 5372446,
+      "next": 5372447,
+      "mnemonic": "ret",
+      "operands": [],
+      "text": "",
+      "bytes": "c3"
+    },
+    {
+      "address": 5372447,
+      "next": 5372448,
+      "mnemonic": "nop",
+      "operands": [],
+      "text": "",
+      "bytes": "90"
+    }
+  ],
+  "ranges": [
+    [
+      5149768,
+      5149868
+    ],
+    [
+      5150444,
+      5150460
+    ],
+    [
+      5145160,
+      5145264
+    ],
+    [
+      5131140,
+      5131168
+    ],
+    [
+      5131468,
+      5131508
+    ],
+    [
+      5131352,
+      5131468
+    ],
+    [
+      5148976,
+      5149024
+    ],
+    [
+      5149644,
+      5149768
+    ],
+    [
+      5431740,
+      5431756
+    ],
+    [
+      5444616,
+      5444628
+    ],
+    [
+      5145424,
+      5145660
+    ],
+    [
+      5129856,
+      5129896
+    ],
+    [
+      5145036,
+      5145160
+    ],
+    [
+      5150556,
+      5150740
+    ],
+    [
+      5373368,
+      5373480
+    ],
+    [
+      5372408,
+      5372448
+    ]
+  ],
+  "scope": "Original lazy Canvas creation/alias and handle prefix; imported DC/GDI and nonempty-image copy branches remain explicit boundaries"
+}

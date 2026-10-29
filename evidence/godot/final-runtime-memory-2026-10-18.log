@@ -1,0 +1,50 @@
+Final runtime memory validation 2026-10-18T18:03:55.168864+08:00
+Fresh Godot processes; no test allocation profile supplied to production allocation test.
+Runtime sources unchanged during checks: True
+
+test_original_particle_zero_spans.gd | PASS | exit 0 | 0.353 seconds
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":20,"failures":[]}
+PASS compact source-zero particle memory preserves unknowns writes reset boundaries and aliases
+
+test_original_particle_owned_stack.gd | PASS | exit 0 | 0.36 seconds
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":15,"failures":[]}
+PASS owned particle stack preserves actual supplied prior bytes and source writes without unknown fallbacks
+
+test_original_particle_pixel_loops.gd | PASS | exit 0 | 0.956 seconds
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"cases":22,"failures":[]}
+PASS exact source pixel-loop ports match all VM bytes registers flags and x87 state
+
+test_original_particle_selected_pool.gd | PASS | exit 0 | 0.255 seconds
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":54,"failures":[]}
+PASS source current-vessel pool lookups and selected-phase isolation preserve full-prefix output
+
+test_original_runtime_allocation.gd | PASS | exit 0 | 17.464 seconds
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":128,"examples":28,"failures":[]}
+PASS production-owned source allocator startup all28 examples without observations or fixture allocation cells
+
+test_original_runtime_gas_frame.gd | PASS | exit 0 | 0.755 seconds
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":134,"failures":[],"native_cases":6,"native_stack_accesses":10}
+PASS source gas physical-stack ABI reads/stores, stale values, lazy access and exact native transfer results
+
+Runtime source SHA256:
+{
+  "godot/scripts/original/original_particle_vm.gd": "c43f8c37309907852418b4096f2ec561b8938bc8116348ed87cfcd2a761d7a2c",
+  "godot/scripts/original/original_particle_frame.gd": "9886d6235515f0d8480b4d022571975d9d628c06e251467f197782608dc63a3a",
+  "godot/scripts/original/original_particle_pixel_loops.gd": "5975f82b532cff67d461468f361bb006d15cf3cc996231d23efd1140fc04ed70",
+  "godot/scripts/original/original_runtime_allocation.gd": "5d52fe1329ad6cbeab526dfc33cd6899fad7169b98a730322cd8d48ba3563810",
+  "godot/scripts/original/original_runtime_gas_frame.gd": "0677db0750cb462759845395332888f41a9a4b9a3334fdfecc876b7b8c8a1dda"
+}
+
+Overall: PASS

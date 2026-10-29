@@ -1,0 +1,972 @@
+{
+  "date": "2026-10-18",
+  "version": "0.1.2",
+  "status": "PASS",
+  "regression_scripts": 107,
+  "results": [
+    {
+      "test": "legacy_formats_test.gd",
+      "passed": true,
+      "log": "evidence/godot/test-0.console.log",
+      "log_sha256": "4aa9b2b28be12f32716bfcf06bb8c45fbe330f631f8d813927fff43711027107",
+      "packaged_log": "verification/test-0.console.log"
+    },
+    {
+      "test": "test_actual_paused_particle_checkpoint.gd",
+      "passed": true,
+      "log": "evidence/godot/test-1.console.log",
+      "log_sha256": "6d49398ccdf07ffb9feb80fd519fc2f2b1421474b7f4ab6b3ffd26d7017d99fd",
+      "packaged_log": "verification/test-1.console.log"
+    },
+    {
+      "test": "test_actual_pen_owned_recursive_locks.gd",
+      "passed": true,
+      "log": "evidence/godot/test-2.console.log",
+      "log_sha256": "7e8036da6afdd4cf1edbe10721b2d3f4a7c2297f82d575abf24d8971a2e7f4f2",
+      "packaged_log": "verification/test-2.console.log"
+    },
+    {
+      "test": "test_adapter.gd",
+      "passed": true,
+      "log": "evidence/godot/test-3.console.log",
+      "log_sha256": "42fdddde00a5bfb7b97fe5b908f4cea91def613ec3a1206e118f616acbb6c094",
+      "packaged_log": "verification/test-3.console.log"
+    },
+    {
+      "test": "test_canvas_pointer_ui.gd",
+      "passed": true,
+      "log": "evidence/godot/test-4.console.log",
+      "log_sha256": "763d1f0b8e92fd327f8fd0af70f851bd22788940e7042c73bd361feeb78c3916",
+      "packaged_log": "verification/test-4.console.log"
+    },
+    {
+      "test": "test_dialogs.gd",
+      "passed": true,
+      "log": "evidence/godot/test-5.console.log",
+      "log_sha256": "5bc49b72121450f97620eef5cf35ec2859090a139dd663c8087d3b5181a66530",
+      "packaged_log": "verification/test-5.console.log"
+    },
+    {
+      "test": "test_encyclopedia.gd",
+      "passed": true,
+      "log": "evidence/godot/test-6.console.log",
+      "log_sha256": "7b297116f92690af6c2061042358cab673c1ab18af60a7a21f309fef37d6f5ac",
+      "packaged_log": "verification/test-6.console.log"
+    },
+    {
+      "test": "test_legacy_encoding.gd",
+      "passed": true,
+      "log": "evidence/godot/test-7.console.log",
+      "log_sha256": "a3fdf905c012020f1fa37c8520dbf85148cd8c6d1a7f52f9964718884aeea113",
+      "packaged_log": "verification/test-7.console.log"
+    },
+    {
+      "test": "test_molecule.gd",
+      "passed": true,
+      "log": "evidence/godot/test-8.console.log",
+      "log_sha256": "008d7135591c2b57da7364473512952aff0fa8ab33948719b9dc31cfaa67784d",
+      "packaged_log": "verification/test-8.console.log"
+    },
+    {
+      "test": "test_native_action_workflow.gd",
+      "passed": true,
+      "log": "evidence/godot/test-9.console.log",
+      "log_sha256": "5fff69396048fe4653b0d20c2bd252fd1fc22a3ddd6dc7a48137421618c139f9",
+      "packaged_log": "verification/test-9.console.log"
+    },
+    {
+      "test": "test_native_canvas_presentation.gd",
+      "passed": true,
+      "log": "evidence/godot/test-10.console.log",
+      "log_sha256": "c41b4097077613a9908f987f8cee6fde122f2816a2ceba1259f57b0a759d08fc",
+      "packaged_log": "verification/test-10.console.log"
+    },
+    {
+      "test": "test_native_closed_window_dispatch.gd",
+      "passed": true,
+      "log": "evidence/godot/test-11.console.log",
+      "log_sha256": "2f9c4e885355de8fefe5a23f101cd4a77fcaf9b9ae24992160d3e97bfa42d9a9",
+      "packaged_log": "verification/test-11.console.log"
+    },
+    {
+      "test": "test_native_controls_dispatch.gd",
+      "passed": true,
+      "log": "evidence/godot/test-12.console.log",
+      "log_sha256": "3948fb06afd214aa2b2848da099677a042ce256080ae4f162cdf02b43b883b51",
+      "packaged_log": "verification/test-12.console.log"
+    },
+    {
+      "test": "test_native_live_property_ui.gd",
+      "passed": true,
+      "log": "evidence/godot/test-13.console.log",
+      "log_sha256": "664f8d459750966d214839239cad906d8ff6ecb067493783573f795857261363",
+      "packaged_log": "verification/test-13.console.log"
+    },
+    {
+      "test": "test_native_pour_menu.gd",
+      "passed": true,
+      "log": "evidence/godot/test-14.console.log",
+      "log_sha256": "b114d086b6a2d64e78de219ecaff5ca6d9a6021fa67b136017a19e0bfd15780c",
+      "packaged_log": "verification/test-14.console.log"
+    },
+    {
+      "test": "test_native_property_modal_ui.gd",
+      "passed": true,
+      "log": "evidence/godot/test-15.console.log",
+      "log_sha256": "46ced45b889ef38df6453062747c2384cca0189c0ef79ec64151868e1f1d5020",
+      "packaged_log": "verification/test-15.console.log"
+    },
+    {
+      "test": "test_native_property_quantity_ui.gd",
+      "passed": true,
+      "log": "evidence/godot/test-16.console.log",
+      "log_sha256": "f3b0071080880b36c47e961689789d62e5362f160bdfd0473ca45610a759b775",
+      "packaged_log": "verification/test-16.console.log"
+    },
+    {
+      "test": "test_native_property_reaction_ui.gd",
+      "passed": true,
+      "log": "evidence/godot/test-17.console.log",
+      "log_sha256": "26f5a3fe3eb3db03e8d39f94e36b5b791f42ea891951b815b25425274fb6e6f1",
+      "packaged_log": "verification/test-17.console.log"
+    },
+    {
+      "test": "test_native_tilted_liquid_feedback.gd",
+      "passed": true,
+      "log": "evidence/godot/test-18.console.log",
+      "log_sha256": "a997d5a40bd81f2c3b06cebd99f1af907d49d532df69907840175a391ebbb3ae",
+      "packaged_log": "verification/test-18.console.log"
+    },
+    {
+      "test": "test_native_ui_integration.gd",
+      "passed": true,
+      "log": "evidence/godot/test-19.console.log",
+      "log_sha256": "f7d62c52c7d6867aef58210f77a6053ea0460783f5a40c240d25b887a347adf0",
+      "packaged_log": "verification/test-19.console.log"
+    },
+    {
+      "test": "test_opening_live_workflow.gd",
+      "passed": true,
+      "log": "evidence/godot/test-20.console.log",
+      "log_sha256": "d15b98aa028722f11a8c10291f9cb0928fb6ecb4392d59a6708918b5bb7ca1ed",
+      "packaged_log": "verification/test-20.console.log"
+    },
+    {
+      "test": "test_original_apparatus_actions.gd",
+      "passed": true,
+      "log": "evidence/godot/test-21.console.log",
+      "log_sha256": "7d2e9dbcc57786316c0750bdf40e0cfccccf3bcec8404a0abd310e16e4533074",
+      "packaged_log": "verification/test-21.console.log"
+    },
+    {
+      "test": "test_original_bitmap_canvas.gd",
+      "passed": true,
+      "log": "evidence/godot/test-22.console.log",
+      "log_sha256": "f61aae518d9563c41c260f6c7c397722edcd371252d336924e6d4c93a14af3e1",
+      "packaged_log": "verification/test-22.console.log"
+    },
+    {
+      "test": "test_original_bitmap_constructor.gd",
+      "passed": true,
+      "log": "evidence/godot/test-23.console.log",
+      "log_sha256": "9666a60aae1c04bdd96d15a3b3a9594d3e4eafec15c728f1cc6fc4240dd25340",
+      "packaged_log": "verification/test-23.console.log"
+    },
+    {
+      "test": "test_original_bitmap_scale.gd",
+      "passed": true,
+      "log": "evidence/godot/test-24.console.log",
+      "log_sha256": "a1f70a724c04e2d46a58d78f2fc98f9dd401d5c79db4e2bb5a71784afd6b545a",
+      "packaged_log": "verification/test-24.console.log"
+    },
+    {
+      "test": "test_original_brush.gd",
+      "passed": true,
+      "log": "evidence/godot/test-25.console.log",
+      "log_sha256": "dc310d0fe5cbe8c51a7eab69729f26e840d0a16c85ed60d70b5c5ff565733dce",
+      "packaged_log": "verification/test-25.console.log"
+    },
+    {
+      "test": "test_original_canvas_constructor.gd",
+      "passed": true,
+      "log": "evidence/godot/test-26.console.log",
+      "log_sha256": "23bbc37042385c149bb94192057b3af2c4994f994f70806f2852a12acee8ccb8",
+      "packaged_log": "verification/test-26.console.log"
+    },
+    {
+      "test": "test_original_canvas_drawing.gd",
+      "passed": true,
+      "log": "evidence/godot/test-27.console.log",
+      "log_sha256": "a6c71c0c961b3b63421f5b4d21c0642ffa982c45a5b4c59fb062aba18a158357",
+      "packaged_log": "verification/test-27.console.log"
+    },
+    {
+      "test": "test_original_chart.gd",
+      "passed": true,
+      "log": "evidence/godot/test-28.console.log",
+      "log_sha256": "da06c27cb57564575d29e744fa8a91612d5ae57fa2cd394c791dcef71a9f0716",
+      "packaged_log": "verification/test-28.console.log"
+    },
+    {
+      "test": "test_original_decimal.gd",
+      "passed": true,
+      "log": "evidence/godot/test-29.console.log",
+      "log_sha256": "0f82acde0d3087556f66d5e537e09039c242a9cd751ad1944be36d4be55e4b7a",
+      "packaged_log": "verification/test-29.console.log"
+    },
+    {
+      "test": "test_original_dib_capture_actual.gd",
+      "passed": true,
+      "log": "evidence/godot/test-30.console.log",
+      "log_sha256": "a93810679cbbee81c692035b29dc4fe8166cf8bbd07e41d2c4c221d22f85f43c",
+      "packaged_log": "verification/test-30.console.log"
+    },
+    {
+      "test": "test_original_direct_particle_rng.gd",
+      "passed": true,
+      "log": "evidence/godot/test-31.console.log",
+      "log_sha256": "df184ef6400a650c3c47f5b23ddde3814f3bcb9e7095b62b8b3313f25cdfc55d",
+      "packaged_log": "verification/test-31.console.log"
+    },
+    {
+      "test": "test_original_drag.gd",
+      "passed": true,
+      "log": "evidence/godot/test-32.console.log",
+      "log_sha256": "8a4145a7a51b44637687835c840101399594bcca4641d8219b4d084dc2f54750",
+      "packaged_log": "verification/test-32.console.log"
+    },
+    {
+      "test": "test_original_factory.gd",
+      "passed": true,
+      "log": "evidence/godot/test-33.console.log",
+      "log_sha256": "c0b003a3c960f51fce03ea0eb815178eea051f02fc774de8aee7dab9e77ccf2c",
+      "packaged_log": "verification/test-33.console.log"
+    },
+    {
+      "test": "test_original_fields.gd",
+      "passed": true,
+      "log": "evidence/godot/test-34.console.log",
+      "log_sha256": "2b498d2ea6328dfd8c5aae441d970caa7326c9a9db077847876e50103d528a66",
+      "packaged_log": "verification/test-34.console.log"
+    },
+    {
+      "test": "test_original_flow.gd",
+      "passed": true,
+      "log": "evidence/godot/test-35.console.log",
+      "log_sha256": "15d964c6c7b3c4ea4757e06a861d7a6bc2463141915684b54cbf4835ce411edf",
+      "packaged_log": "verification/test-35.console.log"
+    },
+    {
+      "test": "test_original_frames.gd",
+      "passed": true,
+      "log": "evidence/godot/test-36.console.log",
+      "log_sha256": "9d66a3285d3b006d339dc3c863b08bcb4017fbfc35a030dcc0f2e8612b85cd03",
+      "packaged_log": "verification/test-36.console.log"
+    },
+    {
+      "test": "test_original_gas_operand_order.gd",
+      "passed": true,
+      "log": "evidence/godot/test-37.console.log",
+      "log_sha256": "a1e9681a819f343993410c86c067b04af1fad65aca4dead5a9bf239234d952ea",
+      "packaged_log": "verification/test-37.console.log"
+    },
+    {
+      "test": "test_original_gas_visual.gd",
+      "passed": true,
+      "log": "evidence/godot/test-38.console.log",
+      "log_sha256": "cb901aa0b723194b804fda96017d7d97e59d94858f54b9fa6e2c9c81fe590a19",
+      "packaged_log": "verification/test-38.console.log"
+    },
+    {
+      "test": "test_original_gasflow.gd",
+      "passed": true,
+      "log": "evidence/godot/test-39.console.log",
+      "log_sha256": "0752016ae79757a9ef1ece6beb61111d2b7017892441f70def0482a90814a7c9",
+      "packaged_log": "verification/test-39.console.log"
+    },
+    {
+      "test": "test_original_gdi_capture_actual.gd",
+      "passed": true,
+      "log": "evidence/godot/test-40.console.log",
+      "log_sha256": "3a7d471cff3e7243e079e2827715bfde012c2953f7175c311dba85be84fcfd2b",
+      "packaged_log": "verification/test-40.console.log"
+    },
+    {
+      "test": "test_original_gdi_capture_guards.gd",
+      "passed": true,
+      "log": "evidence/godot/test-41.console.log",
+      "log_sha256": "113e6d8466f5254bf6732f7414b66a1bbfddef9885b9a687972e5f9dbd3ff323",
+      "packaged_log": "verification/test-41.console.log"
+    },
+    {
+      "test": "test_original_gdi_host.gd",
+      "passed": true,
+      "log": "evidence/godot/test-42.console.log",
+      "log_sha256": "3a4308dd8d88e6df181d136e2244a08f6fa36392fc1fd4e88e8ab8881bcbda88",
+      "packaged_log": "verification/test-42.console.log"
+    },
+    {
+      "test": "test_original_heap_boundaries.gd",
+      "passed": true,
+      "log": "evidence/godot/test-43.console.log",
+      "log_sha256": "cee9f609289282298ef652fd84c42af055ba1917ba28b8720cfae6294b5edc11",
+      "packaged_log": "verification/test-43.console.log"
+    },
+    {
+      "test": "test_original_heap_selection.gd",
+      "passed": true,
+      "log": "evidence/godot/test-44.console.log",
+      "log_sha256": "190faaf81ec20160a3c7d08fc92614e3f74a63ebecee6818bbeb45154f7c4550",
+      "packaged_log": "verification/test-44.console.log"
+    },
+    {
+      "test": "test_original_heap_vessel_view.gd",
+      "passed": true,
+      "log": "evidence/godot/test-45.console.log",
+      "log_sha256": "b1dcab3f2f3f6a2d02c05688173526307493b7b4700f7ef7f910d63150a189f4",
+      "packaged_log": "verification/test-45.console.log"
+    },
+    {
+      "test": "test_original_heat_geometry.gd",
+      "passed": true,
+      "log": "evidence/godot/test-46.console.log",
+      "log_sha256": "4461effb21f7e657fb3a8c2545d8451dc94ea1b4f5f33b0fe4d986343dcb2579",
+      "packaged_log": "verification/test-46.console.log"
+    },
+    {
+      "test": "test_original_interaction.gd",
+      "passed": true,
+      "log": "evidence/godot/test-47.console.log",
+      "log_sha256": "55b6ce6de34ff1546a5dea9aa93e6f81a3ef40d56f2074d8d20fc77e3f55f87f",
+      "packaged_log": "verification/test-47.console.log"
+    },
+    {
+      "test": "test_original_liquid.gd",
+      "passed": true,
+      "log": "evidence/godot/test-48.console.log",
+      "log_sha256": "9f248e646e13951d469dd0dd5b73ba107507eac22f93db4d38916e68ea362e1c",
+      "packaged_log": "verification/test-48.console.log"
+    },
+    {
+      "test": "test_original_live_property.gd",
+      "passed": true,
+      "log": "evidence/godot/test-49.console.log",
+      "log_sha256": "dfb2c432a8f3d98eb498ca25b851e98a364a52c3c9c0aaa86716dc91b24fc2ea",
+      "packaged_log": "verification/test-49.console.log"
+    },
+    {
+      "test": "test_original_material_rasterizer.gd",
+      "passed": true,
+      "log": "evidence/godot/test-50.console.log",
+      "log_sha256": "96779132a673a391ceedf8ab8745c6978ebe178a7808349315bce615462e4af4",
+      "packaged_log": "verification/test-50.console.log"
+    },
+    {
+      "test": "test_original_math.gd",
+      "passed": true,
+      "log": "evidence/godot/test-51.console.log",
+      "log_sha256": "7f652552aa872969859b9c1b9457c6aa42b621ae2dd15594d7faccdccf7ba6bd",
+      "packaged_log": "verification/test-51.console.log"
+    },
+    {
+      "test": "test_original_observed_particle_object.gd",
+      "passed": true,
+      "log": "evidence/godot/test-52.console.log",
+      "log_sha256": "7534655073ea02a7d063cf1d585ac887b874dee4c7be433b41daa01513cfbf72",
+      "packaged_log": "verification/test-52.console.log"
+    },
+    {
+      "test": "test_original_owned_memory_api.gd",
+      "passed": true,
+      "log": "evidence/godot/test-53.console.log",
+      "log_sha256": "5dec8407b381c8e5addb6203f3b933ce2c9fe68eff73d627b750d2742eef2c66",
+      "packaged_log": "verification/test-53.console.log"
+    },
+    {
+      "test": "test_original_owned_recursive_locks.gd",
+      "passed": true,
+      "log": "evidence/godot/test-54.console.log",
+      "log_sha256": "0b8859d82ab531999c1c3893559427e85935aae88bde5d97aaeb938e9f6214fa",
+      "packaged_log": "verification/test-54.console.log"
+    },
+    {
+      "test": "test_original_particle_frames.gd",
+      "passed": true,
+      "log": "evidence/godot/test-55.console.log",
+      "log_sha256": "2cb7aadca16ea0ae12281fffd3b2b3b1f5bd4b3a76a8618d4defb3aee858edb4",
+      "packaged_log": "verification/test-55.console.log"
+    },
+    {
+      "test": "test_original_particle_owned_stack.gd",
+      "passed": true,
+      "log": "evidence/godot/test-56.console.log",
+      "log_sha256": "58310dee10e501e7580ee367df1ae5646add58f51013bc3995d3c386fa26eef4",
+      "packaged_log": "verification/test-56.console.log"
+    },
+    {
+      "test": "test_original_particle_pixel_loops.gd",
+      "passed": true,
+      "log": "evidence/godot/test-57.console.log",
+      "log_sha256": "00709d7928ad4ab483ee2ed26a96ec147fb0e5ea3ae66f9103bd7fef7b9cf9d1",
+      "packaged_log": "verification/test-57.console.log"
+    },
+    {
+      "test": "test_original_particle_presentation_boundary.gd",
+      "passed": true,
+      "log": "evidence/godot/test-58.console.log",
+      "log_sha256": "b02bba740b078c36ed9ba9b45d5460b0236b2279a3d5895ee87efde37b9ff129",
+      "packaged_log": "verification/test-58.console.log"
+    },
+    {
+      "test": "test_original_particle_selected_pool.gd",
+      "passed": true,
+      "log": "evidence/godot/test-59.console.log",
+      "log_sha256": "d6d3a572340c38d59e368045cd153541d3f877048c34e44ed34c90de13441eb6",
+      "packaged_log": "verification/test-59.console.log"
+    },
+    {
+      "test": "test_original_particle_unknowns.gd",
+      "passed": true,
+      "log": "evidence/godot/test-60.console.log",
+      "log_sha256": "f446e65b9fdfab57d09bc63ade282bf79a2fc8ea7ecdb07b34119e156d4a99da",
+      "packaged_log": "verification/test-60.console.log"
+    },
+    {
+      "test": "test_original_particle_vm_opcodes.gd",
+      "passed": true,
+      "log": "evidence/godot/test-61.console.log",
+      "log_sha256": "949218303c737e04f7e5142885f77b36f03d12d8c081c49eb96ddacf19728728",
+      "packaged_log": "verification/test-61.console.log"
+    },
+    {
+      "test": "test_original_particle_zero_spans.gd",
+      "passed": true,
+      "log": "evidence/godot/test-62.console.log",
+      "log_sha256": "640e0aabf3507f05e3b7eae3505c3894765f63cb0f45ac41521c7ff08581e41c",
+      "packaged_log": "verification/test-62.console.log"
+    },
+    {
+      "test": "test_original_particles.gd",
+      "passed": true,
+      "log": "evidence/godot/test-63.console.log",
+      "log_sha256": "a21771719672a5427fcd1219a71d4dcc9ec3ca024d8b950a917a82582b84bbd8",
+      "packaged_log": "verification/test-63.console.log"
+    },
+    {
+      "test": "test_original_particles_host.gd",
+      "passed": true,
+      "log": "evidence/godot/test-64.console.log",
+      "log_sha256": "be4ccb529015e19c13af8eb61a1f1662fe8eefeceeffdebe4fd855c0b15dba16",
+      "packaged_log": "verification/test-64.console.log"
+    },
+    {
+      "test": "test_original_pen.gd",
+      "passed": true,
+      "log": "evidence/godot/test-65.console.log",
+      "log_sha256": "100c9b002501896161c51967f9d4aedb5509235037956fb58487fb03c8e686b7",
+      "packaged_log": "verification/test-65.console.log"
+    },
+    {
+      "test": "test_original_pen_boundaries.gd",
+      "passed": true,
+      "log": "evidence/godot/test-66.console.log",
+      "log_sha256": "8cff8e522537fc42a60bdbafa61ba4fae760e0bafa4b844993160027f78d1af3",
+      "packaged_log": "verification/test-66.console.log"
+    },
+    {
+      "test": "test_original_presentation_adoption.gd",
+      "passed": true,
+      "log": "evidence/godot/final-runtime-presentation-2026-10-18.log",
+      "log_sha256": "d572213e9e1346f334790f415c4aa876f24e36157b71f24ab55e93ef7eb73b80",
+      "packaged_log": "verification/final-runtime-presentation-2026-10-18.log"
+    },
+    {
+      "test": "test_original_presentation_orchestrator.gd",
+      "passed": true,
+      "log": "evidence/godot/test-68.console.log",
+      "log_sha256": "555ae55584bbde96589245a0997775a0907d4a44d7a0e85d0ac2295baa09073f",
+      "packaged_log": "verification/test-68.console.log"
+    },
+    {
+      "test": "test_original_primitive_boundary_replies.gd",
+      "passed": true,
+      "log": "evidence/godot/test-69.console.log",
+      "log_sha256": "4ac81638475236561ce735ccecadbff980d29789dfa125540de0d82f90a889eb",
+      "packaged_log": "verification/test-69.console.log"
+    },
+    {
+      "test": "test_original_program.gd",
+      "passed": true,
+      "log": "evidence/godot/test-70.console.log",
+      "log_sha256": "7e3256a6433d827cddedfd76fa4d80730699d98890423b1e6c903b3e9b971f7f",
+      "packaged_log": "verification/test-70.console.log"
+    },
+    {
+      "test": "test_original_property_quantity.gd",
+      "passed": true,
+      "log": "evidence/godot/test-71.console.log",
+      "log_sha256": "b14cd9cb667a91bb258e8c88eb8001557c0510f95cb1893ffcd1013aae80abd9",
+      "packaged_log": "verification/test-71.console.log"
+    },
+    {
+      "test": "test_original_property_reaction.gd",
+      "passed": true,
+      "log": "evidence/godot/test-72.console.log",
+      "log_sha256": "a270b95c7e10fa8dba4866a372b59078910a543c36c9cafd52949e80075a0df7",
+      "packaged_log": "verification/test-72.console.log"
+    },
+    {
+      "test": "test_original_quantities_thermal.gd",
+      "passed": true,
+      "log": "evidence/godot/test-73.console.log",
+      "log_sha256": "b434d03b244375b12550fac5e182181add0d28ffa957ff43f2f6985f4cbb9e35",
+      "packaged_log": "verification/test-73.console.log"
+    },
+    {
+      "test": "test_original_reaction.gd",
+      "passed": true,
+      "log": "evidence/godot/test-74.console.log",
+      "log_sha256": "877a43ec6c2cbe0c47b01aa677b0b31a9e456c01ec601eee0bd4734f716d6582",
+      "packaged_log": "verification/test-74.console.log"
+    },
+    {
+      "test": "test_original_reaction_corpus.gd",
+      "passed": true,
+      "log": "evidence/godot/test-75.console.log",
+      "log_sha256": "7e6f2f4a0f46d540259156d37a7c574c0cfe0fffadad46baa68c07c8aec42a95",
+      "packaged_log": "verification/test-75.console.log"
+    },
+    {
+      "test": "test_original_rng_lazy_access.gd",
+      "passed": true,
+      "log": "evidence/godot/test-76.console.log",
+      "log_sha256": "bd27babcdaf955318749146dba15c26eb1929cfb386e8a13dce26a37cd616a1b",
+      "packaged_log": "verification/test-76.console.log"
+    },
+    {
+      "test": "test_original_run_corpus.gd",
+      "passed": true,
+      "log": "evidence/godot/test-77.console.log",
+      "log_sha256": "1ee2e16b8f7d98d9dffae74467e90c05fa90e8a61f446d4ac7728da000cfdbaa",
+      "packaged_log": "verification/test-77.console.log"
+    },
+    {
+      "test": "test_original_runtime_allocation.gd",
+      "passed": true,
+      "log": "evidence/godot/test-78.console.log",
+      "log_sha256": "586c95f6c25448db38e03541b0fa707f5dc08c25c1ddbee0df1fa1aa4532595f",
+      "packaged_log": "verification/test-78.console.log"
+    },
+    {
+      "test": "test_original_runtime_gas_frame.gd",
+      "passed": true,
+      "log": "evidence/godot/test-79.console.log",
+      "log_sha256": "38676ba7ec8def072623434894be40497561d7486e53cb84b63a7d553f362800",
+      "packaged_log": "verification/test-79.console.log"
+    },
+    {
+      "test": "test_original_runtime_profile.gd",
+      "passed": true,
+      "log": "evidence/godot/test-80.console.log",
+      "log_sha256": "2a78055d2ed6fd5c3477dcd94536a8fdf9fdb32ddcf10ac0e7128d8325833fd2",
+      "packaged_log": "verification/test-80.console.log"
+    },
+    {
+      "test": "test_original_runtime_rng.gd",
+      "passed": true,
+      "log": "evidence/godot/test-81.console.log",
+      "log_sha256": "43cd916c7657615126868303c7d7e028f42461e0f6f59bbbf7e3c816110951d9",
+      "packaged_log": "verification/test-81.console.log"
+    },
+    {
+      "test": "test_original_selection.gd",
+      "passed": true,
+      "log": "evidence/godot/test-82.console.log",
+      "log_sha256": "4f8347606455d597c55e0f6230ff9b75971410e05eb4ddea85d762c52f462de7",
+      "packaged_log": "verification/test-82.console.log"
+    },
+    {
+      "test": "test_original_shared_heap.gd",
+      "passed": true,
+      "log": "evidence/godot/test-83.console.log",
+      "log_sha256": "c652c50aa2be4c620add5e1d8384a5ef19f6c79dee2e33c72d7717e1428c570b",
+      "packaged_log": "verification/test-83.console.log"
+    },
+    {
+      "test": "test_original_shared_vcl_world.gd",
+      "passed": true,
+      "log": "evidence/godot/test-84.console.log",
+      "log_sha256": "117d18dcb09fdb06b45e1d4e81bd41d2c47b2f27b31a965484312a836006d4cb",
+      "packaged_log": "verification/test-84.console.log"
+    },
+    {
+      "test": "test_original_slots.gd",
+      "passed": true,
+      "log": "evidence/godot/test-85.console.log",
+      "log_sha256": "d32d08e50b09ef97e8abad1935d86a73255b08565b0dd5ad15292f36ba083022",
+      "packaged_log": "verification/test-85.console.log"
+    },
+    {
+      "test": "test_original_solid_visual.gd",
+      "passed": true,
+      "log": "evidence/godot/test-86.console.log",
+      "log_sha256": "66d4588348804c91ab796929ed24540bc328150be6af77833f5c06ee05102312",
+      "packaged_log": "verification/test-86.console.log"
+    },
+    {
+      "test": "test_original_solubility.gd",
+      "passed": true,
+      "log": "evidence/godot/test-87.console.log",
+      "log_sha256": "d47764022b405b00aa6d4d68212b961638ad85905cc470824c9b51d25989ca60",
+      "packaged_log": "verification/test-87.console.log"
+    },
+    {
+      "test": "test_original_sqrt.gd",
+      "passed": true,
+      "log": "evidence/godot/test-88.console.log",
+      "log_sha256": "a61e8721cf263c633e6210448bdf8541aa62145d4118806c64bf77203a468b61",
+      "packaged_log": "verification/test-88.console.log"
+    },
+    {
+      "test": "test_original_startup_rng.gd",
+      "passed": true,
+      "log": "evidence/godot/test-89.console.log",
+      "log_sha256": "b48fc1459b2daaaca1f0813e2f378fc1b3e01ea61b2ebb92998985c7834d2fc5",
+      "packaged_log": "verification/test-89.console.log"
+    },
+    {
+      "test": "test_original_surface_outline.gd",
+      "passed": true,
+      "log": "evidence/godot/test-90.console.log",
+      "log_sha256": "130a13f97e8a20a58849503321e6f28db0b89edb50fce3f922f9bf937dc6bd66",
+      "packaged_log": "verification/test-90.console.log"
+    },
+    {
+      "test": "test_original_tan_host.gd",
+      "passed": true,
+      "log": "evidence/godot/test-91.console.log",
+      "log_sha256": "10f4b0c499080c31040ae84dd57aa4f161448d827a557828b1c917817766b70b",
+      "packaged_log": "verification/test-91.console.log"
+    },
+    {
+      "test": "test_original_transfer.gd",
+      "passed": true,
+      "log": "evidence/godot/test-92.console.log",
+      "log_sha256": "e75350323f8ef8f1ad9caa1eaee7f4923ab0b7e45ec0acc6d63b87172efa67f9",
+      "packaged_log": "verification/test-92.console.log"
+    },
+    {
+      "test": "test_original_trig.gd",
+      "passed": true,
+      "log": "evidence/godot/test-93.console.log",
+      "log_sha256": "eae7bd757449b7cf5e909ebdc8826b4f21b036964f91b476aa185b2677dffdac",
+      "packaged_log": "verification/test-93.console.log"
+    },
+    {
+      "test": "test_original_ui_clock.gd",
+      "passed": true,
+      "log": "evidence/godot/test-94.console.log",
+      "log_sha256": "3f6e47e5c96827f7275cce03d0abdb49f78d1fd63d88149309b28b29eea7554e",
+      "packaged_log": "verification/test-94.console.log"
+    },
+    {
+      "test": "test_original_ui_dispatch.gd",
+      "passed": true,
+      "log": "evidence/godot/test-95.console.log",
+      "log_sha256": "3a8bf76e4694dd1482b52c09239f6d9fd4bb3a15218cbf5824b0eb4ef7008efd",
+      "packaged_log": "verification/test-95.console.log"
+    },
+    {
+      "test": "test_original_variable_cleanup.gd",
+      "passed": true,
+      "log": "evidence/godot/test-96.console.log",
+      "log_sha256": "072dc2b0496552da81b59f80b76731d1a046362b0951c2cf5b15bbbbaabc26e3",
+      "packaged_log": "verification/test-96.console.log"
+    },
+    {
+      "test": "test_original_vessel_bitmap_renderer.gd",
+      "passed": true,
+      "log": "evidence/godot/test-97.console.log",
+      "log_sha256": "5d22f689d8a4274849b776a4897a97c5a37111deb6f2affcd7b9ca2fc1bc4f0d",
+      "packaged_log": "verification/test-97.console.log"
+    },
+    {
+      "test": "test_original_window_input_gate.gd",
+      "passed": true,
+      "log": "evidence/godot/test-98.console.log",
+      "log_sha256": "0556630ed4f7db0b8de0144fe356f8c21248564a138a10ffd5068531bde06fec",
+      "packaged_log": "verification/test-98.console.log"
+    },
+    {
+      "test": "test_original_windows_capture.gd",
+      "passed": true,
+      "log": "evidence/godot/test-99.console.log",
+      "log_sha256": "3333a1b830595db9649451f955492baefb19ffc8bf8f4ed5acdefdaf9a7daf0e",
+      "packaged_log": "verification/test-99.console.log"
+    },
+    {
+      "test": "test_original_windows_withdrawal.gd",
+      "passed": true,
+      "log": "evidence/godot/test-100.console.log",
+      "log_sha256": "b8457c6bdff73c026466a4c4b474110c2ab97dff99de7cd94e52142dc459fffa",
+      "packaged_log": "verification/test-100.console.log"
+    },
+    {
+      "test": "test_original_workflow.gd",
+      "passed": true,
+      "log": "evidence/godot/test-101.console.log",
+      "log_sha256": "c4a3efe462e4702a8baf84fd3d89c7347fa1d0cf5d65238d19cb2935178090b1",
+      "packaged_log": "verification/test-101.console.log"
+    },
+    {
+      "test": "test_original_x87_arithmetic.gd",
+      "passed": true,
+      "log": "evidence/godot/test-102.console.log",
+      "log_sha256": "e253cbc6541726d131bd26822f9f274af06a746cc9d4fa158c11a72ee37219b8",
+      "packaged_log": "verification/test-102.console.log"
+    },
+    {
+      "test": "test_original_x87_host.gd",
+      "passed": true,
+      "log": "evidence/godot/test-103.console.log",
+      "log_sha256": "a214f1e29c0284e9a4dbb0d4c86789898dc024a7417570e89bad9274043312e1",
+      "packaged_log": "verification/test-103.console.log"
+    },
+    {
+      "test": "test_original_x87_signed_zero.gd",
+      "passed": true,
+      "log": "evidence/godot/test-104.console.log",
+      "log_sha256": "d2e649834dfecf1dde25150fd9f0ce2b205b47733c7c7496f359f5e7d04aa45a",
+      "packaged_log": "verification/test-104.console.log"
+    },
+    {
+      "test": "test_source_live_renderer.gd",
+      "passed": true,
+      "log": "evidence/godot/test-105.console.log",
+      "log_sha256": "c4f1de29e3bba19dddbb2485124186a5fae81017e3131e29ddf018133fb0b58d",
+      "packaged_log": "verification/test-105.console.log"
+    },
+    {
+      "test": "test_source_pouring_render_branches.gd",
+      "passed": true,
+      "log": "evidence/godot/test-106.console.log",
+      "log_sha256": "29dbab657f4b83f0c5d16e8e905e34e387f96038b78029011fc02ba7214b80ba",
+      "packaged_log": "verification/test-106.console.log"
+    }
+  ],
+  "normal_ui_workflows": {
+    "display": {
+      "elapsed": 0.678,
+      "failures": [],
+      "fixture_profiles_injected": false,
+      "last_error": "",
+      "milestones": [
+        "Normal opening document",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "NaOH actually leaves bottle and enters dropper",
+        "Original two ml aspiration limit",
+        "Drag dropper through canvas",
+        "Copper hydroxide forms after actual drop",
+        "Drag dropper through canvas",
+        "Iron hydroxide forms after actual drop",
+        "Live source particle instructions execute during presentation",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "HCl actually enters its dropper",
+        "Drag dropper through canvas",
+        "HCl dissolves copper precipitate",
+        "Drag dropper through canvas",
+        "HCl dissolves iron precipitate",
+        "Drag acid bottle above copper beaker",
+        "Pour menu opens from right click",
+        "Original vessel exposes pouring item",
+        "Pour menu changes original orientation",
+        "Continuous pouring actually transfers liquid",
+        "Pour menu opens from right click",
+        "Original vessel exposes pouring item",
+        "Menu restores upright bottle",
+        "Normal simulation and source rendering remain active: {  }",
+        "Stop restores baseline",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "Withdrawal works again after Stop/Run and allocation reuse"
+      ],
+      "normal_startup": true,
+      "source_particle_frames": 156
+    },
+    "exported-pack": {
+      "failures": [],
+      "fixture_profiles_injected": false,
+      "last_error": "",
+      "milestones": [
+        "Normal opening document",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "NaOH actually leaves bottle and enters dropper",
+        "Original two ml aspiration limit",
+        "Drag dropper through canvas",
+        "Copper hydroxide forms after actual drop",
+        "Drag dropper through canvas",
+        "Iron hydroxide forms after actual drop",
+        "Live source particle instructions execute during presentation",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "HCl actually enters its dropper",
+        "Drag dropper through canvas",
+        "HCl dissolves copper precipitate",
+        "Drag dropper through canvas",
+        "HCl dissolves iron precipitate",
+        "Drag acid bottle above copper beaker",
+        "Pour menu opens from right click",
+        "Original vessel exposes pouring item",
+        "Pour menu changes original orientation",
+        "Continuous pouring actually transfers liquid",
+        "Pour menu opens from right click",
+        "Original vessel exposes pouring item",
+        "Menu restores upright bottle",
+        "Normal simulation and source rendering remain active: {  }",
+        "Stop restores baseline",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "Withdrawal works again after Stop/Run and allocation reuse"
+      ],
+      "normal_startup": true,
+      "simulation_elapsed": 0.66,
+      "source_particle_frames": 152,
+      "wall_seconds": 10.512389
+    },
+    "fresh-project": {
+      "failures": [],
+      "fixture_profiles_injected": false,
+      "last_error": "",
+      "milestones": [
+        "Normal opening document",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "NaOH actually leaves bottle and enters dropper",
+        "Original two ml aspiration limit",
+        "Drag dropper through canvas",
+        "Copper hydroxide forms after actual drop",
+        "Drag dropper through canvas",
+        "Iron hydroxide forms after actual drop",
+        "Live source particle instructions execute during presentation",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "HCl actually enters its dropper",
+        "Drag dropper through canvas",
+        "HCl dissolves copper precipitate",
+        "Drag dropper through canvas",
+        "HCl dissolves iron precipitate",
+        "Drag acid bottle above copper beaker",
+        "Pour menu opens from right click",
+        "Original vessel exposes pouring item",
+        "Pour menu changes original orientation",
+        "Continuous pouring actually transfers liquid",
+        "Pour menu opens from right click",
+        "Original vessel exposes pouring item",
+        "Menu restores upright bottle",
+        "Normal simulation and source rendering remain active: {  }",
+        "Stop restores baseline",
+        "Normal simulation and source rendering remain active: {  }",
+        "Select dropper exposed bulb",
+        "Withdrawal works again after Stop/Run and allocation reuse"
+      ],
+      "normal_startup": true,
+      "simulation_elapsed": 0.665,
+      "source_particle_frames": 152,
+      "wall_seconds": 10.392733
+    }
+  },
+  "runtime_source_sha256": {
+    "godot/scripts/encyclopedia_view.gd": "c1b2a9352c6d4a0d186b7491510f10b2f5662ca3e6c33bbb0bc54a3dc4210193",
+    "godot/scripts/experiment_adapter.gd": "f99c831dd4accc461e7baf78fda3892c067c17199d34831bc06cca44982160c7",
+    "godot/scripts/lab_canvas.gd": "01e778143c6922d0b612332d0c336f491041e942c9e5957ef25a097b7b0dc18e",
+    "godot/scripts/lab_dialogs.gd": "66d865229f6fade0bfcc805ad25bd9ea33dfc6a605bcd13200d198aeb996a7d6",
+    "godot/scripts/lab_model.gd": "0912436c9c3082eb8f14eabbacbfd0e23ad120d416ed0419ad10eeee6106e9b6",
+    "godot/scripts/lab_program.gd": "0b2db8efe282f237250a50e37874f9668898d0396a9c0521b71c8a20e546fd47",
+    "godot/scripts/legacy_encoding.gd": "e6d96b9f64d0c839334aeaed685199324ba11f1032d51fb5604ecc7194512e98",
+    "godot/scripts/legacy_formats.gd": "82ab89b80fe3a827b13823af08201f9be241c48336d4e492682e8cfef695a82f",
+    "godot/scripts/main.gd": "09bd3eca3d381bc2fe2a297ec6748f5fd5266c6c5c37c5ffc4ca6b9a86219093",
+    "godot/scripts/molecule_view.gd": "cb913b0ed17becf5d3b0e155a4a8ab2b95fce988ea3ed044301958a581a3ec68",
+    "godot/scripts/original/original_api_reply.gd": "4c0859dc16f230516030e979f1509cd06713b4b3053536feb31f4e773848da07",
+    "godot/scripts/original/original_apparatus_actions.gd": "eecdbf402363773acc6c3a6a8a960a469a991cfe86d73f8cc8b81c3de35914c0",
+    "godot/scripts/original/original_bitmap_canvas.gd": "54d5ee7e8ba085cbfd44e960619191598254c0e86aaeac9dbd699555fdc1faca",
+    "godot/scripts/original/original_bitmap_canvas_vm.gd": "f005c1df693a88d76cdb1f4bf8beefd5ddcfa3760809944be9059343c777553f",
+    "godot/scripts/original/original_bitmap_constructor.gd": "75d1525177ea6132b1ebf0e9dcbd33a39ed199f91196ed6bf06531d68259a4f9",
+    "godot/scripts/original/original_bitmap_constructor_vm.gd": "bd6c83ef0739ed06f2dd871c3e72c51c1681e2de989588adffdadc95aa5ebfe3",
+    "godot/scripts/original/original_bitmap_scale.gd": "7926f2a367004445ac470d9f6f5e3d87cf7dd96cc8dba7c4523bd4d0dfe7d3a3",
+    "godot/scripts/original/original_brush.gd": "09bc73d65cc6111ca34bd515b99f972ae11436097d7ae16b597e17681d70e2f2",
+    "godot/scripts/original/original_brush_vm.gd": "4e9e4580adcfc8012c767215a628c129a0b30e1a9112e59395f94e37a913c75d",
+    "godot/scripts/original/original_canvas_constructor.gd": "1743331bb73fa0f51765dc47a612d152c3f912d1d5151787e0b1dbe839051733",
+    "godot/scripts/original/original_canvas_constructor_vm.gd": "840d24219ff974930734a5579f200b048b5c5beebc680263fbf79f248005f028",
+    "godot/scripts/original/original_canvas_drawing.gd": "6aec4c56c321cce2f03c8a8c1ed56b0f6b0b04bd5dedff6119ceceaa6cdf7547",
+    "godot/scripts/original/original_canvas_drawing_vm.gd": "f589fa1acc99d55bd39fe6e7e758e357aa40e1e5bc574f6353af03b064211c9d",
+    "godot/scripts/original/original_canvas_frames.gd": "a1167d0fe4c1449bb9cacbe17d2234d85724c7d7e10ef3deff4bcf82a998546c",
+    "godot/scripts/original/original_canvas_presentation.gd": "f2ace24ca3e0add092deabff67a7fdcf1a2fde3768e6bb62bc0890d59ead8dfe",
+    "godot/scripts/original/original_chart.gd": "0bc4d182ea03e546db154f47241de4c3017da69c3b1be6414f70d6c56a35dc36",
+    "godot/scripts/original/original_chart_view.gd": "02130579f9d4fa1c27b862e535188ff336768057d13892df9ecf551c840fd200",
+    "godot/scripts/original/original_controls.gd": "50381a1f8bac15902dc4b02512f4b4937fc68e31c2a81dad8aa2de2967ef1d98",
+    "godot/scripts/original/original_factory.gd": "5a541d5afa7897e65818980effe28284b9371c28f7a753877c3a6855d589b20f",
+    "godot/scripts/original/original_flow.gd": "d09509062a8df99bc6c96d1fcf1b2600a050ad49f2f2ba98babd76ccf66407af",
+    "godot/scripts/original/original_gas_visual.gd": "176fe69566a14afdba7137bb126c97483da8c7ddf51f0067efeeb6e59742bfd0",
+    "godot/scripts/original/original_gasflow.gd": "d3683525ba40cd0b564bd9356024855245b848fcd3142e05ee377b7bf1649f74",
+    "godot/scripts/original/original_gdi_capture_provider.gd": "1eb48efa91a08a5b554d65e1cf5c9209af3a5638663280e5c565a2cead12e6dc",
+    "godot/scripts/original/original_gdi_host.gd": "a5089c4265d5c37389e6ffda1533164e826972bde1dea0b3634a8a1360e0c733",
+    "godot/scripts/original/original_heap_memory.gd": "4f565c4e1fd4b0b0e5cfe5646bb43fc5f85c1019b21dcf5a5f5edcf424e47147",
+    "godot/scripts/original/original_heap_selection.gd": "7cc2011ef3e8f13910bc26d24356a108dce33c96641bee617bc08c4824844ae2",
+    "godot/scripts/original/original_heap_vessel_view.gd": "43c549c120499443c237316ba3a6557293e0ea13d2cb0485f8d07ecff20b05a2",
+    "godot/scripts/original/original_heap_vm.gd": "8b01b75b6336bc5de72e6d5bd2d79fa3edd97f78108f37730ad81fdcb7f5b3a6",
+    "godot/scripts/original/original_heat_geometry.gd": "8522b119382f60ef1a738a7c38dff59784ee49c817b9a5f6cb05249878e4e13a",
+    "godot/scripts/original/original_interaction.gd": "68ff4529d6bd3aabdee5244bab8eeb80600e4d21a630e2a9c5e38cdbe5b4dd9c",
+    "godot/scripts/original/original_liquid.gd": "723e37d5ef75d0deb27e8aa7566f7a43f84cec734a8ce0d19249cddefa798324",
+    "godot/scripts/original/original_live_particles.gd": "996634e7c4632f724c0f4628473c0952aaa09414e560d5de2c7eeebd804f82e7",
+    "godot/scripts/original/original_live_property.gd": "f101737c7e11bbb7839889d9b4fb4fe2a0b7e9a5ae7ffcd795a95456fa7ce145",
+    "godot/scripts/original/original_material_rasterizer.gd": "f4e628331ad420ff0f4eba6fbabb044907ea5dc1438a5ef4723f922d037ce6a0",
+    "godot/scripts/original/original_math.gd": "b6c52c184221c0580412f6272b11ffa6ad80088d35ae055aa0ab6d069e7b8ddf",
+    "godot/scripts/original/original_observed_particle_object.gd": "b70cf3044310bedd36fcf8fc839d9ebb0f814406da2be852e15750fbd7ebc3c8",
+    "godot/scripts/original/original_owned_memory_api.gd": "1a06dc603aabecb37b0dacc2f880ec26741d38a2dd395447b707d35e1013956d",
+    "godot/scripts/original/original_owned_recursive_locks.gd": "d0705e88151dd7f8821e35aa3a6b6ced4e3b24a5af4d829152a84529f29a2983",
+    "godot/scripts/original/original_particle_frame.gd": "9886d6235515f0d8480b4d022571975d9d628c06e251467f197782608dc63a3a",
+    "godot/scripts/original/original_particle_pixel_loops.gd": "5975f82b532cff67d461468f361bb006d15cf3cc996231d23efd1140fc04ed70",
+    "godot/scripts/original/original_particle_rng.gd": "a4f941a92455596a7607e765b878937eceb72d5ff484abc12df2283f445ada57",
+    "godot/scripts/original/original_particle_vm.gd": "c43f8c37309907852418b4096f2ec561b8938bc8116348ed87cfcd2a761d7a2c",
+    "godot/scripts/original/original_pen.gd": "f20cc7c498532a4db6db32e465ca509e897df29269b0fc57d2a3313b16c51855",
+    "godot/scripts/original/original_pen_vm.gd": "3b3556d2895682852a03f0f84e1a8a9bc49d074def128a245151aa325144989d",
+    "godot/scripts/original/original_portable_raster.gd": "afa1916ac200936bade55ed47104c37c3f85ec277659543ff516152d9b47f06e",
+    "godot/scripts/original/original_presentation_controller.gd": "e207af5dbd642592de7a031d6dbcbe9c7504811702b6e54c6f8fa1332a5c2ce4",
+    "godot/scripts/original/original_presentation_orchestrator.gd": "4fc5662c0dd58e790f55f60f3950c9674e4068dac4b372b1ba944fdba8986784",
+    "godot/scripts/original/original_program.gd": "c044c42c04f72ce9b91d65fe94cda48789144d4107ff54fd8faff5289e3a6b78",
+    "godot/scripts/original/original_quantities.gd": "8bf40e4cd2d5b82312e76ab08861d55ed541ff65e786d05bd0c1760de79e17d0",
+    "godot/scripts/original/original_reaction.gd": "b9eeb973d3be5efa97506184ddf576630f4ef6dc9998cea34bd84a1caa2a7fc7",
+    "godot/scripts/original/original_runtime_allocation.gd": "5d52fe1329ad6cbeab526dfc33cd6899fad7169b98a730322cd8d48ba3563810",
+    "godot/scripts/original/original_runtime_gas_frame.gd": "0677db0750cb462759845395332888f41a9a4b9a3334fdfecc876b7b8c8a1dda",
+    "godot/scripts/original/original_runtime_profile.gd": "0333ef413eb01ab914efa456f33200122941ac50c19691702858e46e6b43c5c0",
+    "godot/scripts/original/original_runtime_rng.gd": "249e00f94e566942a292c208299bc85e30448f3dc0749c11829780fcd3ac5e97",
+    "godot/scripts/original/original_selection.gd": "b35b6ee78c0262363c3ba15f47cd5695e1968a04a0b776040e8c13857d61c406",
+    "godot/scripts/original/original_shared_heap.gd": "3e4b1bc4ad22a32fa8734fd55731190ebc6b6309bafb078f057e81f58d780134",
+    "godot/scripts/original/original_slots.gd": "9b328618322097d172b10557f4e46c7b73b29ea6c1ac9b5b34f237a81803793d",
+    "godot/scripts/original/original_solid_visual.gd": "de8d88f2afc856b4cd44fcaf110ccd70db74eefc5513c34b39b5f37e2c0c5817",
+    "godot/scripts/original/original_solubility.gd": "a9afd10fa629d9559631dd3ac8f080e5432b56c052dbdbcb1e0ac9b99d32c33f",
+    "godot/scripts/original/original_source_renderer.gd": "4dff40e738a1cc84a92768ee119249069fd8a384ba490b698df98c14d870446d",
+    "godot/scripts/original/original_startup_rng.gd": "9ddb9cd0a1841214837d10919362747e7d554d21f9e5b408a82d531a57162425",
+    "godot/scripts/original/original_surface_outline.gd": "6c912f9c9d4240d21bc311fff89ab961ddfd96b0129524ade49ef7f1ee667ad2",
+    "godot/scripts/original/original_thermal.gd": "b1d9f112195840c86053aab7873507f87b6402f6621224923e08a44800d8cd9a",
+    "godot/scripts/original/original_transfer.gd": "5f7e0522c38f4c4143f714f8321e854674fb55a30b91b154daa74875ef86e8a5",
+    "godot/scripts/original/original_ui_clock.gd": "a79af4d934d1bee2afac7b801b5a2afd56207eaa3fc3b01589a16b84b8f7bb21",
+    "godot/scripts/original/original_ui_dispatch.gd": "335f94f23510467528087823d5d4815a17ca1474977fc2307adcc96f36c7c53c",
+    "godot/scripts/original/original_variable_cleanup.gd": "62eeb8b4e440c58967c250294f993aafe9e8a028b62425d8ef622a176d506561",
+    "godot/scripts/original/original_vcl_memory_world.gd": "5217b86f2e0049e7b077ea86b486317577aa072a7efb1809b70d02466ad4f0d4",
+    "godot/scripts/original/original_vessel_bitmap_renderer.gd": "e40c6889634434cadf09682801af2ee8a8bb9ed4ddeb92b9c4e9436f5287de8e",
+    "godot/scripts/original/original_vessel_display_branch.gd": "07139b057550bda29162a2b0276a4c7f67f092bf85460d86890db8e4dfcd80d2",
+    "godot/scripts/original/original_window_input_gate.gd": "9e81f3cfe52b4f1f06af3a0075a5bfdcdd8d092566620402525600c6f31beb98",
+    "godot/scripts/original/original_x87.gd": "afab96f43e53bd1b046e0d896523aff7f11b0ee7280b8af6b4ef0988124271da",
+    "godot/scripts/original/original_x87_host.gd": "181bb72bb86aeded049c18682482c2c6ce83b17c00e83ab91140041b33c8efc7",
+    "godot/scripts/original_model_host.gd": "6ef9f23d1710042c5eadf70ed1ce2a9cc7fc9cfaee21671e1d382f9cd58b198d"
+  },
+  "macos_archive_sha256": "6ac6116a47f4f297c701ee51d06ed0fbfb7d04b2ff7de4f0ce0eb1a0ae5bc8bd",
+  "export_executable_smoke_exit": 0,
+  "fresh_archive_import_exit": 0,
+  "scope": "Graphical main-scene viewport workflow; exported PCK replay under test-capable engine; release executable normal startup/exit. Release templates ignore external --script, so no claim that release binary executed the external workflow harness. All28 documents import/Run/initial frames; not all28 complete workflows certified. Portable curve-edge raster not universally attested against Windows GDI.",
+  "reruns": "Initial suite stopped at67 because its synthetic drawing provider omitted resized bitmap pixels. Corrected provider-only test now passes44 guards, retaining strict rejection of incomplete pixel state. Test105 gained an explicit conditional PASS marker; actual render checks already passed. Runtime unchanged by those corrections."
+}

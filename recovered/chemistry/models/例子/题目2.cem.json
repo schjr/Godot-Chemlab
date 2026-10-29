@@ -1,0 +1,1788 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/例子/题目2.cem",
+    "byte_count": 2088,
+    "sha256": "211593b600e4f7da8f587fcfaf381336f898ba6286b81a38d9d1a32063dc2b7c",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/题目2.cem",
+    "utf8_export": "utf8/例子/题目2.cem"
+  },
+  "format": "cem",
+  "header_lines": [
+    "仿真化学实验室 金华科 V3.0",
+    "2",
+    "2"
+  ],
+  "line_count": 442,
+  "lines": [
+    {
+      "number": 1,
+      "text": "仿真化学实验室 金华科 V3.0"
+    },
+    {
+      "number": 2,
+      "text": "2"
+    },
+    {
+      "number": 3,
+      "text": "2"
+    },
+    {
+      "number": 4,
+      "text": "0"
+    },
+    {
+      "number": 5,
+      "text": "0"
+    },
+    {
+      "number": 6,
+      "text": "1"
+    },
+    {
+      "number": 7,
+      "text": "容器0"
+    },
+    {
+      "number": 8,
+      "text": "102"
+    },
+    {
+      "number": 9,
+      "text": "500"
+    },
+    {
+      "number": 10,
+      "text": "127"
+    },
+    {
+      "number": 11,
+      "text": "283"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "500"
+    },
+    {
+      "number": 15,
+      "text": "49.7"
+    },
+    {
+      "number": 16,
+      "text": "0"
+    },
+    {
+      "number": 17,
+      "text": "0"
+    },
+    {
+      "number": 18,
+      "text": "0"
+    },
+    {
+      "number": 19,
+      "text": "0"
+    },
+    {
+      "number": 20,
+      "text": "0"
+    },
+    {
+      "number": 21,
+      "text": "6579300"
+    },
+    {
+      "number": 22,
+      "text": "0"
+    },
+    {
+      "number": 23,
+      "text": "0"
+    },
+    {
+      "number": 24,
+      "text": "0"
+    },
+    {
+      "number": 25,
+      "text": "0"
+    },
+    {
+      "number": 26,
+      "text": "0"
+    },
+    {
+      "number": 27,
+      "text": "6579300"
+    },
+    {
+      "number": 28,
+      "text": "0"
+    },
+    {
+      "number": 29,
+      "text": "0"
+    },
+    {
+      "number": 30,
+      "text": "0"
+    },
+    {
+      "number": 31,
+      "text": "0"
+    },
+    {
+      "number": 32,
+      "text": "0"
+    },
+    {
+      "number": 33,
+      "text": "0"
+    },
+    {
+      "number": 34,
+      "text": ""
+    },
+    {
+      "number": 35,
+      "text": "0"
+    },
+    {
+      "number": 36,
+      "text": "20"
+    },
+    {
+      "number": 37,
+      "text": ""
+    },
+    {
+      "number": 38,
+      "text": ""
+    },
+    {
+      "number": 39,
+      "text": ""
+    },
+    {
+      "number": 40,
+      "text": "0"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "1"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0"
+    },
+    {
+      "number": 45,
+      "text": "0"
+    },
+    {
+      "number": 46,
+      "text": "4"
+    },
+    {
+      "number": 47,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 48,
+      "text": "300"
+    },
+    {
+      "number": 49,
+      "text": "16.651865008881"
+    },
+    {
+      "number": 50,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 51,
+      "text": "10.9374"
+    },
+    {
+      "number": 52,
+      "text": "0.3"
+    },
+    {
+      "number": 53,
+      "text": "Fe(固体)"
+    },
+    {
+      "number": 54,
+      "text": "5.5847"
+    },
+    {
+      "number": 55,
+      "text": "0.1"
+    },
+    {
+      "number": 56,
+      "text": "FeCl2(溶解)"
+    },
+    {
+      "number": 57,
+      "text": "0"
+    },
+    {
+      "number": 58,
+      "text": "0"
+    },
+    {
+      "number": 59,
+      "text": "1"
+    },
+    {
+      "number": 60,
+      "text": "21037056"
+    },
+    {
+      "number": 61,
+      "text": "方程式55"
+    },
+    {
+      "number": 62,
+      "text": "2"
+    },
+    {
+      "number": 63,
+      "text": "2"
+    },
+    {
+      "number": 64,
+      "text": "Fe(固体)"
+    },
+    {
+      "number": 65,
+      "text": "1"
+    },
+    {
+      "number": 66,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 67,
+      "text": "2"
+    },
+    {
+      "number": 68,
+      "text": "FeCl2(溶解)"
+    },
+    {
+      "number": 69,
+      "text": "1"
+    },
+    {
+      "number": 70,
+      "text": "H2(气体)"
+    },
+    {
+      "number": 71,
+      "text": "1"
+    },
+    {
+      "number": 72,
+      "text": "0"
+    },
+    {
+      "number": 73,
+      "text": ""
+    },
+    {
+      "number": 74,
+      "text": "0.007"
+    },
+    {
+      "number": 75,
+      "text": "100"
+    },
+    {
+      "number": 76,
+      "text": "单向"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "0"
+    },
+    {
+      "number": 79,
+      "text": "10"
+    },
+    {
+      "number": 80,
+      "text": "0"
+    },
+    {
+      "number": 81,
+      "text": "0"
+    },
+    {
+      "number": 82,
+      "text": "0"
+    },
+    {
+      "number": 83,
+      "text": "0"
+    },
+    {
+      "number": 84,
+      "text": "0"
+    },
+    {
+      "number": 85,
+      "text": "0"
+    },
+    {
+      "number": 86,
+      "text": "0"
+    },
+    {
+      "number": 87,
+      "text": "0"
+    },
+    {
+      "number": 88,
+      "text": "0"
+    },
+    {
+      "number": 89,
+      "text": "0"
+    },
+    {
+      "number": 90,
+      "text": "0"
+    },
+    {
+      "number": 91,
+      "text": "0"
+    },
+    {
+      "number": 92,
+      "text": "0"
+    },
+    {
+      "number": 93,
+      "text": "0"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": "0"
+    },
+    {
+      "number": 96,
+      "text": "0"
+    },
+    {
+      "number": 97,
+      "text": "1"
+    },
+    {
+      "number": 98,
+      "text": "容器1"
+    },
+    {
+      "number": 99,
+      "text": "102"
+    },
+    {
+      "number": 100,
+      "text": "500"
+    },
+    {
+      "number": 101,
+      "text": "265"
+    },
+    {
+      "number": 102,
+      "text": "285"
+    },
+    {
+      "number": 103,
+      "text": "0"
+    },
+    {
+      "number": 104,
+      "text": "0"
+    },
+    {
+      "number": 105,
+      "text": "500"
+    },
+    {
+      "number": 106,
+      "text": "49.7"
+    },
+    {
+      "number": 107,
+      "text": "0"
+    },
+    {
+      "number": 108,
+      "text": "0"
+    },
+    {
+      "number": 109,
+      "text": "0"
+    },
+    {
+      "number": 110,
+      "text": "0"
+    },
+    {
+      "number": 111,
+      "text": "0"
+    },
+    {
+      "number": 112,
+      "text": "6579300"
+    },
+    {
+      "number": 113,
+      "text": "0"
+    },
+    {
+      "number": 114,
+      "text": "0"
+    },
+    {
+      "number": 115,
+      "text": "0"
+    },
+    {
+      "number": 116,
+      "text": "0"
+    },
+    {
+      "number": 117,
+      "text": "0"
+    },
+    {
+      "number": 118,
+      "text": "6579300"
+    },
+    {
+      "number": 119,
+      "text": "0"
+    },
+    {
+      "number": 120,
+      "text": "0"
+    },
+    {
+      "number": 121,
+      "text": "0"
+    },
+    {
+      "number": 122,
+      "text": "0"
+    },
+    {
+      "number": 123,
+      "text": "0"
+    },
+    {
+      "number": 124,
+      "text": "0"
+    },
+    {
+      "number": 125,
+      "text": ""
+    },
+    {
+      "number": 126,
+      "text": "0"
+    },
+    {
+      "number": 127,
+      "text": "20"
+    },
+    {
+      "number": 128,
+      "text": ""
+    },
+    {
+      "number": 129,
+      "text": ""
+    },
+    {
+      "number": 130,
+      "text": ""
+    },
+    {
+      "number": 131,
+      "text": "0"
+    },
+    {
+      "number": 132,
+      "text": "0"
+    },
+    {
+      "number": 133,
+      "text": "1"
+    },
+    {
+      "number": 134,
+      "text": "0"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": "0"
+    },
+    {
+      "number": 137,
+      "text": "4"
+    },
+    {
+      "number": 138,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 139,
+      "text": "300"
+    },
+    {
+      "number": 140,
+      "text": "16.651865008881"
+    },
+    {
+      "number": 141,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 142,
+      "text": "10.9374"
+    },
+    {
+      "number": 143,
+      "text": "0.3"
+    },
+    {
+      "number": 144,
+      "text": "Zn(固体)"
+    },
+    {
+      "number": 145,
+      "text": "5.5847"
+    },
+    {
+      "number": 146,
+      "text": "0.0854060253861447"
+    },
+    {
+      "number": 147,
+      "text": "ZnCl2(溶解)"
+    },
+    {
+      "number": 148,
+      "text": "0"
+    },
+    {
+      "number": 149,
+      "text": "0"
+    },
+    {
+      "number": 150,
+      "text": "1"
+    },
+    {
+      "number": 151,
+      "text": "20174388"
+    },
+    {
+      "number": 152,
+      "text": "方程式118"
+    },
+    {
+      "number": 153,
+      "text": "2"
+    },
+    {
+      "number": 154,
+      "text": "2"
+    },
+    {
+      "number": 155,
+      "text": "HCl(溶解)"
+    },
+    {
+      "number": 156,
+      "text": "2"
+    },
+    {
+      "number": 157,
+      "text": "Zn(固体)"
+    },
+    {
+      "number": 158,
+      "text": "1"
+    },
+    {
+      "number": 159,
+      "text": "ZnCl2(溶解)"
+    },
+    {
+      "number": 160,
+      "text": "1"
+    },
+    {
+      "number": 161,
+      "text": "H2(气体)"
+    },
+    {
+      "number": 162,
+      "text": "1"
+    },
+    {
+      "number": 163,
+      "text": "0"
+    },
+    {
+      "number": 164,
+      "text": "水溶液"
+    },
+    {
+      "number": 165,
+      "text": "0.01"
+    },
+    {
+      "number": 166,
+      "text": "100"
+    },
+    {
+      "number": 167,
+      "text": "单向"
+    },
+    {
+      "number": 168,
+      "text": "0"
+    },
+    {
+      "number": 169,
+      "text": "0"
+    },
+    {
+      "number": 170,
+      "text": "10"
+    },
+    {
+      "number": 171,
+      "text": "0"
+    },
+    {
+      "number": 172,
+      "text": "0"
+    },
+    {
+      "number": 173,
+      "text": "0"
+    },
+    {
+      "number": 174,
+      "text": "0"
+    },
+    {
+      "number": 175,
+      "text": "0"
+    },
+    {
+      "number": 176,
+      "text": "0"
+    },
+    {
+      "number": 177,
+      "text": "0"
+    },
+    {
+      "number": 178,
+      "text": "0"
+    },
+    {
+      "number": 179,
+      "text": "0"
+    },
+    {
+      "number": 180,
+      "text": "0"
+    },
+    {
+      "number": 181,
+      "text": "0"
+    },
+    {
+      "number": 182,
+      "text": "0"
+    },
+    {
+      "number": 183,
+      "text": "0"
+    },
+    {
+      "number": 184,
+      "text": "0"
+    },
+    {
+      "number": 185,
+      "text": "0"
+    },
+    {
+      "number": 186,
+      "text": "0"
+    },
+    {
+      "number": 187,
+      "text": "0"
+    },
+    {
+      "number": 188,
+      "text": ""
+    },
+    {
+      "number": 189,
+      "text": ""
+    },
+    {
+      "number": 190,
+      "text": ""
+    },
+    {
+      "number": 191,
+      "text": ""
+    },
+    {
+      "number": 192,
+      "text": ""
+    },
+    {
+      "number": 193,
+      "text": ""
+    },
+    {
+      "number": 194,
+      "text": "a"
+    },
+    {
+      "number": 195,
+      "text": ""
+    },
+    {
+      "number": 196,
+      "text": ""
+    },
+    {
+      "number": 197,
+      "text": ""
+    },
+    {
+      "number": 198,
+      "text": ""
+    },
+    {
+      "number": 199,
+      "text": ""
+    },
+    {
+      "number": 200,
+      "text": ""
+    },
+    {
+      "number": 201,
+      "text": ""
+    },
+    {
+      "number": 202,
+      "text": "b"
+    },
+    {
+      "number": 203,
+      "text": ""
+    },
+    {
+      "number": 204,
+      "text": "3"
+    },
+    {
+      "number": 205,
+      "text": "0"
+    },
+    {
+      "number": 206,
+      "text": "0"
+    },
+    {
+      "number": 207,
+      "text": "0"
+    },
+    {
+      "number": 208,
+      "text": "t"
+    },
+    {
+      "number": 209,
+      "text": "时间变量"
+    },
+    {
+      "number": 210,
+      "text": "0"
+    },
+    {
+      "number": 211,
+      "text": "0"
+    },
+    {
+      "number": 212,
+      "text": "0"
+    },
+    {
+      "number": 213,
+      "text": "1"
+    },
+    {
+      "number": 214,
+      "text": "0"
+    },
+    {
+      "number": 215,
+      "text": "a"
+    },
+    {
+      "number": 216,
+      "text": "药品FeCl2(溶解) 的摩尔量"
+    },
+    {
+      "number": 217,
+      "text": "0"
+    },
+    {
+      "number": 218,
+      "text": "0"
+    },
+    {
+      "number": 219,
+      "text": "0"
+    },
+    {
+      "number": 220,
+      "text": "1"
+    },
+    {
+      "number": 221,
+      "text": "0"
+    },
+    {
+      "number": 222,
+      "text": "b"
+    },
+    {
+      "number": 223,
+      "text": "药品ZnCl2(溶解) 的摩尔量"
+    },
+    {
+      "number": 224,
+      "text": "0"
+    },
+    {
+      "number": 225,
+      "text": "0"
+    },
+    {
+      "number": 226,
+      "text": "1"
+    },
+    {
+      "number": 227,
+      "text": "1"
+    },
+    {
+      "number": 228,
+      "text": "489"
+    },
+    {
+      "number": 229,
+      "text": "262"
+    },
+    {
+      "number": 230,
+      "text": "5"
+    },
+    {
+      "number": 231,
+      "text": "0.025"
+    },
+    {
+      "number": 232,
+      "text": "0"
+    },
+    {
+      "number": 233,
+      "text": "13"
+    },
+    {
+      "number": 234,
+      "text": "16777215"
+    },
+    {
+      "number": 235,
+      "text": "0"
+    },
+    {
+      "number": 236,
+      "text": "0"
+    },
+    {
+      "number": 237,
+      "text": "16744448"
+    },
+    {
+      "number": 238,
+      "text": "0"
+    },
+    {
+      "number": 239,
+      "text": "0"
+    },
+    {
+      "number": 240,
+      "text": "0"
+    },
+    {
+      "number": 241,
+      "text": "0"
+    },
+    {
+      "number": 242,
+      "text": "0"
+    },
+    {
+      "number": 243,
+      "text": "0"
+    },
+    {
+      "number": 244,
+      "text": "t"
+    },
+    {
+      "number": 245,
+      "text": "a"
+    },
+    {
+      "number": 246,
+      "text": "255"
+    },
+    {
+      "number": 247,
+      "text": "0"
+    },
+    {
+      "number": 248,
+      "text": "0"
+    },
+    {
+      "number": 249,
+      "text": "0"
+    },
+    {
+      "number": 250,
+      "text": "0"
+    },
+    {
+      "number": 251,
+      "text": "0"
+    },
+    {
+      "number": 252,
+      "text": "0"
+    },
+    {
+      "number": 253,
+      "text": "t"
+    },
+    {
+      "number": 254,
+      "text": "b"
+    },
+    {
+      "number": 255,
+      "text": "8388608"
+    },
+    {
+      "number": 256,
+      "text": "0"
+    },
+    {
+      "number": 257,
+      "text": "0"
+    },
+    {
+      "number": 258,
+      "text": "0"
+    },
+    {
+      "number": 259,
+      "text": "0"
+    },
+    {
+      "number": 260,
+      "text": "0"
+    },
+    {
+      "number": 261,
+      "text": "0"
+    },
+    {
+      "number": 262,
+      "text": "数值0"
+    },
+    {
+      "number": 263,
+      "text": "数值0"
+    },
+    {
+      "number": 264,
+      "text": "8388608"
+    },
+    {
+      "number": 265,
+      "text": "0"
+    },
+    {
+      "number": 266,
+      "text": "0"
+    },
+    {
+      "number": 267,
+      "text": "0"
+    },
+    {
+      "number": 268,
+      "text": "0"
+    },
+    {
+      "number": 269,
+      "text": "0"
+    },
+    {
+      "number": 270,
+      "text": "0"
+    },
+    {
+      "number": 271,
+      "text": "数值0"
+    },
+    {
+      "number": 272,
+      "text": "数值0"
+    },
+    {
+      "number": 273,
+      "text": "8388608"
+    },
+    {
+      "number": 274,
+      "text": "0"
+    },
+    {
+      "number": 275,
+      "text": "0"
+    },
+    {
+      "number": 276,
+      "text": "0"
+    },
+    {
+      "number": 277,
+      "text": "0"
+    },
+    {
+      "number": 278,
+      "text": "0"
+    },
+    {
+      "number": 279,
+      "text": "0"
+    },
+    {
+      "number": 280,
+      "text": "数值0"
+    },
+    {
+      "number": 281,
+      "text": "数值0"
+    },
+    {
+      "number": 282,
+      "text": "7"
+    },
+    {
+      "number": 283,
+      "text": "1"
+    },
+    {
+      "number": 284,
+      "text": "32"
+    },
+    {
+      "number": 285,
+      "text": "36"
+    },
+    {
+      "number": 286,
+      "text": "368"
+    },
+    {
+      "number": 287,
+      "text": "52"
+    },
+    {
+      "number": 288,
+      "text": "134"
+    },
+    {
+      "number": 289,
+      "text": "128"
+    },
+    {
+      "number": 290,
+      "text": "-16"
+    },
+    {
+      "number": 291,
+      "text": "0"
+    },
+    {
+      "number": 292,
+      "text": "12"
+    },
+    {
+      "number": 293,
+      "text": "0"
+    },
+    {
+      "number": 294,
+      "text": "0"
+    },
+    {
+      "number": 295,
+      "text": "0"
+    },
+    {
+      "number": 296,
+      "text": "0"
+    },
+    {
+      "number": 297,
+      "text": "宋体"
+    },
+    {
+      "number": 298,
+      "text": "3"
+    },
+    {
+      "number": 299,
+      "text": "    用相同质量的锌和铁分别与足量的稀盐酸反应。"
+    },
+    {
+      "number": 300,
+      "text": "纵坐标表示生成氢气的质量，横坐标表示反应时间，"
+    },
+    {
+      "number": 301,
+      "text": "请绘制坐标曲线，并解释其原因。"
+    },
+    {
+      "number": 302,
+      "text": "1"
+    },
+    {
+      "number": 303,
+      "text": "89"
+    },
+    {
+      "number": 304,
+      "text": "335"
+    },
+    {
+      "number": 305,
+      "text": "85"
+    },
+    {
+      "number": 306,
+      "text": "16"
+    },
+    {
+      "number": 307,
+      "text": "134"
+    },
+    {
+      "number": 308,
+      "text": "8388608"
+    },
+    {
+      "number": 309,
+      "text": "-15"
+    },
+    {
+      "number": 310,
+      "text": "0"
+    },
+    {
+      "number": 311,
+      "text": "11"
+    },
+    {
+      "number": 312,
+      "text": "0"
+    },
+    {
+      "number": 313,
+      "text": "0"
+    },
+    {
+      "number": 314,
+      "text": "0"
+    },
+    {
+      "number": 315,
+      "text": "0"
+    },
+    {
+      "number": 316,
+      "text": "宋体"
+    },
+    {
+      "number": 317,
+      "text": "1"
+    },
+    {
+      "number": 318,
+      "text": "Fe和HCl溶液"
+    },
+    {
+      "number": 319,
+      "text": "1"
+    },
+    {
+      "number": 320,
+      "text": "227"
+    },
+    {
+      "number": 321,
+      "text": "335"
+    },
+    {
+      "number": 322,
+      "text": "85"
+    },
+    {
+      "number": 323,
+      "text": "16"
+    },
+    {
+      "number": 324,
+      "text": "134"
+    },
+    {
+      "number": 325,
+      "text": "8388608"
+    },
+    {
+      "number": 326,
+      "text": "-15"
+    },
+    {
+      "number": 327,
+      "text": "0"
+    },
+    {
+      "number": 328,
+      "text": "11"
+    },
+    {
+      "number": 329,
+      "text": "0"
+    },
+    {
+      "number": 330,
+      "text": "0"
+    },
+    {
+      "number": 331,
+      "text": "0"
+    },
+    {
+      "number": 332,
+      "text": "0"
+    },
+    {
+      "number": 333,
+      "text": "宋体"
+    },
+    {
+      "number": 334,
+      "text": "1"
+    },
+    {
+      "number": 335,
+      "text": "Zn和HCl溶液"
+    },
+    {
+      "number": 336,
+      "text": "1"
+    },
+    {
+      "number": 337,
+      "text": "420"
+    },
+    {
+      "number": 338,
+      "text": "160"
+    },
+    {
+      "number": 339,
+      "text": "157"
+    },
+    {
+      "number": 340,
+      "text": "14"
+    },
+    {
+      "number": 341,
+      "text": "134"
+    },
+    {
+      "number": 342,
+      "text": "16711680"
+    },
+    {
+      "number": 343,
+      "text": "-13"
+    },
+    {
+      "number": 344,
+      "text": "0"
+    },
+    {
+      "number": 345,
+      "text": "10"
+    },
+    {
+      "number": 346,
+      "text": "0"
+    },
+    {
+      "number": 347,
+      "text": "0"
+    },
+    {
+      "number": 348,
+      "text": "0"
+    },
+    {
+      "number": 349,
+      "text": "0"
+    },
+    {
+      "number": 350,
+      "text": "宋体"
+    },
+    {
+      "number": 351,
+      "text": "1"
+    },
+    {
+      "number": 352,
+      "text": "Fe与盐酸反应生成氢气的量"
+    },
+    {
+      "number": 353,
+      "text": "1"
+    },
+    {
+      "number": 354,
+      "text": "419"
+    },
+    {
+      "number": 355,
+      "text": "176"
+    },
+    {
+      "number": 356,
+      "text": "157"
+    },
+    {
+      "number": 357,
+      "text": "14"
+    },
+    {
+      "number": 358,
+      "text": "134"
+    },
+    {
+      "number": 359,
+      "text": "255"
+    },
+    {
+      "number": 360,
+      "text": "-13"
+    },
+    {
+      "number": 361,
+      "text": "0"
+    },
+    {
+      "number": 362,
+      "text": "10"
+    },
+    {
+      "number": 363,
+      "text": "0"
+    },
+    {
+      "number": 364,
+      "text": "0"
+    },
+    {
+      "number": 365,
+      "text": "0"
+    },
+    {
+      "number": 366,
+      "text": "0"
+    },
+    {
+      "number": 367,
+      "text": "宋体"
+    },
+    {
+      "number": 368,
+      "text": "1"
+    },
+    {
+      "number": 369,
+      "text": "Zn与盐酸反应生成氢气的量"
+    },
+    {
+      "number": 370,
+      "text": "1"
+    },
+    {
+      "number": 371,
+      "text": "617"
+    },
+    {
+      "number": 372,
+      "text": "359"
+    },
+    {
+      "number": 373,
+      "text": "52"
+    },
+    {
+      "number": 374,
+      "text": "14"
+    },
+    {
+      "number": 375,
+      "text": "134"
+    },
+    {
+      "number": 376,
+      "text": "0"
+    },
+    {
+      "number": 377,
+      "text": "-13"
+    },
+    {
+      "number": 378,
+      "text": "0"
+    },
+    {
+      "number": 379,
+      "text": "10"
+    },
+    {
+      "number": 380,
+      "text": "0"
+    },
+    {
+      "number": 381,
+      "text": "0"
+    },
+    {
+      "number": 382,
+      "text": "0"
+    },
+    {
+      "number": 383,
+      "text": "0"
+    },
+    {
+      "number": 384,
+      "text": "宋体"
+    },
+    {
+      "number": 385,
+      "text": "1"
+    },
+    {
+      "number": 386,
+      "text": "反应时间"
+    },
+    {
+      "number": 387,
+      "text": "1"
+    },
+    {
+      "number": 388,
+      "text": "368"
+    },
+    {
+      "number": 389,
+      "text": "123"
+    },
+    {
+      "number": 390,
+      "text": "63"
+    },
+    {
+      "number": 391,
+      "text": "14"
+    },
+    {
+      "number": 392,
+      "text": "134"
+    },
+    {
+      "number": 393,
+      "text": "0"
+    },
+    {
+      "number": 394,
+      "text": "-13"
+    },
+    {
+      "number": 395,
+      "text": "0"
+    },
+    {
+      "number": 396,
+      "text": "10"
+    },
+    {
+      "number": 397,
+      "text": "0"
+    },
+    {
+      "number": 398,
+      "text": "0"
+    },
+    {
+      "number": 399,
+      "text": "0"
+    },
+    {
+      "number": 400,
+      "text": "0"
+    },
+    {
+      "number": 401,
+      "text": "宋体"
+    },
+    {
+      "number": 402,
+      "text": "1"
+    },
+    {
+      "number": 403,
+      "text": "H2生成的量"
+    },
+    {
+      "number": 404,
+      "text": "1"
+    },
+    {
+      "number": 405,
+      "text": "0"
+    },
+    {
+      "number": 406,
+      "text": "3"
+    },
+    {
+      "number": 407,
+      "text": "0"
+    },
+    {
+      "number": 408,
+      "text": "0"
+    },
+    {
+      "number": 409,
+      "text": "1"
+    },
+    {
+      "number": 410,
+      "text": "0"
+    },
+    {
+      "number": 411,
+      "text": "0"
+    },
+    {
+      "number": 412,
+      "text": "0"
+    },
+    {
+      "number": 413,
+      "text": "0"
+    },
+    {
+      "number": 414,
+      "text": "0"
+    },
+    {
+      "number": 415,
+      "text": "0"
+    },
+    {
+      "number": 416,
+      "text": "0"
+    },
+    {
+      "number": 417,
+      "text": "0"
+    },
+    {
+      "number": 418,
+      "text": "0"
+    },
+    {
+      "number": 419,
+      "text": "0"
+    },
+    {
+      "number": 420,
+      "text": "0"
+    },
+    {
+      "number": 421,
+      "text": "0"
+    },
+    {
+      "number": 422,
+      "text": "0"
+    },
+    {
+      "number": 423,
+      "text": "0"
+    },
+    {
+      "number": 424,
+      "text": "0"
+    },
+    {
+      "number": 425,
+      "text": ""
+    },
+    {
+      "number": 426,
+      "text": "0"
+    },
+    {
+      "number": 427,
+      "text": "0"
+    },
+    {
+      "number": 428,
+      "text": "0"
+    },
+    {
+      "number": 429,
+      "text": "0"
+    },
+    {
+      "number": 430,
+      "text": "0"
+    },
+    {
+      "number": 431,
+      "text": "0"
+    },
+    {
+      "number": 432,
+      "text": "0"
+    },
+    {
+      "number": 433,
+      "text": "0"
+    },
+    {
+      "number": 434,
+      "text": "0"
+    },
+    {
+      "number": 435,
+      "text": "0"
+    },
+    {
+      "number": 436,
+      "text": "0"
+    },
+    {
+      "number": 437,
+      "text": "0"
+    },
+    {
+      "number": 438,
+      "text": "0"
+    },
+    {
+      "number": 439,
+      "text": "0"
+    },
+    {
+      "number": 440,
+      "text": "0"
+    },
+    {
+      "number": 441,
+      "text": ""
+    },
+    {
+      "number": 442,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":693,"failures":[],"native_steps":25}
+PASS original TPen registry arithmetic finally events and lazy handle native references

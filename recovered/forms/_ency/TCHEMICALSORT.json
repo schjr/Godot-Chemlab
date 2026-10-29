@@ -1,0 +1,757 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TCHEMICALSORT",
+      0
+    ],
+    "file_offset": 1395632,
+    "resource_size": 1097,
+    "sha256": "85d2c968ec64481ca15254e5ffeed03701702d274a8e4765cf1d05f4b3e52628",
+    "binary": "recovered/forms/_ency/TCHEMICALSORT.dfm.bin",
+    "parsed_size": 1097,
+    "trailing_bytes": 0,
+    "root_class": "TChemicalSort",
+    "root_name": "ChemicalSort",
+    "component_count": 8,
+    "event_handlers": [
+      {
+        "component": "Edit1",
+        "class": "TEdit",
+        "event": "OnChange",
+        "handler": "Edit1Change"
+      },
+      {
+        "component": "ListBox1",
+        "class": "TListBox",
+        "event": "OnClick",
+        "handler": "ListBox1Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1178714,
+        "entry_size": 18,
+        "code_va": "0x0042CD14",
+        "code_file_offset": 181012,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1195733,
+        "entry_size": 18,
+        "code_va": "0x004364F8",
+        "code_file_offset": 219896,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1199350,
+        "entry_size": 18,
+        "code_va": "0x00438A64",
+        "code_file_offset": 229476,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1202902,
+        "entry_size": 18,
+        "code_va": "0x0043ACFC",
+        "code_file_offset": 238332,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1207617,
+        "entry_size": 18,
+        "code_va": "0x0043DBAC",
+        "code_file_offset": 250284,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Change",
+        "entry_file_offset": 1214245,
+        "entry_size": 18,
+        "code_va": "0x004415D0",
+        "code_file_offset": 265168,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1165131,
+        "entry_size": 20,
+        "code_va": "0x004271CC",
+        "code_file_offset": 157644,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1178732,
+        "entry_size": 20,
+        "code_va": "0x0042CD84",
+        "code_file_offset": 181124,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1187717,
+        "entry_size": 20,
+        "code_va": "0x00431ABC",
+        "code_file_offset": 200892,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1195751,
+        "entry_size": 20,
+        "code_va": "0x00436994",
+        "code_file_offset": 221076,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1199368,
+        "entry_size": 20,
+        "code_va": "0x00438AD4",
+        "code_file_offset": 229588,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1202920,
+        "entry_size": 20,
+        "code_va": "0x0043AD6C",
+        "code_file_offset": 238444,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1207827,
+        "entry_size": 20,
+        "code_va": "0x0043E4A8",
+        "code_file_offset": 252584,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ListBox1Click",
+        "entry_file_offset": 1214225,
+        "entry_size": 20,
+        "code_va": "0x00441510",
+        "code_file_offset": 264976,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/TChemicalSort.hpp"
+  },
+  "form": {
+    "class": "TChemicalSort",
+    "name": "ChemicalSort",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 36
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 42
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 181,
+          "offset": 50
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 386,
+          "offset": 60
+        }
+      },
+      {
+        "name": "TabOrder",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 72
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TPanel",
+        "name": "Panel1",
+        "flags": 0,
+        "offset": 75,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 94
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 100
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 181,
+              "offset": 108
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 386,
+              "offset": 118
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alClient",
+              "offset": 127
+            }
+          },
+          {
+            "name": "BevelOuter",
+            "value": {
+              "type": 7,
+              "value": "bvNone",
+              "offset": 148
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 165
+            }
+          }
+        ],
+        "children": [
+          {
+            "class": "TLabel",
+            "name": "Label1",
+            "flags": 0,
+            "offset": 168,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 16,
+                  "offset": 187
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 16,
+                  "offset": 193
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 48,
+                  "offset": 201
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 210
+                }
+              },
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "药品名称",
+                  "offset": 220
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 243
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 268
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 294
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 306
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 323
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 336
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TLabel",
+            "name": "Label2",
+            "flags": 0,
+            "offset": 339,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 16,
+                  "offset": 358
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 35,
+                  "offset": 364
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 48,
+                  "offset": 372
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 381
+                }
+              },
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "可选药品",
+                  "offset": 391
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 414
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 439
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 465
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 477
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 494
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 507
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TEdit",
+            "name": "Edit1",
+            "flags": 0,
+            "offset": 510,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 70,
+                  "offset": 527
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 533
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 2,
+                  "value": 99,
+                  "offset": 541
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 2,
+                  "value": 20,
+                  "offset": 550
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 565
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 590
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 616
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 628
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 645
+                }
+              },
+              {
+                "name": "MaxLength",
+                "value": {
+                  "type": 2,
+                  "value": 80,
+                  "offset": 657
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 670
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 0,
+                  "offset": 680
+                }
+              },
+              {
+                "name": "OnChange",
+                "value": {
+                  "type": 7,
+                  "value": "Edit1Change",
+                  "offset": 691
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "class": "TListBox",
+            "name": "ListBox1",
+            "flags": 0,
+            "offset": 706,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 15,
+                  "offset": 729
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 50,
+                  "offset": 735
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 3,
+                  "value": 154,
+                  "offset": 743
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 3,
+                  "value": 327,
+                  "offset": 753
+                }
+              },
+              {
+                "name": "Font.Charset",
+                "value": {
+                  "type": 7,
+                  "value": "ANSI_CHARSET",
+                  "offset": 769
+                }
+              },
+              {
+                "name": "Font.Color",
+                "value": {
+                  "type": 7,
+                  "value": "clWindowText",
+                  "offset": 794
+                }
+              },
+              {
+                "name": "Font.Height",
+                "value": {
+                  "type": 2,
+                  "value": -12,
+                  "offset": 820
+                }
+              },
+              {
+                "name": "Font.Name",
+                "value": {
+                  "type": 6,
+                  "value": "宋体",
+                  "offset": 832
+                }
+              },
+              {
+                "name": "Font.Style",
+                "value": {
+                  "type": 11,
+                  "value": [],
+                  "offset": 849
+                }
+              },
+              {
+                "name": "ItemHeight",
+                "value": {
+                  "type": 2,
+                  "value": 12,
+                  "offset": 862
+                }
+              },
+              {
+                "name": "ParentFont",
+                "value": {
+                  "type": 8,
+                  "value": false,
+                  "offset": 875
+                }
+              },
+              {
+                "name": "TabOrder",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 885
+                }
+              },
+              {
+                "name": "OnClick",
+                "value": {
+                  "type": 7,
+                  "value": "ListBox1Click",
+                  "offset": 895
+                }
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery1",
+        "flags": 0,
+        "offset": 913,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 944
+            }
+          },
+          {
+            "name": "LockType",
+            "value": {
+              "type": 7,
+              "value": "ltReadOnly",
+              "offset": 981
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 1004
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 1011
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery2",
+        "flags": 0,
+        "offset": 1015,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 1046
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 1085
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 64,
+              "offset": 1092
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

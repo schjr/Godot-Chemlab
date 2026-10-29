@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"empty_dropper_hash":2115228894,"failures":[],"filled_dropper_hash":750859681,"normal_production":true,"test_profiles_injected":false,"tilted_dimensions":[52,30]}
+PASS production live source rendering, actual withdrawal pixels, continuous pouring and retained colored bitmap resize

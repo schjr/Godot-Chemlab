@@ -1,0 +1,134 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "entry": "00417750",
+  "boundaries": "VCL constructor/ShowModal/destructor recorded, stopped caller43F7BC recorded; original dispatcher branch/order executes",
+  "cases": [
+    {
+      "run": 0,
+      "type": 100,
+      "events": []
+    },
+    {
+      "run": 0,
+      "type": 101,
+      "events": [
+        "create",
+        "modal",
+        "destroy",
+        "caller43F7BC"
+      ]
+    },
+    {
+      "run": 0,
+      "type": 102,
+      "events": [
+        "create",
+        "modal",
+        "destroy",
+        "caller43F7BC"
+      ]
+    },
+    {
+      "run": 0,
+      "type": 204,
+      "events": [
+        "create",
+        "modal",
+        "destroy",
+        "caller43F7BC"
+      ]
+    },
+    {
+      "run": 0,
+      "type": 299,
+      "events": [
+        "create",
+        "modal",
+        "destroy",
+        "caller43F7BC"
+      ]
+    },
+    {
+      "run": 1,
+      "type": 100,
+      "events": []
+    },
+    {
+      "run": 1,
+      "type": 101,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 1,
+      "type": 102,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 1,
+      "type": 204,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 1,
+      "type": 299,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 2,
+      "type": 100,
+      "events": []
+    },
+    {
+      "run": 2,
+      "type": 101,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 2,
+      "type": 102,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 2,
+      "type": 204,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    },
+    {
+      "run": 2,
+      "type": 299,
+      "events": [
+        "create",
+        "modal",
+        "destroy"
+      ]
+    }
+  ]
+}

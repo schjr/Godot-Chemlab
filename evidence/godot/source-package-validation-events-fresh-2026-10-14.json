@@ -1,0 +1,47 @@
+{
+  "archive_sha256": "f596034831e34ef72263ad3464133d604dc24e8e92a0663bf97251c88694f0f7",
+  "files_verified": 1516,
+  "workspace": "/Users/schjr/Programs/ChemLab_REA/build/source-check-events-2026-10-14/ChemLab-original-port-WIP",
+  "fresh_targeted_tests": [
+    {
+      "script": "test_adapter.gd",
+      "exit_code": 0,
+      "log": "actual-windows-events-fresh-test_adapter.gd.log",
+      "log_sha256": "42fdddde00a5bfb7b97fe5b908f4cea91def613ec3a1206e118f616acbb6c094"
+    },
+    {
+      "script": "test_native_canvas_presentation.gd",
+      "exit_code": 0,
+      "log": "actual-windows-events-fresh-test_native_canvas_presentation.gd.log",
+      "log_sha256": "c41b4097077613a9908f987f8cee6fde122f2816a2ceba1259f57b0a759d08fc"
+    },
+    {
+      "script": "test_native_property_modal_ui.gd",
+      "exit_code": 0,
+      "log": "actual-windows-events-fresh-test_native_property_modal_ui.gd.log",
+      "log_sha256": "46ced45b889ef38df6453062747c2384cca0189c0ef79ec64151868e1f1d5020"
+    },
+    {
+      "script": "test_original_window_input_gate.gd",
+      "exit_code": 0,
+      "log": "actual-windows-events-fresh-test_original_window_input_gate.gd.log",
+      "log_sha256": "0556630ed4f7db0b8de0144fe356f8c21248564a138a10ffd5068531bde06fec"
+    },
+    {
+      "script": "test_actual_paused_particle_checkpoint.gd",
+      "exit_code": 0,
+      "log": "actual-windows-events-fresh-test_actual_paused_particle_checkpoint.gd.log",
+      "log_sha256": "3bed77ebf61dff53e185f946be1b8c100ba8940d808e74c4a9170662a27357af"
+    }
+  ],
+  "fresh_import_exit_code": 0,
+  "fresh_import_log_sha256": "e23dba19e4abdce4ecde28a4db77ae6fb68187b15c5d01c9bc1b81586c0cbf0e",
+  "runtime_source_files_unchanged": true,
+  "all28_end_to_end_verified": false,
+  "native_vcl_verified": false,
+  "production_startup_profile_verified": false,
+  "actual_particle_frame_completed": false,
+  "actual_particle_frontier": "0x004e3e50",
+  "prototype_material_tint_removed": true,
+  "scope": "Verified clean import and focused tests of this exact source package; prior78-script suite plus targeted post-change checks retained separately. Actual captured paused particle objects validate a source prefix ending at missing TPen/VCL state. Complete renderer, runtime startup, Run/Pause profile rebinding and all28end-to-end remain unfinished."
+}

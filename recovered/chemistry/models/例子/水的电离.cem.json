@@ -1,0 +1,752 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/例子/水的电离.cem",
+    "byte_count": 1003,
+    "sha256": "f356eafcf374a13b49b234da4971070c3dffaa8131c8f78f22c54043635b7114",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/水的电离.cem",
+    "utf8_export": "utf8/例子/水的电离.cem"
+  },
+  "format": "cem",
+  "header_lines": [
+    "仿真化学实验室 金华科 V3.0",
+    "1",
+    "4"
+  ],
+  "line_count": 183,
+  "lines": [
+    {
+      "number": 1,
+      "text": "仿真化学实验室 金华科 V3.0"
+    },
+    {
+      "number": 2,
+      "text": "1"
+    },
+    {
+      "number": 3,
+      "text": "4"
+    },
+    {
+      "number": 4,
+      "text": "0"
+    },
+    {
+      "number": 5,
+      "text": "0"
+    },
+    {
+      "number": 6,
+      "text": "1"
+    },
+    {
+      "number": 7,
+      "text": "容器2"
+    },
+    {
+      "number": 8,
+      "text": "102"
+    },
+    {
+      "number": 9,
+      "text": "500"
+    },
+    {
+      "number": 10,
+      "text": "480"
+    },
+    {
+      "number": 11,
+      "text": "181"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "500"
+    },
+    {
+      "number": 15,
+      "text": "16.9"
+    },
+    {
+      "number": 16,
+      "text": "0"
+    },
+    {
+      "number": 17,
+      "text": "0"
+    },
+    {
+      "number": 18,
+      "text": "0"
+    },
+    {
+      "number": 19,
+      "text": "0"
+    },
+    {
+      "number": 20,
+      "text": "0"
+    },
+    {
+      "number": 21,
+      "text": "6579300"
+    },
+    {
+      "number": 22,
+      "text": "0"
+    },
+    {
+      "number": 23,
+      "text": "0"
+    },
+    {
+      "number": 24,
+      "text": "0"
+    },
+    {
+      "number": 25,
+      "text": "0"
+    },
+    {
+      "number": 26,
+      "text": "0"
+    },
+    {
+      "number": 27,
+      "text": "6579300"
+    },
+    {
+      "number": 28,
+      "text": "0"
+    },
+    {
+      "number": 29,
+      "text": "0"
+    },
+    {
+      "number": 30,
+      "text": "0"
+    },
+    {
+      "number": 31,
+      "text": "0"
+    },
+    {
+      "number": 32,
+      "text": "0"
+    },
+    {
+      "number": 33,
+      "text": "0"
+    },
+    {
+      "number": 34,
+      "text": ""
+    },
+    {
+      "number": 35,
+      "text": "0"
+    },
+    {
+      "number": 36,
+      "text": "20"
+    },
+    {
+      "number": 37,
+      "text": ""
+    },
+    {
+      "number": 38,
+      "text": ""
+    },
+    {
+      "number": 39,
+      "text": ""
+    },
+    {
+      "number": 40,
+      "text": "0"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "1"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0"
+    },
+    {
+      "number": 45,
+      "text": "0"
+    },
+    {
+      "number": 46,
+      "text": "1"
+    },
+    {
+      "number": 47,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 48,
+      "text": "100"
+    },
+    {
+      "number": 49,
+      "text": "5.550621669627"
+    },
+    {
+      "number": 50,
+      "text": "1"
+    },
+    {
+      "number": 51,
+      "text": "22276580"
+    },
+    {
+      "number": 52,
+      "text": "方程式197"
+    },
+    {
+      "number": 53,
+      "text": "1"
+    },
+    {
+      "number": 54,
+      "text": "2"
+    },
+    {
+      "number": 55,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 56,
+      "text": "1"
+    },
+    {
+      "number": 57,
+      "text": "H+(离子)"
+    },
+    {
+      "number": 58,
+      "text": "1"
+    },
+    {
+      "number": 59,
+      "text": "OH-(离子)"
+    },
+    {
+      "number": 60,
+      "text": "1"
+    },
+    {
+      "number": 61,
+      "text": "0"
+    },
+    {
+      "number": 62,
+      "text": ""
+    },
+    {
+      "number": 63,
+      "text": "10000"
+    },
+    {
+      "number": 64,
+      "text": "1.8016E-16"
+    },
+    {
+      "number": 65,
+      "text": "可逆"
+    },
+    {
+      "number": 66,
+      "text": "1"
+    },
+    {
+      "number": 67,
+      "text": "1"
+    },
+    {
+      "number": 68,
+      "text": "10"
+    },
+    {
+      "number": 69,
+      "text": "0"
+    },
+    {
+      "number": 70,
+      "text": "0"
+    },
+    {
+      "number": 71,
+      "text": "0"
+    },
+    {
+      "number": 72,
+      "text": "0"
+    },
+    {
+      "number": 73,
+      "text": "0"
+    },
+    {
+      "number": 74,
+      "text": "0"
+    },
+    {
+      "number": 75,
+      "text": "0"
+    },
+    {
+      "number": 76,
+      "text": "0"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "0"
+    },
+    {
+      "number": 79,
+      "text": "0"
+    },
+    {
+      "number": 80,
+      "text": "0"
+    },
+    {
+      "number": 81,
+      "text": "0"
+    },
+    {
+      "number": 82,
+      "text": "0"
+    },
+    {
+      "number": 83,
+      "text": "0"
+    },
+    {
+      "number": 84,
+      "text": "0"
+    },
+    {
+      "number": 85,
+      "text": "0"
+    },
+    {
+      "number": 86,
+      "text": ""
+    },
+    {
+      "number": 87,
+      "text": ""
+    },
+    {
+      "number": 88,
+      "text": "1"
+    },
+    {
+      "number": 89,
+      "text": "0"
+    },
+    {
+      "number": 90,
+      "text": "0"
+    },
+    {
+      "number": 91,
+      "text": "0"
+    },
+    {
+      "number": 92,
+      "text": "t"
+    },
+    {
+      "number": 93,
+      "text": "时间变量"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": "0"
+    },
+    {
+      "number": 96,
+      "text": "0"
+    },
+    {
+      "number": 97,
+      "text": "3"
+    },
+    {
+      "number": 98,
+      "text": "1"
+    },
+    {
+      "number": 99,
+      "text": "104"
+    },
+    {
+      "number": 100,
+      "text": "16"
+    },
+    {
+      "number": 101,
+      "text": "128"
+    },
+    {
+      "number": 102,
+      "text": "35"
+    },
+    {
+      "number": 103,
+      "text": "134"
+    },
+    {
+      "number": 104,
+      "text": "8388608"
+    },
+    {
+      "number": 105,
+      "text": "-32"
+    },
+    {
+      "number": 106,
+      "text": "0"
+    },
+    {
+      "number": 107,
+      "text": "24"
+    },
+    {
+      "number": 108,
+      "text": "0"
+    },
+    {
+      "number": 109,
+      "text": "0"
+    },
+    {
+      "number": 110,
+      "text": "0"
+    },
+    {
+      "number": 111,
+      "text": "0"
+    },
+    {
+      "number": 112,
+      "text": "楷体_GB2312"
+    },
+    {
+      "number": 113,
+      "text": "1"
+    },
+    {
+      "number": 114,
+      "text": "水的电离"
+    },
+    {
+      "number": 115,
+      "text": "1"
+    },
+    {
+      "number": 116,
+      "text": "26"
+    },
+    {
+      "number": 117,
+      "text": "87"
+    },
+    {
+      "number": 118,
+      "text": "304"
+    },
+    {
+      "number": 119,
+      "text": "193"
+    },
+    {
+      "number": 120,
+      "text": "134"
+    },
+    {
+      "number": 121,
+      "text": "0"
+    },
+    {
+      "number": 122,
+      "text": "-16"
+    },
+    {
+      "number": 123,
+      "text": "0"
+    },
+    {
+      "number": 124,
+      "text": "12"
+    },
+    {
+      "number": 125,
+      "text": "0"
+    },
+    {
+      "number": 126,
+      "text": "0"
+    },
+    {
+      "number": 127,
+      "text": "0"
+    },
+    {
+      "number": 128,
+      "text": "0"
+    },
+    {
+      "number": 129,
+      "text": "宋体"
+    },
+    {
+      "number": 130,
+      "text": "11"
+    },
+    {
+      "number": 131,
+      "text": "水是一种极弱的电解质，它的电离方程为："
+    },
+    {
+      "number": 132,
+      "text": ""
+    },
+    {
+      "number": 133,
+      "text": "H2O ═可逆 H+ + OH-"
+    },
+    {
+      "number": 134,
+      "text": ""
+    },
+    {
+      "number": 135,
+      "text": "此电离方程的电离常数"
+    },
+    {
+      "number": 136,
+      "text": ""
+    },
+    {
+      "number": 137,
+      "text": "    [H+][OH-]"
+    },
+    {
+      "number": 138,
+      "text": "K = ───── = 1.8016e-16"
+    },
+    {
+      "number": 139,
+      "text": "      [H2O]"
+    },
+    {
+      "number": 140,
+      "text": ""
+    },
+    {
+      "number": 141,
+      "text": "Kw = [H+][OH-] = 1.0e-14"
+    },
+    {
+      "number": 142,
+      "text": "1"
+    },
+    {
+      "number": 143,
+      "text": "325"
+    },
+    {
+      "number": 144,
+      "text": "239"
+    },
+    {
+      "number": 145,
+      "text": "325"
+    },
+    {
+      "number": 146,
+      "text": "42"
+    },
+    {
+      "number": 147,
+      "text": "134"
+    },
+    {
+      "number": 148,
+      "text": "128"
+    },
+    {
+      "number": 149,
+      "text": "-13"
+    },
+    {
+      "number": 150,
+      "text": "0"
+    },
+    {
+      "number": 151,
+      "text": "10"
+    },
+    {
+      "number": 152,
+      "text": "0"
+    },
+    {
+      "number": 153,
+      "text": "0"
+    },
+    {
+      "number": 154,
+      "text": "0"
+    },
+    {
+      "number": 155,
+      "text": "0"
+    },
+    {
+      "number": 156,
+      "text": "宋体"
+    },
+    {
+      "number": 157,
+      "text": "3"
+    },
+    {
+      "number": 158,
+      "text": "运行后，用鼠标右键点击烧杯，在弹出的菜单中点击属性"
+    },
+    {
+      "number": 159,
+      "text": "查看烧杯的属性。注意水中H+离子和OH-离子的物质的量"
+    },
+    {
+      "number": 160,
+      "text": "和它们的浓度。"
+    },
+    {
+      "number": 161,
+      "text": "1"
+    },
+    {
+      "number": 162,
+      "text": "0"
+    },
+    {
+      "number": 163,
+      "text": "3"
+    },
+    {
+      "number": 164,
+      "text": "0"
+    },
+    {
+      "number": 165,
+      "text": "0"
+    },
+    {
+      "number": 166,
+      "text": "1"
+    },
+    {
+      "number": 167,
+      "text": "0"
+    },
+    {
+      "number": 168,
+      "text": "1"
+    },
+    {
+      "number": 169,
+      "text": "32"
+    },
+    {
+      "number": 170,
+      "text": "19"
+    },
+    {
+      "number": 171,
+      "text": "0"
+    },
+    {
+      "number": 172,
+      "text": "1"
+    },
+    {
+      "number": 173,
+      "text": "48"
+    },
+    {
+      "number": 174,
+      "text": "19"
+    },
+    {
+      "number": 175,
+      "text": "0"
+    },
+    {
+      "number": 176,
+      "text": "1"
+    },
+    {
+      "number": 177,
+      "text": "64"
+    },
+    {
+      "number": 178,
+      "text": "0"
+    },
+    {
+      "number": 179,
+      "text": "0"
+    },
+    {
+      "number": 180,
+      "text": "0"
+    },
+    {
+      "number": 181,
+      "text": "0"
+    },
+    {
+      "number": 182,
+      "text": ""
+    },
+    {
+      "number": 183,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

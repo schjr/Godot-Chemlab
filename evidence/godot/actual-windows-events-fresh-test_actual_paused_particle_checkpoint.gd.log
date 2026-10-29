@@ -1,0 +1,5 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"failures":[],"native_pc":4830927,"result":{"error":"Original VCL particle presentation boundary is unresolved at 0x4e3e50","ok":false,"pc":4830927},"rng":{},"scope":"Bounded original frame execution on real raw checkpoint. No fabricated TLS/GDI/pause substitution; not production profile."}
+{"completed_frame":false,"failures":[],"paused_control":[2,0],"validated_prefix_boundary":"0x004e3e50"}
+VALIDATION actual captured raw objects and paused source prefix; VCL boundary explicitly unresolved

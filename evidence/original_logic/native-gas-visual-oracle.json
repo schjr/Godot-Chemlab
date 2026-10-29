@@ -1,0 +1,3098 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x0047692C",
+  "contract": "Original gas color, volume, headspace and rectangle-bound instructions execute; only VCL property/primitive presentation and established AnsiString/lookup boundaries hosted. Captured operations do not establish GDI pixels.",
+  "reagent_fields": {
+    "CO2(气体)": {
+      "molar_mass_bits": "e17a14ae47014640",
+      "color_integer": 16777215
+    },
+    "NO2(气体)": {
+      "molar_mass_bits": "e17a14ae47014740",
+      "color_integer": 1988737
+    },
+    "H2O(液体)": {
+      "molar_mass_bits": "6abc749318043240",
+      "color_integer": 16775137
+    },
+    "Zn(固体)": {
+      "molar_mass_bits": "295c8fc2f5585040",
+      "color_integer": 15658734
+    },
+    "Cl2(气体)": {
+      "molar_mass_bits": "9a99999999b95140",
+      "color_integer": 12779500
+    }
+  },
+  "cases": [
+    {
+      "name": "Cl2-volume0.0-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "0000000000000000"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.05-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9c23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.0999999999-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "abe80c837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "8e545d837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume0.1000000001-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "71c0ad837db9d23e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume1.0-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "b1a934e4dc67073f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 16318461,
+          "brush_color": 16318461,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 16318461,
+          "brush_color": 16318461,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 16318461,
+          "brush_color": 16318461,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 15925243,
+          "brush_color": 15925243,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 15925243,
+          "brush_color": 15925243,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 15925243,
+          "brush_color": 15925243,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume10.0-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "1ed4411dd4413d3f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume100.0-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449723f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid0.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid0.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid0.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid50.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 101,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid50.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 89,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid50.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000004940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 41,
+          "bottom": 0,
+          "pen_color": 12779500,
+          "brush_color": 12779500,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid100.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid100.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid100.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005940",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid120.0-height0.0",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000000000",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid120.0-height11.5",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "0000000000002740",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "Cl2-volume200.0-liquid120.0-height100.2",
+      "contents_bits": {
+        "Cl2(气体)": "922449922449823f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000005e40",
+      "liquid_height_bits": "cdcccccccc0c5940",
+      "width": 41,
+      "height": 101,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    },
+    {
+      "name": "mixed-n1e-05-liquid0.0",
+      "contents_bits": {
+        "Cl2(气体)": "f168e388b5f8e43e",
+        "CO2(气体)": "f168e388b5f8f43e",
+        "NO2(气体)": "6a1d554d1075ff3e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc4c3540",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 36,
+          "pen_color": 16777215,
+          "brush_color": 16777215,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "mixed-n1e-05-liquid37.3",
+      "contents_bits": {
+        "Cl2(气体)": "f168e388b5f8e43e",
+        "CO2(气体)": "f168e388b5f8f43e",
+        "NO2(气体)": "6a1d554d1075ff3e"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "6666666666a64240",
+      "liquid_height_bits": "cdcccccccc4c3540",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 36,
+          "pen_color": 16580093,
+          "brush_color": 16580093,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "mixed-n0.001-liquid0.0",
+      "contents_bits": {
+        "Cl2(气体)": "fca9f1d24d62503f",
+        "CO2(气体)": "fca9f1d24d62603f",
+        "NO2(气体)": "fa7e6abc7493683f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc4c3540",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 36,
+          "pen_color": 8694716,
+          "brush_color": 8694716,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "mixed-n0.001-liquid37.3",
+      "contents_bits": {
+        "Cl2(气体)": "fca9f1d24d62503f",
+        "CO2(气体)": "fca9f1d24d62603f",
+        "NO2(气体)": "fa7e6abc7493683f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "6666666666a64240",
+      "liquid_height_bits": "cdcccccccc4c3540",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 36,
+          "pen_color": 8694716,
+          "brush_color": 8694716,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "mixed-n0.1-liquid0.0",
+      "contents_bits": {
+        "Cl2(气体)": "9a9999999999b93f",
+        "CO2(气体)": "9a9999999999c93f",
+        "NO2(气体)": "343333333333d33f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "0000000000000000",
+      "liquid_height_bits": "cdcccccccc4c3540",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 36,
+          "pen_color": 8694716,
+          "brush_color": 8694716,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "mixed-n0.1-liquid37.3",
+      "contents_bits": {
+        "Cl2(气体)": "9a9999999999b93f",
+        "CO2(气体)": "9a9999999999c93f",
+        "NO2(气体)": "343333333333d33f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "6666666666a64240",
+      "liquid_height_bits": "cdcccccccc4c3540",
+      "width": 53,
+      "height": 58,
+      "native_operations": [
+        {
+          "op": "rectangle",
+          "left": 0,
+          "top": 0,
+          "right": 53,
+          "bottom": 36,
+          "pen_color": 8694716,
+          "brush_color": 8694716,
+          "brush_style": 0
+        }
+      ],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x4e3e50",
+        "0x4e4158",
+        "0x4e4274",
+        "0x4e4744",
+        "0x4e9448",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ]
+    },
+    {
+      "name": "non-gas-excluded",
+      "contents_bits": {
+        "H2O(液体)": "000000000000f03f",
+        "Zn(固体)": "9a9999999999b93f"
+      },
+      "capacity_bits": "0000000000005940",
+      "liquid_volume_bits": "6abc749318043240",
+      "liquid_height_bits": "0000000000002440",
+      "width": 53,
+      "height": 58,
+      "native_operations": [],
+      "boundaries": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x540ec4",
+        "0x540fe8",
+        "0x5410cc"
+      ]
+    }
+  ]
+}

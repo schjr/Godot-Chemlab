@@ -1,0 +1,114 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x00476ddc",
+  "requested_volume": 2.0,
+  "before": [
+    {
+      "contents": {
+        "H2O(液体)": 2.2202486678508,
+        "NaOH(溶解)": 0.1,
+        "Zn(固体)": 0.01,
+        "CO2(气体)": 0.001
+      },
+      "masses": {
+        "H2O(液体)": 40.000000000000014,
+        "NaOH(溶解)": 3.9998,
+        "Zn(固体)": 0.6539,
+        "CO2(气体)": 0.04401
+      },
+      "volumes": {
+        "H2O(液体)": 40.000000000000014,
+        "NaOH(溶解)": 0.0,
+        "Zn(固体)": 0.32695,
+        "CO2(气体)": 22.4
+      },
+      "temperature": 40.0,
+      "liquid_volume": 40.000000000000014,
+      "solid_volume": 0.32695,
+      "gas_moles": 0.001,
+      "gas_volume": 22.4,
+      "pressure": 0.0
+    },
+    {
+      "contents": {
+        "H2O(液体)": 0.5
+      },
+      "masses": {
+        "H2O(液体)": 9.008
+      },
+      "volumes": {
+        "H2O(液体)": 9.008
+      },
+      "temperature": 20.0,
+      "liquid_volume": 9.008,
+      "solid_volume": 0.0,
+      "gas_moles": 0.0,
+      "gas_volume": 0.0,
+      "pressure": 0.0
+    }
+  ],
+  "after": [
+    {
+      "contents": {
+        "H2O(液体)": 2.10923623445826,
+        "NaOH(溶解)": 0.095,
+        "Zn(固体)": 0.01,
+        "CO2(气体)": 0.001
+      },
+      "masses": {
+        "H2O(液体)": 38.00000000000001,
+        "NaOH(溶解)": 3.79981,
+        "Zn(固体)": 0.6539,
+        "CO2(气体)": 0.04401
+      },
+      "volumes": {
+        "H2O(液体)": 38.00000000000001,
+        "NaOH(溶解)": 0.0,
+        "Zn(固体)": 0.32695,
+        "CO2(气体)": 22.4
+      },
+      "temperature": 40.0,
+      "liquid_volume": 38.00000000000001,
+      "solid_volume": 0.32695,
+      "gas_moles": 0.001,
+      "gas_volume": 22.4,
+      "pressure": 0.0
+    },
+    {
+      "contents": {
+        "H2O(液体)": 0.61101243339254,
+        "NaOH(溶解)": 0.004999999999999998
+      },
+      "masses": {
+        "H2O(液体)": 11.008,
+        "NaOH(溶解)": 0.19998999999999992
+      },
+      "volumes": {
+        "H2O(液体)": 11.008,
+        "NaOH(溶解)": 0.0
+      },
+      "temperature": 23.63372093023256,
+      "liquid_volume": 11.008,
+      "solid_volume": 0.0,
+      "gas_moles": 0.0,
+      "gas_volume": 0.0,
+      "pressure": 0.0
+    }
+  ],
+  "boundary_calls": [
+    "0x4016e8",
+    "0x452acc",
+    "0x452d9c",
+    "0x461db4",
+    "0x540ec4",
+    "0x540fe8",
+    "0x541018",
+    "0x5410cc"
+  ],
+  "messages": [],
+  "limitations": [
+    "Original arithmetic is executed; AnsiString operations and lookup/message boundaries are hosted.",
+    "Oracle starts with explicitly zero-initialized volume slots and x87 control word 0x037f.",
+    "No whole-application or Win32 UI equivalence is claimed."
+  ]
+}

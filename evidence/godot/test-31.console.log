@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"failures":[]}
+PASS direct original particle helpers require RNG only at source random accesses

@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":128,"examples":28,"failures":[]}
+PASS production-owned source allocator startup all28 examples without observations or fixture allocation cells

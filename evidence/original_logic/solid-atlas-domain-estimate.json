@@ -1,0 +1,239 @@
+{
+  "scope": "33 original fixed factory choices, upright4744DC solid helper only; positive finite capacities, native clamping and stored level in[0,H]/[0,W]. Analytical monotone-coordinate upper bounds, NOT an enumerated/verified atlas.",
+  "unique_geometry_profiles": 17,
+  "joint_tuple_upper_bound": 4294,
+  "raw_bgra_plus_byte_arc_upper_bytes": 62752170,
+  "packed_two_binary_coverage_masks_upper_bytes": 3139718,
+  "rows": [
+    {
+      "kind": "sg0",
+      "type": 101,
+      "subtype": 0,
+      "width": 18,
+      "height": 88,
+      "family": "basic-int",
+      "max_solid_geometry_tuples": 353,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "sg45",
+      "type": 101,
+      "subtype": 45,
+      "width": 71,
+      "height": 72,
+      "family": "sg45",
+      "max_solid_geometry_tuples": 433,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "sg97",
+      "type": 101,
+      "subtype": 97,
+      "width": 90,
+      "height": 23,
+      "family": "sg97",
+      "max_solid_geometry_tuples": 271,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "sb100",
+      "type": 102,
+      "subtype": 100,
+      "width": 42,
+      "height": 46,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 185,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "sb200",
+      "type": 102,
+      "subtype": 200,
+      "width": 53,
+      "height": 58,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 233,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "sb500",
+      "type": 102,
+      "subtype": 500,
+      "width": 75,
+      "height": 82,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 329,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "zxp100",
+      "type": 103,
+      "subtype": 100,
+      "width": 43,
+      "height": 52,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 209,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "zxp250",
+      "type": 103,
+      "subtype": 250,
+      "width": 58,
+      "height": 66,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 265,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "ydsp100",
+      "type": 104,
+      "subtype": 100,
+      "width": 44,
+      "height": 82,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 329,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "pdsp100",
+      "type": 105,
+      "subtype": 100,
+      "width": 43,
+      "height": 79,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 317,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "blg",
+      "type": 106,
+      "subtype": 100,
+      "width": 99,
+      "height": 18,
+      "family": "blg",
+      "max_solid_geometry_tuples": 448,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "jqp",
+      "type": 107,
+      "subtype": 100,
+      "width": 36,
+      "height": 54,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 217,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "djqp",
+      "type": 107,
+      "subtype": 100,
+      "width": 36,
+      "height": 54,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 217,
+      "reuses_existing_geometry": true
+    },
+    {
+      "kind": "uxg",
+      "type": 108,
+      "subtype": 100,
+      "width": 48,
+      "height": 79,
+      "family": "fixed",
+      "max_solid_geometry_tuples": 1,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "zfm_50",
+      "type": 121,
+      "subtype": 50,
+      "width": 44,
+      "height": 17,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 69,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "gkp",
+      "type": 201,
+      "subtype": 100,
+      "width": 30,
+      "height": 49,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 197,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "gkp1000",
+      "type": 201,
+      "subtype": 1000,
+      "width": 30,
+      "height": 49,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 197,
+      "reuses_existing_geometry": true
+    },
+    {
+      "kind": "xkp",
+      "type": 202,
+      "subtype": 100,
+      "width": 30,
+      "height": 52,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 209,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "xkp1000",
+      "type": 202,
+      "subtype": 1000,
+      "width": 30,
+      "height": 52,
+      "family": "basic-half",
+      "max_solid_geometry_tuples": 209,
+      "reuses_existing_geometry": true
+    },
+    {
+      "kind": "jtdg_2",
+      "domain": "No stencil or arc; full-white source has no composite effect",
+      "max_solid_geometry_tuples": 0
+    },
+    {
+      "kind": "ssddg",
+      "domain": "No stencil or arc; full-white source has no composite effect",
+      "max_solid_geometry_tuples": 0
+    },
+    {
+      "kind": "jsddg",
+      "domain": "No stencil or arc; full-white source has no composite effect",
+      "max_solid_geometry_tuples": 0
+    },
+    {
+      "kind": "ld",
+      "type": 209,
+      "subtype": 50,
+      "width": 37,
+      "height": 57,
+      "family": "funnel",
+      "max_solid_geometry_tuples": 229,
+      "reuses_existing_geometry": false
+    },
+    {
+      "kind": "cjld",
+      "domain": "No stencil or arc; full-white source has no composite effect",
+      "max_solid_geometry_tuples": 0
+    },
+    {
+      "kind": "fyld",
+      "domain": "No stencil or arc; full-white source has no composite effect",
+      "max_solid_geometry_tuples": 0
+    },
+    {
+      "kind": "shuic",
+      "domain": "No stencil or arc; full-white source has no composite effect",
+      "max_solid_geometry_tuples": 0
+    }
+  ]
+}

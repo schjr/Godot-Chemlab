@@ -1,0 +1,37 @@
+[
+  {
+    "name": "encyclopedia",
+    "exit_code": 0,
+    "log": "evidence/encyclopedia-published-ghidra.log"
+  },
+  {
+    "name": "main",
+    "exit_code": 0,
+    "log": "evidence/main-published-ghidra.log"
+  },
+  {
+    "name": "molecule",
+    "exit_code": 0,
+    "log": "evidence/molecule-published-ghidra.log"
+  },
+  {
+    "name": "avi",
+    "exit_code": 0,
+    "log": "evidence/avi-published-ghidra.log"
+  },
+  {
+    "name": "gif",
+    "exit_code": 0,
+    "log": "evidence/gif-published-ghidra.log"
+  },
+  {
+    "name": "resource_6b1e97cc",
+    "exit_code": 0,
+    "log": "evidence/resource_6b1e97cc-published-ghidra.log"
+  },
+  {
+    "name": "resource_cb7e19b8",
+    "exit_code": 0,
+    "log": "evidence/resource_cb7e19b8-published-ghidra.log"
+  }
+]

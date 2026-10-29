@@ -1,0 +1,14 @@
+CREATE TABLE "chemicals" ("chemname" TEXT, "mf" TEXT, "popularname" TEXT, "describe1" TEXT, PRIMARY KEY ("chemname"));
+CREATE TABLE "chemics" ("chemicname" TEXT, "flname" TEXT, "nationality" TEXT, "alllife" TEXT, PRIMARY KEY ("chemicname"));
+CREATE TABLE "concepts" ("conceptname" TEXT, "conceptcontent" TEXT, PRIMARY KEY ("conceptname"));
+CREATE TABLE "eleinfo" ("elenum" INTEGER, "finder" TEXT, "findtime" TEXT, "howtofind" TEXT, "nameby" TEXT, "describe1" TEXT, "source" TEXT, "use" TEXT, "excontent" TEXT, PRIMARY KEY ("elenum"));
+CREATE INDEX "eleinfo__elenum" ON "eleinfo" ("elenum" ASC);
+CREATE TABLE "elements" ("id" INTEGER, "elenum" INTEGER, "elesymbol" TEXT, "eletitle" TEXT, "elewt" TEXT, "eletype" TEXT, "eleename" TEXT, "elefengdu" TEXT, "elemeltingp" REAL, "eleboilingp" REAL, PRIMARY KEY ("id"));
+CREATE INDEX "elements__elenum" ON "elements" ("elenum" ASC);
+CREATE INDEX "elements__id" ON "elements" ("id" ASC);
+CREATE TABLE "idlib" ("idname" TEXT, "idvalue" TEXT, PRIMARY KEY ("idname"));
+CREATE INDEX "idlib__diyid" ON "idlib" ("idname" ASC);
+CREATE INDEX "idlib__idvalue" ON "idlib" ("idvalue" ASC);
+CREATE TABLE "resdiy" ("resid" TEXT, "parentid" TEXT, "titlename" TEXT, "resinfo" TEXT, "restype" INTEGER, PRIMARY KEY ("resid"));
+CREATE INDEX "resdiy__parentid" ON "resdiy" ("parentid" ASC);
+CREATE INDEX "resdiy__resid" ON "resdiy" ("resid" ASC);

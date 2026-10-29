@@ -1,0 +1,82 @@
+{
+  "binary": "artifacts/ChemLab/gif.exe",
+  "sha256": "8d7a0b3e7e45e5193b6f40bc4cad05d96b8cfca8d26cf18edd7c77b448d364c3",
+  "entries": [
+    {
+      "address": "0x0045ACE0",
+      "name": "Published_FormCreate",
+      "method_name": "FormCreate",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORMMAIN",
+            0
+          ],
+          "root_class": "TFormMain",
+          "entry_file_offset": 368761,
+          "entry_size": 17,
+          "code_file_offset": 368864
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0045AD04",
+      "name": "Published_FormDestroy",
+      "method_name": "FormDestroy",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORMMAIN",
+            0
+          ],
+          "root_class": "TFormMain",
+          "entry_file_offset": 368778,
+          "entry_size": 18,
+          "code_file_offset": 368900
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0045AD18",
+      "name": "Published_ButtonConvertClick",
+      "method_name": "ButtonConvertClick",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORMMAIN",
+            0
+          ],
+          "root_class": "TFormMain",
+          "entry_file_offset": 368714,
+          "entry_size": 25,
+          "code_file_offset": 368920
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0045B608",
+      "name": "Published_ButtonSaveClick",
+      "method_name": "ButtonSaveClick",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORMMAIN",
+            0
+          ],
+          "root_class": "TFormMain",
+          "entry_file_offset": 368739,
+          "entry_size": 22,
+          "code_file_offset": 371208
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    }
+  ]
+}

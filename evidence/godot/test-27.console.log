@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":1324,"explicit_exception_frontiers":1,"failures":[],"native_steps":12}
+PASS source Canvas Rectangle required state Pen/Brush selection event timing native references

@@ -1,0 +1,603 @@
+{
+  "format": "chemlab-gas-run-pen-regression-v1",
+  "source_project": "godot/project.godot",
+  "test_scripts": 83,
+  "all_checks_completed": true,
+  "source_snapshot": {
+    "godot/scripts/original_model_host.gd": "c0fe2300188094bab40994d266c61384a7e2b7281a9c3e5e937715c7109ad7fc",
+    "godot/scripts/original/original_gasflow.gd": "9884505d3b6cef92537351d56938b33f9f5c72ac0026d1cc5f875e69c6cf91f3",
+    "godot/scripts/original/original_pen.gd": "e9423d297908f84a462b95045076f55dca7f1244a4104e2f30c5941f54918c52",
+    "godot/scripts/original/original_pen_vm.gd": "3b3556d2895682852a03f0f84e1a8a9bc49d074def128a245151aa325144989d"
+  },
+  "all28_run_numeric_verified": true,
+  "all28_end_to_end_verified": false,
+  "native_vcl_verified": false,
+  "production_startup_profile_verified": false,
+  "actual_particle_complete_frame": false,
+  "actual_pen_capture_validation": "return_pending",
+  "run_scope": "84,500QWORD cells,1,183scalars,Run-return numeric callback with explicit allocation/graphics/save boundaries",
+  "workflow_scope": "fresh original Run state,7actions,all63physicsframes;OS/bitmap primitive boundaries remain explicit",
+  "results": [
+    {
+      "test": "legacy_formats_test.gd",
+      "source_sha256": "0328419971fe722d2218e55af32589f9770d1523abe6d438b6c83593f52461d2",
+      "log": "evidence/godot/test-0.console.log",
+      "log_sha256": "4aa9b2b28be12f32716bfcf06bb8c45fbe330f631f8d813927fff43711027107",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_actual_paused_particle_checkpoint.gd",
+      "source_sha256": "f7b1911f8fdb00943fbbe82c8b11249106e3dc9b4adbb56e2db39adb516b8ab2",
+      "log": "evidence/godot/test-1.console.log",
+      "log_sha256": "53b1ffa2997d0096480073d48b7a978a15ef6d0c24bd20d80747c2f929ce5bf4",
+      "partial_boundary_validation": true
+    },
+    {
+      "test": "test_adapter.gd",
+      "source_sha256": "c11e894f7f9efae7459b7b7f590517acea55663289a4a5a1fb0f7232979f0598",
+      "log": "evidence/godot/test-2.console.log",
+      "log_sha256": "42fdddde00a5bfb7b97fe5b908f4cea91def613ec3a1206e118f616acbb6c094",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_dialogs.gd",
+      "source_sha256": "e7a257eca76ccaa6fa8e27d46b810f20869d855b8b51274b3cb0c2f5f4563daf",
+      "log": "evidence/godot/test-3.console.log",
+      "log_sha256": "5bc49b72121450f97620eef5cf35ec2859090a139dd663c8087d3b5181a66530",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_encyclopedia.gd",
+      "source_sha256": "5e45eb1192760471219736fba4a69d7a4e8dc06b5d4337c2365984722cc6b1df",
+      "log": "evidence/godot/test-4.console.log",
+      "log_sha256": "7b297116f92690af6c2061042358cab673c1ab18af60a7a21f309fef37d6f5ac",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_legacy_encoding.gd",
+      "source_sha256": "94e1fc3d104231f7524cb4d12b58edf9afb31331702813dd5fdc200527af0e22",
+      "log": "evidence/godot/test-5.console.log",
+      "log_sha256": "a3fdf905c012020f1fa37c8520dbf85148cd8c6d1a7f52f9964718884aeea113",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_molecule.gd",
+      "source_sha256": "ca29e710d685c04218d187dd09047d4a9db5c2b35a76d4780913f6c9bfc79754",
+      "log": "evidence/godot/test-6.console.log",
+      "log_sha256": "008d7135591c2b57da7364473512952aff0fa8ab33948719b9dc31cfaa67784d",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_action_workflow.gd",
+      "source_sha256": "1e394a048604c1b014c3e949ba85e01fb4bc491024f48acbe07d7821a556b017",
+      "log": "evidence/godot/test-7.console.log",
+      "log_sha256": "5fff69396048fe4653b0d20c2bd252fd1fc22a3ddd6dc7a48137421618c139f9",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_canvas_presentation.gd",
+      "source_sha256": "dd818695ed356a9c974283e323954398a19cdbd0b2e0d96c31dc8a551d73176f",
+      "log": "evidence/godot/test-8.console.log",
+      "log_sha256": "c41b4097077613a9908f987f8cee6fde122f2816a2ceba1259f57b0a759d08fc",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_closed_window_dispatch.gd",
+      "source_sha256": "260128285c15249c185a5fd26632133261995ba00f001c2593b71aa42ae62d9f",
+      "log": "evidence/godot/test-9.console.log",
+      "log_sha256": "2f9c4e885355de8fefe5a23f101cd4a77fcaf9b9ae24992160d3e97bfa42d9a9",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_controls_dispatch.gd",
+      "source_sha256": "2573ce8ce11333802af1bad011d02219769c23869c97b200ec15653d4afa5179",
+      "log": "evidence/godot/test-10.console.log",
+      "log_sha256": "3948fb06afd214aa2b2848da099677a042ce256080ae4f162cdf02b43b883b51",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_live_property_ui.gd",
+      "source_sha256": "bd7ed38147b68ae9050238edcaac37ba5a28320ef2bb045632ce0422dcede505",
+      "log": "evidence/godot/test-11.console.log",
+      "log_sha256": "664f8d459750966d214839239cad906d8ff6ecb067493783573f795857261363",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_pour_menu.gd",
+      "source_sha256": "e7ff03cad134d17aa6d3c9758b363c2ce9fd52e491a3558aeab1f0a95555b13a",
+      "log": "evidence/godot/test-12.console.log",
+      "log_sha256": "b114d086b6a2d64e78de219ecaff5ca6d9a6021fa67b136017a19e0bfd15780c",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_property_modal_ui.gd",
+      "source_sha256": "7e9dd883830226bc19ec386161975ca706d1c2027e89d223c3e73c7cc031176e",
+      "log": "evidence/godot/test-13.console.log",
+      "log_sha256": "46ced45b889ef38df6453062747c2384cca0189c0ef79ec64151868e1f1d5020",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_property_quantity_ui.gd",
+      "source_sha256": "e47fccd6491b9a3c61065aba65b2dd6ce36d8537ac65c777304bfabc1f6fe911",
+      "log": "evidence/godot/test-14.console.log",
+      "log_sha256": "f3b0071080880b36c47e961689789d62e5362f160bdfd0473ca45610a759b775",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_property_reaction_ui.gd",
+      "source_sha256": "2251ad92d54a40068237e8583b80dc78e02e73966c5730f73110f4247ba40a75",
+      "log": "evidence/godot/test-15.console.log",
+      "log_sha256": "26f5a3fe3eb3db03e8d39f94e36b5b791f42ea891951b815b25425274fb6e6f1",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_native_ui_integration.gd",
+      "source_sha256": "072d34127244019dc99ef338b810d964db7e27a0b04e74e505d44723339c8605",
+      "log": "evidence/godot/test-16.console.log",
+      "log_sha256": "f7d62c52c7d6867aef58210f77a6053ea0460783f5a40c240d25b887a347adf0",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_apparatus_actions.gd",
+      "source_sha256": "512d082ae669f596a4764822787173a8204ba6af3fca69325f5e1f671999e9ce",
+      "log": "evidence/godot/test-17.console.log",
+      "log_sha256": "7d2e9dbcc57786316c0750bdf40e0cfccccf3bcec8404a0abd310e16e4533074",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_bitmap_scale.gd",
+      "source_sha256": "d5fd9c734bc0e4c2bbadc8ea972c14742c33a2e22989f1a73d687614f086c9bf",
+      "log": "evidence/godot/test-18.console.log",
+      "log_sha256": "a1f70a724c04e2d46a58d78f2fc98f9dd401d5c79db4e2bb5a71784afd6b545a",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_chart.gd",
+      "source_sha256": "7f3312e741edbf2ac436a96f27d251a7521de65c79a7b4da30f961573bf985f5",
+      "log": "evidence/godot/test-19.console.log",
+      "log_sha256": "da06c27cb57564575d29e744fa8a91612d5ae57fa2cd394c791dcef71a9f0716",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_decimal.gd",
+      "source_sha256": "eff32fec32f477115ca65e1a2af3ea9b62a29b4d792597b8749ad01bce163b26",
+      "log": "evidence/godot/test-20.console.log",
+      "log_sha256": "0f82acde0d3087556f66d5e537e09039c242a9cd751ad1944be36d4be55e4b7a",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_dib_capture_actual.gd",
+      "source_sha256": "3443102ee27d6399c8977dc7af9ddb345956ad35464dd634d99e2f55c7065ac4",
+      "log": "evidence/godot/test-21.console.log",
+      "log_sha256": "a93810679cbbee81c692035b29dc4fe8166cf8bbd07e41d2c4c221d22f85f43c",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_direct_particle_rng.gd",
+      "source_sha256": "edd21be98268eaf80f7153451c696cc9dc97fbc4d98054a7968e073919256e1e",
+      "log": "evidence/godot/test-22.console.log",
+      "log_sha256": "df184ef6400a650c3c47f5b23ddde3814f3bcb9e7095b62b8b3313f25cdfc55d",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_drag.gd",
+      "source_sha256": "a2cea6cf385aa71357a550942e0b5191855ee3d66013a62fe247a0f46c91dcbd",
+      "log": "evidence/godot/test-23.console.log",
+      "log_sha256": "8a4145a7a51b44637687835c840101399594bcca4641d8219b4d084dc2f54750",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_factory.gd",
+      "source_sha256": "946aaa15d57df1a7bd662a9db92577bb5212aba3d516a138adf3921f17a40f01",
+      "log": "evidence/godot/test-24.console.log",
+      "log_sha256": "c0b003a3c960f51fce03ea0eb815178eea051f02fc774de8aee7dab9e77ccf2c",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_fields.gd",
+      "source_sha256": "206d9020500dcb0579e9b68c1e71bec5edfb0274216cd01a76b1ac1276a942a6",
+      "log": "evidence/godot/test-25.console.log",
+      "log_sha256": "2b498d2ea6328dfd8c5aae441d970caa7326c9a9db077847876e50103d528a66",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_flow.gd",
+      "source_sha256": "a8fbf3a8cf53d669b1b36b1d739edc4aa15608512dc16fe181c902d39c01e50a",
+      "log": "evidence/godot/test-26.console.log",
+      "log_sha256": "15d964c6c7b3c4ea4757e06a861d7a6bc2463141915684b54cbf4835ce411edf",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_frames.gd",
+      "source_sha256": "649a953aafef50a3d1bd18bd5ba59c61e3c79fa4fef2614b7a854636de6aeb07",
+      "log": "evidence/godot/test-27.console.log",
+      "log_sha256": "9d66a3285d3b006d339dc3c863b08bcb4017fbfc35a030dcc0f2e8612b85cd03",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_gas_operand_order.gd",
+      "source_sha256": "f948805eda3aaa7560ebfe9bafae1b991eaacba5ad64fcad71ac898fc1bd3376",
+      "log": "evidence/godot/test-28.console.log",
+      "log_sha256": "a1e9681a819f343993410c86c067b04af1fad65aca4dead5a9bf239234d952ea",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_gas_visual.gd",
+      "source_sha256": "d9ec98afa6757e9c73445ddee90a1a2cf9cd703d3014ab1223558756d515686d",
+      "log": "evidence/godot/test-29.console.log",
+      "log_sha256": "cb901aa0b723194b804fda96017d7d97e59d94858f54b9fa6e2c9c81fe590a19",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_gasflow.gd",
+      "source_sha256": "a2820c20546f9f01bc88c6d488b14ca18e0b92a4cfa53c3d6434c6e1e2125a3d",
+      "log": "evidence/godot/test-30.console.log",
+      "log_sha256": "0752016ae79757a9ef1ece6beb61111d2b7017892441f70def0482a90814a7c9",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_gdi_capture_actual.gd",
+      "source_sha256": "eeea481e05fd1a47f87bbf5ac0b7820fb143b0afba67266c9886376ea520c198",
+      "log": "evidence/godot/test-31.console.log",
+      "log_sha256": "3a7d471cff3e7243e079e2827715bfde012c2953f7175c311dba85be84fcfd2b",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_gdi_capture_guards.gd",
+      "source_sha256": "f60e67f88fcd57a7fd63f126ce21399cfa07dacd0d02a729bdeb8993663716af",
+      "log": "evidence/godot/test-32.console.log",
+      "log_sha256": "113e6d8466f5254bf6732f7414b66a1bbfddef9885b9a687972e5f9dbd3ff323",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_gdi_host.gd",
+      "source_sha256": "a237f03fe75d193737d264a0221e612a9851722d26da8a6d65d9c3c20b0b6f46",
+      "log": "evidence/godot/test-33.console.log",
+      "log_sha256": "3a4308dd8d88e6df181d136e2244a08f6fa36392fc1fd4e88e8ab8881bcbda88",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_heap_boundaries.gd",
+      "source_sha256": "d0a5656ff04a55460b8641fd5ca4f4467f8bdf23080a85d1e0d9512cf25cae10",
+      "log": "evidence/godot/test-34.console.log",
+      "log_sha256": "cee9f609289282298ef652fd84c42af055ba1917ba28b8720cfae6294b5edc11",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_heap_vessel_view.gd",
+      "source_sha256": "693deb4beaffea68b9d96e6bb1185d27cc1c29df086ee464d291d02df5ec86ef",
+      "log": "evidence/godot/test-35.console.log",
+      "log_sha256": "b1dcab3f2f3f6a2d02c05688173526307493b7b4700f7ef7f910d63150a189f4",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_heat_geometry.gd",
+      "source_sha256": "20149b35f5cc85e99175a8f4ba0fc1338301286b4803d5f555649283c77430ff",
+      "log": "evidence/godot/test-36.console.log",
+      "log_sha256": "4461effb21f7e657fb3a8c2545d8451dc94ea1b4f5f33b0fe4d986343dcb2579",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_interaction.gd",
+      "source_sha256": "bf861c94466cce269d745d7096094f5a0176e546d3c627a051508d6b1752cbeb",
+      "log": "evidence/godot/test-37.console.log",
+      "log_sha256": "55b6ce6de34ff1546a5dea9aa93e6f81a3ef40d56f2074d8d20fc77e3f55f87f",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_liquid.gd",
+      "source_sha256": "45b1bacff2018af4aa713cf5c86d3696e88624bc52a4aa901dc82d394cb882e5",
+      "log": "evidence/godot/test-38.console.log",
+      "log_sha256": "9f248e646e13951d469dd0dd5b73ba107507eac22f93db4d38916e68ea362e1c",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_live_property.gd",
+      "source_sha256": "1ffc607cc34a1dcc30a7aba91a35d341ac0241cc7e84596153c4e3caac4a09cc",
+      "log": "evidence/godot/test-39.console.log",
+      "log_sha256": "dfb2c432a8f3d98eb498ca25b851e98a364a52c3c9c0aaa86716dc91b24fc2ea",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_material_rasterizer.gd",
+      "source_sha256": "713f3e374f9eae0cc8d941abdfbf575bdb06ab6467f4579aef4ad4999aa7403c",
+      "log": "evidence/godot/test-40.console.log",
+      "log_sha256": "96779132a673a391ceedf8ab8745c6978ebe178a7808349315bce615462e4af4",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_math.gd",
+      "source_sha256": "3a96d56f253d6224279ecae629f17f49baa728dc4c485aed4e9539ab9862d9d3",
+      "log": "evidence/godot/test-41.console.log",
+      "log_sha256": "7f652552aa872969859b9c1b9457c6aa42b621ae2dd15594d7faccdccf7ba6bd",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_observed_particle_object.gd",
+      "source_sha256": "d8ba84a9322b05553ef821f722ad88b4a0fab7b32361c20bc5e8cb241ec2db74",
+      "log": "evidence/godot/test-42.console.log",
+      "log_sha256": "7534655073ea02a7d063cf1d585ac887b874dee4c7be433b41daa01513cfbf72",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_particle_frames.gd",
+      "source_sha256": "969d1e2d2ca1baeb80a546d21605b2430bdb2585cc6e0d24f03c262549dc2b98",
+      "log": "evidence/godot/test-43.console.log",
+      "log_sha256": "2cb7aadca16ea0ae12281fffd3b2b3b1f5bd4b3a76a8618d4defb3aee858edb4",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_particle_unknowns.gd",
+      "source_sha256": "0cb67110622086717e700696ea9934d81906582aab92edb613be0c3d856550af",
+      "log": "evidence/godot/test-44.console.log",
+      "log_sha256": "f446e65b9fdfab57d09bc63ade282bf79a2fc8ea7ecdb07b34119e156d4a99da",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_particle_vm_opcodes.gd",
+      "source_sha256": "d6d968d48f87b019df73f08900de13295a36ed7f5ce02e38e5dd1385defe5776",
+      "log": "evidence/godot/test-45.console.log",
+      "log_sha256": "949218303c737e04f7e5142885f77b36f03d12d8c081c49eb96ddacf19728728",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_particles.gd",
+      "source_sha256": "3a02f954c72efaefc99ac407558c7384c0eeafe7ea434cc0118e248500261874",
+      "log": "evidence/godot/test-46.console.log",
+      "log_sha256": "a21771719672a5427fcd1219a71d4dcc9ec3ca024d8b950a917a82582b84bbd8",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_particles_host.gd",
+      "source_sha256": "9fde90248c9b10445146b7e69b04424fb269a01dd596f7504b20c903f696f464",
+      "log": "evidence/godot/test-47.console.log",
+      "log_sha256": "be4ccb529015e19c13af8eb61a1f1662fe8eefeceeffdebe4fd855c0b15dba16",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_pen.gd",
+      "source_sha256": "6cf3f0ffc990153f846498dcf956a0764a2c72da2fefdb56d2f723e24574fac8",
+      "log": "evidence/godot/test-48.console.log",
+      "log_sha256": "100c9b002501896161c51967f9d4aedb5509235037956fb58487fb03c8e686b7",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_pen_boundaries.gd",
+      "source_sha256": "f01407bb7baa68dfba35e225c8286203600f0664f5754f7314c3ced520b03a19",
+      "log": "evidence/godot/test-49.console.log",
+      "log_sha256": "8cff8e522537fc42a60bdbafa61ba4fae760e0bafa4b844993160027f78d1af3",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_presentation_adoption.gd",
+      "source_sha256": "3b2f37cc5689ec9e07aea0b5fbc290a9390f513c8a9d5543d722e280ccf8d66e",
+      "log": "evidence/godot/test-50.console.log",
+      "log_sha256": "9dd128b9553ee844afb5f8e7fde9018d4c42c6be6087ff6c36e93d3aa13f861c",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_presentation_orchestrator.gd",
+      "source_sha256": "c996a1e5a6dd0ac4fe53523cf2d643da7a8347d1fd4692f93dc6aa46d7080aa2",
+      "log": "evidence/godot/test-51.console.log",
+      "log_sha256": "555ae55584bbde96589245a0997775a0907d4a44d7a0e85d0ac2295baa09073f",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_program.gd",
+      "source_sha256": "3641c2d6cf68860277eb260378fb7d975de422a83f50e1dbcab4eba731580488",
+      "log": "evidence/godot/test-52.console.log",
+      "log_sha256": "7e3256a6433d827cddedfd76fa4d80730699d98890423b1e6c903b3e9b971f7f",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_property_quantity.gd",
+      "source_sha256": "a997c47d8fefb64881b4e87c2b7d8e6bcff104a57682d4513739cc652a781055",
+      "log": "evidence/godot/test-53.console.log",
+      "log_sha256": "b14cd9cb667a91bb258e8c88eb8001557c0510f95cb1893ffcd1013aae80abd9",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_property_reaction.gd",
+      "source_sha256": "06074593fd7778dd6acd7455fa38122f214eba668991a81957d85ef914a7ab73",
+      "log": "evidence/godot/test-54.console.log",
+      "log_sha256": "a270b95c7e10fa8dba4866a372b59078910a543c36c9cafd52949e80075a0df7",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_quantities_thermal.gd",
+      "source_sha256": "3721423b3d3725f7f4643e4b4c2d4effd57f1fe334575f3a377796e487a84126",
+      "log": "evidence/godot/test-55.console.log",
+      "log_sha256": "b434d03b244375b12550fac5e182181add0d28ffa957ff43f2f6985f4cbb9e35",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_reaction.gd",
+      "source_sha256": "79d18d011f36a4de8071ceb1744c5438d740bc79b19b560edd44cf8e7a8de4b6",
+      "log": "evidence/godot/test-56.console.log",
+      "log_sha256": "877a43ec6c2cbe0c47b01aa677b0b31a9e456c01ec601eee0bd4734f716d6582",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_reaction_corpus.gd",
+      "source_sha256": "3fd2598e16e8e9d7b5b5adab0a210ef771db8b25f1a465cce0744dfb41a57686",
+      "log": "evidence/godot/test-57.console.log",
+      "log_sha256": "7e6f2f4a0f46d540259156d37a7c574c0cfe0fffadad46baa68c07c8aec42a95",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_rng_lazy_access.gd",
+      "source_sha256": "8573835a5e619cec38d5e69e879a2d7380676397eea2a2cd5aaf990bd1de7fca",
+      "log": "evidence/godot/test-58.console.log",
+      "log_sha256": "bd27babcdaf955318749146dba15c26eb1929cfb386e8a13dce26a37cd616a1b",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_run_corpus.gd",
+      "source_sha256": "13c932e2829467f06cd291fb3ad2516db74ae5465ac90509d381bc955bbdbe25",
+      "log": "evidence/godot/test-59.console.log",
+      "log_sha256": "1ee2e16b8f7d98d9dffae74467e90c05fa90e8a61f446d4ac7728da000cfdbaa",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_runtime_profile.gd",
+      "source_sha256": "cec2a9867109d59be6469d4577ba936b98700e80589402995c3a82328050cc3f",
+      "log": "evidence/godot/test-60.console.log",
+      "log_sha256": "2a78055d2ed6fd5c3477dcd94536a8fdf9fdb32ddcf10ac0e7128d8325833fd2",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_selection.gd",
+      "source_sha256": "e4986476f75196cf15ddf8b497b2820c61a3220a06fd5a7175de99934d7bcc86",
+      "log": "evidence/godot/test-61.console.log",
+      "log_sha256": "4f8347606455d597c55e0f6230ff9b75971410e05eb4ddea85d762c52f462de7",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_shared_heap.gd",
+      "source_sha256": "3621196e4badd0b27675ea8dcaec5e135082ccc4bd2b135608290323a6abb464",
+      "log": "evidence/godot/test-62.console.log",
+      "log_sha256": "c652c50aa2be4c620add5e1d8384a5ef19f6c79dee2e33c72d7717e1428c570b",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_slots.gd",
+      "source_sha256": "28725d185ada08579f34dbecb6f320ec0348106aec423632a52d58e1a7ad1cc0",
+      "log": "evidence/godot/test-63.console.log",
+      "log_sha256": "d32d08e50b09ef97e8abad1935d86a73255b08565b0dd5ad15292f36ba083022",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_solid_visual.gd",
+      "source_sha256": "c003dd1edc2aec9f893d0eeef87d72467694b30f6fabd9e5dff6e878434a6f3a",
+      "log": "evidence/godot/test-64.console.log",
+      "log_sha256": "66d4588348804c91ab796929ed24540bc328150be6af77833f5c06ee05102312",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_solubility.gd",
+      "source_sha256": "8099b9eb281bc839bec0411ea422db88fc08d596d9494612157ff5878b4e3875",
+      "log": "evidence/godot/test-65.console.log",
+      "log_sha256": "d47764022b405b00aa6d4d68212b961638ad85905cc470824c9b51d25989ca60",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_sqrt.gd",
+      "source_sha256": "57f95cf039b174bb7e040d66349c90f0ae1387c48fa1c46f37f68b0587ee791d",
+      "log": "evidence/godot/test-66.console.log",
+      "log_sha256": "a61e8721cf263c633e6210448bdf8541aa62145d4118806c64bf77203a468b61",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_startup_rng.gd",
+      "source_sha256": "5c93f13da9b4dd2769adcdfbce7ccf1a0b0747eb1930fe99beece5d203550548",
+      "log": "evidence/godot/test-67.console.log",
+      "log_sha256": "b48fc1459b2daaaca1f0813e2f378fc1b3e01ea61b2ebb92998985c7834d2fc5",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_surface_outline.gd",
+      "source_sha256": "5e7e5bdc3d31e746f630e10f61d34094f7f751f5ec821337d0201649c6b6949d",
+      "log": "evidence/godot/test-68.console.log",
+      "log_sha256": "130a13f97e8a20a58849503321e6f28db0b89edb50fce3f922f9bf937dc6bd66",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_tan_host.gd",
+      "source_sha256": "cfabfae04a5f5d4a2f7462c493f10e73ec1816f2cf7d962208d4ad7b2f5329ae",
+      "log": "evidence/godot/test-69.console.log",
+      "log_sha256": "10f4b0c499080c31040ae84dd57aa4f161448d827a557828b1c917817766b70b",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_transfer.gd",
+      "source_sha256": "1847749c281d26097b258103d9101d5fb2c90e15fd2297c8b910f151c6938123",
+      "log": "evidence/godot/test-70.console.log",
+      "log_sha256": "e75350323f8ef8f1ad9caa1eaee7f4923ab0b7e45ec0acc6d63b87172efa67f9",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_trig.gd",
+      "source_sha256": "83b604a2cc486fa170d44e24bd81f27216b8773c70d34c3132df25f90e78cc2f",
+      "log": "evidence/godot/test-71.console.log",
+      "log_sha256": "eae7bd757449b7cf5e909ebdc8826b4f21b036964f91b476aa185b2677dffdac",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_ui_clock.gd",
+      "source_sha256": "d235d9306c0e1f892a7c9a8af783cadd499a9ce5bd34017e2246ba592d8055e1",
+      "log": "evidence/godot/test-72.console.log",
+      "log_sha256": "3f6e47e5c96827f7275cce03d0abdb49f78d1fd63d88149309b28b29eea7554e",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_ui_dispatch.gd",
+      "source_sha256": "ce69c3a374a2576501dc343c28af1a395ac14693ff9487818ec6cb8d0c042e5e",
+      "log": "evidence/godot/test-73.console.log",
+      "log_sha256": "3a8bf76e4694dd1482b52c09239f6d9fd4bb3a15218cbf5824b0eb4ef7008efd",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_variable_cleanup.gd",
+      "source_sha256": "2a76a0440afe88605cc83443099581ba68e36d0f8a93bab9d9fbae19c773e3f6",
+      "log": "evidence/godot/test-74.console.log",
+      "log_sha256": "072dc2b0496552da81b59f80b76731d1a046362b0951c2cf5b15bbbbaabc26e3",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_vessel_bitmap_renderer.gd",
+      "source_sha256": "c4e4a79cf87d5b999c87b66c168a1e9afe254405ed656aa432b7c015ded04a91",
+      "log": "evidence/godot/test-75.console.log",
+      "log_sha256": "5d22f689d8a4274849b776a4897a97c5a37111deb6f2affcd7b9ca2fc1bc4f0d",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_window_input_gate.gd",
+      "source_sha256": "c9e670d3449fe3dcf501a282ec1cbc9b5b9f924f098ce89f4bd59e7e77843450",
+      "log": "evidence/godot/test-76.console.log",
+      "log_sha256": "0556630ed4f7db0b8de0144fe356f8c21248564a138a10ffd5068531bde06fec",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_windows_capture.gd",
+      "source_sha256": "11e219f1c7efcb8e9c8c810c3a19052767ae9f31de2740416a3015e0a1e139ea",
+      "log": "evidence/godot/test-77.console.log",
+      "log_sha256": "3333a1b830595db9649451f955492baefb19ffc8bf8f4ed5acdefdaf9a7daf0e",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_windows_withdrawal.gd",
+      "source_sha256": "87f89876f7c0512c7540f06003119e6c6f19627d9e6aedc1c9db460cc7e0c656",
+      "log": "evidence/godot/test-78.console.log",
+      "log_sha256": "b8457c6bdff73c026466a4c4b474110c2ab97dff99de7cd94e52142dc459fffa",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_workflow.gd",
+      "source_sha256": "c50eec2270d91f059934dbea6c72506af202487c5f73af372702d1ac8235b37e",
+      "log": "evidence/godot/test-79.console.log",
+      "log_sha256": "c4a3efe462e4702a8baf84fd3d89c7347fa1d0cf5d65238d19cb2935178090b1",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_x87_arithmetic.gd",
+      "source_sha256": "cb69ab6ad91846fbd2e405dae5ccea03da4d3b24c397b66a42b01d4340d74e81",
+      "log": "evidence/godot/test-80.console.log",
+      "log_sha256": "e253cbc6541726d131bd26822f9f274af06a746cc9d4fa158c11a72ee37219b8",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_x87_host.gd",
+      "source_sha256": "4399bc56535ebb7774a71a7c7b022bf068db23d9f5993ddf3a572cbf3546194d",
+      "log": "evidence/godot/test-81.console.log",
+      "log_sha256": "a214f1e29c0284e9a4dbb0d4c86789898dc024a7417570e89bad9274043312e1",
+      "partial_boundary_validation": false
+    },
+    {
+      "test": "test_original_x87_signed_zero.gd",
+      "source_sha256": "7153d0c3eec6146144a72303ef58d597f879f93d803cf51723643432fc8ed6df",
+      "log": "evidence/godot/test-82.console.log",
+      "log_sha256": "d2e649834dfecf1dde25150fd9f0ce2b205b47733c7c7496f359f5e7d04aa45a",
+      "partial_boundary_validation": false
+    }
+  ]
+}

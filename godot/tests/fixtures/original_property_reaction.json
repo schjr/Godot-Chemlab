@@ -1,0 +1,232 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "entry": "004A14E4",
+  "boundaries": "VCL GetText and managed string ownership; retained parser and ordered callback stores execute",
+  "cases": [
+    {
+      "row": 1,
+      "texts": [
+        "0.003",
+        "水溶液",
+        "-1.2345678901234567",
+        "1E-20",
+        "可逆"
+      ],
+      "rate_bits": "fa7e6abc7493683f",
+      "condition": "水溶液",
+      "heat_bits": "fb598c42cac0f3bf",
+      "equilibrium_bits": "2342920ca19cc73b",
+      "mode": "可逆"
+    },
+    {
+      "row": 1,
+      "texts": [
+        "-2.5",
+        "任意 原文",
+        "-100",
+        "-0.5",
+        "未知模式"
+      ],
+      "rate_bits": "00000000000004c0",
+      "condition": "任意 原文",
+      "heat_bits": "00000000000059c0",
+      "equilibrium_bits": "000000000000e0bf",
+      "mode": "未知模式"
+    },
+    {
+      "row": 1,
+      "texts": [
+        "1E99",
+        "",
+        "1.2345E-90",
+        "1.2345678901234567",
+        "单向"
+      ],
+      "rate_bits": "2e9f87a2ae427d54",
+      "condition": "",
+      "heat_bits": "ffd377ff251e442d",
+      "equilibrium_bits": "fb598c42cac0f33f",
+      "mode": "单向"
+    },
+    {
+      "row": 1,
+      "texts": [
+        "0",
+        "0",
+        "0",
+        "0",
+        ""
+      ],
+      "rate_bits": "0000000000000000",
+      "condition": "0",
+      "heat_bits": "0000000000000000",
+      "equilibrium_bits": "0000000000000000",
+      "mode": ""
+    },
+    {
+      "row": 1,
+      "texts": [
+        "+2.5E-12",
+        " 加热 ",
+        "-0",
+        "1000000001",
+        " 反向 "
+      ],
+      "rate_bits": "956479e17ffd853d",
+      "condition": " 加热 ",
+      "heat_bits": "0000000000000080",
+      "equilibrium_bits": "0000800065cdcd41",
+      "mode": " 反向 "
+    },
+    {
+      "row": 2,
+      "texts": [
+        "0.003",
+        "水溶液",
+        "-1.2345678901234567",
+        "1E-20",
+        "可逆"
+      ],
+      "rate_bits": "fa7e6abc7493683f",
+      "condition": "水溶液",
+      "heat_bits": "fb598c42cac0f3bf",
+      "equilibrium_bits": "2342920ca19cc73b",
+      "mode": "可逆"
+    },
+    {
+      "row": 2,
+      "texts": [
+        "-2.5",
+        "任意 原文",
+        "-100",
+        "-0.5",
+        "未知模式"
+      ],
+      "rate_bits": "00000000000004c0",
+      "condition": "任意 原文",
+      "heat_bits": "00000000000059c0",
+      "equilibrium_bits": "000000000000e0bf",
+      "mode": "未知模式"
+    },
+    {
+      "row": 2,
+      "texts": [
+        "1E99",
+        "",
+        "1.2345E-90",
+        "1.2345678901234567",
+        "单向"
+      ],
+      "rate_bits": "2e9f87a2ae427d54",
+      "condition": "",
+      "heat_bits": "ffd377ff251e442d",
+      "equilibrium_bits": "fb598c42cac0f33f",
+      "mode": "单向"
+    },
+    {
+      "row": 2,
+      "texts": [
+        "0",
+        "0",
+        "0",
+        "0",
+        ""
+      ],
+      "rate_bits": "0000000000000000",
+      "condition": "0",
+      "heat_bits": "0000000000000000",
+      "equilibrium_bits": "0000000000000000",
+      "mode": ""
+    },
+    {
+      "row": 2,
+      "texts": [
+        "+2.5E-12",
+        " 加热 ",
+        "-0",
+        "1000000001",
+        " 反向 "
+      ],
+      "rate_bits": "956479e17ffd853d",
+      "condition": " 加热 ",
+      "heat_bits": "0000000000000080",
+      "equilibrium_bits": "0000800065cdcd41",
+      "mode": " 反向 "
+    },
+    {
+      "row": 50,
+      "texts": [
+        "0.003",
+        "水溶液",
+        "-1.2345678901234567",
+        "1E-20",
+        "可逆"
+      ],
+      "rate_bits": "fa7e6abc7493683f",
+      "condition": "水溶液",
+      "heat_bits": "fb598c42cac0f3bf",
+      "equilibrium_bits": "2342920ca19cc73b",
+      "mode": "可逆"
+    },
+    {
+      "row": 50,
+      "texts": [
+        "-2.5",
+        "任意 原文",
+        "-100",
+        "-0.5",
+        "未知模式"
+      ],
+      "rate_bits": "00000000000004c0",
+      "condition": "任意 原文",
+      "heat_bits": "00000000000059c0",
+      "equilibrium_bits": "000000000000e0bf",
+      "mode": "未知模式"
+    },
+    {
+      "row": 50,
+      "texts": [
+        "1E99",
+        "",
+        "1.2345E-90",
+        "1.2345678901234567",
+        "单向"
+      ],
+      "rate_bits": "2e9f87a2ae427d54",
+      "condition": "",
+      "heat_bits": "ffd377ff251e442d",
+      "equilibrium_bits": "fb598c42cac0f33f",
+      "mode": "单向"
+    },
+    {
+      "row": 50,
+      "texts": [
+        "0",
+        "0",
+        "0",
+        "0",
+        ""
+      ],
+      "rate_bits": "0000000000000000",
+      "condition": "0",
+      "heat_bits": "0000000000000000",
+      "equilibrium_bits": "0000000000000000",
+      "mode": ""
+    },
+    {
+      "row": 50,
+      "texts": [
+        "+2.5E-12",
+        " 加热 ",
+        "-0",
+        "1000000001",
+        " 反向 "
+      ],
+      "rate_bits": "956479e17ffd853d",
+      "condition": " 加热 ",
+      "heat_bits": "0000000000000080",
+      "equilibrium_bits": "0000800065cdcd41",
+      "mode": " 反向 "
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "source": "artifacts/ChemLab/例子/一氧化碳还原氧化铁.cem",
+    "line_count": 1087,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/一氧化碳还原氧化铜.cem",
+    "line_count": 1145,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/二氧化碳通入石灰水中.cem",
+    "line_count": 782,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/制取与收集氢气.cem",
+    "line_count": 519,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/加热碱式碳酸铜.cem",
+    "line_count": 604,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/加热碳酸氢钠.cem",
+    "line_count": 631,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制取乙炔.cem",
+    "line_count": 500,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制取氯气.cem",
+    "line_count": 794,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制取甲烷.cem",
+    "line_count": 636,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制氧气.cem",
+    "line_count": 1030,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/强酸与弱酸的电离.cem",
+    "line_count": 851,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氢气还原氧化铁.cem",
+    "line_count": 1143,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氢气还原氧化铜.cem",
+    "line_count": 672,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氢氧化铜与氢氧化铁.cem",
+    "line_count": 763,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氯气漂白品红.cem",
+    "line_count": 1035,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/水的加热与沸腾.cem",
+    "line_count": 582,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/水的电离.cem",
+    "line_count": 183,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/硬水的软化.cem",
+    "line_count": 1062,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/碳还原氧化铜.cem",
+    "line_count": 598,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/酸碱中和滴定.cem",
+    "line_count": 1011,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/酸碱指示剂.cem",
+    "line_count": 1896,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/酸碱盐.cem",
+    "line_count": 1621,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/醋酸钠的水解.cem",
+    "line_count": 446,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/金属活动性顺序.cem",
+    "line_count": 549,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/铁和盐酸的反应.cem",
+    "line_count": 412,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/题目1.cem",
+    "line_count": 968,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/题目2.cem",
+    "line_count": 442,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/题目3.cem",
+    "line_count": 677,
+    "format": "cem"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/DNA1.cl3",
+    "line_count": 7767,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/NaCl.cl3",
+    "line_count": 6932,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/三硝基甲苯.cl3",
+    "line_count": 523,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/丙氨酸.cl3",
+    "line_count": 293,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/丙酮.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙二胺.cl3",
+    "line_count": 247,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙二酸.cl3",
+    "line_count": 293,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙酸.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙酸乙酯.cl3",
+    "line_count": 293,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙醇.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙醚.cl3",
+    "line_count": 293,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙醛.cl3",
+    "line_count": 155,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/分子筛.cl3",
+    "line_count": 122861,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/双氧水.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/四氯化碳.cl3",
+    "line_count": 293,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/尿素.cl3",
+    "line_count": 293,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/异丁烷.cl3",
+    "line_count": 247,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/异辛烷.cl3",
+    "line_count": 431,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/戊烷同分异构体.cl3",
+    "line_count": 755,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/正丁烷.cl3",
+    "line_count": 247,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/氟化氢.cl3",
+    "line_count": 155,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/氯乙烯.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/氯化氢.cl3",
+    "line_count": 155,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/溴化氢.cl3",
+    "line_count": 155,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/溴苯.cl3",
+    "line_count": 385,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甘氨酸.cl3",
+    "line_count": 247,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甘油.cl3",
+    "line_count": 339,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲胺.cl3",
+    "line_count": 155,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲苯.cl3",
+    "line_count": 385,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲酰胺.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲酸.cl3",
+    "line_count": 201,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/石墨.cl3",
+    "line_count": 17903,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/硝基苯.cl3",
+    "line_count": 385,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/硫酸.cl3",
+    "line_count": 247,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/碘化氢.cl3",
+    "line_count": 155,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/胞嘧啶.cl3",
+    "line_count": 7216,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/胸腺嘧啶.cl3",
+    "line_count": 7656,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/腺嘌呤.cl3",
+    "line_count": 7767,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯甲酰胺.cl3",
+    "line_count": 431,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯磺酸.cl3",
+    "line_count": 431,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯胺.cl3",
+    "line_count": 385,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯酚.cl3",
+    "line_count": 385,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/葡萄糖.cl3",
+    "line_count": 569,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/金刚石.cl3",
+    "line_count": 7335,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/间二甲苯.cl3",
+    "line_count": 431,
+    "format": "cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/鸟嘌呤.cl3",
+    "line_count": 7987,
+    "format": "cl3"
+  }
+]

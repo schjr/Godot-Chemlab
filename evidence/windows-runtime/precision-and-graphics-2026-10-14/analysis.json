@@ -1,0 +1,1523 @@
+{
+  "captures": {
+    "full80-cold": {
+      "file": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/precision-and-graphics-2026-10-14/full80-cold.json",
+      "sha256": "e58df62ccfe663ff48492ced3b7f0759af3b9b00cd438274a2b4a286d8e1ba8a",
+      "status": "validated",
+      "snapshots": [
+        {
+          "label": "snapshot",
+          "elapsed": {
+            "ieee754_le_hex": "0000000000000000",
+            "classification": "finite",
+            "value_text": "0"
+          },
+          "vessels": [
+            {
+              "index": 0,
+              "pointer": "0x0d960000",
+              "label": "容器3",
+              "active_moles": {
+                "H2O(液体)": 4.9955595026643,
+                "CuSO4(溶解)": 0.02,
+                "NaOH(溶解)": 0.0
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 1,
+              "pointer": "0x0d964380",
+              "label": "容器4",
+              "active_moles": {
+                "H2O(液体)": 2.2202486678508,
+                "NaOH(溶解)": 0.1
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 2,
+              "pointer": "0x0d968700",
+              "label": "容器5",
+              "active_moles": {},
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 3,
+              "pointer": "0x0d96ca80",
+              "label": "容器6",
+              "active_moles": {
+                "H2O(液体)": 4.9955595026643,
+                "FeCl3(溶解)": 0.03,
+                "NaOH(溶解)": 0.0
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 4,
+              "pointer": "0x0d970e00",
+              "label": "容器7",
+              "active_moles": {
+                "H2O(液体)": 2.2202486678508,
+                "HCl(溶解)": 0.1
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 5,
+              "pointer": "0x0d97c000",
+              "label": "容器8",
+              "active_moles": {},
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "full80-run": {
+      "file": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/precision-and-graphics-2026-10-14/full80-run.json",
+      "sha256": "bc77afab8ba5ea08ff7c8af19d5daddc422ea63057e7157ca1b01430e7d9f782",
+      "status": "validated",
+      "snapshots": [
+        {
+          "label": "snapshot",
+          "elapsed": {
+            "ieee754_le_hex": "345eba490cb24640",
+            "classification": "finite",
+            "value_text": "45.390999999999991"
+          },
+          "vessels": [
+            {
+              "index": 0,
+              "pointer": "0x0d960000",
+              "label": "容器3",
+              "active_moles": {
+                "H2O(液体)": 4.9955595026643,
+                "CuSO4(溶解)": 0.02,
+                "NaOH(溶解)": 0.0,
+                "Na2SO4(溶解)": 0.0,
+                "Cu(OH)2(固体)": 0.0,
+                "HCl(溶解)": 0.0,
+                "CuCl2(溶解)": 0.0,
+                "NaCl(溶解)": 0.0,
+                "惰性气体(气体)": 0.004910714285714286
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    8
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    8
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    8
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 1,
+              "pointer": "0x0d964380",
+              "label": "容器4",
+              "active_moles": {
+                "H2O(液体)": 2.2202486678508,
+                "NaOH(溶解)": 0.1,
+                "惰性气体(气体)": 0.002678571428571428
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 2,
+              "pointer": "0x0d968700",
+              "label": "容器5",
+              "active_moles": {
+                "惰性气体(气体)": 0.00017857142857142857
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 3,
+              "pointer": "0x0d96ca80",
+              "label": "容器6",
+              "active_moles": {
+                "H2O(液体)": 4.9955595026643,
+                "FeCl3(溶解)": 0.03,
+                "NaOH(溶解)": 0.0,
+                "Fe(OH)3(固体)": 0.0,
+                "NaCl(溶解)": 0.0,
+                "HCl(溶解)": 0.0,
+                "惰性气体(气体)": 0.004910714285714286
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    6
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    6
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    6
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 4,
+              "pointer": "0x0d970e00",
+              "label": "容器7",
+              "active_moles": {
+                "H2O(液体)": 2.2202486678508,
+                "HCl(溶解)": 0.1,
+                "惰性气体(气体)": 0.002678571428571428
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 5,
+              "pointer": "0x0d97c000",
+              "label": "容器8",
+              "active_moles": {
+                "惰性气体(气体)": 0.00017857142857142857
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "full80-naoh": {
+      "file": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/precision-and-graphics-2026-10-14/full80-naoh.json",
+      "sha256": "9f6793c5f8729e0dc99ae35de1446230c07f45c7c6c7e1b35c154c3b99b99887",
+      "status": "validated",
+      "snapshots": [
+        {
+          "label": "snapshot",
+          "elapsed": {
+            "ieee754_le_hex": "6cbc749318445240",
+            "classification": "finite",
+            "value_text": "73.064000000000021"
+          },
+          "vessels": [
+            {
+              "index": 0,
+              "pointer": "0x0d960000",
+              "label": "容器3",
+              "active_moles": {
+                "H2O(液体)": 4.9955595026643,
+                "CuSO4(溶解)": 0.02,
+                "NaOH(溶解)": 0.0,
+                "Na2SO4(溶解)": 0.0,
+                "Cu(OH)2(固体)": 0.0,
+                "HCl(溶解)": 0.0,
+                "CuCl2(溶解)": 0.0,
+                "NaCl(溶解)": 0.0,
+                "惰性气体(气体)": 0.004910714285714286
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    8
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    8
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    8
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 1,
+              "pointer": "0x0d964380",
+              "label": "容器4",
+              "active_moles": {
+                "H2O(液体)": 2.10923623445826,
+                "NaOH(溶解)": 0.095,
+                "惰性气体(气体)": 0.0027678571428571427
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 2,
+              "pointer": "0x0d968700",
+              "label": "容器5",
+              "active_moles": {
+                "惰性气体(气体)": 8.928571428571429e-05,
+                "H2O(液体)": 0.11101243339253997,
+                "NaOH(溶解)": 0.004999999999999998
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    1
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 3,
+              "pointer": "0x0d96ca80",
+              "label": "容器6",
+              "active_moles": {
+                "H2O(液体)": 4.9955595026643,
+                "FeCl3(溶解)": 0.03,
+                "NaOH(溶解)": 0.0,
+                "Fe(OH)3(固体)": 0.0,
+                "NaCl(溶解)": 0.0,
+                "HCl(溶解)": 0.0,
+                "惰性气体(气体)": 0.004910714285714286
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    6
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    6
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    6
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 4,
+              "pointer": "0x0d970e00",
+              "label": "容器7",
+              "active_moles": {
+                "H2O(液体)": 2.2202486678508,
+                "HCl(溶解)": 0.1,
+                "惰性气体(气体)": 0.002678571428571428
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            },
+            {
+              "index": 5,
+              "pointer": "0x0d97c000",
+              "label": "容器8",
+              "active_moles": {
+                "惰性气体(气体)": 0.00017857142857142857
+              },
+              "arrays": {
+                "volume_0x5b8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3cd8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "solid_0x3ff8": {
+                  "nonzero_indices": [],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "moles_0x8d8": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                },
+                "mass_0x298": {
+                  "nonzero_indices": [
+                    0
+                  ],
+                  "nonfinite_indices": [],
+                  "subnormal_indices": []
+                }
+              },
+              "scalars": {
+                "0x4318": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x3cc8": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                },
+                "0x4338": {
+                  "ieee754_le_hex": "0000000000000000",
+                  "classification": "finite",
+                  "value_text": "0"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "post_run_to_after_naoh": [
+    {
+      "index": 0,
+      "same_pointer": true,
+      "same_species": true,
+      "same_scalars": true,
+      "deltas": {
+        "volume_0x5b8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3cd8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3ff8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "moles_0x8d8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mass_0x298": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "index": 1,
+      "same_pointer": true,
+      "same_species": true,
+      "same_scalars": true,
+      "deltas": {
+        "volume_0x5b8": {
+          "changed_indices": [
+            0,
+            2
+          ],
+          "active_delta": [
+            -2.000000000000007,
+            0.0,
+            2.000000000000007
+          ]
+        },
+        "solid_0x3cd8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3ff8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "moles_0x8d8": {
+          "changed_indices": [
+            0,
+            1,
+            2
+          ],
+          "active_delta": [
+            -0.11101243339254019,
+            -0.0050000000000000044,
+            8.928571428571449e-05
+          ]
+        },
+        "mass_0x298": {
+          "changed_indices": [
+            0,
+            1,
+            2
+          ],
+          "active_delta": [
+            -2.000000000000007,
+            -0.1999900000000001,
+            0.0025892857142857245
+          ]
+        }
+      }
+    },
+    {
+      "index": 2,
+      "same_pointer": true,
+      "same_species": false,
+      "same_scalars": true,
+      "deltas": {
+        "volume_0x5b8": {
+          "changed_indices": [
+            0,
+            1
+          ],
+          "active_delta": [
+            -2.0
+          ]
+        },
+        "solid_0x3cd8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        },
+        "solid_0x3ff8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        },
+        "moles_0x8d8": {
+          "changed_indices": [
+            0,
+            1,
+            2
+          ],
+          "active_delta": [
+            -8.928571428571429e-05
+          ]
+        },
+        "mass_0x298": {
+          "changed_indices": [
+            0,
+            1,
+            2
+          ],
+          "active_delta": [
+            -0.002589285714285714
+          ]
+        }
+      }
+    },
+    {
+      "index": 3,
+      "same_pointer": true,
+      "same_species": true,
+      "same_scalars": true,
+      "deltas": {
+        "volume_0x5b8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3cd8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3ff8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "moles_0x8d8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mass_0x298": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "index": 4,
+      "same_pointer": true,
+      "same_species": true,
+      "same_scalars": true,
+      "deltas": {
+        "volume_0x5b8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3cd8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "solid_0x3ff8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "moles_0x8d8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mass_0x298": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "index": 5,
+      "same_pointer": true,
+      "same_species": true,
+      "same_scalars": true,
+      "deltas": {
+        "volume_0x5b8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        },
+        "solid_0x3cd8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        },
+        "solid_0x3ff8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        },
+        "moles_0x8d8": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        },
+        "mass_0x298": {
+          "changed_indices": [],
+          "active_delta": [
+            0.0
+          ]
+        }
+      }
+    }
+  ],
+  "elapsed_changed_after_click": true
+}

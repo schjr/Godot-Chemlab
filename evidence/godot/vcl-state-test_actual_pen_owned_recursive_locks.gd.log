@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":183,"completed_reconstructed_setter":true,"failures":[],"native_vcl_verified":false,"native_win32_verified":false,"source_calls":8}
+PASS original PE actual non-lock graph setter parity with real fresh Godot recursive mutexes

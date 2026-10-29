@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-14",
+  "full_local_suite": {
+    "status": "passed",
+    "test_scripts": 66,
+    "engine_errors": 0,
+    "exit_code": 0
+  },
+  "fresh_package_extraction": {
+    "import": "passed",
+    "document_and_edit_roundtrips": "passed",
+    "native_startup_rng": "passed",
+    "native_shared_heap": "passed",
+    "actual_windows_withdrawal": "passed",
+    "actual_windows_gdi57_requests": "passed"
+  },
+  "boundary": "Local source/native fixtures and bounded actual Windows comparisons. All28 examples and complete originalVCL presentation are not yet verified end to end.",
+  "pending_transfer": "build/windows-reference/vcl-pixel-probes.zip -> Windows desktop"
+}

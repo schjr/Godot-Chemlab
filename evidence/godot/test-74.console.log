@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+PASS native one-way source checks: gates, ordinary/limited extents, particle/gas counters; separate original-machine corpus retained
+PASS test_original_reaction

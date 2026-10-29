@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":95,"failures":[],"scope":"Host protocol guards; native constructor/setter arithmetic covered by separate PE references"}
+PASS malformed and blank-error primitive replies fail once with source call state preserved

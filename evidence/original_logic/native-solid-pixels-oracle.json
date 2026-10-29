@@ -1,0 +1,2558 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "functions": [
+    "0x004928A0",
+    "0x00492560"
+  ],
+  "contract": "Original per-pixel instructions execute against explicit native 32-bit 1x1 DIB words; bitmap size/scanline and no-op 32->32 format property are declared VCL boundaries. No ellipse/GDI rasterization claim.",
+  "cases": [
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14211288
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8355711
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14211288
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8355711
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 13290186
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 7829367
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4795407
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 5649426
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 2824713
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 13348497
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 15715755
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 7824981
+    },
+    {
+      "op": "tint",
+      "pixel": 0,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16777215,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 4294967295,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 2302755
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 7829367
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16579836
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16185078
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16579836
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16185078
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 7098162
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 5649426
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 10654080
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15651253
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 15715755
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15654348
+    },
+    {
+      "op": "tint",
+      "pixel": 15658734,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 132876
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 596523
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14409957
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8952234
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14409957
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8952234
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 13488855
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8425890
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4928540
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 5649426
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 3421236
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 13481630
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 15715755
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8421504
+    },
+    {
+      "op": "tint",
+      "pixel": 1193046,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1646115
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 5596791
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15923196
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 14018295
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15923196
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 14018295
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14936558
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 13426158
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 6441523
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 5649426
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8421504
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14994869
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 15715755
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 13487565
+    },
+    {
+      "op": "tint",
+      "pixel": 11259375,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 2499877
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8355453
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711422
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711421
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711422
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711421
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15790319
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16184820
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 7295540
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 5649426
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 11180166
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15848630
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 15715755
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16180691
+    },
+    {
+      "op": "tint",
+      "pixel": 16711163,
+      "color": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 13290186
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 7829367
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 994377
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 596523
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 9547467
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 5596791
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14145493
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8355453
+    },
+    {
+      "op": "composite",
+      "destination": 0,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16777215,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 4294967295,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 2302755
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 7829367
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 3297132
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8425890
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 11915758
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 13426158
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16513785
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16184820
+    },
+    {
+      "op": "composite",
+      "destination": 15658734,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 132876
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 596523
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 13488855
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8425890
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 9746136
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 6193314
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14343906
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8951976
+    },
+    {
+      "op": "composite",
+      "destination": 1193046,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 1646115
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 5596791
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 14936558
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 13426158
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 2640492
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 6193314
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15857145
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 13952501
+    },
+    {
+      "op": "composite",
+      "destination": 11259375,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 0,
+      "weight_bits": "333333333333c33f",
+      "native_result": 2499877
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 0,
+      "weight_bits": "0000000000000000",
+      "native_result": 0
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 0,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8355453
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16777215,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16777215,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16777215,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 4294967295,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 4294967295,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 4294967295,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 15658734,
+      "weight_bits": "333333333333c33f",
+      "native_result": 15790319
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 15658734,
+      "weight_bits": "0000000000000000",
+      "native_result": 15658734
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 15658734,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16184820
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 15658734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 1193046,
+      "weight_bits": "333333333333c33f",
+      "native_result": 3494510
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 1193046,
+      "weight_bits": "0000000000000000",
+      "native_result": 1193046
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 1193046,
+      "weight_bits": "000000000000e03f",
+      "native_result": 8951976
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 11259375,
+      "weight_bits": "333333333333c33f",
+      "native_result": 12047600
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 11259375,
+      "weight_bits": "0000000000000000",
+      "native_result": 11259375
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 11259375,
+      "weight_bits": "000000000000e03f",
+      "native_result": 13952501
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 11259375,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16711163,
+      "weight_bits": "333333333333c33f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16711163,
+      "weight_bits": "0000000000000000",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16711163,
+      "weight_bits": "000000000000e03f",
+      "native_result": 16711163
+    },
+    {
+      "op": "composite",
+      "destination": 16711163,
+      "source": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    }
+  ]
+}

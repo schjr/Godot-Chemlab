@@ -1,0 +1,800 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "evidence_type": "static original PE/DFM and recovered VCL routine trace; not live pixel capture",
+  "bitmap_vmt": "0x4e2af4",
+  "virtual_slots": {
+    "0x14": "0x4e917c",
+    "0x20": "0x4e94d8",
+    "0x28": "0x4e6338",
+    "0x2c": "0x4e9660",
+    "0x34": "0x4ea1c4",
+    "0x3c": "0x4e6420",
+    "0x40": "0x4ea524",
+    "0x68": "0x4ea08c"
+  },
+  "constants": {
+    "0x574b54": "00",
+    "0x574d38": "00000000000000000100000000000000",
+    "0x574d48": "0000010002000300040005000600",
+    "0x574d58": "00000000ffffff000000000000000000",
+    "0x574d68": "010010000b0006000d0004000e0005000c0003000f0002000900080007000a00",
+    "0x574d97": "9001040810101820"
+  },
+  "canvas_default": {
+    "copy_mode": 13369376,
+    "pen_color": 0,
+    "pen_width": 1,
+    "pen_style": 0,
+    "pen_mode": 4,
+    "gdi_rop2": 13,
+    "brush_color": 16777215,
+    "brush_style": 0,
+    "font_color": 2147483656
+  },
+  "functions": {
+    "bitmap_constructor": "004E8EDC",
+    "canvas_constructor": "004E42A8",
+    "bitmap_canvas_handle": "004E8350",
+    "pen_handle": "004E3E78",
+    "brush_handle": "004E418C",
+    "select_pen": "004E4D20",
+    "select_brush": "004E4D50",
+    "bitmap_draw": "004E917C",
+    "canvas_draw": "004E44A8",
+    "canvas_copy_rect": "004E4420",
+    "pixel_format": "004EA36C",
+    "bitmap_load": "004E9A44",
+    "scanline": "004E95B0"
+  },
+  "bitmap_headers": {
+    "djqp.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_sb100.bmp": {
+      "width": 42,
+      "height": 46,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "bolb_x.bmp": {
+      "width": 45,
+      "height": 115,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej1_45.BMP": {
+      "width": 27,
+      "height": 27,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_fyld.BMP": {
+      "width": 28,
+      "height": 115,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dgkp_z.BMP": {
+      "width": 49,
+      "height": 30,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "qg.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "ydsp100.BMP": {
+      "width": 44,
+      "height": 82,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "xkp_z.BMP": {
+      "width": 30,
+      "height": 52,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dsg.BMP": {
+      "width": 88,
+      "height": 18,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej0.BMP": {
+      "width": 60,
+      "height": 15,
+      "bits_per_pixel": 8,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dxkp.BMP": {
+      "width": 52,
+      "height": 30,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej1.BMP": {
+      "width": 15,
+      "height": 22,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_sg97.bmp": {
+      "width": 90,
+      "height": 23,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dydsp100.BMP": {
+      "width": 92,
+      "height": 63,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej1_90.BMP": {
+      "width": 15,
+      "height": 22,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_jsddg.BMP": {
+      "width": 13,
+      "height": 243,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_sg45.bmp": {
+      "width": 71,
+      "height": 72,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_asb200.bmp": {
+      "width": 53,
+      "height": 58,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_ydsp100.BMP": {
+      "width": 44,
+      "height": 82,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dblg.BMP": {
+      "width": 18,
+      "height": 99,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dgkp.BMP": {
+      "width": 49,
+      "height": 30,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_sg0.bmp": {
+      "width": 18,
+      "height": 88,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej1_97.BMP": {
+      "width": 17,
+      "height": 24,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "ssddg.BMP": {
+      "width": 19,
+      "height": 244,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_d_jqp.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jqp.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_cjld.BMP": {
+      "width": 27,
+      "height": 98,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_sb500.bmp": {
+      "width": 75,
+      "height": 82,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "sg45.bmp": {
+      "width": 71,
+      "height": 72,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_zxp250.BMP": {
+      "width": 58,
+      "height": 66,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dblg.BMP": {
+      "width": 18,
+      "height": 99,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_zfm_50.BMP": {
+      "width": 44,
+      "height": 17,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "xkp.BMP": {
+      "width": 30,
+      "height": 52,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dgkp.BMP": {
+      "width": 49,
+      "height": 30,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dydsp100.BMP": {
+      "width": 92,
+      "height": 63,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_sb200.bmp": {
+      "width": 53,
+      "height": 58,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dzfm_50.BMP": {
+      "width": 17,
+      "height": 44,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dxkp_z.BMP": {
+      "width": 52,
+      "height": 30,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dzxp250.BMP": {
+      "width": 84,
+      "height": 80,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiejt0.BMP": {
+      "width": 88,
+      "height": 206,
+      "bits_per_pixel": 8,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "zxp250.BMP": {
+      "width": 58,
+      "height": 66,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "cjld.BMP": {
+      "width": 27,
+      "height": 98,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "gkp_z.BMP": {
+      "width": 30,
+      "height": 49,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_uxg.BMP": {
+      "width": 48,
+      "height": 79,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "zfm_50.BMP": {
+      "width": 44,
+      "height": 17,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_ld.BMP": {
+      "width": 37,
+      "height": 57,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_asb500.bmp": {
+      "width": 75,
+      "height": 82,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "shimm.BMP": {
+      "width": 51,
+      "height": 3,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiejt1.BMP": {
+      "width": 52,
+      "height": 206,
+      "bits_per_pixel": 8,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "shuic.BMP": {
+      "width": 96,
+      "height": 40,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "fyld.BMP": {
+      "width": 28,
+      "height": 115,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_asb100.bmp": {
+      "width": 42,
+      "height": 46,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "shimm1.BMP": {
+      "width": 39,
+      "height": 3,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_djqp.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "sg97.bmp": {
+      "width": 90,
+      "height": 23,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jjd_g.BMP": {
+      "width": 12,
+      "height": 17,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dzxp250.BMP": {
+      "width": 84,
+      "height": 79,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dzfm_50.BMP": {
+      "width": 17,
+      "height": 44,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "blg.BMP": {
+      "width": 99,
+      "height": 18,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dxkp.BMP": {
+      "width": 52,
+      "height": 30,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "gkp.BMP": {
+      "width": 30,
+      "height": 49,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "bolb.bmp": {
+      "width": 9,
+      "height": 120,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dsb500.bmp": {
+      "width": 82,
+      "height": 75,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "ld_lz.BMP": {
+      "width": 37,
+      "height": 57,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_blg.BMP": {
+      "width": 99,
+      "height": 18,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dzxp100.BMP": {
+      "width": 65,
+      "height": 60,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "ld.BMP": {
+      "width": 37,
+      "height": 57,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dsb500.bmp": {
+      "width": 82,
+      "height": 75,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_gkp.BMP": {
+      "width": 30,
+      "height": 49,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_pdsp100.BMP": {
+      "width": 43,
+      "height": 79,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dsb100.bmp": {
+      "width": 46,
+      "height": 42,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_xkp.BMP": {
+      "width": 30,
+      "height": 52,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "pdsp100.BMP": {
+      "width": 43,
+      "height": 79,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dzxp100.BMP": {
+      "width": 65,
+      "height": 60,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_shuic.BMP": {
+      "width": 96,
+      "height": 40,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dpdsp100.BMP": {
+      "width": 89,
+      "height": 62,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_zxp100.BMP": {
+      "width": 43,
+      "height": 52,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "uxg.BMP": {
+      "width": 48,
+      "height": 79,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dsb100.bmp": {
+      "width": 46,
+      "height": 42,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "sb200.bmp": {
+      "width": 53,
+      "height": 58,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "zxp100.BMP": {
+      "width": 43,
+      "height": 52,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jqp_old.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "d_jqp.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "sb500.bmp": {
+      "width": 75,
+      "height": 82,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tieq0.BMP": {
+      "width": 80,
+      "height": 16,
+      "bits_per_pixel": 8,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_qg.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej1_0.BMP": {
+      "width": 22,
+      "height": 15,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tiej_1.BMP": {
+      "width": 15,
+      "height": 22,
+      "bits_per_pixel": 8,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "tieq1.BMP": {
+      "width": 43,
+      "height": 10,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_ssddg.BMP": {
+      "width": 19,
+      "height": 244,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "sg0.bmp": {
+      "width": 18,
+      "height": 88,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "guti.bmp": {
+      "width": 90,
+      "height": 90,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_jqp.BMP": {
+      "width": 36,
+      "height": 54,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jsddg.BMP": {
+      "width": 13,
+      "height": 243,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jtdg_1.BMP": {
+      "width": 10,
+      "height": 60,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_jtdg_2.BMP": {
+      "width": 15,
+      "height": 76,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "wendj.BMP": {
+      "width": 13,
+      "height": 122,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dsb200.bmp": {
+      "width": 58,
+      "height": 53,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_uxg2.BMP": {
+      "width": 48,
+      "height": 79,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_jtdg_1.BMP": {
+      "width": 10,
+      "height": 60,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jtdg_2.BMP": {
+      "width": 15,
+      "height": 76,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dsg.BMP": {
+      "width": 88,
+      "height": 18,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "sb100.bmp": {
+      "width": 42,
+      "height": 46,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "jjd.BMP": {
+      "width": 43,
+      "height": 48,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "_dsb200.bmp": {
+      "width": 58,
+      "height": 53,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    },
+    "dpdsp100.BMP": {
+      "width": 89,
+      "height": 62,
+      "bits_per_pixel": 24,
+      "compression": 0,
+      "colors_used": 0
+    }
+  }
+}

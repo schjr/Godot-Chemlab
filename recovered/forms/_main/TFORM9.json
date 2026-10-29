@@ -1,0 +1,2046 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TFORM9",
+      0
+    ],
+    "file_offset": 1736716,
+    "resource_size": 5471,
+    "sha256": "2524ab5497bba06bb201b4ae9eec9a836a26e6befea859e82d2cd6869a0b38c9",
+    "binary": "recovered/forms/_main/TFORM9.dfm.bin",
+    "parsed_size": 5471,
+    "trailing_bytes": 0,
+    "root_class": "TForm9",
+    "root_name": "Form9",
+    "component_count": 17,
+    "event_handlers": [
+      {
+        "component": "Form9",
+        "class": "TForm9",
+        "event": "OnClick",
+        "handler": "FormClick"
+      },
+      {
+        "component": "Label2",
+        "class": "TLabel",
+        "event": "OnClick",
+        "handler": "Label2Click"
+      },
+      {
+        "component": "BitBtn1",
+        "class": "TBitBtn",
+        "event": "OnClick",
+        "handler": "BitBtn1Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1474491,
+        "entry_size": 19,
+        "code_va": "0x0049F0C8",
+        "code_file_offset": 648904,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1484796,
+        "entry_size": 19,
+        "code_va": "0x004A62DC",
+        "code_file_offset": 678108,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1487495,
+        "entry_size": 19,
+        "code_va": "0x004AABE0",
+        "code_file_offset": 696800,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1490086,
+        "entry_size": 19,
+        "code_va": "0x004AD198",
+        "code_file_offset": 706456,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1491326,
+        "entry_size": 19,
+        "code_va": "0x004ADC6C",
+        "code_file_offset": 709228,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1492361,
+        "entry_size": 19,
+        "code_va": "0x004AE2AC",
+        "code_file_offset": 710828,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1493574,
+        "entry_size": 19,
+        "code_va": "0x004AEF3C",
+        "code_file_offset": 714044,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1497942,
+        "entry_size": 19,
+        "code_va": "0x004B12A4",
+        "code_file_offset": 723108,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1498476,
+        "entry_size": 19,
+        "code_va": "0x004B17A0",
+        "code_file_offset": 724384,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1499011,
+        "entry_size": 19,
+        "code_va": "0x004B18F4",
+        "code_file_offset": 724724,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1507749,
+        "entry_size": 19,
+        "code_va": "0x004B6858",
+        "code_file_offset": 745048,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1519977,
+        "entry_size": 19,
+        "code_va": "0x004BBFF8",
+        "code_file_offset": 767480,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1520706,
+        "entry_size": 19,
+        "code_va": "0x004BE724",
+        "code_file_offset": 777508,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "BitBtn1Click",
+        "entry_file_offset": 1521629,
+        "entry_size": 19,
+        "code_va": "0x004BEF54",
+        "code_file_offset": 779604,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormClick",
+        "entry_file_offset": 1498531,
+        "entry_size": 16,
+        "code_va": "0x004B1800",
+        "code_file_offset": 724480,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Label2Click",
+        "entry_file_offset": 1498495,
+        "entry_size": 18,
+        "code_va": "0x004B17B8",
+        "code_file_offset": 724408,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_main/TForm9.hpp"
+  },
+  "form": {
+    "class": "TForm9",
+    "name": "Form9",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 323,
+          "offset": 22
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 3,
+          "value": 152,
+          "offset": 29
+        }
+      },
+      {
+        "name": "BorderStyle",
+        "value": {
+          "type": 7,
+          "value": "bsDialog",
+          "offset": 44
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "仿真化学实验室",
+          "offset": 62
+        }
+      },
+      {
+        "name": "ClientHeight",
+        "value": {
+          "type": 3,
+          "value": 269,
+          "offset": 91
+        }
+      },
+      {
+        "name": "ClientWidth",
+        "value": {
+          "type": 3,
+          "value": 370,
+          "offset": 106
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "clWhite",
+          "offset": 115
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 137
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 165
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 191
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 203
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 229
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 246
+        }
+      },
+      {
+        "name": "Position",
+        "value": {
+          "type": 7,
+          "value": "poScreenCenter",
+          "offset": 256
+        }
+      },
+      {
+        "name": "OnClick",
+        "value": {
+          "type": 7,
+          "value": "FormClick",
+          "offset": 280
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 305
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 10,
+          "offset": 318
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TLabel",
+        "name": "Label1",
+        "flags": 0,
+        "offset": 321,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 80,
+              "offset": 340
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 5,
+              "offset": 346
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 354
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 364
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "农村化学教师专版（crack by cqmib）",
+              "offset": 374
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 423
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 450
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 470
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "黑体",
+              "offset": 482
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 499
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 512
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 525
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label11",
+        "flags": 0,
+        "offset": 528,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 548
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 30,
+              "offset": 554
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 562
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 572
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "近日在某论坛看到如下帖子，所以提供这个破解版.",
+              "offset": 582
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 642
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 669
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 689
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 701
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 718
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 731
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 744
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label12",
+        "flags": 0,
+        "offset": 747,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 767
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 40,
+              "offset": 773
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 781
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 791
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "---------------------------------------------------------------------------------------------------------------------",
+              "offset": 801
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 933
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 960
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 980
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "黑体",
+              "offset": 992
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 1009
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1031
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1044
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label13",
+        "flags": 0,
+        "offset": 1047,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1067
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 50,
+              "offset": 1073
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 1081
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 1091
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "我是一位农村初中的化学教师，从教几年了，深感农村教育的落后。一年前用攒了好几年的积蓄买",
+              "offset": 1101
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1202
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 1229
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 1249
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1261
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 1278
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1300
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1313
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label14",
+        "flags": 0,
+        "offset": 1316,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1336
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 60,
+              "offset": 1342
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 1350
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 1360
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "了一台电脑，想做一些化学实验教学软件刻录成课件放给学生们看（托“普九”的福，乡政府今年",
+              "offset": 1370
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1471
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 1498
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 1518
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1530
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 1547
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1569
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1582
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label15",
+        "flags": 0,
+        "offset": 1585,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1605
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 70,
+              "offset": 1611
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 1619
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 1629
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "给学校配发了一台方正电脑、一台DVD和一台电视机）。在互联网上找了许久，找到了南京金华",
+              "offset": 1639
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1737
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 1764
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 1784
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1796
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 1813
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1835
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1848
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label16",
+        "flags": 0,
+        "offset": 1851,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1871
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 80,
+              "offset": 1877
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 1885
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 1895
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "科软件有限公司做的一款软件“仿真化学实验室V3.0（试用版）”，试用后很满意。由于试用版有",
+              "offset": 1905
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2006
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 2033
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 2053
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2065
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 2082
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2104
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 2117
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label17",
+        "flags": 0,
+        "offset": 2120,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2140
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 90,
+              "offset": 2146
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 2154
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 2164
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "很多功能限制，不能真正使用，便同金华科公司联系购买“专业版”，要一千好几百元钱，我实在",
+              "offset": 2174
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2275
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 2302
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 2322
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2334
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 2351
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2373
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 2386
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label18",
+        "flags": 0,
+        "offset": 2389,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2409
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 100,
+              "offset": 2415
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 2423
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 2433
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "买不起。金华科公司让我在本地区帮他们宣传业务，承诺能帮忙在其他有条件的城镇学校销出",
+              "offset": 2443
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2540
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 2567
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 2587
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2599
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 2616
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2638
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 2651
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label19",
+        "flags": 0,
+        "offset": 2654,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2674
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 110,
+              "offset": 2680
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 2688
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 2698
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "1、2套网络版软件就免费送我一套“仿真化学实验室V3.0（专业版）”。我努力了，未果。太难了！",
+              "offset": 2708
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2811
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 2838
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 2858
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2870
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 2887
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2909
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 2922
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label20",
+        "flags": 0,
+        "offset": 2925,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2945
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 120,
+              "offset": 2951
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 2959
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 2969
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "向各位大侠求助，能否提供一套“仿真化学实验室V3.专业版的破解版用用？先谢谢各位了。",
+              "offset": 2979
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 3075
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 3102
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 3122
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 3134
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 3151
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3173
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 3186
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label21",
+        "flags": 0,
+        "offset": 3189,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 3209
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 130,
+              "offset": 3215
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 3224
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 3234
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "----------------------------------------------------------------------------------------------------",
+              "offset": 3244
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 3359
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 3386
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 3406
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 3418
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 3435
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3457
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 3470
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label22",
+        "flags": 0,
+        "offset": 3473,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 3493
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 150,
+              "offset": 3499
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 321,
+              "offset": 3508
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 3518
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": " cqmib  2007年10月 ",
+              "offset": 3528
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 3562
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 3589
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -8,
+              "offset": 3609
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "黑体",
+              "offset": 3621
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic"
+              ],
+              "offset": 3638
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3660
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 3673
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label2",
+        "flags": 0,
+        "offset": 3676,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 3695
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 238,
+              "offset": 3701
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 166,
+              "offset": 3710
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 24,
+              "offset": 3720
+            }
+          },
+          {
+            "name": "Cursor",
+            "value": {
+              "type": 7,
+              "value": "crHandPoint",
+              "offset": 3729
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "www.eedduu.com",
+              "offset": 3750
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "ANSI_CHARSET",
+              "offset": 3779
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 3804
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -21,
+              "offset": 3824
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "Arial",
+              "offset": 3836
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsItalic",
+                "fsUnderline"
+              ],
+              "offset": 3854
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3888
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Label2Click",
+              "offset": 3897
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label5",
+        "flags": 0,
+        "offset": 3912,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 212,
+              "offset": 3931
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 200,
+              "offset": 3938
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 138,
+              "offset": 3947
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 3957
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "版本 3.0 Build 20030918",
+              "offset": 3967
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 4005
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 4032
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -12,
+              "offset": 4052
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 4064
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 4081
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 4094
+            }
+          },
+          {
+            "name": "Transparent",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 4107
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TBitBtn",
+        "name": "BitBtn1",
+        "flags": 0,
+        "offset": 4110,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 290,
+              "offset": 4131
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 238,
+              "offset": 4138
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 75,
+              "offset": 4147
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 4156
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "确定",
+              "offset": 4166
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 4185
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 4212
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 4238
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 4250
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 4267
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 4280
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 4290
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "BitBtn1Click",
+              "offset": 4300
+            }
+          },
+          {
+            "name": "Glyph.Data",
+            "value": {
+              "type": 10,
+              "value": "6E040000424D6E0400000000000036000000280000001400000012000000010018000000000038040000C40E0000C40E00000000000000000000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF7F7F7F7F7F7F7F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF7F7F7F7F00007F00007F00007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF7F0000007F00007F00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF00007F00007F00007F00007F00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF00007F00007F00007F00007F00007F00007F00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF00007F00007F00007F0000FF0000FF0000FF00007F00007F00007F007F00007F00007F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF00007F00007F007F00007F7F7F7F7F7F00FF0000FF00007F00007F00007F007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF00007F00007F007F00007F7F7FBFBFBFBFBFBF00FF0000FF00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF00007F00007F007F0000BFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF0000FF00007F00BFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F00007F007F00007F00007F7F7F7F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F00007F007F00007F00007F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F00007F007F00007F7F7FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F007F0000BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF00FF0000FF00007F00BFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBF",
+              "size": 1138,
+              "sha256": "1707a77b8b3e9b082699ead665a5eda81e4fa2bbc292813f6e36102af2701a71",
+              "offset": 4325
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

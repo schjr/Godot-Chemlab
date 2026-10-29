@@ -1,0 +1,114 @@
+extends SceneTree
+
+const Model = preload("res://scripts/lab_model.gd")
+var failures: int = 0
+
+func check(value: bool, message: String) -> void:
+	if not value:
+		failures += 1
+		push_error(message)
+
+func near(a: float, b: float) -> bool:
+	return absf(a - b) < 1e-8
+
+func _initialize() -> void:
+	var model = Model.new()
+	var reagent_data = JSON.parse_string(FileAccess.get_file_as_string("res://data/reagents.json"))
+	var reaction_data = JSON.parse_string(FileAccess.get_file_as_string("res://data/reactions.json"))
+	model.configure(reagent_data, reaction_data)
+	check(model.reagents.size() == 499 and model.reactions.size() == 599, "Recovered library counts must be intact")
+	var a: Dictionary = model.add_apparatus("beaker100", Vector2(30, 60))
+	var b: Dictionary = model.add_apparatus("beaker250", Vector2(200, 60))
+	check(model.add_reagent(a.id, "HCl(溶解)", 0.02), "Known reagents must be addable")
+	check(model.add_reagent(a.id, "NaOH(溶解)", 0.01), "Known bases must be addable")
+	check(not model.add_reagent(a.id, "missing", 1.0), "Unknown species must be rejected")
+	check(not model.add_reagent(a.id, "HCl(溶解)", -1.0), "Negative dosing must be rejected")
+	check(model.transfer(a.id, b.id, 0.25), "Transfer should succeed")
+	check(near(a.contents["HCl(溶解)"] + b.contents["HCl(溶解)"], 0.02), "Pouring must conserve each species")
+	check(near(a.contents["NaOH(溶解)"] + b.contents["NaOH(溶解)"], 0.01), "Pouring must conserve base")
+	check(not model.transfer(a.id, b.id, 1.1), "Transfer fractions above one must be rejected")
+	# Isolate a documented ordinary neutralization reaction, avoiding all competing reactions.
+	var neutralization: Dictionary = {}
+	for r in model.reactions:
+		if r.reactants.size() == 2 and [r.reactants[0].species, r.reactants[1].species].has("HCl(溶解)") and [r.reactants[0].species, r.reactants[1].species].has("NaOH(溶解)"):
+			neutralization = r
+			break
+	check(not neutralization.is_empty(), "Neutralization equation must exist in original library")
+	a.smart = false
+	a.reaction_ids = [neutralization.id]
+	a.rate_overrides[neutralization.id] = 0.1
+	model.running = true
+	model.step(1.0)
+	check(near(a.contents["NaOH(溶解)"], 0.0), "Limiting base must be consumed without going negative")
+	check(near(a.contents["HCl(溶解)"], 0.0075), "Neutralization must retain excess acid")
+	check(near(a.contents.get("NaCl(溶解)", 0.0), 0.0075), "Stoichiometric salt production must be conserved")
+	check(near(a.contents.get("H2O(液体)", 0.0), 0.0075), "Stoichiometric water production must be conserved")
+	check(model.ph(a) < 2.0, "Remaining strong acid must be acidic")
+	# A heat-only decomposition must not fire cold, then must respect 2:1:1:1 coefficients.
+	model.reset()
+	var c: Dictionary = model.add_apparatus("test_tube")
+	model.add_reagent(c.id, "NaHCO3(固体)", 0.02)
+	var decomposition: Dictionary = {}
+	for r in model.reactions:
+		if r.reactants.size() == 1 and r.reactants[0].species == "NaHCO3(固体)" and r.condition == "加热": decomposition = r; break
+	c.smart = false
+	c.reaction_ids = [decomposition.id]
+	c.rate_overrides[decomposition.id] = 0.01
+	model.running = true
+	model.step(1.0)
+	check(near(c.contents["NaHCO3(固体)"], 0.02), "Heating conditions must gate reaction")
+	c.heating = true
+	model.step(1.0)
+	check(near(c.contents["NaHCO3(固体)"], 0.0), "Heat decomposition should consume the available two equivalents")
+	check(near(c.contents.get("CO2(气体)", 0.0), 0.01), "Heat decomposition should produce one equivalent of gas")
+	check(float(c.temperature) > 20.0, "Active heating must change temperature")
+	# Save/load retains reaction and apparatus state, starts paused, and rejects corruption atomically.
+	check(model.save_experiment("user://test_model.json") == OK, "Experiment save must succeed")
+	var restored = Model.new()
+	restored.configure(reagent_data, reaction_data)
+	check(restored.load_experiment("user://test_model.json") == OK, "Experiment load must succeed")
+	check(restored.vessels.size() == 1 and not restored.running, "Reload must keep apparatus and pause")
+	check(near(restored.vessels[0].contents["CO2(气体)"], 0.01), "Reload must retain product quantities")
+	var invalid: Dictionary = restored.to_state()
+	invalid.vessels[0].contents["CO2(气体)"] = -2
+	check(not restored.from_state(invalid), "Corrupt negative concentrations must be rejected")
+	check(near(restored.vessels[0].contents["CO2(气体)"], 0.01), "Rejected loads must leave live state intact")
+	DirAccess.remove_absolute("user://test_model.json")
+	# Gas links transfer only gaseous species and preserve material.
+	var collector: Dictionary = model.add_apparatus("gas_jar")
+	model.connections.append({"source": c.id, "target": collector.id, "gas_only": true, "rate": 1.0})
+	c.heating = false
+	c.reaction_ids = []
+	model.step(1.0)
+	check(float(collector.contents.get("CO2(气体)", 0.0)) > 0.0, "Connected collection must transfer gas")
+	check(near(float(c.contents.get("CO2(气体)", 0.0)) + float(collector.contents.get("CO2(气体)", 0.0)), 0.01), "Gas connections must conserve moles")
+	check(float(collector.contents.get("Na2CO3(固体)", 0.0)) == 0.0, "Gas tubes must not transfer solid products")
+	# Imported equations can share a library ID but carry their own chemistry and conditions.
+	model.reset()
+	var recorded: Dictionary = model.add_apparatus("beaker100")
+	recorded.smart = false
+	model.add_reagent(recorded.id, "HCl(溶解)", 0.02)
+	model.add_reagent(recorded.id, "NaOH(溶解)", 0.02)
+	var custom: Dictionary = neutralization.duplicate(true)
+	custom.condition = "水溶液"
+	custom.reaction_rate = "0.005"
+	custom.products = [{"species": "NaCl(溶解)", "coefficient": "1"}]
+	recorded.reaction_ids = [custom.id]
+	recorded.reaction_overrides[custom.id] = custom
+	model.running = true
+	model.step(1.0)
+	check(near(recorded.contents["HCl(溶解)"], 0.02), "Imported aqueous equations must require solvent")
+	model.add_reagent(recorded.id, "H2O(液体)", 100.0 / float(model._species["H2O(液体)"].molar_mass))
+	check(near(model.solution_volume_l(recorded), 0.1), "Actual water amount must determine solution volume")
+	model.step(1.0)
+	check(near(recorded.contents["HCl(溶解)"], 0.015), "Imported equation rate must supersede library rate")
+	check(near(recorded.contents["NaCl(溶解)"], 0.005), "Imported equation products must supersede library definition")
+	check(near(recorded.contents["H2O(液体)"], 100.0 / float(model._species["H2O(液体)"].molar_mass)), "Imported product list must not silently use library products")
+	var before_heat: float = float(recorded.temperature)
+	var decoration: Dictionary = model.add_apparatus("annotation")
+	decoration.type_id = 1000
+	decoration.heating = true
+	model.step(1.0)
+	check(near(decoration.temperature, 20.0), "Decorative apparatus must not be heated as chemical containers")
+	print("Model checks: ", "PASS" if failures == 0 else "FAIL (%s)" % failures)
+	quit(0 if failures == 0 else 1)

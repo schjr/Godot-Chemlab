@@ -1,0 +1,1375 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x004849FC + 0x00476DDC + 0x00477330 + 0x00461E54",
+  "contract": "Original x86 flow, liquid/solid transfer and quantity arithmetic executes; only existing AnsiString/lookup and bitmap measurement boundaries hosted. Actual original dxkp/sb200 bitmap dimensions from recovered sprite inventory. Fresh explicitly zeroed slot storage each frame.",
+  "reagent_bits": {
+    "H2O(液体)": {
+      "molar_mass": "6abc749318043240",
+      "density": "000000000000f03f"
+    },
+    "NaOH(溶解)": {
+      "molar_mass": "39b4c876beff4340",
+      "density": "0000000000000000"
+    },
+    "Zn(固体)": {
+      "molar_mass": "295c8fc2f5585040",
+      "density": "0000000000000040"
+    },
+    "CO2(气体)": {
+      "molar_mass": "e17a14ae47014640",
+      "density": "f19e03cb1132603f"
+    }
+  },
+  "cases": [
+    {
+      "name": "liquid0.01-delta0.017",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "67655bed3230423f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "7b14ae47e17a843f",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "7b14ae47e17a843f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "7b14ae47e17a843f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "d956bb0c8c04e03f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f"
+          },
+          "masses": {
+            "H2O(液体)": "efa7c64b37092240",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f"
+          },
+          "volumes": {
+            "H2O(液体)": "efa7c64b37092240",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f"
+          },
+          "temperature": "08e796829cb83440",
+          "liquid_volume": "efa7c64b37092240",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000000000",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "343333333333db3f",
+          "solid": false
+        },
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "343333333333db3f",
+          "solid": true
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "9cc420b07268913f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid0.01-delta0.1",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "67655bed3230423f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "7b14ae47e17a843f",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "7b14ae47e17a843f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "7b14ae47e17a843f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "d956bb0c8c04e03f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f"
+          },
+          "masses": {
+            "H2O(液体)": "efa7c64b37092240",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f"
+          },
+          "volumes": {
+            "H2O(液体)": "efa7c64b37092240",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f"
+          },
+          "temperature": "08e796829cb83440",
+          "liquid_volume": "efa7c64b37092240",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000000000",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000000440",
+          "solid": false
+        },
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000000440",
+          "solid": true
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "9a9999999999b93f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid0.01-delta0.3",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "67655bed3230423f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "7b14ae47e17a843f",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "7b14ae47e17a843f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "7b14ae47e17a843f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "d956bb0c8c04e03f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f"
+          },
+          "masses": {
+            "H2O(液体)": "efa7c64b37092240",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f"
+          },
+          "volumes": {
+            "H2O(液体)": "efa7c64b37092240",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f"
+          },
+          "temperature": "08e796829cb83440",
+          "liquid_volume": "efa7c64b37092240",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000000000",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000001e40",
+          "solid": false
+        },
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000001e40",
+          "solid": true
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "333333333333d33f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid1.0-delta0.017",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "71cede924f6bac3f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "000000000000f03f",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "000000000000f03f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "000000000000f03f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "15eb191d40c1e03f",
+            "NaOH(溶解)": "c4f5285c8fc2a53f"
+          },
+          "masses": {
+            "H2O(液体)": "03560e2db2dd2240",
+            "NaOH(溶解)": "6ead2f12da32fb3f"
+          },
+          "volumes": {
+            "H2O(液体)": "03560e2db2dd2240",
+            "NaOH(溶解)": "0000000000000000"
+          },
+          "temperature": "ab0ba2f5ade63440",
+          "liquid_volume": "03560e2db2dd2240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "1a1d40c14d57a03f",
+            "NaOH(溶解)": "703d0ad7a370ad3f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "666666666666e23f",
+            "NaOH(溶解)": "d87c5c1b2a660240",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "666666666666e23f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "666666666666e23f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "343333333333db3f",
+          "solid": false
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "9cc420b07268913f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid1.0-delta0.1",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "71cede924f6bac3f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "000000000000f03f",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "000000000000f03f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "000000000000f03f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "e7ec2df9b4c6e13f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042440",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042440",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f"
+          },
+          "temperature": "e8ad3d2561913640",
+          "liquid_volume": "6abc749318042440",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000000000",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000000440",
+          "solid": false
+        },
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000000440",
+          "solid": true
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "9a9999999999b93f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid1.0-delta0.3",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "71cede924f6bac3f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "000000000000f03f",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "000000000000f03f",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "000000000000f03f",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "e7ec2df9b4c6e13f",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042440",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042440",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f"
+          },
+          "temperature": "e8ad3d2561913640",
+          "liquid_volume": "6abc749318042440",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000000000",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "0000000000000000",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000000000",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000001e40",
+          "solid": false
+        },
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000001e40",
+          "solid": true
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "333333333333d33f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid40.0-delta0.017",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0641cbbb11c30140",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000004440",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000004440",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000004440",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "15eb191d40c1e03f",
+            "NaOH(溶解)": "9cc420b07268513f"
+          },
+          "masses": {
+            "H2O(液体)": "03560e2db2dd2240",
+            "NaOH(溶解)": "bd8a8c0e48c2a53f"
+          },
+          "volumes": {
+            "H2O(液体)": "03560e2db2dd2240",
+            "NaOH(溶解)": "0000000000000000"
+          },
+          "temperature": "ab0ba2f5ade63440",
+          "liquid_volume": "03560e2db2dd2240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "41c684b4c1920140",
+            "NaOH(溶解)": "8816d9cef753b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "9a99999999c94340",
+            "NaOH(溶解)": "64213a048ea80f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "9a99999999c94340",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "9a99999999c94340",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "343333333333db3f",
+          "solid": false
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "9cc420b07268913f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid40.0-delta0.1",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0641cbbb11c30140",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000004440",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000004440",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000004440",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "42d0f26ec470e43f",
+            "NaOH(溶解)": "9a9999999999793f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042740",
+            "NaOH(溶解)": "8f53742497ffcf3f"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042740",
+            "NaOH(溶解)": "0000000000000000"
+          },
+          "temperature": "0770b90c45583840",
+          "liquid_volume": "6abc749318042740",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "f68c0ea0e0a60040",
+            "NaOH(溶解)": "000000000000b83f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000c04240",
+            "NaOH(溶解)": "560e2db29dff0d40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000c04240",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000c04240",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000000440",
+          "solid": false
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "9a9999999999b93f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    },
+    {
+      "name": "liquid40.0-delta0.3",
+      "records": [
+        {
+          "type": 102,
+          "size": 200,
+          "x": 176,
+          "y": 147,
+          "width": 53,
+          "height": 58,
+          "orientation": 0,
+          "state": 1
+        },
+        {
+          "type": 202,
+          "size": 100,
+          "x": 200,
+          "y": 100,
+          "width": 52,
+          "height": 30,
+          "orientation": 2,
+          "state": 1
+        }
+      ],
+      "before": [
+        {
+          "contents": {
+            "H2O(液体)": "000000000000e03f"
+          },
+          "masses": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "volumes": {
+            "H2O(液体)": "6abc749318042240"
+          },
+          "temperature": "0000000000003440",
+          "liquid_volume": "6abc749318042240",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "0641cbbb11c30140",
+            "NaOH(溶解)": "9a9999999999b93f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000004440",
+            "NaOH(溶解)": "8f53742497ff0f40",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000004440",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000004440",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "after": [
+        {
+          "contents": {
+            "H2O(液体)": "c470d84c4d52ed3f",
+            "NaOH(溶解)": "343333333333933f"
+          },
+          "masses": {
+            "H2O(液体)": "355eba490c823040",
+            "NaOH(溶解)": "ac3e575bb1ffe73f"
+          },
+          "volumes": {
+            "H2O(液体)": "355eba490c823040",
+            "NaOH(溶解)": "0000000000000000"
+          },
+          "temperature": "953f211825163d40",
+          "liquid_volume": "355eba490c823040",
+          "solid_volume": "0000000000000000",
+          "gas_moles": "0000000000000000",
+          "gas_volume": "0000000000000000",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        },
+        {
+          "contents": {
+            "H2O(液体)": "aa492ad1fcdcfc3f",
+            "NaOH(溶解)": "cdccccccccccb43f",
+            "Zn(固体)": "7b14ae47e17a843f",
+            "CO2(气体)": "fca9f1d24d62503f"
+          },
+          "masses": {
+            "H2O(液体)": "0000000000404040",
+            "NaOH(溶解)": "e4839ecdaaff0940",
+            "Zn(固体)": "3f575bb1bfece43f",
+            "CO2(气体)": "f1d7648d7a88a63f"
+          },
+          "volumes": {
+            "H2O(液体)": "0000000000404040",
+            "NaOH(溶解)": "0000000000000000",
+            "Zn(固体)": "3f575bb1bfecd43f",
+            "CO2(气体)": "6666666666663640"
+          },
+          "temperature": "0000000000004440",
+          "liquid_volume": "0000000000404040",
+          "solid_volume": "3f575bb1bfecd43f",
+          "gas_moles": "fca9f1d24d62503f",
+          "gas_volume": "6666666666663640",
+          "pressure": "0000000000000000",
+          "capacity": "0000000000005940"
+        }
+      ],
+      "calls": [
+        {
+          "source_index": 1,
+          "target_index": 0,
+          "requested_bits": "0000000000001e40",
+          "solid": false
+        }
+      ],
+      "scale_bits": "000000000000f03f",
+      "delta_bits": "333333333333d33f",
+      "boundary_calls": [
+        "0x4016e8",
+        "0x452acc",
+        "0x452d9c",
+        "0x461db4",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541018",
+        "0x5410cc",
+        "0x8000100",
+        "0x8000110"
+      ],
+      "messages": []
+    }
+  ]
+}

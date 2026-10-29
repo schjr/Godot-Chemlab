@@ -1,0 +1,2379 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "Actual native instructions with declared locks/memory/Win32 callback outcomes; no target handles used",
+  "cases": [
+    {
+      "name": "same record retains shared handle",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e00000000000000000000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 1122867
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002001000020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558528
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 1145307137,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002001000020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558528
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 1145307137,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002001000020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558528
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "new key frees old handle selected Canvas notification",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e0000000000ec4d4e0000020002001000020003000204000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 11259375
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020003000204000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000000000000b114a5a500000000efcdab000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33555200
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "SelectObject",
+                "hdc": 286326850,
+                "handle": 1431633922
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33555200
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020003000204000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000001007777b114a5a500000000efcdab000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33555200
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "SelectObject",
+                "hdc": 286326850,
+                "handle": 1431633922
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33555200
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "existing different key keeps old shared reference",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000002000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33558784,
+            "hex": "0010000202000000000000004cb2a5a500000000665544000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e0000000000ec4d4e0000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 4478310
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002001100020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33558784,
+                "hex": "0010000203000000000000004cb2a5a500000000665544000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558784,
+              33558528
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002001100020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33558784,
+                "hex": "0010000203000000010077774cb2a5a500000000665544000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558784,
+              33558528
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "middle old node unlink",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33558784,
+            "hex": "001000020200000000000000beaea5a500000000998877000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e0000000000ec4d4e0000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 7833753
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002001100020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33558784,
+                "hex": "000000000300000000000000beaea5a500000000998877000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "SelectObject",
+                "hdc": 286326850,
+                "handle": 1431633922
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558784
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002001100020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33558784,
+                "hex": "000000000300000001007777beaea5a500000000998877000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "SelectObject",
+                "hdc": 286326850,
+                "handle": 1431633922
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558784
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "same hash distinct key comparison",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33558784,
+            "hex": "0010000202000000000000004ed8a5a500000000335476001200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000011000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e0000000000ec4d4e0000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 7754802
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33558784,
+                "hex": "0000000002000000000000004ed8a5a500000000335476001200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "0011000201000000000000004ed8a5a500000000325476000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968,
+              33558784
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33558784,
+                "hex": "0000000002000000000000004ed8a5a500000000335476001200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "0011000201000000010077774ed8a5a500000000325476000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968,
+              33558784
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "no old native handle still frees record",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000000000001a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e00000000000000000000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 10031411
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000000000001a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000000000000c739a5a500000000331199000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000000000001a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000001007777c739a5a500000000331199000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "external OnChange ordering",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e00000000000000000700020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": [
+          117440512
+        ]
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 2228292
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000700020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "0000000001000000000000001462a5a500000000440022000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "event",
+                "target": 117440512,
+                "owner": 33554944,
+                "sender": 33554688
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000700020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "0000000001000000010077771462a5a500000000440022000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "event",
+                "target": 117440512,
+                "owner": 33554944,
+                "sender": 33554688
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DeleteObject failure does not skip FreeMem",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e0000000000ec4d4e0000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 0
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 3346773
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000000000000d24aa5a500000000551133000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "SelectObject",
+                "hdc": 286326850,
+                "handle": 1431633922
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000001007777d24aa5a500000000551133000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "SelectObject",
+                "hdc": 286326850,
+                "handle": 1431633922
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "lazy system color native lookup",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e0000000000ec4d4e0000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 2147483663
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "0000000001000000000000009087a5a5000000000f0000800200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e0000000000ec4d4e0000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "0000000001000000010077779087a5a5000000000f0000800200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetSysColor",
+                "index": 15
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "lazy CreatePen failure retried",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e00000000000000000000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 0,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "color",
+            "color": 5609745
+          },
+          "value": 33554688,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000000000000feaaa5a500000000119955000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 0,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000000000000feaaa5a500000000119955000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 0,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000000010200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002000001020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000000000000010044441a39a5a500000000332211000200000000000000"
+              },
+              {
+                "address": 33619968,
+                "hex": "000000000100000000000000feaaa5a500000000119955000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "GetMem",
+                "size": 32
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "DeleteObject",
+                "handle": 1145307137
+              },
+              {
+                "api": "FreeMem",
+                "address": 33558528
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000002000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33619968
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "already cached native handle no allocation or locks",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e00000000000000000000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 1145307137,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002001000020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010044441a39a5a500000000332211000200000000000000"
+              }
+            ],
+            "events": [],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558528
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "lazy original handle from old shared zero",
+      "world": {
+        "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+        "scope": "Explicit diagnostic native graph and API outcomes; not captured/live VCL state",
+        "globals": {
+          "0x59a9e4": 33554432,
+          "0x59a9a0": 1431633922
+        },
+        "thread": {
+          "fs_base": 0,
+          "exception_head": 4294967295,
+          "stack_base": 150994944,
+          "stack_size": 1048576,
+          "stack_pointer": 152043008,
+          "stack_origin": "fresh_committed_pages"
+        },
+        "segments": [
+          {
+            "address": 33558528,
+            "hex": "0000000001000000000000001a39a5a500000000332211000200000000000000"
+          },
+          {
+            "address": 33554432,
+            "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+          },
+          {
+            "address": 33554688,
+            "hex": "20244e00000000000000000000020002001000020000000004000000"
+          },
+          {
+            "address": 33554944,
+            "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "external_events": []
+      },
+      "api_outcomes": {
+        "create": 2004287489,
+        "delete": 1
+      },
+      "steps": [
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002001000020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010077771a39a5a500000000332211000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000000000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558528
+            ]
+          }
+        },
+        {
+          "operation": {
+            "op": "handle"
+          },
+          "value": 2004287489,
+          "state": {
+            "segments": [
+              {
+                "address": 33554432,
+                "hex": "1c2d4e000010000200000000000000000000000000000000000000000000000010000000"
+              },
+              {
+                "address": 33554688,
+                "hex": "20244e00000000000000000000020002001000020000000004000000"
+              },
+              {
+                "address": 33554944,
+                "hex": "d0804e00420011118000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              {
+                "address": 33558528,
+                "hex": "0000000001000000010077771a39a5a500000000332211000200000000000000"
+              }
+            ],
+            "events": [
+              {
+                "api": "EnterCriticalSection",
+                "address": 33554440
+              },
+              {
+                "api": "CreatePenIndirect",
+                "logpen_hex": "000000000200000000000000"
+              },
+              {
+                "api": "LeaveCriticalSection",
+                "address": 33554440
+              }
+            ],
+            "fs_head": 4294967295,
+            "ordered_nodes": [
+              33558528
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "final_archive_sha256": "00151dd7d67a7cb1697480e98bb0fb8df366ee12a4c966876ab2bdff27945876",
+  "godot_runtime_test_resource_files_identical_to_fresh_tested_package": 1242,
+  "all_archive_files_sha256_verified": true,
+  "all28_end_to_end_verified": false,
+  "native_vcl_verified": false,
+  "files": 1566,
+  "added_documentation_and_evidence": [
+    "tools/analyze_original_gas_operands.py",
+    "verification/gas-run-pen-fresh-import.log",
+    "verification/gas-run-pen-fresh-test_actual_paused_particle_checkpoint.gd.log",
+    "verification/gas-run-pen-fresh-test_native_action_workflow.gd.log",
+    "verification/gas-run-pen-fresh-test_native_canvas_presentation.gd.log",
+    "verification/gas-run-pen-fresh-test_original_gas_operand_order.gd.log",
+    "verification/gas-run-pen-fresh-test_original_pen.gd.log",
+    "verification/gas-run-pen-fresh-test_original_run_corpus.gd.log",
+    "verification/source-package-validation-gas-run-pen-fresh-2026-10-15.json"
+  ]
+}

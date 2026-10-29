@@ -1,0 +1,94 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "Actual original4028EC execution with explicit diagnostic TLS bytes, not real startup/process seed",
+  "cases": [
+    {
+      "bound": 0,
+      "return": 0,
+      "before_rng_hex": "78563412f0debc9a",
+      "after_rng_hex": "78563412f0debc9a",
+      "tls_access_count": 0
+    },
+    {
+      "bound": 5,
+      "return": 2,
+      "before_rng_hex": "78563412f0debc9a",
+      "after_rng_hex": "d9762eb76f2bc42f",
+      "tls_access_count": 4
+    }
+  ],
+  "instructions": [
+    {
+      "address": "0x4028ec",
+      "bytes": "55",
+      "mnemonic": "push",
+      "operands": "ebp"
+    },
+    {
+      "address": "0x4028ed",
+      "bytes": "8bec",
+      "mnemonic": "mov",
+      "operands": "ebp, esp"
+    },
+    {
+      "address": "0x4028ef",
+      "bytes": "837d0800",
+      "mnemonic": "cmp",
+      "operands": "dword ptr [ebp + 8], 0"
+    },
+    {
+      "address": "0x4028f3",
+      "bytes": "740d",
+      "mnemonic": "je",
+      "operands": "0x402902"
+    },
+    {
+      "address": "0x4028f5",
+      "bytes": "e866731300",
+      "mnemonic": "call",
+      "operands": "0x539c60"
+    },
+    {
+      "address": "0x4028fa",
+      "bytes": "99",
+      "mnemonic": "cdq",
+      "operands": ""
+    },
+    {
+      "address": "0x4028fb",
+      "bytes": "f77d08",
+      "mnemonic": "idiv",
+      "operands": "dword ptr [ebp + 8]"
+    },
+    {
+      "address": "0x4028fe",
+      "bytes": "8bc2",
+      "mnemonic": "mov",
+      "operands": "eax, edx"
+    },
+    {
+      "address": "0x402900",
+      "bytes": "eb02",
+      "mnemonic": "jmp",
+      "operands": "0x402904"
+    },
+    {
+      "address": "0x402902",
+      "bytes": "33c0",
+      "mnemonic": "xor",
+      "operands": "eax, eax"
+    },
+    {
+      "address": "0x402904",
+      "bytes": "5d",
+      "mnemonic": "pop",
+      "operands": "ebp"
+    },
+    {
+      "address": "0x402905",
+      "bytes": "c3",
+      "mnemonic": "ret",
+      "operands": ""
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Local environments and caches
+.venv/
+.asset-venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+.godot/
+
+# Machine-specific files and export credentials
+.DS_Store
+._*
+.env
+.env.*
+!.env.example
+export_credentials.cfg
+
+# Generated exports and source-package copies
+/build/
+/dist/
+/ChemLab.zip
+/ChemLab-recovered-source.zip

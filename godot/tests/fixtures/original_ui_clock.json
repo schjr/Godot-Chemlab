@@ -1,0 +1,354 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "entry": "004018B0",
+  "mouse_up_cases": [
+    {
+      "run": 0,
+      "after_physics": 80
+    },
+    {
+      "run": 1,
+      "after_physics": 1234
+    },
+    {
+      "run": 2,
+      "after_physics": 80
+    }
+  ],
+  "pause_cases": [
+    {
+      "run": 0,
+      "after_run": 0,
+      "after_physics": 80
+    },
+    {
+      "run": 1,
+      "after_run": 2,
+      "after_physics": 80
+    },
+    {
+      "run": 2,
+      "after_run": 1,
+      "after_physics": 140
+    }
+  ],
+  "boundaries": "Declared monotonic clock; physics, program and GDI callbacks captured without side effects; original cadence/physics clocks, delta arithmetic and timer control flow execute",
+  "cases": [
+    {
+      "run": 0,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 100,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 105,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 106,
+      "after_poll": 106,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 140,
+      "after_poll": 140,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 100,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 105,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 106,
+      "after_poll": 106,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 0,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 140,
+      "after_poll": 140,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 1,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 100,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 1,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 105,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 1,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 106,
+      "after_poll": 106,
+      "after_physics": 106,
+      "elapsed_bits": "39b4c876be9f9a3f",
+      "accepted": true,
+      "calls": [
+        "0x470060",
+        "0x48e418",
+        "0x4849fc",
+        "0x4624d8",
+        "0x46ec50",
+        "0x46d414",
+        "0x46f704",
+        "0x4624d8",
+        "0x48c428",
+        "0x48c758",
+        "0x48c428",
+        "0x48d6e0",
+        "0x4126dc"
+      ]
+    },
+    {
+      "run": 1,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 140,
+      "after_poll": 140,
+      "after_physics": 140,
+      "elapsed_bits": "b81e85eb51b8ae3f",
+      "accepted": true,
+      "calls": [
+        "0x470060",
+        "0x48e418",
+        "0x4849fc",
+        "0x4624d8",
+        "0x46ec50",
+        "0x46d414",
+        "0x46f704",
+        "0x4624d8",
+        "0x48c428",
+        "0x48c758",
+        "0x48c428",
+        "0x48d6e0",
+        "0x4126dc"
+      ]
+    },
+    {
+      "run": 1,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 100,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 1,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 105,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 1,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 106,
+      "after_poll": 106,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 1,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 140,
+      "after_poll": 140,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 100,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 105,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 106,
+      "after_poll": 106,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 0,
+      "poll": 100,
+      "physics": 80,
+      "now": 140,
+      "after_poll": 140,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 100,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 105,
+      "after_poll": 100,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 106,
+      "after_poll": 106,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    },
+    {
+      "run": 2,
+      "held": 1,
+      "poll": 100,
+      "physics": 80,
+      "now": 140,
+      "after_poll": 140,
+      "after_physics": 80,
+      "elapsed_bits": "0000000000000000",
+      "accepted": false,
+      "calls": []
+    }
+  ]
+}

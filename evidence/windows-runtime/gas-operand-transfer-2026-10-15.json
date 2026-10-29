@@ -1,0 +1,37 @@
+{
+  "format": "chemlab-gas-operand-transfer-ledger-v1",
+  "status": "returned_and_strictly_validated",
+  "validated_directory": "evidence/windows-runtime/gas-operand-results-2026-10-15",
+  "validation_sha256": "bb1423d5c42494d7e89be06fac25f3290da72c91795b4fd47810278716c34dbf",
+  "validation": {
+    "changed_constant_roles": [],
+    "reagent_records": 499,
+    "selected_inert_index": 491,
+    "inert_molar_mass_matches_original": true,
+    "prior_vessel_bytes_compared": 103344,
+    "whole_graph_equal_two_passes": true
+  },
+  "probe_archive": "build/windows-reference/gas-operand-probes.zip",
+  "probe_archive_sha256": "1b4c9a7c0864989ea455a309972f71997ddd01967a01fc123f7ff73d66143b0e",
+  "verified_reader_sha256": "1a9d1203adf0d19f8f21f42d3c36ddf04c94f0ebfd5605436ba1a8f333f80dbc",
+  "verified_cs_sha256": "f366f56e3a842384cb26395e14ce14361aab0bfb70f34121d3ae80331e263839",
+  "image_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "process_id": 9348,
+  "windows_capture_sha256": "06c888b34ae64781a55d1222190b70cc82a37e9de0b0fa1dcd617d2ecc83d872",
+  "windows_result_archive_sha256": "36fb3abe36a300c6e119b42fcf586fc84bf3cdd2e95b83db0f514f6658e7ed28",
+  "console_observation": {
+    "observation_method": "VMware Fusion screenshot of original reader output and read-only JSON projections",
+    "constant_matches": 10,
+    "constant_rows": 10,
+    "selected_inert_index": 491,
+    "molar_mass_matches_original": true,
+    "original_molar_mass_qword_hex": "0000000000003d40"
+  },
+  "mac_raw_graph_strictly_validated": true,
+  "target_calls": false,
+  "target_writes": false,
+  "target_suspend": false,
+  "native_vcl_verified": false,
+  "floating_execution_context": "unobserved",
+  "arithmetic_rule_changed": false
+}

@@ -1,0 +1,37 @@
+{
+  "format": "chemlab-observed-pen-first-setter-inspection-v1",
+  "capture_sha256": "55efb5a1c8cba1556689dee25ca6bcc984b3740e80e47866fd100e9ef5ce7787",
+  "graph_sha256": "2efaf7263eac22cb625e5975a9f38eef5a672ae43a6d04e8e959a3cd18e75b77",
+  "lock_observations": [
+    {
+      "role": "solid0_canvas_lock",
+      "source_identity": "0xa71b01c",
+      "raw24_hex": "ffffffffffffffff000000000000000000000000d0070002",
+      "dwords_hex": [
+        "0xffffffff",
+        "0xffffffff",
+        "0x00000000",
+        "0x00000000",
+        "0x00000000",
+        "0x020007d0"
+      ],
+      "interpretation": "Historical bytes only; no local owning-thread/semaphore identity inferred"
+    },
+    {
+      "role": "pen_registry_lock",
+      "source_identity": "0xa631794",
+      "raw24_hex": "ffffffffffffffff000000000000000000000000d0070002",
+      "dwords_hex": [
+        "0xffffffff",
+        "0xffffffff",
+        "0x00000000",
+        "0x00000000",
+        "0x00000000",
+        "0x020007d0"
+      ],
+      "interpretation": "Historical bytes only; no local owning-thread/semaphore identity inferred"
+    }
+  ],
+  "native_setter_completed": false,
+  "native_vcl_verified": false
+}

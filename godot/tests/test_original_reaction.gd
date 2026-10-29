@@ -1,0 +1,37 @@
+extends SceneTree
+const Reaction = preload("res://scripts/original/original_reaction.gd")
+func _initialize() -> void:
+	assert(Reaction.speed_factor(0) == 0.1)
+	assert(Reaction.speed_factor(10) == 1.0)
+	assert(Reaction.speed_factor(19) == 10.0)
+	assert(not Reaction.ordinary_condition("加热", 0, 300).allowed)
+	assert(not Reaction.ordinary_condition("加强热", 1, 199).allowed)
+	assert(Reaction.ordinary_condition("加强热", 1, 200).allowed)
+	assert(not Reaction.ordinary_condition("点燃", 1, 1000).allowed)
+	assert(Reaction.ordinary_condition("温度>90", 0, 90).allowed)
+	assert(Reaction.ordinary_condition("温度<90", 0, 90).allowed)
+	assert(Reaction.ordinary_condition("高温", 0, 20).allowed)
+	assert(Reaction.ordinary_condition("水溶液", 0, 20).allowed)
+	var rx := {"native_note": "", "equilibrium_mode": "单向", "condition": "", "reaction_rate": 0.1, "reactants": [{"species": "Fe(固体)", "coefficient": 1}, {"species": "HCl(溶解)", "coefficient": 2}], "products": [{"species": "FeCl2(溶解)", "coefficient": 1}, {"species": "H2(气体)", "coefficient": 1}]}
+	var state := {"moles": {"Fe(固体)": 0.15, "HCl(溶解)": 0.5}, "speed_setting": 10, "liquid_height": 30, "solid_3cd8": {"Fe(固体)": 0.0, "HCl(溶解)": 0.0}, "solid_3ff8": {"Fe(固体)": 0.0, "HCl(溶解)": 0.0}}
+	var result := Reaction.step_one_way(state, rx, 1.0)
+	assert(result.resolved and result.full_rate_branch)
+	assert(absf(state.moles["Fe(固体)"] - 0.05) < 1e-12)
+	assert(absf(state.moles["H2(气体)"] - 0.1) < 1e-12)
+	result = Reaction.step_one_way(state, rx, 1.0)
+	assert(result.resolved and not result.full_rate_branch)
+	assert(absf(result.extent - 0.05) < 1e-12)
+	assert(absf(state.moles["Fe(固体)"]) < 1e-12)
+	assert(absf(state.gas_3cc0 - 0.15) < 1e-12)
+	var precipitation := {"native_note": "", "equilibrium_mode": "单向", "condition": "", "reaction_rate": 0.01, "reactants": [{"species": "CuSO4(溶解)", "coefficient": 1}, {"species": "NaOH(溶解)", "coefficient": 2}], "products": [{"species": "Cu(OH)2(固体)", "coefficient": 1}]}
+	state = {"moles": {"CuSO4(溶解)": 0.02, "NaOH(溶解)": 0.02}, "speed_setting": 10, "liquid_height": 2}
+	result = Reaction.step_one_way(state, precipitation, 1.0)
+	assert(result.extent == 0.01)
+	assert(state.solid_3cd8["Cu(OH)2(固体)"] == 0.01)
+	assert(state.solid_3ff8["Cu(OH)2(固体)"] == 0.01)
+	var missing_note := precipitation.duplicate(true)
+	missing_note.erase("native_note")
+	assert(not Reaction.step_one_way(state, missing_note, 1.0).resolved)
+	print("PASS native one-way source checks: gates, ordinary/limited extents, particle/gas counters; separate original-machine corpus retained")
+	print("PASS test_original_reaction")
+	quit()

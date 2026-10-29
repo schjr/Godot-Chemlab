@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original vessel bitmap renderer: PASS; 1098 original executable fill-mask pixel frames, SRCPAINT ordering, special weights, native reserved-byte cases; prior GDI material stages remain capture-required

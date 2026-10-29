@@ -1,0 +1,3 @@
+PASS 107 regression scripts across the fresh run and documented reruns.
+PASS normal graphical opening viewport workflow, exported PCK workflow, fresh source archive workflow.
+PASS release executable normal startup/exit and clean source archive import.

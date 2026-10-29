@@ -1,0 +1,123 @@
+{
+  "source_file": "evidence/original_logic/native-transfer-oracle.json",
+  "conversion": "Python round-trip original emulator float JSON, then little-endian struct.pack(<d); Godot must decode bytes rather than decimal parse",
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x00476ddc",
+  "requested_bits": "0000000000000040",
+  "reagents": {
+    "NaOH(溶解)": {
+      "molar_mass_bits": "39b4c876beff4340",
+      "density_bits": "0000000000000000"
+    },
+    "Zn(固体)": {
+      "molar_mass_bits": "295c8fc2f5585040",
+      "density_bits": "0000000000000040"
+    },
+    "CO2(气体)": {
+      "molar_mass_bits": "e17a14ae47014640",
+      "density_bits": "f19e03cb1132603f"
+    },
+    "H2O(液体)": {
+      "molar_mass_bits": "6abc749318043240",
+      "density_bits": "000000000000f03f"
+    }
+  },
+  "before": [
+    {
+      "contents": {
+        "H2O(液体)": "0841cbbb11c30140",
+        "NaOH(溶解)": "9a9999999999b93f",
+        "Zn(固体)": "7b14ae47e17a843f",
+        "CO2(气体)": "fca9f1d24d62503f"
+      },
+      "native_species_mass": {
+        "H2O(液体)": "0200000000004440",
+        "NaOH(溶解)": "8f53742497ff0f40",
+        "Zn(固体)": "3f575bb1bfece43f",
+        "CO2(气体)": "f1d7648d7a88a63f"
+      },
+      "native_species_volume": {
+        "H2O(液体)": "0200000000004440",
+        "NaOH(溶解)": "0000000000000000",
+        "Zn(固体)": "3f575bb1bfecd43f",
+        "CO2(气体)": "6666666666663640"
+      },
+      "temperature": "0000000000004440",
+      "native_liquid_volume": "0200000000004440",
+      "native_solid_volume": "3f575bb1bfecd43f",
+      "native_gas_moles": "fca9f1d24d62503f",
+      "native_gas_volume": "6666666666663640",
+      "native_pressure": "0000000000000000",
+      "volume_ml": "0000000000005940"
+    },
+    {
+      "contents": {
+        "H2O(液体)": "000000000000e03f"
+      },
+      "native_species_mass": {
+        "H2O(液体)": "6abc749318042240"
+      },
+      "native_species_volume": {
+        "H2O(液体)": "6abc749318042240"
+      },
+      "temperature": "0000000000003440",
+      "native_liquid_volume": "6abc749318042240",
+      "native_solid_volume": "0000000000000000",
+      "native_gas_moles": "0000000000000000",
+      "native_gas_volume": "0000000000000000",
+      "native_pressure": "0000000000000000",
+      "volume_ml": "0000000000005940"
+    }
+  ],
+  "after": [
+    {
+      "contents": {
+        "H2O(液体)": "944a343fb7df0040",
+        "NaOH(溶解)": "52b81e85eb51b83f",
+        "Zn(固体)": "7b14ae47e17a843f",
+        "CO2(气体)": "fca9f1d24d62503f"
+      },
+      "native_species_mass": {
+        "H2O(液体)": "0100000000004340",
+        "NaOH(溶解)": "2e1c08c902660e40",
+        "Zn(固体)": "3f575bb1bfece43f",
+        "CO2(气体)": "f1d7648d7a88a63f"
+      },
+      "native_species_volume": {
+        "H2O(液体)": "0100000000004340",
+        "NaOH(溶解)": "0000000000000000",
+        "Zn(固体)": "3f575bb1bfecd43f",
+        "CO2(气体)": "6666666666663640"
+      },
+      "temperature": "0000000000004440",
+      "native_liquid_volume": "0100000000004340",
+      "native_solid_volume": "3f575bb1bfecd43f",
+      "native_gas_moles": "fca9f1d24d62503f",
+      "native_gas_volume": "6666666666663640",
+      "native_pressure": "0000000000000000",
+      "volume_ml": "0000000000005940"
+    },
+    {
+      "contents": {
+        "H2O(液体)": "ced95bf2698de33f",
+        "NaOH(溶解)": "7914ae47e17a743f"
+      },
+      "native_species_mass": {
+        "H2O(液体)": "6abc749318042640",
+        "NaOH(溶解)": "0976c3b64599c93f"
+      },
+      "native_species_volume": {
+        "H2O(液体)": "6abc749318042640",
+        "NaOH(溶解)": "0000000000000000"
+      },
+      "temperature": "b923ee883ba23740",
+      "native_liquid_volume": "6abc749318042640",
+      "native_solid_volume": "0000000000000000",
+      "native_gas_moles": "0000000000000000",
+      "native_gas_volume": "0000000000000000",
+      "native_pressure": "0000000000000000",
+      "volume_ml": "0000000000005940"
+    }
+  ],
+  "capacity_provenance": "tools/original_x86_oracle.py main calls add_vessel with default capacity=100.0"
+}

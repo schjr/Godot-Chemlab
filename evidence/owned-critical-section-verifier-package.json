@@ -1,0 +1,12 @@
+{
+  "format": "chemlab-owned-critical-section-verifier-package-v1",
+  "files": {
+    "original_owned_critical_sections.cs": "a675738a9cb70d2562346ecaef87ac42122183ce32fc3156277bcc6bf75391bd",
+    "original_owned_critical_sections.ps1": "0af5c1da40026d9a45203237a474cfae12ea1dc03f4536050d917b8954918d24"
+  },
+  "target_calls": false,
+  "target_writes": false,
+  "native_backend_executed": false,
+  "native_vcl_verified": false,
+  "archive_sha256": "6a64ba4e9055cb1b4bffd3c23f1ba687e18dd6a845d655a719c3f5073a16d53f"
+}

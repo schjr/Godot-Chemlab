@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Native x87 host 1014 cases; differences 0
+PASS exact FSIN/FCOS instruction provider

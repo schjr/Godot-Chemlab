@@ -1,0 +1,5355 @@
+{
+  "binary": "artifacts/ChemLab/_mol.exe",
+  "sha256": "4070a4e5f7f7575bae6fb7a04500a06eb3c3906ff43930782aef3fdb3c2416a0",
+  "entries": [
+    {
+      "address": "0x004032F0",
+      "name": "Published_FormCreate",
+      "method_name": "FormCreate",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833830,
+          "entry_size": 17,
+          "code_file_offset": 10480
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1833830,
+          "entry_size": 17,
+          "code_file_offset": 10480
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1833830,
+          "entry_size": 17,
+          "code_file_offset": 10480
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00404A28",
+      "name": "Published_FormPaint",
+      "method_name": "FormPaint",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833847,
+          "entry_size": 16,
+          "code_file_offset": 16424
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00404A44",
+      "name": "Published_FormKeyDown",
+      "method_name": "FormKeyDown",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833863,
+          "entry_size": 18,
+          "code_file_offset": 16452
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00404D7C",
+      "name": "Published_FormResize",
+      "method_name": "FormResize",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833881,
+          "entry_size": 17,
+          "code_file_offset": 17276
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00404FD0",
+      "name": "Published_FormMouseDown",
+      "method_name": "FormMouseDown",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833898,
+          "entry_size": 20,
+          "code_file_offset": 17872
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00406454",
+      "name": "Published_FormMouseMove",
+      "method_name": "FormMouseMove",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833918,
+          "entry_size": 20,
+          "code_file_offset": 23124
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0040685C",
+      "name": "Published_FormMouseUp",
+      "method_name": "FormMouseUp",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833938,
+          "entry_size": 18,
+          "code_file_offset": 24156
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00419910",
+      "name": "Published_N2Click",
+      "method_name": "N2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833956,
+          "entry_size": 14,
+          "code_file_offset": 102160
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0041A07C",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1833970,
+          "entry_size": 24,
+          "code_file_offset": 104060
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0041A4B4",
+      "name": "Published_Timer1Timer",
+      "method_name": "Timer1Timer",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1833994,
+          "entry_size": 18,
+          "code_file_offset": 105140
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0041F8F4",
+      "name": "Published_N37Click",
+      "method_name": "N37Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834012,
+          "entry_size": 15,
+          "code_file_offset": 126708
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0041FB94",
+      "name": "Published_N25Click",
+      "method_name": "N25Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834027,
+          "entry_size": 15,
+          "code_file_offset": 127380
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00427B70",
+      "name": "Published_N4Click",
+      "method_name": "N4Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834042,
+          "entry_size": 14,
+          "code_file_offset": 160112
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00428AC0",
+      "name": "Published_N3Click",
+      "method_name": "N3Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834056,
+          "entry_size": 14,
+          "code_file_offset": 164032
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00428D34",
+      "name": "Published_N34Click",
+      "method_name": "N34Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834070,
+          "entry_size": 15,
+          "code_file_offset": 164660
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00428FE4",
+      "name": "Published_N39Click",
+      "method_name": "N39Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834085,
+          "entry_size": 15,
+          "code_file_offset": 165348
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00429284",
+      "name": "Published_N5Click",
+      "method_name": "N5Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834100,
+          "entry_size": 14,
+          "code_file_offset": 166020
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042A144",
+      "name": "Published_N9Click",
+      "method_name": "N9Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834114,
+          "entry_size": 14,
+          "code_file_offset": 169796
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042A15C",
+      "name": "Published_PopupMenu1Popup",
+      "method_name": "PopupMenu1Popup",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834128,
+          "entry_size": 22,
+          "code_file_offset": 169820
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042B3F4",
+      "name": "Published_N42Click",
+      "method_name": "N42Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834150,
+          "entry_size": 15,
+          "code_file_offset": 174580
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042B410",
+      "name": "Published_N62Click",
+      "method_name": "N62Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834165,
+          "entry_size": 15,
+          "code_file_offset": 174608
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042B4A0",
+      "name": "Published_N15Click",
+      "method_name": "N15Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834180,
+          "entry_size": 15,
+          "code_file_offset": 174752
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042BD20",
+      "name": "Published_FormClose",
+      "method_name": "FormClose",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834195,
+          "entry_size": 16,
+          "code_file_offset": 176928
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1834195,
+          "entry_size": 16,
+          "code_file_offset": 176928
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM7",
+            0
+          ],
+          "root_class": "TForm7",
+          "entry_file_offset": 1834195,
+          "entry_size": 16,
+          "code_file_offset": 176928
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1834195,
+          "entry_size": 16,
+          "code_file_offset": 176928
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042BFB0",
+      "name": "Published_N27Click",
+      "method_name": "N27Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834211,
+          "entry_size": 15,
+          "code_file_offset": 177584
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C014",
+      "name": "Published_N65Click",
+      "method_name": "N65Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834226,
+          "entry_size": 15,
+          "code_file_offset": 177684
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C078",
+      "name": "Published_N61Click",
+      "method_name": "N61Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834241,
+          "entry_size": 15,
+          "code_file_offset": 177784
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C094",
+      "name": "Published_N57Click",
+      "method_name": "N57Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834256,
+          "entry_size": 15,
+          "code_file_offset": 177812
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C0B0",
+      "name": "Published_N64Click",
+      "method_name": "N64Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834271,
+          "entry_size": 15,
+          "code_file_offset": 177840
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C0CC",
+      "name": "Published_N43Click",
+      "method_name": "N43Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834286,
+          "entry_size": 15,
+          "code_file_offset": 177868
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C0E8",
+      "name": "Published_N44Click",
+      "method_name": "N44Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834301,
+          "entry_size": 15,
+          "code_file_offset": 177896
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C104",
+      "name": "Published_Y1Click",
+      "method_name": "Y1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834316,
+          "entry_size": 14,
+          "code_file_offset": 177924
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C120",
+      "name": "Published_X1Click",
+      "method_name": "X1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834330,
+          "entry_size": 14,
+          "code_file_offset": 177952
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C13C",
+      "name": "Published_Z2Click",
+      "method_name": "Z2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834344,
+          "entry_size": 14,
+          "code_file_offset": 177980
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C158",
+      "name": "Published_N51Click",
+      "method_name": "N51Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834358,
+          "entry_size": 15,
+          "code_file_offset": 178008
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C174",
+      "name": "Published_N48Click",
+      "method_name": "N48Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834373,
+          "entry_size": 15,
+          "code_file_offset": 178036
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C190",
+      "name": "Published_N58Click",
+      "method_name": "N58Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834388,
+          "entry_size": 15,
+          "code_file_offset": 178064
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C1AC",
+      "name": "Published_N54Click",
+      "method_name": "N54Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834403,
+          "entry_size": 15,
+          "code_file_offset": 178092
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C1FC",
+      "name": "Published_CC3Click",
+      "method_name": "CC3Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834418,
+          "entry_size": 15,
+          "code_file_offset": 178172
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C218",
+      "name": "Published_CC4Click",
+      "method_name": "CC4Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834433,
+          "entry_size": 15,
+          "code_file_offset": 178200
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C234",
+      "name": "Published_CC5Click",
+      "method_name": "CC5Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834448,
+          "entry_size": 15,
+          "code_file_offset": 178228
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C250",
+      "name": "Published_N55Click",
+      "method_name": "N55Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834463,
+          "entry_size": 15,
+          "code_file_offset": 178256
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C26C",
+      "name": "Published_N16Click",
+      "method_name": "N16Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834478,
+          "entry_size": 15,
+          "code_file_offset": 178284
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C288",
+      "name": "Published_N17Click",
+      "method_name": "N17Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834493,
+          "entry_size": 15,
+          "code_file_offset": 178312
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C2A4",
+      "name": "Published_N18Click",
+      "method_name": "N18Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834508,
+          "entry_size": 15,
+          "code_file_offset": 178340
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C2C0",
+      "name": "Published_N19Click",
+      "method_name": "N19Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834523,
+          "entry_size": 15,
+          "code_file_offset": 178368
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C2DC",
+      "name": "Published_N13Click",
+      "method_name": "N13Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834538,
+          "entry_size": 15,
+          "code_file_offset": 178396
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C2F8",
+      "name": "Published_CH41Click",
+      "method_name": "CH41Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834553,
+          "entry_size": 16,
+          "code_file_offset": 178424
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C314",
+      "name": "Published_N33Click",
+      "method_name": "N33Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834569,
+          "entry_size": 15,
+          "code_file_offset": 178452
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042C330",
+      "name": "Published_N41Click",
+      "method_name": "N41Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834584,
+          "entry_size": 15,
+          "code_file_offset": 178480
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042D490",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1834599,
+          "entry_size": 24,
+          "code_file_offset": 182928
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042D504",
+      "name": "Published_SpeedButton6Click",
+      "method_name": "SpeedButton6Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834623,
+          "entry_size": 24,
+          "code_file_offset": 183044
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042D788",
+      "name": "Published_SpeedButton3Click",
+      "method_name": "SpeedButton3Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834647,
+          "entry_size": 24,
+          "code_file_offset": 183688
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1834647,
+          "entry_size": 24,
+          "code_file_offset": 183688
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1834647,
+          "entry_size": 24,
+          "code_file_offset": 183688
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042D9F8",
+      "name": "Published_SpeedButton4Click",
+      "method_name": "SpeedButton4Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834671,
+          "entry_size": 24,
+          "code_file_offset": 184312
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1834671,
+          "entry_size": 24,
+          "code_file_offset": 184312
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042DCE4",
+      "name": "Published_SpeedButton5Click",
+      "method_name": "SpeedButton5Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834695,
+          "entry_size": 24,
+          "code_file_offset": 185060
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042DFD0",
+      "name": "Published_SpeedButton15Click",
+      "method_name": "SpeedButton15Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834719,
+          "entry_size": 25,
+          "code_file_offset": 185808
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042E0A4",
+      "name": "Published_SpeedButton10Click",
+      "method_name": "SpeedButton10Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834744,
+          "entry_size": 25,
+          "code_file_offset": 186020
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042E174",
+      "name": "Published_SpeedButton17Click",
+      "method_name": "SpeedButton17Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834769,
+          "entry_size": 25,
+          "code_file_offset": 186228
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042E5DC",
+      "name": "Published_SpeedButton20Click",
+      "method_name": "SpeedButton20Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834794,
+          "entry_size": 25,
+          "code_file_offset": 187356
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042E8AC",
+      "name": "Published_SpeedButton18Click",
+      "method_name": "SpeedButton18Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834819,
+          "entry_size": 25,
+          "code_file_offset": 188076
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042E93C",
+      "name": "Published_SpeedButton16Click",
+      "method_name": "SpeedButton16Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834844,
+          "entry_size": 25,
+          "code_file_offset": 188220
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042E9CC",
+      "name": "Published_SpeedButton19Click",
+      "method_name": "SpeedButton19Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834869,
+          "entry_size": 25,
+          "code_file_offset": 188364
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EA5C",
+      "name": "Published_N28Click",
+      "method_name": "N28Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834894,
+          "entry_size": 15,
+          "code_file_offset": 188508
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EB94",
+      "name": "Published_N7Click",
+      "method_name": "N7Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834909,
+          "entry_size": 14,
+          "code_file_offset": 188820
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EBB4",
+      "name": "Published_SpeedButton9Click",
+      "method_name": "SpeedButton9Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834923,
+          "entry_size": 24,
+          "code_file_offset": 188852
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EEA4",
+      "name": "Published_N8Click",
+      "method_name": "N8Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834947,
+          "entry_size": 14,
+          "code_file_offset": 189604
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EEC0",
+      "name": "Published_ComboBox1Change",
+      "method_name": "ComboBox1Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834961,
+          "entry_size": 22,
+          "code_file_offset": 189632
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EF94",
+      "name": "Published_Edit1KeyDown",
+      "method_name": "Edit1KeyDown",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1834983,
+          "entry_size": 19,
+          "code_file_offset": 189844
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042EFBC",
+      "name": "Published_SpeedButton7Click",
+      "method_name": "SpeedButton7Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835002,
+          "entry_size": 24,
+          "code_file_offset": 189884
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042F248",
+      "name": "Published_SpeedButton8Click",
+      "method_name": "SpeedButton8Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835026,
+          "entry_size": 24,
+          "code_file_offset": 190536
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042F4D4",
+      "name": "Published_SpeedButton21Click",
+      "method_name": "SpeedButton21Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835050,
+          "entry_size": 25,
+          "code_file_offset": 191188
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042F760",
+      "name": "Published_SpeedButton22Click",
+      "method_name": "SpeedButton22Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835075,
+          "entry_size": 25,
+          "code_file_offset": 191840
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042F9EC",
+      "name": "Published_N70Click",
+      "method_name": "N70Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835100,
+          "entry_size": 15,
+          "code_file_offset": 192492
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042FA08",
+      "name": "Published_N71Click",
+      "method_name": "N71Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835115,
+          "entry_size": 15,
+          "code_file_offset": 192520
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042FA24",
+      "name": "Published_N72Click",
+      "method_name": "N72Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835130,
+          "entry_size": 15,
+          "code_file_offset": 192548
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042FA40",
+      "name": "Published_N73Click",
+      "method_name": "N73Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835145,
+          "entry_size": 15,
+          "code_file_offset": 192576
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042FA5C",
+      "name": "Published_N110Click",
+      "method_name": "N110Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835160,
+          "entry_size": 16,
+          "code_file_offset": 192604
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0042FD50",
+      "name": "Published_N210Click",
+      "method_name": "N210Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835176,
+          "entry_size": 16,
+          "code_file_offset": 193360
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00430044",
+      "name": "Published_N310Click",
+      "method_name": "N310Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835192,
+          "entry_size": 16,
+          "code_file_offset": 194116
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00430338",
+      "name": "Published_N410Click",
+      "method_name": "N410Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835208,
+          "entry_size": 16,
+          "code_file_offset": 194872
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0043062C",
+      "name": "Published_N510Click",
+      "method_name": "N510Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835224,
+          "entry_size": 16,
+          "code_file_offset": 195628
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00430920",
+      "name": "Published_N81Click",
+      "method_name": "N81Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835240,
+          "entry_size": 15,
+          "code_file_offset": 196384
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00430C14",
+      "name": "Published_N101Click",
+      "method_name": "N101Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835255,
+          "entry_size": 16,
+          "code_file_offset": 197140
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00432008",
+      "name": "Published_N75Click",
+      "method_name": "N75Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835271,
+          "entry_size": 15,
+          "code_file_offset": 202248
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004322A8",
+      "name": "Published_N76Click",
+      "method_name": "N76Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835286,
+          "entry_size": 15,
+          "code_file_offset": 202920
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004322C4",
+      "name": "Published_N20Click",
+      "method_name": "N20Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835301,
+          "entry_size": 15,
+          "code_file_offset": 202948
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0043270C",
+      "name": "Published_SpeedButton23Click",
+      "method_name": "SpeedButton23Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835316,
+          "entry_size": 25,
+          "code_file_offset": 204044
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00432998",
+      "name": "Published_SpeedButton24MouseDown",
+      "method_name": "SpeedButton24MouseDown",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835341,
+          "entry_size": 29,
+          "code_file_offset": 204696
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00432A28",
+      "name": "Published_N84Click",
+      "method_name": "N84Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835370,
+          "entry_size": 15,
+          "code_file_offset": 204840
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00432C98",
+      "name": "Published_N85Click",
+      "method_name": "N85Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835385,
+          "entry_size": 15,
+          "code_file_offset": 205464
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00432F08",
+      "name": "Published_N86Click",
+      "method_name": "N86Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835400,
+          "entry_size": 15,
+          "code_file_offset": 206088
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00433178",
+      "name": "Published_N87Click",
+      "method_name": "N87Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835415,
+          "entry_size": 15,
+          "code_file_offset": 206712
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004333E8",
+      "name": "Published_N21Click",
+      "method_name": "N21Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835430,
+          "entry_size": 15,
+          "code_file_offset": 207336
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00433404",
+      "name": "Published_N78Click",
+      "method_name": "N78Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835445,
+          "entry_size": 15,
+          "code_file_offset": 207364
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00433420",
+      "name": "Published_N79Click",
+      "method_name": "N79Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835460,
+          "entry_size": 15,
+          "code_file_offset": 207392
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0043343C",
+      "name": "Published_N80Click",
+      "method_name": "N80Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835475,
+          "entry_size": 15,
+          "code_file_offset": 207420
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00433458",
+      "name": "Published_N88Click",
+      "method_name": "N88Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835490,
+          "entry_size": 15,
+          "code_file_offset": 207448
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00433474",
+      "name": "Published_SpeedButton25Click",
+      "method_name": "SpeedButton25Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835505,
+          "entry_size": 25,
+          "code_file_offset": 207476
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00433490",
+      "name": "Published_FormShow",
+      "method_name": "FormShow",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835530,
+          "entry_size": 15,
+          "code_file_offset": 207504
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1835530,
+          "entry_size": 15,
+          "code_file_offset": 207504
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1835530,
+          "entry_size": 15,
+          "code_file_offset": 207504
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1835530,
+          "entry_size": 15,
+          "code_file_offset": 207504
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1835530,
+          "entry_size": 15,
+          "code_file_offset": 207504
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00434058",
+      "name": "Published_ControlBar1MouseMove",
+      "method_name": "ControlBar1MouseMove",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835545,
+          "entry_size": 27,
+          "code_file_offset": 210520
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0043407C",
+      "name": "Published_ToolBar1MouseMove",
+      "method_name": "ToolBar1MouseMove",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835572,
+          "entry_size": 24,
+          "code_file_offset": 210556
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004340A0",
+      "name": "Published_ToolBar2MouseMove",
+      "method_name": "ToolBar2MouseMove",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835596,
+          "entry_size": 24,
+          "code_file_offset": 210592
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004340C4",
+      "name": "Published_ToolBar4MouseMove",
+      "method_name": "ToolBar4MouseMove",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835620,
+          "entry_size": 24,
+          "code_file_offset": 210628
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004340E8",
+      "name": "Published_SpeedButton29Click",
+      "method_name": "SpeedButton29Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835644,
+          "entry_size": 25,
+          "code_file_offset": 210664
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004341E4",
+      "name": "Published_SpeedButton30Click",
+      "method_name": "SpeedButton30Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835669,
+          "entry_size": 25,
+          "code_file_offset": 210916
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004342E0",
+      "name": "Published_SpeedButton26Click",
+      "method_name": "SpeedButton26Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835694,
+          "entry_size": 25,
+          "code_file_offset": 211168
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0043456C",
+      "name": "Published_N90Click",
+      "method_name": "N90Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835719,
+          "entry_size": 15,
+          "code_file_offset": 211820
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00434588",
+      "name": "Published_ComboBox1ContextPopup",
+      "method_name": "ComboBox1ContextPopup",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835734,
+          "entry_size": 28,
+          "code_file_offset": 211848
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004345AC",
+      "name": "Published_SpeedButton31Click",
+      "method_name": "SpeedButton31Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835762,
+          "entry_size": 25,
+          "code_file_offset": 211884
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00434728",
+      "name": "Published_N92Click",
+      "method_name": "N92Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835787,
+          "entry_size": 15,
+          "code_file_offset": 212264
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00434744",
+      "name": "Published_N93Click",
+      "method_name": "N93Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835802,
+          "entry_size": 15,
+          "code_file_offset": 212292
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00434760",
+      "name": "Published_FormMouseWheelUp",
+      "method_name": "FormMouseWheelUp",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835817,
+          "entry_size": 23,
+          "code_file_offset": 212320
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00434780",
+      "name": "Published_FormMouseWheelDown",
+      "method_name": "FormMouseWheelDown",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835840,
+          "entry_size": 25,
+          "code_file_offset": 212352
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004347A0",
+      "name": "Published_N94Click",
+      "method_name": "N94Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835865,
+          "entry_size": 15,
+          "code_file_offset": 212384
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004349BC",
+      "name": "Published_ComboBox1Exit",
+      "method_name": "ComboBox1Exit",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835880,
+          "entry_size": 20,
+          "code_file_offset": 212924
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004349E0",
+      "name": "Published_C1Click",
+      "method_name": "C1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835900,
+          "entry_size": 14,
+          "code_file_offset": 212960
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004361A8",
+      "name": "Published_SpeedButtonTurnClick",
+      "method_name": "SpeedButtonTurnClick",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835914,
+          "entry_size": 27,
+          "code_file_offset": 219048
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x00436DA8",
+      "name": "Published_ScrollBar1Change",
+      "method_name": "ScrollBar1Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835941,
+          "entry_size": 23,
+          "code_file_offset": 222120
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1835941,
+          "entry_size": 23,
+          "code_file_offset": 222120
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004374F4",
+      "name": "Published_VRML1Click",
+      "method_name": "VRML1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835964,
+          "entry_size": 17,
+          "code_file_offset": 223988
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0043D7AC",
+      "name": "Published_SpeedButton14Click",
+      "method_name": "SpeedButton14Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1835981,
+          "entry_size": 25,
+          "code_file_offset": 249260
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F8B8",
+      "name": "Published_N96Click",
+      "method_name": "N96Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836006,
+          "entry_size": 15,
+          "code_file_offset": 585400
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F8D4",
+      "name": "Published_N97Click",
+      "method_name": "N97Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836021,
+          "entry_size": 15,
+          "code_file_offset": 585428
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F8F0",
+      "name": "Published_N98Click",
+      "method_name": "N98Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836036,
+          "entry_size": 15,
+          "code_file_offset": 585456
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F90C",
+      "name": "Published_N99Click",
+      "method_name": "N99Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836051,
+          "entry_size": 15,
+          "code_file_offset": 585484
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F928",
+      "name": "Published_N100Click",
+      "method_name": "N100Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836066,
+          "entry_size": 16,
+          "code_file_offset": 585512
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F944",
+      "name": "Published_N102Click",
+      "method_name": "N102Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836082,
+          "entry_size": 16,
+          "code_file_offset": 585540
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F960",
+      "name": "Published_N103Click",
+      "method_name": "N103Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836098,
+          "entry_size": 16,
+          "code_file_offset": 585568
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F97C",
+      "name": "Published_N104Click",
+      "method_name": "N104Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836114,
+          "entry_size": 16,
+          "code_file_offset": 585596
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F998",
+      "name": "Published_N105Click",
+      "method_name": "N105Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836130,
+          "entry_size": 16,
+          "code_file_offset": 585624
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048F9B4",
+      "name": "Published_HH1Click",
+      "method_name": "HH1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836146,
+          "entry_size": 15,
+          "code_file_offset": 585652
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048FA00",
+      "name": "Published_HH2Click",
+      "method_name": "HH2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836161,
+          "entry_size": 15,
+          "code_file_offset": 585728
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048FA4C",
+      "name": "Published_HBr1Click",
+      "method_name": "HBr1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836176,
+          "entry_size": 16,
+          "code_file_offset": 585804
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048FA98",
+      "name": "Published_ClCl1Click",
+      "method_name": "ClCl1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836192,
+          "entry_size": 17,
+          "code_file_offset": 585880
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048FAE4",
+      "name": "Published_BrBr1Click",
+      "method_name": "BrBr1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836209,
+          "entry_size": 17,
+          "code_file_offset": 585956
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048FB30",
+      "name": "Published_HOH1Click",
+      "method_name": "HOH1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836226,
+          "entry_size": 16,
+          "code_file_offset": 586032
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0048FB7C",
+      "name": "Published_N32Click",
+      "method_name": "N32Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836242,
+          "entry_size": 15,
+          "code_file_offset": 586108
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004C21F4",
+      "name": "Published_N67Click",
+      "method_name": "N67Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836257,
+          "entry_size": 15,
+          "code_file_offset": 792564
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004C64B8",
+      "name": "Published_N69Click",
+      "method_name": "N69Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836272,
+          "entry_size": 15,
+          "code_file_offset": 809656
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004C67C8",
+      "name": "Published_N82Click",
+      "method_name": "N82Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836287,
+          "entry_size": 15,
+          "code_file_offset": 810440
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004C6AD8",
+      "name": "Published_HH3Click",
+      "method_name": "HH3Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836302,
+          "entry_size": 15,
+          "code_file_offset": 811224
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CB030",
+      "name": "Published_Timer2Timer",
+      "method_name": "Timer2Timer",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836317,
+          "entry_size": 18,
+          "code_file_offset": 828976
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CB3B0",
+      "name": "Published_SpeedButton28Click",
+      "method_name": "SpeedButton28Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836335,
+          "entry_size": 25,
+          "code_file_offset": 829872
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CB51C",
+      "name": "Published_SpeedButton27Click",
+      "method_name": "SpeedButton27Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836360,
+          "entry_size": 25,
+          "code_file_offset": 830236
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC1D8",
+      "name": "Published_N89Click",
+      "method_name": "N89Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836385,
+          "entry_size": 15,
+          "code_file_offset": 833496
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC480",
+      "name": "Published_N106Click",
+      "method_name": "N106Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836400,
+          "entry_size": 16,
+          "code_file_offset": 834176
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC72C",
+      "name": "Published_N107Click",
+      "method_name": "N107Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836416,
+          "entry_size": 16,
+          "code_file_offset": 834860
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC748",
+      "name": "Published_N108Click",
+      "method_name": "N108Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836432,
+          "entry_size": 16,
+          "code_file_offset": 834888
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC764",
+      "name": "Published_ClientSocket1Connect",
+      "method_name": "ClientSocket1Connect",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836448,
+          "entry_size": 27,
+          "code_file_offset": 834916
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC784",
+      "name": "Published_ClientSocket1Error",
+      "method_name": "ClientSocket1Error",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836475,
+          "entry_size": 25,
+          "code_file_offset": 834948
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004CC7B0",
+      "name": "Published_ClientSocket1Read",
+      "method_name": "ClientSocket1Read",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1836500,
+          "entry_size": 24,
+          "code_file_offset": 834992
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1374",
+      "name": "Published_FormCreate",
+      "method_name": "FormCreate",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1838555,
+          "entry_size": 17,
+          "code_file_offset": 854388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838555,
+          "entry_size": 17,
+          "code_file_offset": 854388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1838555,
+          "entry_size": 17,
+          "code_file_offset": 854388
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1634",
+      "name": "Published_FormDestroy",
+      "method_name": "FormDestroy",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838572,
+          "entry_size": 18,
+          "code_file_offset": 855092
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1738",
+      "name": "Published_ScrollBar1Change",
+      "method_name": "ScrollBar1Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1838590,
+          "entry_size": 23,
+          "code_file_offset": 855352
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838590,
+          "entry_size": 23,
+          "code_file_offset": 855352
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D17F4",
+      "name": "Published_ScrollBar2Change",
+      "method_name": "ScrollBar2Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838613,
+          "entry_size": 23,
+          "code_file_offset": 855540
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D18B0",
+      "name": "Published_ScrollBar3Change",
+      "method_name": "ScrollBar3Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838636,
+          "entry_size": 23,
+          "code_file_offset": 855728
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D196C",
+      "name": "Published_Label5Click",
+      "method_name": "Label5Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838659,
+          "entry_size": 18,
+          "code_file_offset": 855916
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1A2C",
+      "name": "Published_Label7Click",
+      "method_name": "Label7Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838677,
+          "entry_size": 18,
+          "code_file_offset": 856108
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1AEC",
+      "name": "Published_Label8Click",
+      "method_name": "Label8Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838695,
+          "entry_size": 18,
+          "code_file_offset": 856300
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1BAC",
+      "name": "Published_Label9Click",
+      "method_name": "Label9Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838713,
+          "entry_size": 18,
+          "code_file_offset": 856492
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1C6C",
+      "name": "Published_Label6Click",
+      "method_name": "Label6Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838731,
+          "entry_size": 18,
+          "code_file_offset": 856684
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1D2C",
+      "name": "Published_Label10Click",
+      "method_name": "Label10Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838749,
+          "entry_size": 19,
+          "code_file_offset": 856876
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1DEC",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1838768,
+          "entry_size": 24,
+          "code_file_offset": 857068
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D1E14",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1838792,
+          "entry_size": 24,
+          "code_file_offset": 857108
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2288",
+      "name": "Published_FormShow",
+      "method_name": "FormShow",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1838816,
+          "entry_size": 15,
+          "code_file_offset": 858248
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838816,
+          "entry_size": 15,
+          "code_file_offset": 858248
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1838816,
+          "entry_size": 15,
+          "code_file_offset": 858248
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1838816,
+          "entry_size": 15,
+          "code_file_offset": 858248
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1838816,
+          "entry_size": 15,
+          "code_file_offset": 858248
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2A30",
+      "name": "Published_ScrollBar7Change",
+      "method_name": "ScrollBar7Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838831,
+          "entry_size": 23,
+          "code_file_offset": 860208
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2A98",
+      "name": "Published_ScrollBar8Change",
+      "method_name": "ScrollBar8Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838854,
+          "entry_size": 23,
+          "code_file_offset": 860312
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2B00",
+      "name": "Published_ScrollBar9Change",
+      "method_name": "ScrollBar9Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838877,
+          "entry_size": 23,
+          "code_file_offset": 860416
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2B68",
+      "name": "Published_TrackBar1Change",
+      "method_name": "TrackBar1Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838900,
+          "entry_size": 22,
+          "code_file_offset": 860520
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2BA0",
+      "name": "Published_TrackBar2Change",
+      "method_name": "TrackBar2Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838922,
+          "entry_size": 22,
+          "code_file_offset": 860576
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2BD8",
+      "name": "Published_TrackBar3Change",
+      "method_name": "TrackBar3Change",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838944,
+          "entry_size": 22,
+          "code_file_offset": 860632
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2C10",
+      "name": "Published_Label32Click",
+      "method_name": "Label32Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838966,
+          "entry_size": 19,
+          "code_file_offset": 860688
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2CD0",
+      "name": "Published_Label33Click",
+      "method_name": "Label33Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1838985,
+          "entry_size": 19,
+          "code_file_offset": 860880
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D2EE0",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1839805,
+          "entry_size": 24,
+          "code_file_offset": 861408
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3180",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1839829,
+          "entry_size": 24,
+          "code_file_offset": 862080
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D31B8",
+      "name": "Published_SpeedButton3Click",
+      "method_name": "SpeedButton3Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1839853,
+          "entry_size": 24,
+          "code_file_offset": 862136
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1839853,
+          "entry_size": 24,
+          "code_file_offset": 862136
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1839853,
+          "entry_size": 24,
+          "code_file_offset": 862136
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D31DC",
+      "name": "Published_FormClose",
+      "method_name": "FormClose",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1839877,
+          "entry_size": 16,
+          "code_file_offset": 862172
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1839877,
+          "entry_size": 16,
+          "code_file_offset": 862172
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM7",
+            0
+          ],
+          "root_class": "TForm7",
+          "entry_file_offset": 1839877,
+          "entry_size": 16,
+          "code_file_offset": 862172
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1839877,
+          "entry_size": 16,
+          "code_file_offset": 862172
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3400",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1841020,
+          "entry_size": 24,
+          "code_file_offset": 862720
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3498",
+      "name": "Published_Image1MouseDown",
+      "method_name": "Image1MouseDown",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1841044,
+          "entry_size": 22,
+          "code_file_offset": 862872
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3538",
+      "name": "Published_FormKeyPress",
+      "method_name": "FormKeyPress",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1841066,
+          "entry_size": 19,
+          "code_file_offset": 863032
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3684",
+      "name": "Published_FormClose",
+      "method_name": "FormClose",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1841488,
+          "entry_size": 16,
+          "code_file_offset": 863364
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1841488,
+          "entry_size": 16,
+          "code_file_offset": 863364
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM7",
+            0
+          ],
+          "root_class": "TForm7",
+          "entry_file_offset": 1841488,
+          "entry_size": 16,
+          "code_file_offset": 863364
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1841488,
+          "entry_size": 16,
+          "code_file_offset": 863364
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3A14",
+      "name": "Published_FormCreate",
+      "method_name": "FormCreate",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843195,
+          "entry_size": 17,
+          "code_file_offset": 864276
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1843195,
+          "entry_size": 17,
+          "code_file_offset": 864276
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843195,
+          "entry_size": 17,
+          "code_file_offset": 864276
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3A2C",
+      "name": "Published_FileListBox1DblClick",
+      "method_name": "FileListBox1DblClick",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843212,
+          "entry_size": 27,
+          "code_file_offset": 864300
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3EB0",
+      "name": "Published_FormShow",
+      "method_name": "FormShow",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843239,
+          "entry_size": 15,
+          "code_file_offset": 865456
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1843239,
+          "entry_size": 15,
+          "code_file_offset": 865456
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843239,
+          "entry_size": 15,
+          "code_file_offset": 865456
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1843239,
+          "entry_size": 15,
+          "code_file_offset": 865456
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1843239,
+          "entry_size": 15,
+          "code_file_offset": 865456
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3F68",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1843254,
+          "entry_size": 24,
+          "code_file_offset": 865640
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D3F8C",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1843278,
+          "entry_size": 24,
+          "code_file_offset": 865676
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D45C4",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1843769,
+          "entry_size": 24,
+          "code_file_offset": 867268
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D45EC",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1843793,
+          "entry_size": 24,
+          "code_file_offset": 867308
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D4614",
+      "name": "Published_SpeedButton3Click",
+      "method_name": "SpeedButton3Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843817,
+          "entry_size": 24,
+          "code_file_offset": 867348
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843817,
+          "entry_size": 24,
+          "code_file_offset": 867348
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1843817,
+          "entry_size": 24,
+          "code_file_offset": 867348
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D463C",
+      "name": "Published_SpeedButton4Click",
+      "method_name": "SpeedButton4Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843841,
+          "entry_size": 24,
+          "code_file_offset": 867388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843841,
+          "entry_size": 24,
+          "code_file_offset": 867388
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D4664",
+      "name": "Published_Panel1MouseMove",
+      "method_name": "Panel1MouseMove",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843865,
+          "entry_size": 22,
+          "code_file_offset": 867428
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x004D468C",
+      "name": "Published_FormClose",
+      "method_name": "FormClose",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1843887,
+          "entry_size": 16,
+          "code_file_offset": 867468
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1843887,
+          "entry_size": 16,
+          "code_file_offset": 867468
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM7",
+            0
+          ],
+          "root_class": "TForm7",
+          "entry_file_offset": 1843887,
+          "entry_size": 16,
+          "code_file_offset": 867468
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1843887,
+          "entry_size": 16,
+          "code_file_offset": 867468
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CA78",
+      "name": "Published_FormShow",
+      "method_name": "FormShow",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1845795,
+          "entry_size": 15,
+          "code_file_offset": 1228920
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1845795,
+          "entry_size": 15,
+          "code_file_offset": 1228920
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1845795,
+          "entry_size": 15,
+          "code_file_offset": 1228920
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1845795,
+          "entry_size": 15,
+          "code_file_offset": 1228920
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1845795,
+          "entry_size": 15,
+          "code_file_offset": 1228920
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CAAC",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1845810,
+          "entry_size": 24,
+          "code_file_offset": 1228972
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CAC4",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1845834,
+          "entry_size": 24,
+          "code_file_offset": 1228996
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CC4C",
+      "name": "Published_SpeedButton1Click",
+      "method_name": "SpeedButton1Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TABOUT",
+            0
+          ],
+          "root_class": "TAbout",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1846438,
+          "entry_size": 24,
+          "code_file_offset": 1229388
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CD30",
+      "name": "Published_SpeedButton2Click",
+      "method_name": "SpeedButton2Click",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM6",
+            0
+          ],
+          "root_class": "TForm6",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        },
+        {
+          "resource_path": [
+            10,
+            "TSAVEFILEFORM",
+            0
+          ],
+          "root_class": "TSaveFileForm",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1846462,
+          "entry_size": 24,
+          "code_file_offset": 1229616
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CD48",
+      "name": "Published_FormShow",
+      "method_name": "FormShow",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TFORM1",
+            0
+          ],
+          "root_class": "TForm1",
+          "entry_file_offset": 1846486,
+          "entry_size": 15,
+          "code_file_offset": 1229640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM2",
+            0
+          ],
+          "root_class": "TForm2",
+          "entry_file_offset": 1846486,
+          "entry_size": 15,
+          "code_file_offset": 1229640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM8",
+            0
+          ],
+          "root_class": "TForm8",
+          "entry_file_offset": 1846486,
+          "entry_size": 15,
+          "code_file_offset": 1229640
+        },
+        {
+          "resource_path": [
+            10,
+            "TFORM9",
+            0
+          ],
+          "root_class": "TForm9",
+          "entry_file_offset": 1846486,
+          "entry_size": 15,
+          "code_file_offset": 1229640
+        },
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1846486,
+          "entry_size": 15,
+          "code_file_offset": 1229640
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    },
+    {
+      "address": "0x0052CD64",
+      "name": "Published_Edit1KeyPress",
+      "method_name": "Edit1KeyPress",
+      "evidence": [
+        {
+          "resource_path": [
+            10,
+            "TSETSEVERFORM",
+            0
+          ],
+          "root_class": "TSetSeverForm",
+          "entry_file_offset": 1846501,
+          "entry_size": 20,
+          "code_file_offset": 1229668
+        }
+      ],
+      "class_ownership": "unresolved; Published prefix is synthetic"
+    }
+  ]
+}

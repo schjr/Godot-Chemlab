@@ -1,0 +1,168 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TTEMPFRAME",
+      0
+    ],
+    "file_offset": 1508076,
+    "resource_size": 258,
+    "sha256": "f0424af21750c365449d55881c4e81c5bad7625ed9871623ceb24900a2145649",
+    "binary": "recovered/forms/_ency/TTEMPFRAME.dfm.bin",
+    "parsed_size": 258,
+    "trailing_bytes": 0,
+    "root_class": "TtempFrame",
+    "root_name": "tempFrame",
+    "component_count": 2,
+    "event_handlers": [],
+    "published_method_candidates": [],
+    "declaration_skeleton": "recovered/project/_ency/TtempFrame.hpp"
+  },
+  "form": {
+    "class": "TtempFrame",
+    "name": "tempFrame",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 30
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 36
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 196,
+          "offset": 44
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 240,
+          "offset": 54
+        }
+      },
+      {
+        "name": "TabOrder",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 66
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TLabel",
+        "name": "Label1",
+        "flags": 0,
+        "offset": 69,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 88
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 120,
+              "offset": 94
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 165,
+              "offset": 102
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 15,
+              "offset": 112
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "本功能仅在正式版中提供",
+              "offset": 122
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 159
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 186
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -15,
+              "offset": 212
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 224
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 241
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 254
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,1138 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TTESTSQL",
+      0
+    ],
+    "file_offset": 1508336,
+    "resource_size": 1630,
+    "sha256": "db5cdf074ff927c158982c18b42b4c61ba245628161efab71d962bef159766ee",
+    "binary": "recovered/forms/_ency/TTESTSQL.dfm.bin",
+    "parsed_size": 1630,
+    "trailing_bytes": 0,
+    "root_class": "Ttestsql",
+    "root_name": "testsql",
+    "component_count": 12,
+    "event_handlers": [
+      {
+        "component": "Button1",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button1Click"
+      },
+      {
+        "component": "Button2",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button2Click"
+      },
+      {
+        "component": "Button3",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button3Click"
+      },
+      {
+        "component": "Button4",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button4Click"
+      },
+      {
+        "component": "Button5",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button5Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1135727,
+        "entry_size": 19,
+        "code_va": "0x0041408C",
+        "code_file_offset": 79500,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1160148,
+        "entry_size": 19,
+        "code_va": "0x00423C0C",
+        "code_file_offset": 143884,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1163964,
+        "entry_size": 19,
+        "code_va": "0x004267E8",
+        "code_file_offset": 155112,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1165151,
+        "entry_size": 19,
+        "code_va": "0x004271DC",
+        "code_file_offset": 157660,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1167358,
+        "entry_size": 19,
+        "code_va": "0x00427A38",
+        "code_file_offset": 159800,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1175216,
+        "entry_size": 19,
+        "code_va": "0x0042C0C8",
+        "code_file_offset": 177864,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1176411,
+        "entry_size": 19,
+        "code_va": "0x0042C308",
+        "code_file_offset": 178440,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1181166,
+        "entry_size": 19,
+        "code_va": "0x0042F0EC",
+        "code_file_offset": 190188,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1205066,
+        "entry_size": 19,
+        "code_va": "0x0043D0FC",
+        "code_file_offset": 247548,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1209954,
+        "entry_size": 19,
+        "code_va": "0x0043FAE0",
+        "code_file_offset": 258272,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1210894,
+        "entry_size": 19,
+        "code_va": "0x0043FDA4",
+        "code_file_offset": 258980,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1216352,
+        "entry_size": 19,
+        "code_va": "0x00442BA0",
+        "code_file_offset": 270752,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1221351,
+        "entry_size": 19,
+        "code_va": "0x004459FC",
+        "code_file_offset": 282620,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1223704,
+        "entry_size": 19,
+        "code_va": "0x00447394",
+        "code_file_offset": 289172,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1224201,
+        "entry_size": 19,
+        "code_va": "0x004475E8",
+        "code_file_offset": 289768,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1163926,
+        "entry_size": 19,
+        "code_va": "0x00426564",
+        "code_file_offset": 154468,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1175235,
+        "entry_size": 19,
+        "code_va": "0x0042C0E8",
+        "code_file_offset": 177896,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1176430,
+        "entry_size": 19,
+        "code_va": "0x0042C540",
+        "code_file_offset": 179008,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1209973,
+        "entry_size": 19,
+        "code_va": "0x0043FBC4",
+        "code_file_offset": 258500,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1223723,
+        "entry_size": 19,
+        "code_va": "0x0044746C",
+        "code_file_offset": 289388,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1224220,
+        "entry_size": 19,
+        "code_va": "0x00447608",
+        "code_file_offset": 289800,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button3Click",
+        "entry_file_offset": 1163945,
+        "entry_size": 19,
+        "code_va": "0x00426750",
+        "code_file_offset": 154960,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button3Click",
+        "entry_file_offset": 1176449,
+        "entry_size": 19,
+        "code_va": "0x0042C6F0",
+        "code_file_offset": 179440,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button4Click",
+        "entry_file_offset": 1163983,
+        "entry_size": 19,
+        "code_va": "0x00426A78",
+        "code_file_offset": 155768,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button5Click",
+        "entry_file_offset": 1164002,
+        "entry_size": 19,
+        "code_va": "0x00426B08",
+        "code_file_offset": 155912,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/Ttestsql.hpp"
+  },
+  "form": {
+    "class": "Ttestsql",
+    "name": "testsql",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 192,
+          "offset": 26
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 107,
+          "offset": 33
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 537,
+          "offset": 41
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 375,
+          "offset": 51
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "testsql",
+          "offset": 62
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "clBtnFace",
+          "offset": 77
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 101
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 129
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 155
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 167
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 193
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 210
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 225
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 13,
+          "offset": 238
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TMemo",
+        "name": "Memo1",
+        "flags": 0,
+        "offset": 241,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 258
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 264
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 497,
+              "offset": 272
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 137,
+              "offset": 282
+            }
+          },
+          {
+            "name": "ScrollBars",
+            "value": {
+              "type": 7,
+              "value": "ssVertical",
+              "offset": 296
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 317
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TDBGrid",
+        "name": "DBGrid1",
+        "flags": 0,
+        "offset": 321,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 342
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 192,
+              "offset": 348
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 497,
+              "offset": 357
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 145,
+              "offset": 367
+            }
+          },
+          {
+            "name": "DataSource",
+            "value": {
+              "type": 7,
+              "value": "DataSource1",
+              "offset": 381
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 403
+            }
+          },
+          {
+            "name": "TitleFont.Charset",
+            "value": {
+              "type": 7,
+              "value": "DEFAULT_CHARSET",
+              "offset": 423
+            }
+          },
+          {
+            "name": "TitleFont.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 456
+            }
+          },
+          {
+            "name": "TitleFont.Height",
+            "value": {
+              "type": 2,
+              "value": -11,
+              "offset": 487
+            }
+          },
+          {
+            "name": "TitleFont.Name",
+            "value": {
+              "type": 6,
+              "value": "MS Sans Serif",
+              "offset": 504
+            }
+          },
+          {
+            "name": "TitleFont.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 535
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button1",
+        "flags": 0,
+        "offset": 539,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 131,
+              "offset": 560
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 567
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 75,
+              "offset": 576
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 585
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "运行",
+              "offset": 595
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 614
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 641
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -15,
+              "offset": 667
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 679
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 696
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 709
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 719
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button1Click",
+              "offset": 729
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button2",
+        "flags": 0,
+        "offset": 745,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 234,
+              "offset": 766
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 773
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 75,
+              "offset": 782
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 791
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "保存",
+              "offset": 801
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 820
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 847
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -15,
+              "offset": 873
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 885
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 902
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 915
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 3,
+              "offset": 925
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button2Click",
+              "offset": 935
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button3",
+        "flags": 0,
+        "offset": 951,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 336,
+              "offset": 972
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 979
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 75,
+              "offset": 988
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 997
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "载入",
+              "offset": 1007
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1026
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1053
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -15,
+              "offset": 1079
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1091
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1108
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1121
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 4,
+              "offset": 1131
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button3Click",
+              "offset": 1141
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button4",
+        "flags": 0,
+        "offset": 1157,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 440,
+              "offset": 1178
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 1185
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 75,
+              "offset": 1194
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 1203
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "Button4",
+              "offset": 1213
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 5,
+              "offset": 1231
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button4Click",
+              "offset": 1241
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button5",
+        "flags": 0,
+        "offset": 1257,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 248,
+              "offset": 1278
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1285
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 75,
+              "offset": 1293
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 1302
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "Button5",
+              "offset": 1312
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 6,
+              "offset": 1330
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button5Click",
+              "offset": 1340
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TDataSource",
+        "name": "DataSource1",
+        "flags": 0,
+        "offset": 1356,
+        "properties": [
+          {
+            "name": "DataSet",
+            "value": {
+              "type": 7,
+              "value": "ADOQuery1",
+              "offset": 1388
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 1404
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 1410
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TOpenDialog",
+        "name": "OpenDialog1",
+        "flags": 0,
+        "offset": 1415,
+        "properties": [
+          {
+            "name": "Filter",
+            "value": {
+              "type": 6,
+              "value": "Txt File|*.txt",
+              "offset": 1446
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 72,
+              "offset": 1467
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 144,
+              "offset": 1473
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSaveDialog",
+        "name": "SaveDialog1",
+        "flags": 0,
+        "offset": 1478,
+        "properties": [
+          {
+            "name": "Filter",
+            "value": {
+              "type": 6,
+              "value": "Txt File|*.txt",
+              "offset": 1509
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 104,
+              "offset": 1530
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 144,
+              "offset": 1536
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TADOQuery",
+        "name": "ADOQuery1",
+        "flags": 0,
+        "offset": 1541,
+        "properties": [
+          {
+            "name": "Connection",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.ADOConnection1",
+              "offset": 1572
+            }
+          },
+          {
+            "name": "Parameters",
+            "value": {
+              "type": 14,
+              "value": [],
+              "offset": 1611
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 48,
+              "offset": 1618
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 1624
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

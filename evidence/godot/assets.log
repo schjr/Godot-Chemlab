@@ -1,0 +1,7 @@
+/Users/schjr/Programs/ChemLab_REA/tools/prepare_godot.py:30: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  image.putdata([(r,g,b,0 if (r,g,b)==key else a) for r,g,b,a in image.getdata()])
+/Users/schjr/Programs/ChemLab_REA/tools/prepare_godot.py:94: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  img.putdata([(r,g,b,0 if (r,g,b)==key else a) for r,g,b,a in img.getdata()])
+/Users/schjr/Programs/ChemLab_REA/tools/prepare_godot.py:101: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  mask.putdata([(255,255,255,255-min(r,g,b)) for r,g,b in original.getdata()])
+Prepared 62 form layouts, 499 reagents, 599 reactions, 107 apparatus sprites, 475 encyclopedia records.

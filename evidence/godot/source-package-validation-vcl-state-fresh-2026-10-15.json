@@ -1,0 +1,73 @@
+{
+  "format": "chemlab-fresh-source-package-validation-v1",
+  "created_utc": "2026-10-15T01:43:43.951283+00:00",
+  "archive_sha256": "05d87d3bdb2c5f1601753ddd3886659494dbae110a9d4e5f0024616629a2b2cc",
+  "archive_bytes": 7934779,
+  "manifest_files_verified": 1670,
+  "extraction": "build/source-check-vcl-state-2026-10-15/ChemLab-original-port-WIP",
+  "checks": [
+    {
+      "name": "import",
+      "log": "evidence/godot/vcl-state-fresh-import.log",
+      "sha256": "3bdceef0dcf2fdccac6accfa40d24e933267088722806d761547b84c1a8e4bdd",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_shared_vcl_world.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_shared_vcl_world.gd.log",
+      "sha256": "117d18dcb09fdb06b45e1d4e81bd41d2c47b2f27b31a965484312a836006d4cb",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_bitmap_canvas.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_bitmap_canvas.gd.log",
+      "sha256": "f61aae518d9563c41c260f6c7c397722edcd371252d336924e6d4c93a14af3e1",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_canvas_drawing.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_canvas_drawing.gd.log",
+      "sha256": "a6c71c0c961b3b63421f5b4d21c0642ffa982c45a5b4c59fb062aba18a158357",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_owned_memory_api.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_owned_memory_api.gd.log",
+      "sha256": "5dec8407b381c8e5addb6203f3b933ce2c9fe68eff73d627b750d2742eef2c66",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_primitive_boundary_replies.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_primitive_boundary_replies.gd.log",
+      "sha256": "4ac81638475236561ce735ccecadbff980d29789dfa125540de0d82f90a889eb",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_particle_presentation_boundary.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_particle_presentation_boundary.gd.log",
+      "sha256": "b02bba740b078c36ed9ba9b45d5460b0236b2279a3d5895ee87efde37b9ff129",
+      "status": "passed"
+    },
+    {
+      "name": "test_native_action_workflow.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_native_action_workflow.gd.log",
+      "sha256": "5fff69396048fe4653b0d20c2bd252fd1fc22a3ddd6dc7a48137421618c139f9",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_run_corpus.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_run_corpus.gd.log",
+      "sha256": "1ee2e16b8f7d98d9dffae74467e90c05fa90e8a61f446d4ac7728da000cfdbaa",
+      "status": "passed"
+    },
+    {
+      "name": "test_original_particles_host.gd",
+      "log": "evidence/godot/vcl-state-fresh-test_original_particles_host.gd.log",
+      "sha256": "be4ccb529015e19c13af8eb61a1f1662fe8eefeceeffdebe4fd855c0b15dba16",
+      "status": "passed"
+    }
+  ],
+  "packaged_files_unchanged_after_import_and_checks": true,
+  "native_full_vcl_verified": false,
+  "all28_examples_verified_end_to_end": false
+}

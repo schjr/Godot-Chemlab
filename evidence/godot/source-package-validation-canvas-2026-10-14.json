@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "full_local_suite": {
+    "status": "passed",
+    "test_scripts": 69,
+    "engine_errors": 0,
+    "exit_code": 0,
+    "scope": "Full suite before final frame serialization/display acknowledgement changes; affected tests rerun afterward."
+  },
+  "post_change_focused_checks": {
+    "source_feedback_adoption_and_timer_display_gates": "passed",
+    "active_canvas_controller_and_actual_CPU_draw_submission": "passed",
+    "source_order_orchestrator": "passed",
+    "actual_six_vessel_words": "passed",
+    "engine_errors": 0
+  },
+  "fresh_source_extraction": {
+    "tested_runtime_archive_sha256": "e83297c8c8cc7fa24a8c0aa6d3d9655fa194d909cd93c3ff92d2377be6e752de",
+    "manifest_files_verified": 1454,
+    "import": "passed",
+    "all28_document_roundtrips": "passed",
+    "native_adoption_and_timing_guards": "passed",
+    "active_canvas_connection": "passed",
+    "actual_six_vessel_word_comparison": "passed",
+    "current_runtime_files_unchanged_after_checks": true
+  },
+  "original_bitmap_comparison": {
+    "archive_sha256": "9355cf55a460ea3543c52b503bb4b123fc6f3cbc8b72b2110c9f5a5978d71198",
+    "readable_bitmaps": 18,
+    "matching_final_words": 11548,
+    "word_differences": 0,
+    "asset_rgb_checks": 23096,
+    "asset_rgb_differences": 0,
+    "scope": "One paused checkpoint with explicit original CEM overlap/white prior-canvas hypotheses; no complete VCL attestation."
+  },
+  "all28_end_to_end_verified": false,
+  "native_vcl_verified": false,
+  "standalone_default_presentation": "unfinished preview; complete verified runtime/provider configuration still required for native mode",
+  "remaining": "Runtime particle/RNG and shared heap startup integration; native particle/overlay/bitmap/DC/background providers; rotated/scaled/nonchemical branches; original UI-event ordering; all28 end-to-end behavior."
+}

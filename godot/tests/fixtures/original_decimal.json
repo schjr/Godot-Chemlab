@@ -1,0 +1,48 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "entry": "00541348",
+  "extended_parser_entry": "0052C700",
+  "cases": [
+    {
+      "text": "9007199254740993",
+      "extended_bits": "00000000000000803440",
+      "operand_extended_bits": "00040000000000803440"
+    },
+    {
+      "text": "123456789012345678",
+      "extended_bits": "00a87918d3a54ddb3740",
+      "operand_extended_bits": "00a77918d3a54ddb3740"
+    },
+    {
+      "text": "1.23456789012345678",
+      "extended_bits": "00d8cf621452069eff3f",
+      "operand_extended_bits": "3adbcf621452069eff3f"
+    },
+    {
+      "text": "0.009007199254740993",
+      "extended_bits": "00601d928eee9293f83f",
+      "operand_extended_bits": "a4611d928eee9293f83f"
+    },
+    {
+      "text": "999999999999999999",
+      "extended_bits": "000040763a6b0bde3a40",
+      "operand_extended_bits": "f0ff3f763a6b0bde3a40"
+    },
+    {
+      "text": "-99999999999999999",
+      "extended_bits": "000000c52ebca2b137c0",
+      "operand_extended_bits": "80ffffc42ebca2b137c0"
+    },
+    {
+      "text": "3.14159265358979323",
+      "extended_bits": "00c06821a2da0fc90040",
+      "operand_extended_bits": "0ec26821a2da0fc90040"
+    },
+    {
+      "text": "123456789012345675",
+      "extended_bits": "00a87918d3a54ddb3740",
+      "operand_extended_bits": "80a57918d3a54ddb3740"
+    }
+  ],
+  "boundary": "Original parser instructions execute; AnsiString ownership is hosted. Wrapper541348 performs the original qword store before returning."
+}

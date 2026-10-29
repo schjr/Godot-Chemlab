@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"cases":36,"failures":[],"scope":"Primitive failure boundary and native stack cleanup; no raster parity claim"}
+PASS failed drawing calls preserve stack and reject pixel feedback; successful calls release exact arguments

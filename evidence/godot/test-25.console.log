@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":1344,"failures":[],"native_steps":47}
+PASS original TBrush registry arithmetic finally events and lazy handle native references

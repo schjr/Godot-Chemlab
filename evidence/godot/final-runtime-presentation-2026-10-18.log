@@ -1,0 +1,12 @@
+Final presentation adoption validation 2026-10-18T18:12:31.295255+08:00
+Cause: the synthetic primitive provider acknowledged source bitmap resize without supplying resized pixels. Strict runtime validation correctly rejected the resulting incomplete checkpoint.
+Fix: the explicit numeric-oracle test provider now supplies correctly sized synthetic pixels on both scanline and resize requests. Production validation unchanged. Added guard verifies incomplete resized pixel output remains rejected.
+OriginalModelHost SHA256 unchanged: True 6ef9f23d1710042c5eadf70ed1ce2a9cc7fc9cfaee21671e1d382f9cd58b198d
+
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":44,"commits":2,"failures":[],"synthetic_resize_events":4}
+PASS original model presentation snapshot source-feedback adoption and stale-result guards
+
+Exit: 0
+Overall: PASS

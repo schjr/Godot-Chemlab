@@ -1,0 +1,469 @@
+jjh
+jjjjj
+jjh
+jjh
+jjj
+jjjjjjj
+jjjj
+jjjjjjj
+jjj
+jjj
+MSDASQL.1
+MSDASQL
+RDSServer.DataFactory
+jjj
+jjjj
+jjj
+jjjjj
+jjjjjjj
+ISAUTOINCREMENT
+jjj
+jjjjj
+jjjj
+jjj
+jjj
+jjj
+jjjjj
+jjj
+jjjj
+Gjj
+jjj
+jjjjjjjj
+jjj
+Gjj
+jjjjj
+jjjjjjj
+jjjjjjj
+G\H
+jjj
+jjh
+jjjj
+jjj
++,-
+jjh
+jjj
+jjj
+jjjjj
+jjj
+Ijj
+jjjj
+jjj
+jjjj
+jjj
+jjj
+jjj
+Ijj
+jjjj
+jjj
+jjjjjjjj
+jjjj
+jjjjj
+jjjj
+jjjjj
+Rjj
+jjjjjjh
+Kjj
+jjjj
+jjjj
+jjjjj
+jjjjj
+jjjjj
+jjh
+jjjjj
+jjjj
+jjjj
+jjjj
+jjjj
+jjh
+jjj
+jjjjj
+Ljj
+9-+,
+LDM
+jjjj
+jjjjj
+jjjjj
+jjjj
+jjjj
+jjj
+jjj
+jjj
+jjjjj
+jjh
+jjh
+Njjh
+jjj
+jjjj
+jjh
+jjj
+jh0
+jjjjj
+jjj
+jjh
+jjjj
+jjh
+jjjj
+jjj
+jjj
+jjjjjjj
+jjj
+jjh
+about:blank
+about:blank
+mabout:blank
+mabout:blank
+c:\1.doc
+,,,,
+6,,,
+about:blank
+Off
+mabout:blank
+Bold
+Italic
+Underline
+SuperScript
+SubScript
+Copy
+Paste
+about:blank
+Bold
+Italic
+Underline
+SuperScript
+SubScript
+Copy
+Paste
+Bold
+Italic
+Underline
+SuperScript
+SubScript
+Copy
+Paste
+eBold
+Italic
+Underline
+SuperScript
+SubScript
+Copy
+Paste
+e%%
+G,G@GTGhGxG
+(null)
+         (((((                  H
+-/:
+cCC
+N-INF
++INF
+-NAN
++NAN
+BgfeSR
+$#65xw~}
+T7A8
+9:@<=>?;
+BBABORT
+BBALL
+BBCANCEL
+BBCLOSE
+BBHELP
+BBIGNORE
+BBNO
+BBOK
+BBRETRY
+BBYES
+CDROM
+CLOSEDFOLDER
+CURRENTFOLDER
+DBEDIT
+DBGARROW
+DBINSERT
+DBMULTIARROW
+DBMULTIDOT
+DBN_CANCEL
+DBN_DELETE
+DBN_EDIT	DBN_FIRST
+DBN_INSERT
+DBN_LAST
+DBN_NEXT
+DBN_POST	DBN_PRIOR
+DBN_REFRESH
+EXECUTABLE
+FLOPPY
+HARD	KNOWNFILE
+NETWORK
+OPENFOLDER
+PREVIEWGLYPH
+RAM
+UNKNOWNFILE
+DLGTEMPLATE
+DVCLAL
+TABOUT
+TCHEMICALSORT
+TCHEMICMODIFRAME
+TCHEMICSORT
+TCHEMINFOFRAME
+TCHEMMODIFRAME
+TCONCEPTMODIFRAME
+TCONCEPTSORT
+TDATAMODULE1
+TELE2CHEMFRAME
+TELEINFOFRAME
+TELEMODIFRAME
+TFRAME1
+TFRAME3
+TFRAME6
+THIDELOOKUP
+TINPUTFORM
+TLINKSMANAGERFRAME
+TLINKSNAME
+TLOGINDIALOG
+TLOOKUPCHEMICALS
+TLOOKUPCHEMICS
+TLOOKUPCONCEPTS	TMAINFORM
+TRESPSETUP	TRESSETUP
+TSEARCHWEB
+TSETSEVERFORM
+TTEMPFRAME
+TTESTSQL
+TUSERDIY
+MAINICON
+MS Sans Serif
+Wed
+Thu
+Fri
+Sat
+Sunday
+Monday
+Tuesday	Wednesday
+Thursday
+Friday
+Saturday
+Dec
+January
+February
+March
+April
+May
+June
+July
+August	September
+October
+November
+December
+Sun
+Mon
+Tue
+Abstract Error?Access violation at address %p in module '%s'. %s of address %p
+Win32 Error.  Code: %d.
+A Win32 API function failed/Application is not licensed to use this feature
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+1Format '%s' invalid or incompatible with argument
+No argument for format '%s'
+Invalid variant type conversion
+Invalid variant operation"Variant method calls not supported
+Read
+Write
+Format string too long
+Error creating variant array
+Variant is not an array!Variant array index out of bounds
+External exception %x
+Assertion failed
+Interface not supported
+Exception in safecall method
+%s (%s, line %d)
+Division by zero
+Range check error
+Integer overflow Invalid floating point operation
+Floating point division by zero
+Floating point overflow
+Floating point underflow
+Invalid pointer operation
+Invalid class typecast0Access violation at address %p. %s of address %p
+Stack overflow
+Control-C hit
+Privileged instruction
+Operation aborted%Exception %s in module %s at %p.
+%s%s
+Application Error
+/Variant does not reference an automation object
+DCOM not installed!'%s' is not a valid integer value('%s' is not a valid floating point value
+'%s' is not a valid date
+'%s' is not a valid time!'%s' is not a valid date and time
+Out of memory
+I/O error %d
+File not found
+Invalid filename
+Too many open files
+File access denied
+Read beyond end of file	Disk full
+Invalid numeric input
+ - Dock zone not found
+ - Dock zone has no control%List does not allow duplicates ($0%x)
+Failed to clear tab control Failed to delete tab at index %d"Failed to retrieve tab at index %d Failed to get object at index %d"Failed to set tab "%s" at index %d Failed to set object at index %d<MultiLine must be True when TabPosition is tpLeft or tpRight
+Invalid index
+Unable to insert an itemE%d is an invalid PageIndex value.  PageIndex must be between 0 and %d=This control requires version 4.70 or greater of COMCTL32.DLL
+OLE error %.8x.Method '%s' not supported by automation object
+ Clipboard does not support Icons
+Cannot open clipboard
+Text exceeds memo capacity
+Bits index out of range/Menu '%s' is already being used by another form
+Picture:
+ (%dx%d)
+Preview*Windows socket error: %s (%d), on API '%s'
+Asynchronous socket error %d
+No address specified
+Can't create new socket
+Socket already open)Can't change value while socket is active
+Docked control must have a name%Error removing control from dock tree
+PgDn
+End
+Home
+Left
+Right
+Down
+Ins
+Del
+Shift+
+Ctrl+
+Alt+
+(None)
+All
+Unable to insert a line
+Invalid clipboard format
+&No
+Cancel
+&Help
+&Abort
+&Retry
+&Ignore
+&All
+N&o to All
+Yes to &All
+BkSp
+Tab
+Esc
+Enter
+Space
+PgUp
+Icons
+Bitmaps
+Grid too large for operation Too many rows or columns deleted
+Grid index out of range1Fixed column count must be less than column count+Fixed row count must be less than row count&Cannot insert or delete rows from grid
+Invalid property value
+Invalid input value7Invalid input value.  Use escape key to abandon changes
+Warning
+Error
+Information
+Confirm
+&Yes
+Invalid component registration0Can only modify an image if it contains a bitmap*A control cannot have itself as its parent
+Cancel
+&Yes
+&No
+&Help
+&Close
+&Ignore
+&Retry
+Abort
+&All
+Cannot drag a form	Metafiles
+Enhanced Metafiles
+)Failed to read ImageList data from stream(Failed to write ImageList data to stream$Error creating window device context
+Error creating window class+Cannot focus a disabled or invisible window!Control '%s' has no parent window
+Cannot hide an MDI Child Form)Cannot change Visible in OnShow or OnHide"Cannot make a visible window modal
+%s property out of range
+Menu index out of range
+Menu inserted twice
+Sub-menu is not in menu
+Not enough timers available@GroupIndex cannot be less than a previous menu item's GroupIndex5Cannot create form. No MDI forms are currently active
+Error reading %s%s%s: %s
+Ancestor for '%s' not found
+Bitmap image is not valid
+Icon image is not valid
+Metafile is not valid
+Invalid pixel format!Cannot change the size of an icon Invalid operation on TOleGraphic$Unknown picture file extension (.%s)
+Unsupported clipboard format
+Out of system resources
+Canvas does not allow drawing
+Invalid image size
+Invalid ImageList
+Unable to Replace Image
+Invalid ImageList Index
+Invalid stream format
+Resource %s not found
+List index out of bounds (%d) List capacity out of bounds (%d)
+List count out of bounds (%d)+Operation not allowed on sorted string list%String list does not allow duplicates0Tab position incompatible with current tab style0Tab style incompatible with current tab position#A component named %s already exists$''%s'' is not a valid component name
+A class named %s already exists
+Invalid property value
+Invalid property path
+Property does not exist
+Property is read-only
+%Operation not allowed in a DBCtrlGrid(Property already defined by lookup field/Grid requested to display more than 256 columns
+OLE control activation failed*Could not obtain OLE control window handle%License information for %s is invalidPLicense information for %s not found. You cannot use this control in design modeNUnable to retrieve a pointer to a running object registered with OLE for %s/%s
+Cannot assign a %s to a %s
+Cannot create file %s
+Cannot open file %s
+Stream read error
+Stream write error+Out of memory while expanding memory stream*Can't write to a read-only resource stream
+Class %s not found
+$Field '%s' is of an unsupported type
+SQL not supported: %s
+Execute not supported: %s
+First record
+Prior record
+Next record
+Last record
+Insert record
+Delete record
+Edit record	Post edit
+Cancel edit
+Refresh data
+Delete record?
+Delete all selected records?
+Record not found
+Field '%s' cannot be modified
+No index for fields '%s'
+Index '%s' not found"Circular datalinks are not allowed/Lookup information for field '%s' is incomplete
+DataSource cannot be changed0Cannot perform this operation on an open dataset"Dataset not in edit or insert mode1Cannot perform this operation on a closed dataset1Cannot perform this operation on an empty dataset!Cannot modify a read-only dataset#Nested dataset must inherit from %s
+False
+True
+Parameter '%s' not found
+Unable to load bind parameters
+Duplicate field name '%s'
+Field '%s' not found#Cannot access field '%s' as type %s
+Invalid value for field '%s'E%g is not a valid value for field '%s'. The allowed range is %g to %g0'%s' is not a valid integer value for field '%s'0'%s' is not a valid boolean value for field '%s'7'%s' is not a valid floating point value for field '%s'6Type mismatch for field '%s', expecting: %s actual: %s6Size mismatch for field '%s', expecting: %d actual: %d+Invalid variant type or size for field '%s'#Value of field '%s' is out of range
+(Overflow)
+Field '%s' must have a value
+Field '%s' has no dataset1Field '%s' cannot be a calculated or lookup field
+Invalid Enum Value&Missing Connection or ConnectionString0Filter property cannot be used for detail tablesUDataset does not support bookmarks, which are required for multi-record data controls
+Missing %s property(CommandText does not return a result set{Error creating object.  Please verify that the Microsoft Data Access Components 2.1 (or later) have been properly installed=Events are not supported with server side TableDirect cursors'Unsupported field type (%s) in field %s;A connection component is required for async ExecuteOptions5Cannot perform a requery after connection has changed
+FilterOptions are not supported
+Invalid field size
+Invalid FieldKind Field '%s' is of an unknown type
+Field name missing
+!0@@@@@@@@@<
+1,@
+10@D
+10@D
+5,@D
+9(@D
+LDD<($
+LDDDDD@$$
+=<<
+LDDDDDDDD@
+HDDDDDDDD@
+HDDDDDDDD@
+<<<
+J4@DDDDDDD@
+08@DDDD@
+,<@D@

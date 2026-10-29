@@ -1,0 +1,591 @@
+{
+  "binary": "evidence/native-inputs/main.exe",
+  "sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "image_base": "0x400000",
+  "method": "Read-only PE virtual-address to section-file-offset mapping; null-terminated GB18030 strings; explicit x87 exponent/mantissa decoding. No binary execution.",
+  "constants": [
+    {
+      "va": "0x4028dc",
+      "file_offset": 7900,
+      "encoding": "x87 80-bit extended",
+      "raw_hex": "3bdf4f8d976e1283f53f",
+      "value_as_double": 0.001
+    },
+    {
+      "va": "0x46b820",
+      "file_offset": 437792,
+      "encoding": "x87 80-bit extended",
+      "raw_hex": "cdccccccccccccccfb3f",
+      "value_as_double": 0.1
+    },
+    {
+      "va": "0x46b848",
+      "file_offset": 437832,
+      "encoding": "x87 80-bit extended",
+      "raw_hex": "2c6519e25817b7d1f13f",
+      "value_as_double": 0.0001
+    },
+    {
+      "va": "0x48e680",
+      "file_offset": 580736,
+      "encoding": "x87 80-bit extended",
+      "raw_hex": "cdccccccccccccccfb3f",
+      "value_as_double": 0.1
+    },
+    {
+      "va": "0x46c838",
+      "file_offset": 441912,
+      "encoding": "x87 80-bit extended",
+      "raw_hex": "0ad7a3703d0ad7a3f83f",
+      "value_as_double": 0.01
+    }
+  ],
+  "reaction_strings": [
+    {
+      "va": "0x005637e7",
+      "file_offset": 1452007,
+      "raw_hex": "",
+      "gb18030_text": ""
+    },
+    {
+      "va": "0x00563806",
+      "file_offset": 1452038,
+      "raw_hex": "c0ebd7d3",
+      "gb18030_text": "离子"
+    },
+    {
+      "va": "0x0056380b",
+      "file_offset": 1452043,
+      "raw_hex": "",
+      "gb18030_text": ""
+    },
+    {
+      "va": "0x0056380c",
+      "file_offset": 1452044,
+      "raw_hex": "bcd3c8c8",
+      "gb18030_text": "加热"
+    },
+    {
+      "va": "0x00563811",
+      "file_offset": 1452049,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x00563818",
+      "file_offset": 1452056,
+      "raw_hex": "b8dfcec2",
+      "gb18030_text": "高温"
+    },
+    {
+      "va": "0x0056381d",
+      "file_offset": 1452061,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x00563824",
+      "file_offset": 1452068,
+      "raw_hex": "b8dfcec2",
+      "gb18030_text": "高温"
+    },
+    {
+      "va": "0x00563829",
+      "file_offset": 1452073,
+      "raw_hex": "b5e3c8bc",
+      "gb18030_text": "点燃"
+    },
+    {
+      "va": "0x0056382e",
+      "file_offset": 1452078,
+      "raw_hex": "cec2b6c83e",
+      "gb18030_text": "温度>"
+    },
+    {
+      "va": "0x00563855",
+      "file_offset": 1452117,
+      "raw_hex": "cec2b6c83c",
+      "gb18030_text": "温度<"
+    },
+    {
+      "va": "0x0056387c",
+      "file_offset": 1452156,
+      "raw_hex": "",
+      "gb18030_text": ""
+    },
+    {
+      "va": "0x0056389b",
+      "file_offset": 1452187,
+      "raw_hex": "bfc9c4e6",
+      "gb18030_text": "可逆"
+    },
+    {
+      "va": "0x005638a0",
+      "file_offset": 1452192,
+      "raw_hex": "",
+      "gb18030_text": ""
+    },
+    {
+      "va": "0x005638a1",
+      "file_offset": 1452193,
+      "raw_hex": "bcd3c8c8",
+      "gb18030_text": "加热"
+    },
+    {
+      "va": "0x005638a6",
+      "file_offset": 1452198,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x005638ad",
+      "file_offset": 1452205,
+      "raw_hex": "b8dfcec2",
+      "gb18030_text": "高温"
+    },
+    {
+      "va": "0x005638b2",
+      "file_offset": 1452210,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x005638b9",
+      "file_offset": 1452217,
+      "raw_hex": "b8dfcec2",
+      "gb18030_text": "高温"
+    },
+    {
+      "va": "0x005638be",
+      "file_offset": 1452222,
+      "raw_hex": "b5e3c8bc",
+      "gb18030_text": "点燃"
+    },
+    {
+      "va": "0x005638c3",
+      "file_offset": 1452227,
+      "raw_hex": "cec2b6c83e",
+      "gb18030_text": "温度>"
+    },
+    {
+      "va": "0x005638ea",
+      "file_offset": 1452266,
+      "raw_hex": "cec2b6c83c",
+      "gb18030_text": "温度<"
+    },
+    {
+      "va": "0x00563911",
+      "file_offset": 1452305,
+      "raw_hex": "bfc9c4e6",
+      "gb18030_text": "可逆"
+    },
+    {
+      "va": "0x00563916",
+      "file_offset": 1452310,
+      "raw_hex": "cbaeb5c4b5e7c0eb",
+      "gb18030_text": "水的电离"
+    },
+    {
+      "va": "0x0056391f",
+      "file_offset": 1452319,
+      "raw_hex": "bcd3c8c8",
+      "gb18030_text": "加热"
+    },
+    {
+      "va": "0x00563924",
+      "file_offset": 1452324,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x0056392b",
+      "file_offset": 1452331,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x00563932",
+      "file_offset": 1452338,
+      "raw_hex": "b5e3c8bc",
+      "gb18030_text": "点燃"
+    },
+    {
+      "va": "0x00563937",
+      "file_offset": 1452343,
+      "raw_hex": "cec2b6c83e",
+      "gb18030_text": "温度>"
+    },
+    {
+      "va": "0x0056395e",
+      "file_offset": 1452382,
+      "raw_hex": "cec2b6c83c",
+      "gb18030_text": "温度<"
+    },
+    {
+      "va": "0x00563985",
+      "file_offset": 1452421,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x0056398c",
+      "file_offset": 1452428,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563993",
+      "file_offset": 1452435,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x0056399a",
+      "file_offset": 1452442,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x005639a1",
+      "file_offset": 1452449,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x005639a8",
+      "file_offset": 1452456,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x005639af",
+      "file_offset": 1452463,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x005639b6",
+      "file_offset": 1452470,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x005639bd",
+      "file_offset": 1452477,
+      "raw_hex": "b5a5cff2",
+      "gb18030_text": "单向"
+    },
+    {
+      "va": "0x005639c2",
+      "file_offset": 1452482,
+      "raw_hex": "cbaeb5c4b5e7c0eb",
+      "gb18030_text": "水的电离"
+    },
+    {
+      "va": "0x005639cb",
+      "file_offset": 1452491,
+      "raw_hex": "bcd3c8c8",
+      "gb18030_text": "加热"
+    },
+    {
+      "va": "0x005639d0",
+      "file_offset": 1452496,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x005639d7",
+      "file_offset": 1452503,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x005639de",
+      "file_offset": 1452510,
+      "raw_hex": "b5e3c8bc",
+      "gb18030_text": "点燃"
+    },
+    {
+      "va": "0x005639e3",
+      "file_offset": 1452515,
+      "raw_hex": "cec2b6c83e",
+      "gb18030_text": "温度>"
+    },
+    {
+      "va": "0x00563a0a",
+      "file_offset": 1452554,
+      "raw_hex": "cec2b6c83c",
+      "gb18030_text": "温度<"
+    },
+    {
+      "va": "0x00563a31",
+      "file_offset": 1452593,
+      "raw_hex": "28d2bacce529",
+      "gb18030_text": "(液体)"
+    },
+    {
+      "va": "0x00563a38",
+      "file_offset": 1452600,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563a3f",
+      "file_offset": 1452607,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563a46",
+      "file_offset": 1452614,
+      "raw_hex": "28c8dcbde229",
+      "gb18030_text": "(溶解)"
+    },
+    {
+      "va": "0x00563a4d",
+      "file_offset": 1452621,
+      "raw_hex": "28c0ebd7d329",
+      "gb18030_text": "(离子)"
+    },
+    {
+      "va": "0x00563a54",
+      "file_offset": 1452628,
+      "raw_hex": "28d2bacce529",
+      "gb18030_text": "(液体)"
+    },
+    {
+      "va": "0x00563a5b",
+      "file_offset": 1452635,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563a62",
+      "file_offset": 1452642,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563a69",
+      "file_offset": 1452649,
+      "raw_hex": "28c8dcbde229",
+      "gb18030_text": "(溶解)"
+    },
+    {
+      "va": "0x00563a70",
+      "file_offset": 1452656,
+      "raw_hex": "28c0ebd7d329",
+      "gb18030_text": "(离子)"
+    },
+    {
+      "va": "0x00563a77",
+      "file_offset": 1452663,
+      "raw_hex": "28d2bacce529",
+      "gb18030_text": "(液体)"
+    },
+    {
+      "va": "0x00563a7e",
+      "file_offset": 1452670,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563a85",
+      "file_offset": 1452677,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563a8c",
+      "file_offset": 1452684,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563a93",
+      "file_offset": 1452691,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563a9a",
+      "file_offset": 1452698,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563aa1",
+      "file_offset": 1452705,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563aa8",
+      "file_offset": 1452712,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563aaf",
+      "file_offset": 1452719,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563ab6",
+      "file_offset": 1452726,
+      "raw_hex": "b5a5cff2",
+      "gb18030_text": "单向"
+    },
+    {
+      "va": "0x00563abb",
+      "file_offset": 1452731,
+      "raw_hex": "cbaeb5c4b5e7c0eb",
+      "gb18030_text": "水的电离"
+    },
+    {
+      "va": "0x00563ac4",
+      "file_offset": 1452740,
+      "raw_hex": "bcd3c8c8",
+      "gb18030_text": "加热"
+    },
+    {
+      "va": "0x00563ac9",
+      "file_offset": 1452745,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x00563ad0",
+      "file_offset": 1452752,
+      "raw_hex": "bcd3c7bfc8c8",
+      "gb18030_text": "加强热"
+    },
+    {
+      "va": "0x00563ad7",
+      "file_offset": 1452759,
+      "raw_hex": "b5e3c8bc",
+      "gb18030_text": "点燃"
+    },
+    {
+      "va": "0x00563adc",
+      "file_offset": 1452764,
+      "raw_hex": "cec2b6c83e",
+      "gb18030_text": "温度>"
+    },
+    {
+      "va": "0x00563b03",
+      "file_offset": 1452803,
+      "raw_hex": "cec2b6c83c",
+      "gb18030_text": "温度<"
+    },
+    {
+      "va": "0x00563b2a",
+      "file_offset": 1452842,
+      "raw_hex": "28d2bacce529",
+      "gb18030_text": "(液体)"
+    },
+    {
+      "va": "0x00563b31",
+      "file_offset": 1452849,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563b38",
+      "file_offset": 1452856,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563b3f",
+      "file_offset": 1452863,
+      "raw_hex": "28c8dcbde229",
+      "gb18030_text": "(溶解)"
+    },
+    {
+      "va": "0x00563b46",
+      "file_offset": 1452870,
+      "raw_hex": "28c0ebd7d329",
+      "gb18030_text": "(离子)"
+    },
+    {
+      "va": "0x00563b4d",
+      "file_offset": 1452877,
+      "raw_hex": "28d2bacce529",
+      "gb18030_text": "(液体)"
+    },
+    {
+      "va": "0x00563b54",
+      "file_offset": 1452884,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563b5b",
+      "file_offset": 1452891,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563b62",
+      "file_offset": 1452898,
+      "raw_hex": "28c8dcbde229",
+      "gb18030_text": "(溶解)"
+    },
+    {
+      "va": "0x00563b69",
+      "file_offset": 1452905,
+      "raw_hex": "28c0ebd7d329",
+      "gb18030_text": "(离子)"
+    },
+    {
+      "va": "0x00563b70",
+      "file_offset": 1452912,
+      "raw_hex": "28d2bacce529",
+      "gb18030_text": "(液体)"
+    },
+    {
+      "va": "0x00563b77",
+      "file_offset": 1452919,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    },
+    {
+      "va": "0x00563b7e",
+      "file_offset": 1452926,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563b85",
+      "file_offset": 1452933,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563b8c",
+      "file_offset": 1452940,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563b9a",
+      "file_offset": 1452954,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563ba1",
+      "file_offset": 1452961,
+      "raw_hex": "28b9cccce529",
+      "gb18030_text": "(固体)"
+    },
+    {
+      "va": "0x00563ba8",
+      "file_offset": 1452968,
+      "raw_hex": "28c6f8cce529",
+      "gb18030_text": "(气体)"
+    }
+  ]
+}

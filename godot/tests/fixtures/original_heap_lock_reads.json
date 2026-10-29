@@ -1,0 +1,70 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "ir_sha256": "0d834ec3d4e1353d1075519e508c97cbdd87da81e2681ac680f500a869696b8e",
+  "critical_section_address": 5878148,
+  "size": 24,
+  "identity_uses": [
+    {
+      "pc": 5439469,
+      "call_pc": 5439474,
+      "api": "InitializeCriticalSection"
+    },
+    {
+      "pc": 5439488,
+      "call_pc": 5439493,
+      "api": "EnterCriticalSection"
+    },
+    {
+      "pc": 5439623,
+      "call_pc": 5439628,
+      "api": "LeaveCriticalSection"
+    },
+    {
+      "pc": 5439688,
+      "call_pc": 5439693,
+      "api": "EnterCriticalSection"
+    },
+    {
+      "pc": 5439841,
+      "call_pc": 5439846,
+      "api": "LeaveCriticalSection"
+    },
+    {
+      "pc": 5439851,
+      "call_pc": 5439856,
+      "api": "DeleteCriticalSection"
+    },
+    {
+      "pc": 5441262,
+      "call_pc": 5441267,
+      "api": "EnterCriticalSection"
+    },
+    {
+      "pc": 5441561,
+      "call_pc": 5441566,
+      "api": "LeaveCriticalSection"
+    },
+    {
+      "pc": 5441671,
+      "call_pc": 5441676,
+      "api": "EnterCriticalSection"
+    },
+    {
+      "pc": 5441983,
+      "call_pc": 5441988,
+      "api": "LeaveCriticalSection"
+    },
+    {
+      "pc": 5442538,
+      "call_pc": 5442543,
+      "api": "EnterCriticalSection"
+    },
+    {
+      "pc": 5442642,
+      "call_pc": 5442647,
+      "api": "LeaveCriticalSection"
+    }
+  ],
+  "absolute_interior_memory_operands": [],
+  "scope": "Static retained heap instruction inventory only: all immediate identities are direct API arguments; no absolute interior loads/stores. No claim about API implementations or arbitrary application code. Source allocator accepted paths additionally tested with all24 interior bytes unknown."
+}

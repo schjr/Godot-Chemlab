@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"failures":[],"native_result":{"material_words":{},"native_function":4236472,"ok":true,"presentation_boundary":"VCL/GDI bitmap operations; retained pixel arithmetic executes original IR","selected_vessel":-1}}
+PASS scoped original particle object bytes and exact bitmap pointer backing

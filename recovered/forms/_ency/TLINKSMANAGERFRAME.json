@@ -1,0 +1,1272 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TLINKSMANAGERFRAME",
+      0
+    ],
+    "file_offset": 1463120,
+    "resource_size": 1907,
+    "sha256": "f793d1b02ba5a8337cf28952fd1adb7568616ecaa619c3909c8f423ada8d2ba8",
+    "binary": "recovered/forms/_ency/TLINKSMANAGERFRAME.dfm.bin",
+    "parsed_size": 1907,
+    "trailing_bytes": 0,
+    "root_class": "TlinksmanagerFrame",
+    "root_name": "linksmanagerFrame",
+    "component_count": 7,
+    "event_handlers": [
+      {
+        "component": "DBGrid1",
+        "class": "TDBGrid",
+        "event": "OnDblClick",
+        "handler": "DBGrid1DblClick"
+      },
+      {
+        "component": "Button1",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button1Click"
+      },
+      {
+        "component": "Button2",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button2Click"
+      },
+      {
+        "component": "Button3",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button3Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1135727,
+        "entry_size": 19,
+        "code_va": "0x0041408C",
+        "code_file_offset": 79500,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1160148,
+        "entry_size": 19,
+        "code_va": "0x00423C0C",
+        "code_file_offset": 143884,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1163964,
+        "entry_size": 19,
+        "code_va": "0x004267E8",
+        "code_file_offset": 155112,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1165151,
+        "entry_size": 19,
+        "code_va": "0x004271DC",
+        "code_file_offset": 157660,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1167358,
+        "entry_size": 19,
+        "code_va": "0x00427A38",
+        "code_file_offset": 159800,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1175216,
+        "entry_size": 19,
+        "code_va": "0x0042C0C8",
+        "code_file_offset": 177864,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1176411,
+        "entry_size": 19,
+        "code_va": "0x0042C308",
+        "code_file_offset": 178440,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1181166,
+        "entry_size": 19,
+        "code_va": "0x0042F0EC",
+        "code_file_offset": 190188,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1205066,
+        "entry_size": 19,
+        "code_va": "0x0043D0FC",
+        "code_file_offset": 247548,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1209954,
+        "entry_size": 19,
+        "code_va": "0x0043FAE0",
+        "code_file_offset": 258272,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1210894,
+        "entry_size": 19,
+        "code_va": "0x0043FDA4",
+        "code_file_offset": 258980,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1216352,
+        "entry_size": 19,
+        "code_va": "0x00442BA0",
+        "code_file_offset": 270752,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1221351,
+        "entry_size": 19,
+        "code_va": "0x004459FC",
+        "code_file_offset": 282620,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1223704,
+        "entry_size": 19,
+        "code_va": "0x00447394",
+        "code_file_offset": 289172,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 1224201,
+        "entry_size": 19,
+        "code_va": "0x004475E8",
+        "code_file_offset": 289768,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1163926,
+        "entry_size": 19,
+        "code_va": "0x00426564",
+        "code_file_offset": 154468,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1175235,
+        "entry_size": 19,
+        "code_va": "0x0042C0E8",
+        "code_file_offset": 177896,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1176430,
+        "entry_size": 19,
+        "code_va": "0x0042C540",
+        "code_file_offset": 179008,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1209973,
+        "entry_size": 19,
+        "code_va": "0x0043FBC4",
+        "code_file_offset": 258500,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1223723,
+        "entry_size": 19,
+        "code_va": "0x0044746C",
+        "code_file_offset": 289388,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 1224220,
+        "entry_size": 19,
+        "code_va": "0x00447608",
+        "code_file_offset": 289800,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button3Click",
+        "entry_file_offset": 1163945,
+        "entry_size": 19,
+        "code_va": "0x00426750",
+        "code_file_offset": 154960,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button3Click",
+        "entry_file_offset": 1176449,
+        "entry_size": 19,
+        "code_va": "0x0042C6F0",
+        "code_file_offset": 179440,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "DBGrid1DblClick",
+        "entry_file_offset": 1176389,
+        "entry_size": 22,
+        "code_va": "0x0042C26C",
+        "code_file_offset": 178284,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/TlinksmanagerFrame.hpp"
+  },
+  "form": {
+    "class": "TlinksmanagerFrame",
+    "name": "linksmanagerFrame",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 46
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 52
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 429,
+          "offset": 60
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 372,
+          "offset": 70
+        }
+      },
+      {
+        "name": "TabOrder",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 82
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TLabel",
+        "name": "Label1",
+        "flags": 0,
+        "offset": 85,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 10,
+              "offset": 104
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 110
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 52,
+              "offset": 118
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 127
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "链接名称",
+              "offset": 137
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 160
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 187
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 213
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 225
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 242
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 255
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TDBGrid",
+        "name": "DBGrid1",
+        "flags": 0,
+        "offset": 258,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 279
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 72,
+              "offset": 285
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 409,
+              "offset": 293
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 289,
+              "offset": 303
+            }
+          },
+          {
+            "name": "DataSource",
+            "value": {
+              "type": 7,
+              "value": "DataModule1.links_ds",
+              "offset": 317
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 352
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 379
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -12,
+              "offset": 405
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 417
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 434
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 447
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 457
+            }
+          },
+          {
+            "name": "TitleFont.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 477
+            }
+          },
+          {
+            "name": "TitleFont.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 509
+            }
+          },
+          {
+            "name": "TitleFont.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 540
+            }
+          },
+          {
+            "name": "TitleFont.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 557
+            }
+          },
+          {
+            "name": "TitleFont.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 579
+            }
+          },
+          {
+            "name": "OnDblClick",
+            "value": {
+              "type": 7,
+              "value": "DBGrid1DblClick",
+              "offset": 592
+            }
+          },
+          {
+            "name": "Columns",
+            "value": {
+              "type": 14,
+              "value": [
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 628
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "id",
+                        "offset": 639
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 651
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 663
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "linkname",
+                        "offset": 674
+                      }
+                    },
+                    {
+                      "name": "Title.Caption",
+                      "value": {
+                        "type": 6,
+                        "value": "链接名称",
+                        "offset": 698
+                      }
+                    },
+                    {
+                      "name": "Width",
+                      "value": {
+                        "type": 2,
+                        "value": 120,
+                        "offset": 714
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 9,
+                        "value": true,
+                        "offset": 724
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 736
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "mastertable",
+                        "offset": 747
+                      }
+                    },
+                    {
+                      "name": "Title.Caption",
+                      "value": {
+                        "type": 6,
+                        "value": "主表名称",
+                        "offset": 774
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 792
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 804
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "masterfield",
+                        "offset": 815
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 836
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 848
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "mastervalue",
+                        "offset": 859
+                      }
+                    },
+                    {
+                      "name": "Title.Caption",
+                      "value": {
+                        "type": 6,
+                        "value": "被链接字",
+                        "offset": 886
+                      }
+                    },
+                    {
+                      "name": "Width",
+                      "value": {
+                        "type": 2,
+                        "value": 120,
+                        "offset": 902
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 9,
+                        "value": true,
+                        "offset": 912
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 924
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "slavertable",
+                        "offset": 935
+                      }
+                    },
+                    {
+                      "name": "Title.Caption",
+                      "value": {
+                        "type": 6,
+                        "value": "从表名称",
+                        "offset": 962
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 980
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 992
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "slaverfield",
+                        "offset": 1003
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 1024
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Expanded",
+                      "value": {
+                        "type": 8,
+                        "value": false,
+                        "offset": 1036
+                      }
+                    },
+                    {
+                      "name": "FieldName",
+                      "value": {
+                        "type": 6,
+                        "value": "slavervalue",
+                        "offset": 1047
+                      }
+                    },
+                    {
+                      "name": "Title.Caption",
+                      "value": {
+                        "type": 6,
+                        "value": "链接字",
+                        "offset": 1074
+                      }
+                    },
+                    {
+                      "name": "Width",
+                      "value": {
+                        "type": 2,
+                        "value": 120,
+                        "offset": 1088
+                      }
+                    },
+                    {
+                      "name": "Visible",
+                      "value": {
+                        "type": 9,
+                        "value": true,
+                        "offset": 1098
+                      }
+                    }
+                  ]
+                }
+              ],
+              "offset": 617
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit1",
+        "flags": 0,
+        "offset": 1103,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 71,
+              "offset": 1120
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1126
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 338,
+              "offset": 1134
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 1144
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1159
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1186
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1212
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1224
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1241
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1254
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 1264
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button1",
+        "flags": 0,
+        "offset": 1268,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 43,
+              "offset": 1289
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 43,
+              "offset": 1295
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 97,
+              "offset": 1303
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 1312
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "修改链接名称",
+              "offset": 1322
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1349
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1376
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1402
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1414
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1431
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1444
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 1454
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button1Click",
+              "offset": 1464
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button2",
+        "flags": 0,
+        "offset": 1480,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 164,
+              "offset": 1501
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 43,
+              "offset": 1508
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 97,
+              "offset": 1516
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 1525
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "删除当前记录",
+              "offset": 1535
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1562
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1589
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1615
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1627
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1644
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1657
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 3,
+              "offset": 1667
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button2Click",
+              "offset": 1677
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button3",
+        "flags": 0,
+        "offset": 1693,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 285,
+              "offset": 1714
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 43,
+              "offset": 1721
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 97,
+              "offset": 1729
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 1738
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "检索链接名称",
+              "offset": 1748
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1775
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1802
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1828
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1840
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1857
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1870
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 4,
+              "offset": 1880
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button3Click",
+              "offset": 1890
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

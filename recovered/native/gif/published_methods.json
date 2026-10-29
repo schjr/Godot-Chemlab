@@ -1,0 +1,74 @@
+[
+  {
+    "method_name": "FormCreate",
+    "address": "0x0045ACE0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORMMAIN",
+          0
+        ],
+        "root_class": "TFormMain",
+        "entry_file_offset": 368761,
+        "entry_size": 17,
+        "code_file_offset": 368864
+      }
+    ]
+  },
+  {
+    "method_name": "FormDestroy",
+    "address": "0x0045AD04",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORMMAIN",
+          0
+        ],
+        "root_class": "TFormMain",
+        "entry_file_offset": 368778,
+        "entry_size": 18,
+        "code_file_offset": 368900
+      }
+    ]
+  },
+  {
+    "method_name": "ButtonConvertClick",
+    "address": "0x0045AD18",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORMMAIN",
+          0
+        ],
+        "root_class": "TFormMain",
+        "entry_file_offset": 368714,
+        "entry_size": 25,
+        "code_file_offset": 368920
+      }
+    ]
+  },
+  {
+    "method_name": "ButtonSaveClick",
+    "address": "0x0045B608",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORMMAIN",
+          0
+        ],
+        "root_class": "TFormMain",
+        "entry_file_offset": 368739,
+        "entry_size": 22,
+        "code_file_offset": 371208
+      }
+    ]
+  }
+]

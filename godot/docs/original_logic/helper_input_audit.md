@@ -1,0 +1,23 @@
+# Original helper withdrawal and pouring input audit
+
+## Actual paused capture
+
+`evidence/windows-runtime/original-captures-2026-10-14/after-run-paused.json` and `after-naoh.json` both report `running_global_0057a6f8=2`, `pause_field_0x5bc=0`, `simulation_advancing=false` and the same elapsed12.937000000000003-second value. The unchanged drug/cache/scalar observations therefore do not establish a failed running withdrawal: the original caller suppresses the action while paused.
+
+Original pause button43DDD8 switches global0057A6F8 between1(running) and2(paused); on resuming it resets the tick timestamp. MouseUp42AA18 dispatches manual helper477708 only when this global is1. Form+5BC is a separate held-pointer flag, set by left MouseDown and cleared by MouseUp. Paused global2 cannot be treated as held-pointer flag1. Godot's `running`/`paused` and `pointer_held` retain this distinction. The existing active canvas correctly gated withdrawal on `model.running`; no chemistry workaround was needed.
+
+A selected dropper204 uses strict integer helper boundaries. With widthW,heightH, centerX/Y: aspirationX lies betweenX+truncate(W/2)+10 and+45; aspirationY lies betweenY-truncate(H/2) and+20. Drip usesY-truncate(H/2)+23..+43. Native MouseUp checks the selected apparatus and release point; it requires no matching MouseDown latch. Original source417EE0/42AA18 establishes this input order. Clicking the overlapping bottle body can select the bottle in the original forward body scan; selecting the dropper's exposed upper stem avoids that overlap.
+
+For the stored opening experiment, NaOH dropper is at429,206 with15×76 bitmap, so its aspiration rectangle is strict446<X<481 and168<Y<188 in original canvas coordinates. The tip is429,244. Original477708 selects the first eligible stored recipient whose strict liquid bands contain that tip. It does not require a matching attachment name. Fresh+30 liquid height from71650 is mandatory: the tip must be below the actual rendered liquid surface and above the recipient bottom−3. Candidate202 NaOH bottle is centered429,224 with original30×52 bitmap; a blanket proximity test or saved height assumption is not used. The original request is2mL minus the dropper's current liquid physical-volume cache. Boundaries, first-recipient order and partial dose rules retain their native kernels.
+
+## Native dispatch references
+
+`tools/original_controls_dispatch_oracle.py` executes original42AA18 with477708 intercepted only to record dispatch. The original clock return is a declared boundary; dispatch predicates do not depend on its value. Already independently verified release association and presentation functions are hosted for this dispatcher-only corpus. All486 releases across every original204/207/208/211 apparatus, all helper commands, global0/1/2 and exact left/top edges match actual `lab_canvas.gd` events in `test_native_controls_dispatch.gd`.
+
+`test_native_action_workflow.gd` separately uses the actual main scene, canvas MouseUp and main context callbacks to execute the seven-action/63-tick original opening workflow. It checks exact ordered species, reaction order and all recorded drug/cache/scalar bits against original PE output. A paused aspiration release performs no chemical write; resuming permits the normal withdrawal. This numerical test declares the oracle's100-QWORD physical cache observation profile, not a production zero default.
+
+## Pouring availability correction
+
+A separate actual UI mismatch was found and fixed: the old Godot context offered pouring for every apparatus, including capped vessels. Original PopupMenu1Popup43F008 shows N18 only when+38=0 and type is102/103/104/105/106/121/201/202, or type101 with subtype0/45. This menu rule does not require running. Original orientation callback4433B4 switches0↔2 and leaves1 untouched; actual liquid transfer occurs only on accepted running4849FC ticks. The active context now hides this item and rejects its callback when that source rule does not allow it. Original checkbox writes occur only for orientation0/2; orientation1 preserves the prior menu state.
+
+Component identification is backed by the retained TForm1 VMT561A2C/field table561B0C: N18 is instance+448. Instance+370 is Menu_property, so44D2C4's property enable rule must not be substituted for pouring. `tools/original_pour_menu_oracle.py` executes actual43F008 and captures the VCL N18 setter calls across1014 original apparatus/cap/orientation profiles. All1014 match the active popup in `test_native_pour_menu.gd`. Numeric flags/dimensions are verified; this audit does not certify Windows font/GDI pixel presentation or unknown runtime memory cells.

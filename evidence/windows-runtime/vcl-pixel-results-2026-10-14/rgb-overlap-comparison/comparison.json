@@ -1,0 +1,165 @@
+{
+	"canvas_overlap_hypothesis": {
+		"background_rgb": 16777215.0,
+		"document_sha256": "69153d74d17dea9f06e899c8bfe9de23b511702e479dce6115b084ed8419fce2",
+		"format": "chemlab-original-canvas-overlap-hypothesis-v1",
+		"native_scale": 1.0,
+		"positions": [
+			[
+				179.0,
+				222.0
+			],
+			[
+				429.0,
+				224.0
+			],
+			[
+				429.0,
+				206.0
+			],
+			[
+				306.0,
+				222.0
+			],
+			[
+				510.0,
+				224.0
+			],
+			[
+				510.0,
+				206.0
+			]
+		],
+		"scope": "Original CEM positions and white prior canvas are explicit hypotheses, not observations of current runtime coordinates or canvas. Earlier apparatus use captured FC pixels; prior connectors, labels and decorators are not replayed. Background extraction uses the source unscaled same-size rectangle and492560 weight0.5.",
+		"source_document": "recovered/chemistry/utf8/例子/氢氧化铜与氢氧化铁.cem",
+		"source_examples_sha256": "2e92fdb024ad9b5b13acfe1c8f9814001a4903196c279fd7e12ef410cf3dc56c"
+	},
+	"canvas_overlap_hypothesis_sha256": "57e18b1b7d17f36c3b6eda8e89bd5f823df7f38a59939ae7ce1a23f76393f1c6",
+	"format": "chemlab-original-dib-bounded-comparison-v1",
+	"input_sha256": "581645423211d700eaedee8d9311b2af56fb478fdd3dafad68d21cd3d725b58a",
+	"native_vcl_verified": false,
+	"runtime_canvas_coordinates_verified": false,
+	"scope": "Six observed source bitmaps and uncomposed native GDI materials. Retained particle/overlay stages remain excluded; any candidate is a bounded comparison hypothesis.",
+	"vessels": [
+		{
+			"candidate_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-0-candidate.png",
+			"comparison_scope": "Visible RGB hypothesis from same-size SRCPAINT and original4926E0 arithmetic; 24-bit source reserved byte unobserved",
+			"differences": {
+				"reserved_byte_differences": null,
+				"rgb_pixel_differences": 0,
+				"word_differences": null
+			},
+			"height": 58.0,
+			"native_24_to_32_reserved_byte_verified": false,
+			"native_index": 0.0,
+			"native_vcl_verified": false,
+			"omitted_stages": [
+				"retained particles",
+				"running overlays"
+			],
+			"original_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-0-original.png",
+			"plain_bitmap_format": 24.0,
+			"width": 53.0
+		},
+		{
+			"candidate_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-1-candidate.png",
+			"comparison_scope": "Visible RGB hypothesis from same-size SRCPAINT and original4926E0 arithmetic; 24-bit source reserved byte unobserved",
+			"differences": {
+				"reserved_byte_differences": null,
+				"rgb_pixel_differences": 0,
+				"word_differences": null
+			},
+			"height": 52.0,
+			"native_24_to_32_reserved_byte_verified": false,
+			"native_index": 1.0,
+			"native_vcl_verified": false,
+			"omitted_stages": [
+				"retained particles",
+				"running overlays"
+			],
+			"original_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-1-original.png",
+			"plain_bitmap_format": 24.0,
+			"width": 30.0
+		},
+		{
+			"candidate_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-2-candidate.png",
+			"comparison_scope": "Visible RGB hypothesis from same-size SRCPAINT and original4926E0 arithmetic; 24-bit source reserved byte unobserved",
+			"differences": {
+				"reserved_byte_differences": null,
+				"rgb_pixel_differences": 0,
+				"word_differences": null
+			},
+			"height": 76.0,
+			"native_24_to_32_reserved_byte_verified": false,
+			"native_index": 2.0,
+			"native_vcl_verified": false,
+			"omitted_stages": [
+				"retained particles",
+				"running overlays"
+			],
+			"original_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-2-original.png",
+			"plain_bitmap_format": 24.0,
+			"width": 15.0
+		},
+		{
+			"candidate_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-3-candidate.png",
+			"comparison_scope": "Visible RGB hypothesis from same-size SRCPAINT and original4926E0 arithmetic; 24-bit source reserved byte unobserved",
+			"differences": {
+				"reserved_byte_differences": null,
+				"rgb_pixel_differences": 0,
+				"word_differences": null
+			},
+			"height": 58.0,
+			"native_24_to_32_reserved_byte_verified": false,
+			"native_index": 3.0,
+			"native_vcl_verified": false,
+			"omitted_stages": [
+				"retained particles",
+				"running overlays"
+			],
+			"original_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-3-original.png",
+			"plain_bitmap_format": 24.0,
+			"width": 53.0
+		},
+		{
+			"candidate_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-4-candidate.png",
+			"comparison_scope": "Visible RGB hypothesis from same-size SRCPAINT and original4926E0 arithmetic; 24-bit source reserved byte unobserved",
+			"differences": {
+				"reserved_byte_differences": null,
+				"rgb_pixel_differences": 0,
+				"word_differences": null
+			},
+			"height": 52.0,
+			"native_24_to_32_reserved_byte_verified": false,
+			"native_index": 4.0,
+			"native_vcl_verified": false,
+			"omitted_stages": [
+				"retained particles",
+				"running overlays"
+			],
+			"original_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-4-original.png",
+			"plain_bitmap_format": 24.0,
+			"width": 30.0
+		},
+		{
+			"candidate_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-5-candidate.png",
+			"comparison_scope": "Visible RGB hypothesis from same-size SRCPAINT and original4926E0 arithmetic; 24-bit source reserved byte unobserved",
+			"differences": {
+				"reserved_byte_differences": null,
+				"rgb_pixel_differences": 0,
+				"word_differences": null
+			},
+			"height": 76.0,
+			"native_24_to_32_reserved_byte_verified": false,
+			"native_index": 5.0,
+			"native_vcl_verified": false,
+			"omitted_stages": [
+				"retained particles",
+				"running overlays"
+			],
+			"original_png": "/Users/schjr/Programs/ChemLab_REA/evidence/windows-runtime/vcl-pixel-results-2026-10-14/rgb-overlap-comparison/vessel-5-original.png",
+			"plain_bitmap_format": 24.0,
+			"width": 15.0
+		}
+	]
+}

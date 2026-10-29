@@ -1,0 +1,140 @@
+{
+  "format": "chemlab-observed-bitmap-asset-identity-v1",
+  "source_dib_capture_sha256": "13774e051e92a19010ff937a7abf5d20dfe360b20fbd74782aa81ea2ee1ac0c7",
+  "native_vcl_verified": false,
+  "scope": "Exact visible BGR resource identities for twelve capturedF8/F4 images. F8isunderscoremask; F4isbodyimage. Padding and native24-to32 reserved-byte conversion not inferred.",
+  "comparisons": [
+    {
+      "native_index": 0,
+      "field": "0xf8",
+      "native_role": "SRCPAINT mask",
+      "source": "artifacts/ChemLab/res/_sb200.bmp",
+      "source_sha256": "f6694728c32212237248a5c2303366c0c9a90d45179a30191a6084925f5dedfe",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 24,
+      "visible_pixel_checks": 3074,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 0,
+      "field": "0xf4",
+      "native_role": "shaded body for4926E0",
+      "source": "artifacts/ChemLab/res/sb200.bmp",
+      "source_sha256": "b5e9fff93f97b2d9a5050b9a4652411971bed51d3b8e5bf9c1fdfd779717f378",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 32,
+      "visible_pixel_checks": 3074,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 1,
+      "field": "0xf8",
+      "native_role": "SRCPAINT mask",
+      "source": "artifacts/ChemLab/res/_xkp.BMP",
+      "source_sha256": "d097e7359f8d8823838a42d4ab6be38c0a5a44601d163d7721fc7773c3e11db1",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 24,
+      "visible_pixel_checks": 1560,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 1,
+      "field": "0xf4",
+      "native_role": "shaded body for4926E0",
+      "source": "artifacts/ChemLab/res/xkp.BMP",
+      "source_sha256": "0590797c7c819429ae6e81feec9a213f3cb8d1df9726082c760c244ceca26a66",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 32,
+      "visible_pixel_checks": 1560,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 2,
+      "field": "0xf8",
+      "native_role": "SRCPAINT mask",
+      "source": "artifacts/ChemLab/res/_jtdg_2.BMP",
+      "source_sha256": "6b36894917b4e1f58096ad38294cdf88d8cd5a5478e691eb8488d7e22899df15",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 24,
+      "visible_pixel_checks": 1140,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 2,
+      "field": "0xf4",
+      "native_role": "shaded body for4926E0",
+      "source": "artifacts/ChemLab/res/jtdg_2.BMP",
+      "source_sha256": "43ca894bffa57bcbdf6497550bdbbd69f28456be5cd0642c5b21014fc59cfe8b",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 32,
+      "visible_pixel_checks": 1140,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 3,
+      "field": "0xf8",
+      "native_role": "SRCPAINT mask",
+      "source": "artifacts/ChemLab/res/_sb200.bmp",
+      "source_sha256": "f6694728c32212237248a5c2303366c0c9a90d45179a30191a6084925f5dedfe",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 24,
+      "visible_pixel_checks": 3074,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 3,
+      "field": "0xf4",
+      "native_role": "shaded body for4926E0",
+      "source": "artifacts/ChemLab/res/sb200.bmp",
+      "source_sha256": "b5e9fff93f97b2d9a5050b9a4652411971bed51d3b8e5bf9c1fdfd779717f378",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 32,
+      "visible_pixel_checks": 3074,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 4,
+      "field": "0xf8",
+      "native_role": "SRCPAINT mask",
+      "source": "artifacts/ChemLab/res/_xkp.BMP",
+      "source_sha256": "d097e7359f8d8823838a42d4ab6be38c0a5a44601d163d7721fc7773c3e11db1",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 24,
+      "visible_pixel_checks": 1560,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 4,
+      "field": "0xf4",
+      "native_role": "shaded body for4926E0",
+      "source": "artifacts/ChemLab/res/xkp.BMP",
+      "source_sha256": "0590797c7c819429ae6e81feec9a213f3cb8d1df9726082c760c244ceca26a66",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 32,
+      "visible_pixel_checks": 1560,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 5,
+      "field": "0xf8",
+      "native_role": "SRCPAINT mask",
+      "source": "artifacts/ChemLab/res/_jtdg_2.BMP",
+      "source_sha256": "6b36894917b4e1f58096ad38294cdf88d8cd5a5478e691eb8488d7e22899df15",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 24,
+      "visible_pixel_checks": 1140,
+      "rgb_pixel_differences": 0
+    },
+    {
+      "native_index": 5,
+      "field": "0xf4",
+      "native_role": "shaded body for4926E0",
+      "source": "artifacts/ChemLab/res/jtdg_2.BMP",
+      "source_sha256": "43ca894bffa57bcbdf6497550bdbbd69f28456be5cd0642c5b21014fc59cfe8b",
+      "source_bitmap_format": 24,
+      "observed_bitmap_format": 32,
+      "visible_pixel_checks": 1140,
+      "rgb_pixel_differences": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+extends SceneTree
+const Provider = preload("res://scripts/original/original_gdi_capture_provider.gd")
+const Host = preload("res://scripts/original/original_gdi_host.gd")
+func _initialize() -> void:
+	var provider := Provider.new()
+	assert(not provider.load_capture("/private/tmp/nonexistent-original-gdi-capture", "").ok)
+	assert(not provider.render_ops(1,1,[],[],true).ok)
+	assert(not provider.render_ops(1,1,[]).ok)
+	assert(provider._equal({"a":1,"b":[2]}, {"b":[2.0],"a":1.0}))
+	assert(not provider._equal({"a":1}, {"a":1,"extra":0}))
+	assert(not provider._equal([1,2], [2,1]))
+	assert(not provider._equal({"color":0}, {"color":1}))
+	var host := Host.new()
+	host.use_capture_provider(provider)
+	# Capture-only lookup is detached and never attempts a TCP fallback.
+	var result: Dictionary = await host.render_ops(1,1,[],[],true)
+	assert(not result.ok and str(result.error).contains("No validated"))
+	host.free()
+	print("Exact GDI capture guards PASS; no Windows pixels loaded or validated")
+	quit()

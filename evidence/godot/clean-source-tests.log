@@ -1,0 +1,9 @@
+FORMAT VALIDATION: 28 experiments and 105 molecules match; exact round trips and edited positions passed
+ADAPTER VALIDATION: all 28 experiments, unique IDs, connectors, exact round trips; 204 annotations
+Dialog construction and term validation: PASS
+PASS encyclopedia: all 475 records/fields, Unicode/full-text search, 112 periodic elements, element-detail joins, navigation, validated CRUD, rejected duplicate/schema edits, temporary-file persistence roundtrip, packaged source protection
+ENCODING VALIDATION: 133 original GB18030 files byte-exact; UTF-8 and four-byte Unicode passed
+Model checks: PASS
+PASS molecule renderer: geometry, five modes, selection, orbit/zoom/reset, graph edits, single-bond rotation, invalid indices, empty model
+PASS program: original pH expressions, live mass/moles/time bindings, math functions, formula annotations, nested original Chinese control grammar, bounded loops, error reporting, scalar-only expressions, pause, persistence
+Workflow integration checks: PASS; programs exercised: 3

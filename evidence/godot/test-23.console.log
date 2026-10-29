@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original TBitmap constructor PASS: 20 native cases / 4260 object+guard byte comparisons; actual InitInstance/AddRef, poisoned and unknown allocation payloads

@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original memory-manager selection PASS: 36 native cases / 540 exact global DWORDs; host module/export/AddRef outcomes explicit

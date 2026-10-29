@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":12,"failures":[],"scope":"Actual pre-action allocation; exact water/NaOH moles, mass and volume rows after withdrawal. Gas ticks, elapsed history and full render remain separate."}
+PASS actual Windows NaOH withdrawal: 12 reagent-row values and source/recipient/species order

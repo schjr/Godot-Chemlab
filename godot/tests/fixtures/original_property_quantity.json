@@ -1,0 +1,1676 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "entry": "0049FE58",
+  "scope": "Original Modify callback, native parsing/formatting/arithmetic; grid/edit/radio/focus/message ABI boundaries; invalid-format exceptions not hosted",
+  "cases": [
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "0",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0",
+          "0"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "0000000000000000",
+          "mass": "0000000000000000"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "0000000000000000"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "0.04",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.04",
+          "1.45832"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "7b14ae47e17aa43f",
+          "mass": "bea4315a4755f73f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "bea4315a4755f73f"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "1.2345678901234567",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "1.23456789012346",
+          "45.009876138121"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "0a5a8c42cac0f33f",
+          "mass": "c81e0d9f43814640"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "d61e0d9f43814640"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "1E-20",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "1E-20",
+          "3.6458E-19"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "2342920ca19cc73b",
+          "mass": "4ecd85b3b8e61a3c"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "4dcd85b3b8e61a3c"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "10000001",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "10000001",
+          "364580036.458"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "00000020d0126341",
+          "mass": "7d3f75c40cbbb541"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "7d3f75c40cbbb541"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "1.23456789012345E99",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "1.23456789012345E99",
+          "4.50098761381207E100"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "4df417bae00f8254",
+          "mass": "4367c9b40a94d454"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "4767c9b40a94d454"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "-1",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的mol量不能为负数"
+      ]
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": " -0.25 ",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的mol量不能为负数"
+      ]
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "moles",
+      "text": "+2.5E-12",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "2.5E-12",
+          "9.1145E-11"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "956479e17ffd853d",
+          "mass": "d849265ac20dd93d"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "d749265ac20dd93d"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "0",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0",
+          "0"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "0000000000000000",
+          "mass": "0000000000000000"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "0000000000000000"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "0.04",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.00109715288825498",
+          "0.04"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "5e6685f1caf9513f",
+          "mass": "7b14ae47e17aa43f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "8414ae47e17aa43f"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "1.2345678901234567",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.0338627431598951",
+          "1.23456789012346"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "cc64d91c7556a13f",
+          "mass": "0a5a8c42cac0f33f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "f5598c42cac0f33f"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "1E-20",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "2.74288222063745E-22",
+          "1E-20"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "fbaa557d81b9743b",
+          "mass": "2342920ca19cc73b"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "2d42920ca19cc73b"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "10000001",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "274288.249492567",
+          "10000001"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "bffa7affc0bd1041",
+          "mass": "00000020d0126341"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "03000020d0126341"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "1.23456789012345E99",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "3.38627431598949E97",
+          "1.23456789012345E99"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "b7f8b823f6b42f54",
+          "mass": "4df417bae00f8254"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "46f417bae00f8254"
+      }
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "-1",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的质量不能为负数"
+      ]
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": " -0.25 ",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的质量不能为负数"
+      ]
+    },
+    {
+      "species": "HCl(溶解)",
+      "mode": "mass",
+      "text": "+2.5E-12",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "6.85720555159361E-14",
+          "2.5E-12"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "HCl(溶解)",
+          "moles": "4e43a128234d333d",
+          "mass": "956479e17ffd853d"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "HCl(溶解)": "916479e17ffd853d"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "0",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "0",
+          "0"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "0000000000000000",
+          "mass": "0000000000000000"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "0000000000000000"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "0.04",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "0.04",
+          "1.59992"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "7b14ae47e17aa43f",
+          "mass": "0c76c3b64599f93f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "0c76c3b64599f93f"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "1.2345678901234567",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "1.23456789012346",
+          "49.380246469158"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "0a5a8c42cac0f33f",
+          "mass": "ffb992eaabb04840"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "14ba92eaabb04840"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "1E-20",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "1E-20",
+          "3.9998E-19"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "2342920ca19cc73b",
+          "mass": "61d2e99868831d3c"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "60d2e99868831d3c"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "10000001",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "10000001",
+          "399980039.998"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "00000020d0126341",
+          "mass": "ee7cff0736d7b741"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "ed7cff0736d7b741"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "1.23456789012345E99",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "1.23456789012345E99",
+          "4.93802464691577E100"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "4df417bae00f8254",
+          "mass": "009d36ed8e93d654"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "069d36ed8e93d654"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "-1",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的mol量不能为负数"
+      ]
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": " -0.25 ",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的mol量不能为负数"
+      ]
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "moles",
+      "text": "+2.5E-12",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "2.5E-12",
+          "9.9995E-11"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "956479e17ffd853d",
+          "mass": "36a369c7857cdb3d"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "35a369c7857cdb3d"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "0",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "0",
+          "0"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "0000000000000000",
+          "mass": "0000000000000000"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "0000000000000000"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "0.04",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "0.00100005000250013",
+          "0.04"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "cccd86838362503f",
+          "mass": "7b14ae47e17aa43f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "9814ae47e17aa43f"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "1.2345678901234567",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "0.0308657405401134",
+          "1.23456789012346"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "4816bfc8449b9f3f",
+          "mass": "0a5a8c42cac0f33f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "f7598c42cac0f33f"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "1E-20",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "2.50012500625031E-22",
+          "1E-20"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "905c7bf0f1e3723b",
+          "mass": "2342920ca19cc73b"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "1d42920ca19cc73b"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "10000001",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "250012.525626281",
+          "10000001"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "378d7b34e4840e41",
+          "mass": "00000020d0126341"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "f9ffff1fd0126341"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "1.23456789012345E99",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "3.08657405401133E97",
+          "1.23456789012345E99"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "3f3a991093e62c54",
+          "mass": "4df417bae00f8254"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "54f417bae00f8254"
+      }
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "-1",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的质量不能为负数"
+      ]
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": " -0.25 ",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的质量不能为负数"
+      ]
+    },
+    {
+      "species": "NaOH(溶解)",
+      "mode": "mass",
+      "text": "+2.5E-12",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "NaOH(溶解)",
+          "6.25031251562578E-14",
+          "2.5E-12"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "NaOH(溶解)",
+          "moles": "35015027d397313d",
+          "mass": "956479e17ffd853d"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "NaOH(溶解)": "946479e17ffd853d"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "0",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "0",
+          "0"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "0000000000000000",
+          "mass": "0000000000000000"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "0000000000000000"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "0.04",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "0.04",
+          "5.1256"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "7b14ae47e17aa43f",
+          "mass": "aa8251499d801440"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "a98251499d801440"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "1.2345678901234567",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "1.23456789012346",
+          "158.19752944042"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "0a5a8c42cac0f33f",
+          "mass": "3cd3422952c66340"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "41d3422952c66340"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "1E-20",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "1E-20",
+          "1.2814E-18"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "2342920ca19cc73b",
+          "mass": "40c7958b3da3373c"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "3fc7958b3da3373c"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "10000001",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "10000001",
+          "1281400128.14"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "00000020d0126341",
+          "mass": "c3f508502718d341"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "c2f508502718d341"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "1.23456789012345E99",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "1.23456789012345E99",
+          "1.58197529440419E101"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "4df417bae00f8254",
+          "mass": "7738a869ef14f254"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "7238a869ef14f254"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "-1",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的mol量不能为负数"
+      ]
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": " -0.25 ",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的mol量不能为负数"
+      ]
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "moles",
+      "text": "+2.5E-12",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "2.5E-12",
+          "3.2035E-10"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "956479e17ffd853d",
+          "mass": "a7340024a803f63d"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "a6340024a803f63d"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "0",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "0",
+          "0"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "0000000000000000",
+          "mass": "0000000000000000"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "0000000000000000"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "0.04",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "0.000312158576556891",
+          "0.04"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "e661a2e02675343f",
+          "mass": "7b14ae47e17aa43f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "7c14ae47e17aa43f"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "1.2345678901234567",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "0.00963452388109456",
+          "1.23456789012346"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "cdcadae743bb833f",
+          "mass": "0a5a8c42cac0f33f"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "fb598c42cac0f33f"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "1E-20",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "7.80396441392227E-23",
+          "1E-20"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "c350f0660696573b",
+          "mass": "2342920ca19cc73b"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "2142920ca19cc73b"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "10000001",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "78039.6519431871",
+          "10000001"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "b7fa5b6e7a0df340",
+          "mass": "00000020d0126341"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "fdffff1fd0126341"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "1.23456789012345E99",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "9.63452388109451E96",
+          "1.23456789012345E99"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "9b5fa574d30a1254",
+          "mass": "4df417bae00f8254"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "4ff417bae00f8254"
+      }
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "-1",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的质量不能为负数"
+      ]
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": " -0.25 ",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "HCl(溶解)",
+          "0.02",
+          "0.7292"
+        ]
+      ],
+      "messages": [
+        "药品的质量不能为负数"
+      ]
+    },
+    {
+      "species": "CuSO4(溶解)",
+      "mode": "mass",
+      "text": "+2.5E-12",
+      "rows": [
+        [
+          "H2O(液体)",
+          "0.123456789012345",
+          "2.224197"
+        ],
+        [
+          "CuSO4(溶解)",
+          "1.95099110348057E-14",
+          "2.5E-12"
+        ]
+      ],
+      "messages": [],
+      "stored_bits": [
+        {
+          "species": "H2O(液体)",
+          "moles": "2ef64637dd9abf3f",
+          "mass": "f8e3f6cb27cb0140"
+        },
+        {
+          "species": "CuSO4(溶解)",
+          "moles": "a471d15759f7153d",
+          "mass": "956479e17ffd853d"
+        }
+      ],
+      "recalculated_mass_bits": {
+        "H2O(液体)": "7c70871028cb0140",
+        "CuSO4(溶解)": "9a6479e17ffd853d"
+      }
+    }
+  ],
+  "errors": []
+}

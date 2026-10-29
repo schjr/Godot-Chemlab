@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"examples":28,"failures":[],"physical_qword_checks":84500,"untouched_cells":82115,"written_active_cells":789,"written_inactive_cells":1596}
+PASS original Run all28 numeric corpus; explicit allocation/save/graphics boundaries

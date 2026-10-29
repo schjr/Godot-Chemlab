@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original native GDI bridge guards: PASS; construction provenance, bounded dimensions, exact DIB payload, empty native pass, unsupported operation rejection. Windows raster output not executed by this macOS test.

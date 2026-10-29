@@ -1,0 +1,78 @@
+WARN `--no-project` was provided, but no project was found
+FORMAT VALIDATION: 28 experiments and 105 molecules match; exact round trips and edited positions passed
+PASS legacy_formats_test
+VALIDATION: actual captured raw objects and paused source prefix; VCL boundary explicitly unresolved
+PASS original PE actual non-lock graph setter parity with real fresh Godot recursive mutexes
+ADAPTER VALIDATION: all 28 experiments, unique IDs, connectors, exact round trips; 204 annotations
+PASS test_adapter
+PASS viewport dropper selection, helper hover, context position/contrast and popup action
+Original dialog row/commit regression: PASS; sb100 factory, zero-mole rows, mass conversion, temporary edits/cancel/commit, ordered full reaction deletion/rate synchronization, water-first solution addition, native clear-all
+PASS encyclopedia: all 475 records/fields, Unicode/full-text search, 112 periodic elements, element-detail joins, navigation, validated CRUD, rejected duplicate/schema edits, temporary-file persistence roundtrip, packaged source protection
+ENCODING VALIDATION: 133 original GB18030 files byte-exact; UTF-8 and four-byte Unicode passed
+PASS test_legacy_encoding
+PASS molecule renderer: geometry, five modes, selection, orbit/zoom/reset, graph edits, single-bond rotation, invalid indices, empty model
+PASS actual UI paused no-op/resume/withdrawal/drop/context pouring:7actions63ticks exact native bits
+Canvas native connection guards PASS; 49 native half-weight compositor comparisons. Synthetic integration providers do not certify production raster/VCL profile.
+PASS closed Form4 FIFO:Close→2closed-target dispositions→live message;no stale callback/no reroute/no global deadlock
+PASS native control MouseUp dispatch
+PASS native live Form4 grid: 28 imports/accepted ticks, program→grid→chart, unchanged selection edits, pause and close
+PASS original pouring menu visibility/checked state
+PASS native Form4 modal:15original caller refs,Confirm/Cancelafterclose,chartreset,nestedownership,livephysics
+PASS native property quantity/mass radio/Modify/confirm/cancel/run-lock
+PASS native five-field reaction UI: 10 Modify/Confirm/Cancel transactions; label-metrics guard/name preservation
+PASS normal pouring orientation preserves source tilted liquid feedback and common-material frontier
+PASS native UI integration: 28 original imports, 4 fixed charts,28accepted original-program ticks, actual mouse drag/wood resize/release/CEM save and proven binding cleanup
+PASS normal opening: Run, NaOH aspiration, two precipitates, HCl dissolution and continuous pouring via viewport gestures
+Original manual-action oracle comparison: PASS; 729 original x86 frames, transfer indices, binary64 doses, +0x68 states
+Original lazy TBitmapCanvas PASS: 5 native graphs, 5 aliases, 4 explicit Handle frontiers, 10528 exact object/list/registry bytes; no fabricated DC
+Original TBitmap constructor PASS: 20 native cases / 4260 object+guard byte comparisons; actual InitInstance/AddRef, poisoned and unknown allocation payloads
+Original48F1E0 scaling PASS: 126 native cases, 12237 full uint32 words; VCL conversion and scanline callbacks remain explicit boundaries
+PASS original TBrush registry arithmetic finally events and lazy handle native references
+PASS original Canvas InitInstance constructors registry list lock event graph native references
+PASS source Canvas Rectangle required state Pen/Brush selection event timing native references
+PASS test_original_chart
+PASS original full-significance decimal parser
+PASS actual original six-vessel capture: 11548 final native words; explicit CEM overlap hypothesis; no complete VCL attestation
+PASS direct original particle helpers require RNG only at source random accesses
+PASS original attachment/conduit drag helpers
+Original factory metadata checks: PASS / 33 native kernels
+NATIVE FIELD VALIDATION: all 28 documents, temperature offset 0x88, preserved geometry, stored heater flags, no invented transport rates
+Original continuous-flow/N18 oracle comparison: PASS; 678 native call frames, 54 orientation/bitmap toggles, 9 full native material-flow frames with every recorded binary64 result
+PASS test_original_frames
+PASS original gas operand/store/native Run reference + current port
+Original gas visual oracle comparison: PASS; 115 original frames, drawing eligibility, exact RGB/brush values and rectangle bounds
+PASS test_original_gasflow
+Actual Windows GDI capture replay: 57 exact recorded requests PASS. Original VCL/full-frame validation remains pending.
+Exact GDI capture guards PASS; no Windows pixels loaded or validated
+Original native GDI bridge guards: PASS; construction provenance, bounded dimensions, exact DIB payload, empty native pass, unsupported operation rejection. Windows raster output not executed by this macOS test.
+PASS original heap explicit page origins and unknown-byte boundaries
+Original memory-manager selection PASS: 36 native cases / 540 exact global DWORDs; host module/export/AddRef outcomes explicit
+PASS original heap vessel view preserves scoped raw bytes and unknown cells
+Original heater geometry checks: PASS / 445 native cases
+PASS original interaction
+PASS original liquid formulas, colors and rectangles
+PASS original live properties
+Original material rasterizer: PASS; 21 native pixel routing frames; synthetic mask plumbing; uncaptured/unverified GDI fail explicitly
+PASS original CRT x87 logarithm/power sequence
+PASS scoped original particle object bytes and exact bitmap pointer backing
+PASS owned fresh memory API source allocator pages reuse unknown local bytes and genuine recursive locks
+PASS actual Godot recursive mutex ownership contention lifetime and balanced cleanup
+PASS native opening chemistry with full persistent particle/cache feedback
+PASS owned particle stack preserves actual supplied prior bytes and source writes without unknown fallbacks
+PASS exact source pixel-loop ports match all VM bytes registers flags and x87 state
+PASS failed drawing calls preserve stack and reject pixel feedback; successful calls release exact arguments
+PASS source current-vessel pool lookups and selected-phase isolation preserve full-prefix output
+PASS native particle unknown-memory boundaries
+PASS native VM FSUBP FSUBRP NEG SETGE NOP
+PASS compact source-zero particle memory preserves unknowns writes reset boundaries and aliases
+PASS original persistent particle/RNG source ports
+PASS exact x87 host with all persistent solid/bubble frames
+PASS original TPen registry arithmetic finally events and lazy handle native references
+PASS original pen unknown state and explicit allocation/graphics boundaries
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+SCRIPT ERROR: Invalid access to property or key 'snapshot' on a base object of type 'Dictionary'.
+          at: _initialize (res://tests/test_original_presentation_adoption.gd:100)
+          GDScript backtrace (most recent call first):
+              [0] _initialize (res://tests/test_original_presentation_adoption.gd:100)
+

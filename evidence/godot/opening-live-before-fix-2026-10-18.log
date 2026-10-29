@@ -1,0 +1,17 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+ERROR: Drag dropper through canvas
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_opening_live_workflow.gd:9)
+       [1] drag_dropper (res://tests/test_opening_live_workflow.gd:35)
+       [2] _run (res://tests/test_opening_live_workflow.gd:67)
+       [3] settle (res://tests/test_opening_live_workflow.gd:39)
+ERROR: Drag dropper through canvas
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_opening_live_workflow.gd:9)
+       [1] drag_dropper (res://tests/test_opening_live_workflow.gd:35)
+       [2] _run (res://tests/test_opening_live_workflow.gd:81)
+       [3] settle (res://tests/test_opening_live_workflow.gd:39)
+{"elapsed":2.362,"failures":["Drag dropper through canvas","Drag dropper through canvas"],"fixture_profiles_injected":false,"last_error":"","milestones":["Normal opening document","Normal simulation remains running: ","Select dropper exposed bulb","NaOH actually leaves bottle and enters dropper","Original two ml aspiration limit","Copper hydroxide forms after actual drop","Drag dropper through canvas","Iron hydroxide forms after actual drop","Normal simulation remains running: ","Select dropper exposed bulb","HCl actually enters its dropper","Drag dropper through canvas","HCl dissolves copper precipitate","HCl dissolves iron precipitate","Drag acid bottle above copper beaker","Pour menu opens from right click","Original vessel exposes pouring item","Pour menu changes original orientation","Continuous pouring actually transfers liquid","Pour menu opens from right click","Original vessel exposes pouring item","Menu restores upright bottle","Normal simulation remains running: "],"normal_startup":true}

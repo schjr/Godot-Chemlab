@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+ADAPTER VALIDATION: all 28 experiments, unique IDs, connectors, exact round trips; 204 annotations
+PASS test_adapter

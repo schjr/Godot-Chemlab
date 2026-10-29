@@ -1,0 +1,147 @@
+{
+  "native": [
+    {
+      "name": "encyclopedia",
+      "sha256": "fbd87326fd01600fd7f5aad057f79841daa50cb3f0b50a89258616c33b372be6",
+      "paths": [
+        "_ency.exe",
+        "中学化学小百科.exe"
+      ],
+      "input": "encyclopedia.exe",
+      "functions": 6154,
+      "decompiled": 6154,
+      "failed": 0,
+      "external": 0,
+      "thunks": 462,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 4,
+      "published_methods": 180,
+      "published_methods_with_bodies": 180
+    },
+    {
+      "name": "main",
+      "sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+      "paths": [
+        "_main.exe",
+        "仿真化学实验室.exe"
+      ],
+      "input": "main.exe",
+      "functions": 4661,
+      "decompiled": 4661,
+      "failed": 0,
+      "external": 0,
+      "thunks": 452,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 23,
+      "published_methods": 296,
+      "published_methods_with_bodies": 296
+    },
+    {
+      "name": "molecule",
+      "sha256": "4070a4e5f7f7575bae6fb7a04500a06eb3c3906ff43930782aef3fdb3c2416a0",
+      "paths": [
+        "_mol.exe",
+        "三维分子.exe"
+      ],
+      "input": "molecule.exe",
+      "functions": 4139,
+      "decompiled": 4138,
+      "failed": 1,
+      "external": 0,
+      "thunks": 483,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 31,
+      "published_methods": 197,
+      "published_methods_with_bodies": 197
+    },
+    {
+      "name": "avi",
+      "sha256": "446195830aa9db0060d22b13822b3b32cc6aeb37ee1ec4513305928be2c1cb04",
+      "paths": [
+        "avi.exe"
+      ],
+      "input": "avi.exe",
+      "functions": 2686,
+      "decompiled": 2686,
+      "failed": 0,
+      "external": 0,
+      "thunks": 357,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 0,
+      "published_methods": 18,
+      "published_methods_with_bodies": 18
+    },
+    {
+      "name": "gif",
+      "sha256": "8d7a0b3e7e45e5193b6f40bc4cad05d96b8cfca8d26cf18edd7c77b448d364c3",
+      "paths": [
+        "gif.exe"
+      ],
+      "input": "gif.exe",
+      "functions": 2249,
+      "decompiled": 2249,
+      "failed": 0,
+      "external": 0,
+      "thunks": 369,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 3,
+      "published_methods": 4,
+      "published_methods_with_bodies": 4
+    },
+    {
+      "name": "resource_6b1e97cc",
+      "sha256": "6b1e97cc92b87d79a1062f1b45f0f974b762c9415f226b4261c9ae7309e201c7",
+      "paths": [
+        "myres/data.obj"
+      ],
+      "input": "resource_6b1e97cc.exe",
+      "functions": 3538,
+      "decompiled": 3538,
+      "failed": 0,
+      "external": 0,
+      "thunks": 433,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 26,
+      "published_methods": 65,
+      "published_methods_with_bodies": 65
+    },
+    {
+      "name": "resource_cb7e19b8",
+      "sha256": "cb7e19b8034fada70cdb74a8a2fe277de9efdd547f949fe2676a97fb76e951e5",
+      "paths": [
+        "res/data.obj"
+      ],
+      "input": "resource_cb7e19b8.exe",
+      "functions": 3272,
+      "decompiled": 3272,
+      "failed": 0,
+      "external": 0,
+      "thunks": 362,
+      "cancelled": false,
+      "scope": "Ghidra discovered functions only; unidentified code remains unknown",
+      "additional_decompiled_method_entries": 16,
+      "published_methods": 26,
+      "published_methods_with_bodies": 26
+    }
+  ],
+  "forms_verified": 69,
+  "native_discovered_functions": 26699,
+  "decompiled_functions": 26698,
+  "decompilation_failures": 1,
+  "additional_decompiled_method_entries": 103,
+  "published_method_names": 786,
+  "published_method_bodies": 786,
+  "limitations": [
+    "Decompiler output is not original source or compilable code.",
+    "Coverage is relative to statically discovered functions; unidentified code remains unknown.",
+    "Default Ghidra analysis may infer incomplete boundaries/no-return behavior.",
+    "Original comments, local names, C++ headers/project settings and behavioral equivalence are not recovered."
+  ],
+  "unique_decompiled_entries": 26801
+}

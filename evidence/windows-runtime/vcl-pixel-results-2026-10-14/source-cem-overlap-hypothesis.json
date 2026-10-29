@@ -1,0 +1,35 @@
+{
+  "format": "chemlab-original-canvas-overlap-hypothesis-v1",
+  "positions": [
+    [
+      179,
+      222
+    ],
+    [
+      429,
+      224
+    ],
+    [
+      429,
+      206
+    ],
+    [
+      306,
+      222
+    ],
+    [
+      510,
+      224
+    ],
+    [
+      510,
+      206
+    ]
+  ],
+  "source_examples_sha256": "2e92fdb024ad9b5b13acfe1c8f9814001a4903196c279fd7e12ef410cf3dc56c",
+  "document_sha256": "69153d74d17dea9f06e899c8bfe9de23b511702e479dce6115b084ed8419fce2",
+  "source_document": "recovered/chemistry/utf8/例子/氢氧化铜与氢氧化铁.cem",
+  "native_scale": 1,
+  "background_rgb": 16777215,
+  "scope": "Original CEM positions and white prior canvas are explicit hypotheses, not observations of current runtime coordinates or canvas. Earlier apparatus use captured FC pixels; prior connectors, labels and decorators are not replayed. Background extraction uses the source unscaled same-size rectangle and492560 weight0.5."
+}

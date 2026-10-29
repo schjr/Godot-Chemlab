@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original dialog row/commit regression: PASS; sb100 factory, zero-mole rows, mass conversion, temporary edits/cancel/commit, ordered full reaction deletion/rate synchronization, water-first solution addition, native clear-all

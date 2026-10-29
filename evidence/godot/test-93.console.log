@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+TRIG 1014 native cases; binary32 differences 0 extended intrinsic differences 68
+PASS experimental binary32 trig compatibility; extended differences remain

@@ -1,0 +1,3454 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "Execute original534368 selection with explicit host module/export outcomes.",
+  "cases": [
+    {
+      "input": {
+        "name": "absent",
+        "module": 0,
+        "load": 0,
+        "exports": {},
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 4,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      }
+    },
+    {
+      "input": {
+        "name": "load mismatch",
+        "module": 1895825408,
+        "load": 0,
+        "exports": {},
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 0
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204c6f61644c69627261727920213d206d6d646c6c20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask00",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {},
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask01",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask02",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask03",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask04",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask05",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask06",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask07",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask08",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask09",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask0a",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask0b",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask0c",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask0d",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask0e",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask0f",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 0,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask10",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask11",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask12",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask13",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask14",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask15",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask16",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask17",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 3,
+        "0x575988": 5456964,
+        "0x57598c": 5456936,
+        "0x575990": 5457000,
+        "0x575994": 5457080,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 0,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask18",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask19",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask1a",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask1b",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 0,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask1c",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask1d",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask1e",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 0
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a204765744d656d206f7220467265654d656d206f72205265616c6c6f634d656d2066726f6d20626f726c6e646d6d206661696c6564"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 0,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "exports mask1f",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {},
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "HeapAddRef",
+          "address": 1895830272,
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 2,
+        "0x575988": 5456576,
+        "0x57598c": 5456596,
+        "0x575990": 5456620,
+        "0x575994": 5456680,
+        "0x575604": 1895829504,
+        "0x575608": 1895829760,
+        "0x57560c": 1895830016,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "preselected System replacement",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {
+          "0x575604": 1912602880,
+          "0x575608": 1912603136,
+          "0x57560c": 1912603392
+        },
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": false,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "HeapAddRef",
+          "address": 1895830272,
+          "result": 0
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 0,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 1912602880,
+        "0x575608": 1912603136,
+        "0x57560c": 1912603392,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 1,
+        "0x575984": 2,
+        "0x575988": 5456576,
+        "0x57598c": 5456596,
+        "0x575990": 5456620,
+        "0x575994": 5456680,
+        "0x575604": 1912602880,
+        "0x575608": 1912603136,
+        "0x57560c": 1912603392,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    },
+    {
+      "input": {
+        "name": "prior startup marker fatal",
+        "module": 1895825408,
+        "load": 1895825408,
+        "exports": {
+          "@Borlndmm@SysGetMem$qqri": 1895829504,
+          "@Borlndmm@SysFreeMem$qqrpv": 1895829760,
+          "@Borlndmm@SysReallocMem$qqrpvi": 1895830016,
+          "@Borlndmm@HeapAddRef$qqrv": 1895830272,
+          "@Borlndmm@HeapRelease$qqrv": 1895830528
+        },
+        "initial": {
+          "0x575980": 7
+        },
+        "load_thunk": 5591078,
+        "argument": 1
+      },
+      "fatal": true,
+      "events": [
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "LoadLibraryA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetModuleHandleA",
+          "name_hex": "626f726c6e646d6d",
+          "result": 1895825408
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379734765744d656d2471717269",
+          "result": 1895829504
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40537973467265654d656d247171727076",
+          "result": 1895829760
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d405379735265616c6c6f634d656d24717172707669",
+          "result": 1895830016
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d40486561704164645265662471717276",
+          "result": 1895830272
+        },
+        {
+          "api": "GetProcAddress",
+          "module": 1895825408,
+          "name_hex": "40426f726c6e646d6d404865617052656c656173652471717276",
+          "result": 1895830528
+        },
+        {
+          "api": "original_fatal",
+          "message_hex": "68726469725f622e633a20464154414c212121206d656d6f727920686173206265656e20616c6c6f6361746564207072696f7220746f20686561702072656469726563746f7220686f6f6b21"
+        }
+      ],
+      "initial_globals": {
+        "0x575980": 7,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 0,
+        "0x59b228": 0,
+        "0x59b22c": 0,
+        "0x59b230": 0,
+        "0x59b234": 0,
+        "0x59b238": 0
+      },
+      "final_globals": {
+        "0x575980": 7,
+        "0x575984": 0,
+        "0x575988": 5456816,
+        "0x57598c": 5456840,
+        "0x575990": 5456864,
+        "0x575994": 5456896,
+        "0x575604": 5441200,
+        "0x575608": 5441592,
+        "0x57560c": 5442476,
+        "0x59b224": 1895829760,
+        "0x59b228": 1895829504,
+        "0x59b22c": 1895830016,
+        "0x59b230": 1895830272,
+        "0x59b234": 1895830528,
+        "0x59b238": 1895825408
+      }
+    }
+  ]
+}

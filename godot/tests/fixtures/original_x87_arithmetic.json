@@ -1,0 +1,1468 @@
+{
+  "provenance": "Unicorn x86 x87 instruction microkernels; PC64 nearest-even CW037f; not guest hardware profile",
+  "cases": [
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0000000001000000",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "fcec020000000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0000000001000000",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "926940813cd0fb3e"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0000000001000000",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "1cc7711c00000080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0100000000000000",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "0000000000000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0100000000000000",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "926940813cd0fb3c"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0100000000000000",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "0000000000000080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "ffffffffffff0f00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "69c8b9cf2e000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "ffffffffffff0f00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "906940813cd03b40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "ffffffffffff0f00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "721cc7711cc70180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0000000000001000",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "69c8b9cf2e000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0000000000001000",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "926940813cd03b40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "0000000000001000",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "721cc7711cc70180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5a58b921ef0d0200",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "92a1bb0206000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5a58b921ef0d0200",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "b152c49303920c40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5a58b921ef0d0200",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "987b4de76f3a0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1c3e533928e10900",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "565497e71c000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1c3e533928e10900",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "0ea4cb47882c3140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1c3e533928e10900",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "91b1257804190180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "56b2be65df3f0900",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "1b05b80f1b000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "56b2be65df3f0900",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "346f1a4e2a143040"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "56b2be65df3f0900",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "98856ad218070180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "c7f6f32a1b270600",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "357c4f0012000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "c7f6f32a1b270600",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "350a08fc22642540"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "c7f6f32a1b270600",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "16c6c50403af0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "aa77e7cb0d270b00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "f96b12a120000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "aa77e7cb0d270b00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "b0dcfc270d633340"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "aa77e7cb0d270b00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "2f46fd6b3a3d0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "20ab7f66d7ab0200",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "cd7db9d007000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "20ab7f66d7ab0200",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "f6999f1cfe921240"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "20ab7f66d7ab0200",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "3ca12a7dfb4b0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4d81e8d8876a0400",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "36149ceb0c000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4d81e8d8876a0400",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "c912d95cfbb41e40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4d81e8d8876a0400",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "b363fd509d7d0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e6985709f0fb0400",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "ca6b07950e000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e6985709f0fb0400",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "7d6f893206542140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e6985709f0fb0400",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "fd105f56c58d0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "3dd776fa57e20700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "28ce181117000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "3dd776fa57e20700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "3644b67d21692b40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "3dd776fa57e20700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "5c340daa42e00080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "fa0cc70711e60200",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "251b137b08000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "fa0cc70711e60200",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "b0cdbd42da271440"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "fa0cc70711e60200",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "ffe487ab73520080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8da4addff8ac0700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "0377f27416000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8da4addff8ac0700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "d035ef4693af2a40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8da4addff8ac0700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "1084a18a54da0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "6d402cf112d40100",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "7165735905000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "6d402cf112d40100",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "c04b31ba5e6d0940"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "6d402cf112d40100",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "2907cc1a02340080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5b774ca329a40900",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "118323351c000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5b774ca329a40900",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "d06f5ad680c23040"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5b774ca329a40900",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "430dec833d120180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "023c701a46ae0800",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "bf02bd6519000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "023c701a46ae0800",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "1106385f212e2e40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "023c701a46ae0800",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "005c4558ebf60080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "be23ad0e0c6c0b00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "8d26ed6a21000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "be23ad0e0c6c0b00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "ee4af526fcda3340"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "be23ad0e0c6c0b00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "a3ae2fe5e4440180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "714a719f7bda0500",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "4b01222011000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "714a719f7bda0500",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "2533810dbe592440"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "714a719f7bda0500",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "9b5d7e837fa60080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "91887dd495680c00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "07eac74d24000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "91887dd495680c00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "733fcd5efb913540"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "91887dd495680c00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "bbf20d34f4600180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "30dd7d9560d40600",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "809c40fb13000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "30dd7d9560d40600",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "b886e36e8bbe2740"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "30dd7d9560d40600",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "9418d59e43c20080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f72b15edc44d0100",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "e27083d003000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f72b15edc44d0100",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "094f44f2a1210240"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f72b15edc44d0100",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "542174e115250080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e63979db8acb0c00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "2e1d4d6f25000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e63979db8acb0c00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "cd0227c2003e3640"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e63979db8acb0c00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "6f06f1fbf26b0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f56fdd94cdab0b00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "5c44752522000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f56fdd94cdab0b00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "94ff4f7ed0493440"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f56fdd94cdab0b00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "1bb7df65fa4b0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9da2f57820f30000",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "ecd651c702000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9da2f57820f30000",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "969d8c9a306afa3f"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9da2f57820f30000",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "d983a99b031b0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4ae04a8eb8ac0500",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "f2103f9a10000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4ae04a8eb8ac0500",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "904bc789a4ba2340"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4ae04a8eb8ac0500",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "08e0ebd669a10080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "baaa9687399d0700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "64e7df4616000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "baaa9687399d0700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "66d49597d3782a40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "baaa9687399d0700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "31a1499d94d80080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "54b9b63d8ca60000",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "a77545e701000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "54b9b63d8ca60000",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "1b0c5fd14318f23f"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "54b9b63d8ca60000",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "42bf305c81120080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "06b2131621160d00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "505f854926000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "06b2131621160d00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "dd681300a9bf3640"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "06b2131621160d00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "e4daac903c740180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "3b9ee1cf616a0800",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "8e3e1b9f18000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "3b9ee1cf616a0800",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "8a228bb217422d40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "3b9ee1cf616a0800",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "b1d88a3360ef0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "c4b982e4be850a00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "e05421c91e000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "c4b982e4be850a00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "4fc5c39da44a3240"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "c4b982e4be850a00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "c0db63194e2b0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "972ea3f585280800",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "0c226cde17000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "972ea3f585280800",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "3222b56b1f5d2c40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "972ea3f585280800",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "f47667e20ee80080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2b4c8cd532490300",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "234f1b9d09000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2b4c8cd532490300",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "2196fb2827d91640"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2b4c8cd532490300",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "af960f6d775d0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4fadd97111f50d00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "70c9c6d528000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4fadd97111f50d00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "36daa81a34433840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4fadd97111f50d00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "7ba134f0018d0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5454a17a9c870800",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "db639ff418000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5454a17a9c870800",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "93df3985b6a72d40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "5454a17a9c870800",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "5f09d99b9ff20080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1a668ce1bf160900",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "cd8367971a000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1a668ce1bf160900",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "983a99d35b992f40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1a668ce1bf160900",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "91990f1987020180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "fae1281e52db0b00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "85397bb022000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "fae1281e52db0b00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "8003a9946a9c3440"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "fae1281e52db0b00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "38e0590342510180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f452676f716f0200",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "eb32042007000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f452676f716f0200",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "7c35f19005ef1040"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f452676f716f0200",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "c6ec277e45450080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8e6eb7aaf0790e00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "b29b855a2a000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8e6eb7aaf0790e00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "04c7f8162e2a3940"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8e6eb7aaf0790e00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "2c454d68c59b0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "eb6a69e48f7a0700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "172d76e115000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "eb6a69e48f7a0700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "3f3622d050002a40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "eb6a69e48f7a0700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "6fef99a7bad40080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1676f24c94a90c00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "3a53ef0b25000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1676f24c94a90c00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "5bcdf7abf6023640"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "1676f24c94a90c00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "adf01aec2c680180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "260a7fdf347a0200",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "a4d2813f07000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "260a7fdf347a0200",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "da78251bdd391140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "260a7fdf347a0200",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "921d0ea777460080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "127fa8a1953d0100",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "3c5829a103000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "127fa8a1953d0100",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "3c40c4578e400140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "127fa8a1953d0100",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "7463bd8349230080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "13fe7c1f36750000",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "bd57ed5601000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "13fe7c1f36750000",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "f0fe42ff1978e93f"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "13fe7c1f36750000",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "74aa7f03060d0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2562f0cf9df50a00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "bca06e1020000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2562f0cf9df50a00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "830d0dc41c0d3340"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2562f0cf9df50a00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "af7c8c33bc370180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e108724851850b00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "ab41dcb421000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e108724851850b00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "bc49f0dbe9063440"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e108724851850b00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "5256b7b2b3470180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "a3282fc2305a0b00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "1ed6ae3621000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "a3282fc2305a0b00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "9cae77aff1bb3340"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "a3282fc2305a0b00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "2faf21f9e8420180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8c7fd83e92db0d00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "1a112e8b28000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8c7fd83e92db0d00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "35d6949ee1163840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "8c7fd83e92db0d00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "1047a6b12c8a0180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f7b5b8c232fb0400",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "6aa7dd920e000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f7b5b8c232fb0400",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "dc8a6d2574512140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f7b5b8c232fb0400",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "1b4d864eb08d0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "58bf245e84af0c00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "7c9b4e1d25000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "58bf245e84af0c00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "a26e5010490d3640"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "58bf245e84af0c00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "264e92d1d5680180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4fd960c63ca20d00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "41fb6fe327000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4fd960c63ca20d00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "912e5d3337b33740"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "4fd960c63ca20d00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "973427ddcd830180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "cbf279d17bd20d00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "fe9a977028000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "cbf279d17bd20d00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "00f8198015073840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "cbf279d17bd20d00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "6c37b8332a890180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "32406a5a3b060900",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "eb0c14671a000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "32406a5a3b060900",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "4eafdf98ee5f2f40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "32406a5a3b060900",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "775cef42b1000180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f1e68c927c930700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "3339622a16000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f1e68c927c930700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "9c5e0b62f8562a40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "f1e68c927c930700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "fe6e819e7fd70080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9762b94bf5470e00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "1e024ac829000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9762b94bf5470e00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "1ac4d6654bd33840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9762b94bf5470e00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "2d9914b337960180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "d0feb7cb00d60100",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "6545185f05000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "d0feb7cb00d60100",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "63e3b49b32880940"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "d0feb7cb00d60100",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "6ce330fa38340080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "67973d24212b0700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "6f8110f914000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "67973d24212b0700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "34de476f27ec2840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "67973d24212b0700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "2866ea3ce7cb0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e22c815cf7100700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "dfb684ac14000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e22c815cf7100700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "81c5026931912840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "e22c815cf7100700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "e03d470affc80080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "503c7e5997dd0f00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "41300e6b2e000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "503c7e5997dd0f00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "be71b2156c943b40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "503c7e5997dd0f00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "973f9cb449c30180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "821b4fd06a3d0100",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "7512aca003000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "821b4fd06a3d0100",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "16d871e33a3e0140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "821b4fd06a3d0100",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "9de6cfc144230080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "70c64c6ea8b10700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "bb06a88216000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "70c64c6ea8b10700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "dfd334c0ddbf2a40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "70c64c6ea8b10700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "29dd5dd3d9da0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2005c330cca80900",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "9e06b3421c000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2005c330cca80900",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "fa87c8778fca3040"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "2005c330cca80900",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "e755c05ac1120180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "676e0092d6830500",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "3795a22210000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "676e0092d6830500",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "431279ad812c2340"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "676e0092d6830500",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "b628c7f3de9c0080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "21e040bbc9540e00",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "2054d3ed29000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "21e040bbc9540e00",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "f88f39dc98e93840"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "21e040bbc9540e00",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "593507a3a4970180"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "d2ae9de259820800",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "2ea43be518000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "d2ae9de259820800",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "e4c1f4d86c952d40"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "d2ae9de259820800",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "de2fbcfc09f20080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "a83a3cdb85430100",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "a21689b203000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "a83a3cdb85430100",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "ec2d19ac23930140"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "a83a3cdb85430100",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "da5bb16df2230080"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9a0fa56aeb540700",
+      "b_bits": "fca9f1d24d62503f",
+      "c_bits": "6666666666663640",
+      "expected_bits": "069a547315000000"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9a0fa56aeb540700",
+      "b_bits": "000000000000c03f",
+      "c_bits": "2be6708b68120000",
+      "expected_bits": "47d41be4717d2940"
+    },
+    {
+      "kind": "multiply_divide",
+      "a_bits": "9a0fa56aeb540700",
+      "b_bits": "9a9999999999c9bf",
+      "c_bits": "cdccccccccccfc3f",
+      "expected_bits": "66ac67ef8bd00080"
+    },
+    {
+      "kind": "divide_multiply_subtract",
+      "a_bits": "9a9999999999c93f",
+      "b_bits": "cdccccccccccfc3f",
+      "c_bits": "3bdf4f8d976e723f",
+      "expected_bits": "fca9f1d24d62703f"
+    },
+    {
+      "kind": "divide_multiply_subtract",
+      "a_bits": "000000000000f03f",
+      "b_bits": "0000000000000840",
+      "c_bits": "0000000000000840",
+      "expected_bits": "0000000000000040"
+    },
+    {
+      "kind": "divide_multiply_subtract",
+      "a_bits": "000000000000f03f",
+      "b_bits": "0000000000001c40",
+      "c_bits": "0000000000001c40",
+      "expected_bits": "0000000000001840"
+    },
+    {
+      "kind": "divide_multiply_subtract",
+      "a_bits": "000000000000f03f",
+      "b_bits": "0000000000002240",
+      "c_bits": "0000000000002240",
+      "expected_bits": "0000000000002040"
+    },
+    {
+      "kind": "divide_multiply_subtract",
+      "a_bits": "9a9999999999c93f",
+      "b_bits": "0000000000000040",
+      "c_bits": "7b14ae47e17a743f",
+      "expected_bits": "3bdf4f8d976e723f"
+    }
+  ]
+}

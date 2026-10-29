@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":54,"failures":[]}
+PASS source current-vessel pool lookups and selected-phase isolation preserve full-prefix output

@@ -1,0 +1,182 @@
+openjdk version "21.0.12.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode)
+INFO  Using log config file: jar:file:/Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /private/tmp/chemlab-ghidra-config/schjr-ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /private/tmp/chemlab-ghidra-config/schjr-ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (491 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1131 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /Users/schjr/Programs/ChemLab_REA/tools/ghidra
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /private/tmp/chemlab-original-selected/original-selected (HeadlessAnalyzer)  
+INFO  Creating project: /private/tmp/chemlab-original-selected/original-selected (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /private/tmp/chemlab-original-selected/original-selected (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/main.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:borlandcpp (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, /Users/schjr/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  TLS callbacks at 5a0010 (TLSDirectory)  
+INFO  Removing 1 unused filesystems from cache (FileSystemInstanceManager)  
+INFO  Additional info:
+Loading file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/main.exe?MD5=8bcbcbed10cc3dfb5f6645b4a8faa173...
+------------------------------------------------
+
+Searching 3 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library COMCTL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library COMDLG32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library OLE32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library OLEAUT32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library VERSION.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library WINMM.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library WINSPOOL.DRV...
+Library not found.
+------------------------------------------------
+
+Searching 3 paths for library WSOCK32.DLL...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'main.exe' to imported libraries...
+  [ADVAPI32.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [VERSION.DLL] -> not found in project
+  [WSOCK32.DLL] -> not found in project
+  [WINSPOOL.DRV] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+  [COMDLG32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [WINMM.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [OLEAUT32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: RecoverSelected.java 'seed' '/Users/schjr/Programs/ChemLab_REA/evidence/original_logic/selected' '0x00477708'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/schjr/Programs/ChemLab_REA/tools/ghidra/RecoverSelected.java (HeadlessAnalyzer)  
+INFO  RecoverSelected.java> SEED 00477708 FUN_00477708 (GhidraScript)  
+INFO  ANALYZING all memory and code: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/main.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /Users/schjr/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 0052c2bf: Unable to read bytes at ram:40e8c031 (DecompileCallback)  
+INFO  Packed database cache: /private/tmp/chemlab-ghidra-cache/schjr-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.175 secs
+    Apply Data Archives                        0.361 secs
+    Call Convention ID                         0.011 secs
+    Call-Fixup Installer                       0.070 secs
+    Create Address Tables                      0.152 secs
+    Create Address Tables - One Time           0.323 secs
+    Create Function                            0.433 secs
+    Data Reference                             0.302 secs
+    Decompiler Switch Analysis                 9.588 secs
+    Decompiler Switch Analysis - One Time      0.541 secs
+    Demangler GNU                              0.032 secs
+    Demangler Microsoft                        0.012 secs
+    Disassemble                                1.519 secs
+    Disassemble Entry Points                   0.080 secs
+    Disassemble Entry Points - One Time        0.002 secs
+    Embedded Media                             0.022 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.867 secs
+    Function Start Pre Search                  0.018 secs
+    Function Start Search                      0.108 secs
+    Function Start Search After Code           0.035 secs
+    Function Start Search After Data           0.025 secs
+    Non-Returning Functions - Discovered       0.468 secs
+    Non-Returning Functions - Known            0.002 secs
+    PDB Universal                              0.001 secs
+    Reference                                  0.344 secs
+    Scalar Operand References                  1.015 secs
+    Shared Return Calls                        0.155 secs
+    Stack                                      3.576 secs
+    Subroutine References                      0.277 secs
+    Subroutine References - One Time           0.000 secs
+    WindowsResourceReference                   0.500 secs
+    X86 Function Callee Purge                  0.093 secs
+    x86 Constant Reference Analyzer            2.961 secs
+-----------------------------------------------------
+     Total Time   24 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/main.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: RecoverSelected.java 'export' '/Users/schjr/Programs/ChemLab_REA/evidence/original_logic/selected' '0x00477708'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/schjr/Programs/ChemLab_REA/tools/ghidra/RecoverSelected.java (HeadlessAnalyzer)  
+INFO  RecoverSelected.java> EXPORTED 00477708 28608 bytes (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/main.exe (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///Users/schjr/Programs/ChemLab_REA/evidence/native-inputs/main.exe (HeadlessAnalyzer)  
+INFO  /main.exe: file created (schjr) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /main.exe (original-selected:/main.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,59 @@
+{
+  "tested_archive_sha256": "dbf709d3c2a9ae5b2f109a58101e2e64003e3b7950ee10422bf0586e653abafa",
+  "manifest_files_verified": 1556,
+  "results": [
+    {
+      "test": "import",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-import.log",
+      "log_sha256": "641da1f581133f73fc49623f3534d02f3340bb743ae80579654219024822073a"
+    },
+    {
+      "test": "test_original_run_corpus.gd",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-test_original_run_corpus.gd.log",
+      "log_sha256": "1ee2e16b8f7d98d9dffae74467e90c05fa90e8a61f446d4ac7728da000cfdbaa"
+    },
+    {
+      "test": "test_original_gas_operand_order.gd",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-test_original_gas_operand_order.gd.log",
+      "log_sha256": "a1e9681a819f343993410c86c067b04af1fad65aca4dead5a9bf239234d952ea"
+    },
+    {
+      "test": "test_native_action_workflow.gd",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-test_native_action_workflow.gd.log",
+      "log_sha256": "5fff69396048fe4653b0d20c2bd252fd1fc22a3ddd6dc7a48137421618c139f9"
+    },
+    {
+      "test": "test_native_canvas_presentation.gd",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-test_native_canvas_presentation.gd.log",
+      "log_sha256": "c41b4097077613a9908f987f8cee6fde122f2816a2ceba1259f57b0a759d08fc"
+    },
+    {
+      "test": "test_original_pen.gd",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-test_original_pen.gd.log",
+      "log_sha256": "100c9b002501896161c51967f9d4aedb5509235037956fb58487fb03c8e686b7"
+    },
+    {
+      "test": "test_actual_paused_particle_checkpoint.gd",
+      "exit": 0,
+      "ok": true,
+      "log": "evidence/godot/gas-run-pen-fresh-test_actual_paused_particle_checkpoint.gd.log",
+      "log_sha256": "53b1ffa2997d0096480073d48b7a978a15ef6d0c24bd20d80747c2f929ce5bf4"
+    }
+  ],
+  "all28_end_to_end_verified": false,
+  "native_vcl_verified": false,
+  "production_startup_profile_verified": false,
+  "source_files_unchanged_after_import": true
+}

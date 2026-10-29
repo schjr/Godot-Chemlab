@@ -1,0 +1,22 @@
+{
+  "file": "evidence/windows-runtime/precision-and-graphics-2026-10-14/allocator-globals.txt",
+  "file_sha256": "a424ade43fcc94d6f49f675670a674b836fda78aed65d8895fdf71d9426c104a",
+  "archive_sha256": "401a48ec4d5981fcdb2d738acfdbaaa4f0c37074fb11e211e97f894f0666791c",
+  "scope": "Parent identifies this export as original Windows process9348. Text contains only raw bytes; addresses/process identity derive from documented capture command, not an embedded file header. Not evidence of universal manager selection.",
+  "observations": [
+    {
+      "address": "0x575604",
+      "raw": "b006530038085300ac0b5300",
+      "pointers": [
+        "0x5306b0",
+        "0x530838",
+        "0x530bac"
+      ]
+    },
+    {
+      "address": "0x57598c",
+      "raw": "28445300",
+      "pointer": "0x534428"
+    }
+  ]
+}

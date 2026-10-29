@@ -1,0 +1,1246 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TELE2CHEMFRAME",
+      0
+    ],
+    "file_offset": 1437344,
+    "resource_size": 1681,
+    "sha256": "3a0a8694d1ab93fc4e781b5c8d08f1abd327952abb7e1e44f79123440da70283",
+    "binary": "recovered/forms/_ency/TELE2CHEMFRAME.dfm.bin",
+    "parsed_size": 1681,
+    "trailing_bytes": 0,
+    "root_class": "Tele2chemFrame",
+    "root_name": "ele2chemFrame",
+    "component_count": 13,
+    "event_handlers": [
+      {
+        "component": "SpeedButton1",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton1Click"
+      },
+      {
+        "component": "SpeedButton2",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton2Click"
+      },
+      {
+        "component": "SpeedButton3",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton3Click"
+      },
+      {
+        "component": "StringGrid1",
+        "class": "TStringGrid",
+        "event": "OnClick",
+        "handler": "StringGrid1Click"
+      },
+      {
+        "component": "StringGrid2",
+        "class": "TStringGrid",
+        "event": "OnClick",
+        "handler": "StringGrid2Click"
+      },
+      {
+        "component": "ComboBox2",
+        "class": "TComboBox",
+        "event": "OnChange",
+        "handler": "ComboBox2Change"
+      },
+      {
+        "component": "ComboBox3",
+        "class": "TComboBox",
+        "event": "OnChange",
+        "handler": "ComboBox3Change"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "ComboBox2Change",
+        "entry_file_offset": 1174625,
+        "entry_size": 22,
+        "code_va": "0x00428A7C",
+        "code_file_offset": 163964,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ComboBox3Change",
+        "entry_file_offset": 1174647,
+        "entry_size": 22,
+        "code_va": "0x00428ACC",
+        "code_file_offset": 164044,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1124047,
+        "entry_size": 24,
+        "code_va": "0x004049D8",
+        "code_file_offset": 16344,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1174669,
+        "entry_size": 24,
+        "code_va": "0x00428B1C",
+        "code_file_offset": 164124,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1187645,
+        "entry_size": 24,
+        "code_va": "0x004317D4",
+        "code_file_offset": 200148,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1195613,
+        "entry_size": 24,
+        "code_va": "0x0043609C",
+        "code_file_offset": 218780,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1207635,
+        "entry_size": 24,
+        "code_va": "0x0043DC18",
+        "code_file_offset": 250392,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1214013,
+        "entry_size": 24,
+        "code_va": "0x00440B34",
+        "code_file_offset": 262452,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1223659,
+        "entry_size": 24,
+        "code_va": "0x004472DC",
+        "code_file_offset": 288988,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1124071,
+        "entry_size": 24,
+        "code_va": "0x00404A2C",
+        "code_file_offset": 16428,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1174693,
+        "entry_size": 24,
+        "code_va": "0x0042A440",
+        "code_file_offset": 170560,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1187669,
+        "entry_size": 24,
+        "code_va": "0x004318CC",
+        "code_file_offset": 200396,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1195637,
+        "entry_size": 24,
+        "code_va": "0x004360F0",
+        "code_file_offset": 218864,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1207659,
+        "entry_size": 24,
+        "code_va": "0x0043DC74",
+        "code_file_offset": 250484,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1214037,
+        "entry_size": 24,
+        "code_va": "0x00440B90",
+        "code_file_offset": 262544,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1124325,
+        "entry_size": 24,
+        "code_va": "0x00406DFC",
+        "code_file_offset": 25596,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1174763,
+        "entry_size": 24,
+        "code_va": "0x0042BDE0",
+        "code_file_offset": 177120,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1187693,
+        "entry_size": 24,
+        "code_va": "0x004319C4",
+        "code_file_offset": 200644,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1195661,
+        "entry_size": 24,
+        "code_va": "0x00436144",
+        "code_file_offset": 218948,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1207683,
+        "entry_size": 24,
+        "code_va": "0x0043DCD0",
+        "code_file_offset": 250576,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton3Click",
+        "entry_file_offset": 1214061,
+        "entry_size": 24,
+        "code_va": "0x00440BEC",
+        "code_file_offset": 262636,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "StringGrid1Click",
+        "entry_file_offset": 1174717,
+        "entry_size": 23,
+        "code_va": "0x0042BDB0",
+        "code_file_offset": 177072,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "StringGrid2Click",
+        "entry_file_offset": 1174740,
+        "entry_size": 23,
+        "code_va": "0x0042BDC8",
+        "code_file_offset": 177096,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/Tele2chemFrame.hpp"
+  },
+  "form": {
+    "class": "Tele2chemFrame",
+    "name": "ele2chemFrame",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 38
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 44
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 375,
+          "offset": 52
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 371,
+          "offset": 62
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "GB2312_CHARSET",
+          "offset": 78
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 105
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -13,
+          "offset": 131
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "宋体",
+          "offset": 143
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 160
+        }
+      },
+      {
+        "name": "ParentFont",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 173
+        }
+      },
+      {
+        "name": "TabOrder",
+        "value": {
+          "type": 2,
+          "value": 0,
+          "offset": 183
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton1",
+        "flags": 0,
+        "offset": 186,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 148,
+              "offset": 217
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 137,
+              "offset": 224
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 81,
+              "offset": 233
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 22,
+              "offset": 242
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "建立单向链接",
+              "offset": 252
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 271
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton1Click",
+              "offset": 280
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label3",
+        "flags": 0,
+        "offset": 301,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 143,
+              "offset": 320
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 7,
+              "offset": 327
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 52,
+              "offset": 335
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 344
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "链接名称",
+              "offset": 354
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label1",
+        "flags": 0,
+        "offset": 366,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 385
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 7,
+              "offset": 391
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 52,
+              "offset": 399
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 408
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "被链接字",
+              "offset": 418
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label2",
+        "flags": 0,
+        "offset": 430,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 240,
+              "offset": 449
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 7,
+              "offset": 456
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 39,
+              "offset": 464
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 473
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "链接字",
+              "offset": 483
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton2",
+        "flags": 0,
+        "offset": 493,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 148,
+              "offset": 524
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 159,
+              "offset": 531
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 81,
+              "offset": 540
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 22,
+              "offset": 549
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "建立双向链接",
+              "offset": 559
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 578
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton2Click",
+              "offset": 587
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton3",
+        "flags": 0,
+        "offset": 608,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 148,
+              "offset": 639
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 49,
+              "offset": 646
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 81,
+              "offset": 654
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 22,
+              "offset": 663
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "常用链接名称",
+              "offset": 673
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 692
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton3Click",
+              "offset": 701
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TStringGrid",
+        "name": "StringGrid1",
+        "flags": 0,
+        "offset": 722,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 751
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 47,
+              "offset": 757
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 129,
+              "offset": 765
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 290,
+              "offset": 775
+            }
+          },
+          {
+            "name": "ColCount",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 787
+            }
+          },
+          {
+            "name": "FixedCols",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 799
+            }
+          },
+          {
+            "name": "RowCount",
+            "value": {
+              "type": 2,
+              "value": 10,
+              "offset": 810
+            }
+          },
+          {
+            "name": "FixedRows",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 822
+            }
+          },
+          {
+            "name": "Options",
+            "value": {
+              "type": 11,
+              "value": [
+                "goDrawFocusSelected"
+              ],
+              "offset": 832
+            }
+          },
+          {
+            "name": "ScrollBars",
+            "value": {
+              "type": 7,
+              "value": "ssVertical",
+              "offset": 865
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 886
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "StringGrid1Click",
+              "offset": 896
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TStringGrid",
+        "name": "StringGrid2",
+        "flags": 0,
+        "offset": 916,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 239,
+              "offset": 945
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 47,
+              "offset": 952
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 129,
+              "offset": 960
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 290,
+              "offset": 970
+            }
+          },
+          {
+            "name": "ColCount",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 982
+            }
+          },
+          {
+            "name": "FixedCols",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 994
+            }
+          },
+          {
+            "name": "RowCount",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 1005
+            }
+          },
+          {
+            "name": "FixedRows",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1017
+            }
+          },
+          {
+            "name": "Options",
+            "value": {
+              "type": 11,
+              "value": [
+                "goDrawFocusSelected"
+              ],
+              "offset": 1027
+            }
+          },
+          {
+            "name": "ScrollBars",
+            "value": {
+              "type": 7,
+              "value": "ssVertical",
+              "offset": 1060
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 1081
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "StringGrid2Click",
+              "offset": 1091
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TComboBox",
+        "name": "ComboBox1",
+        "flags": 0,
+        "offset": 1111,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 143,
+              "offset": 1136
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 23,
+              "offset": 1143
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 90,
+              "offset": 1151
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 1160
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1175
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1202
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1228
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1240
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1257
+            }
+          },
+          {
+            "name": "ItemHeight",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1270
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1283
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 1293
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TComboBox",
+        "name": "ComboBox2",
+        "flags": 0,
+        "offset": 1297,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 1322
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 23,
+              "offset": 1328
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 129,
+              "offset": 1336
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 1346
+            }
+          },
+          {
+            "name": "ItemHeight",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1359
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 3,
+              "offset": 1370
+            }
+          },
+          {
+            "name": "OnChange",
+            "value": {
+              "type": 7,
+              "value": "ComboBox2Change",
+              "offset": 1381
+            }
+          },
+          {
+            "name": "Items.Strings",
+            "value": {
+              "type": 1,
+              "value": [
+                {
+                  "type": 6,
+                  "value": "化学元素列表",
+                  "offset": 1413
+                },
+                {
+                  "type": 6,
+                  "value": "化学药品列表",
+                  "offset": 1427
+                }
+              ],
+              "offset": 1412
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TComboBox",
+        "name": "ComboBox3",
+        "flags": 0,
+        "offset": 1444,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 239,
+              "offset": 1469
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 23,
+              "offset": 1476
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 129,
+              "offset": 1484
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 1494
+            }
+          },
+          {
+            "name": "ItemHeight",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1507
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 4,
+              "offset": 1518
+            }
+          },
+          {
+            "name": "OnChange",
+            "value": {
+              "type": 7,
+              "value": "ComboBox3Change",
+              "offset": 1529
+            }
+          },
+          {
+            "name": "Items.Strings",
+            "value": {
+              "type": 1,
+              "value": [
+                {
+                  "type": 6,
+                  "value": "化学元素列表",
+                  "offset": 1561
+                },
+                {
+                  "type": 6,
+                  "value": "化学药品列表",
+                  "offset": 1575
+                }
+              ],
+              "offset": 1560
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TStatusBar",
+        "name": "StatusBar1",
+        "flags": 0,
+        "offset": 1592,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1619
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 352,
+              "offset": 1625
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 375,
+              "offset": 1634
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 19,
+              "offset": 1644
+            }
+          },
+          {
+            "name": "Panels",
+            "value": {
+              "type": 14,
+              "value": [
+                {
+                  "properties": [
+                    {
+                      "name": "Width",
+                      "value": {
+                        "type": 2,
+                        "value": 50,
+                        "offset": 1661
+                      }
+                    }
+                  ]
+                }
+              ],
+              "offset": 1653
+            }
+          },
+          {
+            "name": "SimplePanel",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1677
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TSEARCHWEB",
+      0
+    ],
+    "file_offset": 1506260,
+    "resource_size": 521,
+    "sha256": "1207bf7555e454f68c4d20d34756ab48cf1bc593933c9582ed8d5e9d0033e20c",
+    "binary": "recovered/forms/_ency/TSEARCHWEB.dfm.bin",
+    "parsed_size": 521,
+    "trailing_bytes": 0,
+    "root_class": "Tsearchweb",
+    "root_name": "searchweb",
+    "component_count": 2,
+    "event_handlers": [],
+    "published_method_candidates": [],
+    "declaration_skeleton": "recovered/project/_ency/Tsearchweb.hpp"
+  },
+  "form": {
+    "class": "Tsearchweb",
+    "name": "searchweb",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 192,
+          "offset": 30
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 114,
+          "offset": 37
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 544,
+          "offset": 45
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 375,
+          "offset": 55
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "searchweb",
+          "offset": 66
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "clBtnFace",
+          "offset": 83
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 107
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 135
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 161
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 173
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 199
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 216
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 231
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 13,
+          "offset": 244
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TCppWebBrowser",
+        "name": "CppWebBrowser1",
+        "flags": 0,
+        "offset": 247,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 282
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 288
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 536,
+              "offset": 296
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 341,
+              "offset": 306
+            }
+          },
+          {
+            "name": "TabStop",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 317
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alClient",
+              "offset": 324
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 343
+            }
+          },
+          {
+            "name": "ControlData",
+            "value": {
+              "type": 10,
+              "value": "4C000000663700003E2300000000000000000000000000000000000000000000000000004C000000000000000000000001000000E0D057007335CF11AE6908002B2E126208000000000000004C0000000114020000000000C000000000000046800000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000",
+              "size": 156,
+              "sha256": "c336866d387f03dd316ac8f1ae25c18e8d1eb36f743c8339eb28f531ecf2f9bc",
+              "offset": 357
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

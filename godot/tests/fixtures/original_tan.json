@@ -1,0 +1,994 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "entry": "0053AD24",
+  "assembly": [
+    {
+      "address": "0x53ad24",
+      "bytes": "55",
+      "mnemonic": "push",
+      "operands": "ebp"
+    },
+    {
+      "address": "0x53ad25",
+      "bytes": "8bec",
+      "mnemonic": "mov",
+      "operands": "ebp, esp"
+    },
+    {
+      "address": "0x53ad27",
+      "bytes": "53",
+      "mnemonic": "push",
+      "operands": "ebx"
+    },
+    {
+      "address": "0x53ad28",
+      "bytes": "dd4508",
+      "mnemonic": "fld",
+      "operands": "qword ptr [ebp + 8]"
+    },
+    {
+      "address": "0x53ad2b",
+      "bytes": "66b8f07f",
+      "mnemonic": "mov",
+      "operands": "ax, 0x7ff0"
+    },
+    {
+      "address": "0x53ad2f",
+      "bytes": "6623450e",
+      "mnemonic": "and",
+      "operands": "ax, word ptr [ebp + 0xe]"
+    },
+    {
+      "address": "0x53ad33",
+      "bytes": "663d4043",
+      "mnemonic": "cmp",
+      "operands": "ax, 0x4340"
+    },
+    {
+      "address": "0x53ad37",
+      "bytes": "7307",
+      "mnemonic": "jae",
+      "operands": "0x53ad40"
+    },
+    {
+      "address": "0x53ad39",
+      "bytes": "d9f2",
+      "mnemonic": "fptan",
+      "operands": ""
+    },
+    {
+      "address": "0x53ad3b",
+      "bytes": "ddd8",
+      "mnemonic": "fstp",
+      "operands": "st(0)"
+    },
+    {
+      "address": "0x53ad3d",
+      "bytes": "5b",
+      "mnemonic": "pop",
+      "operands": "ebx"
+    },
+    {
+      "address": "0x53ad3e",
+      "bytes": "5d",
+      "mnemonic": "pop",
+      "operands": "ebp"
+    },
+    {
+      "address": "0x53ad3f",
+      "bytes": "c3",
+      "mnemonic": "ret",
+      "operands": ""
+    },
+    {
+      "address": "0x53ad40",
+      "bytes": "ddd8",
+      "mnemonic": "fstp",
+      "operands": "st(0)"
+    }
+  ],
+  "reference": "Rosetta executes FPTAN; pop pushed 1.0; retain 80-bit result; PC64 nearest. Finite abs(input)<2^53 only.",
+  "reference_sha256": "b073685c93a9eae536e75eeb8ce094676de8a0e6259e15d227948d7623406954",
+  "cases": [
+    {
+      "input_bits": "0000000000000000",
+      "stored_bits": "0000000000000000",
+      "extended_bits": "00000000000000000000"
+    },
+    {
+      "input_bits": "0000000000000080",
+      "stored_bits": "0000000000000080",
+      "extended_bits": "00000000000000000080"
+    },
+    {
+      "input_bits": "9a9999999999b93f",
+      "stored_bits": "800b437788afb93f",
+      "extended_bits": "de005c18ba437ccdfb3f"
+    },
+    {
+      "input_bits": "9a9999999999b9bf",
+      "stored_bits": "800b437788afb9bf",
+      "extended_bits": "de005c18ba437ccdfbbf"
+    },
+    {
+      "input_bits": "182d4454fb21e93f",
+      "stored_bits": "ffffffffffffef3f",
+      "extended_bits": "96fbfffffffffffffe3f"
+    },
+    {
+      "input_bits": "182d4454fb21e9bf",
+      "stored_bits": "ffffffffffffefbf",
+      "extended_bits": "96fbfffffffffffffebf"
+    },
+    {
+      "input_bits": "30058ee42eff2b2b",
+      "stored_bits": "30058ee42eff2b2b",
+      "extended_bits": "008029702477f9dfb23e"
+    },
+    {
+      "input_bits": "30058ee42eff2bab",
+      "stored_bits": "30058ee42eff2bab",
+      "extended_bits": "008029702477f9dfb2be"
+    },
+    {
+      "input_bits": "0100000000000000",
+      "stored_bits": "0100000000000000",
+      "extended_bits": "0000000000000080cd3b"
+    },
+    {
+      "input_bits": "0100000000000080",
+      "stored_bits": "0100000000000080",
+      "extended_bits": "0000000000000080cdbb"
+    },
+    {
+      "input_bits": "ffffffffffff3f43",
+      "stored_bits": "2528b78641988c3f",
+      "extended_bits": "222941b9350cc2e4f83f"
+    },
+    {
+      "input_bits": "172d4454fb21f93f",
+      "stored_bits": "7189775049152943",
+      "extended_bits": "1c8b4bbc834aaac83240"
+    },
+    {
+      "input_bits": "182d4454fb21f93f",
+      "stored_bits": "b2ead346d5024d43",
+      "extended_bits": "5b8f559f36aa16e83440"
+    },
+    {
+      "input_bits": "192d4454fb21f93f",
+      "stored_bits": "67baa01f8f1736c3",
+      "extended_bits": "3d36d305fd78bcb033c0"
+    },
+    {
+      "input_bits": "192d4454fb21f9bf",
+      "stored_bits": "67baa01f8f173643",
+      "extended_bits": "3d36d305fd78bcb03340"
+    },
+    {
+      "input_bits": "182d4454fb21f9bf",
+      "stored_bits": "b2ead346d5024dc3",
+      "extended_bits": "5b8f559f36aa16e834c0"
+    },
+    {
+      "input_bits": "172d4454fb21f9bf",
+      "stored_bits": "71897750491529c3",
+      "extended_bits": "1c8b4bbc834aaac832c0"
+    },
+    {
+      "input_bits": "d121337f7cd91240",
+      "stored_bits": "b23c60de19840a43",
+      "extended_bits": "1a93e501f3ce20d43040"
+    },
+    {
+      "input_bits": "d221337f7cd91240",
+      "stored_bits": "779ce2d938573343",
+      "extended_bits": "e7b4e314cfc6b99a3340"
+    },
+    {
+      "input_bits": "d321337f7cd91240",
+      "stored_bits": "3d336202022c14c3",
+      "extended_bits": "41e69911131060a131c0"
+    },
+    {
+      "input_bits": "2ac08631360e74c0",
+      "stored_bits": "55c93fc94695debf",
+      "extended_bits": "d5a54afe4936aaf4fdbf"
+    },
+    {
+      "input_bits": "aca21694dd437fc0",
+      "stored_bits": "c21fa0dc118becbf",
+      "extended_bits": "ab10fe00e58e58e4febf"
+    },
+    {
+      "input_bits": "68f433c5d7208740",
+      "stored_bits": "acd24f22c0090ec0",
+      "extended_bits": "0b5f957e12014ef000c0"
+    },
+    {
+      "input_bits": "84861a591e817840",
+      "stored_bits": "223ed615884ae7bf",
+      "extended_bits": "a811f1b1ae4054bafebf"
+    },
+    {
+      "input_bits": "90ac3622e7518e40",
+      "stored_bits": "613790e95114e2bf",
+      "extended_bits": "580abb814c8fa290febf"
+    },
+    {
+      "input_bits": "600ff3c7fd3b5a40",
+      "stored_bits": "32898cebd6520940",
+      "extended_bits": "e98c49645cb796ca0040"
+    },
+    {
+      "input_bits": "cb83e44d05297fc0",
+      "stored_bits": "5e6956d4f658f63f",
+      "extended_bits": "52f14ab3a2b6c7b2ff3f"
+    },
+    {
+      "input_bits": "289c42c49d1a55c0",
+      "stored_bits": "f871bd720399db3f",
+      "extended_bits": "4cc28feb951bc8dcfd3f"
+    },
+    {
+      "input_bits": "c0104cedfe3f4a40",
+      "stored_bits": "5279a803a375f4bf",
+      "extended_bits": "e493ca431d18ada3ffbf"
+    },
+    {
+      "input_bits": "f07c5d0c48745e40",
+      "stored_bits": "ed4189b8643debbf",
+      "extended_bits": "fa660f4ac425ebd9febf"
+    },
+    {
+      "input_bits": "a4e6bfac13408640",
+      "stored_bits": "fc1cf9feff0a01c0",
+      "extended_bits": "0ddce7c8f7ff578800c0"
+    },
+    {
+      "input_bits": "fe835018d49683c0",
+      "stored_bits": "f3f7ff6efbd32240",
+      "extended_bits": "f798bfff77db9f960240"
+    },
+    {
+      "input_bits": "06aa56289ecf8340",
+      "stored_bits": "963c7452034de8bf",
+      "extended_bits": "ccb1e4a1931a68c2febf"
+    },
+    {
+      "input_bits": "be7f92fd481a8fc0",
+      "stored_bits": "18b7dd7935dbe53f",
+      "extended_bits": "05c2b8edceabd9aefe3f"
+    },
+    {
+      "input_bits": "f05206c3575b5340",
+      "stored_bits": "cda12519473800c0",
+      "extended_bits": "01670e2dc938c28100c0"
+    },
+    {
+      "input_bits": "0ed271fa78d574c0",
+      "stored_bits": "b9380032d626d6bf",
+      "extended_bits": "55c5c50190b136b1fdbf"
+    },
+    {
+      "input_bits": "94c5c32f079a8440",
+      "stored_bits": "a3563fc0b8b2e0bf",
+      "extended_bits": "7214b5fa01c69585febf"
+    },
+    {
+      "input_bits": "8a133977b9148240",
+      "stored_bits": "8c5a72b3da12e33f",
+      "extended_bits": "6b5ed4929bd59698fe3f"
+    },
+    {
+      "input_bits": "c65c1b2187d68cc0",
+      "stored_bits": "d62fc6862ce2f03f",
+      "extended_bits": "11ad7e3136641187ff3f"
+    },
+    {
+      "input_bits": "487f81e0c1dd7c40",
+      "stored_bits": "63a974bde46ba73f",
+      "extended_bits": "19154ba5eb255fbbfa3f"
+    },
+    {
+      "input_bits": "b0773dbd10ab5940",
+      "stored_bits": "c4a512f162e6f8bf",
+      "extended_bits": "3f222e95881733c7ffbf"
+    },
+    {
+      "input_bits": "6d4d6d3cc84184c0",
+      "stored_bits": "9566ff31c432fcbf",
+      "extended_bits": "d2a734fb8f2196e1ffbf"
+    },
+    {
+      "input_bits": "802f29df998e7e40",
+      "stored_bits": "8ff89192923103c0",
+      "extended_bits": "2074c48f94948c9900c0"
+    },
+    {
+      "input_bits": "401b1ea9be3a4940",
+      "stored_bits": "6b3f28169f13c93f",
+      "extended_bits": "6157fb41b1f89cc8fc3f"
+    },
+    {
+      "input_bits": "9278b45d7d4e8640",
+      "stored_bits": "985f3c94e655e93f",
+      "extended_bits": "fcc3fce2a134afcafe3f"
+    },
+    {
+      "input_bits": "89cae9037ea78ec0",
+      "stored_bits": "a2eb2acd3864eebf",
+      "extended_bits": "3e0e5d5769c621f3febf"
+    },
+    {
+      "input_bits": "c5417cbff9fe8ec0",
+      "stored_bits": "3070dabd3904f33f",
+      "extended_bits": "6d8381d3eecd2198ff3f"
+    },
+    {
+      "input_bits": "c0f5832659c73e40",
+      "stored_bits": "1fcef94602b0e7bf",
+      "extended_bits": "7ef470ce371280bdfebf"
+    },
+    {
+      "input_bits": "4cb4a4b98aeb7440",
+      "stored_bits": "8cd9df657e071cc0",
+      "extended_bits": "e160ccfe2ef33be001c0"
+    },
+    {
+      "input_bits": "d400a21c7b2164c0",
+      "stored_bits": "a21fcf667352f1bf",
+      "extended_bits": "c10cfd78369b938affbf"
+    },
+    {
+      "input_bits": "427d8ec24db68540",
+      "stored_bits": "374c6d04c650e13f",
+      "extended_bits": "a8b5616a2330868afe3f"
+    },
+    {
+      "input_bits": "8ceb9005d4347540",
+      "stored_bits": "15530e4065fb833f",
+      "extended_bits": "28a59872002adb9ff83f"
+    },
+    {
+      "input_bits": "742efebab51f7f40",
+      "stored_bits": "4891e6ebca5839c0",
+      "extended_bits": "59438a345f57c6ca03c0"
+    },
+    {
+      "input_bits": "a8f70ed3b9e67b40",
+      "stored_bits": "bfba648169ccd43f",
+      "extended_bits": "24f4d5250b4c63a6fd3f"
+    },
+    {
+      "input_bits": "6a5acc0a1d9e8e40",
+      "stored_bits": "d74119f02e06dcbf",
+      "extended_bits": "29b40eca807731e0fdbf"
+    },
+    {
+      "input_bits": "20eba54acac18440",
+      "stored_bits": "ecedcd0a12a21140",
+      "extended_bits": "4d5c6f6f5690108d0140"
+    },
+    {
+      "input_bits": "4abd9e4d0d2d8c40",
+      "stored_bits": "fba07210c3eb76bf",
+      "extended_bits": "fad5079583185eb7f7bf"
+    },
+    {
+      "input_bits": "18c7b79ab14d7cc0",
+      "stored_bits": "b509d73e701de0bf",
+      "extended_bits": "b6a44db8f681eb80febf"
+    },
+    {
+      "input_bits": "f8ee1bc877918ec0",
+      "stored_bits": "955b2943e7c901c0",
+      "extended_bits": "96a9dc4a193a4f8e00c0"
+    },
+    {
+      "input_bits": "0073f78c801b6ac0",
+      "stored_bits": "524f1b139fb031c0",
+      "extended_bits": "068c7ada98f8848d03c0"
+    },
+    {
+      "input_bits": "4a04c7d694f98440",
+      "stored_bits": "a35cc2c7ceaeffbf",
+      "extended_bits": "bf15e5123e7676fdffbf"
+    },
+    {
+      "input_bits": "d0fe15cb5c305240",
+      "stored_bits": "22480d8a0671e13f",
+      "extended_bits": "870c416a5034888bfe3f"
+    },
+    {
+      "input_bits": "4cf15326728a8540",
+      "stored_bits": "8121d911a67a0c40",
+      "extended_bits": "b3070cc98e30d5e30040"
+    },
+    {
+      "input_bits": "86b1ddcd27e678c0",
+      "stored_bits": "b015722a06c7e53f",
+      "extended_bits": "e683ad90533138aefe3f"
+    },
+    {
+      "input_bits": "eee8c2d3e5f87dc0",
+      "stored_bits": "6a57e56246040040",
+      "extended_bits": "6d52bb2a173322800040"
+    },
+    {
+      "input_bits": "0cb73339b53b70c0",
+      "stored_bits": "62c165008013fa3f",
+      "extended_bits": "110c0b2e03009cd0ff3f"
+    },
+    {
+      "input_bits": "4a460cd9cfab72c0",
+      "stored_bits": "c4dd1b55aee2d2bf",
+      "extended_bits": "7920eedea8721597fdbf"
+    },
+    {
+      "input_bits": "5ddc3c1c08a989c0",
+      "stored_bits": "ff5291a0ae0d03c0",
+      "extended_bits": "1cf5978a04756d9800c0"
+    },
+    {
+      "input_bits": "001bbbe7825608c0",
+      "stored_bits": "bbff4a7f8f84b93f",
+      "extended_bits": "6ed7fd57fa7b24ccfb3f"
+    },
+    {
+      "input_bits": "a6dff75186ce7ac0",
+      "stored_bits": "6a0afcddc3d22840",
+      "extended_bits": "5c5253e0ef1e96c60240"
+    },
+    {
+      "input_bits": "00045a8c84d75740",
+      "stored_bits": "f0732b71af830040",
+      "extended_bits": "e7839f5b897b1d840040"
+    },
+    {
+      "input_bits": "8e4a9d275a5b7cc0",
+      "stored_bits": "8f458524a83f0fc0",
+      "extended_bits": "6e772c2a2441fdf900c0"
+    },
+    {
+      "input_bits": "63b8617d04cc8ec0",
+      "stored_bits": "0a0dc4dc7dc0f63f",
+      "extended_bits": "a54d6820e6ee03b6ff3f"
+    },
+    {
+      "input_bits": "f681c6c53f468e40",
+      "stored_bits": "72d04ff358e90240",
+      "extended_bits": "2493837e9ac74a970040"
+    },
+    {
+      "input_bits": "ec8202e533698bc0",
+      "stored_bits": "181281e6e61fe8bf",
+      "extended_bits": "c9bd90083437ffc0febf"
+    },
+    {
+      "input_bits": "5e2a75d1a89182c0",
+      "stored_bits": "d305c05524a2debf",
+      "extended_bits": "28952e00ae2211f5fdbf"
+    },
+    {
+      "input_bits": "fc97979632607640",
+      "stored_bits": "eff2826bbca1c0bf",
+      "extended_bits": "4a7997175ce30d85fcbf"
+    },
+    {
+      "input_bits": "556e7daf4a6788c0",
+      "stored_bits": "eb0d65bed56b1140",
+      "extended_bits": "935b6f28f3ad5e8b0140"
+    },
+    {
+      "input_bits": "242c6eca95e98a40",
+      "stored_bits": "5b53394bec30db3f",
+      "extended_bits": "0ed89aca596287d9fd3f"
+    },
+    {
+      "input_bits": "10d10e4695af5940",
+      "stored_bits": "561b24ca9769f5bf",
+      "extended_bits": "79b1da2051be4cabffbf"
+    },
+    {
+      "input_bits": "c657ca596a9286c0",
+      "stored_bits": "c1ea460c7353d13f",
+      "extended_bits": "5904563762989b8afd3f"
+    },
+    {
+      "input_bits": "4e7699244daa71c0",
+      "stored_bits": "57b8fc18c68eb93f",
+      "extended_bits": "e8b4c2e5c73076ccfb3f"
+    },
+    {
+      "input_bits": "c4f53381804f8a40",
+      "stored_bits": "3d3d2df5249b82bf",
+      "extended_bits": "34ebe969a927d994f8bf"
+    },
+    {
+      "input_bits": "a8721bb3394c6dc0",
+      "stored_bits": "3652f1a6a4190740",
+      "extended_bits": "62b1918a3725cdb80040"
+    },
+    {
+      "input_bits": "b4b0f3e4f12b8e40",
+      "stored_bits": "48213c9e924bfa3f",
+      "extended_bits": "f1430ae1f1945cd2ff3f"
+    },
+    {
+      "input_bits": "aa2f15a7d4ff88c0",
+      "stored_bits": "c1abc4c7f5d60040",
+      "extended_bits": "9c0a5e253eaeb7860040"
+    },
+    {
+      "input_bits": "fc062cfe5a8f7640",
+      "stored_bits": "eee29cac1b74d5bf",
+      "extended_bits": "0a7017e764dda0abfdbf"
+    },
+    {
+      "input_bits": "84cbde9867e17c40",
+      "stored_bits": "941c6dbe3ef7d13f",
+      "extended_bits": "95a2e468f3f5b98ffd3f"
+    },
+    {
+      "input_bits": "4809ad104c8d84c0",
+      "stored_bits": "3b535c9bab2efdbf",
+      "extended_bits": "49db99e2da5c75e9ffbf"
+    },
+    {
+      "input_bits": "a58225b8201887c0",
+      "stored_bits": "5e50246fa551edbf",
+      "extended_bits": "39f38222792b8deafebf"
+    },
+    {
+      "input_bits": "2240770f2a768e40",
+      "stored_bits": "cc01c1dcc43af33f",
+      "extended_bits": "845e0e08e626d699ff3f"
+    },
+    {
+      "input_bits": "8505c1f523298fc0",
+      "stored_bits": "3800a203b2b508c0",
+      "extended_bits": "70c101101d90adc500c0"
+    },
+    {
+      "input_bits": "789ca82de48b7240",
+      "stored_bits": "ba5b7a294cf31c40",
+      "extended_bits": "43ccddd24b619ae70140"
+    },
+    {
+      "input_bits": "ae4f68199f5c8740",
+      "stored_bits": "ab7a4cb22639bfbf",
+      "extended_bits": "5256d5639235c9f9fbbf"
+    },
+    {
+      "input_bits": "d145ce8cb0ee82c0",
+      "stored_bits": "500f6c1fe61de13f",
+      "extended_bits": "b37d7a60fb30ef88fe3f"
+    },
+    {
+      "input_bits": "22607c0373ec71c0",
+      "stored_bits": "a8e0ee3e98e1f3bf",
+      "extended_bits": "73430577f7c10c9fffbf"
+    },
+    {
+      "input_bits": "0834a6293a6071c0",
+      "stored_bits": "cdf50a7217d94dc0",
+      "extended_bits": "ff6bae5790bbc8ee04c0"
+    },
+    {
+      "input_bits": "c0d657e5ddf755c0",
+      "stored_bits": "d51531f7f488b73f",
+      "extended_bits": "35a9ae88b9a747bcfb3f"
+    },
+    {
+      "input_bits": "c0ec5a40f11e8540",
+      "stored_bits": "f296e3e295fedc3f",
+      "extended_bits": "7e92b71c17aff4e7fd3f"
+    },
+    {
+      "input_bits": "b41bc68072ee7f40",
+      "stored_bits": "95d9efd01b3c03c0",
+      "extended_bits": "0aa7cc7e87dee09900c0"
+    },
+    {
+      "input_bits": "308a96b5c88355c0",
+      "stored_bits": "cea2a7e0370107c0",
+      "extended_bits": "b273163d05bf09b800c0"
+    },
+    {
+      "input_bits": "9cd4aa4acefe8240",
+      "stored_bits": "c7e15508170f3540",
+      "extended_bits": "e4360eaf42b878a80340"
+    },
+    {
+      "input_bits": "00e6ed3b14470240",
+      "stored_bits": "7f3270a3e077f2bf",
+      "extended_bits": "1afa93811b05bf93ffbf"
+    },
+    {
+      "input_bits": "8c6f8d5252f76bc0",
+      "stored_bits": "cfa71e0ac6a6e9bf",
+      "extended_bits": "49773ef5503036cdfebf"
+    },
+    {
+      "input_bits": "b82bcb3272748840",
+      "stored_bits": "9abddea3a1bdd33f",
+      "extended_bits": "fcceecf51e0ded9dfd3f"
+    },
+    {
+      "input_bits": "56a21352f1048240",
+      "stored_bits": "fde9a81f61521dc0",
+      "extended_bits": "34e94f47fd0893ea01c0"
+    },
+    {
+      "input_bits": "d8f6ed1cf92e6640",
+      "stored_bits": "d8d7c0a3662a3f40",
+      "extended_bits": "f3bfbe061e3553f90340"
+    },
+    {
+      "input_bits": "5dc97e759b6885c0",
+      "stored_bits": "1ea9b6ba0b1ccbbf",
+      "extended_bits": "73f248b5d55de0d8fcbf"
+    },
+    {
+      "input_bits": "285deb8f6f2864c0",
+      "stored_bits": "535c27b96968fbbf",
+      "extended_bits": "639be23ac94d43dbffbf"
+    },
+    {
+      "input_bits": "1e430cf2a13c73c0",
+      "stored_bits": "fc10e438db35b63f",
+      "extended_bits": "7edc8720c7d9aeb1fb3f"
+    },
+    {
+      "input_bits": "86c1abcaa2628a40",
+      "stored_bits": "e278f2228559eebf",
+      "extended_bits": "5a0dc7931729ccf2febf"
+    },
+    {
+      "input_bits": "70ac9dbcb8808740",
+      "stored_bits": "01ce6282880a0840",
+      "extended_bits": "2c0a7016134454c00040"
+    },
+    {
+      "input_bits": "ede52f8b629187c0",
+      "stored_bits": "57fce398d9bbc8bf",
+      "extended_bits": "3db8e21fc7ccdec5fcbf"
+    },
+    {
+      "input_bits": "e2bc68326cc87ac0",
+      "stored_bits": "31552e30acc509c0",
+      "extended_bits": "4785a97281612dce00c0"
+    },
+    {
+      "input_bits": "989c3d07ae468640",
+      "stored_bits": "df2eb57c2042d4bf",
+      "extended_bits": "69f776a9e50311a2fdbf"
+    },
+    {
+      "input_bits": "44286bc93bec8540",
+      "stored_bits": "b6466497d990f63f",
+      "extended_bits": "a8ae3522bbcc86b4ff3f"
+    },
+    {
+      "input_bits": "e04550ce2edb36c0",
+      "stored_bits": "dd7dc1f675c6f2bf",
+      "extended_bits": "37e9ee0bb6af3396ffbf"
+    },
+    {
+      "input_bits": "2ed97c58197880c0",
+      "stored_bits": "2dfbf1096f5aef3f",
+      "extended_bits": "bc6ad98f4f78d3fafe3f"
+    },
+    {
+      "input_bits": "c0e5ab5c3e812e40",
+      "stored_bits": "a7578a22825adfbf",
+      "extended_bits": "e138bd521411d4fafdbf"
+    },
+    {
+      "input_bits": "1034670178e556c0",
+      "stored_bits": "3518a13e2ba1e0bf",
+      "extended_bits": "34a8c108f5590985febf"
+    },
+    {
+      "input_bits": "8c6a9bffec5065c0",
+      "stored_bits": "f2334d676c78f3bf",
+      "extended_bits": "318e9f693a63c39bffbf"
+    },
+    {
+      "input_bits": "58fa5906c63176c0",
+      "stored_bits": "40463dc94b80bcbf",
+      "extended_bits": "52fd31ea495e02e4fbbf"
+    },
+    {
+      "input_bits": "309c117ef67648c0",
+      "stored_bits": "acc518c065ba1040",
+      "extended_bits": "ba5d2dc6002ed3850140"
+    },
+    {
+      "input_bits": "2045db4505c66640",
+      "stored_bits": "bb10cc9c0ed198bf",
+      "extended_bits": "71d58560e67488c6f9bf"
+    },
+    {
+      "input_bits": "fdec31a7dc0c8dc0",
+      "stored_bits": "7dd14537630ed43f",
+      "extended_bits": "a7e88b2eba1973a0fd3f"
+    },
+    {
+      "input_bits": "a83e91a6b85065c0",
+      "stored_bits": "e13f757cfd37f3bf",
+      "extended_bits": "3805ffa9e3ebbf99ffbf"
+    },
+    {
+      "input_bits": "c3f2595117f382c0",
+      "stored_bits": "99e9de5fb13eaebf",
+      "extended_bits": "fec54cf7fe8af5f1fabf"
+    },
+    {
+      "input_bits": "b633c70794798640",
+      "stored_bits": "e2ae9a9ae19fcdbf",
+      "extended_bits": "1e1277d5d40cffecfcbf"
+    },
+    {
+      "input_bits": "98cac7853be76740",
+      "stored_bits": "b0ee5ca722e7dbbf",
+      "extended_bits": "cc8175e73a1539dffdbf"
+    },
+    {
+      "input_bits": "a00039e3dcd84a40",
+      "stored_bits": "824875f7aae6d23f",
+      "extended_bits": "8e1244aabb573597fd3f"
+    },
+    {
+      "input_bits": "903c517c17395ac0",
+      "stored_bits": "026a115609d405c0",
+      "extended_bits": "e612508bb04aa0ae00c0"
+    },
+    {
+      "input_bits": "16298974359876c0",
+      "stored_bits": "a9b07598cbf4cdbf",
+      "extended_bits": "ec4685adc35ca6effcbf"
+    },
+    {
+      "input_bits": "c0a2d97baaa268c0",
+      "stored_bits": "18a8520161bef13f",
+      "extended_bits": "82bd40950a08f38dff3f"
+    },
+    {
+      "input_bits": "f0b7d05c42156f40",
+      "stored_bits": "da3736119099e03f",
+      "extended_bits": "efd2beb18980cc84fe3f"
+    },
+    {
+      "input_bits": "6e6fcf664c4182c0",
+      "stored_bits": "da071012737dc63f",
+      "extended_bits": "00cf3e809098ebb3fc3f"
+    },
+    {
+      "input_bits": "16deba9eb4fb8e40",
+      "stored_bits": "530e5ff534bd0ac0",
+      "extended_bits": "809972f8aaa7e9d500c0"
+    },
+    {
+      "input_bits": "14ff131567f98440",
+      "stored_bits": "abac49880ac300c0",
+      "extended_bits": "4c56654d4254188600c0"
+    },
+    {
+      "input_bits": "20185602d7e25b40",
+      "stored_bits": "c037646793084cc0",
+      "extended_bits": "4affbd213b9b44e004c0"
+    },
+    {
+      "input_bits": "b60a4e6c535989c0",
+      "stored_bits": "0c0eae1bb791e7bf",
+      "extended_bits": "bf5e7070ddb88dbcfebf"
+    },
+    {
+      "input_bits": "1eefe047ae8c8040",
+      "stored_bits": "940cd7c19b5611c0",
+      "extended_bits": "f49c64b80edeb48a01c0"
+    },
+    {
+      "input_bits": "fcaefbe9900f7040",
+      "stored_bits": "1ef67b304cb6e7bf",
+      "extended_bits": "00f3b0df8361b2bdfebf"
+    },
+    {
+      "input_bits": "7845d981fc107e40",
+      "stored_bits": "9384dfbae5e7da3f",
+      "extended_bits": "579a24fcd62d3fd7fd3f"
+    },
+    {
+      "input_bits": "fe994e5af60a7fc0",
+      "stored_bits": "aa8e0ad0a4bfd4bf",
+      "extended_bits": "475175548026fda5fdbf"
+    },
+    {
+      "input_bits": "4665f2b0c7e78440",
+      "stored_bits": "2d109bf9e12ec8bf",
+      "extended_bits": "276b81d8cc0f77c1fcbf"
+    },
+    {
+      "input_bits": "f0a637ad763d8a40",
+      "stored_bits": "326972c0bb43f33f",
+      "extended_bits": "138d499303de1d9aff3f"
+    },
+    {
+      "input_bits": "7288e76128a975c0",
+      "stored_bits": "3332e57c91c3f8bf",
+      "extended_bits": "5e949129e78b1cc6ffbf"
+    },
+    {
+      "input_bits": "20a67f1055744a40",
+      "stored_bits": "fc78a0eb7d68e1bf",
+      "extended_bits": "eadcc7035def438bfebf"
+    },
+    {
+      "input_bits": "117e2d2804a482c0",
+      "stored_bits": "8eec59f6231adb3f",
+      "extended_bits": "e77064cfb21fd1d8fd3f"
+    },
+    {
+      "input_bits": "e09569bc34d35cc0",
+      "stored_bits": "6a8ea478aedaf53f",
+      "extended_bits": "87537324c573d5aeff3f"
+    },
+    {
+      "input_bits": "78a44c2598297cc0",
+      "stored_bits": "b192c88bf5fa11c0",
+      "extended_bits": "048795445eacd78f01c0"
+    },
+    {
+      "input_bits": "e819e17792bd8940",
+      "stored_bits": "67762ee157dbe53f",
+      "extended_bits": "d939b37309bfdaaefe3f"
+    },
+    {
+      "input_bits": "40fccb05701f3140",
+      "stored_bits": "aa085af79c701940",
+      "extended_bits": "a04d45d0bae784cb0140"
+    },
+    {
+      "input_bits": "f0844152633c7ac0",
+      "stored_bits": "bf0e480ece860440",
+      "extended_bits": "a7fb7540727036a40040"
+    },
+    {
+      "input_bits": "c3e517167bcf8ec0",
+      "stored_bits": "3b50ef87e388e23f",
+      "extended_bits": "a2d6817a3f1c4794fe3f"
+    },
+    {
+      "input_bits": "14fbf634064f8340",
+      "stored_bits": "b22da6014bcdf9bf",
+      "extended_bits": "5b936d310d586aceffbf"
+    },
+    {
+      "input_bits": "d40aee06c5088e40",
+      "stored_bits": "659a0f281420cebf",
+      "extended_bits": "ab28d37c40a100f1fcbf"
+    },
+    {
+      "input_bits": "702069aa6db061c0",
+      "stored_bits": "f88cf1bf2343c2bf",
+      "extended_bits": "7fbe678cff1d1992fcbf"
+    },
+    {
+      "input_bits": "603c797b968e6640",
+      "stored_bits": "334c95557e4a1540",
+      "extended_bits": "7b9461aaacf253aa0140"
+    },
+    {
+      "input_bits": "c81d119371628e40",
+      "stored_bits": "b40345141a9e4c40",
+      "extended_bits": "d79f1d28a2d0f0e40440"
+    },
+    {
+      "input_bits": "e204cf98a86f8cc0",
+      "stored_bits": "b1413636fdcaff3f",
+      "extended_bits": "968b0db2b1e957feff3f"
+    },
+    {
+      "input_bits": "b8626a6ca6908840",
+      "stored_bits": "c1e7aeaca20aea3f",
+      "extended_bits": "39083e77651555d0fe3f"
+    },
+    {
+      "input_bits": "58f698c65a718240",
+      "stored_bits": "92d1010d4aecdebf",
+      "extended_bits": "3c918c0e685062f7fdbf"
+    },
+    {
+      "input_bits": "ae3204a1b6088dc0",
+      "stored_bits": "a9497a4a9939f13f",
+      "extended_bits": "3a454dd253cacc89ff3f"
+    },
+    {
+      "input_bits": "8c17650c966d7640",
+      "stored_bits": "f107482cb95eeb3f",
+      "extended_bits": "dd853f4062c9f5dafe3f"
+    },
+    {
+      "input_bits": "e891057545806540",
+      "stored_bits": "8710e737bc99efbf",
+      "extended_bits": "763b8438bfe1cdfcfebf"
+    },
+    {
+      "input_bits": "00a7c38a3d553a40",
+      "stored_bits": "2610347857970440",
+      "extended_bits": "343281a0c1bbbaa40040"
+    },
+    {
+      "input_bits": "00fa50145caaf6bf",
+      "stored_bits": "c29b9223cfbb19c0",
+      "extended_bits": "7f0fde941c79decd01c0"
+    },
+    {
+      "input_bits": "70c3f2eaae9f7040",
+      "stored_bits": "4f1c8a21f33afcbf",
+      "extended_bits": "7577e2500c99d7e1ffbf"
+    },
+    {
+      "input_bits": "6483558ab12b8bc0",
+      "stored_bits": "aa0e3f43ec61ee3f",
+      "extended_bits": "fb4c75f819620ff3fe3f"
+    },
+    {
+      "input_bits": "0229dcb6790a8540",
+      "stored_bits": "4c033fd67d65f93f",
+      "extended_bits": "835d1af8b1ee2bcbff3f"
+    },
+    {
+      "input_bits": "76f8d83b921b8d40",
+      "stored_bits": "8e12d89112e83b40",
+      "extended_bits": "bd6f94c08e9440df0340"
+    },
+    {
+      "input_bits": "d3c88fe4550080c0",
+      "stored_bits": "a2406ec7db4aa33f",
+      "extended_bits": "7f1305723bde569afa3f"
+    },
+    {
+      "input_bits": "8038643091dc6540",
+      "stored_bits": "1616c888d809fbbf",
+      "extended_bits": "17aeb04046c44ed8ffbf"
+    },
+    {
+      "input_bits": "5ca6cce1cb8282c0",
+      "stored_bits": "862862242be41840",
+      "extended_bits": "1b2e4411235921c70140"
+    },
+    {
+      "input_bits": "e4fe2c226adb8340",
+      "stored_bits": "d5a97168ee52f13f",
+      "extended_bits": "16a64e8d4373978aff3f"
+    },
+    {
+      "input_bits": "4036074a6e3d2040",
+      "stored_bits": "da09c39cc85c0dc0",
+      "extended_bits": "87d24e18e644e6ea00c0"
+    },
+    {
+      "input_bits": "a6ed9c51a6628040",
+      "stored_bits": "0970d12c6bd6d4bf",
+      "extended_bits": "cd47808b6659b3a6fdbf"
+    },
+    {
+      "input_bits": "dc1aaccacb3b8e40",
+      "stored_bits": "1fdbfc2e1e85c1bf",
+      "extended_bits": "45fbd8e677f1288cfcbf"
+    },
+    {
+      "input_bits": "3095fdff724a8740",
+      "stored_bits": "43b8c177abbbed3f",
+      "extended_bits": "3115c20dbe5bddedfe3f"
+    },
+    {
+      "input_bits": "e8622a443baf7940",
+      "stored_bits": "624632e078bce5bf",
+      "extended_bits": "7a0c339201c7e3adfebf"
+    }
+  ]
+}

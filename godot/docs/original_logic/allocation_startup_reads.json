@@ -1,0 +1,2908 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "All28 CEM native setup and two physics+particle frames; five numeric arrays plus gasdelta/bubbleaccumulator/reservedsolidtotal/solidvolume scalars. Loader/Run explicit writers hosted according to retained source; classes/presentation/TLS hosted as existing oracle. Unknown physical bytes zero solely for bounded branch exploration, never marked valid.",
+  "limitations": [
+    "No original allocator executed",
+    "Branches dependent on unwritten values can differ under another heap",
+    "No live RNG/bitmap profile claim",
+    "No complete interaction/program/UI path coverage"
+  ],
+  "cases": [
+    {
+      "name": "一氧化碳还原氧化铁",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "CO(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "CO(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "CO(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "一氧化碳还原氧化铜",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "CO(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "O2(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "CO(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 7,
+          "species": "O2(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "CO(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 8,
+          "species": "O2(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "二氧化碳通入石灰水中",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "制取与收集氢气",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "H2(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "加热碱式碳酸铜",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "H2O(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "H2O(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "加热碳酸氢钠",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "H2O(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 7,
+          "species": "H2O(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "实验室制取乙炔",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "实验室制取氯气",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "实验室制取甲烷",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "CH4(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "实验室制氧气",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "O2(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "强酸与弱酸的电离",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "solid_delta",
+          "slot": 14,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 14,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "氢气还原氧化铁",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "solid_delta",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 8,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 3,
+          "species": "H2(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "solid_delta",
+          "slot": 4,
+          "species": "H2(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "H2(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "H2(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "H2(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "氢气还原氧化铜",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "氢氧化铜与氢氧化铁",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "氯气漂白品红",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "solid_delta",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "水的加热与沸腾",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "水的电离",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "硬水的软化",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 11,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 11,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "碳还原氧化铜",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "酸碱中和滴定",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 9,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 9,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 9,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 9,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 9,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 9,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "酸碱指示剂",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 8,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 9,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 10,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 11,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 12,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 13,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 14,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 15,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 16,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "酸碱盐",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 7,
+          "field": "solid_delta",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 9,
+          "field": "solid_delta",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 9,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 14,
+          "field": "solid_delta",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 14,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 6,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 8,
+          "field": "reserved_solid",
+          "slot": 4,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 9,
+          "field": "reserved_solid",
+          "slot": 8,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 10,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 11,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 12,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 13,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 14,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "醋酸钠的水解",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 7,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 0,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "金属活动性顺序",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "solid_delta",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 3,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "铁和盐酸的反应",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "题目1",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 5,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 6,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 7,
+          "field": "reserved_solid",
+          "slot": 1,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "题目2",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    },
+    {
+      "name": "题目3",
+      "status": "executed",
+      "error": null,
+      "reads_before_write": [
+        {
+          "vessel": 0,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "solid_delta",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "solid_delta",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x40ecbb",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "gas_last_delta",
+          "slot": 0,
+          "species": null,
+          "pc": "0x40f46c",
+          "stage": "40A4B8 particle slices",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 0,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 1,
+          "field": "reserved_solid",
+          "slot": 5,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 2,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 3,
+          "field": "reserved_solid",
+          "slot": 11,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        },
+        {
+          "vessel": 4,
+          "field": "reserved_solid",
+          "slot": 2,
+          "species": "惰性气体(气体)",
+          "pc": "0x46b715",
+          "stage": "0x46c84c",
+          "unwritten_bytes": 8
+        }
+      ]
+    }
+  ]
+}

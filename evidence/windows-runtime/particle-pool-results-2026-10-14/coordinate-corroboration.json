@@ -1,0 +1,45 @@
+{
+  "format": "chemlab-original-coordinate-corroboration-v1",
+  "particle_archive_sha256": "c870df7ea34d8e37f54768a0aebef1a54fc1ca4ccf1ccee94b6781ced07feb60",
+  "particle_capture_sha256": "d290a1db6a5d2e268da8d9e688464649bae47c7c4fd82b5838448a033fa72995",
+  "validation_sha256": "ac8ff5ccc81c81bb3489214fc143800eccc2314bef141b55e5ee5db41c316132",
+  "prior_hypothesis_sha256": "57e18b1b7d17f36c3b6eda8e89bd5f823df7f38a59939ae7ce1a23f76393f1c6",
+  "positions": [
+    [
+      179,
+      222
+    ],
+    [
+      429,
+      224
+    ],
+    [
+      429,
+      206
+    ],
+    [
+      306,
+      222
+    ],
+    [
+      510,
+      224
+    ],
+    [
+      510,
+      206
+    ]
+  ],
+  "all_six_positions_match": true,
+  "checkpoint": {
+    "main_form": "0x00579e94",
+    "run": 2,
+    "pause": 0,
+    "elapsed_hex": "6cbc749318445240"
+  },
+  "unchanged_material_cells": 3000,
+  "native_vcl_verified": false,
+  "white_canvas_observed": false,
+  "prior_dib_capture_coordinates_directly_observed": false,
+  "scope": "Later raw vessel+10/+14 reads at the same paused elapsed checkpoint independently corroborate all six positions used in the earlier11548-word comparison. Earlier report remains a hypothesis; no initial white canvas, prior labels/connectors, GDI drain, or full VCL history is inferred."
+}

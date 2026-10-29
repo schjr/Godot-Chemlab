@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+FPTAN instruction provider 180 references; differences 0
+PASS exact bounded FPTAN instruction provider and qword stores

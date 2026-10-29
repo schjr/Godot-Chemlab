@@ -1,0 +1,46 @@
+{
+  "archive": "build/windows-reference/vcl-pen-probes.zip",
+  "archive_sha256": "4e306f1955c40924c03f0dc33ac9787634f0df9eae21a104ed4dde7bf700aaae",
+  "archive_bytes": 7553,
+  "status": "returned_and_strictly_validated",
+  "validated_directory": "evidence/windows-runtime/vcl-pen-results-2026-10-14",
+  "validation": {
+    "returned_archive_sha256_matches_windows": true,
+    "available_canvas_links": 16,
+    "registry_node_count": 10,
+    "prior_raw_bytes_compared": 532680,
+    "native_vcl_verified": false,
+    "rng_tls_status": "unobserved"
+  },
+  "manifest": {
+    "format": "chemlab-vcl-pen-probes-v1",
+    "files": {
+      "run.ps1": "4fec5f68f503f9d33c849fd183f4239dd1e499a9d2ad3e07522cccc274e87b64",
+      "original_dib_read_probe.cs": "f366f56e3a842384cb26395e14ce14361aab0bfb70f34121d3ae80331e263839",
+      "README.txt": "ddb60980646079f29ee0640d27e15e42e83afbcb45f8e0987b801d305da0876e",
+      "read_original_pen_graph.ps1": "25e9ebe74a48fffdf82880ac7ce12c4c70f42a692f19cbb839726d6cd307b373"
+    },
+    "target_calls": false,
+    "target_writes": false,
+    "process_scope": 9348,
+    "target_image_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+    "native_vcl_verified": false
+  },
+  "corrected_reader_sha256": "cea024c2ed7fac84f2d63d6a000bfea70e96df63db33e73376d5a0a49aa31546",
+  "windows_capture_sha256": "55efb5a1c8cba1556689dee25ca6bcc984b3740e80e47866fd100e9ef5ce7787",
+  "windows_result_archive_sha256": "c74791baf575cb1880abf5d318525aad63c07e258c639d51921fb424f72ba24b",
+  "failed_attempts": [
+    {
+      "reader_sha256": "25e9ebe74a48fffdf82880ac7ce12c4c70f42a692f19cbb839726d6cd307b373",
+      "error": "PowerShell5 DWORD literal interpreted signed -1; first Read rejected",
+      "outputs_emitted": false
+    },
+    {
+      "reader_sha256": "4a1d7c2b11470b1fe6c7d734b1d4978e01765a0fbc021e8219027291f627d4f8",
+      "error": "PowerShell source-span inner arrays pipeline-flattened; identity loop failed",
+      "outputs_emitted": false
+    }
+  ],
+  "native_vcl_verified": false,
+  "target_operations": false
+}

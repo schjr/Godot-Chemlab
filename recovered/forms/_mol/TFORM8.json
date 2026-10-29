@@ -1,0 +1,1035 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TFORM8",
+      0
+    ],
+    "file_offset": 2142024,
+    "resource_size": 2256,
+    "sha256": "6388630b7a3d07a338d2f0d71032f5b4ab661b90ee5dbccc773fa62812c878c5",
+    "binary": "recovered/forms/_mol/TFORM8.dfm.bin",
+    "parsed_size": 2256,
+    "trailing_bytes": 0,
+    "root_class": "TForm8",
+    "root_name": "Form8",
+    "component_count": 7,
+    "event_handlers": [
+      {
+        "component": "Form8",
+        "class": "TForm8",
+        "event": "OnCreate",
+        "handler": "FormCreate"
+      },
+      {
+        "component": "Form8",
+        "class": "TForm8",
+        "event": "OnShow",
+        "handler": "FormShow"
+      },
+      {
+        "component": "SpeedButton1",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton1Click"
+      },
+      {
+        "component": "SpeedButton2",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton2Click"
+      },
+      {
+        "component": "FileListBox1",
+        "class": "TFileListBox",
+        "event": "OnDblClick",
+        "handler": "FileListBox1DblClick"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "FileListBox1DblClick",
+        "entry_file_offset": 1843212,
+        "entry_size": 27,
+        "code_va": "0x004D3A2C",
+        "code_file_offset": 864300,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormCreate",
+        "entry_file_offset": 1833830,
+        "entry_size": 17,
+        "code_va": "0x004032F0",
+        "code_file_offset": 10480,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormCreate",
+        "entry_file_offset": 1838555,
+        "entry_size": 17,
+        "code_va": "0x004D1374",
+        "code_file_offset": 854388,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormCreate",
+        "entry_file_offset": 1843195,
+        "entry_size": 17,
+        "code_va": "0x004D3A14",
+        "code_file_offset": 864276,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1835530,
+        "entry_size": 15,
+        "code_va": "0x00433490",
+        "code_file_offset": 207504,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1838816,
+        "entry_size": 15,
+        "code_va": "0x004D2288",
+        "code_file_offset": 858248,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1843239,
+        "entry_size": 15,
+        "code_va": "0x004D3EB0",
+        "code_file_offset": 865456,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1845795,
+        "entry_size": 15,
+        "code_va": "0x0052CA78",
+        "code_file_offset": 1228920,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1846486,
+        "entry_size": 15,
+        "code_va": "0x0052CD48",
+        "code_file_offset": 1229640,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1833970,
+        "entry_size": 24,
+        "code_va": "0x0041A07C",
+        "code_file_offset": 104060,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1838768,
+        "entry_size": 24,
+        "code_va": "0x004D1DEC",
+        "code_file_offset": 857068,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1839805,
+        "entry_size": 24,
+        "code_va": "0x004D2EE0",
+        "code_file_offset": 861408,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1841020,
+        "entry_size": 24,
+        "code_va": "0x004D3400",
+        "code_file_offset": 862720,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1843278,
+        "entry_size": 24,
+        "code_va": "0x004D3F8C",
+        "code_file_offset": 865676,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1843769,
+        "entry_size": 24,
+        "code_va": "0x004D45C4",
+        "code_file_offset": 867268,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1845834,
+        "entry_size": 24,
+        "code_va": "0x0052CAC4",
+        "code_file_offset": 1228996,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 1846438,
+        "entry_size": 24,
+        "code_va": "0x0052CC4C",
+        "code_file_offset": 1229388,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1834599,
+        "entry_size": 24,
+        "code_va": "0x0042D490",
+        "code_file_offset": 182928,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1838792,
+        "entry_size": 24,
+        "code_va": "0x004D1E14",
+        "code_file_offset": 857108,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1839829,
+        "entry_size": 24,
+        "code_va": "0x004D3180",
+        "code_file_offset": 862080,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1843254,
+        "entry_size": 24,
+        "code_va": "0x004D3F68",
+        "code_file_offset": 865640,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1843793,
+        "entry_size": 24,
+        "code_va": "0x004D45EC",
+        "code_file_offset": 867308,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1845810,
+        "entry_size": 24,
+        "code_va": "0x0052CAAC",
+        "code_file_offset": 1228972,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 1846462,
+        "entry_size": 24,
+        "code_va": "0x0052CD30",
+        "code_file_offset": 1229616,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_mol/TForm8.hpp"
+  },
+  "form": {
+    "class": "TForm8",
+    "name": "Form8",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 234,
+          "offset": 22
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 3,
+          "value": 215,
+          "offset": 29
+        }
+      },
+      {
+        "name": "BorderStyle",
+        "value": {
+          "type": 7,
+          "value": "bsDialog",
+          "offset": 44
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "模型",
+          "offset": 62
+        }
+      },
+      {
+        "name": "ClientHeight",
+        "value": {
+          "type": 3,
+          "value": 186,
+          "offset": 81
+        }
+      },
+      {
+        "name": "ClientWidth",
+        "value": {
+          "type": 3,
+          "value": 357,
+          "offset": 96
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "cl3DLight",
+          "offset": 105
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 129
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 157
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 183
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 195
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 221
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 238
+        }
+      },
+      {
+        "name": "OnCreate",
+        "value": {
+          "type": 7,
+          "value": "FormCreate",
+          "offset": 248
+        }
+      },
+      {
+        "name": "OnShow",
+        "value": {
+          "type": 7,
+          "value": "FormShow",
+          "offset": 267
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 291
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 13,
+          "offset": 304
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TBevel",
+        "name": "Bevel2",
+        "flags": 0,
+        "offset": 307,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 292,
+              "offset": 326
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 158,
+              "offset": 333
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 64,
+              "offset": 342
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 29,
+              "offset": 351
+            }
+          },
+          {
+            "name": "Shape",
+            "value": {
+              "type": 7,
+              "value": "bsFrame",
+              "offset": 359
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TBevel",
+        "name": "Bevel1",
+        "flags": 0,
+        "offset": 370,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 226,
+              "offset": 389
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 158,
+              "offset": 396
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 64,
+              "offset": 405
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 29,
+              "offset": 414
+            }
+          },
+          {
+            "name": "Shape",
+            "value": {
+              "type": 7,
+              "value": "bsFrame",
+              "offset": 422
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton1",
+        "flags": 0,
+        "offset": 433,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 228,
+              "offset": 464
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 471
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 60,
+              "offset": 480
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 489
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "确定",
+              "offset": 499
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 510
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 524
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 551
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -16,
+              "offset": 577
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "仿宋_GB2312",
+              "offset": 589
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 613
+            }
+          },
+          {
+            "name": "Glyph.Data",
+            "value": {
+              "type": 10,
+              "value": "76010000424D760100000000000076000000280000002000000010000000010004000000000000010000120B0000120B00001000000000000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00555555555555555555555555555555555555555555555555555555FF5555555555555905555555555555577FF5555555555599905555555555557777F5555555555599905555555555557777FF5555555559999905555555555777777F5555555599999905555555557777777FF5555557990599905555555777757777F5555579055559905555557775555777FF5555555555599905555555555557777F5555555555559905555555555555777FF5555555555559905555555555555777FF5555555555557905555555555555777FF5555555555557905555555555555777FF5555555555555990555555555555577755555555555555555555555555555555",
+              "size": 378,
+              "sha256": "dca3a504969745884ae8e89bf923dc7e021509e97ba0430db2d26c0ad68a4752",
+              "offset": 626
+            }
+          },
+          {
+            "name": "NumGlyphs",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 1019
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1032
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton1Click",
+              "offset": 1041
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton2",
+        "flags": 0,
+        "offset": 1062,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 294,
+              "offset": 1093
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 1100
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 60,
+              "offset": 1109
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 1118
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "取消",
+              "offset": 1128
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1139
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1153
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1180
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -16,
+              "offset": 1206
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "仿宋_GB2312",
+              "offset": 1218
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1242
+            }
+          },
+          {
+            "name": "Glyph.Data",
+            "value": {
+              "type": 10,
+              "value": "76010000424D760100000000000076000000280000002000000010000000010004000000000000010000130B0000130B00001000000000000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF003333333333333333333333FFFFF3333333333999993333333333F77777FFF33333399999999933333337777FF377FF3333993370739993333377FF373F377FF3399993000339993337777F777F3377F3393999707333993337F77737333337FF993399933333399377F3777FF333377F993339903333399377F33737FF33377F993333707333399377F333377FF3377F993333101933399377F333777FFF377F993333000993399377FF3377737FF7733993330009993933373FF3777377F7F339993300039999333773FF777F777733339993707339933333773FF7FFF773333339999999993333333777333777333333333999993333333333377777333333",
+              "size": 378,
+              "sha256": "0c62e6fa199802c90bf3c87b61210069097a26308493764f2f9adeb6593323aa",
+              "offset": 1255
+            }
+          },
+          {
+            "name": "NumGlyphs",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 1648
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1661
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton2Click",
+              "offset": 1670
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TFileListBox",
+        "name": "FileListBox1",
+        "flags": 0,
+        "offset": 1691,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1722
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1728
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 225,
+              "offset": 1736
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 186,
+              "offset": 1746
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alLeft",
+              "offset": 1755
+            }
+          },
+          {
+            "name": "Color",
+            "value": {
+              "type": 7,
+              "value": "clInfoBk",
+              "offset": 1769
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "DEFAULT_CHARSET",
+              "offset": 1792
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1820
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1846
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "MS Sans Serif",
+              "offset": 1858
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1884
+            }
+          },
+          {
+            "name": "ItemHeight",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 1897
+            }
+          },
+          {
+            "name": "Mask",
+            "value": {
+              "type": 6,
+              "value": "*",
+              "offset": 1904
+            }
+          },
+          {
+            "name": "MultiSelect",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1919
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1931
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 1941
+            }
+          },
+          {
+            "name": "OnDblClick",
+            "value": {
+              "type": 7,
+              "value": "FileListBox1DblClick",
+              "offset": 1954
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TMemo",
+        "name": "Memo1",
+        "flags": 0,
+        "offset": 1978,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 228,
+              "offset": 1995
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2002
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 125,
+              "offset": 2010
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 81,
+              "offset": 2019
+            }
+          },
+          {
+            "name": "BorderStyle",
+            "value": {
+              "type": 7,
+              "value": "bsNone",
+              "offset": 2033
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2054
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2081
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2107
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2119
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2136
+            }
+          },
+          {
+            "name": "Lines.Strings",
+            "value": {
+              "type": 1,
+              "value": [
+                {
+                  "type": 6,
+                  "value": "说明：",
+                  "offset": 2153
+                },
+                {
+                  "type": 6,
+                  "value": "  双击要打开的模型",
+                  "offset": 2161
+                },
+                {
+                  "type": 6,
+                  "value": "，或者选中要打开的",
+                  "offset": 2181
+                },
+                {
+                  "type": 6,
+                  "value": "结构，点击“确定”",
+                  "offset": 2201
+                },
+                {
+                  "type": 6,
+                  "value": "即可。",
+                  "offset": 2221
+                }
+              ],
+              "offset": 2152
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2241
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 2251
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

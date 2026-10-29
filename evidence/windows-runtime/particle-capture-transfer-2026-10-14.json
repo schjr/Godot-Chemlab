@@ -1,0 +1,40 @@
+{
+  "format": "chemlab-original-particle-capture-transfer-v1",
+  "status": "returned_and_validated",
+  "process_id": 9348,
+  "image_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "reader_sha256": "b29746226740eee001fe670b022d2c525ac0500bd160219e96358003406b0f2d",
+  "archive_sha256": "c870df7ea34d8e37f54768a0aebef1a54fc1ca4ccf1ccee94b6781ced07feb60",
+  "scope": "Original PID9348 paused checkpoint; read-only full six vessel objects and constructor-used solid/bubble pools, existing solid bitmaps, runtime globals. TLS RNG unobserved. Native VCL and production startup remain unverified.",
+  "console_observation": "Successful reader source SHA and archive SHA read from Windows console through CUA. Hash-display retries failed after Chinese IME changed; no capture rerun or target mutation.",
+  "native_vcl_verified": false,
+  "capture_sha256": "d290a1db6a5d2e268da8d9e688464649bae47c7c4fd82b5838448a033fa72995",
+  "validation_sha256": "ac8ff5ccc81c81bb3489214fc143800eccc2314bef141b55e5ee5db41c316132",
+  "validated_material_cells": 3000,
+  "observed_canvas_positions": [
+    [
+      179,
+      222
+    ],
+    [
+      429,
+      224
+    ],
+    [
+      429,
+      206
+    ],
+    [
+      306,
+      222
+    ],
+    [
+      510,
+      224
+    ],
+    [
+      510,
+      206
+    ]
+  ]
+}

@@ -1,0 +1,862 @@
+{
+  "source": "Original ChemLab BMP RGB decoded top-down to little-endian0x00RRGGBB words; no alpha-key mutation",
+  "images": [
+    {
+      "name": "_asb100",
+      "width": 42,
+      "height": 46,
+      "source": "artifacts/ChemLab/res/_asb100.bmp",
+      "source_sha256": "b063b71ebad6f24abcdbd9f998cdd8de50f44f12a78439678214d67e461106bb",
+      "native_rgb_words_sha256": "3e280857f9afec9dcf556e59c04bc6f27629c9b38edf53ab8f99662ab043dfe5"
+    },
+    {
+      "name": "_asb200",
+      "width": 53,
+      "height": 58,
+      "source": "artifacts/ChemLab/res/_asb200.bmp",
+      "source_sha256": "8cdb08c74e6db53642109ed059123f8280d9b0155082d2b39a68022742d63565",
+      "native_rgb_words_sha256": "a0f701c65d356fc8154e1fe6ef44746464cbc242b583cc2b76b948fc12e3fc16"
+    },
+    {
+      "name": "_asb500",
+      "width": 75,
+      "height": 82,
+      "source": "artifacts/ChemLab/res/_asb500.bmp",
+      "source_sha256": "d0f2f30f40a7d9adc062198e853b8972cb330be865afbe5e88084b924072f7b1",
+      "native_rgb_words_sha256": "1a57ce5ac05fc03e12c314b4137af2ee9d82dda1ef844eef2cd916c6b64b38e9"
+    },
+    {
+      "name": "_blg",
+      "width": 99,
+      "height": 18,
+      "source": "artifacts/ChemLab/res/_blg.BMP",
+      "source_sha256": "0172b34094ff7d6b223f49a6c9fea1fb8dd72cfa8b04dd07716a4c2296e7a58f",
+      "native_rgb_words_sha256": "4bfe4af81c950849ef6eafe5a953853e5c296a0f8c476970ed4602a0241a766f"
+    },
+    {
+      "name": "_cjld",
+      "width": 27,
+      "height": 98,
+      "source": "artifacts/ChemLab/res/_cjld.BMP",
+      "source_sha256": "bd347ff816b40d6e370d504b7beef616d64e194d5f1579626c4680ab63ffb20e",
+      "native_rgb_words_sha256": "baaa8b4d60e0b4ccb153a635c5b41f547e16f2bfcde28798b4d3feba4c2d755a"
+    },
+    {
+      "name": "_d_jqp",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/_d_jqp.BMP",
+      "source_sha256": "8f99215706dbcbde98437a13025b8091826e346ec47f1c9b69f530649ddfc797",
+      "native_rgb_words_sha256": "dad09be4a7b5039187651ffc322c9556a04dcdbd090e17b0a9dbeb822de41279"
+    },
+    {
+      "name": "_dblg",
+      "width": 18,
+      "height": 99,
+      "source": "artifacts/ChemLab/res/_dblg.BMP",
+      "source_sha256": "4f9a5ff3d7042a793dd9008435bb7a5e2763f292523b9039cb58bbe5ee12e1b7",
+      "native_rgb_words_sha256": "7eadd89ada54799387e8814c06e75aae8d488caef7372328aa197732edae2ecc"
+    },
+    {
+      "name": "_dgkp",
+      "width": 49,
+      "height": 30,
+      "source": "artifacts/ChemLab/res/_dgkp.BMP",
+      "source_sha256": "e7e9bdb67fc711c48bc3b536ba68833962924e72f6bacc9c8eac3cb2a5043177",
+      "native_rgb_words_sha256": "072a39fbc10db4ac7731258986dfede4238ca337f3a282968df96575314f9da1"
+    },
+    {
+      "name": "_djqp",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/_djqp.BMP",
+      "source_sha256": "8f99215706dbcbde98437a13025b8091826e346ec47f1c9b69f530649ddfc797",
+      "native_rgb_words_sha256": "dad09be4a7b5039187651ffc322c9556a04dcdbd090e17b0a9dbeb822de41279"
+    },
+    {
+      "name": "_dpdsp100",
+      "width": 89,
+      "height": 62,
+      "source": "artifacts/ChemLab/res/_dpdsp100.BMP",
+      "source_sha256": "55b3bfc08889c430ca5afb7e702f2e512ed4d4be42f0922e5b574d6b35374b3e",
+      "native_rgb_words_sha256": "296afd792c73980bfedc702d7ed6511be71842f7a8904a9a9d8ee554703af7b3"
+    },
+    {
+      "name": "_dsb100",
+      "width": 46,
+      "height": 42,
+      "source": "artifacts/ChemLab/res/_dsb100.bmp",
+      "source_sha256": "d82d204a908d284baee2882dbe35f4dfc0a4824eab5ea7f8d3ee1dd9669fbbac",
+      "native_rgb_words_sha256": "d66547a1b7e1d7da5134d7a9a5a52162466435f9b2a774e98f50e715b68eea88"
+    },
+    {
+      "name": "_dsb200",
+      "width": 58,
+      "height": 53,
+      "source": "artifacts/ChemLab/res/_dsb200.bmp",
+      "source_sha256": "3ee1d560399a0127c69afd64706678d0ccca3f95f7d306b73865d580e88a662c",
+      "native_rgb_words_sha256": "e504a5495b6a657fa4a8a48d31378709841fc8271763f9aeed9ad32a92a7f6c9"
+    },
+    {
+      "name": "_dsb500",
+      "width": 82,
+      "height": 75,
+      "source": "artifacts/ChemLab/res/_dsb500.bmp",
+      "source_sha256": "d8e6af61bbb4d69e4c2e9aade79554660d7165d4f921f75951f9a556cc868f33",
+      "native_rgb_words_sha256": "19ed6c60dd31dfa1fb20129d58cb481926327a7e8e9b38fe14395c118b158bec"
+    },
+    {
+      "name": "_dsg",
+      "width": 88,
+      "height": 18,
+      "source": "artifacts/ChemLab/res/_dsg.BMP",
+      "source_sha256": "196160371896fa0f44bbf49955a9c0024582ddef6e5bbb28303b77ff70af54d9",
+      "native_rgb_words_sha256": "dc67d2e7f20e3aea0982ef2fa206a7131157003b28e3f257306e8a3fc2dc2e55"
+    },
+    {
+      "name": "_dxkp",
+      "width": 52,
+      "height": 30,
+      "source": "artifacts/ChemLab/res/_dxkp.BMP",
+      "source_sha256": "cc621a29a7561d43f0271da912c6a354a58391980f1223844d3be7c1a39a8a5b",
+      "native_rgb_words_sha256": "6a56346497c4eb2d497df3c94ecf21cc8b71f21803e17a662a6fe467ad07e4dd"
+    },
+    {
+      "name": "_dydsp100",
+      "width": 92,
+      "height": 63,
+      "source": "artifacts/ChemLab/res/_dydsp100.BMP",
+      "source_sha256": "286218814e54a98341a00315ff72527c96e1b8855041437db9e5929ad43dc5a4",
+      "native_rgb_words_sha256": "b92d0ed13a709e976f3e28d6454ffdf5a98a2e982a94e7b2dd593323c46d63ac"
+    },
+    {
+      "name": "_dzfm_50",
+      "width": 17,
+      "height": 44,
+      "source": "artifacts/ChemLab/res/_dzfm_50.BMP",
+      "source_sha256": "3c40334a512a207a8d7add5800544b2e391d3167b5415f41b3d1b3f9df70ba28",
+      "native_rgb_words_sha256": "fc846ba6bb761c183015a2814ccc56a38e0e2a4ad68c92391758a4a3cd0a6b60"
+    },
+    {
+      "name": "_dzxp100",
+      "width": 65,
+      "height": 60,
+      "source": "artifacts/ChemLab/res/_dzxp100.BMP",
+      "source_sha256": "73531472735b87fec5fb90dde2478cc16e0661449fe8aac8d3e1f735b490296a",
+      "native_rgb_words_sha256": "bee402caba321413087584665fa24ebd25a9f2e4cd8cdae85472919c95df23da"
+    },
+    {
+      "name": "_dzxp250",
+      "width": 84,
+      "height": 79,
+      "source": "artifacts/ChemLab/res/_dzxp250.BMP",
+      "source_sha256": "8a87a17f8749c5298b7463f2b4d15137c24c9028fb164822f8d0e72ad85127f7",
+      "native_rgb_words_sha256": "cbfb1f8a266ce66b43b1c6007945f094cda7b0916a6557db5856314b328c3940"
+    },
+    {
+      "name": "_fyld",
+      "width": 28,
+      "height": 115,
+      "source": "artifacts/ChemLab/res/_fyld.BMP",
+      "source_sha256": "a3ceaa8e2f0fa01048ac7ae62f599dcc9eedd1ee2dc612c7f3d56f0f4c366204",
+      "native_rgb_words_sha256": "05b8c3c01f78c5f3fc38b2a29725c1f0dc9c7fac1a64216bf1e5582a2d7cbbaf"
+    },
+    {
+      "name": "_gkp",
+      "width": 30,
+      "height": 49,
+      "source": "artifacts/ChemLab/res/_gkp.BMP",
+      "source_sha256": "b2184ac29542564cfb29cf506019ee84066391cc54e45e2d73f48b81644e2145",
+      "native_rgb_words_sha256": "e68d750f20ed54a1dbf1a95b8e8e39b5312654079fd6be7119f92edb7e183aab"
+    },
+    {
+      "name": "_jqp",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/_jqp.BMP",
+      "source_sha256": "aea1fee2b2baff039393ff60c09cfbac0b12b232715ec7af10147d8f4434d95d",
+      "native_rgb_words_sha256": "3d568f9ea2571d785b8068923ed293a7cca4e2fbf6da1541c500ea9cc72a018d"
+    },
+    {
+      "name": "_jsddg",
+      "width": 13,
+      "height": 243,
+      "source": "artifacts/ChemLab/res/_jsddg.BMP",
+      "source_sha256": "4442a5ceae8064d8f42bdc7b924d5c3c0d80e1b31e2eb459711afb3627fbc7d5",
+      "native_rgb_words_sha256": "7ca3f645bc01d6751cc2d8deca52e4356a1f9c7a55afeaca93b3f2ced1b7cc5d"
+    },
+    {
+      "name": "_jtdg_1",
+      "width": 10,
+      "height": 60,
+      "source": "artifacts/ChemLab/res/_jtdg_1.BMP",
+      "source_sha256": "d9175fbc606028d91f94d5e9d963efd490fe5cb483db9c6e14f4bdc872c85018",
+      "native_rgb_words_sha256": "9b3ca063d3c36954bc9d7a19ef0817efcccb35eeba5a9e512af47d4e8507e93f"
+    },
+    {
+      "name": "_jtdg_2",
+      "width": 15,
+      "height": 76,
+      "source": "artifacts/ChemLab/res/_jtdg_2.BMP",
+      "source_sha256": "6b36894917b4e1f58096ad38294cdf88d8cd5a5478e691eb8488d7e22899df15",
+      "native_rgb_words_sha256": "e5d803583d71995f4f80caf9f090d621c2d6168c054e1077c15379304e185aba"
+    },
+    {
+      "name": "_ld",
+      "width": 37,
+      "height": 57,
+      "source": "artifacts/ChemLab/res/_ld.BMP",
+      "source_sha256": "e4802607ddddbbc20e552d901462fcaf1fea98e5ac31831ac0bcaae6f2bdae36",
+      "native_rgb_words_sha256": "5b7bad84947b246dc154805d28fa8149a5265ffe5ea3cb2ea70980bef33a6f98"
+    },
+    {
+      "name": "_pdsp100",
+      "width": 43,
+      "height": 79,
+      "source": "artifacts/ChemLab/res/_pdsp100.BMP",
+      "source_sha256": "4cf074aa4faec331e1209e49d16a1b0497b57ab2564c5aa6d7c9a108fe668c6c",
+      "native_rgb_words_sha256": "a02075da5f3565a3b72c5f6784ea4e171981ce5e28a08286e62ab8f5cfe5d4e1"
+    },
+    {
+      "name": "_qg",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/_qg.BMP",
+      "source_sha256": "87020da52b4cd44d7327997fc1501f329a01fd92d030fa7ff9d0f04c4cade8c9",
+      "native_rgb_words_sha256": "407f64805438e0c9448b6d85de5bdc1845b6aa7ddd757f491848f2da32fa4ac0"
+    },
+    {
+      "name": "_sb100",
+      "width": 42,
+      "height": 46,
+      "source": "artifacts/ChemLab/res/_sb100.bmp",
+      "source_sha256": "2fe582cc3c4ea147e2da1fe36a5dd7cb3c1a9062bf9e2ba366370272a3cd536b",
+      "native_rgb_words_sha256": "0f06e547d8d7dc5f4195c1b0dd8e44296d79f7788cbf98db6be2c00723c4da48"
+    },
+    {
+      "name": "_sb200",
+      "width": 53,
+      "height": 58,
+      "source": "artifacts/ChemLab/res/_sb200.bmp",
+      "source_sha256": "f6694728c32212237248a5c2303366c0c9a90d45179a30191a6084925f5dedfe",
+      "native_rgb_words_sha256": "cfed0b7d1fa05361aa4ed74392ab65b90c74805b5a6121a3bb25a9118604a2dd"
+    },
+    {
+      "name": "_sb500",
+      "width": 75,
+      "height": 82,
+      "source": "artifacts/ChemLab/res/_sb500.bmp",
+      "source_sha256": "4df5b1801f58b552dc4887f05a40dd062abed0db49efb376e7141dc1f3a94eaa",
+      "native_rgb_words_sha256": "6023f76fddebdb97d7d035f5328103ae9923b76559300cc5c171670040c65bad"
+    },
+    {
+      "name": "_sg0",
+      "width": 18,
+      "height": 88,
+      "source": "artifacts/ChemLab/res/_sg0.bmp",
+      "source_sha256": "1fb28d9c645c546a44ace3dd01a750f8c914785b944a53eb1c112ca7d064e8d0",
+      "native_rgb_words_sha256": "c41da46b447edeeda8853d2dc415657f8d3b72fb64e29c22bdd6cd95ae7e4085"
+    },
+    {
+      "name": "_sg45",
+      "width": 71,
+      "height": 72,
+      "source": "artifacts/ChemLab/res/_sg45.bmp",
+      "source_sha256": "6f4220e94b81e5b2886ffb7609ff7351424c57ea1b81ce7279b362013a0f655d",
+      "native_rgb_words_sha256": "fd9d5cb26f02312198a664c468499d76101fc809246e9d78de809f4a0fe0d59e"
+    },
+    {
+      "name": "_sg97",
+      "width": 90,
+      "height": 23,
+      "source": "artifacts/ChemLab/res/_sg97.bmp",
+      "source_sha256": "a01420da35d36babf406a525793119a2f26916382a303437a5dcf5c5fd559504",
+      "native_rgb_words_sha256": "1ac106eefe2c074837eb85026abbead0885c7ac9b3b52a7fa8379eeba774bca6"
+    },
+    {
+      "name": "_shuic",
+      "width": 96,
+      "height": 40,
+      "source": "artifacts/ChemLab/res/_shuic.BMP",
+      "source_sha256": "e4120ecedf9488d1ec654f573aa2702f7d14e18f11d25b5cf364b0101854db88",
+      "native_rgb_words_sha256": "096912e2f1f6d29638d9b0441630f37ccbb78367909768399ce6aa49bb957af6"
+    },
+    {
+      "name": "_ssddg",
+      "width": 19,
+      "height": 244,
+      "source": "artifacts/ChemLab/res/_ssddg.BMP",
+      "source_sha256": "96d86fddc4f74e026b6b958d44bff6f7536e04dde66874a804e0d017ebe454dd",
+      "native_rgb_words_sha256": "b5c40d2409c4037b13bebc3220a360d89ca4d48a4d92f7d7e9cf4d5ce03f6ae2"
+    },
+    {
+      "name": "_uxg",
+      "width": 48,
+      "height": 79,
+      "source": "artifacts/ChemLab/res/_uxg.BMP",
+      "source_sha256": "41e0a1dbd750af3058f739f07761c943e1676f8e74a12e8c1dc9b92ffae4b01a",
+      "native_rgb_words_sha256": "0ee1245561447f8c83acf78031afbbc2d3d91de1dd137b1e8dce32a93110b506"
+    },
+    {
+      "name": "_uxg2",
+      "width": 48,
+      "height": 79,
+      "source": "artifacts/ChemLab/res/_uxg2.BMP",
+      "source_sha256": "0ca5022735420a9a135c0d5f0a91a1df9c08ae64d04f2176d124c163ab985c22",
+      "native_rgb_words_sha256": "60b5c966bf3a7b78beb81d76d13f315230aa3968089960421070eee8f8d0be5f"
+    },
+    {
+      "name": "_xkp",
+      "width": 30,
+      "height": 52,
+      "source": "artifacts/ChemLab/res/_xkp.BMP",
+      "source_sha256": "d097e7359f8d8823838a42d4ab6be38c0a5a44601d163d7721fc7773c3e11db1",
+      "native_rgb_words_sha256": "52586a68e494ddb7a32650834618b25b119b9ea887d7d0fef867feadd6107258"
+    },
+    {
+      "name": "_ydsp100",
+      "width": 44,
+      "height": 82,
+      "source": "artifacts/ChemLab/res/_ydsp100.BMP",
+      "source_sha256": "4dedf0b123aac6897af78ee3abe3f615d2dbcaa59c4180b849f9d6dc791542ad",
+      "native_rgb_words_sha256": "35f19e960b4c4d9ea2113d6a1a79341027f88ec6185f3397f5c518f12acba495"
+    },
+    {
+      "name": "_zfm_50",
+      "width": 44,
+      "height": 17,
+      "source": "artifacts/ChemLab/res/_zfm_50.BMP",
+      "source_sha256": "0ddaeb72f581859221be75d0590f41cfa6590496d367b717d88bbeff42eb61ff",
+      "native_rgb_words_sha256": "d8c9c771db6ec547e2597a727c9a2f8ed6384f0a8c977103f20d4e65f2db7de5"
+    },
+    {
+      "name": "_zxp100",
+      "width": 43,
+      "height": 52,
+      "source": "artifacts/ChemLab/res/_zxp100.BMP",
+      "source_sha256": "3857456c5dd6cd489dd023611867c7f01db92541948846c0527c8a45a15be40f",
+      "native_rgb_words_sha256": "65c9e7af8769c5058b6fcc31d4cdaa3cf97885d225c89c76355eba1e4baa65b3"
+    },
+    {
+      "name": "_zxp250",
+      "width": 58,
+      "height": 66,
+      "source": "artifacts/ChemLab/res/_zxp250.BMP",
+      "source_sha256": "4ac99add1b138153fd0455783e2842d18b7858ebfef263c55b1c292ddfad32dc",
+      "native_rgb_words_sha256": "7a1b7fb14e53569140795acf05c993d7da8faf1e50ff8bd00129074fd6190221"
+    },
+    {
+      "name": "blg",
+      "width": 99,
+      "height": 18,
+      "source": "artifacts/ChemLab/res/blg.BMP",
+      "source_sha256": "2ebdefe3b389b2bb889b2d991675ae9723eb7dac5e6ec6cca47fdc526d2d89a3",
+      "native_rgb_words_sha256": "f4b722a116863503f69662750f34d00d4ce3cac3c8f775dabcef1e52762bafa9"
+    },
+    {
+      "name": "bolb",
+      "width": 9,
+      "height": 120,
+      "source": "artifacts/ChemLab/res/bolb.bmp",
+      "source_sha256": "926f52c2b61f9f357e94d4df446c96690bc5f887680f3803628aee8369ea0b68",
+      "native_rgb_words_sha256": "c029f3ca71b8747538761259affcadc07ba15eaa7441cf20c1eeb4a1b94be3a4"
+    },
+    {
+      "name": "bolb_x",
+      "width": 45,
+      "height": 115,
+      "source": "artifacts/ChemLab/res/bolb_x.bmp",
+      "source_sha256": "2c2c2dd24620d9555f2043e2ab7b101c1d1fffd1f2588faf4c766f10550a7fcc",
+      "native_rgb_words_sha256": "5ad1095eb37ff81df9f5ad20ec5fee0d1fced44ed085a047415d6553f84e81b7"
+    },
+    {
+      "name": "cjld",
+      "width": 27,
+      "height": 98,
+      "source": "artifacts/ChemLab/res/cjld.BMP",
+      "source_sha256": "fcfa35c70b92c707b662b14a345d74c9c1abb08c1a281694736a868be0b2fa90",
+      "native_rgb_words_sha256": "8a1771a4555c388089b87f92f35cbbb3d42d31bedf7597681041507c136d794c"
+    },
+    {
+      "name": "d_jqp",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/d_jqp.BMP",
+      "source_sha256": "a6fc7f0b3cc818d554583e3a4ff41c274899f747168f1c1fa0b734f9ae0faafd",
+      "native_rgb_words_sha256": "a85fdafab946122e0ef4682f485144f9bddb45023f470c7b5f33044261e5cd5a"
+    },
+    {
+      "name": "dblg",
+      "width": 18,
+      "height": 99,
+      "source": "artifacts/ChemLab/res/dblg.BMP",
+      "source_sha256": "b26b5bc70299c9d369e3c2b878f342290d0d2d3e51f4ae1f3f57e76c7e439396",
+      "native_rgb_words_sha256": "1c3affc5bcdc9859ba2a8bf99fa34f90f6e5296e34a9f229f7fb5578a2c0877a"
+    },
+    {
+      "name": "dgkp",
+      "width": 49,
+      "height": 30,
+      "source": "artifacts/ChemLab/res/dgkp.BMP",
+      "source_sha256": "7095a148a75751cd78a74f9f83354098e73746bddd3ec5a237ee34be6f3492aa",
+      "native_rgb_words_sha256": "7043c83d20bd4e16e60bb163874086cb08d9acd7ed107f1f001d537e1e699fef"
+    },
+    {
+      "name": "dgkp_z",
+      "width": 49,
+      "height": 30,
+      "source": "artifacts/ChemLab/res/dgkp_z.BMP",
+      "source_sha256": "ec878f8e52c1d8af3eba47e4b52d24962eb89189b28715e72ffb5fb652c56739",
+      "native_rgb_words_sha256": "155a95d6b951d6e0e5892271edebe8a6f8c7ab1bbda086b0ef7d73850ed348c4"
+    },
+    {
+      "name": "djqp",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/djqp.BMP",
+      "source_sha256": "a6fc7f0b3cc818d554583e3a4ff41c274899f747168f1c1fa0b734f9ae0faafd",
+      "native_rgb_words_sha256": "a85fdafab946122e0ef4682f485144f9bddb45023f470c7b5f33044261e5cd5a"
+    },
+    {
+      "name": "dpdsp100",
+      "width": 89,
+      "height": 62,
+      "source": "artifacts/ChemLab/res/dpdsp100.BMP",
+      "source_sha256": "90f4e7d5fd21806fae90b178545627675a560ed691b68170fc97a4afa1b918df",
+      "native_rgb_words_sha256": "925872e5f9937daf03bea13e977cd838d4698e25e8140005a7d56711503d2f31"
+    },
+    {
+      "name": "dsb100",
+      "width": 46,
+      "height": 42,
+      "source": "artifacts/ChemLab/res/dsb100.bmp",
+      "source_sha256": "024ad7b228169d88f83c801401d199f1b343d1075cc2be1c87119760c14bb2c3",
+      "native_rgb_words_sha256": "ac1c7b2f94dfd97e637c0cc273a5ecf9644b06fabdff8d67bf704c895543ab89"
+    },
+    {
+      "name": "dsb200",
+      "width": 58,
+      "height": 53,
+      "source": "artifacts/ChemLab/res/dsb200.bmp",
+      "source_sha256": "840581929067f3792218b4655573038f59ef200951044541039fdaa4b3d72f7f",
+      "native_rgb_words_sha256": "abf1b226cf15984b64a8ac79eb096e0bf581c0b762346a6edd1de610f4b4f36e"
+    },
+    {
+      "name": "dsb500",
+      "width": 82,
+      "height": 75,
+      "source": "artifacts/ChemLab/res/dsb500.bmp",
+      "source_sha256": "5bffc0d8d93d8fc17c413947f5412a68fdf2bb79d944cba4f3ee57cc92adbdeb",
+      "native_rgb_words_sha256": "310280934f6ec3c8dc9d33be75e37076f8dd946d99833862ba4d1758d5f22827"
+    },
+    {
+      "name": "dsg",
+      "width": 88,
+      "height": 18,
+      "source": "artifacts/ChemLab/res/dsg.BMP",
+      "source_sha256": "44239f4553c26f32b33cbbbdbc145613dc96b01a89ac24f9fc885eee1a9ca552",
+      "native_rgb_words_sha256": "92f1fae7e7e144cc6cc1ed0822a63fd02789b1dc1bea320724415ebd587401fa"
+    },
+    {
+      "name": "dxkp",
+      "width": 52,
+      "height": 30,
+      "source": "artifacts/ChemLab/res/dxkp.BMP",
+      "source_sha256": "485c845846cb2097cfe44594b96b9bb5bfa95fea8976d5af7459788a7d446249",
+      "native_rgb_words_sha256": "2f786734ec5e3fbbabb4d90b46977dae5f8f7e503dd32305211d2884c9df9859"
+    },
+    {
+      "name": "dxkp_z",
+      "width": 52,
+      "height": 30,
+      "source": "artifacts/ChemLab/res/dxkp_z.BMP",
+      "source_sha256": "02b030659060c08620af1d42102190e41d738363256a7b5c2bafbc7574ecbc7d",
+      "native_rgb_words_sha256": "99c428c15a0740cd6025ffacd8d87f81e6861004d33aa4315bfad47f3036ba8b"
+    },
+    {
+      "name": "dydsp100",
+      "width": 92,
+      "height": 63,
+      "source": "artifacts/ChemLab/res/dydsp100.BMP",
+      "source_sha256": "355a6916f8bedc5302b9ed543d5d67914cf19d68d01562c676295ad5f17063e0",
+      "native_rgb_words_sha256": "ca904de37f0922f528155d437bb63f72ecbd65d0844d0bba6e5454c4339eb9df"
+    },
+    {
+      "name": "dzfm_50",
+      "width": 17,
+      "height": 44,
+      "source": "artifacts/ChemLab/res/dzfm_50.BMP",
+      "source_sha256": "7e02605b07a09d29a859360ba9a0047a4a50edad74c31666dbc615f567b3e2f3",
+      "native_rgb_words_sha256": "8c3b8d6bda05ffba677b41889fa56f09a08f03b39d11e1118db1b8716a9e5b06"
+    },
+    {
+      "name": "dzxp100",
+      "width": 65,
+      "height": 60,
+      "source": "artifacts/ChemLab/res/dzxp100.BMP",
+      "source_sha256": "6649da683743445fe3544d92477c424ac8012b86c6c0da70e595ad87c7b54608",
+      "native_rgb_words_sha256": "389d179e453ce470e462580ad4fb6ab26c4364d4d19d6333e14a08b6318c194a"
+    },
+    {
+      "name": "dzxp250",
+      "width": 84,
+      "height": 80,
+      "source": "artifacts/ChemLab/res/dzxp250.BMP",
+      "source_sha256": "24b58e90ba923a72c5d601ecb6b26101bf5884d11fbd0148b854c49ebbcb58f4",
+      "native_rgb_words_sha256": "9c9c861edb0595a6d57bf0cd2ef3ab381e54565a45220482aad5444b10c13a90"
+    },
+    {
+      "name": "fyld",
+      "width": 28,
+      "height": 115,
+      "source": "artifacts/ChemLab/res/fyld.BMP",
+      "source_sha256": "ea600a2a090efde285bc72e0cabd3ecc39c350de43c62cbbe63ce61e7ded3dad",
+      "native_rgb_words_sha256": "d9eed3dfd620ef08fe51286ecb07436fff24bfe201c3572b78d111d2933b1390"
+    },
+    {
+      "name": "gkp",
+      "width": 30,
+      "height": 49,
+      "source": "artifacts/ChemLab/res/gkp.BMP",
+      "source_sha256": "884a4e4684401fe11ec0cee3e8c34d8868bd35d758517bff254105d0c2aeff6e",
+      "native_rgb_words_sha256": "8287fc1ba1f960b12871688893bc4933d560ef857b2a538746254e88e9592507"
+    },
+    {
+      "name": "gkp_z",
+      "width": 30,
+      "height": 49,
+      "source": "artifacts/ChemLab/res/gkp_z.BMP",
+      "source_sha256": "7ca262f18e79b75095a057f796d1ad9b2c98914eaada6763c97be146da8b288d",
+      "native_rgb_words_sha256": "f47b687cc63939e1b6d24449239e65676be8685f36edf4a2495e0ac19c104832"
+    },
+    {
+      "name": "guti",
+      "width": 90,
+      "height": 90,
+      "source": "artifacts/ChemLab/res/guti.bmp",
+      "source_sha256": "c4087e0532dfa5aa9e6a148c1da5a34f0845b03b0ef7af003b66a93b0fcb4f31",
+      "native_rgb_words_sha256": "89f0ce80e31d646558276bd7250dd3ba4c09aa885f2a7f4a8a665e809783336b"
+    },
+    {
+      "name": "jjd",
+      "width": 43,
+      "height": 48,
+      "source": "artifacts/ChemLab/res/jjd.BMP",
+      "source_sha256": "4ceb1cb1d3a24671ad780eecefad5a770bba11f9f13b0da7a2988f431e84d17d",
+      "native_rgb_words_sha256": "d950fb782f6e685ba7aa28708aeee9e6f5897fb0a6b89424b90625c1add65b19"
+    },
+    {
+      "name": "jjd_g",
+      "width": 12,
+      "height": 17,
+      "source": "artifacts/ChemLab/res/jjd_g.BMP",
+      "source_sha256": "eb73192e9448304ae93e4a833c500590746a667bf9d0ddac83883d32925da748",
+      "native_rgb_words_sha256": "f6f040693dcd04a1b2e90367fdc3ffca1e7df41aa88a08382a1c406726843970"
+    },
+    {
+      "name": "jqp",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/jqp.BMP",
+      "source_sha256": "0e10747ce45d9294d8c3059769777359cc6fb2551e29e74c41b7128995cb894d",
+      "native_rgb_words_sha256": "251b0e0e81fcbbce97e8fcfb01d2137479e61b27a5f0bcbce581f2f6baba6b76"
+    },
+    {
+      "name": "jqp_old",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/jqp_old.BMP",
+      "source_sha256": "1aed27400b6e08ebcdaa4d4f5442a2c86a66ebe902e70c6dd893dd79441f40d8",
+      "native_rgb_words_sha256": "48da0cb8020f646f64874031e94aec3113db5940bd4b4f214a6179aed3d5c85a"
+    },
+    {
+      "name": "jsddg",
+      "width": 13,
+      "height": 243,
+      "source": "artifacts/ChemLab/res/jsddg.BMP",
+      "source_sha256": "0f86fc73a4969070b9ea3cf5269e444c83d2e48c765bd9709496c3a1d8f190d0",
+      "native_rgb_words_sha256": "74a3845fd80804bad0d2126145b0c903be7be85f1274b0632ea4aed3113559b3"
+    },
+    {
+      "name": "jtdg_1",
+      "width": 10,
+      "height": 60,
+      "source": "artifacts/ChemLab/res/jtdg_1.BMP",
+      "source_sha256": "535a8cf78a5938ad316d572994edac635e27b5c5742af09ac5003ef31bc9426c",
+      "native_rgb_words_sha256": "478c187bf50fd3b6beb67ffbe1049bec786c5a3cbe71d4570dacf56bbd673621"
+    },
+    {
+      "name": "jtdg_2",
+      "width": 15,
+      "height": 76,
+      "source": "artifacts/ChemLab/res/jtdg_2.BMP",
+      "source_sha256": "43ca894bffa57bcbdf6497550bdbbd69f28456be5cd0642c5b21014fc59cfe8b",
+      "native_rgb_words_sha256": "1917b5f219ada039d7a1e7aec31f8ea30c53805401111ab58682d5e0027d937b"
+    },
+    {
+      "name": "ld",
+      "width": 37,
+      "height": 57,
+      "source": "artifacts/ChemLab/res/ld.BMP",
+      "source_sha256": "835fbfd6b810a5cbe32ef2d35a41ae4586f46800decca34f42467bf482eb4665",
+      "native_rgb_words_sha256": "3a73bd5bc5775babbaf20cecc7ab0739e7967afe7864cc311898f3164b96c6ba"
+    },
+    {
+      "name": "ld_lz",
+      "width": 37,
+      "height": 57,
+      "source": "artifacts/ChemLab/res/ld_lz.BMP",
+      "source_sha256": "73015d3337661ae097fe5b82d772f3b986237a8cdf5200c7a6a1dd1f57e64ef4",
+      "native_rgb_words_sha256": "3fd77392004a99d823740833c7a96d41cb02f22e2a5e0b47a0b6b6bb8e404177"
+    },
+    {
+      "name": "pdsp100",
+      "width": 43,
+      "height": 79,
+      "source": "artifacts/ChemLab/res/pdsp100.BMP",
+      "source_sha256": "63edca63c330774ff14263008002c66267d880cf5db37c30942f75e53f4f447e",
+      "native_rgb_words_sha256": "17f4929104c436f116e63523fa89d103e4f0dc4a5f54b9c8b086f3205b1af9e6"
+    },
+    {
+      "name": "qg",
+      "width": 36,
+      "height": 54,
+      "source": "artifacts/ChemLab/res/qg.BMP",
+      "source_sha256": "ce9acb6469c1fcdab8c8a5394443863a3be632d4e108e7c883f47c890ebeff77",
+      "native_rgb_words_sha256": "71b1e8be69519bcaf9e0652c873f9b31972aa3825bc8ead5449c41be71a65642"
+    },
+    {
+      "name": "sb100",
+      "width": 42,
+      "height": 46,
+      "source": "artifacts/ChemLab/res/sb100.bmp",
+      "source_sha256": "01e416ef3d3c14f34b3b7d27983f524326484c9e573b430422f02a2bb052f269",
+      "native_rgb_words_sha256": "b50fc26011bf4b5d46b59f26993280d37dcbaf109c3bf20b3b4de410f6509cf2"
+    },
+    {
+      "name": "sb200",
+      "width": 53,
+      "height": 58,
+      "source": "artifacts/ChemLab/res/sb200.bmp",
+      "source_sha256": "b5e9fff93f97b2d9a5050b9a4652411971bed51d3b8e5bf9c1fdfd779717f378",
+      "native_rgb_words_sha256": "9c573c8794700908500cf9dd7a7f875af8e943b1dc51ca7af0eb5705eadd9387"
+    },
+    {
+      "name": "sb500",
+      "width": 75,
+      "height": 82,
+      "source": "artifacts/ChemLab/res/sb500.bmp",
+      "source_sha256": "3efde0e1e60d9b95a00d50b62649ffe07f3df358597f185802f5bc9d94e855ec",
+      "native_rgb_words_sha256": "0e376735ab9612bcdfcbad7806a36e078fc2be50e38a30f3b1f1d2e64ced61cb"
+    },
+    {
+      "name": "sg0",
+      "width": 18,
+      "height": 88,
+      "source": "artifacts/ChemLab/res/sg0.bmp",
+      "source_sha256": "26360a869681f1ad37457eaa9d6878a56dc6caf3fcaeba6c60245285f27a4a3d",
+      "native_rgb_words_sha256": "a76468baddc5e9dad5305b3bc9c588bc42d80c077bbd26ed2a70b3170852ea71"
+    },
+    {
+      "name": "sg45",
+      "width": 71,
+      "height": 72,
+      "source": "artifacts/ChemLab/res/sg45.bmp",
+      "source_sha256": "b4ec95d5d605c92405b178b64b1e2b97f7eeb1315a42624b2e3ca6baf87be830",
+      "native_rgb_words_sha256": "5bf67d3672a2e6b11041aace6387ce40623a56c7fcb7367a5e9a19fd4339b71c"
+    },
+    {
+      "name": "sg97",
+      "width": 90,
+      "height": 23,
+      "source": "artifacts/ChemLab/res/sg97.bmp",
+      "source_sha256": "5578f09001296ed71c74bf8dcf8431d043a7b4607e00884a9c1e6a5e2e7f690e",
+      "native_rgb_words_sha256": "c09656a6190c56a14477d43218e4803ffac6d4797dbd6442a9fb04681e51a41e"
+    },
+    {
+      "name": "shimm",
+      "width": 51,
+      "height": 3,
+      "source": "artifacts/ChemLab/res/shimm.BMP",
+      "source_sha256": "dcff1517f8b7aa948eb1416365272f54cd9c7f8b817f37caa4c19576a1e2874c",
+      "native_rgb_words_sha256": "6399117e23ff7ae3d91d785a0311c382ad9bf42ab997df177dde00f4124eb47d"
+    },
+    {
+      "name": "shimm1",
+      "width": 39,
+      "height": 3,
+      "source": "artifacts/ChemLab/res/shimm1.BMP",
+      "source_sha256": "1a87e031948aae4f599e47963a4224cf205f14353faea6799dacb0522bb3cf47",
+      "native_rgb_words_sha256": "6cf170c4f3298d6e235709db42a7363b3080cadb657a611ee79e02f4347e95e2"
+    },
+    {
+      "name": "shuic",
+      "width": 96,
+      "height": 40,
+      "source": "artifacts/ChemLab/res/shuic.BMP",
+      "source_sha256": "86cacd80fe33afbf634aeb06f24a7fd0a471138b5e1202ce9c7ba8309b736883",
+      "native_rgb_words_sha256": "37be0e9fab930c86b7530762244c8bc2ff0ce602df2cfd0875d7962d7b40920c"
+    },
+    {
+      "name": "ssddg",
+      "width": 19,
+      "height": 244,
+      "source": "artifacts/ChemLab/res/ssddg.BMP",
+      "source_sha256": "bbdb0be6836b075d885b03a4c1938d8b80e317ebc7a8a1fe133e41b6371253a1",
+      "native_rgb_words_sha256": "45f90b2a216ae51ee5f7b049708194d6fc725498ffbe08ce619558ded5e402c3"
+    },
+    {
+      "name": "tiej0",
+      "width": 60,
+      "height": 15,
+      "source": "artifacts/ChemLab/res/tiej0.BMP",
+      "source_sha256": "8a4cae1032cb961e3c998ea143584d47c9ed9ecb8f8bd648db10546dc0a44355",
+      "native_rgb_words_sha256": "98261daf745ad87e07b2065fa657b02b67da3453fec282fcae3d01b70d0d4aa8"
+    },
+    {
+      "name": "tiej1",
+      "width": 15,
+      "height": 22,
+      "source": "artifacts/ChemLab/res/tiej1.BMP",
+      "source_sha256": "789d121c4aebb724a11cded17148cf941b9fb2b67824a36b72828e8b4b232b74",
+      "native_rgb_words_sha256": "b2d8d60b00c60a9001aca0ec064bd83703464ccfb92842c03d465d3fff1cab9c"
+    },
+    {
+      "name": "tiej1_0",
+      "width": 22,
+      "height": 15,
+      "source": "artifacts/ChemLab/res/tiej1_0.BMP",
+      "source_sha256": "486a63bd1b9ac3eaa99e1847d9b017fae58a7bb682178c546e98ffd22e638471",
+      "native_rgb_words_sha256": "9fe2e07419b781aa938a5684c2759273fe6b2e777c0155827df90ece0020af6c"
+    },
+    {
+      "name": "tiej1_45",
+      "width": 27,
+      "height": 27,
+      "source": "artifacts/ChemLab/res/tiej1_45.BMP",
+      "source_sha256": "cc760bf86dd661bc9430fa9c9e9c85b652400cd91590522411990a5b6dc35a2e",
+      "native_rgb_words_sha256": "eab8a2e99ebd88d1af5f8eeac4f393c08425ff728cd220e97913ed3caf82a9f7"
+    },
+    {
+      "name": "tiej1_90",
+      "width": 15,
+      "height": 22,
+      "source": "artifacts/ChemLab/res/tiej1_90.BMP",
+      "source_sha256": "789d121c4aebb724a11cded17148cf941b9fb2b67824a36b72828e8b4b232b74",
+      "native_rgb_words_sha256": "b2d8d60b00c60a9001aca0ec064bd83703464ccfb92842c03d465d3fff1cab9c"
+    },
+    {
+      "name": "tiej1_97",
+      "width": 17,
+      "height": 24,
+      "source": "artifacts/ChemLab/res/tiej1_97.BMP",
+      "source_sha256": "f989a8e9c2a82d40733d63a2c4e911fb69c4ea37069df4a519d7bbec85c4ec2d",
+      "native_rgb_words_sha256": "a8e4ba8e34516771515e27be3f8292b50e33d5961bad3e24e7cb920925e9d5da"
+    },
+    {
+      "name": "tiej_1",
+      "width": 15,
+      "height": 22,
+      "source": "artifacts/ChemLab/res/tiej_1.BMP",
+      "source_sha256": "4a02acd197ba6156486f56b374eedfcca4e778eb4a48bed39ea762e67f17b25e",
+      "native_rgb_words_sha256": "b2d8d60b00c60a9001aca0ec064bd83703464ccfb92842c03d465d3fff1cab9c"
+    },
+    {
+      "name": "tiejt0",
+      "width": 88,
+      "height": 206,
+      "source": "artifacts/ChemLab/res/tiejt0.BMP",
+      "source_sha256": "b1b1bc9246211cd91432acf9c234f31aa5154b2abbd50a4172a21850ecc0e547",
+      "native_rgb_words_sha256": "1c7b1959937662e868bffaeac0def8b9a4dcf430343c2687b89fd9b0b6b26d7b"
+    },
+    {
+      "name": "tiejt1",
+      "width": 52,
+      "height": 206,
+      "source": "artifacts/ChemLab/res/tiejt1.BMP",
+      "source_sha256": "d7274ac30c994619f0a87367b39517dfb4f12f30ca380767ff95f736f3184358",
+      "native_rgb_words_sha256": "2126c90f46bb432df4a52cf90d2969c10f54b0a25313a6022c9b6d145108f8f8"
+    },
+    {
+      "name": "tieq0",
+      "width": 80,
+      "height": 16,
+      "source": "artifacts/ChemLab/res/tieq0.BMP",
+      "source_sha256": "dce33a7d5c2b60713fd8de91397a791f489e54e695190a49250fdc8cd3943319",
+      "native_rgb_words_sha256": "02bcb628f25a8f7ab0bf3db8f814af49d42e1d7ce89710bbc05225dc5f6bfd08"
+    },
+    {
+      "name": "tieq1",
+      "width": 43,
+      "height": 10,
+      "source": "artifacts/ChemLab/res/tieq1.BMP",
+      "source_sha256": "71ef7dafac9ea5b68bb8e92189a2dc05c619ec4ec7a08d91652cf7fb7384deca",
+      "native_rgb_words_sha256": "4d593fbdf732d574055406c52f7f95b6fa0c74bb26dde202232200807f5bff64"
+    },
+    {
+      "name": "uxg",
+      "width": 48,
+      "height": 79,
+      "source": "artifacts/ChemLab/res/uxg.BMP",
+      "source_sha256": "d08d1a79d4616946d17cb04f2f33eca1b603458d6d4f2ddc4ddb3b91f662f052",
+      "native_rgb_words_sha256": "e521c5ab36ee5733a5b82550619e2df324a1e065ac5e6154a31288f7af034723"
+    },
+    {
+      "name": "wendj",
+      "width": 13,
+      "height": 122,
+      "source": "artifacts/ChemLab/res/wendj.BMP",
+      "source_sha256": "bb5d0d647e14e31fd58a7ebf1096347ef08a65ff4f29a56d44603c7882c902e5",
+      "native_rgb_words_sha256": "e4d3c6e26404c154fbe9eb895bcfed269ba89e26b9d1c7d8ab70c03291d4011f"
+    },
+    {
+      "name": "xkp",
+      "width": 30,
+      "height": 52,
+      "source": "artifacts/ChemLab/res/xkp.BMP",
+      "source_sha256": "0590797c7c819429ae6e81feec9a213f3cb8d1df9726082c760c244ceca26a66",
+      "native_rgb_words_sha256": "ece98e4db8ec2ffda8b2b0ada6b1a21bce79783915a50801f15cd29b962e6456"
+    },
+    {
+      "name": "xkp_z",
+      "width": 30,
+      "height": 52,
+      "source": "artifacts/ChemLab/res/xkp_z.BMP",
+      "source_sha256": "ea5c10de903f155e6a9996f6a3451edd2290e6d2e8841cf30f07d5b8de78e9bf",
+      "native_rgb_words_sha256": "616f0ce74178f44aff6f1926622a31dd0d04a13dc994efe03cfcc2995d9239bb"
+    },
+    {
+      "name": "ydsp100",
+      "width": 44,
+      "height": 82,
+      "source": "artifacts/ChemLab/res/ydsp100.BMP",
+      "source_sha256": "d24e88d93c436045fac020658b2e394621f60ab899a8d1e888b3eb80a4d931a0",
+      "native_rgb_words_sha256": "3ee932de05ac0ff46af7e0700d0f662d7ac1bdfe95b54d436cb21d858899a9ab"
+    },
+    {
+      "name": "zfm_50",
+      "width": 44,
+      "height": 17,
+      "source": "artifacts/ChemLab/res/zfm_50.BMP",
+      "source_sha256": "eae374aeb9bef8c4f503bf8fdd6d7c514472c39cd4cb25da144ec7a0339b48cd",
+      "native_rgb_words_sha256": "50a7f1baad6dd71f1a27bf28622dcf25c32b230d0eda2135c57601c474ea62c3"
+    },
+    {
+      "name": "zxp100",
+      "width": 43,
+      "height": 52,
+      "source": "artifacts/ChemLab/res/zxp100.BMP",
+      "source_sha256": "5506f9707f94bbc4f9de176869d1c216119a58e17a6be76dd8c399c2bf1aeee3",
+      "native_rgb_words_sha256": "3b0eba929c641f4aec5ecdf0c3e12150698b0b2b88179e71a29667ad29a7262b"
+    },
+    {
+      "name": "zxp250",
+      "width": 58,
+      "height": 66,
+      "source": "artifacts/ChemLab/res/zxp250.BMP",
+      "source_sha256": "ca3d7cdbfeae5e660de01b777baf27702cf5f0e7ef0daa33316ebcd85c2a8f79",
+      "native_rgb_words_sha256": "ca6d6ec2f8a6f9e49252465d0cf609d4f65b9ddf0aaee8fa8dad65079470eaa6"
+    }
+  ],
+  "pixels": 300769
+}

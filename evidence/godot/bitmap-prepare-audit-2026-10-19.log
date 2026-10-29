@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "method": "Actual preserve_native_rgb function compiled from its source AST, independently exercised in a new /private/tmp Godot project; no production files regenerated or changed.",
+  "godot_version": "4.7.1.stable.official.a13da4feb",
+  "temporary_project": "/private/tmp/chemlab-bitmap-prepare-vp8wgzi9",
+  "prepare_godot_sha256": "fb7fee94ac074a85d329b22d3f3b6324bc6c4884aeffee7b9125e40711e4eea7",
+  "source_png": "godot/assets/apparatus/jtdg_2.png",
+  "source_png_sha256": "e3f3edfe3c9b78ed0b24409de2f2855a2d0421961c72577ed3f562a902d1fc9f",
+  "helper_checks": {
+    "fresh_created_minimal_import": true,
+    "existing_true_replaced": true,
+    "unrelated_existing_options_preserved": true,
+    "idempotent": true
+  },
+  "clean_editor_import_exit_code": 0,
+  "pixel_comparison_exit_code": 0,
+  "imported_cases": [
+    {
+      "alpha_differences": 0,
+      "fix_alpha_border": false,
+      "hidden_rgb_differences": 0,
+      "kind": "fresh",
+      "pixels": 1140,
+      "rgb_differences": 0
+    },
+    {
+      "alpha_differences": 0,
+      "fix_alpha_border": false,
+      "hidden_rgb_differences": 0,
+      "kind": "existing",
+      "pixels": 1140,
+      "rgb_differences": 0
+    },
+    {
+      "alpha_differences": 0,
+      "fix_alpha_border": true,
+      "hidden_rgb_differences": 634,
+      "kind": "control",
+      "pixels": 1140,
+      "rgb_differences": 634
+    }
+  ],
+  "conclusion": "New minimal .import and updated existing .import both retain fix_alpha_border=false after clean Godot import, preserving every RGBA source byte. Untreated default importer changes 634 transparent-pixel RGB values, proving sensitivity to the reported regression."
+}

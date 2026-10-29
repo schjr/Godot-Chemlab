@@ -1,0 +1,21 @@
+{
+  "source": "artifacts/ChemLab/DEFAULT.ETS",
+  "byte_count": 500294,
+  "sha256": "709087bc4b436c5ad2c263fd6aa76c4b40a88fa002464ee560240c879d77c686",
+  "encoding": null,
+  "prefix_dwords_little_endian": [
+    28,
+    34,
+    41,
+    15,
+    16,
+    10,
+    10
+  ],
+  "prefix_field_meanings": "Unresolved",
+  "bmp_offset": 28,
+  "bmp_length": 500266,
+  "bmp_width": 610,
+  "bmp_height": 410,
+  "bmp_bits_per_pixel": 16
+}

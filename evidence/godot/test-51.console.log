@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+x87 reference 357 cases; differences 0
+PASS original CRT x87 logarithm/power sequence

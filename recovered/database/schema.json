@@ -1,0 +1,582 @@
+{
+  "format": "V2000",
+  "read_only": true,
+  "supplied_password_matches_header": true,
+  "tables": [
+    {
+      "name": "chemicals",
+      "declared_rows": 83,
+      "exported_rows": 83,
+      "columns": [
+        {
+          "name": "chemname",
+          "type": "TEXT",
+          "length_bytes": 60,
+          "length_units": 30,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "mf",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "popularname",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "describe1",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "chemname",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/00.json"
+    },
+    {
+      "name": "chemics",
+      "declared_rows": 22,
+      "exported_rows": 22,
+      "columns": [
+        {
+          "name": "chemicname",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "flname",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "nationality",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "alllife",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "chemicname",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/01.json"
+    },
+    {
+      "name": "concepts",
+      "declared_rows": 153,
+      "exported_rows": 153,
+      "columns": [
+        {
+          "name": "conceptname",
+          "type": "TEXT",
+          "length_bytes": 100,
+          "length_units": 50,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "conceptcontent",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "conceptname",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/02.json"
+    },
+    {
+      "name": "eleinfo",
+      "declared_rows": 103,
+      "exported_rows": 103,
+      "columns": [
+        {
+          "name": "elenum",
+          "type": "INT",
+          "length_bytes": 2,
+          "length_units": 2,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "finder",
+          "type": "TEXT",
+          "length_bytes": 160,
+          "length_units": 80,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "findtime",
+          "type": "TEXT",
+          "length_bytes": 80,
+          "length_units": 40,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "howtofind",
+          "type": "TEXT",
+          "length_bytes": 510,
+          "length_units": 255,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "nameby",
+          "type": "TEXT",
+          "length_bytes": 160,
+          "length_units": 80,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "describe1",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "source",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "use",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "excontent",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "elenum",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "elenum",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "elenum",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/03.json"
+    },
+    {
+      "name": "elements",
+      "declared_rows": 112,
+      "exported_rows": 112,
+      "columns": [
+        {
+          "name": "id",
+          "type": "LONG",
+          "length_bytes": 4,
+          "length_units": 4,
+          "auto_number": true,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "elenum",
+          "type": "INT",
+          "length_bytes": 2,
+          "length_units": 2,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "elesymbol",
+          "type": "TEXT",
+          "length_bytes": 6,
+          "length_units": 3,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "eletitle",
+          "type": "TEXT",
+          "length_bytes": 4,
+          "length_units": 2,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "elewt",
+          "type": "TEXT",
+          "length_bytes": 10,
+          "length_units": 5,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "eletype",
+          "type": "TEXT",
+          "length_bytes": 12,
+          "length_units": 6,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "eleename",
+          "type": "TEXT",
+          "length_bytes": 40,
+          "length_units": 20,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "elefengdu",
+          "type": "TEXT",
+          "length_bytes": 20,
+          "length_units": 10,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "elemeltingp",
+          "type": "DOUBLE",
+          "length_bytes": 8,
+          "length_units": 8,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "eleboilingp",
+          "type": "DOUBLE",
+          "length_bytes": 8,
+          "length_units": 8,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "elenum",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "elenum",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "id",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "id",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "id",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/04.json"
+    },
+    {
+      "name": "idlib",
+      "declared_rows": 1,
+      "exported_rows": 1,
+      "columns": [
+        {
+          "name": "idname",
+          "type": "TEXT",
+          "length_bytes": 40,
+          "length_units": 20,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "idvalue",
+          "type": "TEXT",
+          "length_bytes": 16,
+          "length_units": 8,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "diyid",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "idname",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "idvalue",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "idvalue",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "idname",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/05.json"
+    },
+    {
+      "name": "resdiy",
+      "declared_rows": 1,
+      "exported_rows": 1,
+      "columns": [
+        {
+          "name": "resid",
+          "type": "TEXT",
+          "length_bytes": 16,
+          "length_units": 8,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "parentid",
+          "type": "TEXT",
+          "length_bytes": 16,
+          "length_units": 8,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "titlename",
+          "type": "TEXT",
+          "length_bytes": 200,
+          "length_units": 100,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "resinfo",
+          "type": "MEMO",
+          "length_bytes": 0,
+          "length_units": 0,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        },
+        {
+          "name": "restype",
+          "type": "BYTE",
+          "length_bytes": 1,
+          "length_units": 1,
+          "auto_number": false,
+          "precision": 0,
+          "scale": 0
+        }
+      ],
+      "indexes": [
+        {
+          "name": "parentid",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "parentid",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "PrimaryKey",
+          "primary_key": true,
+          "unique": true,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "resid",
+              "ascending": true
+            }
+          ]
+        },
+        {
+          "name": "resid",
+          "primary_key": false,
+          "unique": false,
+          "foreign_key": false,
+          "columns": [
+            {
+              "name": "resid",
+              "ascending": true
+            }
+          ]
+        }
+      ],
+      "data_file": "tables/06.json"
+    }
+  ],
+  "queries": [],
+  "relationships": [],
+  "system_table_names": [
+    "MSysACEs",
+    "MSysAccessObjects",
+    "MSysNavPaneGroupCategories",
+    "MSysNavPaneGroupToObjects",
+    "MSysNavPaneGroups",
+    "MSysNavPaneObjectIDs",
+    "MSysObjects",
+    "MSysQueries",
+    "MSysRelationships"
+  ]
+}

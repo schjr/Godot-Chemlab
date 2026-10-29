@@ -1,0 +1,1057 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TFORM9",
+      0
+    ],
+    "file_offset": 909064,
+    "resource_size": 2644,
+    "sha256": "49c12247e6a28cd79a48a0a0e4f526e827fcba985186382e372d3ec4ad067791",
+    "binary": "recovered/forms/myres/data/TFORM9.dfm.bin",
+    "parsed_size": 2644,
+    "trailing_bytes": 0,
+    "root_class": "TForm9",
+    "root_name": "Form9",
+    "component_count": 9,
+    "event_handlers": [
+      {
+        "component": "Form9",
+        "class": "TForm9",
+        "event": "OnShow",
+        "handler": "FormShow"
+      },
+      {
+        "component": "SpeedButton1",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton1Click"
+      },
+      {
+        "component": "SpeedButton2",
+        "class": "TSpeedButton",
+        "event": "OnClick",
+        "handler": "SpeedButton2Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 832534,
+        "entry_size": 15,
+        "code_va": "0x00422178",
+        "code_file_offset": 137080,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 834640,
+        "entry_size": 15,
+        "code_va": "0x00426AB4",
+        "code_file_offset": 155828,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 837203,
+        "entry_size": 15,
+        "code_va": "0x004513B0",
+        "code_file_offset": 330160,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 834592,
+        "entry_size": 24,
+        "code_va": "0x00426618",
+        "code_file_offset": 154648,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 837242,
+        "entry_size": 24,
+        "code_va": "0x004513FC",
+        "code_file_offset": 330236,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton1Click",
+        "entry_file_offset": 837873,
+        "entry_size": 24,
+        "code_va": "0x0045167C",
+        "code_file_offset": 330876,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 834616,
+        "entry_size": 24,
+        "code_va": "0x00426640",
+        "code_file_offset": 154688,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "SpeedButton2Click",
+        "entry_file_offset": 837218,
+        "entry_size": 24,
+        "code_va": "0x004513E4",
+        "code_file_offset": 330212,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/myres/data/TForm9.hpp"
+  },
+  "form": {
+    "class": "TForm9",
+    "name": "Form9",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 248,
+          "offset": 22
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 3,
+          "value": 255,
+          "offset": 29
+        }
+      },
+      {
+        "name": "BorderStyle",
+        "value": {
+          "type": 7,
+          "value": "bsDialog",
+          "offset": 44
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "精度设置",
+          "offset": 62
+        }
+      },
+      {
+        "name": "ClientHeight",
+        "value": {
+          "type": 2,
+          "value": 124,
+          "offset": 85
+        }
+      },
+      {
+        "name": "ClientWidth",
+        "value": {
+          "type": 3,
+          "value": 388,
+          "offset": 99
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "cl3DLight",
+          "offset": 108
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 132
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 160
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 186
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 198
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 224
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 241
+        }
+      },
+      {
+        "name": "OnShow",
+        "value": {
+          "type": 7,
+          "value": "FormShow",
+          "offset": 249
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 273
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 13,
+          "offset": 286
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TLabel",
+        "name": "Label1",
+        "flags": 0,
+        "offset": 289,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 308
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 72,
+              "offset": 314
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 39,
+              "offset": 322
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 331
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "低精度",
+              "offset": 341
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "DEFAULT_CHARSET",
+              "offset": 362
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 390
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 416
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "MS Sans Serif",
+              "offset": 428
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 454
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 467
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label2",
+        "flags": 0,
+        "offset": 470,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 346,
+              "offset": 489
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 72,
+              "offset": 496
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 39,
+              "offset": 504
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 513
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "高精度",
+              "offset": 523
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "DEFAULT_CHARSET",
+              "offset": 544
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 572
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 598
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "MS Sans Serif",
+              "offset": 610
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 636
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 649
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TBevel",
+        "name": "Bevel1",
+        "flags": 0,
+        "offset": 652,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 224,
+              "offset": 671
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 678
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 77,
+              "offset": 686
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 26,
+              "offset": 695
+            }
+          },
+          {
+            "name": "Shape",
+            "value": {
+              "type": 7,
+              "value": "bsFrame",
+              "offset": 703
+            }
+          },
+          {
+            "name": "Style",
+            "value": {
+              "type": 7,
+              "value": "bsRaised",
+              "offset": 718
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TBevel",
+        "name": "Bevel2",
+        "flags": 0,
+        "offset": 730,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 308,
+              "offset": 749
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 756
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 77,
+              "offset": 764
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 26,
+              "offset": 773
+            }
+          },
+          {
+            "name": "Shape",
+            "value": {
+              "type": 7,
+              "value": "bsFrame",
+              "offset": 781
+            }
+          },
+          {
+            "name": "Style",
+            "value": {
+              "type": 7,
+              "value": "bsRaised",
+              "offset": 796
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton1",
+        "flags": 0,
+        "offset": 808,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 226,
+              "offset": 839
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 98,
+              "offset": 846
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 73,
+              "offset": 854
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 22,
+              "offset": 863
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "确定",
+              "offset": 873
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 884
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "DEFAULT_CHARSET",
+              "offset": 898
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 926
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -16,
+              "offset": 952
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "MS Sans Serif",
+              "offset": 964
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 990
+            }
+          },
+          {
+            "name": "Glyph.Data",
+            "value": {
+              "type": 10,
+              "value": "76010000424D760100000000000076000000280000002000000010000000010004000000000000010000120B0000120B00001000000000000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00555555555555555555555555555555555555555555555555555555FF5555555555555905555555555555577FF5555555555599905555555555557777F5555555555599905555555555557777FF5555555559999905555555555777777F5555555599999905555555557777777FF5555557990599905555555777757777F5555579055559905555557775555777FF5555555555599905555555555557777F5555555555559905555555555555777FF5555555555559905555555555555777FF5555555555557905555555555555777FF5555555555557905555555555555777FF5555555555555990555555555555577755555555555555555555555555555555",
+              "size": 378,
+              "sha256": "dca3a504969745884ae8e89bf923dc7e021509e97ba0430db2d26c0ad68a4752",
+              "offset": 1003
+            }
+          },
+          {
+            "name": "NumGlyphs",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 1396
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1409
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton1Click",
+              "offset": 1418
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSpeedButton",
+        "name": "SpeedButton2",
+        "flags": 0,
+        "offset": 1439,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 310,
+              "offset": 1470
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 98,
+              "offset": 1477
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 73,
+              "offset": 1485
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 22,
+              "offset": 1494
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "取消",
+              "offset": 1504
+            }
+          },
+          {
+            "name": "Flat",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 1515
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "DEFAULT_CHARSET",
+              "offset": 1529
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1557
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -16,
+              "offset": 1583
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "MS Sans Serif",
+              "offset": 1595
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1621
+            }
+          },
+          {
+            "name": "Glyph.Data",
+            "value": {
+              "type": 10,
+              "value": "76010000424D760100000000000076000000280000002000000010000000010004000000000000010000130B0000130B00001000000000000000000000000000800000800000008080008000000080008000808000007F7F7F00BFBFBF000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF003333333333333333333333FFFFF3333333333999993333333333F77777FFF33333399999999933333337777FF377FF3333993370739993333377FF373F377FF3399993000339993337777F777F3377F3393999707333993337F77737333337FF993399933333399377F3777FF333377F993339903333399377F33737FF33377F993333707333399377F333377FF3377F993333101933399377F333777FFF377F993333000993399377FF3377737FF7733993330009993933373FF3777377F7F339993300039999333773FF777F777733339993707339933333773FF7FFF773333339999999993333333777333777333333333999993333333333377777333333",
+              "size": 378,
+              "sha256": "0c62e6fa199802c90bf3c87b61210069097a26308493764f2f9adeb6593323aa",
+              "offset": 1634
+            }
+          },
+          {
+            "name": "NumGlyphs",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 2027
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2040
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "SpeedButton2Click",
+              "offset": 2049
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TMemo",
+        "name": "Memo1",
+        "flags": 0,
+        "offset": 2070,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2087
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2093
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 388,
+              "offset": 2101
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 65,
+              "offset": 2111
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alTop",
+              "offset": 2119
+            }
+          },
+          {
+            "name": "BorderStyle",
+            "value": {
+              "type": 7,
+              "value": "bsNone",
+              "offset": 2138
+            }
+          },
+          {
+            "name": "Color",
+            "value": {
+              "type": 7,
+              "value": "cl3DLight",
+              "offset": 2152
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2176
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clNavy",
+              "offset": 2203
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2223
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2235
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2252
+            }
+          },
+          {
+            "name": "Lines.Strings",
+            "value": {
+              "type": 1,
+              "value": [
+                {
+                  "type": 6,
+                  "value": "由于本软件是一个体现三维世界的应用程序，虽然目前绝大多数",
+                  "offset": 2269
+                },
+                {
+                  "type": 6,
+                  "value": "的计算机的显卡是支持并优化3D引擎的，但是也有一些不满足的",
+                  "offset": 2327
+                },
+                {
+                  "type": 6,
+                  "value": "情况。这时会带来速度上的影响，您可以在这里进行速度和精度",
+                  "offset": 2385
+                },
+                {
+                  "type": 6,
+                  "value": "的选择。高精度意味着速度比较慢，低精度则意味着图形质量较",
+                  "offset": 2443
+                },
+                {
+                  "type": 6,
+                  "value": "差。",
+                  "offset": 2501
+                }
+              ],
+              "offset": 2268
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2519
+            }
+          },
+          {
+            "name": "ReadOnly",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 2529
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2539
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TScrollBar",
+        "name": "ScrollBar1",
+        "flags": 0,
+        "offset": 2543,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 41,
+              "offset": 2570
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 69,
+              "offset": 2576
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 303,
+              "offset": 2584
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 18,
+              "offset": 2594
+            }
+          },
+          {
+            "name": "Max",
+            "value": {
+              "type": 2,
+              "value": 40,
+              "offset": 2600
+            }
+          },
+          {
+            "name": "Min",
+            "value": {
+              "type": 2,
+              "value": 10,
+              "offset": 2606
+            }
+          },
+          {
+            "name": "PageSize",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 2617
+            }
+          },
+          {
+            "name": "Position",
+            "value": {
+              "type": 2,
+              "value": 10,
+              "offset": 2628
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 2639
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

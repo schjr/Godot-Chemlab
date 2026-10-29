@@ -1,0 +1,3 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+Original continuous-flow/N18 oracle comparison: PASS; 678 native call frames, 54 orientation/bitmap toggles, 9 full native material-flow frames with every recorded binary64 result

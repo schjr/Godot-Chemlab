@@ -1,0 +1,326 @@
+[
+  {
+    "method_name": "Button1Click",
+    "address": "0x0040162C",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370667,
+        "entry_size": 19,
+        "code_file_offset": 3116
+      }
+    ]
+  },
+  {
+    "method_name": "FormShow",
+    "address": "0x004025A0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370686,
+        "entry_size": 15,
+        "code_file_offset": 7072
+      }
+    ]
+  },
+  {
+    "method_name": "Button3Click",
+    "address": "0x00402860",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370701,
+        "entry_size": 19,
+        "code_file_offset": 7776
+      }
+    ]
+  },
+  {
+    "method_name": "Button4Click",
+    "address": "0x00402A04",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370720,
+        "entry_size": 19,
+        "code_file_offset": 8196
+      }
+    ]
+  },
+  {
+    "method_name": "Button5Click",
+    "address": "0x00402BB0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370739,
+        "entry_size": 19,
+        "code_file_offset": 8624
+      }
+    ]
+  },
+  {
+    "method_name": "Button6Click",
+    "address": "0x00402D48",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370758,
+        "entry_size": 19,
+        "code_file_offset": 9032
+      }
+    ]
+  },
+  {
+    "method_name": "Edit1Exit",
+    "address": "0x00402EE8",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370777,
+        "entry_size": 16,
+        "code_file_offset": 9448
+      }
+    ]
+  },
+  {
+    "method_name": "Edit3Exit",
+    "address": "0x00403120",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370793,
+        "entry_size": 16,
+        "code_file_offset": 10016
+      }
+    ]
+  },
+  {
+    "method_name": "Edit2Exit",
+    "address": "0x00403398",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370809,
+        "entry_size": 16,
+        "code_file_offset": 10648
+      }
+    ]
+  },
+  {
+    "method_name": "Edit4Exit",
+    "address": "0x004035D0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370825,
+        "entry_size": 16,
+        "code_file_offset": 11216
+      }
+    ]
+  },
+  {
+    "method_name": "Edit5Exit",
+    "address": "0x00403848",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370841,
+        "entry_size": 16,
+        "code_file_offset": 11848
+      }
+    ]
+  },
+  {
+    "method_name": "Edit6Exit",
+    "address": "0x0040395C",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370857,
+        "entry_size": 16,
+        "code_file_offset": 12124
+      }
+    ]
+  },
+  {
+    "method_name": "ScrollBar1Change",
+    "address": "0x00403AB0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370873,
+        "entry_size": 23,
+        "code_file_offset": 12464
+      }
+    ]
+  },
+  {
+    "method_name": "Button2Click",
+    "address": "0x00403BD0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370896,
+        "entry_size": 19,
+        "code_file_offset": 12752
+      }
+    ]
+  },
+  {
+    "method_name": "Image1MouseDown",
+    "address": "0x00403C88",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370915,
+        "entry_size": 22,
+        "code_file_offset": 12936
+      }
+    ]
+  },
+  {
+    "method_name": "Image1MouseMove",
+    "address": "0x00403DF0",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370937,
+        "entry_size": 22,
+        "code_file_offset": 13296
+      }
+    ]
+  },
+  {
+    "method_name": "Image1MouseUp",
+    "address": "0x00403F04",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370959,
+        "entry_size": 20,
+        "code_file_offset": 13572
+      }
+    ]
+  },
+  {
+    "method_name": "FormClose",
+    "address": "0x0040416C",
+    "decompiled": true,
+    "evidence": [
+      {
+        "resource_path": [
+          10,
+          "TFORM1",
+          0
+        ],
+        "root_class": "TForm1",
+        "entry_file_offset": 370979,
+        "entry_size": 16,
+        "code_file_offset": 14188
+      }
+    ]
+  }
+]

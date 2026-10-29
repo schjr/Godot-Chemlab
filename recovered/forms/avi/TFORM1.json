@@ -1,0 +1,3681 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TFORM1",
+      0
+    ],
+    "file_offset": 411828,
+    "resource_size": 6552,
+    "sha256": "2307cf51ac6ec8d6357404b39259c653381281735e7c8798d90069b2378ba6b8",
+    "binary": "recovered/forms/avi/TFORM1.dfm.bin",
+    "parsed_size": 6552,
+    "trailing_bytes": 0,
+    "root_class": "TForm1",
+    "root_name": "Form1",
+    "component_count": 37,
+    "event_handlers": [
+      {
+        "component": "Form1",
+        "class": "TForm1",
+        "event": "OnClose",
+        "handler": "FormClose"
+      },
+      {
+        "component": "Form1",
+        "class": "TForm1",
+        "event": "OnShow",
+        "handler": "FormShow"
+      },
+      {
+        "component": "Button1",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button1Click"
+      },
+      {
+        "component": "Image1",
+        "class": "TImage",
+        "event": "OnMouseDown",
+        "handler": "Image1MouseDown"
+      },
+      {
+        "component": "Image1",
+        "class": "TImage",
+        "event": "OnMouseMove",
+        "handler": "Image1MouseMove"
+      },
+      {
+        "component": "Image1",
+        "class": "TImage",
+        "event": "OnMouseUp",
+        "handler": "Image1MouseUp"
+      },
+      {
+        "component": "Edit1",
+        "class": "TEdit",
+        "event": "OnExit",
+        "handler": "Edit1Exit"
+      },
+      {
+        "component": "Edit2",
+        "class": "TEdit",
+        "event": "OnExit",
+        "handler": "Edit2Exit"
+      },
+      {
+        "component": "Edit3",
+        "class": "TEdit",
+        "event": "OnExit",
+        "handler": "Edit3Exit"
+      },
+      {
+        "component": "Edit4",
+        "class": "TEdit",
+        "event": "OnExit",
+        "handler": "Edit4Exit"
+      },
+      {
+        "component": "ScrollBar1",
+        "class": "TScrollBar",
+        "event": "OnChange",
+        "handler": "ScrollBar1Change"
+      },
+      {
+        "component": "Edit5",
+        "class": "TEdit",
+        "event": "OnExit",
+        "handler": "Edit5Exit"
+      },
+      {
+        "component": "Edit6",
+        "class": "TEdit",
+        "event": "OnExit",
+        "handler": "Edit6Exit"
+      },
+      {
+        "component": "Button2",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button2Click"
+      },
+      {
+        "component": "Button3",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button3Click"
+      },
+      {
+        "component": "Button4",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button4Click"
+      },
+      {
+        "component": "Button5",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button5Click"
+      },
+      {
+        "component": "Button6",
+        "class": "TButton",
+        "event": "OnClick",
+        "handler": "Button6Click"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "Button1Click",
+        "entry_file_offset": 370667,
+        "entry_size": 19,
+        "code_va": "0x0040162C",
+        "code_file_offset": 3116,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button2Click",
+        "entry_file_offset": 370896,
+        "entry_size": 19,
+        "code_va": "0x00403BD0",
+        "code_file_offset": 12752,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button3Click",
+        "entry_file_offset": 370701,
+        "entry_size": 19,
+        "code_va": "0x00402860",
+        "code_file_offset": 7776,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button4Click",
+        "entry_file_offset": 370720,
+        "entry_size": 19,
+        "code_va": "0x00402A04",
+        "code_file_offset": 8196,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button5Click",
+        "entry_file_offset": 370739,
+        "entry_size": 19,
+        "code_va": "0x00402BB0",
+        "code_file_offset": 8624,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Button6Click",
+        "entry_file_offset": 370758,
+        "entry_size": 19,
+        "code_va": "0x00402D48",
+        "code_file_offset": 9032,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit1Exit",
+        "entry_file_offset": 370777,
+        "entry_size": 16,
+        "code_va": "0x00402EE8",
+        "code_file_offset": 9448,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit2Exit",
+        "entry_file_offset": 370809,
+        "entry_size": 16,
+        "code_va": "0x00403398",
+        "code_file_offset": 10648,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit3Exit",
+        "entry_file_offset": 370793,
+        "entry_size": 16,
+        "code_va": "0x00403120",
+        "code_file_offset": 10016,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit4Exit",
+        "entry_file_offset": 370825,
+        "entry_size": 16,
+        "code_va": "0x004035D0",
+        "code_file_offset": 11216,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit5Exit",
+        "entry_file_offset": 370841,
+        "entry_size": 16,
+        "code_va": "0x00403848",
+        "code_file_offset": 11848,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Edit6Exit",
+        "entry_file_offset": 370857,
+        "entry_size": 16,
+        "code_va": "0x0040395C",
+        "code_file_offset": 12124,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormClose",
+        "entry_file_offset": 370979,
+        "entry_size": 16,
+        "code_va": "0x0040416C",
+        "code_file_offset": 14188,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 370686,
+        "entry_size": 15,
+        "code_va": "0x004025A0",
+        "code_file_offset": 7072,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Image1MouseDown",
+        "entry_file_offset": 370915,
+        "entry_size": 22,
+        "code_va": "0x00403C88",
+        "code_file_offset": 12936,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Image1MouseMove",
+        "entry_file_offset": 370937,
+        "entry_size": 22,
+        "code_va": "0x00403DF0",
+        "code_file_offset": 13296,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "Image1MouseUp",
+        "entry_file_offset": 370959,
+        "entry_size": 20,
+        "code_va": "0x00403F04",
+        "code_file_offset": 13572,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "ScrollBar1Change",
+        "entry_file_offset": 370873,
+        "entry_size": 23,
+        "code_va": "0x00403AB0",
+        "code_file_offset": 12464,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/avi/TForm1.hpp"
+  },
+  "form": {
+    "class": "TForm1",
+    "name": "Form1",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 207,
+          "offset": 22
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 123,
+          "offset": 29
+        }
+      },
+      {
+        "name": "BorderIcons",
+        "value": {
+          "type": 11,
+          "value": [
+            "biSystemMenu",
+            "biMinimize"
+          ],
+          "offset": 43
+        }
+      },
+      {
+        "name": "BorderStyle",
+        "value": {
+          "type": 7,
+          "value": "bsSingle",
+          "offset": 81
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "AVI动画生成器",
+          "offset": 99
+        }
+      },
+      {
+        "name": "ClientHeight",
+        "value": {
+          "type": 3,
+          "value": 533,
+          "offset": 127
+        }
+      },
+      {
+        "name": "ClientWidth",
+        "value": {
+          "type": 3,
+          "value": 606,
+          "offset": 142
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "clBtnFace",
+          "offset": 151
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 175
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 203
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 229
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 241
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 267
+        }
+      },
+      {
+        "name": "Icon.Data",
+        "value": {
+          "type": 10,
+          "value": "0000010001002020100000000000E802000016000000280000002000000040000000010004000000000080020000000000000000000000000000000000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF000000000000000000000000000000000000000000000000777777000000000000000000000000000000070000000000000000000000000000000700000000000000000000000000777007000000000000000000077070007770070000700000000000007700070078700000000700000000000770800007787700007000700000000007088807777777770777000700000000008F88877FFFFF07788770070000000000088888F88888FF08870070000000000000880888877778F07000700000000777088888880007778F770077777000700008F088007777077F07000000700700008F08880800077778F7700000700708888F0880F08F807078F7777700700708F88F0780F070F07078F7887700700708888F0780F077807088F7777700700700008F0788FF00080888F77000007000000008F0780FFFF0088F770070000000000008F07788000888887700700000000000008F0778888888087000700000000000088FF0077788088887000700000000008F888FF00000F878877007000000000708F8088FFFFF880787007000000000077080000888880000700700000000000077007000888007000070000000000000077700008F800700070000000000000000000000888007000000000000000000000000000000070000000000000000000000000777777700000000000000000000000000000000000000000000FFFFFFFFFFFC0FFFFFFC0FFFFFF80FFFFFF80FFFFE180E7FFC00043FF800001FF800000FF800000FFC00001FFE00001FE0000001C00000018000000180000001800000018000000180000001FC00001FFC00001FFE00001FFC00000FF800000FF800001FF800003FFC180C7FFE380EFFFFF80FFFFFF80FFFFFF80FFFFFFFFFFF",
+          "size": 766,
+          "sha256": "28b02fc39d204ab953e75fc2cabbebaa5709b731688aeee8e46ce663b25e7ea8",
+          "offset": 279
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 1065
+        }
+      },
+      {
+        "name": "OnClose",
+        "value": {
+          "type": 7,
+          "value": "FormClose",
+          "offset": 1074
+        }
+      },
+      {
+        "name": "OnShow",
+        "value": {
+          "type": 7,
+          "value": "FormShow",
+          "offset": 1092
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 1116
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 13,
+          "offset": 1129
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TLabel",
+        "name": "Label1",
+        "flags": 0,
+        "offset": 1132,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 1151
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 1157
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 65,
+              "offset": 1165
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1174
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "动画范围：",
+              "offset": 1184
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1209
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1236
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1262
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1274
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1291
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1304
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label2",
+        "flags": 0,
+        "offset": 1307,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 1326
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 1332
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 39,
+              "offset": 1340
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1349
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "左上角",
+              "offset": 1359
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1380
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1407
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1433
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1445
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1462
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1475
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label3",
+        "flags": 0,
+        "offset": 1478,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 1497
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 56,
+              "offset": 1503
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 52,
+              "offset": 1511
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1520
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "右下角：",
+              "offset": 1530
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1553
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1580
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1606
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1618
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1635
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1648
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label4",
+        "flags": 0,
+        "offset": 1651,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 80,
+              "offset": 1670
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 1676
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 20,
+              "offset": 1684
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1693
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "X：",
+              "offset": 1703
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1721
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1748
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1774
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1786
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1803
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1816
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label5",
+        "flags": 0,
+        "offset": 1819,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 80,
+              "offset": 1838
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 56,
+              "offset": 1844
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 20,
+              "offset": 1852
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 1861
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "X：",
+              "offset": 1871
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 1889
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 1916
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 1942
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 1954
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 1971
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 1984
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label6",
+        "flags": 0,
+        "offset": 1987,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 2006
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 2013
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 20,
+              "offset": 2021
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 2030
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "Y：",
+              "offset": 2040
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2058
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2085
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2111
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2123
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2140
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2153
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label7",
+        "flags": 0,
+        "offset": 2156,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 2175
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 56,
+              "offset": 2182
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 20,
+              "offset": 2190
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 2199
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "Y：",
+              "offset": 2209
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2227
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2254
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2280
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2292
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2309
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2322
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label8",
+        "flags": 0,
+        "offset": 2325,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 264,
+              "offset": 2344
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 2351
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 39,
+              "offset": 2359
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 2368
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "颜色：",
+              "offset": 2378
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2399
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2426
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2452
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2464
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2481
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2494
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label9",
+        "flags": 0,
+        "offset": 2497,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 344,
+              "offset": 2516
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 2523
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 105,
+              "offset": 2531
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 2540
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "播放速度：5帧/秒",
+              "offset": 2550
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2581
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2608
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2634
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2646
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2663
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2676
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label10",
+        "flags": 0,
+        "offset": 2679,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 344,
+              "offset": 2699
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 48,
+              "offset": 2706
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 78,
+              "offset": 2714
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 2723
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "帧范围：从第",
+              "offset": 2733
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2760
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2787
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2813
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2825
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 2842
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 2855
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label11",
+        "flags": 0,
+        "offset": 2858,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 472,
+              "offset": 2878
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 48,
+              "offset": 2885
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 39,
+              "offset": 2893
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 2902
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "帧到第",
+              "offset": 2912
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 2933
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 2960
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 2986
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 2998
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 3015
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3028
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label12",
+        "flags": 0,
+        "offset": 3031,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 568,
+              "offset": 3051
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 48,
+              "offset": 3058
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 3066
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 3075
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "帧",
+              "offset": 3085
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 3102
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 3129
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 3155
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 3167
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 3184
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3197
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TBevel",
+        "name": "Bevel1",
+        "flags": 0,
+        "offset": 3200,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 3219
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 3225
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 601,
+              "offset": 3233
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 81,
+              "offset": 3243
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TBevel",
+        "name": "Bevel2",
+        "flags": 0,
+        "offset": 3247,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 368,
+              "offset": 3266
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 88,
+              "offset": 3273
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 233,
+              "offset": 3281
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 41,
+              "offset": 3291
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TLabel",
+        "name": "Label13",
+        "flags": 0,
+        "offset": 3295,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 3315
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 112,
+              "offset": 3321
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 3329
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 3338
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "第0帧",
+              "offset": 3348
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 3368
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 3395
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 3421
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 3433
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 3450
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3463
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TImage",
+        "name": "Image2",
+        "flags": 0,
+        "offset": 3466,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 3485
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 520,
+              "offset": 3491
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 500,
+              "offset": 3500
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 500,
+              "offset": 3510
+            }
+          },
+          {
+            "name": "AutoSize",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 3522
+            }
+          },
+          {
+            "name": "Visible",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3531
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button1",
+        "flags": 0,
+        "offset": 3534,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 376,
+              "offset": 3555
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 3562
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 105,
+              "offset": 3570
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 3579
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "生成AVI动画",
+              "offset": 3589
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 3615
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 3642
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 3668
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 3680
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 3697
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 3710
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 3720
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button1Click",
+              "offset": 3730
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TScrollBox",
+        "name": "ScrollBox1",
+        "flags": 0,
+        "offset": 3746,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 3773
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 136,
+              "offset": 3779
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 600,
+              "offset": 3788
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 377,
+              "offset": 3798
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 3810
+            }
+          }
+        ],
+        "children": [
+          {
+            "class": "TImage",
+            "name": "Image1",
+            "flags": 0,
+            "offset": 3813,
+            "properties": [
+              {
+                "name": "Left",
+                "value": {
+                  "type": 2,
+                  "value": 0,
+                  "offset": 3832
+                }
+              },
+              {
+                "name": "Top",
+                "value": {
+                  "type": 2,
+                  "value": 0,
+                  "offset": 3838
+                }
+              },
+              {
+                "name": "Width",
+                "value": {
+                  "type": 3,
+                  "value": 500,
+                  "offset": 3846
+                }
+              },
+              {
+                "name": "Height",
+                "value": {
+                  "type": 3,
+                  "value": 500,
+                  "offset": 3856
+                }
+              },
+              {
+                "name": "AutoSize",
+                "value": {
+                  "type": 9,
+                  "value": true,
+                  "offset": 3868
+                }
+              },
+              {
+                "name": "OnMouseDown",
+                "value": {
+                  "type": 7,
+                  "value": "Image1MouseDown",
+                  "offset": 3881
+                }
+              },
+              {
+                "name": "OnMouseMove",
+                "value": {
+                  "type": 7,
+                  "value": "Image1MouseMove",
+                  "offset": 3910
+                }
+              },
+              {
+                "name": "OnMouseUp",
+                "value": {
+                  "type": 7,
+                  "value": "Image1MouseUp",
+                  "offset": 3937
+                }
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit1",
+        "flags": 0,
+        "offset": 3955,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 3972
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 28,
+              "offset": 3978
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 49,
+              "offset": 3986
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 3995
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 2,
+              "offset": 4006
+            }
+          },
+          {
+            "name": "Text",
+            "value": {
+              "type": 6,
+              "value": "0",
+              "offset": 4013
+            }
+          },
+          {
+            "name": "OnExit",
+            "value": {
+              "type": 7,
+              "value": "Edit1Exit",
+              "offset": 4023
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit2",
+        "flags": 0,
+        "offset": 4036,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 176,
+              "offset": 4053
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 28,
+              "offset": 4060
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 49,
+              "offset": 4068
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 4077
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 3,
+              "offset": 4088
+            }
+          },
+          {
+            "name": "Text",
+            "value": {
+              "type": 6,
+              "value": "0",
+              "offset": 4095
+            }
+          },
+          {
+            "name": "OnExit",
+            "value": {
+              "type": 7,
+              "value": "Edit2Exit",
+              "offset": 4105
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit3",
+        "flags": 0,
+        "offset": 4118,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 4135
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 52,
+              "offset": 4141
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 49,
+              "offset": 4149
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 4158
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 4,
+              "offset": 4169
+            }
+          },
+          {
+            "name": "Text",
+            "value": {
+              "type": 6,
+              "value": "0",
+              "offset": 4176
+            }
+          },
+          {
+            "name": "OnExit",
+            "value": {
+              "type": 7,
+              "value": "Edit3Exit",
+              "offset": 4186
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit4",
+        "flags": 0,
+        "offset": 4199,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 176,
+              "offset": 4216
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 52,
+              "offset": 4223
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 49,
+              "offset": 4231
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 4240
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 5,
+              "offset": 4251
+            }
+          },
+          {
+            "name": "Text",
+            "value": {
+              "type": 6,
+              "value": "0",
+              "offset": 4258
+            }
+          },
+          {
+            "name": "OnExit",
+            "value": {
+              "type": 7,
+              "value": "Edit4Exit",
+              "offset": 4268
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TRadioButton",
+        "name": "RadioButton1",
+        "flags": 0,
+        "offset": 4281,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 272,
+              "offset": 4312
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 32,
+              "offset": 4319
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 57,
+              "offset": 4327
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 17,
+              "offset": 4336
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "256色",
+              "offset": 4346
+            }
+          },
+          {
+            "name": "Checked",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 4361
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 4375
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 4402
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 4428
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 4440
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 4457
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 4470
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 6,
+              "offset": 4480
+            }
+          },
+          {
+            "name": "TabStop",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 4490
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TRadioButton",
+        "name": "RadioButton2",
+        "flags": 0,
+        "offset": 4493,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 272,
+              "offset": 4524
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 56,
+              "offset": 4531
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 49,
+              "offset": 4539
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 17,
+              "offset": 4548
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "16位",
+              "offset": 4558
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 4577
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 4604
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 4630
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 4642
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 4659
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 4672
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 7,
+              "offset": 4682
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TScrollBar",
+        "name": "ScrollBar1",
+        "flags": 0,
+        "offset": 4686,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 456,
+              "offset": 4713
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 4720
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 129,
+              "offset": 4728
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 17,
+              "offset": 4738
+            }
+          },
+          {
+            "name": "Max",
+            "value": {
+              "type": 2,
+              "value": 50,
+              "offset": 4744
+            }
+          },
+          {
+            "name": "Min",
+            "value": {
+              "type": 2,
+              "value": 1,
+              "offset": 4750
+            }
+          },
+          {
+            "name": "PageSize",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 4761
+            }
+          },
+          {
+            "name": "ParentShowHint",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 4778
+            }
+          },
+          {
+            "name": "Position",
+            "value": {
+              "type": 2,
+              "value": 5,
+              "offset": 4788
+            }
+          },
+          {
+            "name": "ShowHint",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 4799
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 8,
+              "offset": 4809
+            }
+          },
+          {
+            "name": "OnChange",
+            "value": {
+              "type": 7,
+              "value": "ScrollBar1Change",
+              "offset": 4820
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit5",
+        "flags": 0,
+        "offset": 4840,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 432,
+              "offset": 4857
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 44,
+              "offset": 4864
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 4872
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 4881
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 9,
+              "offset": 4892
+            }
+          },
+          {
+            "name": "Text",
+            "value": {
+              "type": 6,
+              "value": "0",
+              "offset": 4899
+            }
+          },
+          {
+            "name": "OnExit",
+            "value": {
+              "type": 7,
+              "value": "Edit5Exit",
+              "offset": 4909
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TEdit",
+        "name": "Edit6",
+        "flags": 0,
+        "offset": 4922,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 520,
+              "offset": 4939
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 44,
+              "offset": 4946
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 4954
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 21,
+              "offset": 4963
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 10,
+              "offset": 4974
+            }
+          },
+          {
+            "name": "Text",
+            "value": {
+              "type": 6,
+              "value": "0",
+              "offset": 4981
+            }
+          },
+          {
+            "name": "OnExit",
+            "value": {
+              "type": 7,
+              "value": "Edit6Exit",
+              "offset": 4991
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button2",
+        "flags": 0,
+        "offset": 5004,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 488,
+              "offset": 5025
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 5032
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 105,
+              "offset": 5040
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 5049
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "转成GIF动画",
+              "offset": 5059
+            }
+          },
+          {
+            "name": "Enabled",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5080
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 5094
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 5121
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 5147
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 5159
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 5176
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5189
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 11,
+              "offset": 5199
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button2Click",
+              "offset": 5209
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button3",
+        "flags": 0,
+        "offset": 5225,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 56,
+              "offset": 5246
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 104,
+              "offset": 5252
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 5260
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 5269
+            }
+          },
+          {
+            "name": "Hint",
+            "value": {
+              "type": 6,
+              "value": "前一帧",
+              "offset": 5276
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "<-",
+              "offset": 5292
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 5309
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 5336
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 5362
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 5374
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 5391
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5404
+            }
+          },
+          {
+            "name": "ParentShowHint",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5420
+            }
+          },
+          {
+            "name": "ShowHint",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 5430
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 12,
+              "offset": 5440
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button3Click",
+              "offset": 5450
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button4",
+        "flags": 0,
+        "offset": 5466,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 96,
+              "offset": 5487
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 104,
+              "offset": 5493
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 5501
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 5510
+            }
+          },
+          {
+            "name": "Hint",
+            "value": {
+              "type": 6,
+              "value": "后一帧",
+              "offset": 5517
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "->",
+              "offset": 5533
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 5550
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 5577
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 5603
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 5615
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 5632
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5645
+            }
+          },
+          {
+            "name": "ParentShowHint",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5661
+            }
+          },
+          {
+            "name": "ShowHint",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 5671
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 13,
+              "offset": 5681
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button4Click",
+              "offset": 5691
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button5",
+        "flags": 0,
+        "offset": 5707,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 144,
+              "offset": 5728
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 104,
+              "offset": 5735
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 5743
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 5752
+            }
+          },
+          {
+            "name": "Hint",
+            "value": {
+              "type": 6,
+              "value": "第0帧",
+              "offset": 5759
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "<<-",
+              "offset": 5774
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 5792
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 5819
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 5845
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 5857
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 5874
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5887
+            }
+          },
+          {
+            "name": "ParentShowHint",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 5903
+            }
+          },
+          {
+            "name": "ShowHint",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 5913
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 14,
+              "offset": 5923
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button5Click",
+              "offset": 5933
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TButton",
+        "name": "Button6",
+        "flags": 0,
+        "offset": 5949,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 184,
+              "offset": 5970
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 104,
+              "offset": 5977
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 33,
+              "offset": 5985
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 25,
+              "offset": 5994
+            }
+          },
+          {
+            "name": "Hint",
+            "value": {
+              "type": 6,
+              "value": "最后一帧",
+              "offset": 6001
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "->>",
+              "offset": 6019
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 6037
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 6064
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 6090
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 6102
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 6119
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 6132
+            }
+          },
+          {
+            "name": "ParentShowHint",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 6148
+            }
+          },
+          {
+            "name": "ShowHint",
+            "value": {
+              "type": 9,
+              "value": true,
+              "offset": 6158
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 15,
+              "offset": 6168
+            }
+          },
+          {
+            "name": "OnClick",
+            "value": {
+              "type": 7,
+              "value": "Button6Click",
+              "offset": 6178
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TMemo",
+        "name": "Memo1",
+        "flags": 0,
+        "offset": 6194,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 272,
+              "offset": 6211
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 248,
+              "offset": 6218
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 73,
+              "offset": 6227
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 57,
+              "offset": 6236
+            }
+          },
+          {
+            "name": "ScrollBars",
+            "value": {
+              "type": 7,
+              "value": "ssBoth",
+              "offset": 6249
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 16,
+              "offset": 6266
+            }
+          },
+          {
+            "name": "Visible",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 6276
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TCheckBox",
+        "name": "CheckBox1",
+        "flags": 0,
+        "offset": 6279,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 280,
+              "offset": 6304
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 104,
+              "offset": 6311
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 2,
+              "value": 73,
+              "offset": 6319
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 2,
+              "value": 17,
+              "offset": 6328
+            }
+          },
+          {
+            "name": "Caption",
+            "value": {
+              "type": 6,
+              "value": "压缩AVI",
+              "offset": 6338
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 6360
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clBlue",
+              "offset": 6387
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -13,
+              "offset": 6407
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 6419
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [
+                "fsBold"
+              ],
+              "offset": 6436
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 6456
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 17,
+              "offset": 6466
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "class": "TSaveDialog",
+        "name": "SaveDialog1",
+        "flags": 0,
+        "offset": 6470,
+        "properties": [
+          {
+            "name": "DefaultExt",
+            "value": {
+              "type": 6,
+              "value": "*.avi",
+              "offset": 6505
+            }
+          },
+          {
+            "name": "Filter",
+            "value": {
+              "type": 6,
+              "value": "avi动画|*.avi",
+              "offset": 6519
+            }
+          },
+          {
+            "name": "Left",
+            "value": {
+              "type": 3,
+              "value": 160,
+              "offset": 6539
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 3,
+              "value": 248,
+              "offset": 6546
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

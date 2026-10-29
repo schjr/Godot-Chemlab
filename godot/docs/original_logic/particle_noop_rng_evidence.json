@@ -1,0 +1,114 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "Actual native49BF44/49C298/49A61C/49AA88 no-op branches; explicit TLS diagnostic bytes, not startup inference",
+  "cases": [
+    {
+      "name": "solid_cap2000",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "solid_empty_emit",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "solid_fractional_no_emit",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "solid_empty_update",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "solid_frozen_update",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "solid_delete_only_update",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "bubble_throttle",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "bubble_zero_requested",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    },
+    {
+      "name": "bubble_empty_update",
+      "tls_access_count": 0,
+      "before": {
+        "low": 305419896,
+        "high": 2596069104
+      },
+      "after": {
+        "low": 305419896,
+        "high": 2596069104
+      }
+    }
+  ]
+}

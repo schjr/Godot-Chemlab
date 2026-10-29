@@ -1,0 +1,6089 @@
+{
+  "reference": "Original FSIN/FCOS through Rosetta; stored particle outputs must be verified separately",
+  "cases": [
+    {
+      "kind": "sin",
+      "x_bits": "0000000000000000",
+      "double_bits": "0000000000000000",
+      "extended_bits": "00000000000000000000"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000000000000",
+      "double_bits": "000000000000f03f",
+      "extended_bits": "0000000000000080ff3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000000000080",
+      "double_bits": "0000000000000080",
+      "extended_bits": "00000000000000000080"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000000000080",
+      "double_bits": "000000000000f03f",
+      "extended_bits": "0000000000000080ff3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000000000e03f",
+      "double_bits": "f0054b74e8aede3f",
+      "extended_bits": "447f2f58a24377f5fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000000000e03f",
+      "double_bits": "507d5b062815ec3f",
+      "extended_bits": "ee7ceadb3240a9e0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000000000f03f",
+      "double_bits": "ee0c098f54edea3f",
+      "extended_bits": "2170674878a46ad7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000000000f03f",
+      "double_bits": "8c06b50f284ae13f",
+      "extended_bits": "925c34a87d40518afe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000000000040",
+      "double_bits": "46b4d1eaf618ed3f",
+      "extended_bits": "fd2ea28d56b7c7e8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000000000040",
+      "double_bits": "0572535726a2dabf",
+      "extended_bits": "2225909bba3211d5fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "182d4454fb210940",
+      "double_bits": "0000000000a6a13c",
+      "extended_bits": "000000000000308dca3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "182d4454fb210940",
+      "double_bits": "000000000000f0bf",
+      "extended_bits": "0000000000000080ffbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "182d4454fb2119c0",
+      "double_bits": "0000000000a6b13c",
+      "extended_bits": "000000000000308dcb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "182d4454fb2119c0",
+      "double_bits": "000000000000f03f",
+      "extended_bits": "0000000000000080ff3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0e2a755c0",
+      "double_bits": "a7c0d9926029ef3f",
+      "extended_bits": "913705ce96044bf9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0e2a755c0",
+      "double_bits": "252c3899831bcd3f",
+      "extended_bits": "3a2861c1c91cdce8fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0f75931c0",
+      "double_bits": "63c084e95feaef3f",
+      "extended_bits": "271503264cff52fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0f75931c0",
+      "double_bits": "27b54ef4c496b23f",
+      "extended_bits": "d33ba975a227b694fb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000208a7953c0",
+      "double_bits": "358fda1a3921e3bf",
+      "extended_bits": "8bab79d4d6c80999febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000208a7953c0",
+      "double_bits": "55dd44540ba7e9bf",
+      "extended_bits": "f5a6ea26a25a38cdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a00d364940",
+      "double_bits": "4d941fa543fdc33f",
+      "extended_bits": "ec67a2fc281dea9ffc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a00d364940",
+      "double_bits": "064cd6807d9bef3f",
+      "extended_bits": "b72c60b206ecdbfcfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080610e0240",
+      "double_bits": "6265cf1fafc1e83f",
+      "extended_bits": "ee112b7bfe780dc6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080610e0240",
+      "double_bits": "64d131e7a046e4bf",
+      "extended_bits": "7c208b8e390735a2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000402c8456c0",
+      "double_bits": "00243ec9e69cebbf",
+      "extended_bits": "b7fe1ff14936e7dcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000402c8456c0",
+      "double_bits": "49899fc4fc2be0bf",
+      "extended_bits": "0c454afc24e65f81febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e076c256c0",
+      "double_bits": "a1a3a8bf2e50b1bf",
+      "extended_bits": "61081d45fd75818afbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e076c256c0",
+      "double_bits": "4f8bba8b3eedefbf",
+      "extended_bits": "e5785ad45df469fffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0eb974740",
+      "double_bits": "206ae357471db0bf",
+      "extended_bits": "5503511bbf3aea80fbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0eb974740",
+      "double_bits": "ed950c1cc1efefbf",
+      "extended_bits": "6067af64e0087efffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0524851c0",
+      "double_bits": "09867b7576be8ebf",
+      "extended_bits": "9c4730dcabb3f3f5f8bf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0524851c0",
+      "double_bits": "bb8d39b013ffef3f",
+      "extended_bits": "96d96dcc819df8fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080de5f4740",
+      "double_bits": "fda6896fab6fd73f",
+      "extended_bits": "6be8374d7c5b7dbbfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080de5f4740",
+      "double_bits": "0c790566fbc6edbf",
+      "extended_bits": "6e5ec82b30db37eefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0b7163a40",
+      "double_bits": "338af3ddfa23ea3f",
+      "extended_bits": "8c96519cefd61fd1fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0b7163a40",
+      "double_bits": "6fa8ae6d1175e23f",
+      "extended_bits": "ff7943756d8ba893fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0f062eb3f",
+      "double_bits": "4d7fdd56e429e83f",
+      "extended_bits": "cf68faebb6224fc1fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0f062eb3f",
+      "double_bits": "71627fce9ffae43f",
+      "extended_bits": "1f8913fb73fed4a7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a037ca5140",
+      "double_bits": "90624cab8979ec3f",
+      "extended_bits": "157e14635a4dcce3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a037ca5140",
+      "double_bits": "f044e4dcb133ddbf",
+      "extended_bits": "337d2722e78e9de9fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020ee823440",
+      "double_bits": "32a14fdb08deef3f",
+      "extended_bits": "c491097dda46f0fefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020ee823440",
+      "double_bits": "6c8203c1aa49b7bf",
+      "extended_bits": "dd5e131c08564dbafbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000b9572d40",
+      "double_bits": "c176c7c6cc8aeb3f",
+      "extended_bits": "0f07b63b366656dcfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000b9572d40",
+      "double_bits": "7005e9d2bd4ae0bf",
+      "extended_bits": "f4832b4897ee5582febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0f0fb33c0",
+      "double_bits": "7fb12bf0e300edbf",
+      "extended_bits": "0cf58b5d811f07e8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0f0fb33c0",
+      "double_bits": "4e31a68a630adb3f",
+      "extended_bits": "ca728a31551c53d8fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c01b2049c0",
+      "double_bits": "e8275022fef88d3f",
+      "extended_bits": "2e423f8112f1c7eff83f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c01b2049c0",
+      "double_bits": "337ffb651fffef3f",
+      "extended_bits": "bf95f9db2ffbf8fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000c11952c0",
+      "double_bits": "57b0d794d097c23f",
+      "extended_bits": "c1b782bda684be94fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000c11952c0",
+      "double_bits": "d0932e341da9efbf",
+      "extended_bits": "50829e74a1e948fdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000a3b32ec0",
+      "double_bits": "031344bf535fd6bf",
+      "extended_bits": "00169820fa9dfab2fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000a3b32ec0",
+      "double_bits": "4d6c25872cfbedbf",
+      "extended_bits": "4e6a622b3964d9effebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080afc938c0",
+      "double_bits": "67c981d394a3d53f",
+      "extended_bits": "1e394b0e9ca61cadfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080afc938c0",
+      "double_bits": "435c052d8c1dee3f",
+      "extended_bits": "161ae22a6861ecf0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0f43e4b40",
+      "double_bits": "d595adc2504becbf",
+      "extended_bits": "f8abae6c15865ae2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0f43e4b40",
+      "double_bits": "eabc41734ce5ddbf",
+      "extended_bits": "7e4ee70d9a632aeffdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060a42947c0",
+      "double_bits": "7d13bda55cece6bf",
+      "extended_bits": "7ee49be82de562b7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060a42947c0",
+      "double_bits": "63e47e3adf53e6bf",
+      "extended_bits": "271423f7d3f99eb2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0bd4934c0",
+      "double_bits": "b1512d9369b8efbf",
+      "extended_bits": "fb868d6a994cc3fdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0bd4934c0",
+      "double_bits": "07e06d9887e2c03f",
+      "extended_bits": "c339006fc33c1487fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000004e4e5640",
+      "double_bits": "e418cd0ece74ee3f",
+      "extended_bits": "6222c7687670a6f3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000004e4e5640",
+      "double_bits": "2ff2db5c67a3d33f",
+      "extended_bits": "527591dfe63a1b9dfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0ae0e3840",
+      "double_bits": "2d97ae8f1a27ecbf",
+      "extended_bits": "1364b9747dd438e1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0ae0e3840",
+      "double_bits": "9d27b9d9d76cde3f",
+      "extended_bits": "c9e73cc9cdbe66f3fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a034204040",
+      "double_bits": "e0b92a796fbce73f",
+      "extended_bits": "b6ffce55c97be3bdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a034204040",
+      "double_bits": "cd05eb022976e53f",
+      "extended_bits": "c06a2e581748b1abfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008044ca4240",
+      "double_bits": "35dbb2f8a55dbebf",
+      "extended_bits": "f4a6d996c52fedf2fbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008044ca4240",
+      "double_bits": "d4b33f6a2ac6ef3f",
+      "extended_bits": "a2a19efd515331fefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e077815440",
+      "double_bits": "bd6a43ca846fd53f",
+      "extended_bits": "fce9551b52267cabfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e077815440",
+      "double_bits": "79a381a7d926ee3f",
+      "extended_bits": "c5c71b0d3ccd36f1fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0c75f4dc0",
+      "double_bits": "09d1ff6809e1e9bf",
+      "extended_bits": "8e4a88fe474b08cffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0c75f4dc0",
+      "double_bits": "de4cdef17ad2e2bf",
+      "extended_bits": "85ed66f28ed79396febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c008094b40",
+      "double_bits": "3c5d60364db5e3bf",
+      "extended_bits": "52dfe902b369aa9dfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c008094b40",
+      "double_bits": "03e38ca5f935e9bf",
+      "extended_bits": "901918672ccdafc9febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040cbb855c0",
+      "double_bits": "5864bea71d2eec3f",
+      "extended_bits": "febe22f33ded70e1fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040cbb855c0",
+      "double_bits": "68f1326bd552de3f",
+      "extended_bits": "5f3f8b9759ab96f2fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c07c7f48c0",
+      "double_bits": "43cb8535f18eee3f",
+      "extended_bits": "b51a5a2eac8977f4fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c07c7f48c0",
+      "double_bits": "42b0ac6447fed23f",
+      "extended_bits": "db138265253bf297fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000026263340",
+      "double_bits": "8a3dd64c5fe1d23f",
+      "extended_bits": "6a51ecb166fa0a97fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000026263340",
+      "double_bits": "0c000c546b93ee3f",
+      "extended_bits": "05630060a05a9bf4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020d72742c0",
+      "double_bits": "e5954e234e77ef3f",
+      "extended_bits": "2c24af741a71bafbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020d72742c0",
+      "double_bits": "513a81551a49c73f",
+      "extended_bits": "bd8bd209acd248bafc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c080e803c0",
+      "double_bits": "822cb057a871e3bf",
+      "extended_bits": "760f6481bd428d9bfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c080e803c0",
+      "double_bits": "8c488dd5496ae9bf",
+      "extended_bits": "b660446aac4e52cbfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007ac74bc0",
+      "double_bits": "a2400f5ce1c1ea3f",
+      "extended_bits": "e013057ae00a0fd6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007ac74bc0",
+      "double_bits": "ade3d8321b8de13f",
+      "extended_bits": "d1671dc796d9688cfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040737b48c0",
+      "double_bits": "5a15367eb7d7ee3f",
+      "extended_bits": "eed0aab0f1bbbdf6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040737b48c0",
+      "double_bits": "117ce6fa780ed13f",
+      "extended_bits": "d08be033d7c77388fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040562229c0",
+      "double_bits": "b7b324d6eeba46bf",
+      "extended_bits": "dab59d25b176d7b5f4bf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040562229c0",
+      "double_bits": "cc9bd57effffef3f",
+      "extended_bits": "ea61deacf6fbfffffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e069683640",
+      "double_bits": "860c4bc498e7d9bf",
+      "extended_bits": "522c645822c63ccffdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e069683640",
+      "double_bits": "3cba286df342edbf",
+      "extended_bits": "caddd145699b17eafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000604e4d4340",
+      "double_bits": "ba78ed019929e93f",
+      "extended_bits": "c4d3c56b0fc84cc9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000604e4d4340",
+      "double_bits": "5d882c5618c5e33f",
+      "extended_bits": "6be84264b1c2289efe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0dbab97bf",
+      "double_bits": "c1ffda7651ab97bf",
+      "extended_bits": "700afed7b68b5abdf9bf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0dbab97bf",
+      "double_bits": "ba588db1cffdef3f",
+      "extended_bits": "a2d3c56a8c7deefffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0583038c0",
+      "double_bits": "2a6bdd063feae93f",
+      "extended_bits": "bf4e59eb36f851cffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0583038c0",
+      "double_bits": "819015e0cac5e23f",
+      "extended_bits": "f30984ac00572e96fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000401f4e5740",
+      "double_bits": "8d7509e3d362ebbf",
+      "extended_bits": "106aac4b189f16dbfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000401f4e5740",
+      "double_bits": "928d62be968de03f",
+      "extended_bits": "d78e6c14f3b56c84fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a011ac4b40",
+      "double_bits": "e78f2e3d31e0edbf",
+      "extended_bits": "5a397f74e98901effebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a011ac4b40",
+      "double_bits": "12015af0ededd63f",
+      "extended_bits": "8d9008d0826f6fb7fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000800e332340",
+      "double_bits": "9b1eb3234e47c6bf",
+      "extended_bits": "14d5f4981d713ab2fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000800e332340",
+      "double_bits": "5ad6cf63f682efbf",
+      "extended_bits": "5fcdb27e1eb317fcfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006078ea2040",
+      "double_bits": "3b62cff1bd56ea3f",
+      "extended_bits": "8ed6117b8eefb5d2fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006078ea2040",
+      "double_bits": "80a814ca572ce2bf",
+      "extended_bits": "44fd43a550be6291febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c03a9051c0",
+      "double_bits": "8159af728c0eedbf",
+      "extended_bits": "7706cc7a956374e8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c03a9051c0",
+      "double_bits": "78b3b84a7ccfda3f",
+      "extended_bits": "b4c39bc555e27bd6fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000401e114ec0",
+      "double_bits": "261f83a21076db3f",
+      "extended_bits": "d52ff9181485b0dbfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000401e114ec0",
+      "double_bits": "6b7186048ee7ecbf",
+      "extended_bits": "f55b8b3324703ce7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c001c354c0",
+      "double_bits": "7dfd6f3b1854efbf",
+      "extended_bits": "50ebeb7fdbc1a0fafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c001c354c0",
+      "double_bits": "c6d4fcbaa815ca3f",
+      "extended_bits": "4f32a6e6d745add0fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000071185640",
+      "double_bits": "59d21bf05ef0d93f",
+      "extended_bits": "c6c792de80f782cffd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000071185640",
+      "double_bits": "eaebe9e80141ed3f",
+      "extended_bits": "48535f4f470f08eafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020c86d5040",
+      "double_bits": "3e02904e0356d03f",
+      "extended_bits": "5aec1180741ab082fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020c86d5040",
+      "double_bits": "a5596c21a4f0eebf",
+      "extended_bits": "3e24cd620b2185f7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002099da55c0",
+      "double_bits": "6cda4f17dbb2e03f",
+      "extended_bits": "625cd37ebad89685fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002099da55c0",
+      "double_bits": "76bcc8a22a4ceb3f",
+      "extended_bits": "5dace345165561dafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0894d4340",
+      "double_bits": "d2d5f5e7c632e93f",
+      "extended_bits": "3a8caeae3f3796c9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0894d4340",
+      "double_bits": "33b7abdd63b9e33f",
+      "extended_bits": "9d97b95ded1ecb9dfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0b32739c0",
+      "double_bits": "e8be2c1db2e196bf",
+      "extended_bits": "b241f765e9900db7f9bf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0b32739c0",
+      "double_bits": "7426ac5df4fdef3f",
+      "extended_bits": "749e3361eda2effffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000002e654040",
+      "double_bits": "023af7d8bd62ef3f",
+      "extended_bits": "2f0cd0b9c7ee15fbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000002e654040",
+      "double_bits": "190d0430bbf5c83f",
+      "extended_bits": "53c7682080d9adc7fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020fc2229c0",
+      "double_bits": "d416eb10bb0c60bf",
+      "extended_bits": "c19eb65887d86580f6bf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020fc2229c0",
+      "double_bits": "75ae9ff9fbffef3f",
+      "extended_bits": "46a573fdccdffffffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080183741c0",
+      "double_bits": "8d4527b71639c0bf",
+      "extended_bits": "ab652c3ab9b5c881fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080183741c0",
+      "double_bits": "24174eeaefbdefbf",
+      "extended_bits": "ae22b970527feffdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020544c55c0",
+      "double_bits": "9ef6ef8e191fd73f",
+      "extended_bits": "12edb47f77ccf8b8fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020544c55c0",
+      "double_bits": "9f96c664b6d6edbf",
+      "extended_bits": "cef5b43426b3b5eefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008031b54ec0",
+      "double_bits": "ea3872b1669eef3f",
+      "extended_bits": "9151c7918b35f3fcfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008031b54ec0",
+      "double_bits": "037e7cae11b3c33f",
+      "extended_bits": "da18f0e3738d989dfc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e05b6e2dc0",
+      "double_bits": "7821256f93cbeabf",
+      "extended_bits": "83c00b29799b5cd6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e05b6e2dc0",
+      "double_bits": "7ba35d444a7ee1bf",
+      "extended_bits": "e4d61bed2252f28bfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000006ab64540",
+      "double_bits": "c004db1af0ebe0bf",
+      "extended_bits": "440026d8d6805f87febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000006ab64540",
+      "double_bits": "c81cd604ed28eb3f",
+      "extended_bits": "1a43e6b0266847d9fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e06d1451c0",
+      "double_bits": "d3dcca0dbedce63f",
+      "extended_bits": "6d99e6566ef0e5b6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e06d1451c0",
+      "double_bits": "c297984edd63e63f",
+      "extended_bits": "3f0fbec474ea1eb3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0071a28c0",
+      "double_bits": "fa8eb895438ddf3f",
+      "extended_bits": "a0cf77c4ad1c6afcfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0071a28c0",
+      "double_bits": "6ab93d304bd7eb3f",
+      "extended_bits": "264ccbed8159badefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007a545740",
+      "double_bits": "f798c1713e9ce9bf",
+      "extended_bits": "fbbbc70c8ef3e1ccfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007a545740",
+      "double_bits": "ba661d3cac2fe33f",
+      "extended_bits": "aacd35ebe0617d99fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e010dc53c0",
+      "double_bits": "604d194f750ae93f",
+      "extended_bits": "fdfc6aca78aa53c8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e010dc53c0",
+      "double_bits": "b8f2f5b37aece3bf",
+      "extended_bits": "e7bd95af9fd5639ffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0448e32c0",
+      "double_bits": "f10b48d7f088d23f",
+      "extended_bits": "c2885f40ba864794fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0448e32c0",
+      "double_bits": "c3070124efa0ee3f",
+      "extended_bits": "94153e08207907f5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000f1bf5140",
+      "double_bits": "dab9e5a75a71ee3f",
+      "extended_bits": "b0d0ce2d3fd58af3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000f1bf5140",
+      "double_bits": "8a401aacc2b8d3bf",
+      "extended_bits": "f34c04d26015c69dfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000404b303e40",
+      "double_bits": "578c9d326321eebf",
+      "extended_bits": "b5b862ec94190bf1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000404b303e40",
+      "double_bits": "7578307e288ed53f",
+      "extended_bits": "5ea8c383f14371acfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040e27d5640",
+      "double_bits": "6328559cf710ed3f",
+      "extended_bits": "161843a9e2bc87e8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040e27d5640",
+      "double_bits": "7def73a4fdc4dabf",
+      "extended_bits": "93e77b9f23ed27d6fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080a4d13440",
+      "double_bits": "8d0e9297e77ded3f",
+      "extended_bits": "b0697490bc3cefebfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080a4d13440",
+      "double_bits": "69c883f08dd6d8bf",
+      "extended_bits": "b647431e846fb4c6fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080055e3d40",
+      "double_bits": "7e15f081586aecbf",
+      "extended_bits": "7aefab800fc452e3febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080055e3d40",
+      "double_bits": "ba081dcba76eddbf",
+      "extended_bits": "91cc45e8583e75ebfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0fdd64ac0",
+      "double_bits": "ea1cbe4f383ad13f",
+      "extended_bits": "8d53e7f07dc2d189fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0fdd64ac0",
+      "double_bits": "cda88bc7a2d1eebf",
+      "extended_bits": "1767465d3c168df6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080ec9632c0",
+      "double_bits": "2c4487602974d03f",
+      "extended_bits": "e55c213a044ba183fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080ec9632c0",
+      "double_bits": "f10ca06fa5ecee3f",
+      "extended_bits": "9f8567007d2b65f7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0f8d41340",
+      "double_bits": "2868711d300aefbf",
+      "extended_bits": "2a42418beb8051f8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0f8d41340",
+      "double_bits": "8700607fe41ecf3f",
+      "extended_bits": "cf350400fb23f7f8fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000b6905240",
+      "double_bits": "6741c050a009edbf",
+      "extended_bits": "433b0b0286024de8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000b6905240",
+      "double_bits": "76a721e1c8e4da3f",
+      "extended_bits": "30ac3b0d094726d7fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a02ede4040",
+      "double_bits": "1161c360286fe73f",
+      "extended_bits": "1888081b064379bbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a02ede4040",
+      "double_bits": "d018142170cae5bf",
+      "extended_bits": "d67fc6a0088153aefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0069a39c0",
+      "double_bits": "4030a9d057ecdcbf",
+      "extended_bits": "b9fd814985be62e7fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0069a39c0",
+      "double_bits": "db3ccda4b88bec3f",
+      "extended_bits": "3ed4e66926c55de4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c09c065340",
+      "double_bits": "f8a3fce446bde43f",
+      "extended_bits": "b6bf1fe52737eaa5fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c09c065340",
+      "double_bits": "0ef20203a05ee83f",
+      "extended_bits": "6b7290171800f5c2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080c3ce3640",
+      "double_bits": "25b5d2a61252e7bf",
+      "extended_bits": "b127a995369590bafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080c3ce3640",
+      "double_bits": "586f35c78de9e5bf",
+      "extended_bits": "dcbe7aab396e4caffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c04a5e4640",
+      "double_bits": "80d7ea440feae53f",
+      "extended_bits": "cd02bc56277a50affe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c04a5e4640",
+      "double_bits": "851b4ef89851e73f",
+      "extended_bits": "ec27dc70c2c78cbafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000201c4b50c0",
+      "double_bits": "65065596bff3e6bf",
+      "extended_bits": "f52833a8b2fc9db7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000201c4b50c0",
+      "double_bits": "c5e51b54474ce6bf",
+      "extended_bits": "e8242edfa03a62b2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060cfb847c0",
+      "double_bits": "5e465609e820d43f",
+      "extended_bits": "e2ec32b24a4007a1fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060cfb847c0",
+      "double_bits": "3c32c5564b60eebf",
+      "extended_bits": "7be29129b65a02f3febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0b55a3340",
+      "double_bits": "c2e95e5d84f3de3f",
+      "extended_bits": "ac114ef7ea229cf7fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0b55a3340",
+      "double_bits": "52b9d6244f02ec3f",
+      "extended_bits": "3c91cab5267912e0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000202c882cc0",
+      "double_bits": "63371a2c26bcefbf",
+      "extended_bits": "fa16bbd16031e1fdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000202c882cc0",
+      "double_bits": "0cea42cbaf70c0bf",
+      "extended_bits": "856250175a7e8583fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040d56648c0",
+      "double_bits": "f4685f49a7cfef3f",
+      "extended_bits": "0f9c47fb4a3a7dfefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040d56648c0",
+      "double_bits": "a569d6d487c5bb3f",
+      "extended_bits": "012b4db3a63e2cdefb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0e8f75440",
+      "double_bits": "3a27b8b1b304ea3f",
+      "extended_bits": "f7cc39c18d9d25d0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0e8f75440",
+      "double_bits": "edfb3cd60ea1e2bf",
+      "extended_bits": "4468dfe7b1760895febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000201c0e5740",
+      "double_bits": "ec49bef415b9ecbf",
+      "extended_bits": "0d5d4ff2a5afc8e5febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000201c0e5740",
+      "double_bits": "02233c957636dcbf",
+      "extended_bits": "ed1018e1a9b4b3e1fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000200fa24140",
+      "double_bits": "d7376eabead2e4bf",
+      "extended_bits": "a1b9be715b5597a6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000200fa24140",
+      "double_bits": "1bfc1edd244ce8bf",
+      "extended_bits": "77d8e0f7e82661c2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0d9bf5740",
+      "double_bits": "efc715d74ccfe53f",
+      "extended_bits": "227b3faeb8667aaefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0d9bf5740",
+      "double_bits": "daa66004a26ae73f",
+      "extended_bits": "37d03605231055bbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0282b4640",
+      "double_bits": "a41d0138323dd63f",
+      "extended_bits": "6023ed08c091e9b1fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0282b4640",
+      "double_bits": "d9c671048501ee3f",
+      "extended_bits": "b1c8368e23280cf0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004092ae21c0",
+      "double_bits": "ccd74c518ba3e1bf",
+      "extended_bits": "725dbe668a5a1c8dfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004092ae21c0",
+      "double_bits": "a3dfbc141cb3eabf",
+      "extended_bits": "4619fde6a5e098d5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008098e452c0",
+      "double_bits": "0db5690e7c1bc6bf",
+      "extended_bits": "6e68a84d73e0dbb0fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008098e452c0",
+      "double_bits": "29f1531fe484ef3f",
+      "extended_bits": "4045899ffa2027fcfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080ae4d2a40",
+      "double_bits": "4be2fc4104aee13f",
+      "extended_bits": "825812e70f22708dfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080ae4d2a40",
+      "double_bits": "204f18fe2dacea3f",
+      "extended_bits": "31fd78c2f06f61d5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006060585440",
+      "double_bits": "887e70010cf2d2bf",
+      "extended_bits": "0140f4830b609097fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006060585440",
+      "double_bits": "0e44081cd790ee3f",
+      "extended_bits": "436f2042e0b886f4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000605b8b2c40",
+      "double_bits": "73638d9872b5ef3f",
+      "extended_bits": "c4971b6bc494abfdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000605b8b2c40",
+      "double_bits": "4833b377ba3ac1bf",
+      "extended_bits": "233f9a99bdd3d589fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c034fd4740",
+      "double_bits": "0bfc85149621e8bf",
+      "extended_bits": "b254e02fa4b00cc1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c034fd4740",
+      "double_bits": "46df21042d04e5bf",
+      "extended_bits": "1b2dfa0e216821a8febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006050a038c0",
+      "double_bits": "f475199d690cdf3f",
+      "extended_bits": "1ba2afcbe84c63f8fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006050a038c0",
+      "double_bits": "0a3601d96afbeb3f",
+      "extended_bits": "6f53b009c856dbdffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000407aaa57c0",
+      "double_bits": "dec64b72d5dbd9bf",
+      "extended_bits": "cded365e92abdecefdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000407aaa57c0",
+      "double_bits": "8f049a2f8d45ed3f",
+      "extended_bits": "b27624d07c692ceafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e099490240",
+      "double_bits": "da6ef275f628e83f",
+      "extended_bits": "f9d37693afb347c1fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e099490240",
+      "double_bits": "256364bfb1fbe4bf",
+      "extended_bits": "e8281923fb8ddda7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080d7423fc0",
+      "double_bits": "3870951016bdc33f",
+      "extended_bits": "d1be81ab84b0e89dfc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080d7423fc0",
+      "double_bits": "339c5dbc029eef3f",
+      "extended_bits": "6c9be1ece215f0fcfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0b55a2a40",
+      "double_bits": "f9f9ed94465ae23f",
+      "extended_bits": "12c5cf6fa734d292fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0b55a2a40",
+      "double_bits": "4a5f1b3dd136ea3f",
+      "extended_bits": "344ffadae889b6d1fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080dda65740",
+      "double_bits": "e0757fcdd583d63f",
+      "extended_bits": "6cffaefb6bae1eb4fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080dda65740",
+      "double_bits": "ee459ea656f4ed3f",
+      "extended_bits": "1b6e2ff234b5a2effe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060687b5640",
+      "double_bits": "2b7089b8ee8fed3f",
+      "extended_bits": "6057814bc4757fecfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060687b5640",
+      "double_bits": "a031b27f3e80d8bf",
+      "extended_bits": "1efd8c91fdf301c4fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080e8ba5440",
+      "double_bits": "9dcde14e4841ee3f",
+      "extended_bits": "c5e46c0e77420af2fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080e8ba5440",
+      "double_bits": "9839a4f276d8d43f",
+      "extended_bits": "5bbdcc2195b7c3a6fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000076bd3d40",
+      "double_bits": "cec0e86bd7d2efbf",
+      "extended_bits": "dd7106465fbb96fefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000076bd3d40",
+      "double_bits": "34a1786bccd7babf",
+      "extended_bits": "54a109c55b63bed6fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080d28f1540",
+      "double_bits": "407ad21dd8ebe8bf",
+      "extended_bits": "e400d293eec05ec7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080d28f1540",
+      "double_bits": "3a784689b812e43f",
+      "extended_bits": "f7cfc1334ac495a0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000340d1f40",
+      "double_bits": "18e23ff609deef3f",
+      "extended_bits": "02c110ffb14ff0fefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000340d1f40",
+      "double_bits": "202be0f44949b73f",
+      "extended_bits": "f7fe5801a74f4abafb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0a8ed5440",
+      "double_bits": "1ae8c882fea7ec3f",
+      "extended_bits": "c7ce404716f43fe5fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0a8ed5440",
+      "double_bits": "465b8957a77bdcbf",
+      "extended_bits": "a22fda4abc3adde3fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000a99458c0",
+      "double_bits": "383fb125b1b7e93f",
+      "extended_bits": "03bef9892d89bdcdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000a99458c0",
+      "double_bits": "817342c2d10ae3bf",
+      "extended_bits": "d1079c13128e5698febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0825457c0",
+      "double_bits": "a0bc57169599e93f",
+      "extended_bits": "2dfce4bdb2a8ccccfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0825457c0",
+      "double_bits": "618b89373933e33f",
+      "extended_bits": "9e0b5b4cbcc99999fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020b31b55c0",
+      "double_bits": "0e3b2449f157d8bf",
+      "extended_bits": "046ed821498abfc2fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020b31b55c0",
+      "double_bits": "ab53a3634098edbf",
+      "extended_bits": "0a589d1a1d03c2ecfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e04cd923c0",
+      "double_bits": "f0e739f9aea9de3f",
+      "extended_bits": "ec7e3fcfc9774df5fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e04cd923c0",
+      "double_bits": "e13d9e339516ecbf",
+      "extended_bits": "210beff19ca9b4e0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a060605840",
+      "double_bits": "35b98e5454c3bdbf",
+      "extended_bits": "e0a6c975a4a21aeefbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a060605840",
+      "double_bits": "67a3186572c8efbf",
+      "extended_bits": "01351bc5289343fefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0d80e5440",
+      "double_bits": "818bf58dbdc3efbf",
+      "extended_bits": "37085cac6fec1dfefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0d80e5440",
+      "double_bits": "1069784360febe3f",
+      "extended_bits": "9d8048c31b02f3f7fb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c089d62740",
+      "double_bits": "b9e350c3644ce3bf",
+      "extended_bits": "92c41d871a26639afebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c089d62740",
+      "double_bits": "6dda6900a186e93f",
+      "extended_bits": "5c6bd34e030835ccfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020eb9d5640",
+      "double_bits": "5646976ec013e33f",
+      "extended_bits": "d8b332ba74039e98fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020eb9d5640",
+      "double_bits": "1870299a11b1e9bf",
+      "extended_bits": "2bc0804bd18c88cdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004030544640",
+      "double_bits": "85b455e7e001e43f",
+      "extended_bits": "702ba4ad3a070fa0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004030544640",
+      "double_bits": "ca73b89b5ff9e83f",
+      "extended_bits": "c44e9ec3ddfccac7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000017ab4f40",
+      "double_bits": "2104ca1da3f3de3f",
+      "extended_bits": "ab092150ee189df7fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000017ab4f40",
+      "double_bits": "bbebf8a54602ec3f",
+      "extended_bits": "53db5dc72f3512e0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040cd2448c0",
+      "double_bits": "28aa3ecb4162ed3f",
+      "extended_bits": "cf3e51f5590e12ebfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040cd2448c0",
+      "double_bits": "3a5978234d58d9bf",
+      "extended_bits": "c1d2c9c21b69c2cafdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080e52853c0",
+      "double_bits": "ceb5be22f245eebf",
+      "extended_bits": "786caef515912ff2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080e52853c0",
+      "double_bits": "1ccf9d5950bdd43f",
+      "extended_bits": "0fdf78eecc82eaa5fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006018104cc0",
+      "double_bits": "2fc2edd67544da3f",
+      "extended_bits": "7b7a116eb7ae23d2fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006018104cc0",
+      "double_bits": "e7b21cc9392eed3f",
+      "extended_bits": "b13697e548ce71e9fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006015cb5140",
+      "double_bits": "a22a96164846ec3f",
+      "extended_bits": "a20f55b1b44032e2fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006015cb5140",
+      "double_bits": "cb2a624153f8ddbf",
+      "extended_bits": "855556110b9ac2effdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000805a145340",
+      "double_bits": "bff4e1639374e93f",
+      "extended_bits": "e6faa50f1f9ba4cbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000805a145340",
+      "double_bits": "0b4780a22e64e33f",
+      "extended_bits": "605638021475219bfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e033733240",
+      "double_bits": "cfb958625fe5d8bf",
+      "extended_bits": "de79cec512fb2ac7fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e033733240",
+      "double_bits": "41f474c8c77aed3f",
+      "extended_bits": "3806a2a7433ed6ebfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e03e5a51c0",
+      "double_bits": "34904ac9409cd2bf",
+      "extended_bits": "49a381544a06e294fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e03e5a51c0",
+      "double_bits": "4ba18085019eee3f",
+      "extended_bits": "0c590a052c0cf0f4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0b2ea33c0",
+      "double_bits": "aa6e66c71e07ecbf",
+      "extended_bits": "565375333bf638e0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0b2ea33c0",
+      "double_bits": "826243bb13e2de3f",
+      "extended_bits": "4d10141bda9d10f7fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008092fa46c0",
+      "double_bits": "4fa8f768e46aedbf",
+      "extended_bits": "107b42bd472357ebfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008092fa46c0",
+      "double_bits": "aa9912d01b30d9bf",
+      "extended_bits": "c54dcd9480de80c9fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0af883040",
+      "double_bits": "d8babf13c986e7bf",
+      "extended_bits": "fcc0d6fd9d4836bcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0af883040",
+      "double_bits": "3a0d127eebb0e5bf",
+      "extended_bits": "a2d16990f05b87adfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060b52b4a40",
+      "double_bits": "e9599c30a900ec3f",
+      "extended_bits": "0446cfe2844905e0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060b52b4a40",
+      "double_bits": "c5a9c0fc7af9debf",
+      "extended_bits": "d22a4e05e6d7cbf7fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040aded5140",
+      "double_bits": "5e84a00c6288e03f",
+      "extended_bits": "a5f3220465104384fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040aded5140",
+      "double_bits": "d16313bdf865ebbf",
+      "extended_bits": "e1861e9be8c52fdbfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000004af13440",
+      "double_bits": "dbc2e57945bceb3f",
+      "extended_bits": "1ed6162ecf2be2ddfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000004af13440",
+      "double_bits": "ec6395d3e7ebdfbf",
+      "extended_bits": "075f1fab9c3e5ffffdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c019cb42c0",
+      "double_bits": "8a8e076bffb5bc3f",
+      "extended_bits": "ae50743c58fbafe5fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c019cb42c0",
+      "double_bits": "169d5c2f51ccef3f",
+      "extended_bits": "7eace8e47a8962fefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0fbae3cc0",
+      "double_bits": "bdcb3ffcbe76d93f",
+      "extended_bits": "ffe65dfee1f7b5cbfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0fbae3cc0",
+      "double_bits": "c98d2f79ac5bedbf",
+      "extended_bits": "9c446e7cc963ddeafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020fe934cc0",
+      "double_bits": "989ba5254c44e2bf",
+      "extended_bits": "b6bcdc2c2d612292febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020fe934cc0",
+      "double_bits": "d3a486a22646ea3f",
+      "extended_bits": "3e982635143531d2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020b53c53c0",
+      "double_bits": "dc9f93da48feefbf",
+      "extended_bits": "f9e2fe9cd446f2fffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020b53c53c0",
+      "double_bits": "1f96f16568f4943f",
+      "extended_bits": "5df7b08c2f43a3a7f93f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000002bf856c0",
+      "double_bits": "7c153a3d304fe63f",
+      "extended_bits": "9cdfabd0e98179b2fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000002bf856c0",
+      "double_bits": "33ba9b8cebf0e6bf",
+      "extended_bits": "6c97d1dd645c87b7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080b8cc52c0",
+      "double_bits": "f9436c8abd5cc93f",
+      "extended_bits": "14ca1f6253ece5cafc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080b8cc52c0",
+      "double_bits": "768ad525945def3f",
+      "extended_bits": "cead53ac2ea1ecfafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0bada5440",
+      "double_bits": "8a464b102790ef3f",
+      "extended_bits": "364f345a823881fcfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0bada5440",
+      "double_bits": "85599dcc4a14c5bf",
+      "extended_bits": "ae2accea6456a2a8fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000036a3f73f",
+      "double_bits": "898f829141dcef3f",
+      "extended_bits": "d4487c148c0ce2fefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000036a3f73f",
+      "double_bits": "82e83f516ce3b73f",
+      "extended_bits": "b01244ff89621bbffb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0c44c5740",
+      "double_bits": "aead3e64dfbaebbf",
+      "extended_bits": "b9736df521fbd6ddfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0c44c5740",
+      "double_bits": "091d37d7c3f0df3f",
+      "extended_bits": "8646e8b8b91e86fffd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e08aa5ff3f",
+      "double_bits": "a0e2cadf6d62ed3f",
+      "extended_bits": "9dfd1457fe6e13ebfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e08aa5ff3f",
+      "double_bits": "2f6e60b48057d9bf",
+      "extended_bits": "9f787103a305bccafdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0fc3f46c0",
+      "double_bits": "d338cbdfd7aadfbf",
+      "extended_bits": "8098c659febe56fdfdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0fc3f46c0",
+      "double_bits": "2a5f9399e4ceeb3f",
+      "extended_bits": "5b4ef99acc2477defe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a05e4546c0",
+      "double_bits": "b9ac04b511fde0bf",
+      "extended_bits": "8acb6525a88de887febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a05e4546c0",
+      "double_bits": "677c211c391eeb3f",
+      "extended_bits": "bc34e30be1c8f1d8fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000417b18c0",
+      "double_bits": "a2920cb9bfbfc43f",
+      "extended_bits": "d1109564c8fdfda5fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000417b18c0",
+      "double_bits": "f8279e2ea793ef3f",
+      "extended_bits": "2ec13ff174399dfcfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0a52d3c40",
+      "double_bits": "e7ece45e348bb83f",
+      "extended_bits": "c1346727f7a259c4fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0a52d3c40",
+      "double_bits": "e1a9886743daefbf",
+      "extended_bits": "7c064f453c1bd2fefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000259644c0",
+      "double_bits": "d32c915ec0e0d43f",
+      "extended_bits": "7d9b6689f40206a7fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000259644c0",
+      "double_bits": "31b30594da3feebf",
+      "extended_bits": "4d87992da0d4fef1febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020bf464640",
+      "double_bits": "302a63267f47e13f",
+      "extended_bits": "9c83511933f93b8afe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020bf464640",
+      "double_bits": "2d19d99409efea3f",
+      "extended_bits": "336ac9c8a64c78d7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e06f5b58c0",
+      "double_bits": "3a8cf6b4de21a43f",
+      "extended_bits": "70d161b4a7f50ea1fa3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e06f5b58c0",
+      "double_bits": "89705522aaf9efbf",
+      "extended_bits": "cf4784ab1251cdfffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006083374140",
+      "double_bits": "f924057f1b9ebf3f",
+      "extended_bits": "9cc42729f8dbf0fcfb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006083374140",
+      "double_bits": "87120ec447c1efbf",
+      "extended_bits": "5d399470203e0afefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002094f54dc0",
+      "double_bits": "576a190dd6f8cc3f",
+      "extended_bits": "4fb952cb68b0c6e7fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002094f54dc0",
+      "double_bits": "1a1ce692652befbf",
+      "extended_bits": "19cce030972c5bf9febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0fcb652c0",
+      "double_bits": "94f627fd0c6de03f",
+      "extended_bits": "f0a0b43fe9676883fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0fcb652c0",
+      "double_bits": "7b89fe5c6476eb3f",
+      "extended_bits": "88db4bf4e722b3dbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020913b5040",
+      "double_bits": "48491a440aa4eb3f",
+      "extended_bits": "8b3c4ad2205220ddfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020913b5040",
+      "double_bits": "e2f2ff36c61fe0bf",
+      "extended_bits": "1d1297ffb731fe80febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000409b884940",
+      "double_bits": "2143534097fee63f",
+      "extended_bits": "ee06199a02baf4b7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000409b884940",
+      "double_bits": "5e59cdca1841e63f",
+      "extended_bits": "9ef2ca6a56c608b2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0cd294bc0",
+      "double_bits": "83188de52a73e93f",
+      "extended_bits": "ff1bc4682c5799cbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0cd294bc0",
+      "double_bits": "9065e1b80766e3bf",
+      "extended_bits": "6b802c0bc73d309bfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007a3357c0",
+      "double_bits": "0c78f155acbdef3f",
+      "extended_bits": "0d61c08baf62edfdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007a3357c0",
+      "double_bits": "c6ee0a335841c03f",
+      "extended_bits": "252d765798c10a82fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e067ac4640",
+      "double_bits": "9b0cca528152ef3f",
+      "extended_bits": "d1d76450960a94fafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e067ac4640",
+      "double_bits": "337a5d892134ca3f",
+      "extended_bits": "fc98d1eb4a0ca1d1fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000c0c85440",
+      "double_bits": "c0aff4856ec9ef3f",
+      "extended_bits": "8f017ea52f744bfefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000c0c85440",
+      "double_bits": "38cdbf1eb77fbd3f",
+      "extended_bits": "a1c069fef5b8fdebfb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040802b54c0",
+      "double_bits": "61821451dff4ea3f",
+      "extended_bits": "580a13a488faa6d7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040802b54c0",
+      "double_bits": "364d1e6f633ee13f",
+      "extended_bits": "04b369f2781bf389fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c013a75640",
+      "double_bits": "ccda2e54a96fde3f",
+      "extended_bits": "ac5fd676a14a7df3fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c013a75640",
+      "double_bits": "8f544d965726ecbf",
+      "extended_bits": "6679a46ab2bc32e1febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0050f4b40",
+      "double_bits": "42f7b1429cdde4bf",
+      "extended_bits": "ba0eba8f15e2eca6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0050f4b40",
+      "double_bits": "1ee0938cf642e8bf",
+      "extended_bits": "28ee009f64b417c2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0c2784ac0",
+      "double_bits": "92dd8e33dc9edcbf",
+      "extended_bits": "fd8eec769ce1f6e4fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0c2784ac0",
+      "double_bits": "83a52e2a389fecbf",
+      "extended_bits": "e3192c7551c1f9e4febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020b68f56c0",
+      "double_bits": "a4f7b6def643e8bf",
+      "extended_bits": "ee1dbdb7f5b61fc2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020b68f56c0",
+      "double_bits": "4e81ab2a72dce4bf",
+      "extended_bits": "6c6f0a5c5591e3a6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006061f74340",
+      "double_bits": "d0d81151c639e93f",
+      "extended_bits": "ab82c68e8832cec9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006061f74340",
+      "double_bits": "7199660070b0e3bf",
+      "extended_bits": "6085cb340380839dfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000209f983cc0",
+      "double_bits": "6d2e07e4873ed43f",
+      "extended_bits": "0d657339203ff4a1fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000209f983cc0",
+      "double_bits": "6ac051fb5e5beebf",
+      "extended_bits": "2d52038edaf7daf2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000202c7c46c0",
+      "double_bits": "8d296727d1b6eabf",
+      "extended_bits": "44644c393b89b6d5febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000202c7c46c0",
+      "double_bits": "50d1c96fed9de13f",
+      "extended_bits": "d8808a4e7e6bef8cfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008021bc5740",
+      "double_bits": "b6e9ee00a869e43f",
+      "extended_bits": "aaac4d7707404da3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008021bc5740",
+      "double_bits": "4c29bc62d5a4e83f",
+      "extended_bits": "425f4ae115ab26c5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000608e6b52c0",
+      "double_bits": "092a4651d0a7ef3f",
+      "extended_bits": "4b4650318a823efdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000608e6b52c0",
+      "double_bits": "730423e41bbbc2bf",
+      "extended_bits": "7d98231821dfd895fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e07e4340c0",
+      "double_bits": "77a5f70f98aeecbf",
+      "extended_bits": "a2b82bbd7fc074e5febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e07e4340c0",
+      "double_bits": "eac9888a0861dc3f",
+      "extended_bits": "72524f46544408e3fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040fa432740",
+      "double_bits": "8956cfed77b8e9bf",
+      "extended_bits": "7447b47a6ebfc3cdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040fa432740",
+      "double_bits": "7ed8d03fc509e33f",
+      "extended_bits": "3cecc386fe294e98fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080a5e15540",
+      "double_bits": "00e14aacce31dbbf",
+      "extended_bits": "ab02085762758ed9fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080a5e15540",
+      "double_bits": "0603e9baabf7ec3f",
+      "extended_bits": "8b2d1848d75dbde7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060aada55c0",
+      "double_bits": "2ca3a1f47eabe03f",
+      "extended_bits": "245c190da5f75b85fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060aada55c0",
+      "double_bits": "aa50f2d9a950eb3f",
+      "extended_bits": "c34d8592cf4e85dafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0629055c0",
+      "double_bits": "eb7719795eb2ef3f",
+      "extended_bits": "a158bfcbc8f392fdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0629055c0",
+      "double_bits": "2f9a1eaa7394c1bf",
+      "extended_bits": "6178d1f4509da38cfcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080dfc454c0",
+      "double_bits": "bb5861935b81efbf",
+      "extended_bits": "f0dbc50a9bdc0afcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080dfc454c0",
+      "double_bits": "8f467aef806bc63f",
+      "extended_bits": "8a7434d27b075cb3fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080308549c0",
+      "double_bits": "f97a99136d64e6bf",
+      "extended_bits": "f7c6d7cb9c6823b3febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080308549c0",
+      "double_bits": "8d7d783d31dce63f",
+      "extended_bits": "fd69ecc3eb89e1b6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000609bc640c0",
+      "double_bits": "902bfee65507ebbf",
+      "extended_bits": "8c805cf137af3ad8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000609bc640c0",
+      "double_bits": "6a06be3f6421e1bf",
+      "extended_bits": "4a4d33f0fd210b89febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a050321ac0",
+      "double_bits": "3e44d09e25d2d0bf",
+      "extended_bits": "a6f32182f62c9186fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a050321ac0",
+      "double_bits": "11fc1fbffedfee3f",
+      "extended_bits": "d38ae0fff8f5fff6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0ab2a3cc0",
+      "double_bits": "082e7a7a6081bbbf",
+      "extended_bits": "2c3f70d1d3030bdcfbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0ab2a3cc0",
+      "double_bits": "fd70172194d0efbf",
+      "extended_bits": "82e887bb08a184fefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000b03e4ec0",
+      "double_bits": "d42b1815a5f1e63f",
+      "extended_bits": "89a35ec1a8288db7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000b03e4ec0",
+      "double_bits": "24f7836d714ee6bf",
+      "extended_bits": "a81cb91f6c8b73b2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c069052640",
+      "double_bits": "94a1152214ffefbf",
+      "extended_bits": "5ca00cad10a1f8fffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c069052640",
+      "double_bits": "2dfb69990db78e3f",
+      "extended_bits": "c367d94fcb6cb8f5f83f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0ae0f50c0",
+      "double_bits": "cc05b745749aefbf",
+      "extended_bits": "665e2eb82da2d3fcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0ae0f50c0",
+      "double_bits": "245c604f6817c43f",
+      "extended_bits": "5d21e1027b42bba0fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000207bb544c0",
+      "double_bits": "6c7914baa075e13f",
+      "extended_bits": "b161cba3d005ad8bfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000207bb544c0",
+      "double_bits": "8c4d472a39d1eabf",
+      "extended_bits": "f75f6c3a52c989d6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000e29f54c0",
+      "double_bits": "49eed24a6853e7bf",
+      "extended_bits": "da46729756429bbafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000e29f54c0",
+      "double_bits": "2ed4111822e8e53f",
+      "extended_bits": "1b71a18ec01041affe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0d1d055c0",
+      "double_bits": "da9cbb17b3a8e43f",
+      "extended_bits": "66cce6dcbd9845a5fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0d1d055c0",
+      "double_bits": "17f6e7251470e83f",
+      "extended_bits": "58bbb03f2fa180c3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c065e821c0",
+      "double_bits": "87aea357e408ddbf",
+      "extended_bits": "c636741dbd2247e8fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c065e821c0",
+      "double_bits": "b0b147dd7884ecbf",
+      "extended_bits": "d0808d3deac623e4febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040dc1e30c0",
+      "double_bits": "16f002b4a2a9d93f",
+      "extended_bits": "c8ac8017a0154dcdfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040dc1e30c0",
+      "double_bits": "0145cb719650edbf",
+      "extended_bits": "5d07285a8eb384eafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0aa7b3c40",
+      "double_bits": "bab4586a6086cabf",
+      "extended_bits": "83cda5c5520333d4fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0aa7b3c40",
+      "double_bits": "c38fb4642d4eefbf",
+      "extended_bits": "1f177ea4256b71fafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000800fc65440",
+      "double_bits": "229cab6f979aef3f",
+      "extended_bits": "510ce15c7dbbd4fcfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000800fc65440",
+      "double_bits": "57219203f313c43f",
+      "extended_bits": "8bb60a911c989fa0fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004023924840",
+      "double_bits": "77651d4211dbecbf",
+      "extended_bits": "66b72beb108ad8e6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004023924840",
+      "double_bits": "60135d8366aadb3f",
+      "extended_bits": "78029be81a3453ddfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a02a4252c0",
+      "double_bits": "c7f772580e71e63f",
+      "extended_bits": "9e3bbe97c37288b3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a02a4252c0",
+      "double_bits": "1010234acbcfe6bf",
+      "extended_bits": "c3818018515a7eb6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000b6c54540",
+      "double_bits": "607047923020dbbf",
+      "extended_bits": "e4fe823b928401d9fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000b6c54540",
+      "double_bits": "902a1c9dccfbec3f",
+      "extended_bits": "f58154e1e864dee7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0933e3940",
+      "double_bits": "c733d3e75489bc3f",
+      "extended_bits": "32389e993ea74ae4fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0933e3940",
+      "double_bits": "579ac401f2ccef3f",
+      "extended_bits": "cab4d2240e9067fefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a00d444b40",
+      "double_bits": "92062d04eeddecbf",
+      "extended_bits": "119334682170efe6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a00d444b40",
+      "double_bits": "e63e6838729edbbf",
+      "extended_bits": "182ef741c391f3dcfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000416e58c0",
+      "double_bits": "1815345cf0f0d43f",
+      "extended_bits": "d2bda8a0e18287a7fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000416e58c0",
+      "double_bits": "5063f5530e3deebf",
+      "extended_bits": "92801aab9f72e8f1febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a087b245c0",
+      "double_bits": "bf97d76ce7bce13f",
+      "extended_bits": "b1f6bdbc663be78dfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a087b245c0",
+      "double_bits": "860e87cb49a2ea3f",
+      "extended_bits": "9e2f74385c4e12d5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0182f5540",
+      "double_bits": "93061dee8346b63f",
+      "extended_bits": "039834e8701f34b2fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0182f5540",
+      "double_bits": "6cd7bfc8ede0efbf",
+      "extended_bits": "345fbbfe456e07fffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0f1155440",
+      "double_bits": "47a6f9b80824efbf",
+      "extended_bits": "7e3a32cdc74520f9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0f1155440",
+      "double_bits": "0ba760cf7376cd3f",
+      "extended_bits": "be5638057b9eb3ebfc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a09ecc52c0",
+      "double_bits": "1d40fccb748fc93f",
+      "extended_bits": "7eeb00e25fa67bccfc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a09ecc52c0",
+      "double_bits": "3c530156015bef3f",
+      "extended_bits": "82e3990ab00ad8fafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040d86e4fc0",
+      "double_bits": "21b5f4837c77a1bf",
+      "extended_bits": "c207a9a51fe4bb8bfabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040d86e4fc0",
+      "double_bits": "d4d1d24b3bfbef3f",
+      "extended_bits": "109d8e965edad9fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0fe6650c0",
+      "double_bits": "9008cd3b51cbd6bf",
+      "extended_bits": "9f7d4468de895ab6fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0fe6650c0",
+      "double_bits": "99f3d79fcfe6edbf",
+      "extended_bits": "e3ca9cbffe7c36effebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0cedf40c0",
+      "double_bits": "fe5ad9a8d527e7bf",
+      "extended_bits": "2ceed7ca46ad3eb9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0cedf40c0",
+      "double_bits": "40c476932b16e6bf",
+      "extended_bits": "0a0222b69b5cb1b0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060af665540",
+      "double_bits": "2d9d12a6b789e6bf",
+      "extended_bits": "8868e99430bd4db4febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060af665540",
+      "double_bits": "3f3982106eb7e6bf",
+      "extended_bits": "71f9c9118470bbb5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0331539c0",
+      "double_bits": "a72e2ed3b08ca93f",
+      "extended_bits": "c9397571998665ccfa3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0331539c0",
+      "double_bits": "d4feeb3fcbf5ef3f",
+      "extended_bits": "969ff65fff59aefffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000804c0608c0",
+      "double_bits": "83043f106dacc1bf",
+      "extended_bits": "831b24f88168638dfcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000804c0608c0",
+      "double_bits": "5609b62589b1efbf",
+      "extended_bits": "6faf4ab02d498cfdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060cf6c5440",
+      "double_bits": "906131d56e32933f",
+      "extended_bits": "c6800c8ba9769399f93f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060cf6c5440",
+      "double_bits": "5f7552718ffeef3f",
+      "extended_bits": "23f4aa938a7bf4fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008054a64c40",
+      "double_bits": "ca1ea6b0b1d4e53f",
+      "extended_bits": "424ff630858da5aefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008054a64c40",
+      "double_bits": "36df72c19a65e73f",
+      "extended_bits": "7bb2f9960bd62cbbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040981c4bc0",
+      "double_bits": "0bcc0839f250e73f",
+      "extended_bits": "10546046c89187bafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040981c4bc0",
+      "double_bits": "6246a6aec0eae5bf",
+      "extended_bits": "1f0d3332750556affebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000cc5d3b40",
+      "double_bits": "ab45312a3e39e93f",
+      "extended_bits": "755a2d8a51f1c9c9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000cc5d3b40",
+      "double_bits": "53f6606b1eb1e3bf",
+      "extended_bits": "8997b2075bf3889dfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080dbe143c0",
+      "double_bits": "98bd648d3f2aecbf",
+      "extended_bits": "3ac0ec256bfc51e1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080dbe143c0",
+      "double_bits": "b6574e803161debf",
+      "extended_bits": "0fb0bd72028c09f3fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060269e4ec0",
+      "double_bits": "d9a2b8a155fdef3f",
+      "extended_bits": "22c416c50dadeafffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060269e4ec0",
+      "double_bits": "0db534e9bb1e9abf",
+      "extended_bits": "d764a8a549dff5d0f9bf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a09ef415c0",
+      "double_bits": "10d4408ef2d3e63f",
+      "extended_bits": "4f7fa00672949fb6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a09ef415c0",
+      "double_bits": "535984c3d46ce63f",
+      "extended_bits": "6794ca221ca666b3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080bac75340",
+      "double_bits": "eb2d59efdc8fe1bf",
+      "extended_bits": "df546fc97ae77e8cfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080bac75340",
+      "double_bits": "519b763c12c0eabf",
+      "extended_bits": "d08bdab4e39100d6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040a42709c0",
+      "double_bits": "5b90cf0bada3663f",
+      "extended_bits": "3fd5827c5e681db5f63f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040a42709c0",
+      "double_bits": "0f70d5fdf7ffefbf",
+      "extended_bits": "477480abeebffffffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c007ab5340",
+      "double_bits": "8e52f99618eac0bf",
+      "extended_bits": "937294cab7c45087fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c007ab5340",
+      "double_bits": "10d05b1329b8efbf",
+      "extended_bits": "2c7c80de9a48c1fdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0c00af3bf",
+      "double_bits": "da1a2c6d94b5edbf",
+      "extended_bits": "17ced66069a3acedfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0c00af3bf",
+      "double_bits": "231531dc5ec7d73f",
+      "extended_bits": "2017a988e1f63abefd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000805ec953c0",
+      "double_bits": "630cfe55ea3de23f",
+      "extended_bits": "051563f0af52ef91fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000805ec953c0",
+      "double_bits": "a80df460954aeabf",
+      "extended_bits": "0f436da007ab54d2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0dd635740",
+      "double_bits": "34210e88d44de4bf",
+      "extended_bits": "b59e097140a46ea2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0dd635740",
+      "double_bits": "c4ee016cc7bbe83f",
+      "extended_bits": "ed22760f603bdec5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a01f8a56c0",
+      "double_bits": "65c20801fdfde9bf",
+      "extended_bits": "3e28134608e8efcffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a01f8a56c0",
+      "double_bits": "779995ae6baae2bf",
+      "extended_bits": "75bacbac745d5395febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0ae4f5440",
+      "double_bits": "34f7d480d20cdbbf",
+      "extended_bits": "f19cb9a7069466d8fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0ae4f5440",
+      "double_bits": "e518f6b45200ed3f",
+      "extended_bits": "ec26c7b0a79502e8fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0c62631c0",
+      "double_bits": "20d2ae46b9bdef3f",
+      "extended_bits": "d0fd907635caedfdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0c62631c0",
+      "double_bits": "3867d5d4c33fc0bf",
+      "extended_bits": "9dc239aba61efe81fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008032b74d40",
+      "double_bits": "b43d4af7ac64d03f",
+      "extended_bits": "56a1ed51ba672583fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008032b74d40",
+      "double_bits": "1f7574bab3eeeebf",
+      "extended_bits": "aef6a8a3d39d75f7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006009235840",
+      "double_bits": "6055378da1dee73f",
+      "extended_bits": "57fcaaba690cf5befe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006009235840",
+      "double_bits": "25bab22e1a50e5bf",
+      "extended_bits": "8f29d19575d180aafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000205cf14fc0",
+      "double_bits": "2b4a1b3c40d1ebbf",
+      "extended_bits": "d45b51dae0018adefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000205cf14fc0",
+      "double_bits": "539954268ea2df3f",
+      "extended_bits": "e39bcaa4327114fdfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006078355640",
+      "double_bits": "02e5f165047ae83f",
+      "extended_bits": "370e288f2f23d0c3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006078355640",
+      "double_bits": "419cd6b6eb9ce43f",
+      "extended_bits": "8e0ae2b4b65de7a4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0a8d957c0",
+      "double_bits": "3a93a305d33fedbf",
+      "extended_bits": "24ce991c2d98fee9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0a8d957c0",
+      "double_bits": "190a14abb4f5d93f",
+      "extended_bits": "61c850a058a5adcffd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060855b57c0",
+      "double_bits": "256af6130959e73f",
+      "extended_bits": "272751b39f48c8bafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060855b57c0",
+      "double_bits": "42936e6f22e2e53f",
+      "extended_bits": "000f9a747b1311affe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0dc6d55c0",
+      "double_bits": "776e93c746f0e83f",
+      "extended_bits": "91b6739b3c3682c7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0dc6d55c0",
+      "double_bits": "55217f94360de4bf",
+      "extended_bits": "65a50af9a3b469a0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000029cb40c0",
+      "double_bits": "720cf467fe66eabf",
+      "extended_bits": "bb9163a03ff337d3febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000029cb40c0",
+      "double_bits": "92b0d04bb314e2bf",
+      "extended_bits": "788e84855e9aa590febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007bd41140",
+      "double_bits": "768d76f953f7eebf",
+      "extended_bits": "94af6bb4cb9fbaf7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007bd41140",
+      "double_bits": "c03031780523d0bf",
+      "extended_bits": "5efe8589c12b1881fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080f2b54cc0",
+      "double_bits": "80a831b41f84e8bf",
+      "extended_bits": "54ff438da1fd20c4febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080f2b54cc0",
+      "double_bits": "33ebbd76e590e43f",
+      "extended_bits": "609659efb52b87a4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a03da34640",
+      "double_bits": "315bb2acfbc5ee3f",
+      "extended_bits": "1a89d99265dd2ff6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a03da34640",
+      "double_bits": "202a9531c58cd13f",
+      "extended_bits": "cb0251a98c29668cfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e09e080740",
+      "double_bits": "2345e585bb99d03f",
+      "extended_bits": "f314292a2fdccd84fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e09e080740",
+      "double_bits": "b646a0f49fe7eebf",
+      "extended_bits": "89ac3502a5ff3cf7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080010be8bf",
+      "double_bits": "5047df5408d8e5bf",
+      "extended_bits": "c9813afaa642c0aefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080010be8bf",
+      "double_bits": "58958fdf7c62e73f",
+      "extended_bits": "93bcaa7cfce613bbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000001e5a57c0",
+      "double_bits": "1028d7c777d2e73f",
+      "extended_bits": "108240b93ebe93befe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000001e5a57c0",
+      "double_bits": "e69565afb15de53f",
+      "extended_bits": "6b31af2c7b8dedaafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000606e7854c0",
+      "double_bits": "5f0f84b58578c9bf",
+      "extended_bits": "dcfb7a20ac2dc4cbfcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000606e7854c0",
+      "double_bits": "bb112dea2b5cef3f",
+      "extended_bits": "a4d58d68515fe1fafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060c38b4440",
+      "double_bits": "b0a50c26e1d0cfbf",
+      "extended_bits": "eb822d65300987fefcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060c38b4440",
+      "double_bits": "523662f5e6feeebf",
+      "extended_bits": "118eb211ab37f7f7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000402df64f40",
+      "double_bits": "7912e1338e64ec3f",
+      "extended_bits": "abc693089f7124e3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000402df64f40",
+      "double_bits": "69ce886df984dd3f",
+      "extended_bits": "064b73466ccb27ecfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a05d765740",
+      "double_bits": "4d0467d3cbd2d8bf",
+      "extended_bits": "fa6922389b5e96c6fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a05d765740",
+      "double_bits": "3b1a6e18b27eed3f",
+      "extended_bits": "ded7d170c390f5ebfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000605dc1f2bf",
+      "double_bits": "3f2c7201d47dedbf",
+      "extended_bits": "3bf661910ba0eeebfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000605dc1f2bf",
+      "double_bits": "a19108f6ead6d83f",
+      "extended_bits": "b00a8d44b057b7c6fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020fdc356c0",
+      "double_bits": "efcb0f0c4b73a6bf",
+      "extended_bits": "9b7a5f7e60589ab3fabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020fdc356c0",
+      "double_bits": "fac963f41ef8efbf",
+      "extended_bits": "b8d34f1ea3f7c0fffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040121a15c0",
+      "double_bits": "5166580e510feb3f",
+      "extended_bits": "718432c372887ad8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040121a15c0",
+      "double_bits": "1e234a06c614e13f",
+      "extended_bits": "02ee18513230a688fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060567d2ac0",
+      "double_bits": "fdcf211c0f15e4bf",
+      "extended_bits": "9fe87f0ee178a8a0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060567d2ac0",
+      "double_bits": "61c2afcef5e9e83f",
+      "extended_bits": "fa06137e75ae4fc7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e00c280d40",
+      "double_bits": "f9033b877ad9debf",
+      "extended_bits": "d5c61fd839d4cbf6fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e00c280d40",
+      "double_bits": "9de616b67c09ecbf",
+      "extended_bits": "ebe934b7b0e54be0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080b8941240",
+      "double_bits": "71803a1189edefbf",
+      "extended_bits": "338a03d489486cfffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080b8941240",
+      "double_bits": "61a6eb2fb12db1bf",
+      "extended_bits": "5409335d7f896d89fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a03ff23ac0",
+      "double_bits": "06a3faedd20fefbf",
+      "extended_bits": "ee3318d56f977ef8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a03ff23ac0",
+      "double_bits": "427cb0bd67c4cebf",
+      "extended_bits": "b210e283ed3d23f6fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000c5df48c0",
+      "double_bits": "baa5560c39a6df3f",
+      "extended_bits": "ecd12db562c831fdfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000c5df48c0",
+      "double_bits": "8fe7933735d0eb3f",
+      "extended_bits": "e1753c9fbca981defe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000a4ec2140",
+      "double_bits": "659b8740a28fdc3f",
+      "extended_bits": "dd29db3c04127de4fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000a4ec2140",
+      "double_bits": "197fe05605a3ecbf",
+      "extended_bits": "9cc8f803b72a18e5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0871c4cc0",
+      "double_bits": "3b5e0426967bd43f",
+      "extended_bits": "eed7f12230b1dca3fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0871c4cc0",
+      "double_bits": "be50000c2051ee3f",
+      "extended_bits": "5ef38502600089f2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080038047c0",
+      "double_bits": "1590f2b18a9bbfbf",
+      "extended_bits": "a0a780948f55dcfcfbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080038047c0",
+      "double_bits": "1d9b78fb51c1efbf",
+      "extended_bits": "a7e5d8c4db8f0afefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000808caa45c0",
+      "double_bits": "d5cfaeedee5ce33f",
+      "extended_bits": "b4ab7e766d77e79afe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000808caa45c0",
+      "double_bits": "e69d6d65177ae93f",
+      "extended_bits": "912cef6c2bbbd0cbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080162c4340",
+      "double_bits": "a2468dc1243fe33f",
+      "extended_bits": "ef0f356a0c26f999fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080162c4340",
+      "double_bits": "d60ddd12a090e93f",
+      "extended_bits": "f6b16ee8960085ccfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0656c3340",
+      "double_bits": "9f6d795a525fe13f",
+      "extended_bits": "caf96ccbd392fa8afe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0656c3340",
+      "double_bits": "56aa1bbeb1dfea3f",
+      "extended_bits": "acb252ddf08dfdd6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000609b2e2a40",
+      "double_bits": "28ea0f2a8407e03f",
+      "extended_bits": "493f517f50213c80fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000609b2e2a40",
+      "double_bits": "d39485a122b2eb3f",
+      "extended_bits": "d498a62c0c1591ddfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000009b4b58c0",
+      "double_bits": "bdc6f167e26fcabf",
+      "extended_bits": "f1e6358e3f137fd3fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000009b4b58c0",
+      "double_bits": "37c269c95d4fefbf",
+      "extended_bits": "8bb4114e4bee7afafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000075e90340",
+      "double_bits": "b5572d3fa06ee33f",
+      "extended_bits": "43a4bd6af901759bfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000075e90340",
+      "double_bits": "ae1b624d9b6ce9bf",
+      "extended_bits": "1f71dd106bda64cbfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000405a5e1a40",
+      "double_bits": "7fa90c36c975d33f",
+      "extended_bits": "a4f44b65b049ae9bfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000405a5e1a40",
+      "double_bits": "99c1412a1f7cee3f",
+      "extended_bits": "f5c50c0e52f9e0f3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006093e34540",
+      "double_bits": "b01a12e505fac9bf",
+      "extended_bits": "627dd590282fd0cffcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006093e34540",
+      "double_bits": "8101ef998755ef3f",
+      "extended_bits": "aa070c78cf3cacfafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a05fc94140",
+      "double_bits": "62d68bb80432ebbf",
+      "extended_bits": "d310b35ec42590d9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a05fc94140",
+      "double_bits": "60ace1494fdde0bf",
+      "extended_bits": "15fc620d4f7aea86febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000207e901640",
+      "double_bits": "b3915753e029e3bf",
+      "extended_bits": "c8978dbc9a024f99febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000207e901640",
+      "double_bits": "5caf0f1b95a0e93f",
+      "extended_bits": "f7e37a7dd8a804cdfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c01dea4ec0",
+      "double_bits": "65fd9210c9f9ea3f",
+      "extended_bits": "6525eb978448ced7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c01dea4ec0",
+      "double_bits": "318b7ad2b236e13f",
+      "extended_bits": "168a59d49396b589fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060af934cc0",
+      "double_bits": "b78ae0881e34e2bf",
+      "extended_bits": "71bb550447f4a091febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060af934cc0",
+      "double_bits": "356cb2ad5e51ea3f",
+      "extended_bits": "bba461936df58ad2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c071e540c0",
+      "double_bits": "79029f222d29e6bf",
+      "extended_bits": "0ac513f8146949b1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c071e540c0",
+      "double_bits": "d80e08c8a515e7bf",
+      "extended_bits": "18be7640402eadb8febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c033734740",
+      "double_bits": "87756a1ebf6acc3f",
+      "extended_bits": "da36ac53f3f855e3fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c033734740",
+      "double_bits": "c935e5699133efbf",
+      "extended_bits": "624bae294f8b9cf9febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060d09a4fc0",
+      "double_bits": "00a07c771999d7bf",
+      "extended_bits": "5bfcffe4bbcbc8bcfdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060d09a4fc0",
+      "double_bits": "aba2df32ccbeed3f",
+      "extended_bits": "435615fd9661f6edfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020af6b3dc0",
+      "double_bits": "265cc615f428ed3f",
+      "extended_bits": "3b2de132aea047e9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020af6b3dc0",
+      "double_bits": "8de5d8ddd65bdabf",
+      "extended_bits": "036b2cc7eeb6ded2fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008061ff4640",
+      "double_bits": "d15be01b7decec3f",
+      "extended_bits": "7888de02dfe863e7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008061ff4640",
+      "double_bits": "1c3813114161dbbf",
+      "extended_bits": "27e2c09988080adbfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a061663240",
+      "double_bits": "af8ac68effd0dbbf",
+      "extended_bits": "aa77553476fc87defdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a061663240",
+      "double_bits": "acd0a1eec8d1ec3f",
+      "extended_bits": "a160850e75478ee6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000b94b02c0",
+      "double_bits": "f456d50c6523e8bf",
+      "extended_bits": "2f9cb7aa66281bc1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000b94b02c0",
+      "double_bits": "625c683f1902e5bf",
+      "extended_bits": "a60ee342fbc910a8febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040b34823c0",
+      "double_bits": "f6c7ba4cd995cb3f",
+      "extended_bits": "7ab33fd665caaedcfc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040b34823c0",
+      "double_bits": "5b61741c803fefbf",
+      "extended_bits": "4cdb0aa3e300fcf9febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000005dbf1440",
+      "double_bits": "49f1eba7ff76ecbf",
+      "extended_bits": "c0448a5f3ffdb7e3febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000005dbf1440",
+      "double_bits": "a1c74d0d973ddd3f",
+      "extended_bits": "a1053d6e6ab8ece9fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000c083fa3f",
+      "double_bits": "aa6feedc76e1ef3f",
+      "extended_bits": "be4c7d73e7b60bfffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000c083fa3f",
+      "double_bits": "493ef6db4115b6bf",
+      "extended_bits": "534bf2b1df0eaab0fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000609a6b4b40",
+      "double_bits": "f39f052efeb2efbf",
+      "extended_bits": "0f98ff2c70f197fdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000609a6b4b40",
+      "double_bits": "4f95acfc6a82c1bf",
+      "extended_bits": "ea7baa64e557138cfcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080b5795140",
+      "double_bits": "5b4ccf13f3a7e63f",
+      "extended_bits": "2fd7627a9e983fb5fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080b5795140",
+      "double_bits": "5d9f69584799e63f",
+      "extended_bits": "edebfa4cc33acab4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a094114dc0",
+      "double_bits": "bf9ec5a1b0feefbf",
+      "extended_bits": "42f8f52c0e85f5fffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a094114dc0",
+      "double_bits": "ec80568ff44f92bf",
+      "extended_bits": "576207b47aa47f92f9bf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060972d4cc0",
+      "double_bits": "13f3e95d7e7cc83f",
+      "extended_bits": "199b984feff2e3c3fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060972d4cc0",
+      "double_bits": "238a164cb568ef3f",
+      "extended_bits": "eb1951b460aa45fbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080248d3440",
+      "double_bits": "52baa9f4d2b9ef3f",
+      "extended_bits": "2e8cd24da597cefdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080248d3440",
+      "double_bits": "afe4db69e2b7c0bf",
+      "extended_bits": "637a25df4e13bf85fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020a6942540",
+      "double_bits": "5310a7520f54efbf",
+      "extended_bits": "95998238957aa0fafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020a6942540",
+      "double_bits": "ecd97eed5316cabf",
+      "extended_bits": "6360cff66b9fb2d0fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000809c5f3f40",
+      "double_bits": "f2612312a7b9a5bf",
+      "extended_bits": "a28d0f1b9138cdadfabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000809c5f3f40",
+      "double_bits": "6ff711369ff8ef3f",
+      "extended_bits": "2b7bbb8fb0f9c4fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e020ca47c0",
+      "double_bits": "82713de9a823dc3f",
+      "extended_bits": "bf0d8ceb49471de1fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e020ca47c0",
+      "double_bits": "5e0b6416b2bdecbf",
+      "extended_bits": "84ed5a20b390ede5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000003d1346c0",
+      "double_bits": "31f75e1b3a67c5bf",
+      "extended_bits": "5085b9f7dad039abfcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000003d1346c0",
+      "double_bits": "b522e7dba98cef3f",
+      "extended_bits": "a5a61539df4e65fcfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040040454c0",
+      "double_bits": "a80880499ff6ef3f",
+      "extended_bits": "904145004cfab4fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040040454c0",
+      "double_bits": "a9857c72d47da8bf",
+      "extended_bits": "f9452de493a3eec3fabf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000654f45c0",
+      "double_bits": "c6b34a1d204eef3f",
+      "extended_bits": "c02d9e55ea0071fafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000654f45c0",
+      "double_bits": "cd13b7265b87ca3f",
+      "extended_bits": "746b9eb835d93ad4fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000069942940",
+      "double_bits": "7a20017a9a5ecc3f",
+      "extended_bits": "0dcc0309d0d3f4e2fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000069942940",
+      "double_bits": "660cb2354234ef3f",
+      "extended_bits": "52326390ad11a2f9fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000208f6652c0",
+      "double_bits": "bf8134af9e31ef3f",
+      "extended_bits": "edf70da479f58cf9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000208f6652c0",
+      "double_bits": "be258e1ae38cccbf",
+      "extended_bits": "deee2d71d41867e4fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a036a95840",
+      "double_bits": "b83fbd30d969eebf",
+      "extended_bits": "0dbefde985c94ef3febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a036a95840",
+      "double_bits": "e9bc4915dfe6d3bf",
+      "extended_bits": "1344e74daaf8369ffdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0f2bf4cc0",
+      "double_bits": "0a74cb77e60beabf",
+      "extended_bits": "4653a05bbe335fd0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0f2bf4cc0",
+      "double_bits": "22c10e04fd96e23f",
+      "extended_bits": "ab0c097620e8b794fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000801a474a40",
+      "double_bits": "e5d987900413e83f",
+      "extended_bits": "c92acf3e842498c0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000801a474a40",
+      "double_bits": "33fb839fdb14e5bf",
+      "extended_bits": "5097d91ffcdca6a8febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c02c593cc0",
+      "double_bits": "be50f72e94edb23f",
+      "extended_bits": "6dec85ba77a16c97fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c02c593cc0",
+      "double_bits": "e0fac2cf93e9efbf",
+      "extended_bits": "0d03d7177e9e4cfffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060af0545c0",
+      "double_bits": "9d10457e39deed3f",
+      "extended_bits": "eae58428f2cbf1eefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060af0545c0",
+      "double_bits": "9de029b92cf8d6bf",
+      "extended_bits": "daea044fc965c1b7fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e02af732c0",
+      "double_bits": "de4e5caf5d9dbdbf",
+      "extended_bits": "f4ef76e27aedeaecfbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e02af732c0",
+      "double_bits": "b1880c3d00c9ef3f",
+      "extended_bits": "89894564e80148fefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c03a0847c0",
+      "double_bits": "80af389eb8e8ebbf",
+      "extended_bits": "6d007cc5f1c445dffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c03a0847c0",
+      "double_bits": "6bac64e3704fdfbf",
+      "extended_bits": "985a63251b877bfafdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a002e44440",
+      "double_bits": "7a37cc8e89dae9bf",
+      "extended_bits": "1fcfbb61764cd4cefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a002e44440",
+      "double_bits": "ac62146067dbe2bf",
+      "extended_bits": "806015a3003bdb96febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000806e7938c0",
+      "double_bits": "04e6bef54894e33f",
+      "extended_bits": "5f1d30f7ad47a29cfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000806e7938c0",
+      "double_bits": "73042261a64fe93f",
+      "extended_bits": "a499231009337dcafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0e04b4840",
+      "double_bits": "01e264c682d5efbf",
+      "extended_bits": "c70510273316acfefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0e04b4840",
+      "double_bits": "d1ee24b9260ababf",
+      "extended_bits": "bb8b7627c93551d0fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000009e255240",
+      "double_bits": "3497edc3bfced4bf",
+      "extended_bits": "e9a1b96c1ffe75a6fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000009e255240",
+      "double_bits": "7d1b4d49f442eebf",
+      "extended_bits": "f5e9db684aa217f2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0e7845340",
+      "double_bits": "c7f57c382b98dc3f",
+      "extended_bits": "bc3baee7c359c1e4fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0e7845340",
+      "double_bits": "f57a0425e4a0ecbf",
+      "extended_bits": "22a4d723282107e5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000604c4c5740",
+      "double_bits": "a9772af2b7d8ebbf",
+      "extended_bits": "9f45bd5391bfc5defebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000604c4c5740",
+      "double_bits": "9b18419f3b88df3f",
+      "extended_bits": "c4d8c408fadc41fcfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008073325640",
+      "double_bits": "86f2d298367ae73f",
+      "extended_bits": "602f9497c6b4d1bbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008073325640",
+      "double_bits": "ef73b26586bee53f",
+      "extended_bits": "d9799f932d33f4adfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000206ad73540",
+      "double_bits": "c6f8cd249916c33f",
+      "extended_bits": "752dc66f26c9b498fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000206ad73540",
+      "double_bits": "43503eb565a4efbf",
+      "extended_bits": "431782f2a92d23fdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060bdd03a40",
+      "double_bits": "803e270ecfccef3f",
+      "extended_bits": "ba03f439717866fefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060bdd03a40",
+      "double_bits": "4c59d4fe0f93bcbf",
+      "extended_bits": "aa60caa2f67f98e4fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007d4e45c0",
+      "double_bits": "eca73d00f259ef3f",
+      "extended_bits": "175d3fed0190cffafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007d4e45c0",
+      "double_bits": "afebdda639a4c93f",
+      "extended_bits": "4e765def36cd21cdfc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0c42b4340",
+      "double_bits": "405588f7cc2ee33f",
+      "extended_bits": "c000aa42bc677699fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0c42b4340",
+      "double_bits": "7db238afe59ce93f",
+      "extended_bits": "66e493c5792de7ccfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080e6e023c0",
+      "double_bits": "73b806b6487edf3f",
+      "extended_bits": "d495c335b045f2fbfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080e6e023c0",
+      "double_bits": "ea71555c88dbebbf",
+      "extended_bits": "77508fabe242dcdefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008049f557c0",
+      "double_bits": "1721ff7231ffefbf",
+      "extended_bits": "d4ba08f9978bf9fffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008049f557c0",
+      "double_bits": "0962460838be8cbf",
+      "extended_bits": "6246103342c0f1e5f8bf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e05c0a3740",
+      "double_bits": "0af3ccf133bfebbf",
+      "extended_bits": "764d98678e9ff9ddfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e05c0a3740",
+      "double_bits": "8c9ad970b5e1dfbf",
+      "extended_bits": "745fd4cc86ab0dfffdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000af583340",
+      "double_bits": "cab41eccc881de3f",
+      "extended_bits": "1652a6f560460ef4fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000af583340",
+      "double_bits": "a99d58a06f21ec3f",
+      "extended_bits": "b948edc4027d0be1fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080c3da43c0",
+      "double_bits": "8108b5e792f6ecbf",
+      "extended_bits": "8a0444a83d97b4e7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080c3da43c0",
+      "double_bits": "de3e05b77a36dbbf",
+      "extended_bits": "f3f3f629b8d5b3d9fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080a38c3240",
+      "double_bits": "02ed8b4cb7ecd2bf",
+      "extended_bits": "c313685f64ba6597fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080a38c3240",
+      "double_bits": "c5ddde73aa91ee3f",
+      "extended_bits": "412beef69e538df4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c033555040",
+      "double_bits": "fd33ccae6b2ae33f",
+      "extended_bits": "a1e79f61765d5399fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c033555040",
+      "double_bits": "080057e32ca0e9bf",
+      "extended_bits": "c33d00b81a6701cdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a097c644c0",
+      "double_bits": "6049ecc5c6e0e43f",
+      "extended_bits": "38fe4a622f3606a7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a097c644c0",
+      "double_bits": "78d8fe1f3d40e8bf",
+      "extended_bits": "9bbcc3f6ffe801c2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0af403c40",
+      "double_bits": "4df861aa892b963f",
+      "extended_bits": "0267c20f534d5cb1f93f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0af403c40",
+      "double_bits": "428b2f6e14feefbf",
+      "extended_bits": "250f5a7c71a3f0fffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000b54940c0",
+      "double_bits": "3828bbcb2756edbf",
+      "extended_bits": "a7bd41d95d3eb1eafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000b54940c0",
+      "double_bits": "57dc91d22290d93f",
+      "extended_bits": "0bb7e28e941681ccfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040350632c0",
+      "double_bits": "90e0a4921d83e73f",
+      "extended_bits": "267e042795ec18bcfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040350632c0",
+      "double_bits": "456991d1e5b4e53f",
+      "extended_bits": "53244a8b8c2ea7adfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000d16455c0",
+      "double_bits": "113feb347cdde53f",
+      "extended_bits": "178af859a7e1ebaefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000d16455c0",
+      "double_bits": "24623fc8635de7bf",
+      "extended_bits": "702011fb411eebbafebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008052a440c0",
+      "double_bits": "32a7d28a3c99eebf",
+      "extended_bits": "2792399556e4c9f4febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008052a440c0",
+      "double_bits": "3c40feef86bbd2bf",
+      "extended_bits": "53dc01f27f37dc95fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0266228c0",
+      "double_bits": "e6f00d10f96bd73f",
+      "extended_bits": "f92d876f80c85fbbfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0266228c0",
+      "double_bits": "2cb7048bb5c7ed3f",
+      "extended_bits": "8b5cb92558ac3deefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000808baa1740",
+      "double_bits": "9a9c1eb14ff1d6bf",
+      "extended_bits": "d4d3e4f4887d8ab7fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000808baa1740",
+      "double_bits": "34bec2118bdfed3f",
+      "extended_bits": "849df1158e58fceefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080546b30c0",
+      "double_bits": "6bd5deaddce3e43f",
+      "extended_bits": "db59abf66ee51ea7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080546b30c0",
+      "double_bits": "c0a55fbd943de8bf",
+      "extended_bits": "36002efdeaa5ecc1febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0e95257c0",
+      "double_bits": "6aae58733a12ea3f",
+      "extended_bits": "1d4d73c59ad391d0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0e95257c0",
+      "double_bits": "7fa871081c8ee23f",
+      "extended_bits": "58f4438d43e07094fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e029b238c0",
+      "double_bits": "4549b336f812db3f",
+      "extended_bits": "ad2a4a9ab5c197d8fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e029b238c0",
+      "double_bits": "3ad9e28ce3feec3f",
+      "extended_bits": "36cdc916671cf7e7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000c3be2ac0",
+      "double_bits": "6d815962ea17e7bf",
+      "extended_bits": "80640bcc1253bfb8febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000c3be2ac0",
+      "double_bits": "4a05e716d026e63f",
+      "extended_bits": "aa532a38b78036b1fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080d4cd39c0",
+      "double_bits": "33e5e91e59e7e3bf",
+      "extended_bits": "3597294ff7c83a9ffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080d4cd39c0",
+      "double_bits": "f059319a890ee93f",
+      "extended_bits": "c081cf8ad14c74c8fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040fdc355c0",
+      "double_bits": "b1583459841ce93f",
+      "extended_bits": "7c88c5a2c922e4c8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040fdc355c0",
+      "double_bits": "bc95d419b3d5e33f",
+      "extended_bits": "2cdfada4ce98ad9efe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000004dbe48c0",
+      "double_bits": "e481146c067ae63f",
+      "extended_bits": "cf1c0fa46033d0b3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000004dbe48c0",
+      "double_bits": "3739a3fcf4c6e63f",
+      "extended_bits": "0bbbc919e5a737b6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0a573f3bf",
+      "double_bits": "59f568090601eebf",
+      "extended_bits": "e2c7aa474b3008f0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0a573f3bf",
+      "double_bits": "ef6b0059df3fd63f",
+      "extended_bits": "7b765f03c8fafeb1fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0541e54c0",
+      "double_bits": "7571f31340e9ed3f",
+      "extended_bits": "33a68b9b9f004aeffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0541e54c0",
+      "double_bits": "fa10597580bed63f",
+      "extended_bits": "3bcd87c8aa03f4b5fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c079952040",
+      "double_bits": "01881d82d1faec3f",
+      "extended_bits": "e60940ec108cd6e7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c079952040",
+      "double_bits": "53f144646124dbbf",
+      "extended_bits": "c49a8a27220b23d9fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007f0d3840",
+      "double_bits": "157e6a6f1539ecbf",
+      "extended_bits": "2fabf0537babc8e1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007f0d3840",
+      "double_bits": "78bde4a4ec29de3f",
+      "extended_bits": "aec2eb2527654ff1fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0537742c0",
+      "double_bits": "fe0cda904b34e63f",
+      "extended_bits": "a1f367d0865ca2b1fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0537742c0",
+      "double_bits": "ad852518f40ae73f",
+      "extended_bits": "d0642d2cc1a057b8fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040131a47c0",
+      "double_bits": "d4681dd07276e9bf",
+      "extended_bits": "01a046eb8096b3cbfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040131a47c0",
+      "double_bits": "4952810ab961e3bf",
+      "extended_bits": "3a4a920a54c80d9bfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080fb794a40",
+      "double_bits": "33e8a7a1b712dc3f",
+      "extended_bits": "c799413f0dbd95e0fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080fb794a40",
+      "double_bits": "de19f828d6c1ecbf",
+      "extended_bits": "0ff3cec047b10ee6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000605cda5040",
+      "double_bits": "09e7844d5ab8efbf",
+      "extended_bits": "034538276cd2c2fdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000605cda5040",
+      "double_bits": "e566218c52e4c0bf",
+      "extended_bits": "882b370b61942287fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020370a5740",
+      "double_bits": "39f7da4edccfebbf",
+      "extended_bits": "4fc7b9d776e27edefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020370a5740",
+      "double_bits": "7e9e908c71a7dfbf",
+      "extended_bits": "f2f1f384648c3bfdfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000403e333740",
+      "double_bits": "1be01486baededbf",
+      "extended_bits": "27d500a730d46deffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000403e333740",
+      "double_bits": "8d02ca9ce3a6d6bf",
+      "extended_bits": "e3681450e61c37b5fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c05d374740",
+      "double_bits": "e26e2470fb66e43f",
+      "extended_bits": "3012772381db37a3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c05d374740",
+      "double_bits": "cfc6142c0ca7e8bf",
+      "extended_bits": "487736a6606138c5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0b2f02240",
+      "double_bits": "ca0f99c03734a7bf",
+      "extended_bits": "01527ec804bea1b9fabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0b2f02240",
+      "double_bits": "7e06ed3195f7efbf",
+      "extended_bits": "e9ee33688fa9bcfffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000401f134a40",
+      "double_bits": "ed1d646ab371ee3f",
+      "extended_bits": "e26bef20539b8df3fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000401f134a40",
+      "double_bits": "79c6e17f9eb6d3bf",
+      "extended_bits": "82ca330efff3b49dfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a000e25040",
+      "double_bits": "e7872d0c50ffefbf",
+      "extended_bits": "9e353f6c6180fafffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a000e25040",
+      "double_bits": "27bfdb1963878abf",
+      "extended_bits": "f139f9ddce183bd4f8bf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e083444dc0",
+      "double_bits": "67893a25f445edbf",
+      "extended_bits": "183b4bd429a12feafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e083444dc0",
+      "double_bits": "fc59ef2c03dad9bf",
+      "extended_bits": "60e2cf7a6719d0cefdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000004ce25340",
+      "double_bits": "76239b88e4dbeabf",
+      "extended_bits": "d9ad1bd94424dfd6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000004ce25340",
+      "double_bits": "48d90e6e3265e1bf",
+      "extended_bits": "2a43ca767093298bfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0f9ec2bc0",
+      "double_bits": "86532defd783efbf",
+      "extended_bits": "6a319c6a79bf1efcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0f9ec2bc0",
+      "double_bits": "e60f6e9d5433c63f",
+      "extended_bits": "db2d7f70eba49ab1fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002082b34940",
+      "double_bits": "7721bd98f908ed3f",
+      "extended_bits": "5aba0be9c5cc47e8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002082b34940",
+      "double_bits": "d9b6f0bc98e7da3f",
+      "extended_bits": "13c7b685e7c53cd7fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060078a2bc0",
+      "double_bits": "1a1afd19c6dcedbf",
+      "extended_bits": "bbd2d0e8cf30e6eefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060078a2bc0",
+      "double_bits": "83a0420bb7ffd63f",
+      "extended_bits": "951804155ab8fdb7fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008031a05640",
+      "double_bits": "5339f589ee26e23f",
+      "extended_bits": "c09acaa94f743791fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008031a05640",
+      "double_bits": "7f01b2ea785aeabf",
+      "extended_bits": "52fa0b9055c7d3d2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040aa6d51c0",
+      "double_bits": "87a3e41c4107e2bf",
+      "extended_bits": "93351c25e7083a90febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040aa6d51c0",
+      "double_bits": "eeaa97a92e70ea3f",
+      "extended_bits": "766f57bd4c7581d3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c03bb74cc0",
+      "double_bits": "a9ed2015b5b8e8bf",
+      "extended_bits": "1b4a6d07a9a8c5c5febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c03bb74cc0",
+      "double_bits": "5e3927d79151e43f",
+      "extended_bits": "95f3ca39b98e8ca2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c09feb57c0",
+      "double_bits": "0e2105324cb3efbf",
+      "extended_bits": "3073082990619afdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c09feb57c0",
+      "double_bits": "c24b73e09479c13f",
+      "extended_bits": "750f5e9a03a7cc8bfc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0a7504c40",
+      "double_bits": "c891161bdcd3b43f",
+      "extended_bits": "503f8eb4d8e09ea6fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0a7504c40",
+      "double_bits": "57b97dded7e4ef3f",
+      "extended_bits": "54b9caedf3be26fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060206c52c0",
+      "double_bits": "ed1f859f2cb2ef3f",
+      "extended_bits": "2966ff28fc6491fdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060206c52c0",
+      "double_bits": "d588bed4109ac1bf",
+      "extended_bits": "55ab46f4a586d08cfcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000407af151c0",
+      "double_bits": "c68051b040c1ddbf",
+      "extended_bits": "642e068c82050aeefdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000407af151c0",
+      "double_bits": "ae1ed6f1ce54ecbf",
+      "extended_bits": "6b6ef5b08e77a6e2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040c3e330c0",
+      "double_bits": "d24f8141c69bed3f",
+      "extended_bits": "f3937e0a0c32deecfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040c3e330c0",
+      "double_bits": "24095e93c846d8bf",
+      "extended_bits": "e81c49f09a4436c2fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0ba7733c0",
+      "double_bits": "4f7f61d0698be2bf",
+      "extended_bits": "a474fa0b834e5b94febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0ba7733c0",
+      "double_bits": "4985cd792514ea3f",
+      "extended_bits": "844b2a6cce2ba1d0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040a2c452c0",
+      "double_bits": "90bfe2db4b7cd43f",
+      "extended_bits": "ea80fc15df5ee2a3fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040a2c452c0",
+      "double_bits": "d314495a0151ee3f",
+      "extended_bits": "0a98a648d20a88f2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002044aa56c0",
+      "double_bits": "6c5d71912398dbbf",
+      "extended_bits": "d55ceb8a8b1cc1dcfdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002044aa56c0",
+      "double_bits": "6ac1350470dfecbf",
+      "extended_bits": "6f4d0bae2180fbe6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e047b73640",
+      "double_bits": "677cd4212137e5bf",
+      "extended_bits": "0b37e3a30e09b9a9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e047b73640",
+      "double_bits": "17b1da6dd6f4e7bf",
+      "extended_bits": "65b588d56eb3a6bffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020f3d64140",
+      "double_bits": "58dd0ca2f2d3ecbf",
+      "extended_bits": "86c0ea6610959fe6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020f3d64140",
+      "double_bits": "2ba3c81a07c8dbbf",
+      "extended_bits": "0a5a1945d63840defdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a014cd1040",
+      "double_bits": "663870820ce5ebbf",
+      "extended_bits": "7033c381136428dffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a014cd1040",
+      "double_bits": "c4a1603b855cdfbf",
+      "extended_bits": "ca230e05db29e4fafdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008057d94e40",
+      "double_bits": "f5e024a26afeecbf",
+      "extended_bits": "07a907271155f3e7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008057d94e40",
+      "double_bits": "20f9091efe14db3f",
+      "extended_bits": "cbfec84ff0f0a7d8fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020155642c0",
+      "double_bits": "613504929460eb3f",
+      "extended_bits": "c808ab2190a404dbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020155642c0",
+      "double_bits": "5c17deff4d91e03f",
+      "extended_bits": "27e2baf0fe6f8a84fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c063d351c0",
+      "double_bits": "6c24fdb4ee18eabf",
+      "extended_bits": "a85e23e9a775c7d0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c063d351c0",
+      "double_bits": "0b4656f7ac84e2bf",
+      "extended_bits": "265530b2ba672594febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e095ac4f40",
+      "double_bits": "45d4384aa79adf3f",
+      "extended_bits": "0325a2c6513ad5fcfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e095ac4f40",
+      "double_bits": "cf8b53fb7ed3eb3f",
+      "extended_bits": "0d775e9cdaf79bdefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e07c4513c0",
+      "double_bits": "040f5f7d7ad2ef3f",
+      "extended_bits": "612178f8ead393fefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e07c4513c0",
+      "double_bits": "113cc16349f3ba3f",
+      "extended_bits": "8b87e0091e4b9ad7fb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000e9f04e40",
+      "double_bits": "35eb98bf4506eabf",
+      "extended_bits": "c8a759c7fc2d32d0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000e9f04e40",
+      "double_bits": "93f7d71cdd9ee23f",
+      "extended_bits": "1697bcbfe6e8f694fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040856e5040",
+      "double_bits": "87ec5a96c13dcf3f",
+      "extended_bits": "0d3b64d7b20ceef9fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040856e5040",
+      "double_bits": "62099efd3f08efbf",
+      "extended_bits": "920e4bf0ecff41f8febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000ed2557c0",
+      "double_bits": "f693884bd8e2ef3f",
+      "extended_bits": "04b39f445cc216fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000ed2557c0",
+      "double_bits": "0d366ea43694b5bf",
+      "extended_bits": "2264b07123b5a1acfbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040ce0a1b40",
+      "double_bits": "c84d694a8067dd3f",
+      "extended_bits": "b93f6e4a53023cebfd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040ce0a1b40",
+      "double_bits": "8a45917b326cec3f",
+      "extended_bits": "7c512c8adc9361e3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0abc62440",
+      "double_bits": "fa547a570d46eabf",
+      "extended_bits": "b0cda7d2bb6a30d2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0abc62440",
+      "double_bits": "3600d2867044e2bf",
+      "extended_bits": "c5b1019036842392febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080dbf25440",
+      "double_bits": "62c915360b68eb3f",
+      "extended_bits": "0c134baeb05940dbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080dbf25440",
+      "double_bits": "73516a74f284e0bf",
+      "extended_bits": "75988b52a3932784febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004027a54740",
+      "double_bits": "9a5a1ea88332c5bf",
+      "extended_bits": "f7d0d4f2401d94a9fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004027a54740",
+      "double_bits": "48b3e931e38eefbf",
+      "extended_bits": "5c439a4d8f1977fcfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e043005340",
+      "double_bits": "472f66587d39e23f",
+      "extended_bits": "9b397a31c3eacb91fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e043005340",
+      "double_bits": "104693efa64dea3f",
+      "extended_bits": "dd80309a7c376dd2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0a1604040",
+      "double_bits": "c550d3f7ec24ef3f",
+      "extended_bits": "d425869abe6727f9fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0a1604040",
+      "double_bits": "d4c0b8cd5b67cd3f",
+      "extended_bits": "859e06c66dde3aebfc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080bd9f56c0",
+      "double_bits": "ead40c9a9456e2bf",
+      "extended_bits": "ec51a766d0a4b492febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080bd9f56c0",
+      "double_bits": "ffc0cb226739eabf",
+      "extended_bits": "a3f9075e1639cbd1febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002023f45640",
+      "double_bits": "0c6996bb3ad2e4bf",
+      "extended_bits": "b45c48b3dcd591a6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002023f45640",
+      "double_bits": "6bf6c8a1bb4ce8bf",
+      "extended_bits": "2159b3470edd65c2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004006d84dc0",
+      "double_bits": "89f6b3b8020d65bf",
+      "extended_bits": "a945b49fc51568a8f6bf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004006d84dc0",
+      "double_bits": "ead17213f9ffefbf",
+      "extended_bits": "a34f8f969bc8fffffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e06cb944c0",
+      "double_bits": "11bf6c6e0647e23f",
+      "extended_bits": "798af86573333892fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e06cb944c0",
+      "double_bits": "2769e1f24044eabf",
+      "extended_bits": "5435490b970722d2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000007ef951c0",
+      "double_bits": "8de0da23d371d6bf",
+      "extended_bits": "896604d71e998eb3fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000007ef951c0",
+      "double_bits": "5e8d447fb7f7edbf",
+      "extended_bits": "31f26a24fabbbdeffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e04edc29c0",
+      "double_bits": "a7575f44b4c7d6bf",
+      "extended_bits": "b33abdfa22a23db6fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e04edc29c0",
+      "double_bits": "0b8dcbd67fe7ed3f",
+      "extended_bits": "0f56685cb6fe3beffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0956b5040",
+      "double_bits": "e6f42acc1173d23f",
+      "extended_bits": "102ea757618e9893fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0956b5040",
+      "double_bits": "6fd965133ca4eebf",
+      "extended_bits": "f176cb2e9be021f5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060267a4140",
+      "double_bits": "8f3f38068fbbd8bf",
+      "extended_bits": "8277fcc13178dcc5fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060267a4140",
+      "double_bits": "c0529b0e9383edbf",
+      "extended_bits": "cbfd95da74981cecfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0fe441240",
+      "double_bits": "ca70b7f904aaefbf",
+      "extended_bits": "2f4e86bbcd2750fdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0fe441240",
+      "double_bits": "d28c0421157fc2bf",
+      "extended_bits": "5690662408a9f893fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0eabb52c0",
+      "double_bits": "a3d5b8866887dc3f",
+      "extended_bits": "3515adc635443be4fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0eabb52c0",
+      "double_bits": "36588e0212a5ec3f",
+      "extended_bits": "eaadc172149028e5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040944452c0",
+      "double_bits": "b619146c1049e73f",
+      "extended_bits": "86b2cda0608348bafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040944452c0",
+      "double_bits": "3e6d914820f3e5bf",
+      "extended_bits": "7ded698b440299affebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000001c2847c0",
+      "double_bits": "830755216230e7bf",
+      "extended_bits": "b4153ca80a1183b9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000001c2847c0",
+      "double_bits": "ecf63db4310de6bf",
+      "extended_bits": "965fb7efa18d69b0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006049d13840",
+      "double_bits": "363a864b63d7d3bf",
+      "extended_bits": "d1afd1315c1abb9efdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006049d13840",
+      "double_bits": "c157408d606cee3f",
+      "extended_bits": "ef09be026a0463f3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000d83a4b40",
+      "double_bits": "0d97c48dacccebbf",
+      "extended_bits": "ef66b8246e6465defebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000d83a4b40",
+      "double_bits": "aaab24e3a1b2dfbf",
+      "extended_bits": "f84d5d25190f95fdfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000006dd84840",
+      "double_bits": "b42965d0ba64e1bf",
+      "extended_bits": "16a04d2983d6258bfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000006dd84840",
+      "double_bits": "a05f5cff31dcea3f",
+      "extended_bits": "2ffdfce2fa8fe1d6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a05b085740",
+      "double_bits": "9fac8df24957ebbf",
+      "extended_bits": "85f9646d944fbadafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a05b085740",
+      "double_bits": "d9bbf2e39ea0e0bf",
+      "extended_bits": "fcc4de951ff70485febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000bf8d1140",
+      "double_bits": "74a16796db55eebf",
+      "extended_bits": "eaa20b3db3dcaef2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000bf8d1140",
+      "double_bits": "ee35a4ca7b5fd4bf",
+      "extended_bits": "466daf2155defba2fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c03ab83140",
+      "double_bits": "dd3080d1a0f0ecbf",
+      "extended_bits": "82e486018c0685e7febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c03ab83140",
+      "double_bits": "12f8eb5abc4fdb3f",
+      "extended_bits": "fe90c05fd7e27ddafd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a06b6952c0",
+      "double_bits": "9ec4ed0f4e7bef3f",
+      "extended_bits": "5ef1246e7f70dafbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a06b6952c0",
+      "double_bits": "e79ac98ef7f1c6bf",
+      "extended_bits": "4336d74c76bc8fb7fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004051274bc0",
+      "double_bits": "c62fef717b11e93f",
+      "extended_bits": "9b2d7e798fdb8bc8fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004051274bc0",
+      "double_bits": "b5e94a8ba3e3e3bf",
+      "extended_bits": "8aa64d575a1c1d9ffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a006225240",
+      "double_bits": "bfcda18f6461d1bf",
+      "extended_bits": "8dfb6d0e7d240b8bfdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a006225240",
+      "double_bits": "f1f7f0a422cceebf",
+      "extended_bits": "d387bf87271561f6febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000804eb80ec0",
+      "double_bits": "e7f8ec9e6793e43f",
+      "extended_bits": "263bc767f73c9ba4fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000804eb80ec0",
+      "double_bits": "b6545fcb0482e8bf",
+      "extended_bits": "8fada5fa5a2610c4febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060d7c658c0",
+      "double_bits": "34b522ebf9a7ef3f",
+      "extended_bits": "bba3a91559cf3ffdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060d7c658c0",
+      "double_bits": "3e141876b6b6c23f",
+      "extended_bits": "d5efa1c0b0b3b595fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0e0103040",
+      "double_bits": "a95287e67d6cd6bf",
+      "extended_bits": "0746953a34ef63b3fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0e0103040",
+      "double_bits": "63b373fdb6f8edbf",
+      "extended_bits": "1b169b9debb7c5effebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0955d4dc0",
+      "double_bits": "6bef85abb732eabf",
+      "extended_bits": "22577b2f5cbd95d1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0955d4dc0",
+      "double_bits": "1254bd592060e2bf",
+      "extended_bits": "108fa0eacd020193febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000408e3b5140",
+      "double_bits": "a6ee33d0d87ac7bf",
+      "extended_bits": "662e759f81c6d6bbfcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000408e3b5140",
+      "double_bits": "68b4c29bfe74ef3f",
+      "extended_bits": "6341a315def4a7fbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000907b55c0",
+      "double_bits": "7470274f07a1ec3f",
+      "extended_bits": "8ba3833b793a08e5fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000907b55c0",
+      "double_bits": "26e057639e97dcbf",
+      "extended_bits": "713101bf1af3bce4fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000004f462e40",
+      "double_bits": "d5ed1c591749e13f",
+      "extended_bits": "eaaa6ee7c8ba488afe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000004f462e40",
+      "double_bits": "9456daa203eeeabf",
+      "extended_bits": "c0a1b4d2161d70d7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000d5cf40c0",
+      "double_bits": "7f2f4e2e96b9e9bf",
+      "extended_bits": "50fb7b7172b1cccdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000d5cf40c0",
+      "double_bits": "05ae0a6e4208e3bf",
+      "extended_bits": "1e2a705570134298febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e09c674a40",
+      "double_bits": "d3f76fec4f01e23f",
+      "extended_bits": "bf94be7f637f0a90fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e09c674a40",
+      "double_bits": "09a69dfd3a74eabf",
+      "extended_bits": "8d4730edecd7a1d3febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0d8005640",
+      "double_bits": "bd5e278f2ee5a83f",
+      "extended_bits": "8ce5f53a797429c7fa3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0d8005640",
+      "double_bits": "13f7d3704ff6ef3f",
+      "extended_bits": "7999b89f867bb2fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006010ac3bc0",
+      "double_bits": "dcfaeab07920e2bf",
+      "extended_bits": "19e2d65787cd0391febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006010ac3bc0",
+      "double_bits": "0cc13d39ea5eeabf",
+      "extended_bits": "a16008eec951f7d2febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006029864740",
+      "double_bits": "4a5a41dabe5fb33f",
+      "extended_bits": "b54cd20ad2f6fd9afb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006029864740",
+      "double_bits": "87e60dbe81e8efbf",
+      "extended_bits": "4836346ff00d44fffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e080d25140",
+      "double_bits": "ae697385ef59ea3f",
+      "extended_bits": "20734d9b2b7ccfd2fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e080d25140",
+      "double_bits": "fbad97fcb527e2bf",
+      "extended_bits": "8ed86fbde4af3d91febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080ec5b3040",
+      "double_bits": "2157563cf364e3bf",
+      "extended_bits": "780ab9b2e299279bfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080ec5b3040",
+      "double_bits": "764d0c9bfd73e9bf",
+      "extended_bits": "91af6b62d8ec9fcbfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040af4444c0",
+      "double_bits": "ac1f76e1082ad3bf",
+      "extended_bits": "4960fdb00b475099fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040af4444c0",
+      "double_bits": "23ee5d111c88eebf",
+      "extended_bits": "bf1a71ef8ae040f4febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006095cc3e40",
+      "double_bits": "93ea11824b82e2bf",
+      "extended_bits": "8399548f105c1294febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006095cc3e40",
+      "double_bits": "618d3b019f1aea3f",
+      "extended_bits": "f20a6bdc09f8d4d0fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a09e1936c0",
+      "double_bits": "3b6976689ad4bb3f",
+      "extended_bits": "aad649b343d3a4defb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a09e1936c0",
+      "double_bits": "c0308a9872cfefbf",
+      "extended_bits": "53018651c4947bfefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006069634d40",
+      "double_bits": "c5c08f5db555e93f",
+      "extended_bits": "7529067eecaaadcafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006069634d40",
+      "double_bits": "abf1bf68718ce3bf",
+      "extended_bits": "55578dff458b639cfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c07bd84fc0",
+      "double_bits": "cabb64f3293de8bf",
+      "extended_bits": "284fde259b4fe9c1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c07bd84fc0",
+      "double_bits": "e938f69558e4e43f",
+      "extended_bits": "c14bc7b1afc422a7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0ecc6fe3f",
+      "double_bits": "44726a628807ee3f",
+      "extended_bits": "161d925313433cf0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0ecc6fe3f",
+      "double_bits": "f7d06232a31cd6bf",
+      "extended_bits": "5eb587169319e5b0fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000204d8b37c0",
+      "double_bits": "f4a5accdb3feef3f",
+      "extended_bits": "b2a12f656d9ef5fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000204d8b37c0",
+      "double_bits": "fdee67edbc3992bf",
+      "extended_bits": "68e7773f6be7cd91f9bf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002088a856c0",
+      "double_bits": "ce5d10361b26ddbf",
+      "extended_bits": "5c70ee82b0d930e9fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002088a856c0",
+      "double_bits": "a6d99584047decbf",
+      "extended_bits": "d62dcdae2424e8e3febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000009a22940",
+      "double_bits": "a675ed8d3eaecf3f",
+      "extended_bits": "0a30ad6b6ff471fdfc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000009a22940",
+      "double_bits": "1d53187f1e01ef3f",
+      "extended_bits": "42e998c2f8f308f8fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000601c8054c0",
+      "double_bits": "a1ac5c38e126d4bf",
+      "extended_bits": "8f0965e5c20937a1fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000601c8054c0",
+      "double_bits": "c182acd94d5fee3f",
+      "extended_bits": "66051664cd6efaf2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000702e35c0",
+      "double_bits": "982deec6f52be7bf",
+      "extended_bits": "95c26c7137ae5fb9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000702e35c0",
+      "double_bits": "295b5688d711e6bf",
+      "extended_bits": "4449d9b242bc8eb0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0fed34240",
+      "double_bits": "c2b0a54c43f5a5bf",
+      "extended_bits": "6e0e862d651aaaaffabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0fed34240",
+      "double_bits": "66f9b17c76f8ef3f",
+      "extended_bits": "b82dcb8fe5b3c3fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000002033ec50c0",
+      "double_bits": "2e4e1ca464a8ef3f",
+      "extended_bits": "3d7071e2202543fdfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000002033ec50c0",
+      "double_bits": "63f6fd766aabc23f",
+      "extended_bits": "f81bb3efb7535b95fc3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c081085040",
+      "double_bits": "2c7bdef8ccd7ee3f",
+      "extended_bits": "7762d9f3c667bef6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c081085040",
+      "double_bits": "41e9ea9bdd0dd13f",
+      "extended_bits": "3d054a57dfec6e88fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000606b891fc0",
+      "double_bits": "971c8ea642fcefbf",
+      "extended_bits": "19b9e4703415e2fffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000606b891fc0",
+      "double_bits": "2fd6f21602f09ebf",
+      "extended_bits": "da75b196b71080f7f9bf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0f67a53c0",
+      "double_bits": "a1e66b82d28de2bf",
+      "extended_bits": "ad0b355f13946e94febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0f67a53c0",
+      "double_bits": "46d78ac66e12eabf",
+      "extended_bits": "522fba56347693d0febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0977756c0",
+      "double_bits": "8f947bb84c3deebf",
+      "extended_bits": "0079a4dcc365eaf1febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0977756c0",
+      "double_bits": "d96700ef87efd4bf",
+      "extended_bits": "eec63e03783f7ca7fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000201a3c4cc0",
+      "double_bits": "6460ed13d53bb43f",
+      "extended_bits": "a41e036b9fa8dea1fb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000201a3c4cc0",
+      "double_bits": "e6a26c485fe6ef3f",
+      "extended_bits": "c32c176543fa32fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0ca403640",
+      "double_bits": "78ab9d88c492d0bf",
+      "extended_bits": "26bc5bed44249684fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0ca403640",
+      "double_bits": "a35ab92d8fe8eebf",
+      "extended_bits": "0b1ad5ca6d7944f7febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000a7ca54c0",
+      "double_bits": "9d72093ee4e1efbf",
+      "extended_bits": "c0eb944bf0210ffffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000a7ca54c0",
+      "double_bits": "b9dccdefa3edb53f",
+      "extended_bits": "58c9e56e7e1f6daffb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020288955c0",
+      "double_bits": "caf0d87adcffee3f",
+      "extended_bits": "2f5086c7d6e3fef7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020288955c0",
+      "double_bits": "579d9e54eac1cfbf",
+      "extended_bits": "b4b5eaf4a4520ffefcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040071f48c0",
+      "double_bits": "1d10be2554c8ec3f",
+      "extended_bits": "36e580f02da142e6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040071f48c0",
+      "double_bits": "e70fd6060ef8dbbf",
+      "extended_bits": "3d357fb03670c0dffdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060662c57c0",
+      "double_bits": "60ff2748d9feef3f",
+      "extended_bits": "4500fb3f41caf6fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060662c57c0",
+      "double_bits": "d38f085eb02a913f",
+      "extended_bits": "46947e44f0825589f93f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0f4c64bc0",
+      "double_bits": "6dbfec3d18d4ea3f",
+      "extended_bits": "b869fb65efc1a0d6fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0f4c64bc0",
+      "double_bits": "80a628e03671e13f",
+      "extended_bits": "d9fe334501b7898bfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008032f94fc0",
+      "double_bits": "a78a44edafbbecbf",
+      "extended_bits": "713855246a7fdde5febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008032f94fc0",
+      "double_bits": "72d8a60cdc2bdc3f",
+      "extended_bits": "ae92c33665e05ee1fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080df6657c0",
+      "double_bits": "5bdb239ac61ee33f",
+      "extended_bits": "23dada1ed134f698fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080df6657c0",
+      "double_bits": "29b90259dea8e93f",
+      "extended_bits": "854ac915c8f246cdfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0949e55c0",
+      "double_bits": "e5cec37b19e3ef3f",
+      "extended_bits": "4825771edecb18fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0949e55c0",
+      "double_bits": "06502637147cb53f",
+      "extended_bits": "b42e8032b9a1e0abfb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000606d0156c0",
+      "double_bits": "0dbea4a77f87adbf",
+      "extended_bits": "c569f0253dfd3becfabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000606d0156c0",
+      "double_bits": "97dbac2d5df2ef3f",
+      "extended_bits": "81b6dc666de992fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c062b858c0",
+      "double_bits": "b80394d25be6ef3f",
+      "extended_bits": "40c21da094de32fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c062b858c0",
+      "double_bits": "a6d06f2e323db4bf",
+      "extended_bits": "762c857e7391e9a1fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0ba1256c0",
+      "double_bits": "fe40d875d49ed4bf",
+      "extended_bits": "00f307c2aea3f6a4fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0ba1256c0",
+      "double_bits": "1b6d356b264bee3f",
+      "extended_bits": "2ed468ab593359f2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020f6c25740",
+      "double_bits": "82776db1f8ebe63f",
+      "extended_bits": "ab0cbc6b8bc55fb7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020f6c25740",
+      "double_bits": "663daad74554e63f",
+      "extended_bits": "172feb51bd2ea2b2fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040c9c94840",
+      "double_bits": "931377f05e58e4bf",
+      "extended_bits": "42949cb883f7c2a2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040c9c94840",
+      "double_bits": "1a84c8801cb3e83f",
+      "extended_bits": "dfd2204406e498c5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080710b2a40",
+      "double_bits": "0278e8bd902edc3f",
+      "extended_bits": "5012c043ef8574e1fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080710b2a40",
+      "double_bits": "282fae1906bbec3f",
+      "extended_bits": "d8437971cd30d8e5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000026ad2ac0",
+      "double_bits": "2f51e9fb5f51e6bf",
+      "extended_bits": "0c7a894adfff8ab2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000026ad2ac0",
+      "double_bits": "38d72104cbeee63f",
+      "extended_bits": "49bcb90e215876b7fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c068ba2bc0",
+      "double_bits": "526091ea6dd0eebf",
+      "extended_bits": "938f028b546f83f6febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c068ba2bc0",
+      "double_bits": "f1ddaf23d842d13f",
+      "extended_bits": "6087ef7e1dc1168afd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0055f52c0",
+      "double_bits": "00643854a323ee3f",
+      "extended_bits": "9c0220c3a11a1df1fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0055f52c0",
+      "double_bits": "765401088f81d5bf",
+      "extended_bits": "92b1a30a40780cacfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0c28e40c0",
+      "double_bits": "35bb97c75abcefbf",
+      "extended_bits": "f6a7d9bd3cd6e2fdfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0c28e40c0",
+      "double_bits": "bc67f0c0556ac0bf",
+      "extended_bits": "cce03d8307ae5283fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000004021b54cc0",
+      "double_bits": "ccb0bc216062e8bf",
+      "extended_bits": "f85c86e50d0113c3febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000004021b54cc0",
+      "double_bits": "3659a2e7ddb8e43f",
+      "extended_bits": "6cacc9123defc6a5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a05f2a3540",
+      "double_bits": "0032ce39e684e73f",
+      "extended_bits": "03029071ce3127bcfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a05f2a3540",
+      "double_bits": "aec4b605f7b2e5bf",
+      "extended_bits": "4a6e25b62db897adfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000307b4fc0",
+      "double_bits": "8a80cb96b2a9c0bf",
+      "extended_bits": "a451045cb6944d85fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000307b4fc0",
+      "double_bits": "cf9b4f5e4abaef3f",
+      "extended_bits": "6d74de7cf252d2fdfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000c2d83d40",
+      "double_bits": "a59be161fdffefbf",
+      "extended_bits": "3028dd0c0febfffffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000c2d83d40",
+      "double_bits": "a7c5e90dfbe2593f",
+      "extended_bits": "1e3b2d4e6fd817cff53f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000209e0150c0",
+      "double_bits": "6ceccc7d93bfedbf",
+      "extended_bits": "76636367ee9bfcedfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000209e0150c0",
+      "double_bits": "70358e412c95d73f",
+      "extended_bits": "1e7dab710c62a9bcfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0af2c3940",
+      "double_bits": "a751a38d7e67a53f",
+      "extended_bits": "47368d1a6df43babfa3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0af2c3940",
+      "double_bits": "fa136fa0d6f8ef3f",
+      "extended_bits": "5fce9f7803b5c6fffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080f6d04c40",
+      "double_bits": "ddea8e1cd447ec3f",
+      "extended_bits": "19e75677e4a03ee2fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080f6d04c40",
+      "double_bits": "0ca8b20c7cf2dd3f",
+      "extended_bits": "165d409565e093effd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0d0402ac0",
+      "double_bits": "d80a0af80201e1bf",
+      "extended_bits": "fcc25650c0170888febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0d0402ac0",
+      "double_bits": "b8233071c01beb3f",
+      "extended_bits": "8ec31d818903ded8fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060828a4440",
+      "double_bits": "f51a48639199cebf",
+      "extended_bits": "a5a7d7401a8bccf4fcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060828a4440",
+      "double_bits": "56e70ade7712efbf",
+      "extended_bits": "88ad3a57f0be93f8febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000008001932240",
+      "double_bits": "daadd8428490c13f",
+      "extended_bits": "07d26ec51622848cfc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000008001932240",
+      "double_bits": "8475da6081b2efbf",
+      "extended_bits": "c122acd3060b94fdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0931d3b40",
+      "double_bits": "551aca298552ed3f",
+      "extended_bits": "f5a6d2504e2994eafe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0931d3b40",
+      "double_bits": "c04bca64cca0d9bf",
+      "extended_bits": "43025e52266306cdfdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0d2172340",
+      "double_bits": "998cd6956d17bfbf",
+      "extended_bits": "f2c764b4ae6cbbf8fbbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0d2172340",
+      "double_bits": "bdaf319f5bc3efbf",
+      "extended_bits": "71e87d8df9dc1afefebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020f3744040",
+      "double_bits": "b123b47726eaef3f",
+      "extended_bits": "1a881da1bd3351fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020f3744040",
+      "double_bits": "a65896bc5cafb23f",
+      "extended_bits": "0a2fc5b2e4e57a95fb3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040b86e5840",
+      "double_bits": "c3d555487b61d5bf",
+      "extended_bits": "481baeae42da0babfdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040b86e5840",
+      "double_bits": "c7d39c695729eebf",
+      "extended_bits": "fb3b9ee64cbb4af1febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040acb849c0",
+      "double_bits": "ce2e569ed68dedbf",
+      "extended_bits": "b17376b1f2b46eecfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040acb849c0",
+      "double_bits": "dd596173578ad83f",
+      "extended_bits": "a1ebce0a9bbb52c4fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080b4e55340",
+      "double_bits": "225fbe1d2ebfebbf",
+      "extended_bits": "fb11f9f2ed70f9ddfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080b4e55340",
+      "double_bits": "60c103bbc9e1dfbf",
+      "extended_bits": "7a030b1ed84d0efffdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000000015755240",
+      "double_bits": "0c3d49e4fbffefbf",
+      "extended_bits": "f25ce84922dffffffebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000000015755240",
+      "double_bits": "bac4cc450e37603f",
+      "extended_bits": "42d325662e72b881f63f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080ce114840",
+      "double_bits": "8c215049ea2febbf",
+      "extended_bits": "ed5d0c814a527fd9febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080ce114840",
+      "double_bits": "bb8a3c16b3e0e0bf",
+      "extended_bits": "4ed655e4b1980587febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0fa635740",
+      "double_bits": "eb78efbea942e4bf",
+      "extended_bits": "3c55c77bf74d15a2febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0fa635740",
+      "double_bits": "452fa604eec4e83f",
+      "extended_bits": "f2277a31257027c6fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000203f4943c0",
+      "double_bits": "887c95dcde85e8bf",
+      "extended_bits": "0242e4abe4f62ec4febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000203f4943c0",
+      "double_bits": "cc75ac3dd08ee43f",
+      "extended_bits": "1163ae63ed8176a4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000004b0127c0",
+      "double_bits": "0ab176d8aef9eb3f",
+      "extended_bits": "275288b5c376cddffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000004b0127c0",
+      "double_bits": "e2f40d66a912df3f",
+      "extended_bits": "150ea76f304b95f8fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a029bf4040",
+      "double_bits": "e99c84d88afaeb3f",
+      "extended_bits": "d146e724c456d4dffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a029bf4040",
+      "double_bits": "f6d5c4eb900fdfbf",
+      "extended_bits": "bcb1af265e877cf8fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080748d4a40",
+      "double_bits": "755c9e1a6e08d33f",
+      "extended_bits": "0ea5e3f2d4704398fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080748d4a40",
+      "double_bits": "aba90af25c8deebf",
+      "extended_bits": "e0584d5590e76af4febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000585b3ac0",
+      "double_bits": "b1daf0237f18eebf",
+      "extended_bits": "2e8bd5861ff9c3f0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000585b3ac0",
+      "double_bits": "7888847a9ebfd53f",
+      "extended_bits": "efc14324d4f3fcadfd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0dcec5240",
+      "double_bits": "34c905e6f114d33f",
+      "extended_bits": "b7a2492e308fa798fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0dcec5240",
+      "double_bits": "7eb7a847698bee3f",
+      "extended_bits": "c7f1bb453d4a5bf4fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020097752c0",
+      "double_bits": "8e10fd39acfbef3f",
+      "extended_bits": "507084e8cf61ddfffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020097752c0",
+      "double_bits": "40da31e3b0a3a03f",
+      "extended_bits": "a801d28e19871d85fa3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0a2955840",
+      "double_bits": "f48760244501eabf",
+      "extended_bits": "65a23f0423290ad0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0a2955840",
+      "double_bits": "119c33efd8a5e2bf",
+      "extended_bits": "d784e09c79c72e95febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000d36a4cc0",
+      "double_bits": "72564da3930cd2bf",
+      "extended_bits": "3e8fb36a1a9d6490fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000d36a4cc0",
+      "double_bits": "854aa6f97ab3ee3f",
+      "extended_bits": "3a245432cdd79bf5fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020a8c85540",
+      "double_bits": "40e69e8e7199e7bf",
+      "extended_bits": "a6fd31f7748ccbbcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020a8c85540",
+      "double_bits": "5b6042519d9ce53f",
+      "extended_bits": "5ad902138aeae4acfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000600bb955c0",
+      "double_bits": "cbe9b585de1eec3f",
+      "extended_bits": "3c574eaf2df4f6e0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000600bb955c0",
+      "double_bits": "129f96923e8bde3f",
+      "extended_bits": "a191f8b494f459f4fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020e79155c0",
+      "double_bits": "1687d7a7c3caef3f",
+      "extended_bits": "04b138bc3e1d56fefe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020e79155c0",
+      "double_bits": "49dc7e713e23bdbf",
+      "extended_bits": "1a4be2f68bf319e9fbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000208e4838c0",
+      "double_bits": "9e30073ad306e83f",
+      "extended_bits": "d5f38439d09936c0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000208e4838c0",
+      "double_bits": "c62bcbf9bf22e53f",
+      "extended_bits": "222f5e59ceff15a9fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060cee14cc0",
+      "double_bits": "243931623100eebf",
+      "extended_bits": "8a22c989118b01f0febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060cee14cc0",
+      "double_bits": "664b33e85944d63f",
+      "extended_bits": "d9325b9a41cf22b2fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006086374cc0",
+      "double_bits": "0e123b143158bd3f",
+      "extended_bits": "726e90d8a188c1eafb3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006086374cc0",
+      "double_bits": "371369d900caef3f",
+      "extended_bits": "18b59948cb0650fefe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000875d5040",
+      "double_bits": "0a7591e1085cdf3f",
+      "extended_bits": "374fa88b0c47e0fafd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000875d5040",
+      "double_bits": "ed4497752fe5ebbf",
+      "extended_bits": "ae6927baac7b29dffebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040ea1e34c0",
+      "double_bits": "960d62861b93eebf",
+      "extended_bits": "dcae6c1033dc98f4febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040ea1e34c0",
+      "double_bits": "0265172264e3d23f",
+      "extended_bits": "660e28bb10211b97fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080cc0c5140",
+      "double_bits": "ac1019b5f45ce9bf",
+      "extended_bits": "196085c8a8a5e7cafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080cc0c5140",
+      "double_bits": "d9703a4c0983e33f",
+      "extended_bits": "fac886d3614a189cfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040c4a350c0",
+      "double_bits": "786fa84a66aee13f",
+      "extended_bits": "91c27b435532738dfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040c4a350c0",
+      "double_bits": "0ad4e801edabeabf",
+      "extended_bits": "3153a0460f685fd5febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060a80455c0",
+      "double_bits": "d57f9b1455d1e5bf",
+      "extended_bits": "1aaafedba4a88aaefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060a80455c0",
+      "double_bits": "00da2d4fbd68e7bf",
+      "extended_bits": "0c02d06e79ea45bbfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "0000006030b92040",
+      "double_bits": "dcbe8ae0a3f6eb3f",
+      "extended_bits": "69dff655041fb5dffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "0000006030b92040",
+      "double_bits": "b84f7c229c1ddfbf",
+      "extended_bits": "bbbc7de213e1ecf8fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000e0168534c0",
+      "double_bits": "7851c48d75d7efbf",
+      "extended_bits": "b5c28b226eacbbfefebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000e0168534c0",
+      "double_bits": "63678e19e86fb9bf",
+      "extended_bits": "bf173b73cc407fcbfbbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000000fbee2740",
+      "double_bits": "cdac293ced0ee2bf",
+      "extended_bits": "db69664de1697790febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000000fbee2740",
+      "double_bits": "4e24bbaff16aea3f",
+      "extended_bits": "b87122d97d8d57d3fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000020df902540",
+      "double_bits": "df1d0f2f8647efbf",
+      "extended_bits": "51f9ee7878313cfafebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000020df902540",
+      "double_bits": "205888e5d102cbbf",
+      "extended_bits": "65fec0422c8f16d8fcbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0189f4040",
+      "double_bits": "b01a542f94f4ee3f",
+      "extended_bits": "957fd5a07aa1a4f7fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0189f4040",
+      "double_bits": "115f66071138d0bf",
+      "extended_bits": "208bf8323b88c081fdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000040375051c0",
+      "double_bits": "306654a27aa6c1bf",
+      "extended_bits": "748331a312d5338dfcbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000040375051c0",
+      "double_bits": "9599122cbeb1ef3f",
+      "extended_bits": "43a6cc9460f18dfdfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000605db745c0",
+      "double_bits": "1e25f1922db8e03f",
+      "extended_bits": "e0ef2889976cc185fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000605db745c0",
+      "double_bits": "c2d02f74e848eb3f",
+      "extended_bits": "1b11867ea14347dafe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c0c63637c0",
+      "double_bits": "88df7eb80315ee3f",
+      "extended_bits": "f33efcf6c31da8f0fe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c0c63637c0",
+      "double_bits": "e6030a0fdbd2d5bf",
+      "extended_bits": "97311f5078d896aefdbf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080668137c0",
+      "double_bits": "8683f093f0f2ef3f",
+      "extended_bits": "492f1c849f8497fffe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080668137c0",
+      "double_bits": "df9735dc4ee6acbf",
+      "extended_bits": "28f5beace17632e7fabf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060b8245440",
+      "double_bits": "5bb929f500a1ecbf",
+      "extended_bits": "63d5ca4da90708e5febf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060b8245440",
+      "double_bits": "6f159dd3b797dc3f",
+      "extended_bits": "0474abe89cbebde4fd3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060d23544c0",
+      "double_bits": "27905eef101cdabf",
+      "extended_bits": "f53781f47a87e0d0fdbf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060d23544c0",
+      "double_bits": "a59361874837edbf",
+      "extended_bits": "43259d0c3b44bae9febf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000803cd71c40",
+      "double_bits": "ecd42e232e98e93f",
+      "extended_bits": "a161a7761971c1ccfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000803cd71c40",
+      "double_bits": "385cc6ab1735e33f",
+      "extended_bits": "a2bde1325ebda899fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000080af7945c0",
+      "double_bits": "c4f0c175da75eb3f",
+      "extended_bits": "5a1e860faed3aedbfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000080af7945c0",
+      "double_bits": "4152c983f36de03f",
+      "extended_bits": "9e04924a1e9c6f83fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a0d3d227c0",
+      "double_bits": "5c44c5d2a17be33f",
+      "extended_bits": "61e0222a960edd9bfe3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a0d3d227c0",
+      "double_bits": "51ddb92da562e93f",
+      "extended_bits": "a386eace6d2915cbfe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000c082783fc0",
+      "double_bits": "3856ef36940dacbf",
+      "extended_bits": "c1bdb17ab7a16ce0fabf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000c082783fc0",
+      "double_bits": "5bd3b5bdb1f3ef3f",
+      "extended_bits": "f1d69aaeed8d9dfffe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000403b975240",
+      "double_bits": "571febc7f684ebbf",
+      "extended_bits": "b2b9fa583fb627dcfebf"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000403b975240",
+      "double_bits": "460a4e759754e03f",
+      "extended_bits": "a82e5270aabba482fe3f"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060ce143c40",
+      "double_bits": "6a2086bff58ec83f",
+      "extended_bits": "404c0331fcad77c4fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060ce143c40",
+      "double_bits": "1f14dc9ace67efbf",
+      "extended_bits": "6cfaa0e0d6743efbfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "00000060ecc74d40",
+      "double_bits": "7be542b58962c03f",
+      "extended_bits": "97d62b17aa4d1483fc3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "00000060ecc74d40",
+      "double_bits": "39b1553f9bbcefbf",
+      "extended_bits": "cac489adfad9e4fdfebf"
+    },
+    {
+      "kind": "sin",
+      "x_bits": "000000a017b853c0",
+      "double_bits": "949e5251b323d53f",
+      "extended_bits": "f8a3f4948a9a1da9fd3f"
+    },
+    {
+      "kind": "cos",
+      "x_bits": "000000a017b853c0",
+      "double_bits": "6e017e863834eebf",
+      "extended_bits": "b3720bf033c4a1f1febf"
+    }
+  ]
+}

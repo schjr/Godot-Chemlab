@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"failures":[],"live_profile":{"crt_daylight_enabled":false,"crt_timezone_seconds":-28800,"system_time":{"day":18,"day_of_week":0,"hour":18,"millisecond":321,"minute":10,"month":10,"second":18,"year":2026}},"provenance":{"clock":"live Godot host local calendar at process startup","host_current_dst":false,"host_current_offset_minutes_east":480,"host_current_timezone_name":"CST","millisecond_role":"read from the same host-clock second; source seeding ignores milliseconds and weekday","scope":"This reconstructed process and UI-thread RNG; not an observed Windows timezone/TLS profile","source_startup_entry":4273816,"timezone_boundary":"reconstructed OS fixed-offset timezone at startup; no transition dates"}}
+PASS original runtime RNG live startup clock, source CRT timezone inputs and persistent shared sequence

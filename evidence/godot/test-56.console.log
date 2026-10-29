@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":15,"failures":[]}
+PASS owned particle stack preserves actual supplied prior bytes and source writes without unknown fallbacks

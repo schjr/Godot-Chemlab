@@ -1,0 +1,53 @@
+{
+  "tests": [
+    {
+      "test": "test_canvas_pointer_ui.gd",
+      "passed": true,
+      "log_sha256": "763d1f0b8e92fd327f8fd0af70f851bd22788940e7042c73bd361feeb78c3916"
+    },
+    {
+      "test": "test_native_controls_dispatch.gd",
+      "passed": true,
+      "log_sha256": "3948fb06afd214aa2b2848da099677a042ce256080ae4f162cdf02b43b883b51"
+    },
+    {
+      "test": "test_native_pour_menu.gd",
+      "passed": true,
+      "log_sha256": "b114d086b6a2d64e78de219ecaff5ca6d9a6021fa67b136017a19e0bfd15780c"
+    },
+    {
+      "test": "test_native_action_workflow.gd",
+      "passed": true,
+      "log_sha256": "5fff69396048fe4653b0d20c2bd252fd1fc22a3ddd6dc7a48137421618c139f9"
+    },
+    {
+      "test": "test_original_window_input_gate.gd",
+      "passed": true,
+      "log_sha256": "0556630ed4f7db0b8de0144fe356f8c21248564a138a10ffd5068531bde06fec"
+    },
+    {
+      "test": "test_native_closed_window_dispatch.gd",
+      "passed": true,
+      "log_sha256": "2f9c4e885355de8fefe5a23f101cd4a77fcaf9b9ae24992160d3e97bfa42d9a9"
+    },
+    {
+      "test": "test_original_ui_dispatch.gd",
+      "passed": true,
+      "log_sha256": "3a8bf76e4694dd1482b52c09239f6d9fd4bb3a15218cbf5824b0eb4ef7008efd"
+    },
+    {
+      "test": "test_original_selection.gd",
+      "passed": true,
+      "log_sha256": "4f8347606455d597c55e0f6230ff9b75971410e05eb4ddea85d762c52f462de7"
+    }
+  ],
+  "export": {
+    "path": "build/ChemLab-original-port-WIP-macOS.zip",
+    "sha256": "626fcb71a50b4fa2692a6d3ccb071a1779c2eabaa613f13d38606a6b1df22755",
+    "bytes": 63635234,
+    "smoke_exit_code": 0,
+    "desktop_observed": "WIP title visible; NaOH dropper right-click menu opens beside pointer with dark text; actual properties click opens selected dropper dialog."
+  },
+  "scope": "Pointer/menu presentation and fixture-based original seven-action/63-tick workflow. Normal startup particle allocation and live rendering remain incomplete.",
+  "normal_run_blocker": "Native particle slot0x3CD8 uninitialized for inert gas; complete live VCL rendering unavailable."
+}

@@ -1,0 +1,6595 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x004926E0",
+  "contract": "Original native pixel instructions; dimensions, scanline and 32-to-32 format property are declared VCL boundaries. No GDI primitive or preconversion pixel claim.",
+  "cases": [
+    {
+      "destination": 0,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 0
+    },
+    {
+      "destination": 0,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "destination": 0,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13487565
+    },
+    {
+      "destination": 0,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5855577
+    },
+    {
+      "destination": 0,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13487565
+    },
+    {
+      "destination": 0,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5855577
+    },
+    {
+      "destination": 0,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 795708
+    },
+    {
+      "destination": 0,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "destination": 0,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8885152
+    },
+    {
+      "destination": 0,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 987154
+    },
+    {
+      "destination": 0,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13421513
+    },
+    {
+      "destination": 0,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5723990
+    },
+    {
+      "destination": 0,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13487565
+    },
+    {
+      "destination": 0,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5855577
+    },
+    {
+      "destination": 16777215,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 0
+    },
+    {
+      "destination": 16777215,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "destination": 16777215,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16777215
+    },
+    {
+      "destination": 16777215,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "destination": 16777215,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4294967295
+    },
+    {
+      "destination": 16777215,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "destination": 16777215,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 16777215,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 16777215,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2864434397
+    },
+    {
+      "destination": 16777215,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2864434397
+    },
+    {
+      "destination": 16777215,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 16777215,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 16777215,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2013265919
+    },
+    {
+      "destination": 16777215,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2013265919
+    },
+    {
+      "destination": 4294967295,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 0
+    },
+    {
+      "destination": 4294967295,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "destination": 4294967295,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16777215
+    },
+    {
+      "destination": 4294967295,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "destination": 4294967295,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4294967295
+    },
+    {
+      "destination": 4294967295,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "destination": 4294967295,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 4294967295,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 4294967295,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2864434397
+    },
+    {
+      "destination": 4294967295,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2864434397
+    },
+    {
+      "destination": 4294967295,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 4294967295,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 4294967295,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2013265919
+    },
+    {
+      "destination": 4294967295,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2013265919
+    },
+    {
+      "destination": 1193046,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 331545
+    },
+    {
+      "destination": 1193046,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 1193046,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13686750
+    },
+    {
+      "destination": 1193046,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6584977
+    },
+    {
+      "destination": 1193046,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13686750
+    },
+    {
+      "destination": 1193046,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6584977
+    },
+    {
+      "destination": 1193046,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 1193046,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 1193046,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9216695
+    },
+    {
+      "destination": 1193046,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2113633
+    },
+    {
+      "destination": 1193046,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13620698
+    },
+    {
+      "destination": 1193046,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6519183
+    },
+    {
+      "destination": 1193046,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13686750
+    },
+    {
+      "destination": 1193046,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6584977
+    },
+    {
+      "destination": 2864434397,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3685698
+    },
+    {
+      "destination": 2864434397,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12307677
+    },
+    {
+      "destination": 2864434397,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15857144
+    },
+    {
+      "destination": 2864434397,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13819368
+    },
+    {
+      "destination": 2864434397,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15857144
+    },
+    {
+      "destination": 2864434397,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13819368
+    },
+    {
+      "destination": 2864434397,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4481406
+    },
+    {
+      "destination": 2864434397,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12307677
+    },
+    {
+      "destination": 2864434397,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12307677
+    },
+    {
+      "destination": 2864434397,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12307677
+    },
+    {
+      "destination": 2864434397,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15791093
+    },
+    {
+      "destination": 2864434397,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13819111
+    },
+    {
+      "destination": 2864434397,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15857144
+    },
+    {
+      "destination": 2864434397,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13819368
+    },
+    {
+      "destination": 16711163,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5000011
+    },
+    {
+      "destination": 16711163,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 16711163,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711422
+    },
+    {
+      "destination": 16711163,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711164
+    },
+    {
+      "destination": 16711163,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711422
+    },
+    {
+      "destination": 16711163,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711164
+    },
+    {
+      "destination": 16711163,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5795975
+    },
+    {
+      "destination": 16711163,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 16711163,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13490661
+    },
+    {
+      "destination": 16711163,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16316664
+    },
+    {
+      "destination": 16711163,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 16711163,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 16711163,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711422
+    },
+    {
+      "destination": 16711163,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711164
+    },
+    {
+      "destination": 2013265919,
+      "mask": 0,
+      "weight_bits": "333333333333d33f",
+      "native_result": 0
+    },
+    {
+      "destination": 2013265919,
+      "mask": 0,
+      "weight_bits": "000000000000f03f",
+      "native_result": 0
+    },
+    {
+      "destination": 2013265919,
+      "mask": 16777215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16777215
+    },
+    {
+      "destination": 2013265919,
+      "mask": 16777215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16777215
+    },
+    {
+      "destination": 2013265919,
+      "mask": 4294967295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4294967295
+    },
+    {
+      "destination": 2013265919,
+      "mask": 4294967295,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4294967295
+    },
+    {
+      "destination": 2013265919,
+      "mask": 1193046,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 2013265919,
+      "mask": 1193046,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1193046
+    },
+    {
+      "destination": 2013265919,
+      "mask": 2864434397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2864434397
+    },
+    {
+      "destination": 2013265919,
+      "mask": 2864434397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2864434397
+    },
+    {
+      "destination": 2013265919,
+      "mask": 16711163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 2013265919,
+      "mask": 16711163,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16711163
+    },
+    {
+      "destination": 2013265919,
+      "mask": 2013265919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2013265919
+    },
+    {
+      "destination": 2013265919,
+      "mask": 2013265919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2013265919
+    },
+    {
+      "destination": 2724172309,
+      "mask": 4113014573,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3644197
+    },
+    {
+      "destination": 411450475,
+      "mask": 1547551839,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8797291
+    },
+    {
+      "destination": 1260497408,
+      "mask": 2092694439,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9495673
+    },
+    {
+      "destination": 4250257415,
+      "mask": 2418739631,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5621767
+    },
+    {
+      "destination": 225534844,
+      "mask": 476049244,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6604133
+    },
+    {
+      "destination": 3851704695,
+      "mask": 546895238,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9722231
+    },
+    {
+      "destination": 2297160118,
+      "mask": 1878208528,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15815986
+    },
+    {
+      "destination": 189073869,
+      "mask": 2841394315,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4524493
+    },
+    {
+      "destination": 3011122597,
+      "mask": 3730882962,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6786455
+    },
+    {
+      "destination": 115356970,
+      "mask": 1030081760,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14693674
+    },
+    {
+      "destination": 4212869464,
+      "mask": 405706616,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2654062
+    },
+    {
+      "destination": 3497060479,
+      "mask": 3022254643,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7399551
+    },
+    {
+      "destination": 4113784638,
+      "mask": 4227175234,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13404225
+    },
+    {
+      "destination": 2890821954,
+      "mask": 2036380465,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5140802
+    },
+    {
+      "destination": 1864496466,
+      "mask": 3394979712,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4815730
+    },
+    {
+      "destination": 1607984716,
+      "mask": 3779060862,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14149196
+    },
+    {
+      "destination": 590254278,
+      "mask": 3107617261,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3571681
+    },
+    {
+      "destination": 205212641,
+      "mask": 4239512745,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4215262
+    },
+    {
+      "destination": 101224360,
+      "mask": 3620264409,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9881036
+    },
+    {
+      "destination": 2136083761,
+      "mask": 563252308,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5377329
+    },
+    {
+      "destination": 766085699,
+      "mask": 3526199417,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5408872
+    },
+    {
+      "destination": 1081686250,
+      "mask": 565919364,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8272097
+    },
+    {
+      "destination": 2583531648,
+      "mask": 1455919159,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13996106
+    },
+    {
+      "destination": 140810088,
+      "mask": 4101474794,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6592360
+    },
+    {
+      "destination": 2345847185,
+      "mask": 3802733230,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11881893
+    },
+    {
+      "destination": 852821128,
+      "mask": 928186050,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13960328
+    },
+    {
+      "destination": 3939742826,
+      "mask": 2106113950,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10402702
+    },
+    {
+      "destination": 3000523803,
+      "mask": 2899165550,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14052135
+    },
+    {
+      "destination": 3454286410,
+      "mask": 2426558429,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11882160
+    },
+    {
+      "destination": 2344208461,
+      "mask": 2889772291,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12175437
+    },
+    {
+      "destination": 4159445698,
+      "mask": 3435347639,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13448377
+    },
+    {
+      "destination": 418279091,
+      "mask": 1514372707,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15625907
+    },
+    {
+      "destination": 2789464735,
+      "mask": 1711594087,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1497719
+    },
+    {
+      "destination": 4120961867,
+      "mask": 1910405785,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11389788
+    },
+    {
+      "destination": 4172244923,
+      "mask": 3016842803,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13131860
+    },
+    {
+      "destination": 1878870466,
+      "mask": 2123170603,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16599490
+    },
+    {
+      "destination": 3541422518,
+      "mask": 3783824622,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6661853
+    },
+    {
+      "destination": 3625988426,
+      "mask": 1684066962,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2109770
+    },
+    {
+      "destination": 2343017345,
+      "mask": 180305865,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12081077
+    },
+    {
+      "destination": 1225035225,
+      "mask": 761134383,
+      "weight_bits": "000000000000f03f",
+      "native_result": 298457
+    },
+    {
+      "destination": 3946985824,
+      "mask": 151357851,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1536393
+    },
+    {
+      "destination": 3414571023,
+      "mask": 2948265907,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9062171
+    },
+    {
+      "destination": 2457712974,
+      "mask": 977633832,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5607987
+    },
+    {
+      "destination": 3189472575,
+      "mask": 3322576927,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1801535
+    },
+    {
+      "destination": 276709428,
+      "mask": 2395478931,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11805818
+    },
+    {
+      "destination": 2756993873,
+      "mask": 528722614,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5530449
+    },
+    {
+      "destination": 706199235,
+      "mask": 4086478977,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7190932
+    },
+    {
+      "destination": 4197891929,
+      "mask": 151774473,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3587929
+    },
+    {
+      "destination": 3463790976,
+      "mask": 115489799,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13188386
+    },
+    {
+      "destination": 445774055,
+      "mask": 1279870359,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9566439
+    },
+    {
+      "destination": 3615890966,
+      "mask": 2044454154,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13022476
+    },
+    {
+      "destination": 535013772,
+      "mask": 3171326833,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14920076
+    },
+    {
+      "destination": 1838041697,
+      "mask": 1480433434,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5604655
+    },
+    {
+      "destination": 1458244883,
+      "mask": 2137022305,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15404307
+    },
+    {
+      "destination": 3699304706,
+      "mask": 2951527238,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13944119
+    },
+    {
+      "destination": 2011576897,
+      "mask": 2799795559,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14960969
+    },
+    {
+      "destination": 122303038,
+      "mask": 1640074865,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10581347
+    },
+    {
+      "destination": 2248914684,
+      "mask": 2334304462,
+      "weight_bits": "000000000000f03f",
+      "native_result": 767740
+    },
+    {
+      "destination": 3271583587,
+      "mask": 796390703,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5491262
+    },
+    {
+      "destination": 1317808535,
+      "mask": 2102900776,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9185687
+    },
+    {
+      "destination": 4089527194,
+      "mask": 1325734200,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4006741
+    },
+    {
+      "destination": 242419048,
+      "mask": 2008615753,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7865701
+    },
+    {
+      "destination": 3304573877,
+      "mask": 3558470669,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6022975
+    },
+    {
+      "destination": 1067538251,
+      "mask": 3777048518,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10573643
+    },
+    {
+      "destination": 2556063794,
+      "mask": 2917677805,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13125059
+    },
+    {
+      "destination": 2502330997,
+      "mask": 636741152,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6595931
+    },
+    {
+      "destination": 842734600,
+      "mask": 2338728108,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5842042
+    },
+    {
+      "destination": 1937684379,
+      "mask": 1759270765,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9544337
+    },
+    {
+      "destination": 245992555,
+      "mask": 3627646425,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5931448
+    },
+    {
+      "destination": 3101813534,
+      "mask": 2250928654,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14805790
+    },
+    {
+      "destination": 346075365,
+      "mask": 2678089888,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10517940
+    },
+    {
+      "destination": 2911471860,
+      "mask": 3839893576,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10252492
+    },
+    {
+      "destination": 285691468,
+      "mask": 1273861700,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12289605
+    },
+    {
+      "destination": 2913459902,
+      "mask": 1885274230,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11001534
+    },
+    {
+      "destination": 1659573977,
+      "mask": 3081055283,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12133732
+    },
+    {
+      "destination": 3093158362,
+      "mask": 1164779596,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6150618
+    },
+    {
+      "destination": 876269409,
+      "mask": 1254472979,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10535207
+    },
+    {
+      "destination": 1592967383,
+      "mask": 606052778,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15909079
+    },
+    {
+      "destination": 2944858802,
+      "mask": 3326533320,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5891777
+    },
+    {
+      "destination": 3374653606,
+      "mask": 171004237,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2433190
+    },
+    {
+      "destination": 1536220752,
+      "mask": 1111213181,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5557103
+    },
+    {
+      "destination": 2761022248,
+      "mask": 3186194999,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11059499
+    },
+    {
+      "destination": 399992095,
+      "mask": 77083518,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11157857
+    },
+    {
+      "destination": 2151645490,
+      "mask": 4217322793,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4161842
+    },
+    {
+      "destination": 4290217482,
+      "mask": 2741891964,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8639065
+    },
+    {
+      "destination": 351442273,
+      "mask": 4002828404,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15897953
+    },
+    {
+      "destination": 3844171524,
+      "mask": 937879095,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12175659
+    },
+    {
+      "destination": 3964234038,
+      "mask": 1100008804,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4811062
+    },
+    {
+      "destination": 689125477,
+      "mask": 4200287416,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4540063
+    },
+    {
+      "destination": 2054385506,
+      "mask": 4235284474,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7565154
+    },
+    {
+      "destination": 2519390714,
+      "mask": 2650646675,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13873575
+    },
+    {
+      "destination": 1282576135,
+      "mask": 15586086,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9740559
+    },
+    {
+      "destination": 2599713316,
+      "mask": 3676732430,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6519572
+    },
+    {
+      "destination": 4103389478,
+      "mask": 3060539475,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9748774
+    },
+    {
+      "destination": 1293091073,
+      "mask": 3950201562,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5649560
+    },
+    {
+      "destination": 1835630327,
+      "mask": 1151496749,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6913783
+    },
+    {
+      "destination": 740801543,
+      "mask": 2945602840,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7435026
+    },
+    {
+      "destination": 30850508,
+      "mask": 3399429336,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14073292
+    },
+    {
+      "destination": 1205776015,
+      "mask": 1782209176,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7041941
+    },
+    {
+      "destination": 3983142648,
+      "mask": 2586068824,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6942456
+    },
+    {
+      "destination": 3357871065,
+      "mask": 1612211006,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1788012
+    },
+    {
+      "destination": 2252229651,
+      "mask": 2412183313,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5202450
+    },
+    {
+      "destination": 1584054747,
+      "mask": 3824200519,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13872998
+    },
+    {
+      "destination": 2501651399,
+      "mask": 3408609382,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1846215
+    },
+    {
+      "destination": 2748093794,
+      "mask": 3974239502,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14430753
+    },
+    {
+      "destination": 3165297479,
+      "mask": 1892128270,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11377215
+    },
+    {
+      "destination": 3393681901,
+      "mask": 127888204,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8679292
+    },
+    {
+      "destination": 419658054,
+      "mask": 1339108653,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2452545
+    },
+    {
+      "destination": 607148724,
+      "mask": 2526658923,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7971456
+    },
+    {
+      "destination": 665635460,
+      "mask": 1675116414,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11841154
+    },
+    {
+      "destination": 1288646714,
+      "mask": 3197574739,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10953547
+    },
+    {
+      "destination": 2586563234,
+      "mask": 1305936320,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5024167
+    },
+    {
+      "destination": 1294813747,
+      "mask": 61670400,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8853518
+    },
+    {
+      "destination": 2841811491,
+      "mask": 145289545,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6461987
+    },
+    {
+      "destination": 280120867,
+      "mask": 741390604,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5675026
+    },
+    {
+      "destination": 4088288121,
+      "mask": 1884892545,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11424633
+    },
+    {
+      "destination": 1757645821,
+      "mask": 1808055978,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12824767
+    },
+    {
+      "destination": 3526003631,
+      "mask": 4183773884,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2788271
+    },
+    {
+      "destination": 1391355404,
+      "mask": 1822000602,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11697052
+    },
+    {
+      "destination": 647346040,
+      "mask": 1948046731,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9811832
+    },
+    {
+      "destination": 3158674613,
+      "mask": 491185981,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4574048
+    },
+    {
+      "destination": 539295750,
+      "mask": 3623344702,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6767895
+    },
+    {
+      "destination": 677506981,
+      "mask": 3241885436,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4617185
+    },
+    {
+      "destination": 1749833247,
+      "mask": 426083977,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5002783
+    },
+    {
+      "destination": 2195498438,
+      "mask": 2503998475,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7266627
+    },
+    {
+      "destination": 422928977,
+      "mask": 2855881243,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3498577
+    },
+    {
+      "destination": 503367281,
+      "mask": 4212191847,
+      "weight_bits": "333333333333d33f",
+      "native_result": 779369
+    },
+    {
+      "destination": 1623449606,
+      "mask": 198508234,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13034793
+    },
+    {
+      "destination": 3918890226,
+      "mask": 2625606843,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8753099
+    },
+    {
+      "destination": 460523464,
+      "mask": 676920469,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7538632
+    },
+    {
+      "destination": 2863168917,
+      "mask": 4104184953,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10667393
+    },
+    {
+      "destination": 3009649645,
+      "mask": 2511683436,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6788581
+    },
+    {
+      "destination": 84134945,
+      "mask": 2797553148,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9202112
+    },
+    {
+      "destination": 3220994534,
+      "mask": 46467068,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16083944
+    },
+    {
+      "destination": 874574904,
+      "mask": 3354191781,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12577165
+    },
+    {
+      "destination": 1941339568,
+      "mask": 2231675210,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11959728
+    },
+    {
+      "destination": 3298352197,
+      "mask": 1847994412,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4742451
+    },
+    {
+      "destination": 66246091,
+      "mask": 117149534,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16104870
+    },
+    {
+      "destination": 2516140604,
+      "mask": 3166607756,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13533558
+    },
+    {
+      "destination": 1896447287,
+      "mask": 1466831407,
+      "weight_bits": "000000000000f03f",
+      "native_result": 621879
+    },
+    {
+      "destination": 3965546773,
+      "mask": 853457291,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12560495
+    },
+    {
+      "destination": 2876991916,
+      "mask": 2606076044,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8087980
+    },
+    {
+      "destination": 4178516148,
+      "mask": 3882546578,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5157532
+    },
+    {
+      "destination": 168108747,
+      "mask": 841493838,
+      "weight_bits": "000000000000f03f",
+      "native_result": 336587
+    },
+    {
+      "destination": 3982290571,
+      "mask": 1705618855,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9617566
+    },
+    {
+      "destination": 3884492771,
+      "mask": 589384291,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8955875
+    },
+    {
+      "destination": 1737128080,
+      "mask": 2535992159,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4538989
+    },
+    {
+      "destination": 3604243997,
+      "mask": 1387832061,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13789740
+    },
+    {
+      "destination": 2169820451,
+      "mask": 2281713039,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1662830
+    },
+    {
+      "destination": 3918632340,
+      "mask": 1530032946,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9541012
+    },
+    {
+      "destination": 3260574697,
+      "mask": 495045184,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7646578
+    },
+    {
+      "destination": 1199755510,
+      "mask": 1845483982,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11391976
+    },
+    {
+      "destination": 907991664,
+      "mask": 3661753305,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3597753
+    },
+    {
+      "destination": 4199872438,
+      "mask": 4098678750,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5568438
+    },
+    {
+      "destination": 3567714979,
+      "mask": 251969280,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3442224
+    },
+    {
+      "destination": 2310621897,
+      "mask": 610634920,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12143305
+    },
+    {
+      "destination": 631349323,
+      "mask": 4023633162,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13024026
+    },
+    {
+      "destination": 1899671255,
+      "mask": 3124031513,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3845847
+    },
+    {
+      "destination": 1837915816,
+      "mask": 359207958,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7547457
+    },
+    {
+      "destination": 2594909298,
+      "mask": 676127941,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11218034
+    },
+    {
+      "destination": 3225992894,
+      "mask": 3172496400,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2525764
+    },
+    {
+      "destination": 3660367626,
+      "mask": 2921390654,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2934538
+    },
+    {
+      "destination": 1726717523,
+      "mask": 2495528778,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13284940
+    },
+    {
+      "destination": 11589702,
+      "mask": 2882447473,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11849804
+    },
+    {
+      "destination": 2923660851,
+      "mask": 1456859429,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11653160
+    },
+    {
+      "destination": 3848550913,
+      "mask": 1385778637,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6568449
+    },
+    {
+      "destination": 1554910382,
+      "mask": 2400518563,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4326566
+    },
+    {
+      "destination": 3930521050,
+      "mask": 2003336481,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4652506
+    },
+    {
+      "destination": 3623749837,
+      "mask": 2924193091,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8418668
+    },
+    {
+      "destination": 3127616742,
+      "mask": 207212957,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7054566
+    },
+    {
+      "destination": 1350684495,
+      "mask": 2973723449,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5408831
+    },
+    {
+      "destination": 2215053660,
+      "mask": 1196570780,
+      "weight_bits": "000000000000f03f",
+      "native_result": 461148
+    },
+    {
+      "destination": 1960560318,
+      "mask": 3852193380,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11455358
+    },
+    {
+      "destination": 1448050779,
+      "mask": 1514154866,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5210203
+    },
+    {
+      "destination": 2752078184,
+      "mask": 4140519408,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10048461
+    },
+    {
+      "destination": 409774794,
+      "mask": 1351638554,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7121610
+    },
+    {
+      "destination": 2603693556,
+      "mask": 1984950967,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4635081
+    },
+    {
+      "destination": 998846401,
+      "mask": 2051600155,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8990657
+    },
+    {
+      "destination": 3895459515,
+      "mask": 72127445,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4436941
+    },
+    {
+      "destination": 2320078116,
+      "mask": 3893250446,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4822308
+    },
+    {
+      "destination": 967391122,
+      "mask": 2940031232,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6113579
+    },
+    {
+      "destination": 647067851,
+      "mask": 2618770124,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9533643
+    },
+    {
+      "destination": 704848850,
+      "mask": 2706954221,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4104676
+    },
+    {
+      "destination": 2635795508,
+      "mask": 930003154,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1772596
+    },
+    {
+      "destination": 2427818431,
+      "mask": 1640445349,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12733867
+    },
+    {
+      "destination": 744804588,
+      "mask": 285200208,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10145717
+    },
+    {
+      "destination": 3560508218,
+      "mask": 3596183514,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5196714
+    },
+    {
+      "destination": 591170997,
+      "mask": 1821702053,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3968437
+    },
+    {
+      "destination": 228188602,
+      "mask": 791820486,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5270210
+    },
+    {
+      "destination": 2140167360,
+      "mask": 3861842462,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9460928
+    },
+    {
+      "destination": 3178363393,
+      "mask": 97017579,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11634350
+    },
+    {
+      "destination": 3059062796,
+      "mask": 837060359,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7836426
+    },
+    {
+      "destination": 2928801445,
+      "mask": 284013676,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14271096
+    },
+    {
+      "destination": 970217104,
+      "mask": 3382840039,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13915792
+    },
+    {
+      "destination": 3911711362,
+      "mask": 602881557,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12871212
+    },
+    {
+      "destination": 2785152612,
+      "mask": 1878687223,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5452436
+    },
+    {
+      "destination": 2503060538,
+      "mask": 4282935545,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4291775
+    },
+    {
+      "destination": 1362168128,
+      "mask": 576005521,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3213632
+    },
+    {
+      "destination": 1576905514,
+      "mask": 2816641573,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15241510
+    },
+    {
+      "destination": 885406810,
+      "mask": 2487284788,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12991578
+    },
+    {
+      "destination": 2682254705,
+      "mask": 3474086558,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5212304
+    },
+    {
+      "destination": 2642153518,
+      "mask": 390604577,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8130606
+    },
+    {
+      "destination": 438874939,
+      "mask": 2807139157,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4494925
+    },
+    {
+      "destination": 2224521211,
+      "mask": 592364834,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9928699
+    },
+    {
+      "destination": 3777521616,
+      "mask": 3177863992,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5660261
+    },
+    {
+      "destination": 411321483,
+      "mask": 4250079050,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8668299
+    },
+    {
+      "destination": 3575410786,
+      "mask": 569750902,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13149809
+    },
+    {
+      "destination": 4119256984,
+      "mask": 4102591482,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8839064
+    },
+    {
+      "destination": 3376972410,
+      "mask": 2161485322,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11705637
+    },
+    {
+      "destination": 2905605910,
+      "mask": 2152919754,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3147542
+    },
+    {
+      "destination": 2305894584,
+      "mask": 3005898228,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4148706
+    },
+    {
+      "destination": 257417999,
+      "mask": 4130513578,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5759759
+    },
+    {
+      "destination": 1316750387,
+      "mask": 417132365,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12957510
+    },
+    {
+      "destination": 2065351063,
+      "mask": 2208988145,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1884056
+    },
+    {
+      "destination": 3781359559,
+      "mask": 2578413248,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10001346
+    },
+    {
+      "destination": 3028581531,
+      "mask": 3238828530,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8682651
+    },
+    {
+      "destination": 1542809451,
+      "mask": 1623570085,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13738389
+    },
+    {
+      "destination": 14198611,
+      "mask": 3607480846,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14198611
+    },
+    {
+      "destination": 3771311101,
+      "mask": 1586629430,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10631281
+    },
+    {
+      "destination": 1651554869,
+      "mask": 1674726147,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8431148
+    },
+    {
+      "destination": 1862260351,
+      "mask": 3398402771,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11574201
+    },
+    {
+      "destination": 1518777297,
+      "mask": 2968006063,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10457288
+    },
+    {
+      "destination": 1398761685,
+      "mask": 1077308815,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4352931
+    },
+    {
+      "destination": 2285628662,
+      "mask": 897555359,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3927286
+    },
+    {
+      "destination": 605361357,
+      "mask": 2848699910,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10259512
+    },
+    {
+      "destination": 921751893,
+      "mask": 2243374241,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15517018
+    },
+    {
+      "destination": 2713561955,
+      "mask": 1720383214,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10084292
+    },
+    {
+      "destination": 691029210,
+      "mask": 3600417008,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3163354
+    },
+    {
+      "destination": 3416386398,
+      "mask": 3404980034,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14803271
+    },
+    {
+      "destination": 754649714,
+      "mask": 634969258,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16003965
+    },
+    {
+      "destination": 3709968457,
+      "mask": 3665703584,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6443653
+    },
+    {
+      "destination": 918242908,
+      "mask": 938022488,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13056346
+    },
+    {
+      "destination": 3232765322,
+      "mask": 3144341043,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8297549
+    },
+    {
+      "destination": 4132816603,
+      "mask": 2906644837,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5621467
+    },
+    {
+      "destination": 2603202217,
+      "mask": 2758853611,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5947351
+    },
+    {
+      "destination": 3261710266,
+      "mask": 277224164,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6930362
+    },
+    {
+      "destination": 3936116956,
+      "mask": 807623703,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4676946
+    },
+    {
+      "destination": 1687051666,
+      "mask": 1334570441,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9330066
+    },
+    {
+      "destination": 259749983,
+      "mask": 356497106,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5284783
+    },
+    {
+      "destination": 2726474414,
+      "mask": 2743633615,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8565422
+    },
+    {
+      "destination": 769180653,
+      "mask": 3272434035,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4816535
+    },
+    {
+      "destination": 1537849889,
+      "mask": 1123340115,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12566576
+    },
+    {
+      "destination": 1636901553,
+      "mask": 3401647588,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11799766
+    },
+    {
+      "destination": 4275922232,
+      "mask": 1553373430,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14509368
+    },
+    {
+      "destination": 1848146645,
+      "mask": 597502467,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7946561
+    },
+    {
+      "destination": 3883715177,
+      "mask": 3069065845,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10264940
+    },
+    {
+      "destination": 711283222,
+      "mask": 3269197249,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12506264
+    },
+    {
+      "destination": 586027547,
+      "mask": 2179886561,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15608659
+    },
+    {
+      "destination": 4164846549,
+      "mask": 804817822,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13797801
+    },
+    {
+      "destination": 3243708933,
+      "mask": 332964446,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7351830
+    },
+    {
+      "destination": 572440963,
+      "mask": 3362287631,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5343281
+    },
+    {
+      "destination": 2860566241,
+      "mask": 113918169,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9089759
+    },
+    {
+      "destination": 1551159350,
+      "mask": 3802241185,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9676928
+    },
+    {
+      "destination": 2942155914,
+      "mask": 4013223685,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6143114
+    },
+    {
+      "destination": 502328876,
+      "mask": 3993860792,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5348494
+    },
+    {
+      "destination": 983042887,
+      "mask": 3963368796,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9964359
+    },
+    {
+      "destination": 3577416013,
+      "mask": 4143675055,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13918363
+    },
+    {
+      "destination": 1434701192,
+      "mask": 1040164638,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11452258
+    },
+    {
+      "destination": 827607372,
+      "mask": 1021068318,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12272936
+    },
+    {
+      "destination": 3223064774,
+      "mask": 2763346052,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2429890
+    },
+    {
+      "destination": 1380147364,
+      "mask": 130906393,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11104828
+    },
+    {
+      "destination": 2915829887,
+      "mask": 3249203604,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13306751
+    },
+    {
+      "destination": 2686604612,
+      "mask": 1917830034,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4301434
+    },
+    {
+      "destination": 4144091610,
+      "mask": 1988358339,
+      "weight_bits": "000000000000f03f",
+      "native_result": 119258
+    },
+    {
+      "destination": 4179390651,
+      "mask": 767978437,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10054850
+    },
+    {
+      "destination": 1019018771,
+      "mask": 674401426,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12385811
+    },
+    {
+      "destination": 3545247962,
+      "mask": 482297495,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10502313
+    },
+    {
+      "destination": 3325938310,
+      "mask": 1963723092,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4049542
+    },
+    {
+      "destination": 4198031899,
+      "mask": 162379332,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9093688
+    },
+    {
+      "destination": 602101941,
+      "mask": 2987568280,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14899381
+    },
+    {
+      "destination": 2173989292,
+      "mask": 1743721445,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14362584
+    },
+    {
+      "destination": 1824466041,
+      "mask": 3629711090,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12526713
+    },
+    {
+      "destination": 1445562848,
+      "mask": 383755199,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11836614
+    },
+    {
+      "destination": 1884756883,
+      "mask": 2176556828,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6235529
+    },
+    {
+      "destination": 2440964222,
+      "mask": 3783261270,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8305761
+    },
+    {
+      "destination": 3609531269,
+      "mask": 4131287526,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2429829
+    },
+    {
+      "destination": 1129701670,
+      "mask": 904364273,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13014467
+    },
+    {
+      "destination": 3632747444,
+      "mask": 3438670471,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11109542
+    },
+    {
+      "destination": 3651538956,
+      "mask": 331379069,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12146270
+    },
+    {
+      "destination": 3366116055,
+      "mask": 2066202476,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10672855
+    },
+    {
+      "destination": 3154853867,
+      "mask": 3792931018,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1077971
+    },
+    {
+      "destination": 3922643868,
+      "mask": 1047462691,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13552540
+    },
+    {
+      "destination": 2696790178,
+      "mask": 3162380239,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9456065
+    },
+    {
+      "destination": 1648559706,
+      "mask": 4041828800,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7217268
+    },
+    {
+      "destination": 3652474431,
+      "mask": 2575299737,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9356414
+    },
+    {
+      "destination": 4047312068,
+      "mask": 1906416568,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4003012
+    },
+    {
+      "destination": 1546038679,
+      "mask": 2529550243,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10211743
+    },
+    {
+      "destination": 868980921,
+      "mask": 39930555,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13342905
+    },
+    {
+      "destination": 1398072550,
+      "mask": 3620735585,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11550850
+    },
+    {
+      "destination": 47095908,
+      "mask": 141527944,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13541476
+    },
+    {
+      "destination": 936369537,
+      "mask": 3918089065,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10319472
+    },
+    {
+      "destination": 1308768636,
+      "mask": 1695679162,
+      "weight_bits": "000000000000f03f",
+      "native_result": 145788
+    },
+    {
+      "destination": 2530621891,
+      "mask": 3995336125,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5817022
+    },
+    {
+      "destination": 280257192,
+      "mask": 2597042066,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12021412
+    },
+    {
+      "destination": 47674076,
+      "mask": 1249326369,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9652057
+    },
+    {
+      "destination": 3552000108,
+      "mask": 3885981084,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12007532
+    },
+    {
+      "destination": 2949461148,
+      "mask": 4114408177,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6794711
+    },
+    {
+      "destination": 244265506,
+      "mask": 117891357,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9384482
+    },
+    {
+      "destination": 2611066624,
+      "mask": 3961626671,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4695584
+    },
+    {
+      "destination": 1022170577,
+      "mask": 4020830602,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15471824
+    },
+    {
+      "destination": 452017989,
+      "mask": 1609967372,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16001815
+    },
+    {
+      "destination": 1996236999,
+      "mask": 435588136,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16402325
+    },
+    {
+      "destination": 1295204960,
+      "mask": 3838781855,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10956687
+    },
+    {
+      "destination": 3724013961,
+      "mask": 527751757,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16249225
+    },
+    {
+      "destination": 1383098284,
+      "mask": 3206732444,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3782560
+    },
+    {
+      "destination": 2557921073,
+      "mask": 3601384195,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7783984
+    },
+    {
+      "destination": 3509571231,
+      "mask": 22228637,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4742557
+    },
+    {
+      "destination": 3091143102,
+      "mask": 2841233486,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4135358
+    },
+    {
+      "destination": 4047187732,
+      "mask": 2104720401,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6448145
+    },
+    {
+      "destination": 3797839990,
+      "mask": 2058838035,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6516335
+    },
+    {
+      "destination": 135882698,
+      "mask": 969005101,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9681239
+    },
+    {
+      "destination": 4213537064,
+      "mask": 3197614968,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2455848
+    },
+    {
+      "destination": 3671612761,
+      "mask": 1171847409,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14144204
+    },
+    {
+      "destination": 3244973270,
+      "mask": 1750410487,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6970582
+    },
+    {
+      "destination": 3134698987,
+      "mask": 3158139422,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7043675
+    },
+    {
+      "destination": 476131120,
+      "mask": 2887775215,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6369072
+    },
+    {
+      "destination": 2483263021,
+      "mask": 2902540567,
+      "weight_bits": "333333333333d33f",
+      "native_result": 88605
+    },
+    {
+      "destination": 2617834531,
+      "mask": 2463431657,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2947910
+    },
+    {
+      "destination": 3535763826,
+      "mask": 707365038,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5604252
+    },
+    {
+      "destination": 3821549186,
+      "mask": 48296105,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13459594
+    },
+    {
+      "destination": 3206691855,
+      "mask": 4270515090,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6991978
+    },
+    {
+      "destination": 1689374497,
+      "mask": 632795715,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11652387
+    },
+    {
+      "destination": 3685306853,
+      "mask": 3070067293,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15497335
+    },
+    {
+      "destination": 2829941672,
+      "mask": 1664925586,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11369384
+    },
+    {
+      "destination": 664265668,
+      "mask": 1768502945,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7760299
+    },
+    {
+      "destination": 3257881616,
+      "mask": 1940052105,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3101712
+    },
+    {
+      "destination": 3987994708,
+      "mask": 3505556152,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14983586
+    },
+    {
+      "destination": 2744889765,
+      "mask": 1968095114,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10203557
+    },
+    {
+      "destination": 3888777800,
+      "mask": 83179641,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15478382
+    },
+    {
+      "destination": 2899370830,
+      "mask": 2785854153,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13689678
+    },
+    {
+      "destination": 4258536061,
+      "mask": 1296527695,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7427676
+    },
+    {
+      "destination": 3278405901,
+      "mask": 1840971068,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7244304
+    },
+    {
+      "destination": 601552541,
+      "mask": 2078589027,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14797936
+    },
+    {
+      "destination": 3663729619,
+      "mask": 3704875266,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7616685
+    },
+    {
+      "destination": 3225232188,
+      "mask": 2777201386,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7441589
+    },
+    {
+      "destination": 3012116357,
+      "mask": 193111897,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8994693
+    },
+    {
+      "destination": 2137256536,
+      "mask": 986823771,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11913562
+    },
+    {
+      "destination": 2025611693,
+      "mask": 2704544291,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12345773
+    },
+    {
+      "destination": 3129805536,
+      "mask": 3459386170,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5048939
+    },
+    {
+      "destination": 2892575729,
+      "mask": 1301163391,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6894577
+    },
+    {
+      "destination": 1214683631,
+      "mask": 522281350,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3502501
+    },
+    {
+      "destination": 1377043413,
+      "mask": 3393426682,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1311701
+    },
+    {
+      "destination": 1232681123,
+      "mask": 1102696495,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10986831
+    },
+    {
+      "destination": 420444966,
+      "mask": 568395582,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4153387
+    },
+    {
+      "destination": 2091046445,
+      "mask": 2634099555,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3235410
+    },
+    {
+      "destination": 3756467884,
+      "mask": 441052156,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15148716
+    },
+    {
+      "destination": 1315739288,
+      "mask": 3248902009,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9725058
+    },
+    {
+      "destination": 3343078846,
+      "mask": 2035864837,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4412862
+    },
+    {
+      "destination": 3467619866,
+      "mask": 36822157,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5688938
+    },
+    {
+      "destination": 3899389139,
+      "mask": 813303704,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7075027
+    },
+    {
+      "destination": 2837997615,
+      "mask": 3037872697,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1592630
+    },
+    {
+      "destination": 1736889791,
+      "mask": 1516634304,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8836543
+    },
+    {
+      "destination": 1860376904,
+      "mask": 1488105685,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12551340
+    },
+    {
+      "destination": 3942305789,
+      "mask": 1323319691,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16035554
+    },
+    {
+      "destination": 2669788260,
+      "mask": 1159207057,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1722755
+    },
+    {
+      "destination": 3732207101,
+      "mask": 762198875,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7665149
+    },
+    {
+      "destination": 3962105159,
+      "mask": 618948500,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12158338
+    },
+    {
+      "destination": 2317876024,
+      "mask": 1019389388,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3731784
+    },
+    {
+      "destination": 2927273793,
+      "mask": 2607625678,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7362467
+    },
+    {
+      "destination": 2065456933,
+      "mask": 1163056533,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1859365
+    },
+    {
+      "destination": 4014319033,
+      "mask": 2093795954,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11124868
+    },
+    {
+      "destination": 224670088,
+      "mask": 3649377993,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6566280
+    },
+    {
+      "destination": 933899572,
+      "mask": 3674857128,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3778693
+    },
+    {
+      "destination": 1123541005,
+      "mask": 3774978373,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16244749
+    },
+    {
+      "destination": 71426767,
+      "mask": 3344390528,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5276311
+    },
+    {
+      "destination": 1456582026,
+      "mask": 1265847024,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13741450
+    },
+    {
+      "destination": 197997229,
+      "mask": 2014508677,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4897680
+    },
+    {
+      "destination": 2611386567,
+      "mask": 4259624671,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11902924
+    },
+    {
+      "destination": 148219982,
+      "mask": 343447232,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9673629
+    },
+    {
+      "destination": 3604589103,
+      "mask": 2429254432,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14066476
+    },
+    {
+      "destination": 2366734053,
+      "mask": 2153594284,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4608189
+    },
+    {
+      "destination": 4091624039,
+      "mask": 3446372415,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14760551
+    },
+    {
+      "destination": 1021773925,
+      "mask": 3482889565,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11500383
+    },
+    {
+      "destination": 1225320824,
+      "mask": 1428515184,
+      "weight_bits": "000000000000f03f",
+      "native_result": 584056
+    },
+    {
+      "destination": 2687895019,
+      "mask": 2314825898,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13720247
+    },
+    {
+      "destination": 2027223237,
+      "mask": 2416029207,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13957317
+    },
+    {
+      "destination": 1010911315,
+      "mask": 4004124775,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9119329
+    },
+    {
+      "destination": 3334831740,
+      "mask": 2389119471,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12942972
+    },
+    {
+      "destination": 175476506,
+      "mask": 4087400822,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9680730
+    },
+    {
+      "destination": 3037387249,
+      "mask": 1368478339,
+      "weight_bits": "000000000000f03f",
+      "native_result": 711153
+    },
+    {
+      "destination": 658730250,
+      "mask": 1185125627,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8816818
+    },
+    {
+      "destination": 1814532757,
+      "mask": 3345606377,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2593429
+    },
+    {
+      "destination": 2163750652,
+      "mask": 1944923572,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15675075
+    },
+    {
+      "destination": 4284804989,
+      "mask": 2559898538,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6614909
+    },
+    {
+      "destination": 986390138,
+      "mask": 3685852817,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12091018
+    },
+    {
+      "destination": 75147971,
+      "mask": 1074915030,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8039107
+    },
+    {
+      "destination": 1240372567,
+      "mask": 2801750486,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16473789
+    },
+    {
+      "destination": 1549292847,
+      "mask": 672500634,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5788975
+    },
+    {
+      "destination": 282634791,
+      "mask": 1438392406,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12797257
+    },
+    {
+      "destination": 1126520063,
+      "mask": 3555003434,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5522122
+    },
+    {
+      "destination": 201152978,
+      "mask": 1618275647,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10338411
+    },
+    {
+      "destination": 1742021103,
+      "mask": 4050211685,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13967855
+    },
+    {
+      "destination": 4262050998,
+      "mask": 30609549,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10566295
+    },
+    {
+      "destination": 215120247,
+      "mask": 3842023772,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13793655
+    },
+    {
+      "destination": 2740164022,
+      "mask": 1039373828,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13735209
+    },
+    {
+      "destination": 3979725706,
+      "mask": 2436013243,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3525514
+    },
+    {
+      "destination": 2610674213,
+      "mask": 898068165,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9208981
+    },
+    {
+      "destination": 528738043,
+      "mask": 262146261,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8644347
+    },
+    {
+      "destination": 2312642974,
+      "mask": 4288635447,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11554389
+    },
+    {
+      "destination": 415529512,
+      "mask": 1051250989,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12810792
+    },
+    {
+      "destination": 2662250599,
+      "mask": 3105849203,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4821103
+    },
+    {
+      "destination": 2821775836,
+      "mask": 2002803354,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3203548
+    },
+    {
+      "destination": 1319257986,
+      "mask": 2325102070,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10043347
+    },
+    {
+      "destination": 2856071122,
+      "mask": 1803804830,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3944402
+    },
+    {
+      "destination": 4068387966,
+      "mask": 2921488309,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4028068
+    },
+    {
+      "destination": 3951133363,
+      "mask": 1146708043,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8487603
+    },
+    {
+      "destination": 2949939466,
+      "mask": 3853414705,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12154149
+    },
+    {
+      "destination": 1048845066,
+      "mask": 3123037927,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8657674
+    },
+    {
+      "destination": 1595486724,
+      "mask": 3101306923,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11218977
+    },
+    {
+      "destination": 2333078599,
+      "mask": 2039218864,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1045575
+    },
+    {
+      "destination": 352124682,
+      "mask": 3396567372,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10266168
+    },
+    {
+      "destination": 3911761470,
+      "mask": 2340772833,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2670142
+    },
+    {
+      "destination": 447494489,
+      "mask": 1448959155,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7623064
+    },
+    {
+      "destination": 3395259342,
+      "mask": 4184628418,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6261710
+    },
+    {
+      "destination": 869657680,
+      "mask": 2923444648,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7106189
+    },
+    {
+      "destination": 1230363935,
+      "mask": 1994085906,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7389212
+    },
+    {
+      "destination": 1332812267,
+      "mask": 3196346218,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8276624
+    },
+    {
+      "destination": 3363820057,
+      "mask": 2664213565,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9096222
+    },
+    {
+      "destination": 1267240810,
+      "mask": 2511597322,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10933029
+    },
+    {
+      "destination": 4050534878,
+      "mask": 1518632160,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7225822
+    },
+    {
+      "destination": 2298933166,
+      "mask": 689959112,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1568704
+    },
+    {
+      "destination": 4152732733,
+      "mask": 701294829,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9417815
+    },
+    {
+      "destination": 794450089,
+      "mask": 888911819,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14329028
+    },
+    {
+      "destination": 2775451318,
+      "mask": 3909515896,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7210678
+    },
+    {
+      "destination": 1685542389,
+      "mask": 2086681604,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6701900
+    },
+    {
+      "destination": 842812522,
+      "mask": 2185383864,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3951722
+    },
+    {
+      "destination": 434681597,
+      "mask": 341523155,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8740831
+    },
+    {
+      "destination": 1149446016,
+      "mask": 531157083,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8595583
+    },
+    {
+      "destination": 3684900116,
+      "mask": 1590102347,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12389948
+    },
+    {
+      "destination": 3309979407,
+      "mask": 3658900602,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4867855
+    },
+    {
+      "destination": 2270870015,
+      "mask": 3772447856,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12315794
+    },
+    {
+      "destination": 1809416428,
+      "mask": 1737288940,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14254316
+    },
+    {
+      "destination": 3635153008,
+      "mask": 1988212247,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9273649
+    },
+    {
+      "destination": 3720962114,
+      "mask": 1821401652,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13197378
+    },
+    {
+      "destination": 2380878995,
+      "mask": 327480810,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10667215
+    },
+    {
+      "destination": 639190720,
+      "mask": 3791348105,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6573997
+    },
+    {
+      "destination": 2051463576,
+      "mask": 3190475015,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3329330
+    },
+    {
+      "destination": 2115833296,
+      "mask": 3230394043,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1904080
+    },
+    {
+      "destination": 2904865898,
+      "mask": 3115957102,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9419628
+    },
+    {
+      "destination": 1136153113,
+      "mask": 2074726928,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12014360
+    },
+    {
+      "destination": 4048826883,
+      "mask": 3862474766,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4229642
+    },
+    {
+      "destination": 61148408,
+      "mask": 4182548223,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10816760
+    },
+    {
+      "destination": 1199779916,
+      "mask": 2413059413,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12603730
+    },
+    {
+      "destination": 4005854651,
+      "mask": 2231343815,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14190527
+    },
+    {
+      "destination": 3470185282,
+      "mask": 2660407615,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10922559
+    },
+    {
+      "destination": 3569951110,
+      "mask": 3161142432,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13181318
+    },
+    {
+      "destination": 753958464,
+      "mask": 2880020230,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12490007
+    },
+    {
+      "destination": 2603326521,
+      "mask": 1393756550,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2858041
+    },
+    {
+      "destination": 1865603286,
+      "mask": 3566543129,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7821137
+    },
+    {
+      "destination": 2080018814,
+      "mask": 760795326,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16421246
+    },
+    {
+      "destination": 1062137517,
+      "mask": 144860441,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8949317
+    },
+    {
+      "destination": 3778968795,
+      "mask": 3405362044,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8031676
+    },
+    {
+      "destination": 1366289978,
+      "mask": 765410300,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9466049
+    },
+    {
+      "destination": 1410385012,
+      "mask": 2735484302,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1098868
+    },
+    {
+      "destination": 2720938209,
+      "mask": 3613303330,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5210715
+    },
+    {
+      "destination": 1610155327,
+      "mask": 97662055,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15863109
+    },
+    {
+      "destination": 1650725886,
+      "mask": 1811482843,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14289634
+    },
+    {
+      "destination": 3070331667,
+      "mask": 1035184720,
+      "weight_bits": "000000000000f03f",
+      "native_result": 691222
+    },
+    {
+      "destination": 4180010281,
+      "mask": 1085096106,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8745092
+    },
+    {
+      "destination": 3421922611,
+      "mask": 3610002106,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16147763
+    },
+    {
+      "destination": 1263730314,
+      "mask": 1117642545,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8841291
+    },
+    {
+      "destination": 2343793545,
+      "mask": 2102593491,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11760521
+    },
+    {
+      "destination": 1096595343,
+      "mask": 2102916247,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5824916
+    },
+    {
+      "destination": 1804478772,
+      "mask": 2616873632,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11613783
+    },
+    {
+      "destination": 1217345267,
+      "mask": 105977042,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6495963
+    },
+    {
+      "destination": 1288613893,
+      "mask": 2228686281,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13602858
+    },
+    {
+      "destination": 3081048185,
+      "mask": 2579676137,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12225995
+    },
+    {
+      "destination": 1128864048,
+      "mask": 2793606749,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4790576
+    },
+    {
+      "destination": 3668519115,
+      "mask": 2037219639,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8283747
+    },
+    {
+      "destination": 4034086486,
+      "mask": 815704143,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7554646
+    },
+    {
+      "destination": 1774614579,
+      "mask": 2613857838,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13260847
+    },
+    {
+      "destination": 3325824209,
+      "mask": 1892822004,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5575127
+    },
+    {
+      "destination": 2217320317,
+      "mask": 4212803492,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1991064
+    },
+    {
+      "destination": 856539481,
+      "mask": 3408912990,
+      "weight_bits": "000000000000f03f",
+      "native_result": 901465
+    },
+    {
+      "destination": 1009299001,
+      "mask": 4024019163,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11446708
+    },
+    {
+      "destination": 3484578437,
+      "mask": 3410594845,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11694725
+    },
+    {
+      "destination": 385540821,
+      "mask": 4107685216,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14578044
+    },
+    {
+      "destination": 1980721395,
+      "mask": 2753712924,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1009907
+    },
+    {
+      "destination": 3348418819,
+      "mask": 2333247903,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3710576
+    },
+    {
+      "destination": 1496102803,
+      "mask": 3707524472,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7509385
+    },
+    {
+      "destination": 3803775751,
+      "mask": 1547464991,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6377495
+    },
+    {
+      "destination": 268939627,
+      "mask": 3640526899,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6059607
+    },
+    {
+      "destination": 3074048043,
+      "mask": 2537888550,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4269607
+    },
+    {
+      "destination": 2213034828,
+      "mask": 3177261684,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15219532
+    },
+    {
+      "destination": 2322105376,
+      "mask": 1952358764,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6330453
+    },
+    {
+      "destination": 1000797876,
+      "mask": 2351320489,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10942132
+    },
+    {
+      "destination": 1253241087,
+      "mask": 3308292190,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5678990
+    },
+    {
+      "destination": 397247492,
+      "mask": 1252719312,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11306247
+    },
+    {
+      "destination": 3731217375,
+      "mask": 2011158047,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12769099
+    },
+    {
+      "destination": 3937033584,
+      "mask": 3041751297,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11165040
+    },
+    {
+      "destination": 567628635,
+      "mask": 800911993,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12764784
+    },
+    {
+      "destination": 2463723078,
+      "mask": 1654617564,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14249542
+    },
+    {
+      "destination": 1608162182,
+      "mask": 1771371240,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11066826
+    },
+    {
+      "destination": 992651913,
+      "mask": 3943910270,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2796169
+    },
+    {
+      "destination": 3998846424,
+      "mask": 1005820688,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13801529
+    },
+    {
+      "destination": 544138732,
+      "mask": 2406047256,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7267820
+    },
+    {
+      "destination": 1596330021,
+      "mask": 1463940558,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3715227
+    },
+    {
+      "destination": 60791894,
+      "mask": 2739896136,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10460246
+    },
+    {
+      "destination": 1193012436,
+      "mask": 1065925122,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6801472
+    },
+    {
+      "destination": 3126431236,
+      "mask": 1891142181,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6262022
+    },
+    {
+      "destination": 2661680837,
+      "mask": 360787915,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9183945
+    },
+    {
+      "destination": 2695853374,
+      "mask": 592263468,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11498814
+    },
+    {
+      "destination": 3849218030,
+      "mask": 3465821270,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8931459
+    },
+    {
+      "destination": 1920482418,
+      "mask": 731897610,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7879794
+    },
+    {
+      "destination": 3145676310,
+      "mask": 3876336875,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3028139
+    },
+    {
+      "destination": 834972544,
+      "mask": 38433539,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12888960
+    },
+    {
+      "destination": 1389733563,
+      "mask": 2482364677,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15651882
+    },
+    {
+      "destination": 1568513031,
+      "mask": 4264808092,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8231943
+    },
+    {
+      "destination": 555733610,
+      "mask": 423226438,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3269712
+    },
+    {
+      "destination": 1008427123,
+      "mask": 499492241,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3106934
+    },
+    {
+      "destination": 996981912,
+      "mask": 4047027488,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4701251
+    },
+    {
+      "destination": 456063277,
+      "mask": 1475796694,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7139426
+    },
+    {
+      "destination": 274197665,
+      "mask": 3815121720,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6381399
+    },
+    {
+      "destination": 167707656,
+      "mask": 2947982009,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16387603
+    },
+    {
+      "destination": 2619896439,
+      "mask": 1737771226,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7558332
+    },
+    {
+      "destination": 2623101676,
+      "mask": 3629656433,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5855980
+    },
+    {
+      "destination": 745333680,
+      "mask": 512351843,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8445818
+    },
+    {
+      "destination": 2993724964,
+      "mask": 1399200419,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7380516
+    },
+    {
+      "destination": 4282196222,
+      "mask": 1440661528,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12098125
+    },
+    {
+      "destination": 3993184689,
+      "mask": 1791964433,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2304663
+    },
+    {
+      "destination": 2981202665,
+      "mask": 1422251646,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12566938
+    },
+    {
+      "destination": 2747898995,
+      "mask": 1846368122,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13212787
+    },
+    {
+      "destination": 1486519588,
+      "mask": 3663734001,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7421619
+    },
+    {
+      "destination": 3723098355,
+      "mask": 2515778975,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15525593
+    },
+    {
+      "destination": 3781403573,
+      "mask": 1795917150,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2461048
+    },
+    {
+      "destination": 4238217066,
+      "mask": 2629974733,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10556276
+    },
+    {
+      "destination": 3631407021,
+      "mask": 216410996,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13325184
+    },
+    {
+      "destination": 1568389142,
+      "mask": 1665803580,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8108054
+    },
+    {
+      "destination": 1789538193,
+      "mask": 956886010,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3715802
+    },
+    {
+      "destination": 1151148525,
+      "mask": 3546194631,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10297837
+    },
+    {
+      "destination": 70474510,
+      "mask": 3369623149,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11558230
+    },
+    {
+      "destination": 2874081327,
+      "mask": 2028126233,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7417129
+    },
+    {
+      "destination": 4048564746,
+      "mask": 964787549,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7497284
+    },
+    {
+      "destination": 1481305232,
+      "mask": 1820026992,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4910224
+    },
+    {
+      "destination": 1676590133,
+      "mask": 4178998501,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5671344
+    },
+    {
+      "destination": 2061698886,
+      "mask": 3261766913,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14878534
+    },
+    {
+      "destination": 3183036065,
+      "mask": 3859570778,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4151407
+    },
+    {
+      "destination": 375829062,
+      "mask": 3599301068,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6730310
+    },
+    {
+      "destination": 3272204337,
+      "mask": 1707301726,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9535058
+    },
+    {
+      "destination": 3418493683,
+      "mask": 527906305,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12718835
+    },
+    {
+      "destination": 3145355053,
+      "mask": 3554674359,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13112983
+    },
+    {
+      "destination": 1917441229,
+      "mask": 3918819088,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4838605
+    },
+    {
+      "destination": 1629825388,
+      "mask": 4059140952,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12942428
+    },
+    {
+      "destination": 2550613222,
+      "mask": 602160842,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3949279
+    },
+    {
+      "destination": 4026375053,
+      "mask": 2004888541,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10833093
+    },
+    {
+      "destination": 1585371724,
+      "mask": 2782868116,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9679964
+    },
+    {
+      "destination": 2984701813,
+      "mask": 3386895063,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14740416
+    },
+    {
+      "destination": 1088922178,
+      "mask": 1642692206,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15177805
+    },
+    {
+      "destination": 2697953726,
+      "mask": 1407874468,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14972841
+    },
+    {
+      "destination": 1557960981,
+      "mask": 71383961,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14457109
+    },
+    {
+      "destination": 3392161935,
+      "mask": 1461755473,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2393187
+    },
+    {
+      "destination": 1567932306,
+      "mask": 2945899595,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7651218
+    },
+    {
+      "destination": 3280778354,
+      "mask": 2260299957,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11305634
+    },
+    {
+      "destination": 419891589,
+      "mask": 3995363516,
+      "weight_bits": "000000000000f03f",
+      "native_result": 461189
+    },
+    {
+      "destination": 3452084499,
+      "mask": 1840823288,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12235704
+    },
+    {
+      "destination": 324428313,
+      "mask": 3141902171,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5661209
+    },
+    {
+      "destination": 1908154356,
+      "mask": 3761728092,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6181769
+    },
+    {
+      "destination": 3078220865,
+      "mask": 2291625813,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7990337
+    },
+    {
+      "destination": 781187850,
+      "mask": 1033628619,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9957265
+    },
+    {
+      "destination": 2011533639,
+      "mask": 1731806943,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15044935
+    },
+    {
+      "destination": 3672772143,
+      "mask": 3600539444,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11706418
+    },
+    {
+      "destination": 334455533,
+      "mask": 840515415,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15688429
+    },
+    {
+      "destination": 1957432669,
+      "mask": 1066452484,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9997854
+    },
+    {
+      "destination": 1140691810,
+      "mask": 4145338350,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16618338
+    },
+    {
+      "destination": 1247105193,
+      "mask": 145619025,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9684842
+    },
+    {
+      "destination": 1308368272,
+      "mask": 2023867617,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16522640
+    },
+    {
+      "destination": 1447181343,
+      "mask": 1971099295,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6978424
+    },
+    {
+      "destination": 491008501,
+      "mask": 3244924657,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4469237
+    },
+    {
+      "destination": 1932697528,
+      "mask": 3182619097,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9294799
+    },
+    {
+      "destination": 1895829610,
+      "mask": 2563402649,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1842288
+    },
+    {
+      "destination": 3993153848,
+      "mask": 3290929146,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1810111
+    },
+    {
+      "destination": 4165778162,
+      "mask": 1678155826,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5028594
+    },
+    {
+      "destination": 784206482,
+      "mask": 2576282722,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10268016
+    },
+    {
+      "destination": 3678294209,
+      "mask": 323441248,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4083905
+    },
+    {
+      "destination": 630168700,
+      "mask": 1423598487,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13136016
+    },
+    {
+      "destination": 4126190474,
+      "mask": 1928700187,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15837031
+    },
+    {
+      "destination": 1913776668,
+      "mask": 2314019890,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12406317
+    },
+    {
+      "destination": 2728521584,
+      "mask": 1324474786,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12118654
+    },
+    {
+      "destination": 1412766174,
+      "mask": 2465339982,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13244780
+    },
+    {
+      "destination": 127653784,
+      "mask": 4147756573,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10213272
+    },
+    {
+      "destination": 703771003,
+      "mask": 3711018952,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6990256
+    },
+    {
+      "destination": 942107898,
+      "mask": 3025882067,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2583802
+    },
+    {
+      "destination": 2673162294,
+      "mask": 2658943671,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7356304
+    },
+    {
+      "destination": 2133210010,
+      "mask": 4130298933,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2503578
+    },
+    {
+      "destination": 4103885751,
+      "mask": 1542375910,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14462939
+    },
+    {
+      "destination": 4018035311,
+      "mask": 647187658,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8280687
+    },
+    {
+      "destination": 3440216165,
+      "mask": 3701373083,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7502986
+    },
+    {
+      "destination": 700105871,
+      "mask": 340383057,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12240015
+    },
+    {
+      "destination": 1848113961,
+      "mask": 1279567346,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3915445
+    },
+    {
+      "destination": 2574718159,
+      "mask": 1194264987,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7804111
+    },
+    {
+      "destination": 4237353406,
+      "mask": 2887705217,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4252051
+    },
+    {
+      "destination": 573631242,
+      "mask": 37318748,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3205898
+    },
+    {
+      "destination": 1039822210,
+      "mask": 2776988871,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11040690
+    },
+    {
+      "destination": 4209648616,
+      "mask": 3278056254,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15344616
+    },
+    {
+      "destination": 2049082809,
+      "mask": 290184084,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4112799
+    },
+    {
+      "destination": 1508310536,
+      "mask": 2294049635,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14872847
+    },
+    {
+      "destination": 3258701466,
+      "mask": 444816602,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7176390
+    },
+    {
+      "destination": 3241301953,
+      "mask": 4255441180,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3299265
+    },
+    {
+      "destination": 4148328482,
+      "mask": 3149081684,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9584965
+    },
+    {
+      "destination": 4039838218,
+      "mask": 3900476565,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13306378
+    },
+    {
+      "destination": 67101543,
+      "mask": 1771047785,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11619176
+    },
+    {
+      "destination": 2925216741,
+      "mask": 1927926028,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8415403
+    },
+    {
+      "destination": 2227496917,
+      "mask": 420760033,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4749533
+    },
+    {
+      "destination": 4248507235,
+      "mask": 812729481,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3871587
+    },
+    {
+      "destination": 4070563362,
+      "mask": 3618786590,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11302431
+    },
+    {
+      "destination": 3821338707,
+      "mask": 1513692042,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12910675
+    },
+    {
+      "destination": 1679427413,
+      "mask": 1019541563,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9943105
+    },
+    {
+      "destination": 4035384879,
+      "mask": 4235438700,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8853039
+    },
+    {
+      "destination": 1612877755,
+      "mask": 1585521367,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6570702
+    },
+    {
+      "destination": 4109947099,
+      "mask": 292644365,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16306395
+    },
+    {
+      "destination": 3224007751,
+      "mask": 2886522638,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1358111
+    },
+    {
+      "destination": 2902863011,
+      "mask": 2823100351,
+      "weight_bits": "000000000000f03f",
+      "native_result": 404643
+    },
+    {
+      "destination": 2906673089,
+      "mask": 1270620552,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10104215
+    },
+    {
+      "destination": 2556630320,
+      "mask": 3450794897,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6626355
+    },
+    {
+      "destination": 1633129384,
+      "mask": 1406244763,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11703966
+    },
+    {
+      "destination": 3866023909,
+      "mask": 3705522515,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8836037
+    },
+    {
+      "destination": 2779777333,
+      "mask": 2858804906,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8102790
+    },
+    {
+      "destination": 1272689679,
+      "mask": 3513246970,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14398479
+    },
+    {
+      "destination": 2802820047,
+      "mask": 1350001780,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5731983
+    },
+    {
+      "destination": 2706209671,
+      "mask": 2240040514,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5077895
+    },
+    {
+      "destination": 2361730607,
+      "mask": 887667282,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14719306
+    },
+    {
+      "destination": 2357674222,
+      "mask": 3098403497,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8930540
+    },
+    {
+      "destination": 1291593561,
+      "mask": 1857654635,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13333094
+    },
+    {
+      "destination": 1510697804,
+      "mask": 645126120,
+      "weight_bits": "000000000000f03f",
+      "native_result": 748364
+    },
+    {
+      "destination": 747093836,
+      "mask": 1604790784,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10311190
+    },
+    {
+      "destination": 1496428511,
+      "mask": 4040379567,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5086678
+    },
+    {
+      "destination": 1232522100,
+      "mask": 1573752080,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11967529
+    },
+    {
+      "destination": 909856942,
+      "mask": 1158095267,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3887278
+    },
+    {
+      "destination": 3797674306,
+      "mask": 3782688887,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7238247
+    },
+    {
+      "destination": 2081241802,
+      "mask": 3592158154,
+      "weight_bits": "000000000000f03f",
+      "native_result": 867018
+    },
+    {
+      "destination": 1270088510,
+      "mask": 3700596388,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10252165
+    },
+    {
+      "destination": 2654107070,
+      "mask": 1581600899,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3306942
+    },
+    {
+      "destination": 1169322834,
+      "mask": 1977946183,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14231113
+    },
+    {
+      "destination": 2875737126,
+      "mask": 3652949989,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7227957
+    },
+    {
+      "destination": 2507578410,
+      "mask": 2464643129,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13467701
+    },
+    {
+      "destination": 87146002,
+      "mask": 1374921262,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7058714
+    },
+    {
+      "destination": 683315962,
+      "mask": 805991686,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4095311
+    },
+    {
+      "destination": 2283615709,
+      "mask": 637943792,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1914333
+    },
+    {
+      "destination": 1920346122,
+      "mask": 2225188100,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9733381
+    },
+    {
+      "destination": 3698768517,
+      "mask": 2187574388,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7780997
+    },
+    {
+      "destination": 4237810378,
+      "mask": 1131267886,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7982172
+    },
+    {
+      "destination": 2041172968,
+      "mask": 316651073,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11914434
+    },
+    {
+      "destination": 2951327620,
+      "mask": 4193507028,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15781315
+    },
+    {
+      "destination": 3045055718,
+      "mask": 765707222,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8379622
+    },
+    {
+      "destination": 1593042275,
+      "mask": 3006227538,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6916695
+    },
+    {
+      "destination": 3514566885,
+      "mask": 177028333,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8128741
+    },
+    {
+      "destination": 2764220032,
+      "mask": 2437479402,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7135690
+    },
+    {
+      "destination": 2420001277,
+      "mask": 1598746773,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4082173
+    },
+    {
+      "destination": 530602166,
+      "mask": 2933353738,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13199155
+    },
+    {
+      "destination": 3978577708,
+      "mask": 489691435,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2377516
+    },
+    {
+      "destination": 1524793018,
+      "mask": 171450852,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6962391
+    },
+    {
+      "destination": 2237080188,
+      "mask": 829567389,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5710460
+    },
+    {
+      "destination": 4278378313,
+      "mask": 3485748314,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9466453
+    },
+    {
+      "destination": 1461795560,
+      "mask": 1508507575,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5598683
+    },
+    {
+      "destination": 1468736132,
+      "mask": 2286235068,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5843371
+    },
+    {
+      "destination": 2150081375,
+      "mask": 1859596114,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4754524
+    },
+    {
+      "destination": 1009454847,
+      "mask": 241278101,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5271988
+    },
+    {
+      "destination": 2394143400,
+      "mask": 4223384797,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11778732
+    },
+    {
+      "destination": 2438642858,
+      "mask": 3231286027,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8819770
+    },
+    {
+      "destination": 176872801,
+      "mask": 2561192695,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9100386
+    },
+    {
+      "destination": 3689226265,
+      "mask": 1783128013,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7818391
+    },
+    {
+      "destination": 2696478512,
+      "mask": 2462400519,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12183338
+    },
+    {
+      "destination": 4192474585,
+      "mask": 3397327451,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10295424
+    },
+    {
+      "destination": 4126029982,
+      "mask": 3053316612,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15955049
+    },
+    {
+      "destination": 721276442,
+      "mask": 3370225814,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15179385
+    },
+    {
+      "destination": 178974941,
+      "mask": 4161740356,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11202781
+    },
+    {
+      "destination": 2815294602,
+      "mask": 1201320539,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11126889
+    },
+    {
+      "destination": 2676799903,
+      "mask": 409475926,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9222559
+    },
+    {
+      "destination": 620337086,
+      "mask": 2320249230,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8343452
+    },
+    {
+      "destination": 522980214,
+      "mask": 776362917,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2886518
+    },
+    {
+      "destination": 3734276414,
+      "mask": 2566941415,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2913204
+    },
+    {
+      "destination": 137488405,
+      "mask": 1141847710,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3270677
+    },
+    {
+      "destination": 2866664698,
+      "mask": 2397861732,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15240068
+    },
+    {
+      "destination": 4015786459,
+      "mask": 3998610342,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6031835
+    },
+    {
+      "destination": 2448619282,
+      "mask": 688961546,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5491212
+    },
+    {
+      "destination": 339169879,
+      "mask": 2135850691,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3625559
+    },
+    {
+      "destination": 1612940747,
+      "mask": 1928482494,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12999104
+    },
+    {
+      "destination": 373181106,
+      "mask": 3881902850,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4082354
+    },
+    {
+      "destination": 61430745,
+      "mask": 4082348517,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7116769
+    },
+    {
+      "destination": 1586967926,
+      "mask": 3184081481,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10302831
+    },
+    {
+      "destination": 3558179498,
+      "mask": 1344710945,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2137418
+    },
+    {
+      "destination": 4006772246,
+      "mask": 1779935784,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13794838
+    },
+    {
+      "destination": 485622676,
+      "mask": 1896498094,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5189542
+    },
+    {
+      "destination": 1768119880,
+      "mask": 4100174919,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6512200
+    },
+    {
+      "destination": 221393771,
+      "mask": 1512666687,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2842956
+    },
+    {
+      "destination": 2442792713,
+      "mask": 2354466139,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10096393
+    },
+    {
+      "destination": 123162558,
+      "mask": 844637664,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5714389
+    },
+    {
+      "destination": 2620952948,
+      "mask": 3555684997,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7112824
+    },
+    {
+      "destination": 3492151822,
+      "mask": 799108024,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8145797
+    },
+    {
+      "destination": 1486158449,
+      "mask": 3546301763,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9763441
+    },
+    {
+      "destination": 3824153780,
+      "mask": 4109929599,
+      "weight_bits": "333333333333d33f",
+      "native_result": 16163209
+    },
+    {
+      "destination": 1816155069,
+      "mask": 2423303714,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4215741
+    },
+    {
+      "destination": 3788006816,
+      "mask": 1175938613,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5006677
+    },
+    {
+      "destination": 4108401074,
+      "mask": 2717821081,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15425449
+    },
+    {
+      "destination": 2425773510,
+      "mask": 1385445124,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9716286
+    },
+    {
+      "destination": 3729291856,
+      "mask": 3414201703,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4749904
+    },
+    {
+      "destination": 33965470,
+      "mask": 1503410842,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7290267
+    },
+    {
+      "destination": 2901692451,
+      "mask": 2589824984,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16011299
+    },
+    {
+      "destination": 4119114561,
+      "mask": 2253802873,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6515560
+    },
+    {
+      "destination": 2228543828,
+      "mask": 2797614231,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13750106
+    },
+    {
+      "destination": 3838563611,
+      "mask": 2642232869,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9728034
+    },
+    {
+      "destination": 3184883615,
+      "mask": 3058031790,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13989791
+    },
+    {
+      "destination": 798055007,
+      "mask": 1943254763,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12754888
+    },
+    {
+      "destination": 3947572628,
+      "mask": 3787025006,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5452177
+    },
+    {
+      "destination": 2580328064,
+      "mask": 487341165,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4546162
+    },
+    {
+      "destination": 1241644565,
+      "mask": 2645672865,
+      "weight_bits": "000000000000f03f",
+      "native_result": 588571
+    },
+    {
+      "destination": 1104336238,
+      "mask": 1260512825,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5693512
+    },
+    {
+      "destination": 581076924,
+      "mask": 1354401015,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10716864
+    },
+    {
+      "destination": 2663314930,
+      "mask": 2472316322,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7974073
+    },
+    {
+      "destination": 3950713676,
+      "mask": 2884089113,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9847358
+    },
+    {
+      "destination": 2346885738,
+      "mask": 3133769274,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13602118
+    },
+    {
+      "destination": 2637447922,
+      "mask": 3246803829,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3425010
+    },
+    {
+      "destination": 3600929418,
+      "mask": 2346517799,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13514046
+    },
+    {
+      "destination": 84611488,
+      "mask": 3044469840,
+      "weight_bits": "000000000000f03f",
+      "native_result": 725408
+    },
+    {
+      "destination": 2215463783,
+      "mask": 2848972967,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10402454
+    },
+    {
+      "destination": 1799938706,
+      "mask": 149176740,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7256726
+    },
+    {
+      "destination": 3944200054,
+      "mask": 1233508005,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6605974
+    },
+    {
+      "destination": 3042486317,
+      "mask": 3761934900,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5810221
+    },
+    {
+      "destination": 2251078813,
+      "mask": 2901348620,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12924203
+    },
+    {
+      "destination": 3939438409,
+      "mask": 2205223335,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13569865
+    },
+    {
+      "destination": 1286150951,
+      "mask": 1242965888,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4334437
+    },
+    {
+      "destination": 2689364611,
+      "mask": 1558971803,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7885961
+    },
+    {
+      "destination": 455384662,
+      "mask": 3393290319,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3704913
+    },
+    {
+      "destination": 1346264983,
+      "mask": 3103918452,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4087703
+    },
+    {
+      "destination": 2805545041,
+      "mask": 17332741,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1467931
+    },
+    {
+      "destination": 844681597,
+      "mask": 1428446595,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5820797
+    },
+    {
+      "destination": 1896349555,
+      "mask": 1370722401,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8564582
+    },
+    {
+      "destination": 3120559902,
+      "mask": 3979332900,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16774942
+    },
+    {
+      "destination": 3403913586,
+      "mask": 859293305,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6994038
+    },
+    {
+      "destination": 175574519,
+      "mask": 4033229444,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7802359
+    },
+    {
+      "destination": 1171322045,
+      "mask": 3419925390,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14019993
+    },
+    {
+      "destination": 1747439562,
+      "mask": 3066056130,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3588553
+    },
+    {
+      "destination": 4156318792,
+      "mask": 1476734322,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3882341
+    },
+    {
+      "destination": 220674213,
+      "mask": 1923435976,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2570405
+    },
+    {
+      "destination": 1796894100,
+      "mask": 1066607261,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7223450
+    },
+    {
+      "destination": 2789030936,
+      "mask": 2616875429,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8078662
+    },
+    {
+      "destination": 353570886,
+      "mask": 1244419703,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2376040
+    },
+    {
+      "destination": 3385365394,
+      "mask": 312818702,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13144978
+    },
+    {
+      "destination": 3022118467,
+      "mask": 3713525983,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4646320
+    },
+    {
+      "destination": 2669375685,
+      "mask": 2417497553,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1798341
+    },
+    {
+      "destination": 1204284710,
+      "mask": 3608372874,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4755052
+    },
+    {
+      "destination": 2733714657,
+      "mask": 232481727,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15480793
+    },
+    {
+      "destination": 3850168223,
+      "mask": 3683113637,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8641955
+    },
+    {
+      "destination": 3878369672,
+      "mask": 3837526801,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3617917
+    },
+    {
+      "destination": 1610808530,
+      "mask": 3999095668,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4295568
+    },
+    {
+      "destination": 2944713010,
+      "mask": 1256801913,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10395716
+    },
+    {
+      "destination": 1020317446,
+      "mask": 4255150846,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11439539
+    },
+    {
+      "destination": 3568395676,
+      "mask": 1291692428,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13270166
+    },
+    {
+      "destination": 2255163164,
+      "mask": 2348151809,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14205958
+    },
+    {
+      "destination": 1982481620,
+      "mask": 1640462013,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4082385
+    },
+    {
+      "destination": 2364985529,
+      "mask": 3887338124,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12994456
+    },
+    {
+      "destination": 295495915,
+      "mask": 1352348186,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10283243
+    },
+    {
+      "destination": 10987717,
+      "mask": 3686406462,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11812963
+    },
+    {
+      "destination": 919922703,
+      "mask": 2591092716,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13953039
+    },
+    {
+      "destination": 2721201504,
+      "mask": 4093904463,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1119828
+    },
+    {
+      "destination": 195675305,
+      "mask": 3888121212,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11251876
+    },
+    {
+      "destination": 3504558676,
+      "mask": 2603511848,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6580021
+    },
+    {
+      "destination": 1845487573,
+      "mask": 2500420970,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16771029
+    },
+    {
+      "destination": 3950839033,
+      "mask": 1941451940,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10954427
+    },
+    {
+      "destination": 1985030322,
+      "mask": 3769602710,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5516208
+    },
+    {
+      "destination": 3171383271,
+      "mask": 2965812042,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9675635
+    },
+    {
+      "destination": 3447395492,
+      "mask": 1550168113,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8066212
+    },
+    {
+      "destination": 748013323,
+      "mask": 2726921924,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9214348
+    },
+    {
+      "destination": 3525089921,
+      "mask": 1248357025,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1874561
+    },
+    {
+      "destination": 3256061795,
+      "mask": 3580035785,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4926634
+    },
+    {
+      "destination": 1887078256,
+      "mask": 2766002443,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9410650
+    },
+    {
+      "destination": 863088772,
+      "mask": 241852627,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7108539
+    },
+    {
+      "destination": 668245617,
+      "mask": 2793256899,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13934193
+    },
+    {
+      "destination": 3953693973,
+      "mask": 3387651717,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14449772
+    },
+    {
+      "destination": 2644741137,
+      "mask": 2182889867,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10718225
+    },
+    {
+      "destination": 1796156878,
+      "mask": 3517576969,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8108867
+    },
+    {
+      "destination": 1538655855,
+      "mask": 4128032464,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11929199
+    },
+    {
+      "destination": 1099964674,
+      "mask": 1296418857,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6001949
+    },
+    {
+      "destination": 2716479780,
+      "mask": 1532438489,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15348004
+    },
+    {
+      "destination": 1522402264,
+      "mask": 647139985,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10446758
+    },
+    {
+      "destination": 1651672780,
+      "mask": 1921532963,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7505612
+    },
+    {
+      "destination": 3447789006,
+      "mask": 385599753,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14853424
+    },
+    {
+      "destination": 3367406433,
+      "mask": 1293495595,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11963233
+    },
+    {
+      "destination": 2760278275,
+      "mask": 2095301751,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13481052
+    },
+    {
+      "destination": 2599143491,
+      "mask": 2240496491,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15452227
+    },
+    {
+      "destination": 1074210058,
+      "mask": 1701784194,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5187678
+    },
+    {
+      "destination": 8869721,
+      "mask": 794124733,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8869721
+    },
+    {
+      "destination": 3600091030,
+      "mask": 635607971,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13662624
+    },
+    {
+      "destination": 882325233,
+      "mask": 2583656991,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12275111
+    },
+    {
+      "destination": 1774774189,
+      "mask": 888759658,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15695735
+    },
+    {
+      "destination": 2785403670,
+      "mask": 539631447,
+      "weight_bits": "000000000000f03f",
+      "native_result": 385814
+    },
+    {
+      "destination": 3392784007,
+      "mask": 1234349525,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7845053
+    },
+    {
+      "destination": 1270486138,
+      "mask": 2070922944,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12194938
+    },
+    {
+      "destination": 385792667,
+      "mask": 2661586507,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12492898
+    },
+    {
+      "destination": 2321002182,
+      "mask": 3191811830,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5746374
+    },
+    {
+      "destination": 294483724,
+      "mask": 4029383314,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4750953
+    },
+    {
+      "destination": 173414572,
+      "mask": 1917339516,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5642412
+    },
+    {
+      "destination": 72465197,
+      "mask": 1987362171,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6929507
+    },
+    {
+      "destination": 138217778,
+      "mask": 346294397,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4000050
+    },
+    {
+      "destination": 2581797355,
+      "mask": 1892609155,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13874845
+    },
+    {
+      "destination": 4247884094,
+      "mask": 379223763,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3248446
+    },
+    {
+      "destination": 2755969353,
+      "mask": 2770281529,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2773821
+    },
+    {
+      "destination": 3168450873,
+      "mask": 2149089409,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14334265
+    },
+    {
+      "destination": 2940765735,
+      "mask": 3792014041,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1673379
+    },
+    {
+      "destination": 23778272,
+      "mask": 2820572111,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7001056
+    },
+    {
+      "destination": 3467268705,
+      "mask": 4062058713,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4663733
+    },
+    {
+      "destination": 1126165520,
+      "mask": 1637337717,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2092048
+    },
+    {
+      "destination": 305167767,
+      "mask": 1950465397,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3910015
+    },
+    {
+      "destination": 1374269340,
+      "mask": 1403290270,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15314844
+    },
+    {
+      "destination": 1210831437,
+      "mask": 230358123,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9629794
+    },
+    {
+      "destination": 880969226,
+      "mask": 4179262586,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8553994
+    },
+    {
+      "destination": 914344409,
+      "mask": 1376336691,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2909540
+    },
+    {
+      "destination": 767529121,
+      "mask": 992729238,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12554401
+    },
+    {
+      "destination": 3369480530,
+      "mask": 3046537206,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11100868
+    },
+    {
+      "destination": 2521086034,
+      "mask": 1692545895,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6920278
+    },
+    {
+      "destination": 3470256369,
+      "mask": 1032618164,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10657734
+    },
+    {
+      "destination": 3656268216,
+      "mask": 475971713,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15612344
+    },
+    {
+      "destination": 1818967850,
+      "mask": 571212584,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2626600
+    },
+    {
+      "destination": 697567028,
+      "mask": 46911105,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10232895
+    },
+    {
+      "destination": 1020190777,
+      "mask": 2245546218,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13988543
+    },
+    {
+      "destination": 2299748557,
+      "mask": 2072826748,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1269965
+    },
+    {
+      "destination": 2613057330,
+      "mask": 2821908411,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6072465
+    },
+    {
+      "destination": 616035308,
+      "mask": 273711401,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12055532
+    },
+    {
+      "destination": 686993390,
+      "mask": 1570335327,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11763337
+    },
+    {
+      "destination": 2585034432,
+      "mask": 1191055603,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6576081
+    },
+    {
+      "destination": 2735799416,
+      "mask": 2401789476,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2134589
+    },
+    {
+      "destination": 491290363,
+      "mask": 1450749474,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4751099
+    },
+    {
+      "destination": 44675304,
+      "mask": 2217674474,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5454057
+    },
+    {
+      "destination": 1566658724,
+      "mask": 1641125109,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7560113
+    },
+    {
+      "destination": 3822110156,
+      "mask": 1108790209,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5097924
+    },
+    {
+      "destination": 3328544366,
+      "mask": 455566172,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6655598
+    },
+    {
+      "destination": 1892002807,
+      "mask": 31328161,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14167477
+    },
+    {
+      "destination": 1553364242,
+      "mask": 3412665387,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9860370
+    },
+    {
+      "destination": 3037105788,
+      "mask": 3110380357,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4693077
+    },
+    {
+      "destination": 3097064966,
+      "mask": 4103557966,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10057222
+    },
+    {
+      "destination": 3380864467,
+      "mask": 2119363326,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6351089
+    },
+    {
+      "destination": 3275272428,
+      "mask": 2264755883,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8100309
+    },
+    {
+      "destination": 787259883,
+      "mask": 229915102,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12801761
+    },
+    {
+      "destination": 1171675003,
+      "mask": 1637986349,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14047099
+    },
+    {
+      "destination": 4197858044,
+      "mask": 2091573822,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8892534
+    },
+    {
+      "destination": 2614616292,
+      "mask": 1192631788,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14147812
+    },
+    {
+      "destination": 2304457287,
+      "mask": 3498017704,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7630218
+    },
+    {
+      "destination": 1506042619,
+      "mask": 1922446754,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12870395
+    },
+    {
+      "destination": 3900158069,
+      "mask": 1850687964,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5923517
+    },
+    {
+      "destination": 3102069965,
+      "mask": 1461278176,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15062221
+    },
+    {
+      "destination": 1554798771,
+      "mask": 1969142170,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7707553
+    },
+    {
+      "destination": 3988477760,
+      "mask": 3786926959,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12214339
+    },
+    {
+      "destination": 696391536,
+      "mask": 1659923169,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14178504
+    },
+    {
+      "destination": 925012300,
+      "mask": 1732243113,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2265420
+    },
+    {
+      "destination": 3599625551,
+      "mask": 593450396,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7111300
+    },
+    {
+      "destination": 431182688,
+      "mask": 3231320678,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11752288
+    },
+    {
+      "destination": 2787385258,
+      "mask": 608048853,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3545288
+    },
+    {
+      "destination": 3210112185,
+      "mask": 1764384118,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5663929
+    },
+    {
+      "destination": 1564252115,
+      "mask": 861192740,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5027160
+    },
+    {
+      "destination": 2522017841,
+      "mask": 4241219209,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6548797
+    },
+    {
+      "destination": 2173376832,
+      "mask": 3035741213,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14391588
+    },
+    {
+      "destination": 3115055907,
+      "mask": 1711231812,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13156398
+    },
+    {
+      "destination": 2750865296,
+      "mask": 282023830,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14186900
+    },
+    {
+      "destination": 1632152374,
+      "mask": 618385786,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6730308
+    },
+    {
+      "destination": 3502307820,
+      "mask": 2836104876,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4303039
+    },
+    {
+      "destination": 1199392463,
+      "mask": 4285659372,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8210127
+    },
+    {
+      "destination": 3519888160,
+      "mask": 818036315,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12860747
+    },
+    {
+      "destination": 1488058659,
+      "mask": 3872860328,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12111932
+    },
+    {
+      "destination": 2796509265,
+      "mask": 1560483950,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3550053
+    },
+    {
+      "destination": 2292127143,
+      "mask": 1195132027,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10425767
+    },
+    {
+      "destination": 2400706101,
+      "mask": 784143502,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9390965
+    },
+    {
+      "destination": 1090467720,
+      "mask": 943275337,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16725896
+    },
+    {
+      "destination": 3975428356,
+      "mask": 3655019151,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14691693
+    },
+    {
+      "destination": 2690286020,
+      "mask": 4164717443,
+      "weight_bits": "000000000000f03f",
+      "native_result": 5931460
+    },
+    {
+      "destination": 3912960043,
+      "mask": 3785630215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8657425
+    },
+    {
+      "destination": 3994782761,
+      "mask": 4273923762,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2790453
+    },
+    {
+      "destination": 2343349689,
+      "mask": 802614313,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13360204
+    },
+    {
+      "destination": 1770154837,
+      "mask": 4001393473,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8547157
+    },
+    {
+      "destination": 3809233836,
+      "mask": 2681704944,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10846431
+    },
+    {
+      "destination": 1703021085,
+      "mask": 3442779445,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8522269
+    },
+    {
+      "destination": 1216004075,
+      "mask": 1774573645,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11653494
+    },
+    {
+      "destination": 2509483652,
+      "mask": 229057605,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9678211
+    },
+    {
+      "destination": 1429466319,
+      "mask": 3437520349,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12288985
+    },
+    {
+      "destination": 1334277364,
+      "mask": 236736154,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8877300
+    },
+    {
+      "destination": 1074566024,
+      "mask": 908032954,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1671851
+    },
+    {
+      "destination": 4237149662,
+      "mask": 4080896438,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9291230
+    },
+    {
+      "destination": 1228835037,
+      "mask": 4253650899,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7507157
+    },
+    {
+      "destination": 2260038139,
+      "mask": 1104804502,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12356838
+    },
+    {
+      "destination": 995678702,
+      "mask": 2011804870,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13155534
+    },
+    {
+      "destination": 204156067,
+      "mask": 2790099313,
+      "weight_bits": "000000000000f03f",
+      "native_result": 2829475
+    },
+    {
+      "destination": 2418944344,
+      "mask": 662783416,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6831259
+    },
+    {
+      "destination": 3672295153,
+      "mask": 3426219438,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14862065
+    },
+    {
+      "destination": 4198282697,
+      "mask": 3592032646,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2376346
+    },
+    {
+      "destination": 1591822061,
+      "mask": 1616549772,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14763757
+    },
+    {
+      "destination": 2992206844,
+      "mask": 1761097787,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14107490
+    },
+    {
+      "destination": 2458168739,
+      "mask": 1328896173,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8695203
+    },
+    {
+      "destination": 2265390304,
+      "mask": 2504477428,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3357934
+    },
+    {
+      "destination": 1893814062,
+      "mask": 3559729785,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14765870
+    },
+    {
+      "destination": 4168357452,
+      "mask": 3803833435,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10857046
+    },
+    {
+      "destination": 2719635905,
+      "mask": 2204778900,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1726913
+    },
+    {
+      "destination": 652948413,
+      "mask": 3599661648,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11101296
+    },
+    {
+      "destination": 3402209782,
+      "mask": 1964203116,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13212150
+    },
+    {
+      "destination": 2130573563,
+      "mask": 1191989891,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5538726
+    },
+    {
+      "destination": 4085787008,
+      "mask": 1741159371,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9454729
+    },
+    {
+      "destination": 3168187185,
+      "mask": 4190260193,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13067954
+    },
+    {
+      "destination": 70804336,
+      "mask": 1693792326,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7492962
+    },
+    {
+      "destination": 3576002581,
+      "mask": 948726063,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7171367
+    },
+    {
+      "destination": 3043461646,
+      "mask": 531807081,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6982674
+    },
+    {
+      "destination": 4179172556,
+      "mask": 1171616155,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10968230
+    },
+    {
+      "destination": 577685287,
+      "mask": 138279711,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7259943
+    },
+    {
+      "destination": 275197264,
+      "mask": 3472722146,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14644933
+    },
+    {
+      "destination": 2900999744,
+      "mask": 3975729111,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15582064
+    },
+    {
+      "destination": 2925567801,
+      "mask": 161041215,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8873021
+    },
+    {
+      "destination": 2278586669,
+      "mask": 1557489700,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13661483
+    },
+    {
+      "destination": 2032121541,
+      "mask": 2363843369,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12088652
+    },
+    {
+      "destination": 1084058355,
+      "mask": 519478364,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12089795
+    },
+    {
+      "destination": 2106455215,
+      "mask": 452956339,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15246258
+    },
+    {
+      "destination": 1434368228,
+      "mask": 3830182027,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8304868
+    },
+    {
+      "destination": 2647569207,
+      "mask": 873583088,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4835512
+    },
+    {
+      "destination": 1919366550,
+      "mask": 654950371,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6763926
+    },
+    {
+      "destination": 1407541650,
+      "mask": 1672268977,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12364967
+    },
+    {
+      "destination": 1014944861,
+      "mask": 3594194359,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8311901
+    },
+    {
+      "destination": 2336959493,
+      "mask": 2870387919,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2457746
+    },
+    {
+      "destination": 3702702326,
+      "mask": 3619753545,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11775459
+    },
+    {
+      "destination": 2562149537,
+      "mask": 4044980167,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4747195
+    },
+    {
+      "destination": 4002433214,
+      "mask": 3840847906,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11167121
+    },
+    {
+      "destination": 410429057,
+      "mask": 317120199,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13423031
+    },
+    {
+      "destination": 656706933,
+      "mask": 1911613394,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6268816
+    },
+    {
+      "destination": 1128202630,
+      "mask": 4221432835,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8432426
+    },
+    {
+      "destination": 118489097,
+      "mask": 1956830839,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1048585
+    },
+    {
+      "destination": 1703085283,
+      "mask": 584629450,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12816336
+    },
+    {
+      "destination": 1972850257,
+      "mask": 3453351485,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10644813
+    },
+    {
+      "destination": 4273158777,
+      "mask": 1101013907,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10824075
+    },
+    {
+      "destination": 3877908872,
+      "mask": 4174644784,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4401528
+    },
+    {
+      "destination": 3314813832,
+      "mask": 2462592940,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12199330
+    },
+    {
+      "destination": 1322409366,
+      "mask": 1900519647,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13786518
+    },
+    {
+      "destination": 815644667,
+      "mask": 492593337,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7306444
+    },
+    {
+      "destination": 1788752550,
+      "mask": 3550292680,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10367654
+    },
+    {
+      "destination": 706438282,
+      "mask": 2514845061,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12023686
+    },
+    {
+      "destination": 2021189209,
+      "mask": 3044216273,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7923289
+    },
+    {
+      "destination": 1149328611,
+      "mask": 3409712356,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5253603
+    },
+    {
+      "destination": 3973636442,
+      "mask": 3796012804,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14213466
+    },
+    {
+      "destination": 1314043984,
+      "mask": 3165558601,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9674827
+    },
+    {
+      "destination": 3705860277,
+      "mask": 1756895336,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14672047
+    },
+    {
+      "destination": 612210643,
+      "mask": 1420731365,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10461151
+    },
+    {
+      "destination": 1325292089,
+      "mask": 718048462,
+      "weight_bits": "000000000000f03f",
+      "native_result": 16146767
+    },
+    {
+      "destination": 3770747948,
+      "mask": 2988975670,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5578291
+    },
+    {
+      "destination": 2061237235,
+      "mask": 3629521584,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14416883
+    },
+    {
+      "destination": 3357395451,
+      "mask": 2423629875,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5943662
+    },
+    {
+      "destination": 381883805,
+      "mask": 4284814837,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12785053
+    },
+    {
+      "destination": 4240411756,
+      "mask": 2494596543,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11831207
+    },
+    {
+      "destination": 71316622,
+      "mask": 1773725050,
+      "weight_bits": "000000000000f03f",
+      "native_result": 4735116
+    },
+    {
+      "destination": 1790944115,
+      "mask": 2774291694,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7957449
+    },
+    {
+      "destination": 41835700,
+      "mask": 4136097421,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8281268
+    },
+    {
+      "destination": 904868622,
+      "mask": 4198261146,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7426928
+    },
+    {
+      "destination": 1374210923,
+      "mask": 3963577709,
+      "weight_bits": "000000000000f03f",
+      "native_result": 15256427
+    },
+    {
+      "destination": 754608772,
+      "mask": 2646490631,
+      "weight_bits": "333333333333d33f",
+      "native_result": 13519144
+    },
+    {
+      "destination": 3877866349,
+      "mask": 4126949476,
+      "weight_bits": "000000000000f03f",
+      "native_result": 7106921
+    },
+    {
+      "destination": 2745400631,
+      "mask": 2670906361,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5485502
+    },
+    {
+      "destination": 1763107933,
+      "mask": 1192936213,
+      "weight_bits": "000000000000f03f",
+      "native_result": 1500253
+    },
+    {
+      "destination": 1855174220,
+      "mask": 4009146546,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14792605
+    },
+    {
+      "destination": 3248700240,
+      "mask": 820325734,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11745109
+    },
+    {
+      "destination": 1283140258,
+      "mask": 1735615849,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7689082
+    },
+    {
+      "destination": 2611708471,
+      "mask": 1789550532,
+      "weight_bits": "000000000000f03f",
+      "native_result": 11174201
+    },
+    {
+      "destination": 1773844414,
+      "mask": 4111413432,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4348089
+    },
+    {
+      "destination": 3013686837,
+      "mask": 699477658,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10564921
+    },
+    {
+      "destination": 3292935689,
+      "mask": 1819631629,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6705931
+    },
+    {
+      "destination": 1504557795,
+      "mask": 1609380230,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12489673
+    },
+    {
+      "destination": 560628612,
+      "mask": 1934230439,
+      "weight_bits": "333333333333d33f",
+      "native_result": 5450140
+    },
+    {
+      "destination": 3453356886,
+      "mask": 3946619786,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14027606
+    },
+    {
+      "destination": 3644281409,
+      "mask": 3721360237,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11037281
+    },
+    {
+      "destination": 719420279,
+      "mask": 966244984,
+      "weight_bits": "000000000000f03f",
+      "native_result": 14777207
+    },
+    {
+      "destination": 3540038404,
+      "mask": 577320171,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4807333
+    },
+    {
+      "destination": 2211483631,
+      "mask": 3013240256,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13668335
+    },
+    {
+      "destination": 3999915438,
+      "mask": 1135005561,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9687944
+    },
+    {
+      "destination": 4212183385,
+      "mask": 2935627488,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6133125
+    },
+    {
+      "destination": 935760066,
+      "mask": 246818018,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12206809
+    },
+    {
+      "destination": 3905860741,
+      "mask": 4033883258,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13546629
+    },
+    {
+      "destination": 3802132422,
+      "mask": 421005725,
+      "weight_bits": "333333333333d33f",
+      "native_result": 4214185
+    },
+    {
+      "destination": 2127028241,
+      "mask": 1869131966,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13099025
+    },
+    {
+      "destination": 18896828,
+      "mask": 179374027,
+      "weight_bits": "333333333333d33f",
+      "native_result": 8854982
+    },
+    {
+      "destination": 4052120146,
+      "mask": 3329094417,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8811090
+    },
+    {
+      "destination": 3312085275,
+      "mask": 3954582370,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10499662
+    },
+    {
+      "destination": 3543400099,
+      "mask": 591945147,
+      "weight_bits": "000000000000f03f",
+      "native_result": 3407523
+    },
+    {
+      "destination": 1940288483,
+      "mask": 691970819,
+      "weight_bits": "333333333333d33f",
+      "native_result": 6132806
+    },
+    {
+      "destination": 3433275154,
+      "mask": 3524004065,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10723090
+    },
+    {
+      "destination": 854780050,
+      "mask": 3413969599,
+      "weight_bits": "333333333333d33f",
+      "native_result": 10505393
+    },
+    {
+      "destination": 1031655033,
+      "mask": 2465300517,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10467168
+    },
+    {
+      "destination": 971769995,
+      "mask": 2456622147,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9637976
+    },
+    {
+      "destination": 3464607003,
+      "mask": 3797781964,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8500507
+    },
+    {
+      "destination": 485329961,
+      "mask": 1269611913,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12562028
+    },
+    {
+      "destination": 2158067866,
+      "mask": 731903820,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10584218
+    },
+    {
+      "destination": 1857771377,
+      "mask": 2143083998,
+      "weight_bits": "333333333333d33f",
+      "native_result": 12302528
+    },
+    {
+      "destination": 396248337,
+      "mask": 1655221872,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10372369
+    },
+    {
+      "destination": 173091406,
+      "mask": 1151555463,
+      "weight_bits": "333333333333d33f",
+      "native_result": 9062773
+    },
+    {
+      "destination": 8141475,
+      "mask": 2326019668,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8141475
+    },
+    {
+      "destination": 453318786,
+      "mask": 2101905258,
+      "weight_bits": "333333333333d33f",
+      "native_result": 3368305
+    },
+    {
+      "destination": 2730017906,
+      "mask": 4115199409,
+      "weight_bits": "000000000000f03f",
+      "native_result": 12108914
+    },
+    {
+      "destination": 4079072829,
+      "mask": 3290267940,
+      "weight_bits": "333333333333d33f",
+      "native_result": 2002987
+    },
+    {
+      "destination": 2992960836,
+      "mask": 3114562978,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6616388
+    },
+    {
+      "destination": 2332683746,
+      "mask": 4263176825,
+      "weight_bits": "333333333333d33f",
+      "native_result": 1370776
+    },
+    {
+      "destination": 3932763687,
+      "mask": 689131371,
+      "weight_bits": "000000000000f03f",
+      "native_result": 6895143
+    },
+    {
+      "destination": 2295285970,
+      "mask": 3383383954,
+      "weight_bits": "333333333333d33f",
+      "native_result": 11817636
+    },
+    {
+      "destination": 1271358213,
+      "mask": 3655799166,
+      "weight_bits": "000000000000f03f",
+      "native_result": 13585955
+    },
+    {
+      "destination": 4121896901,
+      "mask": 1448646302,
+      "weight_bits": "333333333333d33f",
+      "native_result": 7500969
+    },
+    {
+      "destination": 913223454,
+      "mask": 182676836,
+      "weight_bits": "000000000000f03f",
+      "native_result": 9084718
+    },
+    {
+      "destination": 4047218004,
+      "mask": 1996431517,
+      "weight_bits": "333333333333d33f",
+      "native_result": 14170510
+    },
+    {
+      "destination": 2745336277,
+      "mask": 2158441983,
+      "weight_bits": "000000000000f03f",
+      "native_result": 10649813
+    },
+    {
+      "destination": 1116961690,
+      "mask": 1576851904,
+      "weight_bits": "333333333333d33f",
+      "native_result": 15189688
+    },
+    {
+      "destination": 3598718262,
+      "mask": 3663389757,
+      "weight_bits": "000000000000f03f",
+      "native_result": 8394038
+    }
+  ]
+}

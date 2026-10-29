@@ -1,0 +1,22 @@
+{
+  "source_sha256": "adb12cf3fd4125545b370d0e76dc6d80c47752d035c58c2af8671c9898df7d11",
+  "source_size": 1593344,
+  "original_source_unchanged": true,
+  "reader": "Jackcess 4.0.8 + Jackcess Encrypt 4.0.3",
+  "tables": 7,
+  "rows": 475,
+  "sqlite_values_match_json": true,
+  "sqlite_integrity_check": "ok",
+  "artifacts": {
+    "chemlab.sqlite3": "d9648795f811f4f7da0cae8b2f8e3de025d58c232a2f288beeb642b0a8bc99a6",
+    "schema.json": "c2ec035609189afa06da449c05610989ec07136b3500da6f04e9d2f851189997",
+    "schema.sqlite.sql": "4f8bfdff0a1d92272b4395f2691fd41077e30df954a75eb05e4a8f943c7cb799",
+    "tables/00.json": "e3a7f6d627e8616513a163d06d7ffd743fc4797baa4775370c51efbebe87055a",
+    "tables/01.json": "5ea3f8c9cf37cc1a89cfba2adc6f9e5469ba859d3a6c50af6fd75445fa69b82a",
+    "tables/02.json": "a4df72bae82ee6c39c368a2bf332228cd41da8c7cbfe7dcefa93cf23d863fc55",
+    "tables/03.json": "bb6154d864c893b1c765829539d14820d19456642a1c5bce1c9311ecb9da5b1c",
+    "tables/04.json": "131a4cf69e86a8dc7e1bac97eb16576466fc18e1bfd2ee23bebae3f31c60d909",
+    "tables/05.json": "7ffe1cea43861d986af6ab450f5212c8a525778d9e9a5400806b7d6f93bece54",
+    "tables/06.json": "4a00f0792cafbd27756542a504319383f40d18dab6192abf24c79f6d6a77949b"
+  }
+}

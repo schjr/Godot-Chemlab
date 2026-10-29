@@ -1,0 +1,1122 @@
+{
+  "binary_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "function": "0x004433B4",
+  "contract": "Original N18Click instructions; hosted AnsiString concatenation and VCL bitmap loading reads SHA-verified original BMP dimensions; checkbox/reset/assign are explicit VCL property boundaries; run flag=1 excludes paused redraw.",
+  "cases": [
+    {
+      "type": 101,
+      "subtype": 0,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dsg.bmp",
+        "_dsg.bmp"
+      ],
+      "active_bitmap": {
+        "width": 88,
+        "height": 18,
+        "filename": "dsg.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 101,
+      "subtype": 0,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 101,
+      "subtype": 0,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "sg0.bmp",
+        "_sg0.bmp"
+      ],
+      "active_bitmap": {
+        "width": 18,
+        "height": 88,
+        "filename": "sg0.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 101,
+      "subtype": 45,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dsg.bmp",
+        "_dsg.bmp"
+      ],
+      "active_bitmap": {
+        "width": 88,
+        "height": 18,
+        "filename": "dsg.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 101,
+      "subtype": 45,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 101,
+      "subtype": 45,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "sg45.bmp",
+        "_sg45.bmp"
+      ],
+      "active_bitmap": {
+        "width": 71,
+        "height": 72,
+        "filename": "sg45.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 101,
+      "subtype": 20,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dsg.bmp",
+        "_dsg.bmp"
+      ],
+      "active_bitmap": {
+        "width": 88,
+        "height": 18,
+        "filename": "dsg.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 101,
+      "subtype": 20,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 101,
+      "subtype": 20,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": [
+        "0x4d3864"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 100,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dsb100.bmp",
+        "_dsb100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 46,
+        "height": 42,
+        "filename": "dsb100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 100,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 102,
+      "subtype": 100,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "sb100.bmp",
+        "_sb100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 42,
+        "height": 46,
+        "filename": "sb100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 200,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dsb200.bmp",
+        "_dsb200.bmp"
+      ],
+      "active_bitmap": {
+        "width": 58,
+        "height": 53,
+        "filename": "dsb200.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 200,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 102,
+      "subtype": 200,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "sb200.bmp",
+        "_sb200.bmp"
+      ],
+      "active_bitmap": {
+        "width": 53,
+        "height": 58,
+        "filename": "sb200.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 500,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dsb500.bmp",
+        "_dsb500.bmp"
+      ],
+      "active_bitmap": {
+        "width": 82,
+        "height": 75,
+        "filename": "dsb500.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 500,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 102,
+      "subtype": 500,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "sb500.bmp",
+        "_sb500.bmp"
+      ],
+      "active_bitmap": {
+        "width": 75,
+        "height": 82,
+        "filename": "sb500.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 999,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": [
+        "0x4d3864"
+      ]
+    },
+    {
+      "type": 102,
+      "subtype": 999,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 102,
+      "subtype": 999,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": [
+        "0x4d3864"
+      ]
+    },
+    {
+      "type": 103,
+      "subtype": 100,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dzxp100.bmp",
+        "_dzxp100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 65,
+        "height": 60,
+        "filename": "dzxp100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 103,
+      "subtype": 100,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 103,
+      "subtype": 100,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "zxp100.bmp",
+        "_zxp100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 43,
+        "height": 52,
+        "filename": "zxp100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 103,
+      "subtype": 250,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dzxp250.bmp",
+        "_dzxp250.bmp"
+      ],
+      "active_bitmap": {
+        "width": 84,
+        "height": 80,
+        "filename": "dzxp250.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 103,
+      "subtype": 250,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 103,
+      "subtype": 250,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "zxp250.bmp",
+        "_zxp250.bmp"
+      ],
+      "active_bitmap": {
+        "width": 58,
+        "height": 66,
+        "filename": "zxp250.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 104,
+      "subtype": 100,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dydsp100.bmp",
+        "_dydsp100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 92,
+        "height": 63,
+        "filename": "dydsp100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 104,
+      "subtype": 100,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 104,
+      "subtype": 100,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "ydsp100.bmp",
+        "_ydsp100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 44,
+        "height": 82,
+        "filename": "ydsp100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 105,
+      "subtype": 100,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dpdsp100.bmp",
+        "_dpdsp100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 89,
+        "height": 62,
+        "filename": "dpdsp100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 105,
+      "subtype": 100,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 105,
+      "subtype": 100,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "pdsp100.bmp",
+        "_pdsp100.bmp"
+      ],
+      "active_bitmap": {
+        "width": 43,
+        "height": 79,
+        "filename": "pdsp100.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 106,
+      "subtype": 0,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dblg.bmp",
+        "_dblg.bmp"
+      ],
+      "active_bitmap": {
+        "width": 18,
+        "height": 99,
+        "filename": "dblg.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 106,
+      "subtype": 0,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 106,
+      "subtype": 0,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "blg.bmp",
+        "_blg.bmp"
+      ],
+      "active_bitmap": {
+        "width": 99,
+        "height": 18,
+        "filename": "blg.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 121,
+      "subtype": 50,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dzfm_50.bmp",
+        "_dzfm_50.bmp"
+      ],
+      "active_bitmap": {
+        "width": 17,
+        "height": 44,
+        "filename": "dzfm_50.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 121,
+      "subtype": 50,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 121,
+      "subtype": 50,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "zfm_50.bmp",
+        "_zfm_50.bmp"
+      ],
+      "active_bitmap": {
+        "width": 44,
+        "height": 17,
+        "filename": "zfm_50.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 201,
+      "subtype": 100,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dgkp.bmp",
+        "_dgkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 49,
+        "height": 30,
+        "filename": "dgkp.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 201,
+      "subtype": 100,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 201,
+      "subtype": 100,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "gkp.bmp",
+        "_gkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 30,
+        "height": 49,
+        "filename": "gkp.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 201,
+      "subtype": 1000,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dgkp_z.bmp",
+        "_dgkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 49,
+        "height": 30,
+        "filename": "dgkp_z.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 201,
+      "subtype": 1000,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 201,
+      "subtype": 1000,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "gkp_z.bmp",
+        "_gkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 30,
+        "height": 49,
+        "filename": "gkp_z.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 202,
+      "subtype": 100,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dxkp.bmp",
+        "_dxkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 52,
+        "height": 30,
+        "filename": "dxkp.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 202,
+      "subtype": 100,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 202,
+      "subtype": 100,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "xkp.bmp",
+        "_xkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 30,
+        "height": 52,
+        "filename": "xkp.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 202,
+      "subtype": 1000,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [
+        "dxkp_z.bmp",
+        "_dxkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 52,
+        "height": 30,
+        "filename": "dxkp_z.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 202,
+      "subtype": 1000,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 202,
+      "subtype": 1000,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [
+        "xkp_z.bmp",
+        "_xkp.bmp"
+      ],
+      "active_bitmap": {
+        "width": 30,
+        "height": 52,
+        "filename": "xkp_z.bmp"
+      },
+      "boundaries": [
+        "0x4016e8",
+        "0x4d3864",
+        "0x4e9160",
+        "0x540ec4",
+        "0x540fe8",
+        "0x541040",
+        "0x8000140",
+        "0x8000150"
+      ]
+    },
+    {
+      "type": 207,
+      "subtype": 50,
+      "orientation_before": 0,
+      "orientation_after": 2,
+      "menu_checked": 1,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": [
+        "0x4d3864"
+      ]
+    },
+    {
+      "type": 207,
+      "subtype": 50,
+      "orientation_before": 1,
+      "orientation_after": 1,
+      "menu_checked": null,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": []
+    },
+    {
+      "type": 207,
+      "subtype": 50,
+      "orientation_before": 2,
+      "orientation_after": 0,
+      "menu_checked": 0,
+      "loaded_paths": [],
+      "active_bitmap": {
+        "width": 7,
+        "height": 9
+      },
+      "boundaries": [
+        "0x4d3864"
+      ]
+    }
+  ]
+}

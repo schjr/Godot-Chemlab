@@ -1,0 +1,1084 @@
+{
+  "source_sha256": "7744d5c7c76d51418e00c67cda112c14a495c93b0386ee5a52f05e165702b71c",
+  "scope": "Actual original TBitmap/InitInstance writes; raw manager allocation explicit.\nGuard/poison bytes are diagnostic inputs, never assumed original heap defaults.\n",
+  "cases": [
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 0,
+        "poison": 0
+      },
+      "constructor_return": 33554448,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554960
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554960,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 0,
+        "poison": 165
+      },
+      "constructor_return": 33554448,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554960
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554960,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 0,
+        "poison": 255
+      },
+      "constructor_return": 33554448,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554960
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554960,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 1,
+        "poison": 0
+      },
+      "constructor_return": 33554448,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554960
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554960,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 1,
+        "poison": 165
+      },
+      "constructor_return": 33554448,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554960
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554960,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 1,
+        "poison": 255
+      },
+      "constructor_return": 33554448,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554960
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001002000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554960,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554960,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 0,
+        "monochrome": 0,
+        "poison": 0
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001000000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 0,
+        "monochrome": 0,
+        "poison": 165
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a510000002a5a5a5a5a5a5a5a500000020a5a5a5a5",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 0,
+        "monochrome": 0,
+        "poison": 255
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffff10000002ffffffffffffffff00000020ffffffff",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 0,
+        "monochrome": 1,
+        "poison": 0
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001000000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 0,
+        "monochrome": 1,
+        "poison": 165
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a510000002a5a5a5a5a5a5a5a500000020a5a5a5a5",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 0,
+        "monochrome": 1,
+        "poison": 255
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffff10000002ffffffffffffffff00000020ffffffff",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 129,
+        "monochrome": 0,
+        "poison": 0
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001000000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 129,
+        "monochrome": 0,
+        "poison": 165
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a510000002a5a5a5a5a5a5a5a500000020a5a5a5a5",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 129,
+        "monochrome": 0,
+        "poison": 255
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffff10000002ffffffffffffffff00000020ffffffff",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 129,
+        "monochrome": 1,
+        "poison": 0
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000001000000200000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 129,
+        "monochrome": 1,
+        "poison": 165
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a510000002a5a5a5a5a5a5a5a500000020a5a5a5a5",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 129,
+        "monochrome": 1,
+        "poison": 255
+      },
+      "constructor_return": 34603024,
+      "failed": false,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 33554448
+        }
+      ],
+      "blocks": [
+        {
+          "address": 34603024,
+          "size": 52,
+          "initial_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "f42a4e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffff10000002ffffffffffffffff00000020ffffffff",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        },
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 116,
+          "initial_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "final_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 4294967295,
+      "alias_addref": {
+        "shared": 33554448,
+        "before_hex": "942a4e0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "after_hex": "942a4e0002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 0,
+        "poison": 165,
+        "fail_allocation": 0
+      },
+      "constructor_return": 1,
+      "failed": true,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 0
+        },
+        {
+          "api": "OriginalRuntimeError",
+          "code": 1
+        }
+      ],
+      "blocks": [],
+      "allocations": [],
+      "fs_after": 4294967295,
+      "alias_addref": null
+    },
+    {
+      "input": {
+        "flag": 1,
+        "monochrome": 0,
+        "poison": 165,
+        "fail_allocation": 1
+      },
+      "constructor_return": 1,
+      "failed": true,
+      "events": [
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 52,
+          "result": 33554448
+        },
+        {
+          "api": "MemoryManager.GetMem",
+          "address": 5441200,
+          "size": 116,
+          "result": 0
+        },
+        {
+          "api": "OriginalRuntimeError",
+          "code": 1
+        }
+      ],
+      "blocks": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "allocations": [
+        {
+          "address": 33554448,
+          "size": 52,
+          "initial_hex": "a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5",
+          "final_hex": "f42a4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000",
+          "prefix_hex": "cccccccccccccccccccccccccccccccc",
+          "suffix_hex": "cccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "fs_after": 152042980,
+      "alias_addref": null
+    }
+  ]
+}

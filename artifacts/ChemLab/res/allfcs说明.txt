@@ -1,0 +1,12 @@
+Equation ID (example: 方程式197)
+Reactant count R
+Product count P
+Next R+P lines: species names (first R are reactants, then P products)
+Next R+P lines: stoichiometric coefficients matching those species
+Reaction heat
+Reaction condition (can be empty, or text like 温度>200)
+Reaction rate
+Equilibrium degree/constant
+Equilibrium mode (单向 or 可逆)
+Equation type (普通 / 离子 / 扩展)
+Optional note/title (can be empty)

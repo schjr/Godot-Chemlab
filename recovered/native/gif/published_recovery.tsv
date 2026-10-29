@@ -1,0 +1,5 @@
+address	published_name	discovery	status	message
+0x0045ACE0	Published_FormCreate	existing	decompiled	
+0x0045AD04	Published_FormDestroy	existing	decompiled	
+0x0045AD18	Published_ButtonConvertClick	existing	decompiled	
+0x0045B608	Published_ButtonSaveClick	existing	decompiled	

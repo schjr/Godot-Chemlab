@@ -1,0 +1,2348 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/例子/水的加热与沸腾.cem",
+    "byte_count": 2429,
+    "sha256": "e09e69c71587893f373cc284e35799acfc8938b4a171dff9fb6f84c5bfd46f94",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/水的加热与沸腾.cem",
+    "utf8_export": "utf8/例子/水的加热与沸腾.cem"
+  },
+  "format": "cem",
+  "header_lines": [
+    "仿真化学实验室 金华科 V3.0",
+    "6",
+    "8"
+  ],
+  "line_count": 582,
+  "lines": [
+    {
+      "number": 1,
+      "text": "仿真化学实验室 金华科 V3.0"
+    },
+    {
+      "number": 2,
+      "text": "6"
+    },
+    {
+      "number": 3,
+      "text": "8"
+    },
+    {
+      "number": 4,
+      "text": "0"
+    },
+    {
+      "number": 5,
+      "text": "0"
+    },
+    {
+      "number": 6,
+      "text": "1"
+    },
+    {
+      "number": 7,
+      "text": "容器1"
+    },
+    {
+      "number": 8,
+      "text": "102"
+    },
+    {
+      "number": 9,
+      "text": "200"
+    },
+    {
+      "number": 10,
+      "text": "147"
+    },
+    {
+      "number": 11,
+      "text": "251"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "200"
+    },
+    {
+      "number": 15,
+      "text": "29.5"
+    },
+    {
+      "number": 16,
+      "text": "0"
+    },
+    {
+      "number": 17,
+      "text": "0"
+    },
+    {
+      "number": 18,
+      "text": "0"
+    },
+    {
+      "number": 19,
+      "text": "0"
+    },
+    {
+      "number": 20,
+      "text": "0"
+    },
+    {
+      "number": 21,
+      "text": "6579300"
+    },
+    {
+      "number": 22,
+      "text": "0"
+    },
+    {
+      "number": 23,
+      "text": "0"
+    },
+    {
+      "number": 24,
+      "text": "0"
+    },
+    {
+      "number": 25,
+      "text": "0"
+    },
+    {
+      "number": 26,
+      "text": "0"
+    },
+    {
+      "number": 27,
+      "text": "6579300"
+    },
+    {
+      "number": 28,
+      "text": "0"
+    },
+    {
+      "number": 29,
+      "text": "0"
+    },
+    {
+      "number": 30,
+      "text": "0"
+    },
+    {
+      "number": 31,
+      "text": "0"
+    },
+    {
+      "number": 32,
+      "text": "0"
+    },
+    {
+      "number": 33,
+      "text": "0"
+    },
+    {
+      "number": 34,
+      "text": "容器2"
+    },
+    {
+      "number": 35,
+      "text": "3012"
+    },
+    {
+      "number": 36,
+      "text": "20"
+    },
+    {
+      "number": 37,
+      "text": ""
+    },
+    {
+      "number": 38,
+      "text": ""
+    },
+    {
+      "number": 39,
+      "text": ""
+    },
+    {
+      "number": 40,
+      "text": "0"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "1"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0"
+    },
+    {
+      "number": 45,
+      "text": "0"
+    },
+    {
+      "number": 46,
+      "text": "1"
+    },
+    {
+      "number": 47,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 48,
+      "text": "100"
+    },
+    {
+      "number": 49,
+      "text": "5.550621669627"
+    },
+    {
+      "number": 50,
+      "text": "2"
+    },
+    {
+      "number": 51,
+      "text": "20493728"
+    },
+    {
+      "number": 52,
+      "text": "方程式201"
+    },
+    {
+      "number": 53,
+      "text": "1"
+    },
+    {
+      "number": 54,
+      "text": "1"
+    },
+    {
+      "number": 55,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 56,
+      "text": "1"
+    },
+    {
+      "number": 57,
+      "text": "H2O(气体)"
+    },
+    {
+      "number": 58,
+      "text": "1"
+    },
+    {
+      "number": 59,
+      "text": "0"
+    },
+    {
+      "number": 60,
+      "text": "温度>98"
+    },
+    {
+      "number": 61,
+      "text": "0.01"
+    },
+    {
+      "number": 62,
+      "text": "100"
+    },
+    {
+      "number": 63,
+      "text": "单向"
+    },
+    {
+      "number": 64,
+      "text": "20492548"
+    },
+    {
+      "number": 65,
+      "text": "方程式196"
+    },
+    {
+      "number": 66,
+      "text": "1"
+    },
+    {
+      "number": 67,
+      "text": "1"
+    },
+    {
+      "number": 68,
+      "text": "H2O(气体)"
+    },
+    {
+      "number": 69,
+      "text": "1"
+    },
+    {
+      "number": 70,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 71,
+      "text": "1"
+    },
+    {
+      "number": 72,
+      "text": "0"
+    },
+    {
+      "number": 73,
+      "text": "温度<90"
+    },
+    {
+      "number": 74,
+      "text": "0.001"
+    },
+    {
+      "number": 75,
+      "text": "100"
+    },
+    {
+      "number": 76,
+      "text": "单向"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "1"
+    },
+    {
+      "number": 79,
+      "text": "10"
+    },
+    {
+      "number": 80,
+      "text": "0"
+    },
+    {
+      "number": 81,
+      "text": "0"
+    },
+    {
+      "number": 82,
+      "text": "0"
+    },
+    {
+      "number": 83,
+      "text": "0"
+    },
+    {
+      "number": 84,
+      "text": "0"
+    },
+    {
+      "number": 85,
+      "text": "0"
+    },
+    {
+      "number": 86,
+      "text": "0"
+    },
+    {
+      "number": 87,
+      "text": "0"
+    },
+    {
+      "number": 88,
+      "text": "0"
+    },
+    {
+      "number": 89,
+      "text": "0"
+    },
+    {
+      "number": 90,
+      "text": "0"
+    },
+    {
+      "number": 91,
+      "text": "0"
+    },
+    {
+      "number": 92,
+      "text": "0"
+    },
+    {
+      "number": 93,
+      "text": "0"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": "0"
+    },
+    {
+      "number": 96,
+      "text": "0"
+    },
+    {
+      "number": 97,
+      "text": "1"
+    },
+    {
+      "number": 98,
+      "text": "容器2"
+    },
+    {
+      "number": 99,
+      "text": "301"
+    },
+    {
+      "number": 100,
+      "text": "0"
+    },
+    {
+      "number": 101,
+      "text": "147"
+    },
+    {
+      "number": 102,
+      "text": "245"
+    },
+    {
+      "number": 103,
+      "text": "0"
+    },
+    {
+      "number": 104,
+      "text": "0"
+    },
+    {
+      "number": 105,
+      "text": "0"
+    },
+    {
+      "number": 106,
+      "text": "0"
+    },
+    {
+      "number": 107,
+      "text": "0"
+    },
+    {
+      "number": 108,
+      "text": "0"
+    },
+    {
+      "number": 109,
+      "text": "0"
+    },
+    {
+      "number": 110,
+      "text": "0"
+    },
+    {
+      "number": 111,
+      "text": "0"
+    },
+    {
+      "number": 112,
+      "text": "6579300"
+    },
+    {
+      "number": 113,
+      "text": "0"
+    },
+    {
+      "number": 114,
+      "text": "0"
+    },
+    {
+      "number": 115,
+      "text": "0"
+    },
+    {
+      "number": 116,
+      "text": "0"
+    },
+    {
+      "number": 117,
+      "text": "0"
+    },
+    {
+      "number": 118,
+      "text": "6579300"
+    },
+    {
+      "number": 119,
+      "text": "1"
+    },
+    {
+      "number": 120,
+      "text": "2"
+    },
+    {
+      "number": 121,
+      "text": "0"
+    },
+    {
+      "number": 122,
+      "text": "171"
+    },
+    {
+      "number": 123,
+      "text": "0"
+    },
+    {
+      "number": 124,
+      "text": "72"
+    },
+    {
+      "number": 125,
+      "text": ""
+    },
+    {
+      "number": 126,
+      "text": "0"
+    },
+    {
+      "number": 127,
+      "text": "20"
+    },
+    {
+      "number": 128,
+      "text": ""
+    },
+    {
+      "number": 129,
+      "text": ""
+    },
+    {
+      "number": 130,
+      "text": ""
+    },
+    {
+      "number": 131,
+      "text": "0"
+    },
+    {
+      "number": 132,
+      "text": "0"
+    },
+    {
+      "number": 133,
+      "text": "1"
+    },
+    {
+      "number": 134,
+      "text": "0"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": "0"
+    },
+    {
+      "number": 137,
+      "text": "0"
+    },
+    {
+      "number": 138,
+      "text": "0"
+    },
+    {
+      "number": 139,
+      "text": "0"
+    },
+    {
+      "number": 140,
+      "text": "1"
+    },
+    {
+      "number": 141,
+      "text": "10"
+    },
+    {
+      "number": 142,
+      "text": "0"
+    },
+    {
+      "number": 143,
+      "text": "0"
+    },
+    {
+      "number": 144,
+      "text": "0"
+    },
+    {
+      "number": 145,
+      "text": "0"
+    },
+    {
+      "number": 146,
+      "text": "0"
+    },
+    {
+      "number": 147,
+      "text": "0"
+    },
+    {
+      "number": 148,
+      "text": "0"
+    },
+    {
+      "number": 149,
+      "text": "0"
+    },
+    {
+      "number": 150,
+      "text": "0"
+    },
+    {
+      "number": 151,
+      "text": "0"
+    },
+    {
+      "number": 152,
+      "text": "0"
+    },
+    {
+      "number": 153,
+      "text": "0"
+    },
+    {
+      "number": 154,
+      "text": "0"
+    },
+    {
+      "number": 155,
+      "text": "0"
+    },
+    {
+      "number": 156,
+      "text": "0"
+    },
+    {
+      "number": 157,
+      "text": "0"
+    },
+    {
+      "number": 158,
+      "text": "0"
+    },
+    {
+      "number": 159,
+      "text": "1"
+    },
+    {
+      "number": 160,
+      "text": "容器3"
+    },
+    {
+      "number": 161,
+      "text": "303"
+    },
+    {
+      "number": 162,
+      "text": "100"
+    },
+    {
+      "number": 163,
+      "text": "149"
+    },
+    {
+      "number": 164,
+      "text": "213"
+    },
+    {
+      "number": 165,
+      "text": "0"
+    },
+    {
+      "number": 166,
+      "text": "0"
+    },
+    {
+      "number": 167,
+      "text": "100"
+    },
+    {
+      "number": 168,
+      "text": "0"
+    },
+    {
+      "number": 169,
+      "text": "1"
+    },
+    {
+      "number": 170,
+      "text": "0"
+    },
+    {
+      "number": 171,
+      "text": "0"
+    },
+    {
+      "number": 172,
+      "text": "0"
+    },
+    {
+      "number": 173,
+      "text": "0"
+    },
+    {
+      "number": 174,
+      "text": "6579300"
+    },
+    {
+      "number": 175,
+      "text": "0"
+    },
+    {
+      "number": 176,
+      "text": "0"
+    },
+    {
+      "number": 177,
+      "text": "0"
+    },
+    {
+      "number": 178,
+      "text": "0"
+    },
+    {
+      "number": 179,
+      "text": "0"
+    },
+    {
+      "number": 180,
+      "text": "6579300"
+    },
+    {
+      "number": 181,
+      "text": "0"
+    },
+    {
+      "number": 182,
+      "text": "0"
+    },
+    {
+      "number": 183,
+      "text": "0"
+    },
+    {
+      "number": 184,
+      "text": "0"
+    },
+    {
+      "number": 185,
+      "text": "0"
+    },
+    {
+      "number": 186,
+      "text": "0"
+    },
+    {
+      "number": 187,
+      "text": ""
+    },
+    {
+      "number": 188,
+      "text": "0"
+    },
+    {
+      "number": 189,
+      "text": "20"
+    },
+    {
+      "number": 190,
+      "text": ""
+    },
+    {
+      "number": 191,
+      "text": ""
+    },
+    {
+      "number": 192,
+      "text": ""
+    },
+    {
+      "number": 193,
+      "text": "0"
+    },
+    {
+      "number": 194,
+      "text": "0"
+    },
+    {
+      "number": 195,
+      "text": "1"
+    },
+    {
+      "number": 196,
+      "text": "0"
+    },
+    {
+      "number": 197,
+      "text": "0"
+    },
+    {
+      "number": 198,
+      "text": "0"
+    },
+    {
+      "number": 199,
+      "text": "0"
+    },
+    {
+      "number": 200,
+      "text": "0"
+    },
+    {
+      "number": 201,
+      "text": "0"
+    },
+    {
+      "number": 202,
+      "text": "1"
+    },
+    {
+      "number": 203,
+      "text": "10"
+    },
+    {
+      "number": 204,
+      "text": "0"
+    },
+    {
+      "number": 205,
+      "text": "0"
+    },
+    {
+      "number": 206,
+      "text": "0"
+    },
+    {
+      "number": 207,
+      "text": "0"
+    },
+    {
+      "number": 208,
+      "text": "0"
+    },
+    {
+      "number": 209,
+      "text": "0"
+    },
+    {
+      "number": 210,
+      "text": "0"
+    },
+    {
+      "number": 211,
+      "text": "0"
+    },
+    {
+      "number": 212,
+      "text": "0"
+    },
+    {
+      "number": 213,
+      "text": "0"
+    },
+    {
+      "number": 214,
+      "text": "0"
+    },
+    {
+      "number": 215,
+      "text": "0"
+    },
+    {
+      "number": 216,
+      "text": "0"
+    },
+    {
+      "number": 217,
+      "text": "0"
+    },
+    {
+      "number": 218,
+      "text": "0"
+    },
+    {
+      "number": 219,
+      "text": "0"
+    },
+    {
+      "number": 220,
+      "text": "0"
+    },
+    {
+      "number": 221,
+      "text": "1"
+    },
+    {
+      "number": 222,
+      "text": "容器4"
+    },
+    {
+      "number": 223,
+      "text": "302"
+    },
+    {
+      "number": 224,
+      "text": "0"
+    },
+    {
+      "number": 225,
+      "text": "149"
+    },
+    {
+      "number": 226,
+      "text": "317"
+    },
+    {
+      "number": 227,
+      "text": "0"
+    },
+    {
+      "number": 228,
+      "text": "0"
+    },
+    {
+      "number": 229,
+      "text": "0"
+    },
+    {
+      "number": 230,
+      "text": "0"
+    },
+    {
+      "number": 231,
+      "text": "1"
+    },
+    {
+      "number": 232,
+      "text": "0"
+    },
+    {
+      "number": 233,
+      "text": "0"
+    },
+    {
+      "number": 234,
+      "text": "0"
+    },
+    {
+      "number": 235,
+      "text": "0"
+    },
+    {
+      "number": 236,
+      "text": "6579300"
+    },
+    {
+      "number": 237,
+      "text": "0"
+    },
+    {
+      "number": 238,
+      "text": "0"
+    },
+    {
+      "number": 239,
+      "text": "0"
+    },
+    {
+      "number": 240,
+      "text": "0"
+    },
+    {
+      "number": 241,
+      "text": "0"
+    },
+    {
+      "number": 242,
+      "text": "6579300"
+    },
+    {
+      "number": 243,
+      "text": "0"
+    },
+    {
+      "number": 244,
+      "text": "0"
+    },
+    {
+      "number": 245,
+      "text": "0"
+    },
+    {
+      "number": 246,
+      "text": "0"
+    },
+    {
+      "number": 247,
+      "text": "0"
+    },
+    {
+      "number": 248,
+      "text": "0"
+    },
+    {
+      "number": 249,
+      "text": "容器2"
+    },
+    {
+      "number": 250,
+      "text": "301"
+    },
+    {
+      "number": 251,
+      "text": "20"
+    },
+    {
+      "number": 252,
+      "text": ""
+    },
+    {
+      "number": 253,
+      "text": ""
+    },
+    {
+      "number": 254,
+      "text": ""
+    },
+    {
+      "number": 255,
+      "text": "0"
+    },
+    {
+      "number": 256,
+      "text": "0"
+    },
+    {
+      "number": 257,
+      "text": "1"
+    },
+    {
+      "number": 258,
+      "text": "0"
+    },
+    {
+      "number": 259,
+      "text": "0"
+    },
+    {
+      "number": 260,
+      "text": "0"
+    },
+    {
+      "number": 261,
+      "text": "0"
+    },
+    {
+      "number": 262,
+      "text": "0"
+    },
+    {
+      "number": 263,
+      "text": "0"
+    },
+    {
+      "number": 264,
+      "text": "1"
+    },
+    {
+      "number": 265,
+      "text": "10"
+    },
+    {
+      "number": 266,
+      "text": "0"
+    },
+    {
+      "number": 267,
+      "text": "0"
+    },
+    {
+      "number": 268,
+      "text": "0"
+    },
+    {
+      "number": 269,
+      "text": "0"
+    },
+    {
+      "number": 270,
+      "text": "0"
+    },
+    {
+      "number": 271,
+      "text": "0"
+    },
+    {
+      "number": 272,
+      "text": "0"
+    },
+    {
+      "number": 273,
+      "text": "0"
+    },
+    {
+      "number": 274,
+      "text": "0"
+    },
+    {
+      "number": 275,
+      "text": "0"
+    },
+    {
+      "number": 276,
+      "text": "0"
+    },
+    {
+      "number": 277,
+      "text": "0"
+    },
+    {
+      "number": 278,
+      "text": "0"
+    },
+    {
+      "number": 279,
+      "text": "0"
+    },
+    {
+      "number": 280,
+      "text": "0"
+    },
+    {
+      "number": 281,
+      "text": "0"
+    },
+    {
+      "number": 282,
+      "text": "0"
+    },
+    {
+      "number": 283,
+      "text": "1"
+    },
+    {
+      "number": 284,
+      "text": "容器6"
+    },
+    {
+      "number": 285,
+      "text": "102"
+    },
+    {
+      "number": 286,
+      "text": "200"
+    },
+    {
+      "number": 287,
+      "text": "293"
+    },
+    {
+      "number": 288,
+      "text": "320"
+    },
+    {
+      "number": 289,
+      "text": "0"
+    },
+    {
+      "number": 290,
+      "text": "0"
+    },
+    {
+      "number": 291,
+      "text": "200"
+    },
+    {
+      "number": 292,
+      "text": "29.5"
+    },
+    {
+      "number": 293,
+      "text": "0"
+    },
+    {
+      "number": 294,
+      "text": "0"
+    },
+    {
+      "number": 295,
+      "text": "0"
+    },
+    {
+      "number": 296,
+      "text": "0"
+    },
+    {
+      "number": 297,
+      "text": "0"
+    },
+    {
+      "number": 298,
+      "text": "6579300"
+    },
+    {
+      "number": 299,
+      "text": "0"
+    },
+    {
+      "number": 300,
+      "text": "0"
+    },
+    {
+      "number": 301,
+      "text": "0"
+    },
+    {
+      "number": 302,
+      "text": "0"
+    },
+    {
+      "number": 303,
+      "text": "0"
+    },
+    {
+      "number": 304,
+      "text": "6579300"
+    },
+    {
+      "number": 305,
+      "text": "0"
+    },
+    {
+      "number": 306,
+      "text": "0"
+    },
+    {
+      "number": 307,
+      "text": "0"
+    },
+    {
+      "number": 308,
+      "text": "0"
+    },
+    {
+      "number": 309,
+      "text": "0"
+    },
+    {
+      "number": 310,
+      "text": "0"
+    },
+    {
+      "number": 311,
+      "text": ""
+    },
+    {
+      "number": 312,
+      "text": "0"
+    },
+    {
+      "number": 313,
+      "text": "20"
+    },
+    {
+      "number": 314,
+      "text": ""
+    },
+    {
+      "number": 315,
+      "text": ""
+    },
+    {
+      "number": 316,
+      "text": ""
+    },
+    {
+      "number": 317,
+      "text": "0"
+    },
+    {
+      "number": 318,
+      "text": "0"
+    },
+    {
+      "number": 319,
+      "text": "0"
+    },
+    {
+      "number": 320,
+      "text": "0"
+    },
+    {
+      "number": 321,
+      "text": "0"
+    },
+    {
+      "number": 322,
+      "text": "0"
+    },
+    {
+      "number": 323,
+      "text": "1"
+    },
+    {
+      "number": 324,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 325,
+      "text": "100"
+    },
+    {
+      "number": 326,
+      "text": "5.550621669627"
+    },
+    {
+      "number": 327,
+      "text": "1"
+    },
+    {
+      "number": 328,
+      "text": "20493728"
+    },
+    {
+      "number": 329,
+      "text": "方程式201"
+    },
+    {
+      "number": 330,
+      "text": "1"
+    },
+    {
+      "number": 331,
+      "text": "1"
+    },
+    {
+      "number": 332,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 333,
+      "text": "1"
+    },
+    {
+      "number": 334,
+      "text": "H2O(气体)"
+    },
+    {
+      "number": 335,
+      "text": "1"
+    },
+    {
+      "number": 336,
+      "text": "0"
+    },
+    {
+      "number": 337,
+      "text": ""
+    },
+    {
+      "number": 338,
+      "text": "0.01"
+    },
+    {
+      "number": 339,
+      "text": "100"
+    },
+    {
+      "number": 340,
+      "text": "单向"
+    },
+    {
+      "number": 341,
+      "text": "0"
+    },
+    {
+      "number": 342,
+      "text": "1"
+    },
+    {
+      "number": 343,
+      "text": "10"
+    },
+    {
+      "number": 344,
+      "text": "0"
+    },
+    {
+      "number": 345,
+      "text": "0"
+    },
+    {
+      "number": 346,
+      "text": "0"
+    },
+    {
+      "number": 347,
+      "text": "0"
+    },
+    {
+      "number": 348,
+      "text": "0"
+    },
+    {
+      "number": 349,
+      "text": "0"
+    },
+    {
+      "number": 350,
+      "text": "0"
+    },
+    {
+      "number": 351,
+      "text": "0"
+    },
+    {
+      "number": 352,
+      "text": "0"
+    },
+    {
+      "number": 353,
+      "text": "0"
+    },
+    {
+      "number": 354,
+      "text": "0"
+    },
+    {
+      "number": 355,
+      "text": "0"
+    },
+    {
+      "number": 356,
+      "text": "0"
+    },
+    {
+      "number": 357,
+      "text": "0"
+    },
+    {
+      "number": 358,
+      "text": "0"
+    },
+    {
+      "number": 359,
+      "text": "0"
+    },
+    {
+      "number": 360,
+      "text": "0"
+    },
+    {
+      "number": 361,
+      "text": "1"
+    },
+    {
+      "number": 362,
+      "text": "容器7"
+    },
+    {
+      "number": 363,
+      "text": "303"
+    },
+    {
+      "number": 364,
+      "text": "100"
+    },
+    {
+      "number": 365,
+      "text": "287"
+    },
+    {
+      "number": 366,
+      "text": "285"
+    },
+    {
+      "number": 367,
+      "text": "0"
+    },
+    {
+      "number": 368,
+      "text": "0"
+    },
+    {
+      "number": 369,
+      "text": "100"
+    },
+    {
+      "number": 370,
+      "text": "0"
+    },
+    {
+      "number": 371,
+      "text": "1"
+    },
+    {
+      "number": 372,
+      "text": "0"
+    },
+    {
+      "number": 373,
+      "text": "0"
+    },
+    {
+      "number": 374,
+      "text": "0"
+    },
+    {
+      "number": 375,
+      "text": "0"
+    },
+    {
+      "number": 376,
+      "text": "6579300"
+    },
+    {
+      "number": 377,
+      "text": "0"
+    },
+    {
+      "number": 378,
+      "text": "0"
+    },
+    {
+      "number": 379,
+      "text": "0"
+    },
+    {
+      "number": 380,
+      "text": "0"
+    },
+    {
+      "number": 381,
+      "text": "0"
+    },
+    {
+      "number": 382,
+      "text": "6579300"
+    },
+    {
+      "number": 383,
+      "text": "0"
+    },
+    {
+      "number": 384,
+      "text": "0"
+    },
+    {
+      "number": 385,
+      "text": "0"
+    },
+    {
+      "number": 386,
+      "text": "0"
+    },
+    {
+      "number": 387,
+      "text": "0"
+    },
+    {
+      "number": 388,
+      "text": "0"
+    },
+    {
+      "number": 389,
+      "text": ""
+    },
+    {
+      "number": 390,
+      "text": "0"
+    },
+    {
+      "number": 391,
+      "text": "20"
+    },
+    {
+      "number": 392,
+      "text": ""
+    },
+    {
+      "number": 393,
+      "text": ""
+    },
+    {
+      "number": 394,
+      "text": ""
+    },
+    {
+      "number": 395,
+      "text": "0"
+    },
+    {
+      "number": 396,
+      "text": "0"
+    },
+    {
+      "number": 397,
+      "text": "1"
+    },
+    {
+      "number": 398,
+      "text": "0"
+    },
+    {
+      "number": 399,
+      "text": "0"
+    },
+    {
+      "number": 400,
+      "text": "0"
+    },
+    {
+      "number": 401,
+      "text": "0"
+    },
+    {
+      "number": 402,
+      "text": "0"
+    },
+    {
+      "number": 403,
+      "text": "0"
+    },
+    {
+      "number": 404,
+      "text": "1"
+    },
+    {
+      "number": 405,
+      "text": "10"
+    },
+    {
+      "number": 406,
+      "text": "0"
+    },
+    {
+      "number": 407,
+      "text": "0"
+    },
+    {
+      "number": 408,
+      "text": "0"
+    },
+    {
+      "number": 409,
+      "text": "0"
+    },
+    {
+      "number": 410,
+      "text": "0"
+    },
+    {
+      "number": 411,
+      "text": "0"
+    },
+    {
+      "number": 412,
+      "text": "0"
+    },
+    {
+      "number": 413,
+      "text": "0"
+    },
+    {
+      "number": 414,
+      "text": "0"
+    },
+    {
+      "number": 415,
+      "text": "0"
+    },
+    {
+      "number": 416,
+      "text": "0"
+    },
+    {
+      "number": 417,
+      "text": "0"
+    },
+    {
+      "number": 418,
+      "text": "0"
+    },
+    {
+      "number": 419,
+      "text": "0"
+    },
+    {
+      "number": 420,
+      "text": "0"
+    },
+    {
+      "number": 421,
+      "text": "0"
+    },
+    {
+      "number": 422,
+      "text": "0"
+    },
+    {
+      "number": 423,
+      "text": ""
+    },
+    {
+      "number": 424,
+      "text": ""
+    },
+    {
+      "number": 425,
+      "text": ""
+    },
+    {
+      "number": 426,
+      "text": ""
+    },
+    {
+      "number": 427,
+      "text": "1"
+    },
+    {
+      "number": 428,
+      "text": "0"
+    },
+    {
+      "number": 429,
+      "text": "0"
+    },
+    {
+      "number": 430,
+      "text": "0"
+    },
+    {
+      "number": 431,
+      "text": "t"
+    },
+    {
+      "number": 432,
+      "text": "时间变量"
+    },
+    {
+      "number": 433,
+      "text": "0"
+    },
+    {
+      "number": 434,
+      "text": "0"
+    },
+    {
+      "number": 435,
+      "text": "0"
+    },
+    {
+      "number": 436,
+      "text": "2"
+    },
+    {
+      "number": 437,
+      "text": "1"
+    },
+    {
+      "number": 438,
+      "text": "171"
+    },
+    {
+      "number": 439,
+      "text": "32"
+    },
+    {
+      "number": 440,
+      "text": "210"
+    },
+    {
+      "number": 441,
+      "text": "31"
+    },
+    {
+      "number": 442,
+      "text": "134"
+    },
+    {
+      "number": 443,
+      "text": "8388608"
+    },
+    {
+      "number": 444,
+      "text": "-29"
+    },
+    {
+      "number": 445,
+      "text": "0"
+    },
+    {
+      "number": 446,
+      "text": "22"
+    },
+    {
+      "number": 447,
+      "text": "0"
+    },
+    {
+      "number": 448,
+      "text": "0"
+    },
+    {
+      "number": 449,
+      "text": "0"
+    },
+    {
+      "number": 450,
+      "text": "0"
+    },
+    {
+      "number": 451,
+      "text": "楷体_GB2312"
+    },
+    {
+      "number": 452,
+      "text": "1"
+    },
+    {
+      "number": 453,
+      "text": "水的加热与沸腾"
+    },
+    {
+      "number": 454,
+      "text": "1"
+    },
+    {
+      "number": 455,
+      "text": "361"
+    },
+    {
+      "number": 456,
+      "text": "199"
+    },
+    {
+      "number": 457,
+      "text": "300"
+    },
+    {
+      "number": 458,
+      "text": "165"
+    },
+    {
+      "number": 459,
+      "text": "134"
+    },
+    {
+      "number": 460,
+      "text": "0"
+    },
+    {
+      "number": 461,
+      "text": "-15"
+    },
+    {
+      "number": 462,
+      "text": "0"
+    },
+    {
+      "number": 463,
+      "text": "11"
+    },
+    {
+      "number": 464,
+      "text": "0"
+    },
+    {
+      "number": 465,
+      "text": "0"
+    },
+    {
+      "number": 466,
+      "text": "0"
+    },
+    {
+      "number": 467,
+      "text": "0"
+    },
+    {
+      "number": 468,
+      "text": "宋体"
+    },
+    {
+      "number": 469,
+      "text": "10"
+    },
+    {
+      "number": 470,
+      "text": "在仿真化学实验室中用酒精灯可以给水加热，"
+    },
+    {
+      "number": 471,
+      "text": "到100℃时水就沸腾了。液态的H2O变成了气态"
+    },
+    {
+      "number": 472,
+      "text": "的H2O。水的沸腾也是用方程式来表示的："
+    },
+    {
+      "number": 473,
+      "text": ""
+    },
+    {
+      "number": 474,
+      "text": "H2O(液体) ═  H2O(气体)  "
+    },
+    {
+      "number": 475,
+      "text": ""
+    },
+    {
+      "number": 476,
+      "text": "此方程式的“反应”条件是：温度>98"
+    },
+    {
+      "number": 477,
+      "text": "当然您也可以修改这个“反应”的条件，"
+    },
+    {
+      "number": 478,
+      "text": "让水在20℃时就沸腾。在容器的属性中"
+    },
+    {
+      "number": 479,
+      "text": "修改方程式后不要忘了点击修改按钮。"
+    },
+    {
+      "number": 480,
+      "text": "1"
+    },
+    {
+      "number": 481,
+      "text": "0"
+    },
+    {
+      "number": 482,
+      "text": "3"
+    },
+    {
+      "number": 483,
+      "text": "0"
+    },
+    {
+      "number": 484,
+      "text": "0"
+    },
+    {
+      "number": 485,
+      "text": "1"
+    },
+    {
+      "number": 486,
+      "text": "0"
+    },
+    {
+      "number": 487,
+      "text": "0"
+    },
+    {
+      "number": 488,
+      "text": "0"
+    },
+    {
+      "number": 489,
+      "text": "0"
+    },
+    {
+      "number": 490,
+      "text": "0"
+    },
+    {
+      "number": 491,
+      "text": "0"
+    },
+    {
+      "number": 492,
+      "text": "1"
+    },
+    {
+      "number": 493,
+      "text": "0"
+    },
+    {
+      "number": 494,
+      "text": "0"
+    },
+    {
+      "number": 495,
+      "text": "0"
+    },
+    {
+      "number": 496,
+      "text": "0"
+    },
+    {
+      "number": 497,
+      "text": "0"
+    },
+    {
+      "number": 498,
+      "text": "0"
+    },
+    {
+      "number": 499,
+      "text": "0"
+    },
+    {
+      "number": 500,
+      "text": "0"
+    },
+    {
+      "number": 501,
+      "text": ""
+    },
+    {
+      "number": 502,
+      "text": "0"
+    },
+    {
+      "number": 503,
+      "text": "0"
+    },
+    {
+      "number": 504,
+      "text": "0"
+    },
+    {
+      "number": 505,
+      "text": "0"
+    },
+    {
+      "number": 506,
+      "text": "0"
+    },
+    {
+      "number": 507,
+      "text": "0"
+    },
+    {
+      "number": 508,
+      "text": "0"
+    },
+    {
+      "number": 509,
+      "text": "0"
+    },
+    {
+      "number": 510,
+      "text": "0"
+    },
+    {
+      "number": 511,
+      "text": "0"
+    },
+    {
+      "number": 512,
+      "text": "0"
+    },
+    {
+      "number": 513,
+      "text": "0"
+    },
+    {
+      "number": 514,
+      "text": "0"
+    },
+    {
+      "number": 515,
+      "text": "0"
+    },
+    {
+      "number": 516,
+      "text": "0"
+    },
+    {
+      "number": 517,
+      "text": ""
+    },
+    {
+      "number": 518,
+      "text": "0"
+    },
+    {
+      "number": 519,
+      "text": "0"
+    },
+    {
+      "number": 520,
+      "text": "0"
+    },
+    {
+      "number": 521,
+      "text": "0"
+    },
+    {
+      "number": 522,
+      "text": "0"
+    },
+    {
+      "number": 523,
+      "text": "0"
+    },
+    {
+      "number": 524,
+      "text": "0"
+    },
+    {
+      "number": 525,
+      "text": "0"
+    },
+    {
+      "number": 526,
+      "text": "0"
+    },
+    {
+      "number": 527,
+      "text": "0"
+    },
+    {
+      "number": 528,
+      "text": "0"
+    },
+    {
+      "number": 529,
+      "text": "0"
+    },
+    {
+      "number": 530,
+      "text": "0"
+    },
+    {
+      "number": 531,
+      "text": "0"
+    },
+    {
+      "number": 532,
+      "text": "0"
+    },
+    {
+      "number": 533,
+      "text": ""
+    },
+    {
+      "number": 534,
+      "text": "0"
+    },
+    {
+      "number": 535,
+      "text": "0"
+    },
+    {
+      "number": 536,
+      "text": "0"
+    },
+    {
+      "number": 537,
+      "text": "0"
+    },
+    {
+      "number": 538,
+      "text": "0"
+    },
+    {
+      "number": 539,
+      "text": "0"
+    },
+    {
+      "number": 540,
+      "text": "0"
+    },
+    {
+      "number": 541,
+      "text": "0"
+    },
+    {
+      "number": 542,
+      "text": "0"
+    },
+    {
+      "number": 543,
+      "text": "0"
+    },
+    {
+      "number": 544,
+      "text": "0"
+    },
+    {
+      "number": 545,
+      "text": "0"
+    },
+    {
+      "number": 546,
+      "text": "0"
+    },
+    {
+      "number": 547,
+      "text": "0"
+    },
+    {
+      "number": 548,
+      "text": "0"
+    },
+    {
+      "number": 549,
+      "text": ""
+    },
+    {
+      "number": 550,
+      "text": "0"
+    },
+    {
+      "number": 551,
+      "text": "0"
+    },
+    {
+      "number": 552,
+      "text": "0"
+    },
+    {
+      "number": 553,
+      "text": "0"
+    },
+    {
+      "number": 554,
+      "text": "0"
+    },
+    {
+      "number": 555,
+      "text": "0"
+    },
+    {
+      "number": 556,
+      "text": "0"
+    },
+    {
+      "number": 557,
+      "text": "0"
+    },
+    {
+      "number": 558,
+      "text": "0"
+    },
+    {
+      "number": 559,
+      "text": "0"
+    },
+    {
+      "number": 560,
+      "text": "0"
+    },
+    {
+      "number": 561,
+      "text": "0"
+    },
+    {
+      "number": 562,
+      "text": "0"
+    },
+    {
+      "number": 563,
+      "text": "0"
+    },
+    {
+      "number": 564,
+      "text": "0"
+    },
+    {
+      "number": 565,
+      "text": ""
+    },
+    {
+      "number": 566,
+      "text": "0"
+    },
+    {
+      "number": 567,
+      "text": "0"
+    },
+    {
+      "number": 568,
+      "text": "0"
+    },
+    {
+      "number": 569,
+      "text": "0"
+    },
+    {
+      "number": 570,
+      "text": "0"
+    },
+    {
+      "number": 571,
+      "text": "0"
+    },
+    {
+      "number": 572,
+      "text": "0"
+    },
+    {
+      "number": 573,
+      "text": "0"
+    },
+    {
+      "number": 574,
+      "text": "0"
+    },
+    {
+      "number": 575,
+      "text": "0"
+    },
+    {
+      "number": 576,
+      "text": "0"
+    },
+    {
+      "number": 577,
+      "text": "0"
+    },
+    {
+      "number": 578,
+      "text": "0"
+    },
+    {
+      "number": 579,
+      "text": "0"
+    },
+    {
+      "number": 580,
+      "text": "0"
+    },
+    {
+      "number": 581,
+      "text": ""
+    },
+    {
+      "number": 582,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

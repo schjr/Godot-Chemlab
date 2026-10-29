@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"failures":[],"images_checked":107,"pixels_checked":300769}
+PASS imported source-renderer RGB matches every original apparatus bitmap pixel, including transparent borders

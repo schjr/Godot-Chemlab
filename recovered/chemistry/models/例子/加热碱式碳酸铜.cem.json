@@ -1,0 +1,2436 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/例子/加热碱式碳酸铜.cem",
+    "byte_count": 2507,
+    "sha256": "7c1cdc38ec3a9f9f7105d971e85e1f1130bccc7b70352a630f851032595af450",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/加热碱式碳酸铜.cem",
+    "utf8_export": "utf8/例子/加热碱式碳酸铜.cem"
+  },
+  "format": "cem",
+  "header_lines": [
+    "仿真化学实验室 金华科 V3.0",
+    "5",
+    "5"
+  ],
+  "line_count": 604,
+  "lines": [
+    {
+      "number": 1,
+      "text": "仿真化学实验室 金华科 V3.0"
+    },
+    {
+      "number": 2,
+      "text": "5"
+    },
+    {
+      "number": 3,
+      "text": "5"
+    },
+    {
+      "number": 4,
+      "text": "1"
+    },
+    {
+      "number": 5,
+      "text": "1"
+    },
+    {
+      "number": 6,
+      "text": "1"
+    },
+    {
+      "number": 7,
+      "text": "容器0"
+    },
+    {
+      "number": 8,
+      "text": "301"
+    },
+    {
+      "number": 9,
+      "text": "1"
+    },
+    {
+      "number": 10,
+      "text": "233"
+    },
+    {
+      "number": 11,
+      "text": "181"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "1"
+    },
+    {
+      "number": 15,
+      "text": "0"
+    },
+    {
+      "number": 16,
+      "text": "0"
+    },
+    {
+      "number": 17,
+      "text": "0"
+    },
+    {
+      "number": 18,
+      "text": "0"
+    },
+    {
+      "number": 19,
+      "text": "0"
+    },
+    {
+      "number": 20,
+      "text": "0"
+    },
+    {
+      "number": 21,
+      "text": "6579300"
+    },
+    {
+      "number": 22,
+      "text": "0"
+    },
+    {
+      "number": 23,
+      "text": "0"
+    },
+    {
+      "number": 24,
+      "text": "0"
+    },
+    {
+      "number": 25,
+      "text": "0"
+    },
+    {
+      "number": 26,
+      "text": "0"
+    },
+    {
+      "number": 27,
+      "text": "6579300"
+    },
+    {
+      "number": 28,
+      "text": "1"
+    },
+    {
+      "number": 29,
+      "text": "0"
+    },
+    {
+      "number": 30,
+      "text": "0"
+    },
+    {
+      "number": 31,
+      "text": "106"
+    },
+    {
+      "number": 32,
+      "text": "0"
+    },
+    {
+      "number": 33,
+      "text": "72"
+    },
+    {
+      "number": 34,
+      "text": ""
+    },
+    {
+      "number": 35,
+      "text": "0"
+    },
+    {
+      "number": 36,
+      "text": "20"
+    },
+    {
+      "number": 37,
+      "text": ""
+    },
+    {
+      "number": 38,
+      "text": ""
+    },
+    {
+      "number": 39,
+      "text": ""
+    },
+    {
+      "number": 40,
+      "text": "0"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "1"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0"
+    },
+    {
+      "number": 45,
+      "text": "0"
+    },
+    {
+      "number": 46,
+      "text": "0"
+    },
+    {
+      "number": 47,
+      "text": "0"
+    },
+    {
+      "number": 48,
+      "text": "0"
+    },
+    {
+      "number": 49,
+      "text": "0"
+    },
+    {
+      "number": 50,
+      "text": "10"
+    },
+    {
+      "number": 51,
+      "text": "0"
+    },
+    {
+      "number": 52,
+      "text": "0"
+    },
+    {
+      "number": 53,
+      "text": "0"
+    },
+    {
+      "number": 54,
+      "text": "0"
+    },
+    {
+      "number": 55,
+      "text": "0"
+    },
+    {
+      "number": 56,
+      "text": "0"
+    },
+    {
+      "number": 57,
+      "text": "0"
+    },
+    {
+      "number": 58,
+      "text": "0"
+    },
+    {
+      "number": 59,
+      "text": "0"
+    },
+    {
+      "number": 60,
+      "text": "0"
+    },
+    {
+      "number": 61,
+      "text": "0"
+    },
+    {
+      "number": 62,
+      "text": "0"
+    },
+    {
+      "number": 63,
+      "text": "0"
+    },
+    {
+      "number": 64,
+      "text": "0"
+    },
+    {
+      "number": 65,
+      "text": "0"
+    },
+    {
+      "number": 66,
+      "text": "0"
+    },
+    {
+      "number": 67,
+      "text": "0"
+    },
+    {
+      "number": 68,
+      "text": "1"
+    },
+    {
+      "number": 69,
+      "text": "容器1"
+    },
+    {
+      "number": 70,
+      "text": "101"
+    },
+    {
+      "number": 71,
+      "text": "97"
+    },
+    {
+      "number": 72,
+      "text": "207"
+    },
+    {
+      "number": 73,
+      "text": "188"
+    },
+    {
+      "number": 74,
+      "text": "0"
+    },
+    {
+      "number": 75,
+      "text": "0"
+    },
+    {
+      "number": 76,
+      "text": "100"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "1"
+    },
+    {
+      "number": 79,
+      "text": "0"
+    },
+    {
+      "number": 80,
+      "text": "0"
+    },
+    {
+      "number": 81,
+      "text": "0"
+    },
+    {
+      "number": 82,
+      "text": "0"
+    },
+    {
+      "number": 83,
+      "text": "6579300"
+    },
+    {
+      "number": 84,
+      "text": "1"
+    },
+    {
+      "number": 85,
+      "text": "0"
+    },
+    {
+      "number": 86,
+      "text": "0"
+    },
+    {
+      "number": 87,
+      "text": "0"
+    },
+    {
+      "number": 88,
+      "text": "0"
+    },
+    {
+      "number": 89,
+      "text": "6579300"
+    },
+    {
+      "number": 90,
+      "text": "0"
+    },
+    {
+      "number": 91,
+      "text": "0"
+    },
+    {
+      "number": 92,
+      "text": "0"
+    },
+    {
+      "number": 93,
+      "text": "0"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": "0"
+    },
+    {
+      "number": 96,
+      "text": "容器0"
+    },
+    {
+      "number": 97,
+      "text": "3011"
+    },
+    {
+      "number": 98,
+      "text": "20"
+    },
+    {
+      "number": 99,
+      "text": ""
+    },
+    {
+      "number": 100,
+      "text": ""
+    },
+    {
+      "number": 101,
+      "text": ""
+    },
+    {
+      "number": 102,
+      "text": "0"
+    },
+    {
+      "number": 103,
+      "text": "1"
+    },
+    {
+      "number": 104,
+      "text": "0"
+    },
+    {
+      "number": 105,
+      "text": "0"
+    },
+    {
+      "number": 106,
+      "text": "0"
+    },
+    {
+      "number": 107,
+      "text": "0"
+    },
+    {
+      "number": 108,
+      "text": "1"
+    },
+    {
+      "number": 109,
+      "text": "Cu2(OH)2CO3(固体)"
+    },
+    {
+      "number": 110,
+      "text": "20"
+    },
+    {
+      "number": 111,
+      "text": "0.090447807092917"
+    },
+    {
+      "number": 112,
+      "text": "1"
+    },
+    {
+      "number": 113,
+      "text": "20262632"
+    },
+    {
+      "number": 114,
+      "text": "方程式46"
+    },
+    {
+      "number": 115,
+      "text": "1"
+    },
+    {
+      "number": 116,
+      "text": "3"
+    },
+    {
+      "number": 117,
+      "text": "Cu2(OH)2CO3(固体)"
+    },
+    {
+      "number": 118,
+      "text": "1"
+    },
+    {
+      "number": 119,
+      "text": "CuO(固体)"
+    },
+    {
+      "number": 120,
+      "text": "2"
+    },
+    {
+      "number": 121,
+      "text": "H2O(气体)"
+    },
+    {
+      "number": 122,
+      "text": "1"
+    },
+    {
+      "number": 123,
+      "text": "CO2(气体)"
+    },
+    {
+      "number": 124,
+      "text": "1"
+    },
+    {
+      "number": 125,
+      "text": "0"
+    },
+    {
+      "number": 126,
+      "text": "加热"
+    },
+    {
+      "number": 127,
+      "text": "0.0005"
+    },
+    {
+      "number": 128,
+      "text": "100"
+    },
+    {
+      "number": 129,
+      "text": "单向"
+    },
+    {
+      "number": 130,
+      "text": "0"
+    },
+    {
+      "number": 131,
+      "text": "0"
+    },
+    {
+      "number": 132,
+      "text": "10"
+    },
+    {
+      "number": 133,
+      "text": "0"
+    },
+    {
+      "number": 134,
+      "text": "0"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": "0"
+    },
+    {
+      "number": 137,
+      "text": "0"
+    },
+    {
+      "number": 138,
+      "text": "0"
+    },
+    {
+      "number": 139,
+      "text": "0"
+    },
+    {
+      "number": 140,
+      "text": "0"
+    },
+    {
+      "number": 141,
+      "text": "0"
+    },
+    {
+      "number": 142,
+      "text": "0"
+    },
+    {
+      "number": 143,
+      "text": "0"
+    },
+    {
+      "number": 144,
+      "text": "0"
+    },
+    {
+      "number": 145,
+      "text": "0"
+    },
+    {
+      "number": 146,
+      "text": "0"
+    },
+    {
+      "number": 147,
+      "text": "0"
+    },
+    {
+      "number": 148,
+      "text": "0"
+    },
+    {
+      "number": 149,
+      "text": "0"
+    },
+    {
+      "number": 150,
+      "text": "1"
+    },
+    {
+      "number": 151,
+      "text": "容器2"
+    },
+    {
+      "number": 152,
+      "text": "302"
+    },
+    {
+      "number": 153,
+      "text": "0"
+    },
+    {
+      "number": 154,
+      "text": "184"
+    },
+    {
+      "number": 155,
+      "text": "230"
+    },
+    {
+      "number": 156,
+      "text": "0"
+    },
+    {
+      "number": 157,
+      "text": "0"
+    },
+    {
+      "number": 158,
+      "text": "0"
+    },
+    {
+      "number": 159,
+      "text": "0"
+    },
+    {
+      "number": 160,
+      "text": "0"
+    },
+    {
+      "number": 161,
+      "text": "0"
+    },
+    {
+      "number": 162,
+      "text": "0"
+    },
+    {
+      "number": 163,
+      "text": "0"
+    },
+    {
+      "number": 164,
+      "text": "0"
+    },
+    {
+      "number": 165,
+      "text": "6579300"
+    },
+    {
+      "number": 166,
+      "text": "2"
+    },
+    {
+      "number": 167,
+      "text": "0"
+    },
+    {
+      "number": 168,
+      "text": "0"
+    },
+    {
+      "number": 169,
+      "text": "36"
+    },
+    {
+      "number": 170,
+      "text": "45"
+    },
+    {
+      "number": 171,
+      "text": "6579300"
+    },
+    {
+      "number": 172,
+      "text": "0"
+    },
+    {
+      "number": 173,
+      "text": "0"
+    },
+    {
+      "number": 174,
+      "text": "0"
+    },
+    {
+      "number": 175,
+      "text": "0"
+    },
+    {
+      "number": 176,
+      "text": "0"
+    },
+    {
+      "number": 177,
+      "text": "0"
+    },
+    {
+      "number": 178,
+      "text": "容器4"
+    },
+    {
+      "number": 179,
+      "text": "316"
+    },
+    {
+      "number": 180,
+      "text": "20"
+    },
+    {
+      "number": 181,
+      "text": ""
+    },
+    {
+      "number": 182,
+      "text": ""
+    },
+    {
+      "number": 183,
+      "text": ""
+    },
+    {
+      "number": 184,
+      "text": "0"
+    },
+    {
+      "number": 185,
+      "text": "0"
+    },
+    {
+      "number": 186,
+      "text": "1"
+    },
+    {
+      "number": 187,
+      "text": "0"
+    },
+    {
+      "number": 188,
+      "text": "0"
+    },
+    {
+      "number": 189,
+      "text": "0"
+    },
+    {
+      "number": 190,
+      "text": "0"
+    },
+    {
+      "number": 191,
+      "text": "0"
+    },
+    {
+      "number": 192,
+      "text": "0"
+    },
+    {
+      "number": 193,
+      "text": "0"
+    },
+    {
+      "number": 194,
+      "text": "10"
+    },
+    {
+      "number": 195,
+      "text": "0"
+    },
+    {
+      "number": 196,
+      "text": "0"
+    },
+    {
+      "number": 197,
+      "text": "0"
+    },
+    {
+      "number": 198,
+      "text": "0"
+    },
+    {
+      "number": 199,
+      "text": "0"
+    },
+    {
+      "number": 200,
+      "text": "0"
+    },
+    {
+      "number": 201,
+      "text": "0"
+    },
+    {
+      "number": 202,
+      "text": "0"
+    },
+    {
+      "number": 203,
+      "text": "0"
+    },
+    {
+      "number": 204,
+      "text": "0"
+    },
+    {
+      "number": 205,
+      "text": "0"
+    },
+    {
+      "number": 206,
+      "text": "0"
+    },
+    {
+      "number": 207,
+      "text": "0"
+    },
+    {
+      "number": 208,
+      "text": "0"
+    },
+    {
+      "number": 209,
+      "text": "0"
+    },
+    {
+      "number": 210,
+      "text": "0"
+    },
+    {
+      "number": 211,
+      "text": "0"
+    },
+    {
+      "number": 212,
+      "text": "1"
+    },
+    {
+      "number": 213,
+      "text": "容器3"
+    },
+    {
+      "number": 214,
+      "text": "101"
+    },
+    {
+      "number": 215,
+      "text": "0"
+    },
+    {
+      "number": 216,
+      "text": "302"
+    },
+    {
+      "number": 217,
+      "text": "241"
+    },
+    {
+      "number": 218,
+      "text": "0"
+    },
+    {
+      "number": 219,
+      "text": "0"
+    },
+    {
+      "number": 220,
+      "text": "100"
+    },
+    {
+      "number": 221,
+      "text": "35.7"
+    },
+    {
+      "number": 222,
+      "text": "0"
+    },
+    {
+      "number": 223,
+      "text": "-7"
+    },
+    {
+      "number": 224,
+      "text": "-38"
+    },
+    {
+      "number": 225,
+      "text": "7"
+    },
+    {
+      "number": 226,
+      "text": "-48"
+    },
+    {
+      "number": 227,
+      "text": "7237230"
+    },
+    {
+      "number": 228,
+      "text": "0"
+    },
+    {
+      "number": 229,
+      "text": "0"
+    },
+    {
+      "number": 230,
+      "text": "0"
+    },
+    {
+      "number": 231,
+      "text": "0"
+    },
+    {
+      "number": 232,
+      "text": "0"
+    },
+    {
+      "number": 233,
+      "text": "6579300"
+    },
+    {
+      "number": 234,
+      "text": "0"
+    },
+    {
+      "number": 235,
+      "text": "0"
+    },
+    {
+      "number": 236,
+      "text": "0"
+    },
+    {
+      "number": 237,
+      "text": "0"
+    },
+    {
+      "number": 238,
+      "text": "0"
+    },
+    {
+      "number": 239,
+      "text": "0"
+    },
+    {
+      "number": 240,
+      "text": ""
+    },
+    {
+      "number": 241,
+      "text": "0"
+    },
+    {
+      "number": 242,
+      "text": "20"
+    },
+    {
+      "number": 243,
+      "text": ""
+    },
+    {
+      "number": 244,
+      "text": ""
+    },
+    {
+      "number": 245,
+      "text": ""
+    },
+    {
+      "number": 246,
+      "text": "0"
+    },
+    {
+      "number": 247,
+      "text": "0"
+    },
+    {
+      "number": 248,
+      "text": "1"
+    },
+    {
+      "number": 249,
+      "text": "0"
+    },
+    {
+      "number": 250,
+      "text": "0"
+    },
+    {
+      "number": 251,
+      "text": "0"
+    },
+    {
+      "number": 252,
+      "text": "2"
+    },
+    {
+      "number": 253,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 254,
+      "text": "40"
+    },
+    {
+      "number": 255,
+      "text": "2.2202486678508"
+    },
+    {
+      "number": 256,
+      "text": "Ca(OH)2(溶解)"
+    },
+    {
+      "number": 257,
+      "text": "0.296384"
+    },
+    {
+      "number": 258,
+      "text": "0.004"
+    },
+    {
+      "number": 259,
+      "text": "3"
+    },
+    {
+      "number": 260,
+      "text": "20398080"
+    },
+    {
+      "number": 261,
+      "text": "方程式24"
+    },
+    {
+      "number": 262,
+      "text": "2"
+    },
+    {
+      "number": 263,
+      "text": "2"
+    },
+    {
+      "number": 264,
+      "text": "Ca(OH)2(溶解)"
+    },
+    {
+      "number": 265,
+      "text": "1"
+    },
+    {
+      "number": 266,
+      "text": "CO2(气体)"
+    },
+    {
+      "number": 267,
+      "text": "1"
+    },
+    {
+      "number": 268,
+      "text": "CaCO3(固体)"
+    },
+    {
+      "number": 269,
+      "text": "1"
+    },
+    {
+      "number": 270,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 271,
+      "text": "1"
+    },
+    {
+      "number": 272,
+      "text": "0"
+    },
+    {
+      "number": 273,
+      "text": "水溶液"
+    },
+    {
+      "number": 274,
+      "text": "0.001"
+    },
+    {
+      "number": 275,
+      "text": "100"
+    },
+    {
+      "number": 276,
+      "text": "单向"
+    },
+    {
+      "number": 277,
+      "text": "20398080"
+    },
+    {
+      "number": 278,
+      "text": "方程式28"
+    },
+    {
+      "number": 279,
+      "text": "3"
+    },
+    {
+      "number": 280,
+      "text": "1"
+    },
+    {
+      "number": 281,
+      "text": "CaCO3(固体)"
+    },
+    {
+      "number": 282,
+      "text": "1"
+    },
+    {
+      "number": 283,
+      "text": "CO2(气体)"
+    },
+    {
+      "number": 284,
+      "text": "1"
+    },
+    {
+      "number": 285,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 286,
+      "text": "1"
+    },
+    {
+      "number": 287,
+      "text": "Ca(HCO3)2(溶解)"
+    },
+    {
+      "number": 288,
+      "text": "1"
+    },
+    {
+      "number": 289,
+      "text": "0"
+    },
+    {
+      "number": 290,
+      "text": "水溶液"
+    },
+    {
+      "number": 291,
+      "text": "0.001"
+    },
+    {
+      "number": 292,
+      "text": "100"
+    },
+    {
+      "number": 293,
+      "text": "单向"
+    },
+    {
+      "number": 294,
+      "text": "0"
+    },
+    {
+      "number": 295,
+      "text": "方程式22"
+    },
+    {
+      "number": 296,
+      "text": "2"
+    },
+    {
+      "number": 297,
+      "text": "2"
+    },
+    {
+      "number": 298,
+      "text": "Ca(HCO3)2(溶解)"
+    },
+    {
+      "number": 299,
+      "text": "1"
+    },
+    {
+      "number": 300,
+      "text": "Ca(OH)2(溶解)"
+    },
+    {
+      "number": 301,
+      "text": "1"
+    },
+    {
+      "number": 302,
+      "text": "CaCO3(固体)"
+    },
+    {
+      "number": 303,
+      "text": "2"
+    },
+    {
+      "number": 304,
+      "text": "H2O(液体)"
+    },
+    {
+      "number": 305,
+      "text": "2"
+    },
+    {
+      "number": 306,
+      "text": "0"
+    },
+    {
+      "number": 307,
+      "text": "水溶液"
+    },
+    {
+      "number": 308,
+      "text": "0.001"
+    },
+    {
+      "number": 309,
+      "text": "100"
+    },
+    {
+      "number": 310,
+      "text": "单向"
+    },
+    {
+      "number": 311,
+      "text": "0"
+    },
+    {
+      "number": 312,
+      "text": "0"
+    },
+    {
+      "number": 313,
+      "text": "10"
+    },
+    {
+      "number": 314,
+      "text": "0"
+    },
+    {
+      "number": 315,
+      "text": "0"
+    },
+    {
+      "number": 316,
+      "text": "0"
+    },
+    {
+      "number": 317,
+      "text": "0"
+    },
+    {
+      "number": 318,
+      "text": "0"
+    },
+    {
+      "number": 319,
+      "text": "0"
+    },
+    {
+      "number": 320,
+      "text": "0"
+    },
+    {
+      "number": 321,
+      "text": "0"
+    },
+    {
+      "number": 322,
+      "text": "0"
+    },
+    {
+      "number": 323,
+      "text": "0"
+    },
+    {
+      "number": 324,
+      "text": "0"
+    },
+    {
+      "number": 325,
+      "text": "0"
+    },
+    {
+      "number": 326,
+      "text": "0"
+    },
+    {
+      "number": 327,
+      "text": "0"
+    },
+    {
+      "number": 328,
+      "text": "0"
+    },
+    {
+      "number": 329,
+      "text": "0"
+    },
+    {
+      "number": 330,
+      "text": "0"
+    },
+    {
+      "number": 331,
+      "text": "1"
+    },
+    {
+      "number": 332,
+      "text": "容器4"
+    },
+    {
+      "number": 333,
+      "text": "316"
+    },
+    {
+      "number": 334,
+      "text": "1"
+    },
+    {
+      "number": 335,
+      "text": "186"
+    },
+    {
+      "number": 336,
+      "text": "269"
+    },
+    {
+      "number": 337,
+      "text": "0"
+    },
+    {
+      "number": 338,
+      "text": "0"
+    },
+    {
+      "number": 339,
+      "text": "0"
+    },
+    {
+      "number": 340,
+      "text": "0"
+    },
+    {
+      "number": 341,
+      "text": "0"
+    },
+    {
+      "number": 342,
+      "text": "35"
+    },
+    {
+      "number": 343,
+      "text": "30"
+    },
+    {
+      "number": 344,
+      "text": "0"
+    },
+    {
+      "number": 345,
+      "text": "0"
+    },
+    {
+      "number": 346,
+      "text": "6579300"
+    },
+    {
+      "number": 347,
+      "text": "0"
+    },
+    {
+      "number": 348,
+      "text": "0"
+    },
+    {
+      "number": 349,
+      "text": "0"
+    },
+    {
+      "number": 350,
+      "text": "0"
+    },
+    {
+      "number": 351,
+      "text": "0"
+    },
+    {
+      "number": 352,
+      "text": "6579300"
+    },
+    {
+      "number": 353,
+      "text": "0"
+    },
+    {
+      "number": 354,
+      "text": "0"
+    },
+    {
+      "number": 355,
+      "text": "0"
+    },
+    {
+      "number": 356,
+      "text": "0"
+    },
+    {
+      "number": 357,
+      "text": "0"
+    },
+    {
+      "number": 358,
+      "text": "0"
+    },
+    {
+      "number": 359,
+      "text": ""
+    },
+    {
+      "number": 360,
+      "text": "0"
+    },
+    {
+      "number": 361,
+      "text": "20"
+    },
+    {
+      "number": 362,
+      "text": ""
+    },
+    {
+      "number": 363,
+      "text": ""
+    },
+    {
+      "number": 364,
+      "text": ""
+    },
+    {
+      "number": 365,
+      "text": "0"
+    },
+    {
+      "number": 366,
+      "text": "0"
+    },
+    {
+      "number": 367,
+      "text": "1"
+    },
+    {
+      "number": 368,
+      "text": "0"
+    },
+    {
+      "number": 369,
+      "text": "0"
+    },
+    {
+      "number": 370,
+      "text": "0"
+    },
+    {
+      "number": 371,
+      "text": "0"
+    },
+    {
+      "number": 372,
+      "text": "0"
+    },
+    {
+      "number": 373,
+      "text": "0"
+    },
+    {
+      "number": 374,
+      "text": "1"
+    },
+    {
+      "number": 375,
+      "text": "10"
+    },
+    {
+      "number": 376,
+      "text": "0"
+    },
+    {
+      "number": 377,
+      "text": "0"
+    },
+    {
+      "number": 378,
+      "text": "0"
+    },
+    {
+      "number": 379,
+      "text": "0"
+    },
+    {
+      "number": 380,
+      "text": "0"
+    },
+    {
+      "number": 381,
+      "text": "0"
+    },
+    {
+      "number": 382,
+      "text": "0"
+    },
+    {
+      "number": 383,
+      "text": "0"
+    },
+    {
+      "number": 384,
+      "text": "0"
+    },
+    {
+      "number": 385,
+      "text": "0"
+    },
+    {
+      "number": 386,
+      "text": "0"
+    },
+    {
+      "number": 387,
+      "text": "0"
+    },
+    {
+      "number": 388,
+      "text": "0"
+    },
+    {
+      "number": 389,
+      "text": "0"
+    },
+    {
+      "number": 390,
+      "text": "0"
+    },
+    {
+      "number": 391,
+      "text": "0"
+    },
+    {
+      "number": 392,
+      "text": "0"
+    },
+    {
+      "number": 393,
+      "text": "1"
+    },
+    {
+      "number": 394,
+      "text": "导管0"
+    },
+    {
+      "number": 395,
+      "text": "240"
+    },
+    {
+      "number": 396,
+      "text": "188"
+    },
+    {
+      "number": 397,
+      "text": "301"
+    },
+    {
+      "number": 398,
+      "text": "267"
+    },
+    {
+      "number": 399,
+      "text": "0"
+    },
+    {
+      "number": 400,
+      "text": "0"
+    },
+    {
+      "number": 401,
+      "text": "65544"
+    },
+    {
+      "number": 402,
+      "text": "0"
+    },
+    {
+      "number": 403,
+      "text": "2"
+    },
+    {
+      "number": 404,
+      "text": "容器1"
+    },
+    {
+      "number": 405,
+      "text": "101"
+    },
+    {
+      "number": 406,
+      "text": "0"
+    },
+    {
+      "number": 407,
+      "text": "容器3"
+    },
+    {
+      "number": 408,
+      "text": "101"
+    },
+    {
+      "number": 409,
+      "text": "0"
+    },
+    {
+      "number": 410,
+      "text": "1"
+    },
+    {
+      "number": 411,
+      "text": "0"
+    },
+    {
+      "number": 412,
+      "text": "0"
+    },
+    {
+      "number": 413,
+      "text": "0"
+    },
+    {
+      "number": 414,
+      "text": "0"
+    },
+    {
+      "number": 415,
+      "text": "0"
+    },
+    {
+      "number": 416,
+      "text": "0"
+    },
+    {
+      "number": 417,
+      "text": "0"
+    },
+    {
+      "number": 418,
+      "text": ""
+    },
+    {
+      "number": 419,
+      "text": ""
+    },
+    {
+      "number": 420,
+      "text": ""
+    },
+    {
+      "number": 421,
+      "text": ""
+    },
+    {
+      "number": 422,
+      "text": ""
+    },
+    {
+      "number": 423,
+      "text": ""
+    },
+    {
+      "number": 424,
+      "text": "1"
+    },
+    {
+      "number": 425,
+      "text": "0"
+    },
+    {
+      "number": 426,
+      "text": "0"
+    },
+    {
+      "number": 427,
+      "text": "0"
+    },
+    {
+      "number": 428,
+      "text": "t"
+    },
+    {
+      "number": 429,
+      "text": "时间变量"
+    },
+    {
+      "number": 430,
+      "text": "0"
+    },
+    {
+      "number": 431,
+      "text": "0"
+    },
+    {
+      "number": 432,
+      "text": "0"
+    },
+    {
+      "number": 433,
+      "text": "5"
+    },
+    {
+      "number": 434,
+      "text": "1"
+    },
+    {
+      "number": 435,
+      "text": "57"
+    },
+    {
+      "number": 436,
+      "text": "142"
+    },
+    {
+      "number": 437,
+      "text": "75"
+    },
+    {
+      "number": 438,
+      "text": "16"
+    },
+    {
+      "number": 439,
+      "text": "134"
+    },
+    {
+      "number": 440,
+      "text": "0"
+    },
+    {
+      "number": 441,
+      "text": "-15"
+    },
+    {
+      "number": 442,
+      "text": "0"
+    },
+    {
+      "number": 443,
+      "text": "11"
+    },
+    {
+      "number": 444,
+      "text": "0"
+    },
+    {
+      "number": 445,
+      "text": "0"
+    },
+    {
+      "number": 446,
+      "text": "0"
+    },
+    {
+      "number": 447,
+      "text": "0"
+    },
+    {
+      "number": 448,
+      "text": "宋体"
+    },
+    {
+      "number": 449,
+      "text": "1"
+    },
+    {
+      "number": 450,
+      "text": "碱式碳酸铜"
+    },
+    {
+      "number": 451,
+      "text": "1"
+    },
+    {
+      "number": 452,
+      "text": "424"
+    },
+    {
+      "number": 453,
+      "text": "171"
+    },
+    {
+      "number": 454,
+      "text": "0"
+    },
+    {
+      "number": 455,
+      "text": "0"
+    },
+    {
+      "number": 456,
+      "text": "134"
+    },
+    {
+      "number": 457,
+      "text": "8388608"
+    },
+    {
+      "number": 458,
+      "text": "-24"
+    },
+    {
+      "number": 459,
+      "text": "0"
+    },
+    {
+      "number": 460,
+      "text": "18"
+    },
+    {
+      "number": 461,
+      "text": "0"
+    },
+    {
+      "number": 462,
+      "text": "0"
+    },
+    {
+      "number": 463,
+      "text": "0"
+    },
+    {
+      "number": 464,
+      "text": "0"
+    },
+    {
+      "number": 465,
+      "text": "楷体_GB2312"
+    },
+    {
+      "number": 466,
+      "text": "0"
+    },
+    {
+      "number": 467,
+      "text": "1"
+    },
+    {
+      "number": 468,
+      "text": "317"
+    },
+    {
+      "number": 469,
+      "text": "270"
+    },
+    {
+      "number": 470,
+      "text": "128"
+    },
+    {
+      "number": 471,
+      "text": "15"
+    },
+    {
+      "number": 472,
+      "text": "134"
+    },
+    {
+      "number": 473,
+      "text": "0"
+    },
+    {
+      "number": 474,
+      "text": "-14"
+    },
+    {
+      "number": 475,
+      "text": "0"
+    },
+    {
+      "number": 476,
+      "text": "11"
+    },
+    {
+      "number": 477,
+      "text": "0"
+    },
+    {
+      "number": 478,
+      "text": "0"
+    },
+    {
+      "number": 479,
+      "text": "0"
+    },
+    {
+      "number": 480,
+      "text": "0"
+    },
+    {
+      "number": 481,
+      "text": "宋体"
+    },
+    {
+      "number": 482,
+      "text": "1"
+    },
+    {
+      "number": 483,
+      "text": "澄清的Ca(OH)2溶液"
+    },
+    {
+      "number": 484,
+      "text": "1"
+    },
+    {
+      "number": 485,
+      "text": "167"
+    },
+    {
+      "number": 486,
+      "text": "14"
+    },
+    {
+      "number": 487,
+      "text": "168"
+    },
+    {
+      "number": 488,
+      "text": "26"
+    },
+    {
+      "number": 489,
+      "text": "134"
+    },
+    {
+      "number": 490,
+      "text": "8388608"
+    },
+    {
+      "number": 491,
+      "text": "-24"
+    },
+    {
+      "number": 492,
+      "text": "0"
+    },
+    {
+      "number": 493,
+      "text": "18"
+    },
+    {
+      "number": 494,
+      "text": "0"
+    },
+    {
+      "number": 495,
+      "text": "0"
+    },
+    {
+      "number": 496,
+      "text": "0"
+    },
+    {
+      "number": 497,
+      "text": "0"
+    },
+    {
+      "number": 498,
+      "text": "楷体_GB2312"
+    },
+    {
+      "number": 499,
+      "text": "1"
+    },
+    {
+      "number": 500,
+      "text": "加热碱式碳酸铜"
+    },
+    {
+      "number": 501,
+      "text": "1"
+    },
+    {
+      "number": 502,
+      "text": "76"
+    },
+    {
+      "number": 503,
+      "text": "308"
+    },
+    {
+      "number": 504,
+      "text": "375"
+    },
+    {
+      "number": 505,
+      "text": "23"
+    },
+    {
+      "number": 506,
+      "text": "0"
+    },
+    {
+      "number": 507,
+      "text": "0"
+    },
+    {
+      "number": 508,
+      "text": "-21"
+    },
+    {
+      "number": 509,
+      "text": "0"
+    },
+    {
+      "number": 510,
+      "text": "16"
+    },
+    {
+      "number": 511,
+      "text": "0"
+    },
+    {
+      "number": 512,
+      "text": "0"
+    },
+    {
+      "number": 513,
+      "text": "0"
+    },
+    {
+      "number": 514,
+      "text": "0"
+    },
+    {
+      "number": 515,
+      "text": "Arial"
+    },
+    {
+      "number": 516,
+      "text": "1"
+    },
+    {
+      "number": 517,
+      "text": "Cu2(OH)2CO3 ═  2CuO + H2O↑ + CO2↑"
+    },
+    {
+      "number": 518,
+      "text": "1"
+    },
+    {
+      "number": 519,
+      "text": "0"
+    },
+    {
+      "number": 520,
+      "text": "3"
+    },
+    {
+      "number": 521,
+      "text": "0"
+    },
+    {
+      "number": 522,
+      "text": "0"
+    },
+    {
+      "number": 523,
+      "text": "1"
+    },
+    {
+      "number": 524,
+      "text": "0"
+    },
+    {
+      "number": 525,
+      "text": "0"
+    },
+    {
+      "number": 526,
+      "text": "0"
+    },
+    {
+      "number": 527,
+      "text": "0"
+    },
+    {
+      "number": 528,
+      "text": "0"
+    },
+    {
+      "number": 529,
+      "text": "0"
+    },
+    {
+      "number": 530,
+      "text": "0"
+    },
+    {
+      "number": 531,
+      "text": "0"
+    },
+    {
+      "number": 532,
+      "text": "0"
+    },
+    {
+      "number": 533,
+      "text": "0"
+    },
+    {
+      "number": 534,
+      "text": "0"
+    },
+    {
+      "number": 535,
+      "text": "0"
+    },
+    {
+      "number": 536,
+      "text": "0"
+    },
+    {
+      "number": 537,
+      "text": "0"
+    },
+    {
+      "number": 538,
+      "text": "0"
+    },
+    {
+      "number": 539,
+      "text": ""
+    },
+    {
+      "number": 540,
+      "text": "0"
+    },
+    {
+      "number": 541,
+      "text": "0"
+    },
+    {
+      "number": 542,
+      "text": "0"
+    },
+    {
+      "number": 543,
+      "text": "0"
+    },
+    {
+      "number": 544,
+      "text": "0"
+    },
+    {
+      "number": 545,
+      "text": "0"
+    },
+    {
+      "number": 546,
+      "text": "0"
+    },
+    {
+      "number": 547,
+      "text": "0"
+    },
+    {
+      "number": 548,
+      "text": "0"
+    },
+    {
+      "number": 549,
+      "text": "0"
+    },
+    {
+      "number": 550,
+      "text": "0"
+    },
+    {
+      "number": 551,
+      "text": "0"
+    },
+    {
+      "number": 552,
+      "text": "0"
+    },
+    {
+      "number": 553,
+      "text": "0"
+    },
+    {
+      "number": 554,
+      "text": "0"
+    },
+    {
+      "number": 555,
+      "text": ""
+    },
+    {
+      "number": 556,
+      "text": "0"
+    },
+    {
+      "number": 557,
+      "text": "0"
+    },
+    {
+      "number": 558,
+      "text": "0"
+    },
+    {
+      "number": 559,
+      "text": "0"
+    },
+    {
+      "number": 560,
+      "text": "0"
+    },
+    {
+      "number": 561,
+      "text": "0"
+    },
+    {
+      "number": 562,
+      "text": "0"
+    },
+    {
+      "number": 563,
+      "text": "0"
+    },
+    {
+      "number": 564,
+      "text": "0"
+    },
+    {
+      "number": 565,
+      "text": "0"
+    },
+    {
+      "number": 566,
+      "text": "0"
+    },
+    {
+      "number": 567,
+      "text": "0"
+    },
+    {
+      "number": 568,
+      "text": "0"
+    },
+    {
+      "number": 569,
+      "text": "0"
+    },
+    {
+      "number": 570,
+      "text": "0"
+    },
+    {
+      "number": 571,
+      "text": ""
+    },
+    {
+      "number": 572,
+      "text": "0"
+    },
+    {
+      "number": 573,
+      "text": "0"
+    },
+    {
+      "number": 574,
+      "text": "0"
+    },
+    {
+      "number": 575,
+      "text": "0"
+    },
+    {
+      "number": 576,
+      "text": "0"
+    },
+    {
+      "number": 577,
+      "text": "0"
+    },
+    {
+      "number": 578,
+      "text": "0"
+    },
+    {
+      "number": 579,
+      "text": "0"
+    },
+    {
+      "number": 580,
+      "text": "0"
+    },
+    {
+      "number": 581,
+      "text": "0"
+    },
+    {
+      "number": 582,
+      "text": "0"
+    },
+    {
+      "number": 583,
+      "text": "0"
+    },
+    {
+      "number": 584,
+      "text": "0"
+    },
+    {
+      "number": 585,
+      "text": "0"
+    },
+    {
+      "number": 586,
+      "text": "0"
+    },
+    {
+      "number": 587,
+      "text": ""
+    },
+    {
+      "number": 588,
+      "text": "0"
+    },
+    {
+      "number": 589,
+      "text": "0"
+    },
+    {
+      "number": 590,
+      "text": "0"
+    },
+    {
+      "number": 591,
+      "text": "0"
+    },
+    {
+      "number": 592,
+      "text": "0"
+    },
+    {
+      "number": 593,
+      "text": "0"
+    },
+    {
+      "number": 594,
+      "text": "0"
+    },
+    {
+      "number": 595,
+      "text": "0"
+    },
+    {
+      "number": 596,
+      "text": "0"
+    },
+    {
+      "number": 597,
+      "text": "0"
+    },
+    {
+      "number": 598,
+      "text": "0"
+    },
+    {
+      "number": 599,
+      "text": "0"
+    },
+    {
+      "number": 600,
+      "text": "0"
+    },
+    {
+      "number": 601,
+      "text": "0"
+    },
+    {
+      "number": 602,
+      "text": "0"
+    },
+    {
+      "number": 603,
+      "text": ""
+    },
+    {
+      "number": 604,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

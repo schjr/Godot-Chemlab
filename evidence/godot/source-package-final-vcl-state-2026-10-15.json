@@ -1,0 +1,28 @@
+{
+  "format": "chemlab-final-source-package-validation-v1",
+  "created_utc": "2026-10-15T01:45:05.277661+00:00",
+  "archive": "build/ChemLab-original-port-WIP-project.zip",
+  "archive_sha256": "757e2d2f077f1991351c7ffb611dbf617f7c5a2e8cf643788989066eb0dcdaac",
+  "archive_bytes": 7947153,
+  "manifest_file_hashes_verified": 1681,
+  "fresh_tested_archive": "build/ChemLab-original-port-WIP-vcl-state-tested-2026-10-15-project.zip",
+  "fresh_tested_archive_sha256": "05d87d3bdb2c5f1601753ddd3886659494dbae110a9d4e5f0024616629a2b2cc",
+  "godot_files_identical_to_fresh_tested_archive": 1377,
+  "added_or_changed_paths": [
+    "verification/source-package-validation-vcl-state-fresh-2026-10-15.json",
+    "verification/vcl-state-fresh-import.log",
+    "verification/vcl-state-fresh-test_native_action_workflow.gd.log",
+    "verification/vcl-state-fresh-test_original_bitmap_canvas.gd.log",
+    "verification/vcl-state-fresh-test_original_canvas_drawing.gd.log",
+    "verification/vcl-state-fresh-test_original_owned_memory_api.gd.log",
+    "verification/vcl-state-fresh-test_original_particle_presentation_boundary.gd.log",
+    "verification/vcl-state-fresh-test_original_particles_host.gd.log",
+    "verification/vcl-state-fresh-test_original_primitive_boundary_replies.gd.log",
+    "verification/vcl-state-fresh-test_original_run_corpus.gd.log",
+    "verification/vcl-state-fresh-test_original_shared_vcl_world.gd.log"
+  ],
+  "complete_suite_checks": 95,
+  "fresh_import_and_component_checks": 10,
+  "native_full_vcl_verified": false,
+  "all28_examples_verified_end_to_end": false
+}

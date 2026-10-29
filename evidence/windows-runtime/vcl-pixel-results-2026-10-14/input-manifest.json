@@ -1,0 +1,45 @@
+{
+    "format":  "chemlab-vcl-pixel-probes-v1",
+    "files":  [
+                  {
+                      "path":  "README.txt",
+                      "bytes":  505,
+                      "sha256":  "b6a441d2b037647c90ee5c309f420d729c918f98b477de3d6365bbf691b955fc"
+                  },
+                  {
+                      "path":  "current-material-gdi-cases.json",
+                      "bytes":  76142,
+                      "sha256":  "7b88f23ceef19829e576326d804a87b31f9eec2ddf32962cb8774ba1cc64dd8b"
+                  },
+                  {
+                      "path":  "original_dib_read_probe.cs",
+                      "bytes":  4949,
+                      "sha256":  "f366f56e3a842384cb26395e14ce14361aab0bfb70f34121d3ae80331e263839"
+                  },
+                  {
+                      "path":  "original_gdi_host.cs",
+                      "bytes":  7982,
+                      "sha256":  "621b369d85290f10ee0b0333709f10c8e651593dd7a04194232886dedefde466"
+                  },
+                  {
+                      "path":  "read_original_dib_pixels.ps1",
+                      "bytes":  8405,
+                      "sha256":  "4a4d476366c523d8efe96d85c7d864e5dba1f923b8eafe7f53e281a86a00e138"
+                  },
+                  {
+                      "path":  "run.ps1",
+                      "bytes":  2464,
+                      "sha256":  "9551a9fe4f9e9bf34d7d7556e284d5421509734a9d354f45b2b87b21ef3c6ca1"
+                  },
+                  {
+                      "path":  "run_current_material_probes.ps1",
+                      "bytes":  3859,
+                      "sha256":  "d7afa325184eddf07a6b3d9eccf0f2b67de7250fcf29ac9dba1c93d6ddb1548a"
+                  },
+                  {
+                      "path":  "windows_read_original.ps1",
+                      "bytes":  20754,
+                      "sha256":  "f449a857c7aa9b6d41d2067015c5f4b9adc40d8e5bc406e0c605f667e93eb905"
+                  }
+              ]
+}

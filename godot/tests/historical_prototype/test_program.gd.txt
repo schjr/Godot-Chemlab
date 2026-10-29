@@ -1,0 +1,56 @@
+extends SceneTree
+const Program = preload("res://scripts/lab_program.gd")
+const Model = preload("res://scripts/lab_model.gd")
+
+func _initialize() -> void:
+	var lab = Model.new()
+	lab.configure([{ "species": "H2O(液体)", "molar_mass": 18.015 }, {"species": "H+(离子)", "molar_mass": 1.008}], [])
+	var vessel: Dictionary = lab.add_apparatus("beaker250")
+	lab.add_reagent(vessel["id"], "H2O(液体)", 200.0 / 18.015)
+	lab.add_reagent(vessel["id"], "H+(离子)", 0.02)
+	lab.elapsed = 12.5
+	var program = Program.new()
+	program.configure(lab)
+	assert(program.bind_variable("a1", vessel["id"], "H2O(液体)", "mass"))
+	assert(program.bind_variable("h1", vessel["id"], "H+(离子)", "moles"))
+	assert(program.bind_variable("温度", vessel["id"], "", "temperature"))
+	program.code = "ph1=-log10(1000*h1/a1)\nx=1/2\ny=pow(2,3)+fabs(-2)+signum(-3)\nz=arccos(cos(0))+arcsin(sin(0))+arctan(tan(0))"
+	assert(program.evaluate_frame().is_empty(), str(program.errors))
+	assert(is_equal_approx(program.variables["a1"], 200.0))
+	assert(is_equal_approx(program.variables["h1"], 0.02))
+	assert(is_equal_approx(program.variables["ph1"], 1.0))
+	assert(is_equal_approx(program.variables["t"], 12.5))
+	assert(is_equal_approx(program.variables["x"], 0.5), "Literal division must remain floating-point")
+	assert(is_equal_approx(program.variables["y"], 9.0))
+	assert(is_equal_approx(program.variables["z"], 0.0))
+	program.set_variable("Ca(HCO3)2", 0.125)
+	assert(program.expand("PH={ph1}; n={Ca(HCO3)2} mol") == "PH=1.0; n=0.125 mol")
+	assert(is_equal_approx(float(program.evaluate_expression("Ca(HCO3)2*2")), 0.25))
+	program.code = "i=0\nsum=0\n循环1:当(i<5)成立\n判断2:如果(i<>2)则执行\nsum=sum+i\n结束判断2\ni=i+1\n结束循环1"
+	assert(program.evaluate_frame().is_empty(), str(program.errors))
+	assert(program.variables["sum"] == 8.0 and program.variables["i"] == 5.0)
+	program.code = "if sum=8 then\nanswer=42\nendif"
+	assert(program.evaluate_frame().is_empty())
+	assert(program.variables["answer"] == 42.0)
+	program.code = "循环1:当(1)成立\ni=i+1\n结束循环1"
+	assert(not program.evaluate_frame().is_empty(), "Infinite loop must terminate with a visible error")
+	program.code = "判断1:如果(1)则执行\n结束循环1"
+	assert(not program.evaluate_frame().is_empty(), "Mismatched blocks must be rejected")
+	program.code = "unknown_command()"
+	assert(not program.evaluate_frame().is_empty(), "Unknown commands must never disappear silently")
+	assert(program.evaluate_expression('load("res://project.godot")') == null)
+	assert(program.evaluate_expression('Object.new()') == null)
+	assert(program.evaluate_expression("unbound_variable+1") == null)
+	assert(program.evaluate_expression("sqrt(-1)") == null)
+	program.errors.clear()
+	assert(program.expand("{missing}") == "{missing}" and not program.errors.is_empty())
+	lab.running = true
+	program.code = "暂停\nunreachable=1"
+	assert(program.evaluate_frame().is_empty())
+	assert(not lab.running and not program.variables.has("unreachable"))
+	var clone = Program.new()
+	assert(clone.from_state(program.to_state()))
+	assert(clone.variables == program.variables and clone.bindings == program.bindings and clone.code == program.code)
+	assert(not clone.from_state({"variables": {"bad": "text"}}))
+	print("PASS program: original pH expressions, live mass/moles/time bindings, math functions, formula annotations, nested original Chinese control grammar, bounded loops, error reporting, scalar-only expressions, pause, persistence")
+	quit()

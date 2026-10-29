@@ -1,0 +1,102 @@
+{
+  "0x49c240": {
+    "length": 4,
+    "hex": "0000c842"
+  },
+  "0x49c244": {
+    "length": 4,
+    "hex": "0000803e"
+  },
+  "0x49c248": {
+    "length": 8,
+    "hex": "9a9999999999f13f"
+  },
+  "0x49c250": {
+    "length": 10,
+    "hex": "abaaaaaaaaaaaaaafd3f"
+  },
+  "0x49c25c": {
+    "length": 8,
+    "hex": "555555555555c53f"
+  },
+  "0x49c264": {
+    "length": 8,
+    "hex": "df6d2055fb210940"
+  },
+  "0x49c26c": {
+    "length": 4,
+    "hex": "aa619cbf"
+  },
+  "0x49c270": {
+    "length": 10,
+    "hex": "cdccccccccccccccf93f"
+  },
+  "0x49c27c": {
+    "length": 8,
+    "hex": "9a999999999999bf"
+  },
+  "0x49c284": {
+    "length": 10,
+    "hex": "cdccccccccccccccf53f"
+  },
+  "0x49c290": {
+    "length": 8,
+    "hex": "7b14ae47e17a843f"
+  },
+  "0x49c5ec": {
+    "length": 10,
+    "hex": "8a9dd8899dd8899dfb3f"
+  },
+  "0x49c60c": {
+    "length": 10,
+    "hex": "8180808080808080f73f"
+  },
+  "0x49c5f8": {
+    "length": 4,
+    "hex": "0000803f"
+  },
+  "0x49c5fc": {
+    "length": 8,
+    "hex": "df6d2055fb210940"
+  },
+  "0x49c604": {
+    "length": 8,
+    "hex": "df6d2055fb21f93f"
+  },
+  "0x49c618": {
+    "length": 8,
+    "hex": "9a9999999999c93f"
+  },
+  "0x49cf54": {
+    "length": 4,
+    "hex": "0000803f"
+  },
+  "0x49cf58": {
+    "length": 4,
+    "hex": "0000003f"
+  },
+  "0x49aa5c": {
+    "length": 8,
+    "hex": "1cc7711cc771ac3f"
+  },
+  "0x49aa64": {
+    "length": 8,
+    "hex": "df6d2055fb210940"
+  },
+  "0x49aa6c": {
+    "length": 8,
+    "hex": "540cab4b1857f63f"
+  },
+  "0x49aa74": {
+    "length": 8,
+    "hex": "176cc1166cc1863f"
+  },
+  "0x49aa7c": {
+    "length": 8,
+    "hex": "658fdac73cfe1840"
+  },
+  "0x49aa84": {
+    "length": 4,
+    "hex": "00000000"
+  }
+}

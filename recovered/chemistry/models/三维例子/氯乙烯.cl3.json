@@ -1,0 +1,824 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/三维例子/氯乙烯.cl3",
+    "byte_count": 1871,
+    "sha256": "9079aabbec6fe29024e0e013fcce45963909c932f784826cc724650f9768ca59",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/氯乙烯.cl3",
+    "utf8_export": "utf8/三维例子/氯乙烯.cl3"
+  },
+  "format": "cl3",
+  "header_lines": [
+    "2107",
+    "1",
+    "南京金华科软件有限公司仿真化学实验室-三维结构"
+  ],
+  "line_count": 201,
+  "lines": [
+    {
+      "number": 1,
+      "text": "2107"
+    },
+    {
+      "number": 2,
+      "text": "1"
+    },
+    {
+      "number": 3,
+      "text": "南京金华科软件有限公司仿真化学实验室-三维结构"
+    },
+    {
+      "number": 4,
+      "text": "0"
+    },
+    {
+      "number": 5,
+      "text": "35"
+    },
+    {
+      "number": 6,
+      "text": "0.800000071525574"
+    },
+    {
+      "number": 7,
+      "text": "0"
+    },
+    {
+      "number": 8,
+      "text": "1"
+    },
+    {
+      "number": 9,
+      "text": "1"
+    },
+    {
+      "number": 10,
+      "text": "1"
+    },
+    {
+      "number": 11,
+      "text": "0"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "1"
+    },
+    {
+      "number": 15,
+      "text": "1"
+    },
+    {
+      "number": 16,
+      "text": "1"
+    },
+    {
+      "number": 17,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 18,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 19,
+      "text": "1"
+    },
+    {
+      "number": 20,
+      "text": "1"
+    },
+    {
+      "number": 21,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 22,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 23,
+      "text": "0.25"
+    },
+    {
+      "number": 24,
+      "text": "0.209999993443489"
+    },
+    {
+      "number": 25,
+      "text": "0.150000005960464"
+    },
+    {
+      "number": 26,
+      "text": "0.270000010728836"
+    },
+    {
+      "number": 27,
+      "text": "0.870000004768372"
+    },
+    {
+      "number": 28,
+      "text": "0.680000007152557"
+    },
+    {
+      "number": 29,
+      "text": "0.550000011920929"
+    },
+    {
+      "number": 30,
+      "text": "0.730000019073486"
+    },
+    {
+      "number": 31,
+      "text": "0.150000005960464"
+    },
+    {
+      "number": 32,
+      "text": "0.740000009536743"
+    },
+    {
+      "number": 33,
+      "text": "0.610000014305115"
+    },
+    {
+      "number": 34,
+      "text": "0.0799999982118607"
+    },
+    {
+      "number": 35,
+      "text": "0.939999997615814"
+    },
+    {
+      "number": 36,
+      "text": "0.550000011920929"
+    },
+    {
+      "number": 37,
+      "text": "0.0399999991059303"
+    },
+    {
+      "number": 38,
+      "text": "0.749000012874603"
+    },
+    {
+      "number": 39,
+      "text": "0.38400000333786"
+    },
+    {
+      "number": 40,
+      "text": "0.0509999990463257"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "0"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0.300000011920929"
+    },
+    {
+      "number": 45,
+      "text": "0.300000011920929"
+    },
+    {
+      "number": 46,
+      "text": "0.300000011920929"
+    },
+    {
+      "number": 47,
+      "text": "1"
+    },
+    {
+      "number": 48,
+      "text": "1"
+    },
+    {
+      "number": 49,
+      "text": "1"
+    },
+    {
+      "number": 50,
+      "text": "1"
+    },
+    {
+      "number": 51,
+      "text": "1"
+    },
+    {
+      "number": 52,
+      "text": "1"
+    },
+    {
+      "number": 53,
+      "text": "1"
+    },
+    {
+      "number": 54,
+      "text": "1"
+    },
+    {
+      "number": 55,
+      "text": "0"
+    },
+    {
+      "number": 56,
+      "text": "1"
+    },
+    {
+      "number": 57,
+      "text": "1"
+    },
+    {
+      "number": 58,
+      "text": "1"
+    },
+    {
+      "number": 59,
+      "text": "1"
+    },
+    {
+      "number": 60,
+      "text": "1"
+    },
+    {
+      "number": 61,
+      "text": "1"
+    },
+    {
+      "number": 62,
+      "text": "3"
+    },
+    {
+      "number": 63,
+      "text": "0"
+    },
+    {
+      "number": 64,
+      "text": "4"
+    },
+    {
+      "number": 65,
+      "text": "C1AAA"
+    },
+    {
+      "number": 66,
+      "text": "4.22500038146973"
+    },
+    {
+      "number": 67,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 68,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 69,
+      "text": "17"
+    },
+    {
+      "number": 70,
+      "text": "X1AAB--Cl"
+    },
+    {
+      "number": 71,
+      "text": "13.0250005722046"
+    },
+    {
+      "number": 72,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 73,
+      "text": "-12.2543239593506"
+    },
+    {
+      "number": 74,
+      "text": "1"
+    },
+    {
+      "number": 75,
+      "text": "BDAAA1"
+    },
+    {
+      "number": 76,
+      "text": "0.5"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "-0.866029977798462"
+    },
+    {
+      "number": 79,
+      "text": "1"
+    },
+    {
+      "number": 80,
+      "text": "H1AAD"
+    },
+    {
+      "number": 81,
+      "text": "9.57500076293945"
+    },
+    {
+      "number": 82,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 83,
+      "text": "12.2543239593506"
+    },
+    {
+      "number": 84,
+      "text": "1"
+    },
+    {
+      "number": 85,
+      "text": "BDAAC1"
+    },
+    {
+      "number": 86,
+      "text": "0.5"
+    },
+    {
+      "number": 87,
+      "text": "0"
+    },
+    {
+      "number": 88,
+      "text": "0.866029977798462"
+    },
+    {
+      "number": 89,
+      "text": "0"
+    },
+    {
+      "number": 90,
+      "text": "H1AAE"
+    },
+    {
+      "number": 91,
+      "text": "9.26813220977783"
+    },
+    {
+      "number": 92,
+      "text": "-2.55828046798706"
+    },
+    {
+      "number": 93,
+      "text": "-5.74715709686279"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": "BDAAD1"
+    },
+    {
+      "number": 96,
+      "text": "0.471320748329163"
+    },
+    {
+      "number": 97,
+      "text": "-0.333806842565537"
+    },
+    {
+      "number": 98,
+      "text": "-0.816351473331451"
+    },
+    {
+      "number": 99,
+      "text": "6"
+    },
+    {
+      "number": 100,
+      "text": "C1AAC"
+    },
+    {
+      "number": 101,
+      "text": "-9.17500019073486"
+    },
+    {
+      "number": 102,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 103,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 104,
+      "text": "2"
+    },
+    {
+      "number": 105,
+      "text": "BDAAB1"
+    },
+    {
+      "number": 106,
+      "text": "-1"
+    },
+    {
+      "number": 107,
+      "text": "0"
+    },
+    {
+      "number": 108,
+      "text": "0"
+    },
+    {
+      "number": 109,
+      "text": "1"
+    },
+    {
+      "number": 110,
+      "text": "4"
+    },
+    {
+      "number": 111,
+      "text": "C1AAC"
+    },
+    {
+      "number": 112,
+      "text": "-9.17500019073486"
+    },
+    {
+      "number": 113,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 114,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 115,
+      "text": "6"
+    },
+    {
+      "number": 116,
+      "text": "C1AAA"
+    },
+    {
+      "number": 117,
+      "text": "4.22500038146973"
+    },
+    {
+      "number": 118,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 119,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 120,
+      "text": "2"
+    },
+    {
+      "number": 121,
+      "text": "BDAAB1"
+    },
+    {
+      "number": 122,
+      "text": "1"
+    },
+    {
+      "number": 123,
+      "text": "0"
+    },
+    {
+      "number": 124,
+      "text": "0"
+    },
+    {
+      "number": 125,
+      "text": "1"
+    },
+    {
+      "number": 126,
+      "text": "H1AAF"
+    },
+    {
+      "number": 127,
+      "text": "-14.5250005722046"
+    },
+    {
+      "number": 128,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 129,
+      "text": "12.2543239593506"
+    },
+    {
+      "number": 130,
+      "text": "1"
+    },
+    {
+      "number": 131,
+      "text": "BDAAF1"
+    },
+    {
+      "number": 132,
+      "text": "-0.5"
+    },
+    {
+      "number": 133,
+      "text": "0"
+    },
+    {
+      "number": 134,
+      "text": "0.866029977798462"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": ""
+    },
+    {
+      "number": 137,
+      "text": "14.5250005722046"
+    },
+    {
+      "number": 138,
+      "text": "2.55828046798706"
+    },
+    {
+      "number": 139,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 140,
+      "text": "0"
+    },
+    {
+      "number": 141,
+      "text": ""
+    },
+    {
+      "number": 142,
+      "text": "0"
+    },
+    {
+      "number": 143,
+      "text": "0"
+    },
+    {
+      "number": 144,
+      "text": "0"
+    },
+    {
+      "number": 145,
+      "text": "1"
+    },
+    {
+      "number": 146,
+      "text": "H1AAH"
+    },
+    {
+      "number": 147,
+      "text": "-14.5250005722046"
+    },
+    {
+      "number": 148,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 149,
+      "text": "-6.27871704101562"
+    },
+    {
+      "number": 150,
+      "text": "1"
+    },
+    {
+      "number": 151,
+      "text": "BDAAH1"
+    },
+    {
+      "number": 152,
+      "text": "-0.5"
+    },
+    {
+      "number": 153,
+      "text": "0"
+    },
+    {
+      "number": 154,
+      "text": "-0.866029977798462"
+    },
+    {
+      "number": 155,
+      "text": "2"
+    },
+    {
+      "number": 156,
+      "text": "4"
+    },
+    {
+      "number": 157,
+      "text": "X1AAB--Cl"
+    },
+    {
+      "number": 158,
+      "text": "13.0250005722046"
+    },
+    {
+      "number": 159,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 160,
+      "text": "-12.2543239593506"
+    },
+    {
+      "number": 161,
+      "text": "6"
+    },
+    {
+      "number": 162,
+      "text": "C1AAA"
+    },
+    {
+      "number": 163,
+      "text": "4.22500038146973"
+    },
+    {
+      "number": 164,
+      "text": "1.0134528875351"
+    },
+    {
+      "number": 165,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 166,
+      "text": "1"
+    },
+    {
+      "number": 167,
+      "text": "BDAAA1"
+    },
+    {
+      "number": 168,
+      "text": "-0.5"
+    },
+    {
+      "number": 169,
+      "text": "0"
+    },
+    {
+      "number": 170,
+      "text": "0.866029977798462"
+    },
+    {
+      "number": 171,
+      "text": "0"
+    },
+    {
+      "number": 172,
+      "text": ""
+    },
+    {
+      "number": 173,
+      "text": "0"
+    },
+    {
+      "number": 174,
+      "text": "0"
+    },
+    {
+      "number": 175,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 176,
+      "text": "0"
+    },
+    {
+      "number": 177,
+      "text": ""
+    },
+    {
+      "number": 178,
+      "text": "0"
+    },
+    {
+      "number": 179,
+      "text": "0"
+    },
+    {
+      "number": 180,
+      "text": "0"
+    },
+    {
+      "number": 181,
+      "text": "0"
+    },
+    {
+      "number": 182,
+      "text": ""
+    },
+    {
+      "number": 183,
+      "text": "0"
+    },
+    {
+      "number": 184,
+      "text": "0"
+    },
+    {
+      "number": 185,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 186,
+      "text": "0"
+    },
+    {
+      "number": 187,
+      "text": ""
+    },
+    {
+      "number": 188,
+      "text": "0"
+    },
+    {
+      "number": 189,
+      "text": "0"
+    },
+    {
+      "number": 190,
+      "text": "0"
+    },
+    {
+      "number": 191,
+      "text": "0"
+    },
+    {
+      "number": 192,
+      "text": ""
+    },
+    {
+      "number": 193,
+      "text": "0"
+    },
+    {
+      "number": 194,
+      "text": "0"
+    },
+    {
+      "number": 195,
+      "text": "2.98780345916748"
+    },
+    {
+      "number": 196,
+      "text": "0"
+    },
+    {
+      "number": 197,
+      "text": ""
+    },
+    {
+      "number": 198,
+      "text": "0"
+    },
+    {
+      "number": 199,
+      "text": "0"
+    },
+    {
+      "number": 200,
+      "text": "0"
+    },
+    {
+      "number": 201,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

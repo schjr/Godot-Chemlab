@@ -1,0 +1,799 @@
+[
+  {
+    "source": "artifacts/ChemLab/res/allfcs.txt",
+    "byte_count": 71403,
+    "sha256": "075e6509da4ca206db4e44ee2fbc92ac475fec56ee92fd888b20c31fbbc8f489",
+    "encoding": "gb18030",
+    "original_copy": "original/res/allfcs.txt",
+    "utf8_export": "utf8/res/allfcs.txt"
+  },
+  {
+    "source": "artifacts/ChemLab/res/allyp.txt",
+    "byte_count": 42848,
+    "sha256": "1ebfb630705780ba3760d622dc886c401b58e48bba074eb90ce3175bbd626840",
+    "encoding": "gb18030",
+    "original_copy": "original/res/allyp.txt",
+    "utf8_export": "utf8/res/allyp.txt"
+  },
+  {
+    "source": "artifacts/ChemLab/res/allfcs说明.txt",
+    "byte_count": 446,
+    "sha256": "0feebfe84a156432d0ea89345658a9473c2b256ec961f30523f402ce174d234e",
+    "encoding": "utf-8",
+    "original_copy": "original/res/allfcs说明.txt",
+    "utf8_export": "utf8/res/allfcs说明.txt"
+  },
+  {
+    "source": "artifacts/ChemLab/help/aboutnew.htm",
+    "byte_count": 3608,
+    "sha256": "0cf18cd1e94d1c67154fd3264cdd1935af1a6f7bc7c2a795ccd9fdd64d9dc3af",
+    "encoding": "gb18030",
+    "original_copy": "original/help/aboutnew.htm",
+    "utf8_export": "utf8/help/aboutnew.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/dajian.htm",
+    "byte_count": 6899,
+    "sha256": "00de549951faefed6c0ce59e03ba4bbcd5a706a1c138e252a5d189e81574b2d4",
+    "encoding": "gb18030",
+    "original_copy": "original/help/dajian.htm",
+    "utf8_export": "utf8/help/dajian.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/fabu.htm",
+    "byte_count": 9082,
+    "sha256": "18817673ee4ee9a6dfe532870f47498da6cd673051396df63b1c6f4a88eac639",
+    "encoding": "gb18030",
+    "original_copy": "original/help/fabu.htm",
+    "utf8_export": "utf8/help/fabu.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/fanying.htm",
+    "byte_count": 8736,
+    "sha256": "ee4f2d6b63f6d3dcd4c803d1a57a3db28a7e5c9c17268f29d82be243a4372fe4",
+    "encoding": "gb18030",
+    "original_copy": "original/help/fanying.htm",
+    "utf8_export": "utf8/help/fanying.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/fcs_edit.htm",
+    "byte_count": 7181,
+    "sha256": "08fe00325216a7709b0f9cf0ad5dc14907125e05069d63d7c5585694156fb449",
+    "encoding": "gb18030",
+    "original_copy": "original/help/fcs_edit.htm",
+    "utf8_export": "utf8/help/fcs_edit.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/index.htm",
+    "byte_count": 3647,
+    "sha256": "b46e81a0eeaf52194bbe46f072f7c8e9153d768b15bf379ded52fd1374cb4b48",
+    "encoding": "gb18030",
+    "original_copy": "original/help/index.htm",
+    "utf8_export": "utf8/help/index.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/jianjie.htm",
+    "byte_count": 6337,
+    "sha256": "23ca5797894993eb2c8569786b44fda380060e3171f037bb232ad2f2f9dea103",
+    "encoding": "gb18030",
+    "original_copy": "original/help/jianjie.htm",
+    "utf8_export": "utf8/help/jianjie.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/jiemian.htm",
+    "byte_count": 15457,
+    "sha256": "4e429be4e23033e28a74cd2bb4253cdc97de5fc84561a521de1a1f2a9f6ed197",
+    "encoding": "gb18030",
+    "original_copy": "original/help/jiemian.htm",
+    "utf8_export": "utf8/help/jiemian.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/new30.htm",
+    "byte_count": 5744,
+    "sha256": "410fe3bea716b2614819d90c19ee35278aedf63683654fc5bd2a93a1a1b6dac4",
+    "encoding": "gb18030",
+    "original_copy": "original/help/new30.htm",
+    "utf8_export": "utf8/help/new30.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/tianjyp.htm",
+    "byte_count": 4561,
+    "sha256": "6350ff5d323df693e833d1cc9a9949da3e32ed3a0dab19adf1459bc243bccbf0",
+    "encoding": "gb18030",
+    "original_copy": "original/help/tianjyp.htm",
+    "utf8_export": "utf8/help/tianjyp.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/yongysl.htm",
+    "byte_count": 24948,
+    "sha256": "674d41a7f63f4f813b4192ddb3febcdaea2c425c71f625672d285b83962405b2",
+    "encoding": "gb18030",
+    "original_copy": "original/help/yongysl.htm",
+    "utf8_export": "utf8/help/yongysl.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/help/yp_edit.htm",
+    "byte_count": 6391,
+    "sha256": "b7dcc5440572decbbe5cf45708c5b0370a386f1aafe31f9c0241262d03f8045f",
+    "encoding": "gb18030",
+    "original_copy": "original/help/yp_edit.htm",
+    "utf8_export": "utf8/help/yp_edit.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/使用说明/index.htm",
+    "byte_count": 13893,
+    "sha256": "38d55dc8fd42760c1e580e30886ad2286df56c7fce69f486f1ff0223b31f65a6",
+    "encoding": "gb18030",
+    "original_copy": "original/使用说明/index.htm",
+    "utf8_export": "utf8/使用说明/index.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/index.htm",
+    "byte_count": 3684,
+    "sha256": "8d2c9e9f6f0847131f0034b23d09f92e696d40e196f930768df8c9e858de5ca4",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/index.htm",
+    "utf8_export": "utf8/帮助/index.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/分子模型库.htm",
+    "byte_count": 3559,
+    "sha256": "692b65d1a37a520436c9a035f1d87fd18ec43cdacf3ecf308ead2fab364bd000",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/分子模型库.htm",
+    "utf8_export": "utf8/帮助/分子模型库.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/工具栏.htm",
+    "byte_count": 3308,
+    "sha256": "f3ef5b3cfe0f55e023d06ae84185a70c7b84824139cb14d2a46f78a50ae209af",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/工具栏.htm",
+    "utf8_export": "utf8/帮助/工具栏.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/有机分子的搭建.htm",
+    "byte_count": 18904,
+    "sha256": "e6f3f42d96a5b5673fbbc7c96a0be4e27165562faf5d5536d8c39fff680a4eea",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/有机分子的搭建.htm",
+    "utf8_export": "utf8/帮助/有机分子的搭建.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/模板栏.htm",
+    "byte_count": 4034,
+    "sha256": "f18f95ea288c1b4681337dfed45f41ff5204803f23d0337817a3fa25404933ad",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/模板栏.htm",
+    "utf8_export": "utf8/帮助/模板栏.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/界面介绍.htm",
+    "byte_count": 1141,
+    "sha256": "d4430a302bcbdec878365d619c3c632d99bf9afd75bbd904075f7bca6ddebacf",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/界面介绍.htm",
+    "utf8_export": "utf8/帮助/界面介绍.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/帮助/菜单及功能介绍.htm",
+    "byte_count": 7410,
+    "sha256": "a1a8fccf784456e69c53366dafc8daf0d0cbaa24bd1065d210c5df1a320b7457",
+    "encoding": "gb18030",
+    "original_copy": "original/帮助/菜单及功能介绍.htm",
+    "utf8_export": "utf8/帮助/菜单及功能介绍.htm"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/一氧化碳还原氧化铁.cem",
+    "byte_count": 4622,
+    "sha256": "3ef6d429051c7fbc9052b0d5899178463fe17ee7fbf79e5582840566940545ff",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/一氧化碳还原氧化铁.cem",
+    "utf8_export": "utf8/例子/一氧化碳还原氧化铁.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/一氧化碳还原氧化铜.cem",
+    "byte_count": 5009,
+    "sha256": "f43cf8ceb0a8bb98e7d5ce121302b9e6fbb1906bd3a004724eb9a788259fa19b",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/一氧化碳还原氧化铜.cem",
+    "utf8_export": "utf8/例子/一氧化碳还原氧化铜.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/二氧化碳通入石灰水中.cem",
+    "byte_count": 3624,
+    "sha256": "127be666a1b947f9cfbe5cedd85b750d64072350f26ca7c4b7e59153e4caed4a",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/二氧化碳通入石灰水中.cem",
+    "utf8_export": "utf8/例子/二氧化碳通入石灰水中.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/制取与收集氢气.cem",
+    "byte_count": 2147,
+    "sha256": "d1cfecc9092f8cf35739c942003c65fc8ac8e2e4792938ea51c7b108a6e4391e",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/制取与收集氢气.cem",
+    "utf8_export": "utf8/例子/制取与收集氢气.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/加热碱式碳酸铜.cem",
+    "byte_count": 2507,
+    "sha256": "7c1cdc38ec3a9f9f7105d971e85e1f1130bccc7b70352a630f851032595af450",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/加热碱式碳酸铜.cem",
+    "utf8_export": "utf8/例子/加热碱式碳酸铜.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/加热碳酸氢钠.cem",
+    "byte_count": 2684,
+    "sha256": "ff435a8f67d70185e1f707e57ec8087c0e8bab4f25a227b1782dc598cc9b6c17",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/加热碳酸氢钠.cem",
+    "utf8_export": "utf8/例子/加热碳酸氢钠.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制取乙炔.cem",
+    "byte_count": 2111,
+    "sha256": "4e4b016cca527744dfc38c9a603bf55a3fe59f84e71e9ca84e062471bba0a5dc",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/实验室制取乙炔.cem",
+    "utf8_export": "utf8/例子/实验室制取乙炔.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制取氯气.cem",
+    "byte_count": 3195,
+    "sha256": "42ce74c7511190d7fa97a500c222087a935659b58911fd7bb0df2a85e35a9da3",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/实验室制取氯气.cem",
+    "utf8_export": "utf8/例子/实验室制取氯气.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制取甲烷.cem",
+    "byte_count": 2500,
+    "sha256": "5cb9ca3e5cb94b6d737b5c31d0cc90f6480343059ebab0e89f956d03c3e37009",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/实验室制取甲烷.cem",
+    "utf8_export": "utf8/例子/实验室制取甲烷.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/实验室制氧气.cem",
+    "byte_count": 4061,
+    "sha256": "d6f937693b270a1e8ebf6862931490f2e69c9bef650b381eb77738dfe6b41d01",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/实验室制氧气.cem",
+    "utf8_export": "utf8/例子/实验室制氧气.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/强酸与弱酸的电离.cem",
+    "byte_count": 4397,
+    "sha256": "6ff7e4d6f99f42c7bff6acd57e72d30e46162a65af32914c1da28dad2579fe7d",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/强酸与弱酸的电离.cem",
+    "utf8_export": "utf8/例子/强酸与弱酸的电离.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氢气还原氧化铁.cem",
+    "byte_count": 4666,
+    "sha256": "4464110f06ed46a90cb8a9c7cc8ce2a637d457ffa9d73c15d71006350a8dbaed",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/氢气还原氧化铁.cem",
+    "utf8_export": "utf8/例子/氢气还原氧化铁.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氢气还原氧化铜.cem",
+    "byte_count": 2824,
+    "sha256": "e1dcfe13de703dcc998476bf3dd6ac237b9a420ee57cc534c115d613610e669d",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/氢气还原氧化铜.cem",
+    "utf8_export": "utf8/例子/氢气还原氧化铜.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氢氧化铜与氢氧化铁.cem",
+    "byte_count": 3308,
+    "sha256": "69153d74d17dea9f06e899c8bfe9de23b511702e479dce6115b084ed8419fce2",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/氢氧化铜与氢氧化铁.cem",
+    "utf8_export": "utf8/例子/氢氧化铜与氢氧化铁.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/氯气漂白品红.cem",
+    "byte_count": 4368,
+    "sha256": "6823e3f2b1bac0dad99b820a54bcb8bf752c7bdfaeffc885c7b82c39ad9ccd90",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/氯气漂白品红.cem",
+    "utf8_export": "utf8/例子/氯气漂白品红.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/水的加热与沸腾.cem",
+    "byte_count": 2429,
+    "sha256": "e09e69c71587893f373cc284e35799acfc8938b4a171dff9fb6f84c5bfd46f94",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/水的加热与沸腾.cem",
+    "utf8_export": "utf8/例子/水的加热与沸腾.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/水的电离.cem",
+    "byte_count": 1003,
+    "sha256": "f356eafcf374a13b49b234da4971070c3dffaa8131c8f78f22c54043635b7114",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/水的电离.cem",
+    "utf8_export": "utf8/例子/水的电离.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/硬水的软化.cem",
+    "byte_count": 4763,
+    "sha256": "41b5fc4e9c5ef93af31a65495aaea2eb8a21d770a5f74d6e3d20922264a11e81",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/硬水的软化.cem",
+    "utf8_export": "utf8/例子/硬水的软化.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/碳还原氧化铜.cem",
+    "byte_count": 2477,
+    "sha256": "0fd44ad178f492c319a8fdf711f8ecb552655dbe5fca9464c26d9c0e3f647832",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/碳还原氧化铜.cem",
+    "utf8_export": "utf8/例子/碳还原氧化铜.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/酸碱中和滴定.cem",
+    "byte_count": 5093,
+    "sha256": "e6e038dc6853f4c64bd0c6b601ef15c3d2f6be55d516e7fdbee8961a045df11e",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/酸碱中和滴定.cem",
+    "utf8_export": "utf8/例子/酸碱中和滴定.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/酸碱指示剂.cem",
+    "byte_count": 7758,
+    "sha256": "300997daa693d4692b303bf9e932dfac03c107624d59708a8b9b82ae0ba015fd",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/酸碱指示剂.cem",
+    "utf8_export": "utf8/例子/酸碱指示剂.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/酸碱盐.cem",
+    "byte_count": 6615,
+    "sha256": "09068b4d417ffbc8221b24e512c24086a908ab9251ad097754c2162bb5b09364",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/酸碱盐.cem",
+    "utf8_export": "utf8/例子/酸碱盐.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/醋酸钠的水解.cem",
+    "byte_count": 2026,
+    "sha256": "da4b44505c42d7a894c41c246f4e571cb0e661b50478d1148d000d604e1fc74b",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/醋酸钠的水解.cem",
+    "utf8_export": "utf8/例子/醋酸钠的水解.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/金属活动性顺序.cem",
+    "byte_count": 2463,
+    "sha256": "1f3c365dcaca75b16ebdc8612f8c062aa0d3f8d9db983aee1294f895f468c62a",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/金属活动性顺序.cem",
+    "utf8_export": "utf8/例子/金属活动性顺序.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/铁和盐酸的反应.cem",
+    "byte_count": 2064,
+    "sha256": "52fa8a5a8bd69ca3bb45bfbfe20274406cb9a076a1a1f2abdafa1087f1d92667",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/铁和盐酸的反应.cem",
+    "utf8_export": "utf8/例子/铁和盐酸的反应.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/题目1.cem",
+    "byte_count": 4054,
+    "sha256": "cc97f732d0cea0e5fc9abf98fe6d52b153bb224be1081ed837bba89376f54957",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/题目1.cem",
+    "utf8_export": "utf8/例子/题目1.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/题目2.cem",
+    "byte_count": 2088,
+    "sha256": "211593b600e4f7da8f587fcfaf381336f898ba6286b81a38d9d1a32063dc2b7c",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/题目2.cem",
+    "utf8_export": "utf8/例子/题目2.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/例子/题目3.cem",
+    "byte_count": 3022,
+    "sha256": "0dff4db4b8da27826c03ed4f50d465e73dcc4294a767cdfe3b078fb067daa544",
+    "encoding": "gb18030",
+    "original_copy": "original/例子/题目3.cem",
+    "utf8_export": "utf8/例子/题目3.cem"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/DNA1.cl3",
+    "byte_count": 34257,
+    "sha256": "213edb8982f74a235292cc5ee2d492a93616ec2637f0d6dda628684247750adf",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/DNA1.cl3",
+    "utf8_export": "utf8/三维例子/DNA1.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/NaCl.cl3",
+    "byte_count": 29519,
+    "sha256": "8e8a607bdefae6f5cb29f7b58fab9e2180a2a483f10e57aa11d3ea58d64367c6",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/NaCl.cl3",
+    "utf8_export": "utf8/三维例子/NaCl.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/三硝基甲苯.cl3",
+    "byte_count": 5189,
+    "sha256": "16e820bd692a3ba7ac26f4d10e3e2f45593a8370ce3cb7bf53e37e4651b3981d",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/三硝基甲苯.cl3",
+    "utf8_export": "utf8/三维例子/三硝基甲苯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/丙氨酸.cl3",
+    "byte_count": 3278,
+    "sha256": "f72209f39b3e7e61b03a1daa5419e585c4d786fd33dd3684fb6487c96d8f1939",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/丙氨酸.cl3",
+    "utf8_export": "utf8/三维例子/丙氨酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/丙酮.cl3",
+    "byte_count": 2396,
+    "sha256": "8094cf6784da7ef9bd29cbb2a32dbff0a7e285264978aa146e730475bdd04559",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/丙酮.cl3",
+    "utf8_export": "utf8/三维例子/丙酮.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙二胺.cl3",
+    "byte_count": 2738,
+    "sha256": "847ba15789c3238170437f7ef41ec12825b402bb06f82b83dcf9f420f8ea6552",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙二胺.cl3",
+    "utf8_export": "utf8/三维例子/乙二胺.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙二酸.cl3",
+    "byte_count": 3069,
+    "sha256": "a87758b43362b4918082f0bddd9f585ab434715c8b12d6b80cdaf8bc926e1cc7",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙二酸.cl3",
+    "utf8_export": "utf8/三维例子/乙二酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙酸.cl3",
+    "byte_count": 2285,
+    "sha256": "63a2321aeacb90d8e9a9cbd6b77b9609cbefa1fca4ad3e132b60fde30efb1f30",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙酸.cl3",
+    "utf8_export": "utf8/三维例子/乙酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙酸乙酯.cl3",
+    "byte_count": 3593,
+    "sha256": "c6c5ebacf3a45e79965bcc077f0a4e19d01044c4ea14aaffbfbdfa88c8b22422",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙酸乙酯.cl3",
+    "utf8_export": "utf8/三维例子/乙酸乙酯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙醇.cl3",
+    "byte_count": 2258,
+    "sha256": "df4a1b0cf3e271cea49bbe9ed8a7ee7040d80d36bf6ef8eaabf39f2c66a82d72",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙醇.cl3",
+    "utf8_export": "utf8/三维例子/乙醇.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙醚.cl3",
+    "byte_count": 3443,
+    "sha256": "5a2cb0aae878487a9075f534e10a4eddbebf9449347cb02d8015521111c07c1a",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙醚.cl3",
+    "utf8_export": "utf8/三维例子/乙醚.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/乙醛.cl3",
+    "byte_count": 1747,
+    "sha256": "fb263758cb50c007cc36875b71cae80f9d335e4bf0d6d3aefd4ddd034a55cbc7",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/乙醛.cl3",
+    "utf8_export": "utf8/三维例子/乙醛.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/分子筛.cl3",
+    "byte_count": 537236,
+    "sha256": "d5c01223ea12591b7d1a6d14b0991e81035871a7dfca7a1f2b54f6364aeaab7e",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/分子筛.cl3",
+    "utf8_export": "utf8/三维例子/分子筛.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/双氧水.cl3",
+    "byte_count": 1958,
+    "sha256": "770ec31542d4b1b8be9ae6b18106d19c8d8b536a11bac8c22944e1a0d3440535",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/双氧水.cl3",
+    "utf8_export": "utf8/三维例子/双氧水.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/四氯化碳.cl3",
+    "byte_count": 2807,
+    "sha256": "5b90c39d4a5e458373d284fb144112ee2a06c6c2f7aeb0e81352d1819f19e7eb",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/四氯化碳.cl3",
+    "utf8_export": "utf8/三维例子/四氯化碳.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/尿素.cl3",
+    "byte_count": 3022,
+    "sha256": "cf5f5de83c9c9da328246115f8e1e2cb746c29bb0297cb76b3b53f13a4f1b2d8",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/尿素.cl3",
+    "utf8_export": "utf8/三维例子/尿素.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/异丁烷.cl3",
+    "byte_count": 2809,
+    "sha256": "d3b1bbb90a61ac5cd24eae54bf3eefa12da4dd8188f8df7845d8976a465247f4",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/异丁烷.cl3",
+    "utf8_export": "utf8/三维例子/异丁烷.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/异辛烷.cl3",
+    "byte_count": 5029,
+    "sha256": "1ed2a9b9074354d308cfa9ff0572d3c7924995f667c0deed5402df2c446e3c94",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/异辛烷.cl3",
+    "utf8_export": "utf8/三维例子/异辛烷.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/戊烷同分异构体.cl3",
+    "byte_count": 8782,
+    "sha256": "20a9b62ae4c980e55d2718371aeb3ece9cff9bd122b1ee847535055717c05f62",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/戊烷同分异构体.cl3",
+    "utf8_export": "utf8/三维例子/戊烷同分异构体.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/正丁烷.cl3",
+    "byte_count": 2685,
+    "sha256": "6c97f3278e9bba7b03bd89fc65d80606128124c45531fc3fb23832831cb4d371",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/正丁烷.cl3",
+    "utf8_export": "utf8/三维例子/正丁烷.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/氟化氢.cl3",
+    "byte_count": 1311,
+    "sha256": "05b7a13e1eb348e1908b9a6b8b79492a069efecabf69cc89de303150550cca30",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/氟化氢.cl3",
+    "utf8_export": "utf8/三维例子/氟化氢.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/氯乙烯.cl3",
+    "byte_count": 1871,
+    "sha256": "9079aabbec6fe29024e0e013fcce45963909c932f784826cc724650f9768ca59",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/氯乙烯.cl3",
+    "utf8_export": "utf8/三维例子/氯乙烯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/氯化氢.cl3",
+    "byte_count": 1218,
+    "sha256": "407293687eaf5db11574a7dc6b12f8b19ec2cb6f3973d601e2a4cede86659b30",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/氯化氢.cl3",
+    "utf8_export": "utf8/三维例子/氯化氢.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/溴化氢.cl3",
+    "byte_count": 1217,
+    "sha256": "8724f20ab342d27dfd7ecc84ee53aa49ebae6fb2145b2bcedbb0d29d2a3e68d4",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/溴化氢.cl3",
+    "utf8_export": "utf8/三维例子/溴化氢.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/溴苯.cl3",
+    "byte_count": 3802,
+    "sha256": "5fd411c9f490138b5a6fc32f5e6f943e276febaf8a9a621ae78447078fd905b9",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/溴苯.cl3",
+    "utf8_export": "utf8/三维例子/溴苯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甘氨酸.cl3",
+    "byte_count": 2702,
+    "sha256": "ecb3c95cc793f9588dcbc6eebb3b11359866dddac3e3a000792c94501ff472ec",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/甘氨酸.cl3",
+    "utf8_export": "utf8/三维例子/甘氨酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甘油.cl3",
+    "byte_count": 3613,
+    "sha256": "749870532bd254e534a71cfce1e2cebc04d421fc73f768e316e30e146829443f",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/甘油.cl3",
+    "utf8_export": "utf8/三维例子/甘油.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲胺.cl3",
+    "byte_count": 1751,
+    "sha256": "98133a891d42ff242ade441cafe5c645b603bf1576cc0d16d472de31e906483c",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/甲胺.cl3",
+    "utf8_export": "utf8/三维例子/甲胺.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲苯.cl3",
+    "byte_count": 4536,
+    "sha256": "37a01712f08e4a2f1cc7ed548dc9380f3c516d7edf7c2319c319dfe65500f5bf",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/甲苯.cl3",
+    "utf8_export": "utf8/三维例子/甲苯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲酰胺.cl3",
+    "byte_count": 2116,
+    "sha256": "9f63f177f63cad32f95616151e54cbf4006e251723374f8e12d13406c538ae2e",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/甲酰胺.cl3",
+    "utf8_export": "utf8/三维例子/甲酰胺.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/甲酸.cl3",
+    "byte_count": 1832,
+    "sha256": "7a2bf44a4e3055dac00e08e91b47a0824a0f376d5fce161bf0cd9dd6c5e39ea9",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/甲酸.cl3",
+    "utf8_export": "utf8/三维例子/甲酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/石墨.cl3",
+    "byte_count": 76096,
+    "sha256": "da5f5d6e67e179d5a6ec4b591883f58ad5936b8c7fe8c4ba7575e67461455d56",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/石墨.cl3",
+    "utf8_export": "utf8/三维例子/石墨.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/硝基苯.cl3",
+    "byte_count": 3807,
+    "sha256": "504e778a2872dee1542d28bb28457af23f9bba570a4fc5bebd02b8802cf9303c",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/硝基苯.cl3",
+    "utf8_export": "utf8/三维例子/硝基苯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/硫酸.cl3",
+    "byte_count": 2746,
+    "sha256": "40e4e3b3a365297aa85a82822dc3a8b2102a3d0c632dc8db478763a2cf114728",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/硫酸.cl3",
+    "utf8_export": "utf8/三维例子/硫酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/碘化氢.cl3",
+    "byte_count": 1176,
+    "sha256": "1e139408498f2a3e93cfba2951fda607449f93a62e6bdbc7b8b5a272ff2d1343",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/碘化氢.cl3",
+    "utf8_export": "utf8/三维例子/碘化氢.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/胞嘧啶.cl3",
+    "byte_count": 31965,
+    "sha256": "53e5d28362610d84cd45578d0f9611997dabc2f0ebbcb4f63b36a0e4cb9843d8",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/胞嘧啶.cl3",
+    "utf8_export": "utf8/三维例子/胞嘧啶.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/胸腺嘧啶.cl3",
+    "byte_count": 32726,
+    "sha256": "473b34103a1b9f22504cd254671cd0c8d76b73ac771d397e92ae3a16175205cb",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/胸腺嘧啶.cl3",
+    "utf8_export": "utf8/三维例子/胸腺嘧啶.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/腺嘌呤.cl3",
+    "byte_count": 34228,
+    "sha256": "4768d88eee63625e307c91340158429169472be8d81dd8fc812702151381949d",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/腺嘌呤.cl3",
+    "utf8_export": "utf8/三维例子/腺嘌呤.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯甲酰胺.cl3",
+    "byte_count": 4470,
+    "sha256": "3ecd1293644e5c55b66b411debc736f8ac79102a1f8af5069741f2e822c3082d",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/苯甲酰胺.cl3",
+    "utf8_export": "utf8/三维例子/苯甲酰胺.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯磺酸.cl3",
+    "byte_count": 4392,
+    "sha256": "f92d1a650084bbcd0acd3c92ce4faa6827042674d910c79d5e9b6358f5c85ea7",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/苯磺酸.cl3",
+    "utf8_export": "utf8/三维例子/苯磺酸.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯胺.cl3",
+    "byte_count": 3525,
+    "sha256": "4ac94b8b4b42649afc8cab9973cb35350a98e20c9cfabbe1db96b0a131a3cdeb",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/苯胺.cl3",
+    "utf8_export": "utf8/三维例子/苯胺.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/苯酚.cl3",
+    "byte_count": 2932,
+    "sha256": "0b3270775be131c40e7bd3d2da5559a6bc7920dd953f6b15d31f172cca70dd99",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/苯酚.cl3",
+    "utf8_export": "utf8/三维例子/苯酚.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/葡萄糖.cl3",
+    "byte_count": 5959,
+    "sha256": "825a58b2a916992231ab3a6054ee73e0f906d0984865c43ab503c23a62abc240",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/葡萄糖.cl3",
+    "utf8_export": "utf8/三维例子/葡萄糖.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/金刚石.cl3",
+    "byte_count": 31497,
+    "sha256": "c3f188a27549ab88d00567ce9c401d21fa27ce9b169cfd1b59b8e0fb9331cd22",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/金刚石.cl3",
+    "utf8_export": "utf8/三维例子/金刚石.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/间二甲苯.cl3",
+    "byte_count": 3842,
+    "sha256": "08910b187e435052a8cd300fbf7a23eb24348824fd582bd8b0c94d56435a7bc3",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/间二甲苯.cl3",
+    "utf8_export": "utf8/三维例子/间二甲苯.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/三维例子/鸟嘌呤.cl3",
+    "byte_count": 35331,
+    "sha256": "9c9e619be09fafe18c8f1e58b231fe1e4092fbbd0477cd0f17b7c0ab0d872356",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/鸟嘌呤.cl3",
+    "utf8_export": "utf8/三维例子/鸟嘌呤.cl3"
+  },
+  {
+    "source": "artifacts/ChemLab/DEFAULT.ETS",
+    "byte_count": 500294,
+    "sha256": "709087bc4b436c5ad2c263fd6aa76c4b40a88fa002464ee560240c879d77c686",
+    "encoding": null,
+    "prefix_dwords_little_endian": [
+      28,
+      34,
+      41,
+      15,
+      16,
+      10,
+      10
+    ],
+    "prefix_field_meanings": "Unresolved",
+    "bmp_offset": 28,
+    "bmp_length": 500266,
+    "bmp_width": 610,
+    "bmp_height": 410,
+    "bmp_bits_per_pixel": 16
+  }
+]

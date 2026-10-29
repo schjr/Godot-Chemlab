@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"actual_overlap_pixels":936,"checked_white_exterior_pixels":2516,"exposed_colored_background_pixels":1580,"failures":[],"normal_run":true,"profiles_injected":false}
+PASS actual source canvas: original white exteriors preserve colored background and dropper/bottle overlap

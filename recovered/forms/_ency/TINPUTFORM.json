@@ -1,0 +1,1145 @@
+{
+  "evidence": {
+    "resource_path": [
+      10,
+      "TINPUTFORM",
+      0
+    ],
+    "file_offset": 1461072,
+    "resource_size": 2046,
+    "sha256": "04a3d920dda004828c3731e810d99837932eff765754c1cb7a0c38e5a08212c6",
+    "binary": "recovered/forms/_ency/TINPUTFORM.dfm.bin",
+    "parsed_size": 2046,
+    "trailing_bytes": 0,
+    "root_class": "TinputForm",
+    "root_name": "inputForm",
+    "component_count": 15,
+    "event_handlers": [
+      {
+        "component": "inputForm",
+        "class": "TinputForm",
+        "event": "OnCreate",
+        "handler": "FormCreate"
+      },
+      {
+        "component": "inputForm",
+        "class": "TinputForm",
+        "event": "OnShow",
+        "handler": "FormShow"
+      },
+      {
+        "component": "PageControl2",
+        "class": "TPageControl",
+        "event": "OnChange",
+        "handler": "PageControl2Change"
+      }
+    ],
+    "published_method_candidates": [
+      {
+        "handler": "FormCreate",
+        "entry_file_offset": 1123998,
+        "entry_size": 17,
+        "code_va": "0x004038EC",
+        "code_file_offset": 12012,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormCreate",
+        "entry_file_offset": 1162401,
+        "entry_size": 17,
+        "code_va": "0x0042636C",
+        "code_file_offset": 153964,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 380707,
+        "entry_size": 15,
+        "code_va": "0x0045DAB0",
+        "code_file_offset": 381104,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1123983,
+        "entry_size": 15,
+        "code_va": "0x004021C4",
+        "code_file_offset": 6084,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1162443,
+        "entry_size": 15,
+        "code_va": "0x004263E0",
+        "code_file_offset": 154080,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "FormShow",
+        "entry_file_offset": 1209992,
+        "entry_size": 15,
+        "code_va": "0x0043FBDC",
+        "code_file_offset": 258524,
+        "association": "method-name match; class ownership unresolved"
+      },
+      {
+        "handler": "PageControl2Change",
+        "entry_file_offset": 1162418,
+        "entry_size": 25,
+        "code_va": "0x00426398",
+        "code_file_offset": 154008,
+        "association": "method-name match; class ownership unresolved"
+      }
+    ],
+    "declaration_skeleton": "recovered/project/_ency/TinputForm.hpp"
+  },
+  "form": {
+    "class": "TinputForm",
+    "name": "inputForm",
+    "flags": 0,
+    "offset": 4,
+    "properties": [
+      {
+        "name": "Left",
+        "value": {
+          "type": 3,
+          "value": 195,
+          "offset": 30
+        }
+      },
+      {
+        "name": "Top",
+        "value": {
+          "type": 2,
+          "value": 102,
+          "offset": 37
+        }
+      },
+      {
+        "name": "Width",
+        "value": {
+          "type": 3,
+          "value": 447,
+          "offset": 45
+        }
+      },
+      {
+        "name": "Height",
+        "value": {
+          "type": 3,
+          "value": 466,
+          "offset": 55
+        }
+      },
+      {
+        "name": "Caption",
+        "value": {
+          "type": 6,
+          "value": "inputForm",
+          "offset": 66
+        }
+      },
+      {
+        "name": "Color",
+        "value": {
+          "type": 7,
+          "value": "clBtnFace",
+          "offset": 83
+        }
+      },
+      {
+        "name": "Font.Charset",
+        "value": {
+          "type": 7,
+          "value": "DEFAULT_CHARSET",
+          "offset": 107
+        }
+      },
+      {
+        "name": "Font.Color",
+        "value": {
+          "type": 7,
+          "value": "clWindowText",
+          "offset": 135
+        }
+      },
+      {
+        "name": "Font.Height",
+        "value": {
+          "type": 2,
+          "value": -11,
+          "offset": 161
+        }
+      },
+      {
+        "name": "Font.Name",
+        "value": {
+          "type": 6,
+          "value": "MS Sans Serif",
+          "offset": 173
+        }
+      },
+      {
+        "name": "Font.Style",
+        "value": {
+          "type": 11,
+          "value": [],
+          "offset": 199
+        }
+      },
+      {
+        "name": "KeyPreview",
+        "value": {
+          "type": 9,
+          "value": true,
+          "offset": 212
+        }
+      },
+      {
+        "name": "OldCreateOrder",
+        "value": {
+          "type": 8,
+          "value": false,
+          "offset": 228
+        }
+      },
+      {
+        "name": "Position",
+        "value": {
+          "type": 7,
+          "value": "poDesktopCenter",
+          "offset": 238
+        }
+      },
+      {
+        "name": "OnCreate",
+        "value": {
+          "type": 7,
+          "value": "FormCreate",
+          "offset": 264
+        }
+      },
+      {
+        "name": "OnShow",
+        "value": {
+          "type": 7,
+          "value": "FormShow",
+          "offset": 283
+        }
+      },
+      {
+        "name": "PixelsPerInch",
+        "value": {
+          "type": 2,
+          "value": 96,
+          "offset": 307
+        }
+      },
+      {
+        "name": "TextHeight",
+        "value": {
+          "type": 2,
+          "value": 13,
+          "offset": 320
+        }
+      }
+    ],
+    "children": [
+      {
+        "class": "TPageControl",
+        "name": "PageControl1",
+        "flags": 0,
+        "offset": 323,
+        "properties": [
+          {
+            "name": "Left",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 354
+            }
+          },
+          {
+            "name": "Top",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 360
+            }
+          },
+          {
+            "name": "Width",
+            "value": {
+              "type": 3,
+              "value": 439,
+              "offset": 368
+            }
+          },
+          {
+            "name": "Height",
+            "value": {
+              "type": 3,
+              "value": 439,
+              "offset": 378
+            }
+          },
+          {
+            "name": "ActivePage",
+            "value": {
+              "type": 7,
+              "value": "TabSheet1",
+              "offset": 392
+            }
+          },
+          {
+            "name": "Align",
+            "value": {
+              "type": 7,
+              "value": "alClient",
+              "offset": 409
+            }
+          },
+          {
+            "name": "Font.Charset",
+            "value": {
+              "type": 7,
+              "value": "GB2312_CHARSET",
+              "offset": 432
+            }
+          },
+          {
+            "name": "Font.Color",
+            "value": {
+              "type": 7,
+              "value": "clWindowText",
+              "offset": 459
+            }
+          },
+          {
+            "name": "Font.Height",
+            "value": {
+              "type": 2,
+              "value": -14,
+              "offset": 485
+            }
+          },
+          {
+            "name": "Font.Name",
+            "value": {
+              "type": 6,
+              "value": "宋体",
+              "offset": 497
+            }
+          },
+          {
+            "name": "Font.Style",
+            "value": {
+              "type": 11,
+              "value": [],
+              "offset": 514
+            }
+          },
+          {
+            "name": "ParentFont",
+            "value": {
+              "type": 8,
+              "value": false,
+              "offset": 527
+            }
+          },
+          {
+            "name": "Style",
+            "value": {
+              "type": 7,
+              "value": "tsFlatButtons",
+              "offset": 534
+            }
+          },
+          {
+            "name": "TabOrder",
+            "value": {
+              "type": 2,
+              "value": 0,
+              "offset": 558
+            }
+          }
+        ],
+        "children": [
+          {
+            "class": "TTabSheet",
+            "name": "TabSheet1",
+            "flags": 0,
+            "offset": 561,
+            "properties": [
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "元素信息",
+                  "offset": 589
+                }
+              }
+            ],
+            "children": [
+              {
+                "class": "TeleinfoFrame",
+                "name": "eleinfoFrame1",
+                "flags": 4,
+                "offset": 600,
+                "properties": [
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 3,
+                      "value": 431,
+                      "offset": 635
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 3,
+                      "value": 407,
+                      "offset": 645
+                    }
+                  },
+                  {
+                    "name": "Align",
+                    "value": {
+                      "type": 7,
+                      "value": "alClient",
+                      "offset": 654
+                    }
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "class": "TTabSheet",
+            "name": "TabSheet2",
+            "flags": 0,
+            "offset": 667,
+            "properties": [
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "化学药品",
+                  "offset": 695
+                }
+              },
+              {
+                "name": "ImageIndex",
+                "value": {
+                  "type": 2,
+                  "value": 1,
+                  "offset": 716
+                }
+              }
+            ],
+            "children": [
+              {
+                "class": "TcheminfoFrame",
+                "name": "cheminfoFrame1",
+                "flags": 4,
+                "offset": 719,
+                "properties": [
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 3,
+                      "value": 431,
+                      "offset": 756
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 3,
+                      "value": 407,
+                      "offset": 766
+                    }
+                  },
+                  {
+                    "name": "Align",
+                    "value": {
+                      "type": 7,
+                      "value": "alClient",
+                      "offset": 775
+                    }
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "class": "TTabSheet",
+            "name": "TabSheet3",
+            "flags": 0,
+            "offset": 788,
+            "properties": [
+              {
+                "name": "Caption",
+                "value": {
+                  "type": 6,
+                  "value": "关联设置",
+                  "offset": 816
+                }
+              },
+              {
+                "name": "ImageIndex",
+                "value": {
+                  "type": 2,
+                  "value": 2,
+                  "offset": 837
+                }
+              }
+            ],
+            "children": [
+              {
+                "class": "TPageControl",
+                "name": "PageControl2",
+                "flags": 0,
+                "offset": 840,
+                "properties": [
+                  {
+                    "name": "Left",
+                    "value": {
+                      "type": 2,
+                      "value": 0,
+                      "offset": 871
+                    }
+                  },
+                  {
+                    "name": "Top",
+                    "value": {
+                      "type": 2,
+                      "value": 0,
+                      "offset": 877
+                    }
+                  },
+                  {
+                    "name": "Width",
+                    "value": {
+                      "type": 3,
+                      "value": 431,
+                      "offset": 885
+                    }
+                  },
+                  {
+                    "name": "Height",
+                    "value": {
+                      "type": 3,
+                      "value": 407,
+                      "offset": 895
+                    }
+                  },
+                  {
+                    "name": "ActivePage",
+                    "value": {
+                      "type": 7,
+                      "value": "TabSheet4",
+                      "offset": 909
+                    }
+                  },
+                  {
+                    "name": "Align",
+                    "value": {
+                      "type": 7,
+                      "value": "alClient",
+                      "offset": 926
+                    }
+                  },
+                  {
+                    "name": "BiDiMode",
+                    "value": {
+                      "type": 7,
+                      "value": "bdLeftToRight",
+                      "offset": 945
+                    }
+                  },
+                  {
+                    "name": "MultiLine",
+                    "value": {
+                      "type": 9,
+                      "value": true,
+                      "offset": 970
+                    }
+                  },
+                  {
+                    "name": "ParentBiDiMode",
+                    "value": {
+                      "type": 8,
+                      "value": false,
+                      "offset": 986
+                    }
+                  },
+                  {
+                    "name": "TabOrder",
+                    "value": {
+                      "type": 2,
+                      "value": 0,
+                      "offset": 996
+                    }
+                  },
+                  {
+                    "name": "TabPosition",
+                    "value": {
+                      "type": 7,
+                      "value": "tpBottom",
+                      "offset": 1010
+                    }
+                  },
+                  {
+                    "name": "OnChange",
+                    "value": {
+                      "type": 7,
+                      "value": "PageControl2Change",
+                      "offset": 1029
+                    }
+                  }
+                ],
+                "children": [
+                  {
+                    "class": "TTabSheet",
+                    "name": "TabSheet4",
+                    "flags": 0,
+                    "offset": 1050,
+                    "properties": [
+                      {
+                        "name": "Caption",
+                        "value": {
+                          "type": 6,
+                          "value": "创建关联",
+                          "offset": 1078
+                        }
+                      }
+                    ],
+                    "children": [
+                      {
+                        "class": "Tele2chemFrame",
+                        "name": "ele2chemFrame1",
+                        "flags": 4,
+                        "offset": 1089,
+                        "properties": [
+                          {
+                            "name": "Width",
+                            "value": {
+                              "type": 3,
+                              "value": 423,
+                              "offset": 1126
+                            }
+                          },
+                          {
+                            "name": "Height",
+                            "value": {
+                              "type": 3,
+                              "value": 378,
+                              "offset": 1136
+                            }
+                          },
+                          {
+                            "name": "Align",
+                            "value": {
+                              "type": 7,
+                              "value": "alClient",
+                              "offset": 1145
+                            }
+                          }
+                        ],
+                        "children": [
+                          {
+                            "class": "TComboBox",
+                            "name": "ComboBox1",
+                            "flags": 1,
+                            "offset": 1156,
+                            "properties": [
+                              {
+                                "name": "Items.Strings",
+                                "value": {
+                                  "type": 1,
+                                  "value": [
+                                    {
+                                      "type": 6,
+                                      "value": "相关化合物",
+                                      "offset": 1192
+                                    }
+                                  ],
+                                  "offset": 1191
+                                }
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "class": "TStatusBar",
+                            "name": "StatusBar1",
+                            "flags": 1,
+                            "offset": 1207,
+                            "properties": [
+                              {
+                                "name": "Top",
+                                "value": {
+                                  "type": 3,
+                                  "value": 359,
+                                  "offset": 1234
+                                }
+                              },
+                              {
+                                "name": "Width",
+                                "value": {
+                                  "type": 3,
+                                  "value": 423,
+                                  "offset": 1243
+                                }
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "class": "TTabSheet",
+                    "name": "TabSheet5",
+                    "flags": 0,
+                    "offset": 1250,
+                    "properties": [
+                      {
+                        "name": "Caption",
+                        "value": {
+                          "type": 6,
+                          "value": "管理关联",
+                          "offset": 1278
+                        }
+                      },
+                      {
+                        "name": "ImageIndex",
+                        "value": {
+                          "type": 2,
+                          "value": 1,
+                          "offset": 1299
+                        }
+                      }
+                    ],
+                    "children": [
+                      {
+                        "class": "TlinksmanagerFrame",
+                        "name": "linksmanagerFrame1",
+                        "flags": 4,
+                        "offset": 1302,
+                        "properties": [
+                          {
+                            "name": "Width",
+                            "value": {
+                              "type": 3,
+                              "value": 423,
+                              "offset": 1347
+                            }
+                          },
+                          {
+                            "name": "Height",
+                            "value": {
+                              "type": 3,
+                              "value": 378,
+                              "offset": 1357
+                            }
+                          },
+                          {
+                            "name": "Align",
+                            "value": {
+                              "type": 7,
+                              "value": "alClient",
+                              "offset": 1366
+                            }
+                          }
+                        ],
+                        "children": [
+                          {
+                            "class": "TDBGrid",
+                            "name": "DBGrid1",
+                            "flags": 1,
+                            "offset": 1377,
+                            "properties": [
+                              {
+                                "name": "Columns",
+                                "value": {
+                                  "type": 14,
+                                  "value": [
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1413
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "id",
+                                            "offset": 1424
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1445
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1455
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1467
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "linkname",
+                                            "offset": 1478
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1505
+                                          }
+                                        },
+                                        {
+                                          "name": "Title.Caption",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "链接名称",
+                                            "offset": 1521
+                                          }
+                                        },
+                                        {
+                                          "name": "Width",
+                                          "value": {
+                                            "type": 2,
+                                            "value": 120,
+                                            "offset": 1537
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 9,
+                                            "value": true,
+                                            "offset": 1547
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1559
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "mastertable",
+                                            "offset": 1570
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1600
+                                          }
+                                        },
+                                        {
+                                          "name": "Title.Caption",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "主表名称",
+                                            "offset": 1616
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1634
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1646
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "masterfield",
+                                            "offset": 1657
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1687
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1697
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1709
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "mastervalue",
+                                            "offset": 1720
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1750
+                                          }
+                                        },
+                                        {
+                                          "name": "Title.Caption",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "被链接字",
+                                            "offset": 1766
+                                          }
+                                        },
+                                        {
+                                          "name": "Width",
+                                          "value": {
+                                            "type": 2,
+                                            "value": 120,
+                                            "offset": 1782
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 9,
+                                            "value": true,
+                                            "offset": 1792
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1804
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "slavertable",
+                                            "offset": 1815
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1845
+                                          }
+                                        },
+                                        {
+                                          "name": "Title.Caption",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "从表名称",
+                                            "offset": 1861
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1879
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1891
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "slaverfield",
+                                            "offset": 1902
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1932
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1942
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "properties": [
+                                        {
+                                          "name": "Expanded",
+                                          "value": {
+                                            "type": 8,
+                                            "value": false,
+                                            "offset": 1954
+                                          }
+                                        },
+                                        {
+                                          "name": "FieldName",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "slavervalue",
+                                            "offset": 1965
+                                          }
+                                        },
+                                        {
+                                          "name": "PickList.Strings",
+                                          "value": {
+                                            "type": 1,
+                                            "value": [],
+                                            "offset": 1995
+                                          }
+                                        },
+                                        {
+                                          "name": "Title.Caption",
+                                          "value": {
+                                            "type": 6,
+                                            "value": "链接字",
+                                            "offset": 2011
+                                          }
+                                        },
+                                        {
+                                          "name": "Width",
+                                          "value": {
+                                            "type": 2,
+                                            "value": 120,
+                                            "offset": 2025
+                                          }
+                                        },
+                                        {
+                                          "name": "Visible",
+                                          "value": {
+                                            "type": 9,
+                                            "value": true,
+                                            "offset": 2035
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "offset": 1402
+                                }
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

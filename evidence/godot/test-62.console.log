@@ -1,0 +1,4 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+{"checks":20,"failures":[]}
+PASS compact source-zero particle memory preserves unknowns writes reset boundaries and aliases

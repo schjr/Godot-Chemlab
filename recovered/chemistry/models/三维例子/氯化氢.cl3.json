@@ -1,0 +1,640 @@
+{
+  "provenance": {
+    "source": "artifacts/ChemLab/三维例子/氯化氢.cl3",
+    "byte_count": 1218,
+    "sha256": "407293687eaf5db11574a7dc6b12f8b19ec2cb6f3973d601e2a4cede86659b30",
+    "encoding": "gb18030",
+    "original_copy": "original/三维例子/氯化氢.cl3",
+    "utf8_export": "utf8/三维例子/氯化氢.cl3"
+  },
+  "format": "cl3",
+  "header_lines": [
+    "2107",
+    "1",
+    "南京金华科软件有限公司仿真化学实验室-三维结构"
+  ],
+  "line_count": 155,
+  "lines": [
+    {
+      "number": 1,
+      "text": "2107"
+    },
+    {
+      "number": 2,
+      "text": "1"
+    },
+    {
+      "number": 3,
+      "text": "南京金华科软件有限公司仿真化学实验室-三维结构"
+    },
+    {
+      "number": 4,
+      "text": "0"
+    },
+    {
+      "number": 5,
+      "text": "320.199951171875"
+    },
+    {
+      "number": 6,
+      "text": "292.399963378906"
+    },
+    {
+      "number": 7,
+      "text": "0"
+    },
+    {
+      "number": 8,
+      "text": "1"
+    },
+    {
+      "number": 9,
+      "text": "1"
+    },
+    {
+      "number": 10,
+      "text": "1"
+    },
+    {
+      "number": 11,
+      "text": "0"
+    },
+    {
+      "number": 12,
+      "text": "0"
+    },
+    {
+      "number": 13,
+      "text": "0"
+    },
+    {
+      "number": 14,
+      "text": "1"
+    },
+    {
+      "number": 15,
+      "text": "1"
+    },
+    {
+      "number": 16,
+      "text": "1"
+    },
+    {
+      "number": 17,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 18,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 19,
+      "text": "1"
+    },
+    {
+      "number": 20,
+      "text": "1"
+    },
+    {
+      "number": 21,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 22,
+      "text": "0.200000002980232"
+    },
+    {
+      "number": 23,
+      "text": "0.25"
+    },
+    {
+      "number": 24,
+      "text": "0.209999993443489"
+    },
+    {
+      "number": 25,
+      "text": "0.150000005960464"
+    },
+    {
+      "number": 26,
+      "text": "0.270000010728836"
+    },
+    {
+      "number": 27,
+      "text": "0.870000004768372"
+    },
+    {
+      "number": 28,
+      "text": "0.680000007152557"
+    },
+    {
+      "number": 29,
+      "text": "0.550000011920929"
+    },
+    {
+      "number": 30,
+      "text": "0.730000019073486"
+    },
+    {
+      "number": 31,
+      "text": "0.150000005960464"
+    },
+    {
+      "number": 32,
+      "text": "0.740000009536743"
+    },
+    {
+      "number": 33,
+      "text": "0.610000014305115"
+    },
+    {
+      "number": 34,
+      "text": "0.0799999982118607"
+    },
+    {
+      "number": 35,
+      "text": "0.939999997615814"
+    },
+    {
+      "number": 36,
+      "text": "0.550000011920929"
+    },
+    {
+      "number": 37,
+      "text": "0.0399999991059303"
+    },
+    {
+      "number": 38,
+      "text": "0.749000012874603"
+    },
+    {
+      "number": 39,
+      "text": "0.38400000333786"
+    },
+    {
+      "number": 40,
+      "text": "0.0509999990463257"
+    },
+    {
+      "number": 41,
+      "text": "0"
+    },
+    {
+      "number": 42,
+      "text": "0"
+    },
+    {
+      "number": 43,
+      "text": "0"
+    },
+    {
+      "number": 44,
+      "text": "0.300000011920929"
+    },
+    {
+      "number": 45,
+      "text": "0.300000011920929"
+    },
+    {
+      "number": 46,
+      "text": "0.300000011920929"
+    },
+    {
+      "number": 47,
+      "text": "1"
+    },
+    {
+      "number": 48,
+      "text": "1"
+    },
+    {
+      "number": 49,
+      "text": "1"
+    },
+    {
+      "number": 50,
+      "text": "1"
+    },
+    {
+      "number": 51,
+      "text": "1"
+    },
+    {
+      "number": 52,
+      "text": "1"
+    },
+    {
+      "number": 53,
+      "text": "1"
+    },
+    {
+      "number": 54,
+      "text": "1"
+    },
+    {
+      "number": 55,
+      "text": "0"
+    },
+    {
+      "number": 56,
+      "text": "1"
+    },
+    {
+      "number": 57,
+      "text": "1"
+    },
+    {
+      "number": 58,
+      "text": "1"
+    },
+    {
+      "number": 59,
+      "text": "1"
+    },
+    {
+      "number": 60,
+      "text": "1"
+    },
+    {
+      "number": 61,
+      "text": "1"
+    },
+    {
+      "number": 62,
+      "text": "2"
+    },
+    {
+      "number": 63,
+      "text": "-1"
+    },
+    {
+      "number": 64,
+      "text": "4"
+    },
+    {
+      "number": 65,
+      "text": ""
+    },
+    {
+      "number": 66,
+      "text": "0"
+    },
+    {
+      "number": 67,
+      "text": "0"
+    },
+    {
+      "number": 68,
+      "text": "0"
+    },
+    {
+      "number": 69,
+      "text": "0"
+    },
+    {
+      "number": 70,
+      "text": ""
+    },
+    {
+      "number": 71,
+      "text": "0"
+    },
+    {
+      "number": 72,
+      "text": "0"
+    },
+    {
+      "number": 73,
+      "text": "0"
+    },
+    {
+      "number": 74,
+      "text": "0"
+    },
+    {
+      "number": 75,
+      "text": ""
+    },
+    {
+      "number": 76,
+      "text": "0"
+    },
+    {
+      "number": 77,
+      "text": "0"
+    },
+    {
+      "number": 78,
+      "text": "0"
+    },
+    {
+      "number": 79,
+      "text": "0"
+    },
+    {
+      "number": 80,
+      "text": ""
+    },
+    {
+      "number": 81,
+      "text": "0"
+    },
+    {
+      "number": 82,
+      "text": "0"
+    },
+    {
+      "number": 83,
+      "text": "0"
+    },
+    {
+      "number": 84,
+      "text": "0"
+    },
+    {
+      "number": 85,
+      "text": ""
+    },
+    {
+      "number": 86,
+      "text": "0"
+    },
+    {
+      "number": 87,
+      "text": "0"
+    },
+    {
+      "number": 88,
+      "text": "0"
+    },
+    {
+      "number": 89,
+      "text": "0"
+    },
+    {
+      "number": 90,
+      "text": ""
+    },
+    {
+      "number": 91,
+      "text": "0"
+    },
+    {
+      "number": 92,
+      "text": "0"
+    },
+    {
+      "number": 93,
+      "text": "0"
+    },
+    {
+      "number": 94,
+      "text": "0"
+    },
+    {
+      "number": 95,
+      "text": ""
+    },
+    {
+      "number": 96,
+      "text": "0"
+    },
+    {
+      "number": 97,
+      "text": "0"
+    },
+    {
+      "number": 98,
+      "text": "0"
+    },
+    {
+      "number": 99,
+      "text": "0"
+    },
+    {
+      "number": 100,
+      "text": ""
+    },
+    {
+      "number": 101,
+      "text": "0"
+    },
+    {
+      "number": 102,
+      "text": "0"
+    },
+    {
+      "number": 103,
+      "text": "0"
+    },
+    {
+      "number": 104,
+      "text": "0"
+    },
+    {
+      "number": 105,
+      "text": ""
+    },
+    {
+      "number": 106,
+      "text": "0"
+    },
+    {
+      "number": 107,
+      "text": "0"
+    },
+    {
+      "number": 108,
+      "text": "0"
+    },
+    {
+      "number": 109,
+      "text": "1"
+    },
+    {
+      "number": 110,
+      "text": "0"
+    },
+    {
+      "number": 111,
+      "text": "X1AAC--Cl"
+    },
+    {
+      "number": 112,
+      "text": "9.19075393676758"
+    },
+    {
+      "number": 113,
+      "text": "-8.28750038146973"
+    },
+    {
+      "number": 114,
+      "text": "11.5513734817505"
+    },
+    {
+      "number": 115,
+      "text": "1"
+    },
+    {
+      "number": 116,
+      "text": "H1AAA"
+    },
+    {
+      "number": 117,
+      "text": "3.06358480453491"
+    },
+    {
+      "number": 118,
+      "text": "-3.94801139831543"
+    },
+    {
+      "number": 119,
+      "text": "0.938803851604462"
+    },
+    {
+      "number": 120,
+      "text": "1"
+    },
+    {
+      "number": 121,
+      "text": "BDAAB1"
+    },
+    {
+      "number": 122,
+      "text": "-0.471320748329163"
+    },
+    {
+      "number": 123,
+      "text": "0.333806842565537"
+    },
+    {
+      "number": 124,
+      "text": "-0.816351473331451"
+    },
+    {
+      "number": 125,
+      "text": "0"
+    },
+    {
+      "number": 126,
+      "text": ""
+    },
+    {
+      "number": 127,
+      "text": "5.29550933837891"
+    },
+    {
+      "number": 128,
+      "text": "-2.50905156135559"
+    },
+    {
+      "number": 129,
+      "text": "-2.81641292572021"
+    },
+    {
+      "number": 130,
+      "text": "0"
+    },
+    {
+      "number": 131,
+      "text": ""
+    },
+    {
+      "number": 132,
+      "text": "0"
+    },
+    {
+      "number": 133,
+      "text": "0"
+    },
+    {
+      "number": 134,
+      "text": "0"
+    },
+    {
+      "number": 135,
+      "text": "0"
+    },
+    {
+      "number": 136,
+      "text": ""
+    },
+    {
+      "number": 137,
+      "text": "5.29550933837891"
+    },
+    {
+      "number": 138,
+      "text": "-2.50905156135559"
+    },
+    {
+      "number": 139,
+      "text": "-2.81641292572021"
+    },
+    {
+      "number": 140,
+      "text": "0"
+    },
+    {
+      "number": 141,
+      "text": ""
+    },
+    {
+      "number": 142,
+      "text": "0"
+    },
+    {
+      "number": 143,
+      "text": "0"
+    },
+    {
+      "number": 144,
+      "text": "0"
+    },
+    {
+      "number": 145,
+      "text": "0"
+    },
+    {
+      "number": 146,
+      "text": ""
+    },
+    {
+      "number": 147,
+      "text": "5.29550933837891"
+    },
+    {
+      "number": 148,
+      "text": "-2.50905156135559"
+    },
+    {
+      "number": 149,
+      "text": "-2.81641292572021"
+    },
+    {
+      "number": 150,
+      "text": "0"
+    },
+    {
+      "number": 151,
+      "text": ""
+    },
+    {
+      "number": 152,
+      "text": "0"
+    },
+    {
+      "number": 153,
+      "text": "0"
+    },
+    {
+      "number": 154,
+      "text": "0"
+    },
+    {
+      "number": 155,
+      "text": "0"
+    }
+  ],
+  "status": "Exact decoded lines; serialized field meanings are unresolved."
+}

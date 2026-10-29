@@ -1,0 +1,26 @@
+{
+    "files":  [
+                  {
+                      "path":  "current-material-gdi-result.json",
+                      "sha256":  "c4b7ea8f2d5da74619e7d03f3cf7b64158e5a1a10e7a56708d22d91bd2c4ee51",
+                      "bytes":  113898
+                  },
+                  {
+                      "path":  "dib-material-state.json",
+                      "sha256":  "6b868d27c2e1ecf2af7d1d521823a97650b26457960f5db55edf29597fa1c0ea",
+                      "bytes":  3057783
+                  },
+                  {
+                      "path":  "input-manifest.json",
+                      "sha256":  "1d4943b07b1ca303564d344fb66b05be96a26b5f3228753c4462fc1885877e0a",
+                      "bytes":  2015
+                  },
+                  {
+                      "path":  "original-dib-pixels.json",
+                      "sha256":  "13774e051e92a19010ff937a7abf5d20dfe360b20fbd74782aa81ea2ee1ac0c7",
+                      "bytes":  381916
+                  }
+              ],
+    "no_policy_or_privilege_change":  true,
+    "process_id":  9348
+}
